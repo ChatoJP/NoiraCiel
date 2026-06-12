@@ -1,0 +1,1363 @@
+{
+  "title": "Leave A Light On",
+  "slug": "leave-a-light-on",
+  "trackNumber": 12,
+  "duration": 224.92,
+  "words": [
+    {
+      "word": "I",
+      "start": 12.66,
+      "end": 13.7
+    },
+    {
+      "word": "know",
+      "start": 13.7,
+      "end": 14.74
+    },
+    {
+      "word": "you'll",
+      "start": 14.74,
+      "end": 15.26
+    },
+    {
+      "word": "have",
+      "start": 15.26,
+      "end": 15.66
+    },
+    {
+      "word": "your",
+      "start": 15.66,
+      "end": 15.92
+    },
+    {
+      "word": "own",
+      "start": 15.92,
+      "end": 16.34
+    },
+    {
+      "word": "roads,",
+      "start": 16.34,
+      "end": 17.14
+    },
+    {
+      "word": "your",
+      "start": 17.48,
+      "end": 18.0
+    },
+    {
+      "word": "own",
+      "start": 18.0,
+      "end": 18.28
+    },
+    {
+      "word": "storms",
+      "start": 18.28,
+      "end": 18.94
+    },
+    {
+      "word": "to",
+      "start": 18.94,
+      "end": 19.56
+    },
+    {
+      "word": "outrun,",
+      "start": 19.56,
+      "end": 20.34
+    },
+    {
+      "word": "you'll",
+      "start": 21.5,
+      "end": 22.1
+    },
+    {
+      "word": "chase",
+      "start": 22.1,
+      "end": 22.58
+    },
+    {
+      "word": "a",
+      "start": 22.58,
+      "end": 22.98
+    },
+    {
+      "word": "thousand",
+      "start": 22.98,
+      "end": 23.44
+    },
+    {
+      "word": "sunsets",
+      "start": 23.44,
+      "end": 24.76
+    },
+    {
+      "word": "before",
+      "start": 24.76,
+      "end": 25.92
+    },
+    {
+      "word": "your",
+      "start": 25.92,
+      "end": 26.64
+    },
+    {
+      "word": "day",
+      "start": 26.64,
+      "end": 26.98
+    },
+    {
+      "word": "is",
+      "start": 26.98,
+      "end": 27.4
+    },
+    {
+      "word": "done,",
+      "start": 27.4,
+      "end": 27.68
+    },
+    {
+      "word": "you'll",
+      "start": 28.44,
+      "end": 29.46
+    },
+    {
+      "word": "make",
+      "start": 29.46,
+      "end": 29.72
+    },
+    {
+      "word": "mistakes",
+      "start": 29.72,
+      "end": 30.14
+    },
+    {
+      "word": "like",
+      "start": 30.14,
+      "end": 31.04
+    },
+    {
+      "word": "I",
+      "start": 31.04,
+      "end": 31.34
+    },
+    {
+      "word": "did,",
+      "start": 31.34,
+      "end": 31.76
+    },
+    {
+      "word": "you'll",
+      "start": 32.34,
+      "end": 33.18
+    },
+    {
+      "word": "learn",
+      "start": 33.18,
+      "end": 33.6
+    },
+    {
+      "word": "what",
+      "start": 33.6,
+      "end": 34.06
+    },
+    {
+      "word": "I",
+      "start": 34.06,
+      "end": 34.28
+    },
+    {
+      "word": "learn",
+      "start": 34.28,
+      "end": 34.52
+    },
+    {
+      "word": "wrong",
+      "start": 34.52,
+      "end": 35.06
+    },
+    {
+      "word": "and",
+      "start": 35.06,
+      "end": 36.7
+    },
+    {
+      "word": "you'll",
+      "start": 36.7,
+      "end": 37.08
+    },
+    {
+      "word": "find",
+      "start": 37.08,
+      "end": 37.58
+    },
+    {
+      "word": "your",
+      "start": 37.58,
+      "end": 37.9
+    },
+    {
+      "word": "own",
+      "start": 37.9,
+      "end": 38.28
+    },
+    {
+      "word": "reasons",
+      "start": 38.28,
+      "end": 38.92
+    },
+    {
+      "word": "to",
+      "start": 38.92,
+      "end": 40.36
+    },
+    {
+      "word": "keep",
+      "start": 40.36,
+      "end": 40.6
+    },
+    {
+      "word": "moving",
+      "start": 40.6,
+      "end": 42.02
+    },
+    {
+      "word": "on,",
+      "start": 42.02,
+      "end": 42.4
+    },
+    {
+      "word": "but",
+      "start": 43.24,
+      "end": 43.66
+    },
+    {
+      "word": "if",
+      "start": 43.66,
+      "end": 51.08
+    },
+    {
+      "word": "the",
+      "start": 51.08,
+      "end": 51.34
+    },
+    {
+      "word": "night",
+      "start": 51.34,
+      "end": 51.62
+    },
+    {
+      "word": "feels",
+      "start": 51.62,
+      "end": 52.86
+    },
+    {
+      "word": "trusted,",
+      "start": 52.86,
+      "end": 53.62
+    },
+    {
+      "word": "leave",
+      "start": 54.36,
+      "end": 54.66
+    },
+    {
+      "word": "no",
+      "start": 54.66,
+      "end": 55.06
+    },
+    {
+      "word": "where",
+      "start": 55.06,
+      "end": 55.66
+    },
+    {
+      "word": "you",
+      "start": 55.66,
+      "end": 56.16
+    },
+    {
+      "word": "can",
+      "start": 56.16,
+      "end": 56.42
+    },
+    {
+      "word": "see,",
+      "start": 56.42,
+      "end": 57.12
+    },
+    {
+      "word": "leave",
+      "start": 57.68,
+      "end": 58.48
+    },
+    {
+      "word": "a",
+      "start": 58.48,
+      "end": 58.7
+    },
+    {
+      "word": "light",
+      "start": 58.7,
+      "end": 59.24
+    },
+    {
+      "word": "on,",
+      "start": 59.24,
+      "end": 59.78
+    },
+    {
+      "word": "leave",
+      "start": 60.12,
+      "end": 60.32
+    },
+    {
+      "word": "a",
+      "start": 60.32,
+      "end": 60.52
+    },
+    {
+      "word": "light",
+      "start": 60.52,
+      "end": 61.12
+    },
+    {
+      "word": "on,",
+      "start": 61.12,
+      "end": 61.56
+    },
+    {
+      "word": "if",
+      "start": 61.98,
+      "end": 62.1
+    },
+    {
+      "word": "the",
+      "start": 62.1,
+      "end": 62.32
+    },
+    {
+      "word": "road",
+      "start": 62.32,
+      "end": 62.68
+    },
+    {
+      "word": "gets",
+      "start": 62.68,
+      "end": 62.98
+    },
+    {
+      "word": "long",
+      "start": 62.98,
+      "end": 63.64
+    },
+    {
+      "word": "and",
+      "start": 63.64,
+      "end": 63.98
+    },
+    {
+      "word": "you",
+      "start": 63.98,
+      "end": 64.18
+    },
+    {
+      "word": "can't",
+      "start": 64.18,
+      "end": 64.6
+    },
+    {
+      "word": "find",
+      "start": 64.6,
+      "end": 64.92
+    },
+    {
+      "word": "hope,",
+      "start": 64.92,
+      "end": 65.34
+    },
+    {
+      "word": "leave",
+      "start": 65.64,
+      "end": 65.84
+    },
+    {
+      "word": "a",
+      "start": 65.84,
+      "end": 66.02
+    },
+    {
+      "word": "light",
+      "start": 66.02,
+      "end": 66.6
+    },
+    {
+      "word": "on,",
+      "start": 66.6,
+      "end": 67.06
+    },
+    {
+      "word": "leave",
+      "start": 67.42,
+      "end": 67.66
+    },
+    {
+      "word": "a",
+      "start": 67.66,
+      "end": 67.82
+    },
+    {
+      "word": "light",
+      "start": 67.82,
+      "end": 68.46
+    },
+    {
+      "word": "on,",
+      "start": 68.46,
+      "end": 68.84
+    },
+    {
+      "word": "you",
+      "start": 69.14,
+      "end": 69.24
+    },
+    {
+      "word": "don't",
+      "start": 69.24,
+      "end": 69.56
+    },
+    {
+      "word": "walk",
+      "start": 69.56,
+      "end": 70.02
+    },
+    {
+      "word": "alone",
+      "start": 70.02,
+      "end": 70.5
+    },
+    {
+      "word": "no",
+      "start": 70.5,
+      "end": 71.04
+    },
+    {
+      "word": "matter",
+      "start": 71.04,
+      "end": 71.34
+    },
+    {
+      "word": "where",
+      "start": 71.34,
+      "end": 71.88
+    },
+    {
+      "word": "you've",
+      "start": 71.88,
+      "end": 72.46
+    },
+    {
+      "word": "gone,",
+      "start": 72.46,
+      "end": 72.74
+    },
+    {
+      "word": "you'll",
+      "start": 72.98,
+      "end": 80.24
+    },
+    {
+      "word": "meet",
+      "start": 80.24,
+      "end": 80.46
+    },
+    {
+      "word": "people",
+      "start": 80.46,
+      "end": 81.12
+    },
+    {
+      "word": "worth",
+      "start": 81.12,
+      "end": 82.06
+    },
+    {
+      "word": "keeping",
+      "start": 82.06,
+      "end": 82.62
+    },
+    {
+      "word": "and",
+      "start": 82.62,
+      "end": 84.22
+    },
+    {
+      "word": "some",
+      "start": 84.22,
+      "end": 84.5
+    },
+    {
+      "word": "you'll",
+      "start": 84.5,
+      "end": 85.12
+    },
+    {
+      "word": "leave",
+      "start": 85.12,
+      "end": 85.62
+    },
+    {
+      "word": "behind,",
+      "start": 85.62,
+      "end": 86.22
+    },
+    {
+      "word": "you'll",
+      "start": 87.28,
+      "end": 87.6
+    },
+    {
+      "word": "lose",
+      "start": 87.6,
+      "end": 87.88
+    },
+    {
+      "word": "things",
+      "start": 87.88,
+      "end": 88.4
+    },
+    {
+      "word": "you",
+      "start": 88.4,
+      "end": 88.94
+    },
+    {
+      "word": "once",
+      "start": 88.94,
+      "end": 89.4
+    },
+    {
+      "word": "treasured,",
+      "start": 89.4,
+      "end": 90.18
+    },
+    {
+      "word": "you'll",
+      "start": 91.0,
+      "end": 91.26
+    },
+    {
+      "word": "change",
+      "start": 91.26,
+      "end": 91.78
+    },
+    {
+      "word": "your",
+      "start": 91.78,
+      "end": 92.3
+    },
+    {
+      "word": "heart",
+      "start": 92.3,
+      "end": 92.84
+    },
+    {
+      "word": "and",
+      "start": 92.84,
+      "end": 93.2
+    },
+    {
+      "word": "mind,",
+      "start": 93.2,
+      "end": 93.52
+    },
+    {
+      "word": "you'll",
+      "start": 94.34,
+      "end": 94.86
+    },
+    {
+      "word": "build",
+      "start": 94.86,
+      "end": 95.06
+    },
+    {
+      "word": "something",
+      "start": 95.06,
+      "end": 95.68
+    },
+    {
+      "word": "worth",
+      "start": 95.68,
+      "end": 96.66
+    },
+    {
+      "word": "fighting",
+      "start": 96.66,
+      "end": 97.38
+    },
+    {
+      "word": "for,",
+      "start": 97.38,
+      "end": 98.16
+    },
+    {
+      "word": "you'll",
+      "start": 98.16,
+      "end": 98.94
+    },
+    {
+      "word": "carry",
+      "start": 98.94,
+      "end": 99.4
+    },
+    {
+      "word": "scars",
+      "start": 99.4,
+      "end": 100.02
+    },
+    {
+      "word": "with",
+      "start": 100.02,
+      "end": 100.54
+    },
+    {
+      "word": "pride",
+      "start": 100.54,
+      "end": 100.94
+    },
+    {
+      "word": "and",
+      "start": 100.94,
+      "end": 102.14
+    },
+    {
+      "word": "one",
+      "start": 102.14,
+      "end": 102.32
+    },
+    {
+      "word": "day",
+      "start": 102.32,
+      "end": 102.66
+    },
+    {
+      "word": "you'll",
+      "start": 102.66,
+      "end": 103.48
+    },
+    {
+      "word": "understand",
+      "start": 103.48,
+      "end": 104.3
+    },
+    {
+      "word": "why",
+      "start": 104.3,
+      "end": 105.42
+    },
+    {
+      "word": "I",
+      "start": 105.42,
+      "end": 105.9
+    },
+    {
+      "word": "stood",
+      "start": 105.9,
+      "end": 106.46
+    },
+    {
+      "word": "by",
+      "start": 106.46,
+      "end": 107.3
+    },
+    {
+      "word": "your",
+      "start": 107.3,
+      "end": 107.88
+    },
+    {
+      "word": "side",
+      "start": 107.88,
+      "end": 108.46
+    },
+    {
+      "word": "and",
+      "start": 108.46,
+      "end": 109.56
+    },
+    {
+      "word": "if",
+      "start": 109.56,
+      "end": 109.7
+    },
+    {
+      "word": "the",
+      "start": 109.7,
+      "end": 109.92
+    },
+    {
+      "word": "world",
+      "start": 109.92,
+      "end": 110.36
+    },
+    {
+      "word": "feels",
+      "start": 110.36,
+      "end": 111.28
+    },
+    {
+      "word": "heavier",
+      "start": 111.28,
+      "end": 112.2
+    },
+    {
+      "word": "than",
+      "start": 112.2,
+      "end": 113.6
+    },
+    {
+      "word": "anyone",
+      "start": 113.6,
+      "end": 114.1
+    },
+    {
+      "word": "can",
+      "start": 114.1,
+      "end": 114.96
+    },
+    {
+      "word": "know,",
+      "start": 114.96,
+      "end": 115.58
+    },
+    {
+      "word": "just",
+      "start": 116.14,
+      "end": 116.96
+    },
+    {
+      "word": "remember",
+      "start": 116.96,
+      "end": 117.4
+    },
+    {
+      "word": "there's",
+      "start": 117.4,
+      "end": 118.7
+    },
+    {
+      "word": "a",
+      "start": 118.7,
+      "end": 118.82
+    },
+    {
+      "word": "doorway",
+      "start": 118.82,
+      "end": 119.36
+    },
+    {
+      "word": "with",
+      "start": 119.36,
+      "end": 120.48
+    },
+    {
+      "word": "a",
+      "start": 120.48,
+      "end": 120.64
+    },
+    {
+      "word": "light",
+      "start": 120.64,
+      "end": 121.5
+    },
+    {
+      "word": "still",
+      "start": 121.5,
+      "end": 122.36
+    },
+    {
+      "word": "glowing,",
+      "start": 122.36,
+      "end": 122.96
+    },
+    {
+      "word": "leave",
+      "start": 124.18,
+      "end": 124.4
+    },
+    {
+      "word": "a",
+      "start": 124.4,
+      "end": 124.54
+    },
+    {
+      "word": "light",
+      "start": 124.54,
+      "end": 125.12
+    },
+    {
+      "word": "leave",
+      "start": 125.82,
+      "end": 126.2
+    },
+    {
+      "word": "a",
+      "start": 126.2,
+      "end": 126.38
+    },
+    {
+      "word": "light",
+      "start": 126.38,
+      "end": 127.0
+    },
+    {
+      "word": "on,",
+      "start": 127.0,
+      "end": 127.38
+    },
+    {
+      "word": "if",
+      "start": 127.84,
+      "end": 127.98
+    },
+    {
+      "word": "the",
+      "start": 127.98,
+      "end": 128.2
+    },
+    {
+      "word": "road",
+      "start": 128.2,
+      "end": 128.52
+    },
+    {
+      "word": "gets",
+      "start": 128.52,
+      "end": 128.88
+    },
+    {
+      "word": "long",
+      "start": 128.88,
+      "end": 129.4
+    },
+    {
+      "word": "and",
+      "start": 129.4,
+      "end": 129.84
+    },
+    {
+      "word": "you",
+      "start": 129.84,
+      "end": 130.02
+    },
+    {
+      "word": "can't",
+      "start": 130.02,
+      "end": 130.44
+    },
+    {
+      "word": "find",
+      "start": 130.44,
+      "end": 130.84
+    },
+    {
+      "word": "hope,",
+      "start": 130.84,
+      "end": 131.2
+    },
+    {
+      "word": "leave",
+      "start": 131.48,
+      "end": 131.7
+    },
+    {
+      "word": "a",
+      "start": 131.7,
+      "end": 131.88
+    },
+    {
+      "word": "light",
+      "start": 131.88,
+      "end": 132.44
+    },
+    {
+      "word": "on,",
+      "start": 132.44,
+      "end": 132.88
+    },
+    {
+      "word": "leave",
+      "start": 133.2,
+      "end": 133.5
+    },
+    {
+      "word": "a",
+      "start": 133.5,
+      "end": 133.7
+    },
+    {
+      "word": "light",
+      "start": 133.7,
+      "end": 134.34
+    },
+    {
+      "word": "on,",
+      "start": 134.34,
+      "end": 134.7
+    },
+    {
+      "word": "you",
+      "start": 134.98,
+      "end": 135.1
+    },
+    {
+      "word": "don't",
+      "start": 135.1,
+      "end": 135.48
+    },
+    {
+      "word": "walk",
+      "start": 135.48,
+      "end": 135.92
+    },
+    {
+      "word": "alone",
+      "start": 135.92,
+      "end": 136.36
+    },
+    {
+      "word": "no",
+      "start": 136.36,
+      "end": 136.94
+    },
+    {
+      "word": "matter",
+      "start": 136.94,
+      "end": 137.26
+    },
+    {
+      "word": "where",
+      "start": 137.26,
+      "end": 137.7
+    },
+    {
+      "word": "you've",
+      "start": 137.7,
+      "end": 138.36
+    },
+    {
+      "word": "gone",
+      "start": 138.36,
+      "end": 138.74
+    },
+    {
+      "word": "hey",
+      "start": 138.74,
+      "end": 139.46
+    },
+    {
+      "word": "not",
+      "start": 152.18,
+      "end": 153.56
+    },
+    {
+      "word": "for",
+      "start": 153.56,
+      "end": 154.94
+    },
+    {
+      "word": "today,",
+      "start": 154.94,
+      "end": 155.7
+    },
+    {
+      "word": "not",
+      "start": 156.1,
+      "end": 158.18
+    },
+    {
+      "word": "for",
+      "start": 158.18,
+      "end": 158.62
+    },
+    {
+      "word": "tomorrow,",
+      "start": 158.62,
+      "end": 159.7
+    },
+    {
+      "word": "maybe",
+      "start": 159.7,
+      "end": 161.94
+    },
+    {
+      "word": "years",
+      "start": 161.94,
+      "end": 162.36
+    },
+    {
+      "word": "from",
+      "start": 162.36,
+      "end": 162.74
+    },
+    {
+      "word": "now",
+      "start": 162.74,
+      "end": 163.12
+    },
+    {
+      "word": "when",
+      "start": 163.12,
+      "end": 163.54
+    },
+    {
+      "word": "life",
+      "start": 163.54,
+      "end": 164.1
+    },
+    {
+      "word": "gets",
+      "start": 164.1,
+      "end": 164.42
+    },
+    {
+      "word": "hard",
+      "start": 164.42,
+      "end": 165.54
+    },
+    {
+      "word": "to",
+      "start": 165.54,
+      "end": 166.36
+    },
+    {
+      "word": "follow",
+      "start": 166.36,
+      "end": 167.02
+    },
+    {
+      "word": "you'll",
+      "start": 167.82,
+      "end": 168.26
+    },
+    {
+      "word": "remember",
+      "start": 168.26,
+      "end": 168.92
+    },
+    {
+      "word": "what",
+      "start": 168.92,
+      "end": 171.74
+    },
+    {
+      "word": "I",
+      "start": 171.74,
+      "end": 172.02
+    },
+    {
+      "word": "meant",
+      "start": 172.02,
+      "end": 172.46
+    },
+    {
+      "word": "all",
+      "start": 172.46,
+      "end": 173.38
+    },
+    {
+      "word": "along",
+      "start": 173.38,
+      "end": 174.64
+    },
+    {
+      "word": "leave",
+      "start": 175.27,
+      "end": 175.62
+    },
+    {
+      "word": "a",
+      "start": 175.62,
+      "end": 175.82
+    },
+    {
+      "word": "light",
+      "start": 175.82,
+      "end": 176.52
+    },
+    {
+      "word": "on,",
+      "start": 176.52,
+      "end": 176.84
+    },
+    {
+      "word": "leave",
+      "start": 177.1,
+      "end": 177.44
+    },
+    {
+      "word": "a",
+      "start": 177.44,
+      "end": 177.64
+    },
+    {
+      "word": "light",
+      "start": 177.64,
+      "end": 178.22
+    },
+    {
+      "word": "on,",
+      "start": 178.22,
+      "end": 178.7
+    },
+    {
+      "word": "for",
+      "start": 178.98,
+      "end": 179.24
+    },
+    {
+      "word": "the",
+      "start": 179.24,
+      "end": 179.48
+    },
+    {
+      "word": "days",
+      "start": 179.48,
+      "end": 179.76
+    },
+    {
+      "word": "you",
+      "start": 179.76,
+      "end": 179.94
+    },
+    {
+      "word": "feel",
+      "start": 179.94,
+      "end": 180.14
+    },
+    {
+      "word": "strong",
+      "start": 180.14,
+      "end": 180.68
+    },
+    {
+      "word": "and",
+      "start": 180.68,
+      "end": 181.08
+    },
+    {
+      "word": "the",
+      "start": 181.08,
+      "end": 181.3
+    },
+    {
+      "word": "nights",
+      "start": 181.3,
+      "end": 181.64
+    },
+    {
+      "word": "you",
+      "start": 181.64,
+      "end": 181.98
+    },
+    {
+      "word": "don't",
+      "start": 181.98,
+      "end": 182.62
+    },
+    {
+      "word": "leave",
+      "start": 182.62,
+      "end": 182.92
+    },
+    {
+      "word": "a",
+      "start": 182.92,
+      "end": 183.12
+    },
+    {
+      "word": "light",
+      "start": 183.12,
+      "end": 183.74
+    },
+    {
+      "word": "on,",
+      "start": 183.74,
+      "end": 184.16
+    },
+    {
+      "word": "leave",
+      "start": 184.52,
+      "end": 184.78
+    },
+    {
+      "word": "a",
+      "start": 184.78,
+      "end": 184.94
+    },
+    {
+      "word": "light",
+      "start": 184.94,
+      "end": 185.54
+    },
+    {
+      "word": "on,",
+      "start": 185.54,
+      "end": 185.94
+    },
+    {
+      "word": "there's",
+      "start": 186.24,
+      "end": 186.44
+    },
+    {
+      "word": "a",
+      "start": 186.44,
+      "end": 186.52
+    },
+    {
+      "word": "place",
+      "start": 186.52,
+      "end": 186.92
+    },
+    {
+      "word": "for",
+      "start": 186.92,
+      "end": 187.46
+    },
+    {
+      "word": "you",
+      "start": 187.46,
+      "end": 187.78
+    },
+    {
+      "word": "there",
+      "start": 187.78,
+      "end": 188.26
+    },
+    {
+      "word": "always",
+      "start": 188.26,
+      "end": 189.04
+    },
+    {
+      "word": "was",
+      "start": 189.04,
+      "end": 189.66
+    },
+    {
+      "word": "there",
+      "start": 190.52,
+      "end": 191.36
+    },
+    {
+      "word": "always",
+      "start": 191.36,
+      "end": 191.76
+    },
+    {
+      "word": "will",
+      "start": 191.76,
+      "end": 192.1
+    },
+    {
+      "word": "be",
+      "start": 192.1,
+      "end": 192.58
+    },
+    {
+      "word": "leave",
+      "start": 197.5,
+      "end": 198.34
+    },
+    {
+      "word": "a",
+      "start": 198.34,
+      "end": 199.18
+    },
+    {
+      "word": "light",
+      "start": 199.18,
+      "end": 199.6
+    },
+    {
+      "word": "on,",
+      "start": 199.6,
+      "end": 199.94
+    },
+    {
+      "word": "the",
+      "start": 200.28,
+      "end": 200.76
+    },
+    {
+      "word": "door",
+      "start": 200.76,
+      "end": 204.92
+    },
+    {
+      "word": "is",
+      "start": 204.92,
+      "end": 207.0
+    },
+    {
+      "word": "open,",
+      "start": 207.0,
+      "end": 207.42
+    },
+    {
+      "word": "the",
+      "start": 207.96,
+      "end": 208.28
+    },
+    {
+      "word": "fire",
+      "start": 208.28,
+      "end": 208.6
+    },
+    {
+      "word": "is",
+      "start": 208.6,
+      "end": 208.86
+    },
+    {
+      "word": "warm,",
+      "start": 208.86,
+      "end": 209.18
+    },
+    {
+      "word": "the",
+      "start": 209.74,
+      "end": 210.14
+    },
+    {
+      "word": "light",
+      "start": 210.14,
+      "end": 210.46
+    },
+    {
+      "word": "is",
+      "start": 210.46,
+      "end": 210.68
+    },
+    {
+      "word": "on,",
+      "start": 210.68,
+      "end": 211.04
+    },
+    {
+      "word": "come",
+      "start": 211.48,
+      "end": 213.76
+    },
+    {
+      "word": "home",
+      "start": 213.76,
+      "end": 214.64
+    },
+    {
+      "word": "you",
+      "start": 222.56,
+      "end": 223.96
+    }
+  ]
+}

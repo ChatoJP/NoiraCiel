@@ -1,0 +1,24 @@
+{
+  "videos": [
+    {
+      "id": "why-lyric",
+      "title": "Why — Lyric Video",
+      "platform": "self-hosted",
+      "url": "/Videos/lyrics/why.mp4",
+      "thumbnail": "/Images/chapter-banners/why.jpg",
+      "description": "The lifelong question — searching for meaning that was always already there.",
+      "publishedAt": "2025-06-01",
+      "trackId": "why"
+    },
+    {
+      "id": "who-wins-if-i-win-lyric",
+      "title": "Who Wins If I Win — Lyric Video",
+      "platform": "self-hosted",
+      "url": "/Videos/lyrics/who-wins-if-i-win.mp4",
+      "thumbnail": "/Images/chapter-banners/who-wins-if-i-win.jpg",
+      "description": "The hollowness of achievement when it costs us the people we love.",
+      "publishedAt": "2025-06-01",
+      "trackId": "who-wins-if-i-win"
+    }
+  ]
+}

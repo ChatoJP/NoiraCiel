@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "id": "hero",
+    "label": "Hero — entering the world",
+    "taskId": "fluxkontext_3d00aaa7e56747da816fbe14a5df94cf",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\backgrounds\\hero.jpg",
+    "publicUrl": "/Images/backgrounds/hero.jpg",
+    "submittedAt": "2026-06-12T20:56:22.132Z",
+    "completedAt": null,
+    "error": null
+  },
+  "biography": {
+    "id": "biography",
+    "label": "Biography — a life lived",
+    "taskId": "fluxkontext_28f8b13da4204ae7aed94200a4877e6a",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\backgrounds\\biography.jpg",
+    "publicUrl": "/Images/backgrounds/biography.jpg",
+    "submittedAt": "2026-06-12T20:56:25.846Z",
+    "completedAt": null,
+    "error": null
+  },
+  "world": {
+    "id": "world",
+    "label": "The World — Atlantic Noir universe",
+    "taskId": "fluxkontext_d257b4b670054e4785cafa5e70ab016a",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\backgrounds\\world.jpg",
+    "publicUrl": "/Images/backgrounds/world.jpg",
+    "submittedAt": "2026-06-12T20:56:29.562Z",
+    "completedAt": null,
+    "error": null
+  },
+  "featured": {
+    "id": "featured",
+    "label": "Featured releases — art objects",
+    "taskId": "fluxkontext_2cf1232117464624adc99378ebd545bb",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\backgrounds\\featured.jpg",
+    "publicUrl": "/Images/backgrounds/featured.jpg",
+    "submittedAt": "2026-06-12T20:56:33.289Z",
+    "completedAt": null,
+    "error": null
+  },
+  "contact": {
+    "id": "contact",
+    "label": "Contact — reaching through",
+    "taskId": "fluxkontext_70db5aa7e84542c6a6785bd533f71723",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\backgrounds\\contact.jpg",
+    "publicUrl": "/Images/backgrounds/contact.jpg",
+    "submittedAt": "2026-06-12T20:56:37.000Z",
+    "completedAt": null,
+    "error": null
+  }
+}

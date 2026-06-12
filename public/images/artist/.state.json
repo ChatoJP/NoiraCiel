@@ -1,0 +1,50 @@
+{
+  "noiraciel-identity-1": {
+    "id": "noiraciel-identity-1",
+    "label": "NoiraCiel Identity — The Horizon",
+    "taskId": "fluxkontext_1704debec25b49e6bf1d9d9aa78590c2",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\artist\\noiraciel-identity-1.jpg",
+    "publicUrl": "/Images/artist/noiraciel-identity-1.jpg",
+    "submittedAt": "2026-06-12T20:56:30.082Z",
+    "completedAt": null,
+    "error": null
+  },
+  "noiraciel-identity-2": {
+    "id": "noiraciel-identity-2",
+    "label": "NoiraCiel Identity — The Letter",
+    "taskId": "fluxkontext_0f7741252aa04fd1acf4e80ed186e06d",
+    "status": "complete",
+    "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_0f7741252aa04fd1acf4e80ed186e06d_1781297819_m4o7cfqq.jpg",
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\artist\\noiraciel-identity-2.jpg",
+    "publicUrl": "/Images/artist/noiraciel-identity-2.jpg",
+    "submittedAt": "2026-06-12T20:56:33.803Z",
+    "completedAt": "2026-06-12T21:35:07.476Z",
+    "error": null
+  },
+  "noiraciel-identity-3": {
+    "id": "noiraciel-identity-3",
+    "label": "NoiraCiel Identity — The Road",
+    "taskId": "fluxkontext_39b69ad12ed1454dbb8eb40d0c601932",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\artist\\noiraciel-identity-3.jpg",
+    "publicUrl": "/Images/artist/noiraciel-identity-3.jpg",
+    "submittedAt": "2026-06-12T20:56:37.518Z",
+    "completedAt": null,
+    "error": null
+  },
+  "noiraciel-identity-4": {
+    "id": "noiraciel-identity-4",
+    "label": "NoiraCiel Identity — The Stage",
+    "taskId": "fluxkontext_5dee92dbdf14405487b54655ba37fc4f",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "public\\Images\\artist\\noiraciel-identity-4.jpg",
+    "publicUrl": "/Images/artist/noiraciel-identity-4.jpg",
+    "submittedAt": "2026-06-12T20:56:41.277Z",
+    "completedAt": null,
+    "error": null
+  }
+}

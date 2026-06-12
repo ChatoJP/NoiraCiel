@@ -1,0 +1,74 @@
+{
+  "rain-on-dark-glass": {
+    "id": "rain-on-dark-glass",
+    "label": "Rain on Dark Glass",
+    "taskId": "fluxkontext_081e377c520d41d7a73095785cc70960",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\lyric-backgrounds\\rain-on-dark-glass.jpg",
+    "publicUrl": "/Images/lyric-backgrounds/rain-on-dark-glass.jpg",
+    "submittedAt": null,
+    "completedAt": null,
+    "error": null
+  },
+  "single-candle-in-dark": {
+    "id": "single-candle-in-dark",
+    "label": "Single Candle in Dark",
+    "taskId": "fluxkontext_56227f36d0dc4b68b68f53f72dc37b9f",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\lyric-backgrounds\\single-candle-in-dark.jpg",
+    "publicUrl": "/Images/lyric-backgrounds/single-candle-in-dark.jpg",
+    "submittedAt": null,
+    "completedAt": null,
+    "error": null
+  },
+  "dark-tide": {
+    "id": "dark-tide",
+    "label": "Dark Tide",
+    "taskId": "fluxkontext_669714c9b6064657bdad86b455c91280",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\lyric-backgrounds\\dark-tide.jpg",
+    "publicUrl": "/Images/lyric-backgrounds/dark-tide.jpg",
+    "submittedAt": null,
+    "completedAt": null,
+    "error": null
+  },
+  "two-hands-dark-wood": {
+    "id": "two-hands-dark-wood",
+    "label": "Two Hands on Dark Wood",
+    "taskId": "fluxkontext_daf63e65083842deaffe3bec06ba1282",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\lyric-backgrounds\\two-hands-dark-wood.jpg",
+    "publicUrl": "/Images/lyric-backgrounds/two-hands-dark-wood.jpg",
+    "submittedAt": null,
+    "completedAt": null,
+    "error": null
+  },
+  "empty-road-one-light": {
+    "id": "empty-road-one-light",
+    "label": "Empty Road, One Light",
+    "taskId": "fluxkontext_06f80a2d5db64c2f91e2f145a776c784",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\lyric-backgrounds\\empty-road-one-light.jpg",
+    "publicUrl": "/Images/lyric-backgrounds/empty-road-one-light.jpg",
+    "submittedAt": null,
+    "completedAt": null,
+    "error": null
+  },
+  "lit-window-in-darkness": {
+    "id": "lit-window-in-darkness",
+    "label": "Lit Window in Darkness",
+    "taskId": "fluxkontext_c9171229b07d4cb8ab6889ed214c695a",
+    "status": "done",
+    "remoteUrl": null,
+    "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\lyric-backgrounds\\lit-window-in-darkness.jpg",
+    "publicUrl": "/Images/lyric-backgrounds/lit-window-in-darkness.jpg",
+    "submittedAt": null,
+    "completedAt": null,
+    "error": null
+  }
+}

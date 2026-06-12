@@ -1,0 +1,1358 @@
+{
+  "title": "Borrowed Time",
+  "slug": "borrowed-time",
+  "trackNumber": 16,
+  "duration": 243.68,
+  "words": [
+    {
+      "word": "I",
+      "start": 11.2,
+      "end": 12.08
+    },
+    {
+      "word": "used",
+      "start": 12.08,
+      "end": 12.34
+    },
+    {
+      "word": "to",
+      "start": 12.34,
+      "end": 12.62
+    },
+    {
+      "word": "think",
+      "start": 12.62,
+      "end": 12.9
+    },
+    {
+      "word": "there'd",
+      "start": 12.9,
+      "end": 13.46
+    },
+    {
+      "word": "always",
+      "start": 13.46,
+      "end": 13.9
+    },
+    {
+      "word": "be",
+      "start": 13.9,
+      "end": 14.26
+    },
+    {
+      "word": "another",
+      "start": 14.26,
+      "end": 15.48
+    },
+    {
+      "word": "summer",
+      "start": 15.48,
+      "end": 15.88
+    },
+    {
+      "word": "down",
+      "start": 15.88,
+      "end": 16.42
+    },
+    {
+      "word": "the",
+      "start": 16.42,
+      "end": 16.9
+    },
+    {
+      "word": "road",
+      "start": 16.9,
+      "end": 17.18
+    },
+    {
+      "word": "Another",
+      "start": 17.18,
+      "end": 20.78
+    },
+    {
+      "word": "song",
+      "start": 20.78,
+      "end": 21.26
+    },
+    {
+      "word": "to",
+      "start": 21.26,
+      "end": 21.86
+    },
+    {
+      "word": "learn",
+      "start": 21.86,
+      "end": 22.12
+    },
+    {
+      "word": "by",
+      "start": 22.12,
+      "end": 22.46
+    },
+    {
+      "word": "heart",
+      "start": 22.46,
+      "end": 22.88
+    },
+    {
+      "word": "Another",
+      "start": 22.88,
+      "end": 26.48
+    },
+    {
+      "word": "story",
+      "start": 26.48,
+      "end": 27.06
+    },
+    {
+      "word": "to",
+      "start": 27.06,
+      "end": 27.88
+    },
+    {
+      "word": "be",
+      "start": 27.88,
+      "end": 28.14
+    },
+    {
+      "word": "told",
+      "start": 28.14,
+      "end": 28.5
+    },
+    {
+      "word": "I",
+      "start": 30.96,
+      "end": 31.98
+    },
+    {
+      "word": "thought",
+      "start": 31.98,
+      "end": 32.34
+    },
+    {
+      "word": "the",
+      "start": 32.34,
+      "end": 32.6
+    },
+    {
+      "word": "years",
+      "start": 32.6,
+      "end": 33.08
+    },
+    {
+      "word": "move",
+      "start": 33.08,
+      "end": 33.46
+    },
+    {
+      "word": "slowly",
+      "start": 33.46,
+      "end": 34.06
+    },
+    {
+      "word": "like",
+      "start": 34.06,
+      "end": 35.44
+    },
+    {
+      "word": "clouds",
+      "start": 35.44,
+      "end": 35.8
+    },
+    {
+      "word": "across",
+      "start": 35.8,
+      "end": 36.3
+    },
+    {
+      "word": "the",
+      "start": 36.3,
+      "end": 36.68
+    },
+    {
+      "word": "sky",
+      "start": 36.68,
+      "end": 37.2
+    },
+    {
+      "word": "Funny",
+      "start": 37.2,
+      "end": 40.04
+    },
+    {
+      "word": "how",
+      "start": 40.04,
+      "end": 40.6
+    },
+    {
+      "word": "they",
+      "start": 40.6,
+      "end": 40.96
+    },
+    {
+      "word": "start",
+      "start": 40.96,
+      "end": 41.44
+    },
+    {
+      "word": "to",
+      "start": 41.44,
+      "end": 42.16
+    },
+    {
+      "word": "run",
+      "start": 42.16,
+      "end": 43.0
+    },
+    {
+      "word": "The",
+      "start": 43.0,
+      "end": 44.82
+    },
+    {
+      "word": "older",
+      "start": 44.82,
+      "end": 45.18
+    },
+    {
+      "word": "that",
+      "start": 45.18,
+      "end": 45.58
+    },
+    {
+      "word": "you",
+      "start": 45.58,
+      "end": 46.48
+    },
+    {
+      "word": "get",
+      "start": 46.48,
+      "end": 47.14
+    },
+    {
+      "word": "in",
+      "start": 47.14,
+      "end": 47.4
+    },
+    {
+      "word": "life",
+      "start": 47.4,
+      "end": 48.04
+    },
+    {
+      "word": "So",
+      "start": 49.96,
+      "end": 50.96
+    },
+    {
+      "word": "pull",
+      "start": 50.96,
+      "end": 51.34
+    },
+    {
+      "word": "up",
+      "start": 51.34,
+      "end": 51.6
+    },
+    {
+      "word": "one",
+      "start": 51.6,
+      "end": 51.92
+    },
+    {
+      "word": "more",
+      "start": 51.92,
+      "end": 52.32
+    },
+    {
+      "word": "chair",
+      "start": 52.32,
+      "end": 52.8
+    },
+    {
+      "word": "and",
+      "start": 52.8,
+      "end": 53.86
+    },
+    {
+      "word": "stay",
+      "start": 53.86,
+      "end": 54.26
+    },
+    {
+      "word": "a",
+      "start": 54.26,
+      "end": 54.76
+    },
+    {
+      "word": "little",
+      "start": 54.76,
+      "end": 55.06
+    },
+    {
+      "word": "while",
+      "start": 55.06,
+      "end": 55.56
+    },
+    {
+      "word": "We're",
+      "start": 55.56,
+      "end": 57.86
+    },
+    {
+      "word": "all",
+      "start": 57.86,
+      "end": 58.24
+    },
+    {
+      "word": "living",
+      "start": 58.24,
+      "end": 58.78
+    },
+    {
+      "word": "on",
+      "start": 58.78,
+      "end": 59.68
+    },
+    {
+      "word": "borrowed",
+      "start": 59.68,
+      "end": 60.14
+    },
+    {
+      "word": "time",
+      "start": 60.14,
+      "end": 61.38
+    },
+    {
+      "word": "So",
+      "start": 61.38,
+      "end": 63.34
+    },
+    {
+      "word": "let's",
+      "start": 63.34,
+      "end": 63.76
+    },
+    {
+      "word": "make",
+      "start": 63.76,
+      "end": 64.08
+    },
+    {
+      "word": "tonight",
+      "start": 64.08,
+      "end": 64.9
+    },
+    {
+      "word": "worth",
+      "start": 64.9,
+      "end": 65.66
+    },
+    {
+      "word": "remembering",
+      "start": 65.66,
+      "end": 66.96
+    },
+    {
+      "word": "Raise",
+      "start": 68.2,
+      "end": 69.36
+    },
+    {
+      "word": "a",
+      "start": 69.36,
+      "end": 69.62
+    },
+    {
+      "word": "glass,",
+      "start": 69.62,
+      "end": 69.88
+    },
+    {
+      "word": "tell",
+      "start": 69.94,
+      "end": 70.38
+    },
+    {
+      "word": "another",
+      "start": 70.38,
+      "end": 70.82
+    },
+    {
+      "word": "story,",
+      "start": 70.82,
+      "end": 71.62
+    },
+    {
+      "word": "sing",
+      "start": 71.62,
+      "end": 72.92
+    },
+    {
+      "word": "another",
+      "start": 72.92,
+      "end": 73.58
+    },
+    {
+      "word": "line",
+      "start": 73.58,
+      "end": 74.14
+    },
+    {
+      "word": "We're",
+      "start": 74.14,
+      "end": 75.02
+    },
+    {
+      "word": "all",
+      "start": 75.02,
+      "end": 75.28
+    },
+    {
+      "word": "living",
+      "start": 75.28,
+      "end": 75.88
+    },
+    {
+      "word": "on",
+      "start": 75.88,
+      "end": 76.5
+    },
+    {
+      "word": "borrowed",
+      "start": 76.5,
+      "end": 77.2
+    },
+    {
+      "word": "time",
+      "start": 77.2,
+      "end": 78.4
+    },
+    {
+      "word": "So",
+      "start": 78.4,
+      "end": 80.04
+    },
+    {
+      "word": "don't",
+      "start": 80.04,
+      "end": 80.4
+    },
+    {
+      "word": "save",
+      "start": 80.4,
+      "end": 80.76
+    },
+    {
+      "word": "your",
+      "start": 80.76,
+      "end": 81.0
+    },
+    {
+      "word": "laughter",
+      "start": 81.0,
+      "end": 81.46
+    },
+    {
+      "word": "for",
+      "start": 81.46,
+      "end": 83.14
+    },
+    {
+      "word": "another",
+      "start": 83.14,
+      "end": 83.5
+    },
+    {
+      "word": "day",
+      "start": 83.5,
+      "end": 84.48
+    },
+    {
+      "word": "The",
+      "start": 85.48,
+      "end": 86.68
+    },
+    {
+      "word": "clock",
+      "start": 86.68,
+      "end": 86.98
+    },
+    {
+      "word": "keeps",
+      "start": 86.98,
+      "end": 87.58
+    },
+    {
+      "word": "moving",
+      "start": 87.58,
+      "end": 88.18
+    },
+    {
+      "word": "anyway",
+      "start": 88.18,
+      "end": 89.52
+    },
+    {
+      "word": "We're",
+      "start": 89.52,
+      "end": 92.18
+    },
+    {
+      "word": "all",
+      "start": 92.18,
+      "end": 92.44
+    },
+    {
+      "word": "living",
+      "start": 92.44,
+      "end": 92.98
+    },
+    {
+      "word": "on",
+      "start": 92.98,
+      "end": 93.74
+    },
+    {
+      "word": "borrowed",
+      "start": 93.74,
+      "end": 94.4
+    },
+    {
+      "word": "time",
+      "start": 94.4,
+      "end": 95.6
+    },
+    {
+      "word": "Of",
+      "start": 97.48,
+      "end": 98.06
+    },
+    {
+      "word": "what's",
+      "start": 98.06,
+      "end": 98.36
+    },
+    {
+      "word": "children",
+      "start": 98.36,
+      "end": 98.7
+    },
+    {
+      "word": "become",
+      "start": 98.7,
+      "end": 99.14
+    },
+    {
+      "word": "dreamers",
+      "start": 99.14,
+      "end": 100.34
+    },
+    {
+      "word": "Of",
+      "start": 100.34,
+      "end": 100.86
+    },
+    {
+      "word": "what's",
+      "start": 100.86,
+      "end": 101.2
+    },
+    {
+      "word": "dream",
+      "start": 101.2,
+      "end": 101.46
+    },
+    {
+      "word": "has",
+      "start": 101.46,
+      "end": 101.78
+    },
+    {
+      "word": "become",
+      "start": 101.78,
+      "end": 102.22
+    },
+    {
+      "word": "old",
+      "start": 102.22,
+      "end": 102.82
+    },
+    {
+      "word": "I've",
+      "start": 102.82,
+      "end": 103.62
+    },
+    {
+      "word": "watched",
+      "start": 103.62,
+      "end": 103.94
+    },
+    {
+      "word": "people",
+      "start": 103.94,
+      "end": 104.32
+    },
+    {
+      "word": "chase",
+      "start": 104.32,
+      "end": 104.88
+    },
+    {
+      "word": "forever",
+      "start": 104.88,
+      "end": 105.48
+    },
+    {
+      "word": "Things",
+      "start": 106.12,
+      "end": 106.58
+    },
+    {
+      "word": "they",
+      "start": 106.58,
+      "end": 106.78
+    },
+    {
+      "word": "never",
+      "start": 106.78,
+      "end": 107.34
+    },
+    {
+      "word": "got",
+      "start": 107.34,
+      "end": 107.7
+    },
+    {
+      "word": "to",
+      "start": 107.7,
+      "end": 107.98
+    },
+    {
+      "word": "hold",
+      "start": 107.98,
+      "end": 108.34
+    },
+    {
+      "word": "But",
+      "start": 108.34,
+      "end": 109.56
+    },
+    {
+      "word": "the",
+      "start": 109.56,
+      "end": 109.74
+    },
+    {
+      "word": "moments",
+      "start": 109.74,
+      "end": 110.1
+    },
+    {
+      "word": "that",
+      "start": 110.1,
+      "end": 110.5
+    },
+    {
+      "word": "stay",
+      "start": 110.5,
+      "end": 110.86
+    },
+    {
+      "word": "with",
+      "start": 110.86,
+      "end": 111.32
+    },
+    {
+      "word": "you",
+      "start": 111.32,
+      "end": 111.62
+    },
+    {
+      "word": "never",
+      "start": 111.62,
+      "end": 112.12
+    },
+    {
+      "word": "seem",
+      "start": 112.12,
+      "end": 112.78
+    },
+    {
+      "word": "to",
+      "start": 112.78,
+      "end": 113.16
+    },
+    {
+      "word": "cost",
+      "start": 113.16,
+      "end": 113.46
+    },
+    {
+      "word": "a",
+      "start": 113.46,
+      "end": 113.7
+    },
+    {
+      "word": "dime",
+      "start": 113.7,
+      "end": 114.22
+    },
+    {
+      "word": "They're",
+      "start": 114.22,
+      "end": 114.76
+    },
+    {
+      "word": "usually",
+      "start": 114.76,
+      "end": 115.16
+    },
+    {
+      "word": "found",
+      "start": 115.16,
+      "end": 115.72
+    },
+    {
+      "word": "in",
+      "start": 115.72,
+      "end": 116.04
+    },
+    {
+      "word": "conversations",
+      "start": 116.04,
+      "end": 117.22
+    },
+    {
+      "word": "On",
+      "start": 117.22,
+      "end": 118.18
+    },
+    {
+      "word": "borrowed",
+      "start": 118.18,
+      "end": 118.64
+    },
+    {
+      "word": "time,",
+      "start": 118.64,
+      "end": 119.82
+    },
+    {
+      "word": "we're",
+      "start": 119.82,
+      "end": 120.78
+    },
+    {
+      "word": "all",
+      "start": 120.78,
+      "end": 121.16
+    },
+    {
+      "word": "living",
+      "start": 121.16,
+      "end": 121.5
+    },
+    {
+      "word": "on",
+      "start": 121.5,
+      "end": 122.5
+    },
+    {
+      "word": "borrowed",
+      "start": 122.5,
+      "end": 123.36
+    },
+    {
+      "word": "time",
+      "start": 123.36,
+      "end": 125.48
+    },
+    {
+      "word": "So",
+      "start": 125.48,
+      "end": 126.22
+    },
+    {
+      "word": "let's",
+      "start": 126.22,
+      "end": 126.6
+    },
+    {
+      "word": "make",
+      "start": 126.6,
+      "end": 126.98
+    },
+    {
+      "word": "tonight",
+      "start": 126.98,
+      "end": 127.66
+    },
+    {
+      "word": "worth",
+      "start": 127.66,
+      "end": 128.46
+    },
+    {
+      "word": "remembering",
+      "start": 128.46,
+      "end": 129.62
+    },
+    {
+      "word": "Raise",
+      "start": 129.62,
+      "end": 132.04
+    },
+    {
+      "word": "a",
+      "start": 132.04,
+      "end": 132.46
+    },
+    {
+      "word": "glass,",
+      "start": 132.46,
+      "end": 132.66
+    },
+    {
+      "word": "tell",
+      "start": 133.1,
+      "end": 133.22
+    },
+    {
+      "word": "another",
+      "start": 133.22,
+      "end": 133.66
+    },
+    {
+      "word": "story,",
+      "start": 133.66,
+      "end": 134.24
+    },
+    {
+      "word": "sing",
+      "start": 134.24,
+      "end": 135.76
+    },
+    {
+      "word": "another",
+      "start": 135.76,
+      "end": 136.48
+    },
+    {
+      "word": "line",
+      "start": 136.48,
+      "end": 137.02
+    },
+    {
+      "word": "We're",
+      "start": 137.02,
+      "end": 137.76
+    },
+    {
+      "word": "all",
+      "start": 137.76,
+      "end": 138.22
+    },
+    {
+      "word": "living",
+      "start": 138.22,
+      "end": 138.72
+    },
+    {
+      "word": "on",
+      "start": 138.72,
+      "end": 139.48
+    },
+    {
+      "word": "borrowed",
+      "start": 139.48,
+      "end": 140.16
+    },
+    {
+      "word": "time",
+      "start": 140.16,
+      "end": 141.26
+    },
+    {
+      "word": "So",
+      "start": 142.26,
+      "end": 142.98
+    },
+    {
+      "word": "don't",
+      "start": 142.98,
+      "end": 143.32
+    },
+    {
+      "word": "save",
+      "start": 143.32,
+      "end": 143.62
+    },
+    {
+      "word": "your",
+      "start": 143.62,
+      "end": 143.88
+    },
+    {
+      "word": "laughter",
+      "start": 143.88,
+      "end": 144.44
+    },
+    {
+      "word": "for",
+      "start": 144.44,
+      "end": 146.02
+    },
+    {
+      "word": "another",
+      "start": 146.02,
+      "end": 146.42
+    },
+    {
+      "word": "day",
+      "start": 146.42,
+      "end": 147.24
+    },
+    {
+      "word": "The",
+      "start": 147.24,
+      "end": 149.54
+    },
+    {
+      "word": "clock",
+      "start": 149.54,
+      "end": 149.8
+    },
+    {
+      "word": "keeps",
+      "start": 149.8,
+      "end": 150.44
+    },
+    {
+      "word": "moving",
+      "start": 150.44,
+      "end": 151.14
+    },
+    {
+      "word": "anyway",
+      "start": 151.14,
+      "end": 152.48
+    },
+    {
+      "word": "We're",
+      "start": 154.26,
+      "end": 155.08
+    },
+    {
+      "word": "all",
+      "start": 155.08,
+      "end": 155.36
+    },
+    {
+      "word": "living",
+      "start": 155.36,
+      "end": 155.82
+    },
+    {
+      "word": "on",
+      "start": 155.82,
+      "end": 156.56
+    },
+    {
+      "word": "borrowed",
+      "start": 156.56,
+      "end": 157.26
+    },
+    {
+      "word": "time",
+      "start": 157.26,
+      "end": 161.26
+    },
+    {
+      "word": "Not",
+      "start": 161.26,
+      "end": 161.86
+    },
+    {
+      "word": "one",
+      "start": 161.86,
+      "end": 162.14
+    },
+    {
+      "word": "of",
+      "start": 162.14,
+      "end": 162.4
+    },
+    {
+      "word": "us",
+      "start": 162.4,
+      "end": 162.62
+    },
+    {
+      "word": "can",
+      "start": 162.62,
+      "end": 163.18
+    },
+    {
+      "word": "stop",
+      "start": 163.18,
+      "end": 163.64
+    },
+    {
+      "word": "the",
+      "start": 163.64,
+      "end": 163.92
+    },
+    {
+      "word": "river",
+      "start": 163.92,
+      "end": 164.3
+    },
+    {
+      "word": "Not",
+      "start": 164.3,
+      "end": 166.32
+    },
+    {
+      "word": "one",
+      "start": 166.32,
+      "end": 167.88
+    },
+    {
+      "word": "of",
+      "start": 167.88,
+      "end": 168.1
+    },
+    {
+      "word": "us",
+      "start": 168.1,
+      "end": 168.38
+    },
+    {
+      "word": "can",
+      "start": 168.38,
+      "end": 168.92
+    },
+    {
+      "word": "slow",
+      "start": 168.92,
+      "end": 169.3
+    },
+    {
+      "word": "the",
+      "start": 169.3,
+      "end": 169.66
+    },
+    {
+      "word": "sun",
+      "start": 169.66,
+      "end": 170.1
+    },
+    {
+      "word": "So",
+      "start": 171.26,
+      "end": 171.78
+    },
+    {
+      "word": "maybe",
+      "start": 171.78,
+      "end": 172.2
+    },
+    {
+      "word": "the",
+      "start": 172.2,
+      "end": 172.52
+    },
+    {
+      "word": "secret",
+      "start": 172.52,
+      "end": 173.16
+    },
+    {
+      "word": "isn't",
+      "start": 173.16,
+      "end": 173.96
+    },
+    {
+      "word": "holding",
+      "start": 173.96,
+      "end": 174.58
+    },
+    {
+      "word": "on",
+      "start": 174.58,
+      "end": 175.32
+    },
+    {
+      "word": "Maybe",
+      "start": 175.32,
+      "end": 177.66
+    },
+    {
+      "word": "it's",
+      "start": 177.66,
+      "end": 178.36
+    },
+    {
+      "word": "loving",
+      "start": 178.36,
+      "end": 178.7
+    },
+    {
+      "word": "while",
+      "start": 178.7,
+      "end": 179.86
+    },
+    {
+      "word": "it's",
+      "start": 179.86,
+      "end": 191.24
+    },
+    {
+      "word": "here",
+      "start": 191.24,
+      "end": 191.24
+    },
+    {
+      "word": "To",
+      "start": 191.24,
+      "end": 192.06
+    },
+    {
+      "word": "the",
+      "start": 192.06,
+      "end": 192.32
+    },
+    {
+      "word": "fire",
+      "start": 192.32,
+      "end": 192.96
+    },
+    {
+      "word": "Raise",
+      "start": 192.96,
+      "end": 195.34
+    },
+    {
+      "word": "a",
+      "start": 195.34,
+      "end": 195.62
+    },
+    {
+      "word": "glass,",
+      "start": 195.62,
+      "end": 195.84
+    },
+    {
+      "word": "tell",
+      "start": 195.84,
+      "end": 196.42
+    },
+    {
+      "word": "another",
+      "start": 196.42,
+      "end": 196.84
+    },
+    {
+      "word": "story",
+      "start": 196.84,
+      "end": 197.66
+    },
+    {
+      "word": "Take",
+      "start": 198.24,
+      "end": 198.88
+    },
+    {
+      "word": "the",
+      "start": 198.88,
+      "end": 199.18
+    },
+    {
+      "word": "choir",
+      "start": 199.18,
+      "end": 199.44
+    },
+    {
+      "word": "higher",
+      "start": 199.44,
+      "end": 200.22
+    },
+    {
+      "word": "We're",
+      "start": 200.22,
+      "end": 201.04
+    },
+    {
+      "word": "all",
+      "start": 201.04,
+      "end": 201.34
+    },
+    {
+      "word": "living",
+      "start": 201.34,
+      "end": 201.86
+    },
+    {
+      "word": "on",
+      "start": 201.86,
+      "end": 202.58
+    },
+    {
+      "word": "borrowed",
+      "start": 202.58,
+      "end": 203.78
+    },
+    {
+      "word": "time",
+      "start": 203.78,
+      "end": 204.54
+    },
+    {
+      "word": "And",
+      "start": 205.24,
+      "end": 206.08
+    },
+    {
+      "word": "maybe",
+      "start": 206.08,
+      "end": 206.32
+    },
+    {
+      "word": "that's",
+      "start": 206.32,
+      "end": 206.88
+    },
+    {
+      "word": "the",
+      "start": 206.88,
+      "end": 207.02
+    },
+    {
+      "word": "reason",
+      "start": 207.02,
+      "end": 207.58
+    },
+    {
+      "word": "These",
+      "start": 207.58,
+      "end": 208.94
+    },
+    {
+      "word": "little",
+      "start": 208.94,
+      "end": 209.3
+    },
+    {
+      "word": "moments",
+      "start": 209.3,
+      "end": 209.78
+    },
+    {
+      "word": "shine",
+      "start": 209.78,
+      "end": 210.46
+    },
+    {
+      "word": "We're",
+      "start": 211.24,
+      "end": 212.42
+    },
+    {
+      "word": "all",
+      "start": 212.42,
+      "end": 212.64
+    },
+    {
+      "word": "living",
+      "start": 212.64,
+      "end": 213.26
+    },
+    {
+      "word": "on",
+      "start": 213.26,
+      "end": 213.7
+    },
+    {
+      "word": "borrowed",
+      "start": 213.7,
+      "end": 215.16
+    },
+    {
+      "word": "time",
+      "start": 215.16,
+      "end": 215.84
+    },
+    {
+      "word": "One",
+      "start": 218.22,
+      "end": 219.2
+    },
+    {
+      "word": "more",
+      "start": 219.2,
+      "end": 219.56
+    },
+    {
+      "word": "song,",
+      "start": 219.56,
+      "end": 219.9
+    },
+    {
+      "word": "one",
+      "start": 220.56,
+      "end": 220.68
+    },
+    {
+      "word": "more",
+      "start": 220.68,
+      "end": 221.06
+    },
+    {
+      "word": "laugh,",
+      "start": 221.06,
+      "end": 221.54
+    },
+    {
+      "word": "one",
+      "start": 222.04,
+      "end": 222.18
+    },
+    {
+      "word": "more",
+      "start": 222.18,
+      "end": 222.56
+    },
+    {
+      "word": "memory",
+      "start": 222.56,
+      "end": 223.54
+    },
+    {
+      "word": "Before",
+      "start": 223.54,
+      "end": 225.1
+    },
+    {
+      "word": "the",
+      "start": 225.1,
+      "end": 225.52
+    },
+    {
+      "word": "night",
+      "start": 225.52,
+      "end": 226.04
+    },
+    {
+      "word": "goes",
+      "start": 226.04,
+      "end": 228.36
+    },
+    {
+      "word": "by",
+      "start": 228.36,
+      "end": 228.9
+    }
+  ]
+}

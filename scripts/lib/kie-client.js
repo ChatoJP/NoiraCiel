@@ -1,0 +1,201 @@
+#!/usr/bin/env node
+/**
+ * kie-client.js
+ * Shared Kie.ai API client for all NoiraCiel asset generation scripts.
+ *
+ * Supports:
+ *   - Image generation via Flux Kontext  (POST /flux/kontext/generate)
+ *   - Video clip generation via Veo3     (POST /veo/generate)
+ * Both use the same poll pattern: successFlag 0=pending 1=success 2/3=failed
+ */
+
+'use strict'
+
+const fs   = require('fs')
+const path = require('path')
+const https = require('https')
+const http  = require('http')
+
+const KIE_BASE     = 'https://api.kie.ai/api/v1'
+const MAX_RETRIES  = 3
+const RATE_LIMIT_MS = 3500
+
+// ─── Environment ─────────────────────────────────────────────────────────────
+function loadEnv() {
+  const envPath = path.join(__dirname, '..', '..', '.env.local')
+  if (!fs.existsSync(envPath)) {
+    console.warn('⚠  .env.local not found — create it from .env.example')
+    return
+  }
+  const lines = fs.readFileSync(envPath, 'utf-8').split('\n')
+  for (const line of lines) {
+    const t = line.trim()
+    if (!t || t.startsWith('#')) continue
+    const eq = t.indexOf('=')
+    if (eq === -1) continue
+    const k = t.slice(0, eq).trim()
+    const v = t.slice(eq + 1).trim()
+    if (!process.env[k]) process.env[k] = v
+  }
+}
+
+// ─── Logging ─────────────────────────────────────────────────────────────────
+const ts   = () => new Date().toISOString().slice(11, 19)
+const log  = (m) => console.log(`[${ts()}] ${m}`)
+const warn = (m) => console.warn(`[${ts()}] ⚠  ${m}`)
+const err  = (m) => console.error(`[${ts()}] ✗  ${m}`)
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+function slugify(text) {
+  return text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
+}
+
+// ─── Core HTTP ───────────────────────────────────────────────────────────────
+function kieRequest(method, endpoint, body) {
+  const apiKey = process.env.KIE_API_KEY
+  if (!apiKey) throw new Error('KIE_API_KEY not set — check .env.local')
+
+  return new Promise((resolve, reject) => {
+    const url = new URL(`${KIE_BASE}${endpoint}`)
+    const payload = body ? JSON.stringify(body) : null
+    const options = {
+      hostname: url.hostname,
+      port: 443,
+      path: url.pathname + url.search,
+      method,
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+        'User-Agent': 'NoiraCiel/2.0',
+        ...(payload ? { 'Content-Length': Buffer.byteLength(payload) } : {}),
+      },
+    }
+
+    const req = https.request(options, (res) => {
+      let data = ''
+      res.on('data', (c) => (data += c))
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data)
+          if (parsed.code && parsed.code !== 200) {
+            reject(new Error(`Kie.ai ${parsed.code}: ${parsed.msg || JSON.stringify(parsed).slice(0, 120)}`))
+          } else {
+            resolve(parsed)
+          }
+        } catch {
+          reject(new Error(`Bad JSON: ${data.slice(0, 200)}`))
+        }
+      })
+    })
+    req.on('error', reject)
+    if (payload) req.write(payload)
+    req.end()
+  })
+}
+
+async function kieRequestWithRetry(method, endpoint, body, retries = MAX_RETRIES) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await kieRequest(method, endpoint, body)
+    } catch (e) {
+      if (attempt === retries) throw e
+      const wait = attempt * 5000
+      warn(`Attempt ${attempt} failed: ${e.message}. Retrying in ${wait / 1000}s…`)
+      await sleep(wait)
+    }
+  }
+}
+
+// ─── Download ─────────────────────────────────────────────────────────────────
+function downloadFile(url, destPath) {
+  return new Promise((resolve, reject) => {
+    fs.mkdirSync(path.dirname(destPath), { recursive: true })
+    const file = fs.createWriteStream(destPath)
+    const protocol = url.startsWith('https') ? https : http
+    protocol.get(url, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        file.close()
+        return resolve(downloadFile(res.headers.location, destPath))
+      }
+      res.pipe(file)
+      file.on('finish', () => file.close(resolve))
+    }).on('error', (e) => { fs.unlink(destPath, () => {}); reject(e) })
+  })
+}
+
+// ─── Image API (Flux Kontext) ─────────────────────────────────────────────────
+/**
+ * Submit an image generation job.
+ * @param {string} prompt
+ * @param {{ aspectRatio?: string, outputFormat?: string, model?: string }} opts
+ * @returns {Promise<string>} taskId
+ */
+async function submitImageJob(prompt, opts = {}) {
+  const res = await kieRequestWithRetry('POST', '/flux/kontext/generate', {
+    prompt,
+    model:        opts.model        ?? 'flux-kontext-pro',
+    aspectRatio:  opts.aspectRatio  ?? '1:1',
+    outputFormat: opts.outputFormat ?? 'jpeg',
+  })
+  const taskId = res.data?.taskId
+  if (!taskId) throw new Error('No taskId in image response')
+  return taskId
+}
+
+/**
+ * Poll an image job.
+ * @returns {{ done: boolean, failed: boolean, url: string|null }}
+ */
+async function pollImageJob(taskId) {
+  const res = await kieRequestWithRetry('GET', `/flux/kontext/record-info?taskId=${taskId}`)
+  const d = res.data ?? {}
+  if (d.successFlag === 1) return { done: true, failed: false, url: d.response?.resultImageUrl ?? d.resultImageUrl ?? null }
+  if (d.successFlag === 2 || d.successFlag === 3) return { done: true, failed: true, url: null }
+  return { done: false, failed: false, url: null }
+}
+
+// ─── Video API (Veo3) ─────────────────────────────────────────────────────────
+/**
+ * Submit a Veo3 video clip job.
+ * @returns {Promise<string>} taskId
+ */
+async function submitVideoClip(prompt, opts = {}) {
+  const res = await kieRequestWithRetry('POST', '/veo/generate', {
+    prompt,
+    model:          'veo3',
+    generationType: 'TEXT_2_VIDEO',
+    aspect_ratio:   opts.aspectRatio ?? '16:9',
+    resolution:     opts.resolution  ?? '720p',
+    duration:       opts.duration    ?? 8,
+  })
+  const taskId = res.data?.taskId
+  if (!taskId) throw new Error('No taskId in video response')
+  return taskId
+}
+
+/**
+ * Poll a Veo3 video clip job.
+ * @returns {{ done: boolean, failed: boolean, url: string|null }}
+ */
+async function pollVideoClip(taskId) {
+  const res = await kieRequestWithRetry('GET', `/veo/record-info?taskId=${taskId}`)
+  const d = res.data ?? {}
+  if (d.successFlag === 1 && d.response?.resultUrls?.[0]) {
+    return { done: true, failed: false, url: d.response.resultUrls[0] }
+  }
+  if (d.successFlag === 2 || d.successFlag === 3) return { done: true, failed: true, url: null }
+  return { done: false, failed: false, url: null }
+}
+
+module.exports = {
+  loadEnv,
+  log, warn, err, sleep, slugify,
+  kieRequestWithRetry,
+  downloadFile,
+  submitImageJob,
+  pollImageJob,
+  submitVideoClip,
+  pollVideoClip,
+  RATE_LIMIT_MS,
+}
