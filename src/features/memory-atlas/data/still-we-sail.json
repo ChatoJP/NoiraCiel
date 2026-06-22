@@ -1,0 +1,426 @@
+{
+  "id": "still-we-sail",
+  "title": "Still We Sail",
+  "tagline": "Carrying grief, love and memory across unknown waters",
+  "mood": "Dark but hopeful. Oceanic. Saudade.",
+  "aesthetic": "Atlantic noir — deep blue, salt white, muted gold",
+  "status": "available",
+  "availableShards": ["Salt", "Distance", "Memory", "Tide", "Breath", "Echo", "Silence", "Light", "Song", "Gold"],
+  "levels": [
+    {
+      "id": "the-shore-we-left",
+      "title": "The Shore We Left",
+      "subtitle": "Memory I",
+      "number": 1,
+      "artwork": {
+        "gradient": "radial-gradient(ellipse at 30% 70%, #0d2040 0%, transparent 55%), radial-gradient(ellipse at 75% 40%, #0a1828 0%, transparent 50%), radial-gradient(ellipse at 50% 90%, #162845 0%, transparent 40%), linear-gradient(180deg, #020408 0%, #070e1a 35%, #0d1a2e 65%, #060d18 100%)",
+        "accentColor": "#B8C5D0",
+        "description": "A dark shoreline at the edge of night. The water barely visible beneath layers of mist and departure.",
+        "mood": "The colour of something you cannot name but will carry forever."
+      },
+      "clues": [
+        {
+          "id": "shore-1",
+          "sentence": "We did not choose to leave the shore. The shore left ____.",
+          "answer": "us",
+          "altAnswers": [],
+          "hint": "It was not a choice we made.",
+          "fragment": {
+            "id": "f-shore-1",
+            "type": "lore",
+            "text": "The last moment on land is always ordinary. You don't know it's the last one until you're already gone."
+          },
+          "shardGranted": "Salt",
+          "revealZone": 0
+        },
+        {
+          "id": "shore-2",
+          "sentence": "Grief is love with nowhere ____.",
+          "answer": "to go",
+          "altAnswers": ["go"],
+          "hint": "Love that has lost its direction.",
+          "fragment": {
+            "id": "f-shore-2",
+            "type": "story",
+            "text": "There is no graceful way to begin an exile. You simply step forward, and keep walking until the ground beneath you turns to water."
+          },
+          "revealZone": 1
+        },
+        {
+          "id": "shore-3",
+          "sentence": "The sea does not ask permission. It takes what we ____.",
+          "answer": "hold",
+          "altAnswers": ["love", "carry", "need"],
+          "hint": "What we grip tightest.",
+          "fragment": {
+            "id": "f-shore-3",
+            "type": "lyric",
+            "text": "Not every wound is visible. Some are shaped like an open horizon.",
+            "attribution": "Still We Sail — NoiraCiel"
+          },
+          "revealZone": 2
+        },
+        {
+          "id": "shore-4",
+          "sentence": "Departure is never a single moment. It is a wound that ____.",
+          "answer": "stays",
+          "altAnswers": ["remains", "opens", "never closes", "never heals"],
+          "hint": "Something that does not go away.",
+          "fragment": {
+            "id": "f-shore-4",
+            "type": "lore",
+            "text": "The ones who leave carry the weight of both worlds — the one abandoned, and the one not yet found."
+          },
+          "shardGranted": "Distance",
+          "revealZone": 3
+        },
+        {
+          "id": "ssl1-seq1",
+          "puzzleType": "sequence",
+          "sentence": "Arrange these words to complete the lyric.",
+          "answer": "the sea keeps our names",
+          "hint": "Start with 'the'.",
+          "fragment": {
+            "id": "f-ssl1-seq1",
+            "type": "lyric",
+            "text": "The sea keeps our names long after we forget them.",
+            "attribution": "Still We Sail"
+          },
+          "shardGranted": "Sea",
+          "revealZone": 4
+        },
+        {
+          "id": "ssl1-match1",
+          "puzzleType": "match",
+          "sentence": "\"We carry the shore in our bones, salt and all.\" This lyric speaks to:",
+          "answer": "Grief carried in the body",
+          "options": ["Love of the ocean", "Grief carried in the body", "The joy of departure", "Memory of childhood"],
+          "hint": "Think of what salt and bones represent emotionally.",
+          "fragment": {
+            "id": "f-ssl1-match1",
+            "type": "lore",
+            "text": "Grief is not what we leave behind. It is what we carry forward.",
+            "attribution": "World lore"
+          },
+          "shardGranted": "Salt",
+          "revealZone": 5
+        }
+      ],
+      "completionFragment": {
+        "id": "f-shore-complete",
+        "type": "lore",
+        "text": "This is where the atlas begins. Not with a destination — but with a shore that grew smaller behind you, until it was only light, and then nothing, and then the sea."
+      }
+    },
+    {
+      "id": "what-the-salt-remembers",
+      "title": "What The Salt Remembers",
+      "subtitle": "Memory II",
+      "number": 2,
+      "artwork": {
+        "gradient": "radial-gradient(ellipse at 20% 60%, #0f2540 0%, transparent 50%), radial-gradient(ellipse at 80% 30%, #0a1f38 0%, transparent 45%), radial-gradient(circle at 50% 80%, #1a2f45 0%, transparent 35%), radial-gradient(circle at 60% 20%, #d4dde31a 0%, transparent 30%), linear-gradient(165deg, #030710 0%, #08111e 40%, #0f1d30 70%, #050a14 100%)",
+        "accentColor": "#D4DDE3",
+        "description": "Dark ocean blues with salt-white mist suspended in air. The surface of something very old.",
+        "mood": "The texture of everything you never said, preserved."
+      },
+      "clues": [
+        {
+          "id": "salt-1",
+          "sentence": "Salt preserves everything it touches. This is why the ocean never ____.",
+          "answer": "forgets",
+          "altAnswers": ["ends"],
+          "hint": "What the sea does with all it has witnessed.",
+          "fragment": {
+            "id": "f-salt-1",
+            "type": "lore",
+            "text": "Salt is the oldest memory. The ocean has been holding the same grief since the beginning of water."
+          },
+          "shardGranted": "Memory",
+          "revealZone": 0
+        },
+        {
+          "id": "salt-2",
+          "sentence": "What cannot be said is carried in the body like water between ____.",
+          "answer": "bones",
+          "altAnswers": ["stones", "walls"],
+          "hint": "The structure inside us.",
+          "fragment": {
+            "id": "f-salt-2",
+            "type": "story",
+            "text": "Some things cannot be translated. They can only be lived, then carried — silent — in the body."
+          },
+          "revealZone": 1
+        },
+        {
+          "id": "salt-3",
+          "sentence": "Memory is not a place. It is a ____.",
+          "answer": "tide",
+          "altAnswers": ["wave", "current", "sea"],
+          "hint": "Something that comes and goes without asking.",
+          "fragment": {
+            "id": "f-salt-3",
+            "type": "lyric",
+            "text": "The tide comes in. The tide goes out. Memory works the same way — but never on schedule.",
+            "attribution": "Still We Sail — NoiraCiel"
+          },
+          "shardGranted": "Tide",
+          "revealZone": 2
+        },
+        {
+          "id": "salt-4",
+          "sentence": "I have learned to read the sea the way the blind read ____.",
+          "answer": "faces",
+          "altAnswers": ["hands", "light", "the dark"],
+          "hint": "How we know someone without seeing them.",
+          "fragment": {
+            "id": "f-salt-4",
+            "type": "story",
+            "text": "You learn to read the faces of strangers like a navigator reads currents — searching for the familiar inside the unfamiliar."
+          },
+          "revealZone": 3
+        }
+      ],
+      "completionFragment": {
+        "id": "f-salt-complete",
+        "type": "lore",
+        "text": "The sea keeps everything. Not as objects — but as pressure. As temperature. As the way light bends differently here than it did at home."
+      }
+    },
+    {
+      "id": "the-accordions-promise",
+      "title": "The Accordion's Promise",
+      "subtitle": "Memory III",
+      "number": 3,
+      "artwork": {
+        "gradient": "radial-gradient(ellipse at 50% 55%, #1a0e04 0%, transparent 55%), radial-gradient(ellipse at 25% 70%, #241505 0%, transparent 45%), radial-gradient(circle at 75% 30%, #c4953a1a 0%, transparent 35%), radial-gradient(ellipse at 60% 80%, #180b03 0%, transparent 40%), linear-gradient(180deg, #060304 0%, #0f0805 40%, #180d06 65%, #060304 100%)",
+        "accentColor": "#C4953A",
+        "description": "Warm amber darkness. The colour of old wood and breath and a room where music was played once and never forgotten.",
+        "mood": "This is what saudade looks like when it has found a shape."
+      },
+      "clues": [
+        {
+          "id": "accordion-1",
+          "sentence": "The accordion breathes where words cannot ____.",
+          "answer": "reach",
+          "altAnswers": ["go", "follow", "arrive"],
+          "hint": "The furthest place language fails to find.",
+          "fragment": {
+            "id": "f-accordion-1",
+            "type": "lore",
+            "text": "Before there were words for this feeling, there was the accordion. Breath in. Breath out. The bellows open. A whole country fits inside."
+          },
+          "shardGranted": "Breath",
+          "revealZone": 0
+        },
+        {
+          "id": "accordion-2",
+          "sentence": "Saudade is not sadness. It is the ache of beauty ____.",
+          "answer": "remembered",
+          "altAnswers": ["past", "lost", "gone", "held"],
+          "hint": "When beauty has already happened.",
+          "fragment": {
+            "id": "f-accordion-2",
+            "type": "lore",
+            "text": "Saudade is the word the sea invented for itself. The longing of water for the shore it has already passed."
+          },
+          "revealZone": 1
+        },
+        {
+          "id": "accordion-3",
+          "sentence": "Music does not heal wounds. It teaches wounds to ____.",
+          "answer": "sing",
+          "altAnswers": ["speak", "breathe", "live"],
+          "hint": "What a voice does with pain.",
+          "fragment": {
+            "id": "f-accordion-3",
+            "type": "lyric",
+            "text": "Every wound that heals into music was once a wound that had nowhere else to go.",
+            "attribution": "Still We Sail — NoiraCiel"
+          },
+          "shardGranted": "Echo",
+          "revealZone": 2
+        },
+        {
+          "id": "accordion-4",
+          "sentence": "The bellows open. Somewhere, someone who is gone ____.",
+          "answer": "breathes",
+          "altAnswers": ["returns", "listens", "answers", "lives"],
+          "hint": "What the music makes possible.",
+          "fragment": {
+            "id": "f-accordion-4",
+            "type": "story",
+            "text": "When she played, those who had never left could almost understand what it meant to have lost something that was still there."
+          },
+          "revealZone": 3
+        }
+      ],
+      "completionFragment": {
+        "id": "f-accordion-complete",
+        "type": "lore",
+        "text": "The accordion does not perform grief. It inhabits it. Every note is breath — and breath is the oldest proof that something is still alive."
+      }
+    },
+    {
+      "id": "night-crossing",
+      "title": "Night Crossing",
+      "subtitle": "Memory IV",
+      "number": 4,
+      "artwork": {
+        "gradient": "radial-gradient(ellipse at 50% 45%, #0a1525 0%, transparent 50%), radial-gradient(ellipse at 50% 50%, #06101e 0%, transparent 70%), radial-gradient(ellipse at 50% 30%, #b8c5d00a 0%, transparent 40%), linear-gradient(180deg, #020406 0%, #040b16 30%, #08121e 55%, #040b16 80%, #020406 100%)",
+        "accentColor": "#B8C5D0",
+        "description": "Near-total darkness. A single silver thread of moonlight on water — the only proof there is a surface at all.",
+        "mood": "The colour of trusting something you cannot see."
+      },
+      "clues": [
+        {
+          "id": "night-1",
+          "sentence": "In the middle of the crossing, there is no shore in either ____.",
+          "answer": "direction",
+          "altAnswers": ["sight", "way"],
+          "hint": "What you look toward when lost.",
+          "fragment": {
+            "id": "f-night-1",
+            "type": "lore",
+            "text": "The hardest crossing is not the longest one. It is the one where you cannot see either shore."
+          },
+          "shardGranted": "Silence",
+          "revealZone": 0
+        },
+        {
+          "id": "night-2",
+          "sentence": "Trust is not certainty. It is continuing to move through ____.",
+          "answer": "darkness",
+          "altAnswers": ["dark", "the dark", "night", "the night"],
+          "hint": "What surrounds you when you cannot see.",
+          "fragment": {
+            "id": "f-night-2",
+            "type": "story",
+            "text": "You learn to trust the dark the same way you learned to trust the sea — not because it promised anything, but because there was no other direction."
+          },
+          "revealZone": 1
+        },
+        {
+          "id": "night-3",
+          "sentence": "The stars cannot tell you where you are. Only that you are not ____.",
+          "answer": "alone",
+          "altAnswers": ["lost", "nothing", "gone"],
+          "hint": "What the stars disprove.",
+          "fragment": {
+            "id": "f-night-3",
+            "type": "lyric",
+            "text": "The stars are not a map. They are a reminder: you are still here, still moving. Tonight, that is enough.",
+            "attribution": "Still We Sail — NoiraCiel"
+          },
+          "shardGranted": "Light",
+          "revealZone": 2
+        },
+        {
+          "id": "night-4",
+          "sentence": "Night does not end because you ask it to. It ends because you ____.",
+          "answer": "remained",
+          "altAnswers": ["stayed", "waited", "survived", "continued", "endured"],
+          "hint": "What you did when you wanted to stop.",
+          "fragment": {
+            "id": "f-night-4",
+            "type": "lore",
+            "text": "Night does not defeat those who have already survived something darker."
+          },
+          "revealZone": 3
+        }
+      ],
+      "completionFragment": {
+        "id": "f-night-complete",
+        "type": "lore",
+        "text": "The crossing is almost done. Not because the sea ends — but because you kept moving through the part where it seemed impossible to move."
+      }
+    },
+    {
+      "id": "still-we-sail",
+      "title": "Still We Sail",
+      "subtitle": "Memory V — The Finale",
+      "number": 5,
+      "artwork": {
+        "gradient": "radial-gradient(ellipse at 50% 75%, #c4953a22 0%, transparent 50%), radial-gradient(ellipse at 50% 60%, #1b3a4b 0%, transparent 65%), radial-gradient(ellipse at 30% 40%, #0d1b2a 0%, transparent 45%), radial-gradient(ellipse at 70% 30%, #0a1525 0%, transparent 40%), linear-gradient(180deg, #030610 0%, #0a1628 35%, #162845 60%, #0a1628 80%, #030610 100%)",
+        "accentColor": "#C4953A",
+        "description": "Deep indigo sea and a golden horizon that was not there before — appearing slowly, as if the light itself had been waiting.",
+        "mood": "The colour of choosing to continue."
+      },
+      "clues": [
+        {
+          "id": "sail-1",
+          "sentence": "After grief, after distance, after everything we lost — still we ____.",
+          "answer": "sail",
+          "altAnswers": ["move", "go", "continue"],
+          "hint": "What the album is named for.",
+          "fragment": {
+            "id": "f-sail-1",
+            "type": "lyric",
+            "text": "The ones who keep moving are not always brave. Sometimes they are simply carrying love across water.",
+            "attribution": "Still We Sail — NoiraCiel"
+          },
+          "shardGranted": "Song",
+          "revealZone": 0
+        },
+        {
+          "id": "sail-2",
+          "sentence": "We are not heroes of this crossing. We are simply ____.",
+          "answer": "faithful",
+          "altAnswers": ["here", "moving", "still", "present", "alive"],
+          "hint": "Not heroism — something quieter.",
+          "fragment": {
+            "id": "f-sail-2",
+            "type": "story",
+            "text": "We are not heroes of this story. We are the water itself — shaped by everything it has passed through, still moving forward."
+          },
+          "revealZone": 1
+        },
+        {
+          "id": "sail-3",
+          "sentence": "The atlas is not a map of places. It is a map of ____.",
+          "answer": "memories",
+          "altAnswers": ["feeling", "loss", "love", "grief", "longing"],
+          "hint": "What this atlas holds.",
+          "fragment": {
+            "id": "f-sail-3",
+            "type": "lore",
+            "text": "This atlas is not complete. It was never meant to be. A memory atlas grows with every crossing."
+          },
+          "revealZone": 2
+        },
+        {
+          "id": "sail-4",
+          "sentence": "What we carry becomes who we ____.",
+          "answer": "are",
+          "altAnswers": ["become", "were"],
+          "hint": "Our identity, formed by weight.",
+          "fragment": {
+            "id": "f-sail-4",
+            "type": "lyric",
+            "text": "What we carry becomes who we are. What we sail toward becomes what we leave behind.",
+            "attribution": "Still We Sail — NoiraCiel"
+          },
+          "revealZone": 3
+        },
+        {
+          "id": "sail-5",
+          "sentence": "We sail not because the sea is safe. We sail because the sea is ____.",
+          "answer": "ours",
+          "altAnswers": ["home", "true", "real", "all we have"],
+          "hint": "What belongs to those who dare it.",
+          "fragment": {
+            "id": "f-sail-5",
+            "type": "lore",
+            "text": "Still we sail. Not because the sea ends. But because the sailing is the answer."
+          },
+          "shardGranted": "Gold",
+          "revealZone": 4
+        }
+      ],
+      "completionFragment": {
+        "id": "f-sail-complete",
+        "type": "lore",
+        "text": "You have crossed the Still We Sail memory. All five memories unlocked. All shards collected. The atlas grows. The sea continues. So do you."
+      }
+    }
+  ]
+}

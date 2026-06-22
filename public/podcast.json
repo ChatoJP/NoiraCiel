@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ep-001-why",
+    "title": "Why — The Question Behind the Album",
+    "slug": "why-the-question",
+    "description": "The story of how one unanswered question became seventeen songs. Jorge talks about the moment he decided to write The Life Lessons I Hope You Learn and why the word 'Why' is both the first song and the only honest title.",
+    "audioUrl": null,
+    "duration": "24:32",
+    "publishedAt": "2026-05-01",
+    "coverUrl": "/images/song-art/why.jpg"
+  },
+  {
+    "id": "ep-002-roots",
+    "title": "The Roots We Cannot See — On Ancestors and Inheritance",
+    "slug": "the-roots-we-cannot-see-commentary",
+    "description": "A meditation on what we receive from people we never met. Jorge reads the full lyric, then speaks about the Atlantic crossing, the silences in family history, and what it means to carry something you don't fully understand.",
+    "audioUrl": null,
+    "duration": "18:44",
+    "publishedAt": "2026-05-15",
+    "coverUrl": "/images/song-art/the-roots-we-cannot-see.jpg"
+  },
+  {
+    "id": "ep-003-empty-chair",
+    "title": "The Empty Chair — Writing About Absence",
+    "slug": "the-empty-chair-commentary",
+    "description": "On grief, dinner tables and the specific architecture of absence. This episode is an extended audio essay about what it feels like to write a song you cannot perform without breaking.",
+    "audioUrl": null,
+    "duration": "31:10",
+    "publishedAt": "2026-06-01",
+    "coverUrl": "/images/song-art/the-empty-chair.jpg"
+  }
+]

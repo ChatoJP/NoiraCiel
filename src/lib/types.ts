@@ -1,3 +1,33 @@
+export type GhostInstrument =
+  | 'piano' | 'guitar' | 'drums' | 'bass'
+  | 'strings' | 'orchestra' | 'synth' | 'choir' | 'energy'
+
+export interface GhostPerformanceMeta {
+  enabled: boolean
+  mode: 'auto' | GhostInstrument
+  primaryInstrument: GhostInstrument
+  secondaryInstruments?: GhostInstrument[]
+  inputPriority?: Array<'midi' | 'stems' | 'audio'>
+  visualStyle?: 'noir-cinematic' | 'dark-minimal' | 'atmospheric'
+  accentColor?: 'blue-gold' | 'gold-white' | 'blue-silver' | 'red-gold' | 'green-blue'
+  showInstrument?: boolean
+  showParticles?: boolean
+  showWaveform?: boolean
+  cameraMode?: 'static' | 'slow-pan' | 'close-up'
+  midiPath?: string
+  stems?: {
+    drums?: string
+    bass?: string
+    piano?: string
+    guitar?: string
+    vocals?: string
+    strings?: string
+    synth?: string
+    brass?: string
+    choir?: string
+  }
+}
+
 export interface Track {
   id: string
   title: string
@@ -5,6 +35,7 @@ export interface Track {
   slug: string
   trackNumber: number | null
   albumCode: string | null
+  albumSlug: string | null      // 'main' for root files; slugified subdir name for others
   duration: number | null
   durationFormatted: string
   format: string
@@ -25,6 +56,14 @@ export interface Track {
   chapterBannerUrl: string | null
   // Rendered lyric video (public/Videos/lyrics/{slug}.mp4)
   lyricVideoUrl: string | null
+  // Full music video (R2: generated/kie/music-videos/{slug}.mp4)
+  musicVideoUrl: string | null
+  // Song metadata badges
+  bpm?: number
+  songKey?: string
+  season?: string
+  // Ghost Performance Engine metadata
+  ghostPerformance?: GhostPerformanceMeta
 }
 
 export interface SongChapter {

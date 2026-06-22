@@ -1,0 +1,227 @@
+{
+  "songId": "hd-12-leave-a-light-onwav",
+  "slug": "leave-a-light-on",
+  "title": "Leave A Light On",
+  "album": "The Life Lessons I Hope You Learn",
+  "albumSlug": "the-life-lessons",
+  "albumCode": "HD",
+  "trackNumber": 12,
+  "artist": "NoiraCiel",
+  "duration": 224.91997916666668,
+  "durationFormatted": "3:44",
+  "mood": "intimate · emotional · Atlantic soul · human dignity · searching",
+  "style": "piano-led · fingerpicked guitar · intimate soul · cinematic sweep",
+  "hasLyrics": true,
+  "lyricsExcerpt": "I know you'll have your own roads, your own storms to outrun\r / You'll chase a thousand sunsets before your day is done\r / You'll make mistakes like I did. You'll learn what I learned wrong\r / And you'll find your own reasons to keep moving on\r",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/leave-a-light-on.json",
+  "storyPath": "public/Books/stories/leave-a-light-on.pdf",
+  "artworkPath": "public/images/song-art/leave-a-light-on.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/leave-a-light-on.jpg",
+  "audioUrl": "/api/audio/hd_12%20-%20Leave%20A%20Light%20On.wav",
+  "emotion": "The lit window as love's most silent language — a mother's vigil made visible.",
+  "scene": "A single window lit from inside, seen from the dark outside. A silhouette visible behind the glass, waiting. The moment a door opens from inside and warm light spills onto cold stone.",
+  "symbols": "lit window, dark exterior, silhouette, waiting, warm light on cold stone",
+  "arc": [
+    "The exterior — dark, cold, one lit window",
+    "The silhouette — waiting, patient, faithful",
+    "The door opening — warm light flooding out"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the light source — a single candle or lamp pulses with one slow organic breath, brightness +5% then back, surrounding darkness completely unchanged. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "light_flicker",
+      "sourceImagePath": "public/images/song-art/leave-a-light-on.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/leave-a-light-on.jpg",
+      "videoLoopPath": null,
+      "publicUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/leave-a-light-on/loop.mp4",
+      "taskId": "5fa731c678a7c1b73d78d693ed3676e9",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:42:33.739Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "a single light source pulses with slow organic warmth, a breath-like rhythm, surrounding darkness unchanged. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      },
+      "remoteUrl": null,
+      "localPath": null,
+      "r2Url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/leave-a-light-on/loop.mp4"
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"Leave A Light On\" from album \"The Life Lessons I Hope You Learn\".\nShot role: opening.\nScene: The exterior — dark, cold, one lit window.\nCamera: slow push-in. Framing: wide establishing.\nMood: The lit window as love's most silent language — a mother's vigil made visible..\nVisual symbols: lit window, dark exterior, silhouette, waiting, warm light on cold stone.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/leave-a-light-on/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "intimate",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"Leave A Light On\" from album \"The Life Lessons I Hope You Learn\".\nShot role: intimate.\nScene: The silhouette — waiting, patient, faithful.\nCamera: locked close-up. Framing: hands or face detail.\nMood: The lit window as love's most silent language — a mother's vigil made visible..\nVisual symbols: lit window, dark exterior, silhouette, waiting, warm light on cold stone.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/leave-a-light-on/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "memory",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"Leave A Light On\" from album \"The Life Lessons I Hope You Learn\".\nShot role: memory.\nScene: The door opening — warm light flooding out.\nCamera: gentle dolly or overhead. Framing: symbolic object.\nMood: The lit window as love's most silent language — a mother's vigil made visible..\nVisual symbols: lit window, dark exterior, silhouette, waiting, warm light on cold stone.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/leave-a-light-on/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "turning",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"Leave A Light On\" from album \"The Life Lessons I Hope You Learn\".\nShot role: turning.\nScene: A single window lit from inside, seen from the dark outside.\nCamera: slow rack focus. Framing: two planes of depth.\nMood: The lit window as love's most silent language — a mother's vigil made visible..\nVisual symbols: lit window, dark exterior, silhouette, waiting, warm light on cold stone.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/leave-a-light-on/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"Leave A Light On\" from album \"The Life Lessons I Hope You Learn\".\nShot role: closing.\nScene:  A silhouette visible behind the glass, waiting.\nCamera: slow pull-back. Framing: wide, figure small in frame.\nMood: The lit window as love's most silent language — a mother's vigil made visible..\nVisual symbols: lit window, dark exterior, silhouette, waiting, warm light on cold stone.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/leave-a-light-on/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"Leave A Light On\" (The Life Lessons I Hope You Learn). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: The lit window as love's most silent language — a mother's vigil made visible.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/leave-a-light-on/film.mp4",
+      "publicUrl": "/generated/kie/films/leave-a-light-on/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"Leave A Light On.\"\nChapter 12 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: The lit window as love's most silent language — a mother's vigil made visible.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. lit window, dark exterior, silhouette, waiting, warm light on cold stone. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"I know you'll have your own roads, your own storms to outrun\r / You'll chase a thousand sunsets before your day is done.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/leave-a-light-on/script.txt",
+      "voicePath": "public/generated/kie/commentary/leave-a-light-on/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/leave-a-light-on/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/leave-a-light-on/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"Leave A Light On.\"\nChapter 12 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: The lit window as love's most silent language — a mother's vigil made visible.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. lit window, dark exterior, silhouette, waiting, warm light on cold stone. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"I know you'll have your own roads, your own storms to outrun\r / You'll chase a thousand sunsets before your day is done.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/leave-a-light-on/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "Chapter 12: Leave A Light On.\nFrom the album \"The Life Lessons I Hope You Learn\".\nI know you'll have your own roads, your own storms to outrun\r / You'll chase a thousand sunsets before your day is done\r / You'll make mistakes like I did. You'll learn what I learned wrong\r / And you'll find your own reasons to keep moving on\r\n— The lit window as love's most silent language — a mother's vigil made visible.",
+      "narrationPath": "public/generated/kie/audiobook/leave-a-light-on/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/leave-a-light-on/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/leave-a-light-on/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/leave-a-light-on/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"Leave A Light On\". Style: ambient piano, sparse strings, Atlantic soul, gentle breathing room. Mood: The lit window as love's most silent language — a mother's vigil made visible.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: The lit window as love's most silent language — a mother's vigil made visible..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "Chapter 12: Leave A Light On.\nFrom the album \"The Life Lessons I Hope You Learn\".\nI know you'll have your own roads, your own storms to outrun\r / You'll chase a thousand sunsets before your day is done\r / You'll make mistakes like I did. You'll learn what I learned wrong\r / And you'll find your own reasons to keep moving on\r\n— The lit window as love's most silent language — a mother's vigil made visible.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, ambient piano, sparse strings, Atlantic soul, gentle breathing room. The lit window as love's most silent language — a mother's vigil made visible.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "ambient piano, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.036Z",
+  "updatedAt": "2026-06-15T18:42:33.739Z"
+}

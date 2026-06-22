@@ -1,0 +1,564 @@
+{
+  "videos": [
+    {
+      "trackId": "still-we-sail",
+      "albumSlug": "still-we-sail",
+      "title": "Still We Sail",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/still-we-sail.mp4",
+      "thumbnail": "/images/song-art/still-we-sail.jpg",
+      "duration": "4:17",
+      "description": "32 cinemagraph scenes · Veo3 · Atlantic Noir visual identity",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-empty-chair",
+      "albumSlug": "main",
+      "title": "The Empty Chair",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-empty-chair.mp4",
+      "thumbnail": "/images/song-art/the-empty-chair.jpg",
+      "duration": "4:25",
+      "description": "34 cinemagraph scenes · Veo3",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "leave-a-light-on",
+      "albumSlug": "main",
+      "title": "Leave A Light On",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/leave-a-light-on.mp4",
+      "thumbnail": "/images/song-art/leave-a-light-on.jpg",
+      "duration": "3:45",
+      "description": "29 cinemagraph scenes · Veo3",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "why",
+      "albumSlug": "main",
+      "title": "Why",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/why.mp4",
+      "thumbnail": "/images/song-art/why.jpg",
+      "duration": "5:15",
+      "description": "40 cinemagraph scenes · Veo3",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "always-in-your-corner",
+      "albumSlug": "main",
+      "title": "Always In Your Corner",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/always-in-your-corner.mp4",
+      "thumbnail": "/images/song-art/always-in-your-corner.jpg",
+      "duration": "4:27",
+      "description": "34 cinemagraph scenes · Veo3",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "borrowed-time",
+      "albumSlug": "main",
+      "title": "Borrowed Time",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/borrowed-time.mp4",
+      "thumbnail": "/images/song-art/borrowed-time.jpg",
+      "duration": "4:04",
+      "description": "30 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "a-body-made-of-night",
+      "albumSlug": "still-we-sail",
+      "title": "A Body Made Of Night",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/a-body-made-of-night.mp4",
+      "thumbnail": "/images/song-art/a-body-made-of-night.jpg",
+      "duration": "4:47",
+      "description": "34 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "accordion-heart",
+      "albumSlug": "velvet-machine",
+      "title": "Accordion Heart",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/accordion-heart.mp4",
+      "thumbnail": "/images/song-art/accordion-heart.jpg",
+      "duration": "3:40",
+      "description": "27 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "all-the-water-between",
+      "albumSlug": "still-we-sail",
+      "title": "All The Water Between",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/all-the-water-between.mp4",
+      "thumbnail": "/images/song-art/all-the-water-between.jpg",
+      "duration": "3:49",
+      "description": "28 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "as-long-as-youre-okay",
+      "albumSlug": "main",
+      "title": "As Long As Youre Okay",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/as-long-as-youre-okay.mp4",
+      "thumbnail": "/images/song-art/as-long-as-youre-okay.jpg",
+      "duration": "3:48",
+      "description": "28 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "atlantic-nocturne",
+      "albumSlug": "still-we-sail",
+      "title": "Atlantic Nocturne",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/atlantic-nocturne.mp4",
+      "thumbnail": "/images/song-art/atlantic-nocturne.jpg",
+      "duration": "4:32",
+      "description": "33 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "blood-on-the-hallelujah",
+      "albumSlug": "jazz",
+      "title": "Blood On The Hallelujah",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/blood-on-the-hallelujah.mp4",
+      "thumbnail": "/images/song-art/blood-on-the-hallelujah.jpg",
+      "duration": "5:50",
+      "description": "41 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "carry-you-home",
+      "albumSlug": "jazz",
+      "title": "Carry You Home",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/carry-you-home.mp4",
+      "thumbnail": "/images/song-art/carry-you-home.jpg",
+      "duration": "6:03",
+      "description": "43 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "contra-bass-confession",
+      "albumSlug": "velvet-machine",
+      "title": "Contra Bass Confession",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/contra-bass-confession.mp4",
+      "thumbnail": "/images/song-art/contra-bass-confession.jpg",
+      "duration": "3:46",
+      "description": "28 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "exile-body",
+      "albumSlug": "still-we-sail",
+      "title": "Exile Body",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/exile-body.mp4",
+      "thumbnail": "/images/song-art/exile-body.jpg",
+      "duration": "3:33",
+      "description": "26 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "free-men-tell-the-truth",
+      "albumSlug": "main",
+      "title": "Free Men Tell The Truth",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/free-men-tell-the-truth.mp4",
+      "thumbnail": "/images/song-art/free-men-tell-the-truth.jpg",
+      "duration": "4:10",
+      "description": "30 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "good-things-grow-slow",
+      "albumSlug": "main",
+      "title": "Good Things Grow Slow",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/good-things-grow-slow.mp4",
+      "thumbnail": "/images/song-art/good-things-grow-slow.jpg",
+      "duration": "3:35",
+      "description": "26 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "grief-in-different-latitudes",
+      "albumSlug": "still-we-sail",
+      "title": "Grief In Different Latitudes",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/grief-in-different-latitudes.mp4",
+      "thumbnail": "/images/song-art/grief-in-different-latitudes.jpg",
+      "duration": "2:32",
+      "description": "19 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "hard-techno-prayer",
+      "albumSlug": "velvet-machine",
+      "title": "Hard Techno Prayer",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/hard-techno-prayer.mp4",
+      "thumbnail": "/images/song-art/hard-techno-prayer.jpg",
+      "duration": "4:16",
+      "description": "31 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "i-chose-the-open",
+      "albumSlug": "still-we-sail",
+      "title": "I Chose The Open",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/i-chose-the-open.mp4",
+      "thumbnail": "/images/song-art/i-chose-the-open.jpg",
+      "duration": "4:29",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "i-never-knew-any-other-way",
+      "albumSlug": "main",
+      "title": "I Never Knew Any Other Way",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/i-never-knew-any-other-way.mp4",
+      "thumbnail": "/images/song-art/i-never-knew-any-other-way.jpg",
+      "duration": "4:40",
+      "description": "34 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "if-we-cant-say-the-hard-truths",
+      "albumSlug": "main",
+      "title": "If We Cant Say The Hard Truths",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/if-we-cant-say-the-hard-truths.mp4",
+      "thumbnail": "/images/song-art/if-we-cant-say-the-hard-truths.jpg",
+      "duration": "4:28",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "it-was-already-there",
+      "albumSlug": "main",
+      "title": "It Was Already There",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/it-was-already-there.mp4",
+      "thumbnail": "/images/song-art/it-was-already-there.jpg",
+      "duration": "4:33",
+      "description": "33 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "its-not-always-easy",
+      "albumSlug": "jazz",
+      "title": "Its Not Always Easy",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/its-not-always-easy.mp4",
+      "thumbnail": "/images/song-art/its-not-always-easy.jpg",
+      "duration": "7:59",
+      "description": "56 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "keep-a-chair-for-you",
+      "albumSlug": "jazz",
+      "title": "Keep A Chair For You",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/keep-a-chair-for-you.mp4",
+      "thumbnail": "/images/song-art/keep-a-chair-for-you.jpg",
+      "duration": "7:59",
+      "description": "56 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "letters-never-crossed",
+      "albumSlug": "still-we-sail",
+      "title": "Letters Never Crossed",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/letters-never-crossed.mp4",
+      "thumbnail": "/images/song-art/letters-never-crossed.jpg",
+      "duration": "3:47",
+      "description": "28 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "lisbon-is-not-a-city-it-is-a-wound",
+      "albumSlug": "velvet-machine",
+      "title": "Lisbon Is Not A City It Is A Wound",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/lisbon-is-not-a-city-it-is-a-wound.mp4",
+      "thumbnail": "/images/song-art/lisbon-is-not-a-city-it-is-a-wound.jpg",
+      "duration": "4:02",
+      "description": "29 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "maybe-i-was-wrong",
+      "albumSlug": "main",
+      "title": "Maybe I Was Wrong",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/maybe-i-was-wrong.mp4",
+      "thumbnail": "/images/song-art/maybe-i-was-wrong.jpg",
+      "duration": "3:03",
+      "description": "23 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "mercy-wears-a-black-coat",
+      "albumSlug": "jazz",
+      "title": "Mercy Wears A Black Coat",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/mercy-wears-a-black-coat.mp4",
+      "thumbnail": "/images/song-art/mercy-wears-a-black-coat.jpg",
+      "duration": "4:55",
+      "description": "35 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "no-one-leaves-the-night-unchanged",
+      "albumSlug": "velvet-machine",
+      "title": "No One Leaves The Night Unchanged",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/no-one-leaves-the-night-unchanged.mp4",
+      "thumbnail": "/images/song-art/no-one-leaves-the-night-unchanged.jpg",
+      "duration": "4:48",
+      "description": "35 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "salt-gospel",
+      "albumSlug": "still-we-sail",
+      "title": "Salt Gospel",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/salt-gospel.mp4",
+      "thumbnail": "/images/song-art/salt-gospel.jpg",
+      "duration": "3:26",
+      "description": "25 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "saudade-has-a-weight",
+      "albumSlug": "still-we-sail",
+      "title": "Saudade Has A Weight",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/saudade-has-a-weight.mp4",
+      "thumbnail": "/images/song-art/saudade-has-a-weight.jpg",
+      "duration": "4:28",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "saxophone-for-the-damned-and-the-loved",
+      "albumSlug": "velvet-machine",
+      "title": "Saxophone For The Damned And The Loved",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/saxophone-for-the-damned-and-the-loved.mp4",
+      "thumbnail": "/images/song-art/saxophone-for-the-damned-and-the-loved.jpg",
+      "duration": "3:42",
+      "description": "27 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "she-dances-like-a-memory",
+      "albumSlug": "velvet-machine",
+      "title": "She Dances Like A Memory",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/she-dances-like-a-memory.mp4",
+      "thumbnail": "/images/song-art/she-dances-like-a-memory.jpg",
+      "duration": "4:08",
+      "description": "30 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "she-who-stayed-behind",
+      "albumSlug": "still-we-sail",
+      "title": "She Who Stayed Behind",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/she-who-stayed-behind.mp4",
+      "thumbnail": "/images/song-art/she-who-stayed-behind.jpg",
+      "duration": "4:21",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "still-human-after-all-this-noise",
+      "albumSlug": "velvet-machine",
+      "title": "Still Human After All This Noise",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/still-human-after-all-this-noise.mp4",
+      "thumbnail": "/images/song-art/still-human-after-all-this-noise.jpg",
+      "duration": "4:13",
+      "description": "31 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "still-we-sail-to-light",
+      "albumSlug": "still-we-sail",
+      "title": "Still We Sail To Light",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/still-we-sail-to-light.mp4",
+      "thumbnail": "/images/song-art/still-we-sail-to-light.jpg",
+      "duration": "3:36",
+      "description": "27 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "still-worth-it",
+      "albumSlug": "main",
+      "title": "Still Worth It",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/still-worth-it.mp4",
+      "thumbnail": "/images/song-art/still-worth-it.jpg",
+      "duration": "4:20",
+      "description": "31 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-accordion-breathes",
+      "albumSlug": "velvet-machine",
+      "title": "The Accordion Breathes",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-accordion-breathes.mp4",
+      "thumbnail": "/images/song-art/the-accordion-breathes.jpg",
+      "duration": "3:36",
+      "description": "26 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-future-has-an-accent",
+      "albumSlug": "velvet-machine",
+      "title": "The Future Has An Accent",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-future-has-an-accent.mp4",
+      "thumbnail": "/images/song-art/the-future-has-an-accent.jpg",
+      "duration": "4:23",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-girl-with-the-cello-scar",
+      "albumSlug": "velvet-machine",
+      "title": "The Girl With The Cello Scar",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-girl-with-the-cello-scar.mp4",
+      "thumbnail": "/images/song-art/the-girl-with-the-cello-scar.jpg",
+      "duration": "4:01",
+      "description": "29 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-heart-comes-home-at-night",
+      "albumSlug": "jazz",
+      "title": "The Heart Comes Home At Night",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-heart-comes-home-at-night.mp4",
+      "thumbnail": "/images/song-art/the-heart-comes-home-at-night.jpg",
+      "duration": "6:47",
+      "description": "48 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-house-we-couldnt-leave",
+      "albumSlug": "main",
+      "title": "The House We Couldnt Leave",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-house-we-couldnt-leave.mp4",
+      "thumbnail": "/images/song-art/the-house-we-couldnt-leave.jpg",
+      "duration": "4:28",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-port-we-cannot-find",
+      "albumSlug": "still-we-sail",
+      "title": "The Port We Cannot Find",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-port-we-cannot-find.mp4",
+      "thumbnail": "/images/song-art/the-port-we-cannot-find.jpg",
+      "duration": "4:05",
+      "description": "30 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-river-knows-your-name",
+      "albumSlug": "jazz",
+      "title": "The River Knows Your Name",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-river-knows-your-name.mp4",
+      "thumbnail": "/images/song-art/the-river-knows-your-name.jpg",
+      "duration": "7:59",
+      "description": "56 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-roots-we-cannot-see",
+      "albumSlug": "main",
+      "title": "The Roots We Cannot See",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-roots-we-cannot-see.mp4",
+      "thumbnail": "/images/song-art/the-roots-we-cannot-see.jpg",
+      "duration": "4:38",
+      "description": "33 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-saints-go-clubbing",
+      "albumSlug": "velvet-machine",
+      "title": "The Saints Go Clubbing",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-saints-go-clubbing.mp4",
+      "thumbnail": "/images/song-art/the-saints-go-clubbing.jpg",
+      "duration": "3:54",
+      "description": "28 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-sea-keeps-our-names",
+      "albumSlug": "still-we-sail",
+      "title": "The Sea Keeps Our Names",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-sea-keeps-our-names.mp4",
+      "thumbnail": "/images/song-art/the-sea-keeps-our-names.jpg",
+      "duration": "3:38",
+      "description": "27 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-truth-has-teeth",
+      "albumSlug": "jazz",
+      "title": "The Truth Has Teeth",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-truth-has-teeth.mp4",
+      "thumbnail": "/images/song-art/the-truth-has-teeth.jpg",
+      "duration": "5:47",
+      "description": "41 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-velvet-machine",
+      "albumSlug": "velvet-machine",
+      "title": "The Velvet Machine",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-velvet-machine.mp4",
+      "thumbnail": "/images/song-art/the-velvet-machine.jpg",
+      "duration": "3:59",
+      "description": "29 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "the-woman-beside-the-fire",
+      "albumSlug": "jazz",
+      "title": "The Woman Beside The Fire",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/the-woman-beside-the-fire.mp4",
+      "thumbnail": "/images/song-art/the-woman-beside-the-fire.jpg",
+      "duration": "7:59",
+      "description": "56 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "velvet-bruises",
+      "albumSlug": "velvet-machine",
+      "title": "Velvet Bruises",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/velvet-bruises.mp4",
+      "thumbnail": "/images/song-art/velvet-bruises.jpg",
+      "duration": "3:26",
+      "description": "25 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "what-fado-holds",
+      "albumSlug": "still-we-sail",
+      "title": "What Fado Holds",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/what-fado-holds.mp4",
+      "thumbnail": "/images/song-art/what-fado-holds.jpg",
+      "duration": "3:44",
+      "description": "27 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "when-the-machines-learn-saudade",
+      "albumSlug": "velvet-machine",
+      "title": "When The Machines Learn Saudade",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/when-the-machines-learn-saudade.mp4",
+      "thumbnail": "/images/song-art/when-the-machines-learn-saudade.jpg",
+      "duration": "4:27",
+      "description": "32 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "who-wins-if-i-win",
+      "albumSlug": "main",
+      "title": "Who Wins If I Win",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/who-wins-if-i-win.mp4",
+      "thumbnail": "/images/song-art/who-wins-if-i-win.jpg",
+      "duration": "5:18",
+      "description": "38 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    },
+    {
+      "trackId": "side-by-side",
+      "albumSlug": "main",
+      "title": "Side by Side",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/music-videos/side-by-side.mp4",
+      "thumbnail": "/images/song-art/side-by-side.jpg",
+      "duration": "4:51",
+      "description": "35 cinematic scenes",
+      "publishedAt": "2026-06-15"
+    }
+  ]
+}

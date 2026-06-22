@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 const contactTypes = [
   { value: 'booking', label: 'Booking' },
@@ -13,6 +13,11 @@ export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', type: 'booking', subject: '', message: '' })
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [errorMsg, setErrorMsg] = useState('')
+  const successRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (status === 'success') successRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }, [status])
 
   const update = (k: string, v: string) => setForm((f) => ({ ...f, [k]: v }))
 
@@ -41,7 +46,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 px-6">
+    <section id="contact" className="py-14 md:py-20 lg:py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           {/* Left */}
@@ -74,7 +79,7 @@ export default function Contact() {
           {/* Right: Form */}
           <div>
             {status === 'success' ? (
-              <div className="border border-noir-silver/10 p-12 flex flex-col items-center text-center">
+              <div ref={successRef} className="border border-noir-silver/10 p-12 flex flex-col items-center text-center">
                 <div className="w-12 h-12 rounded-full border border-noir-gold/40 flex items-center justify-center mb-6">
                   <svg className="w-5 h-5 text-noir-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 13l4 4L19 7" />

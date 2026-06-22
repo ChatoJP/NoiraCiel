@@ -1,0 +1,31 @@
+{
+  "worlds": [
+    {
+      "id": "still-we-sail",
+      "title": "Still We Sail",
+      "tagline": "Carrying grief, love and memory across unknown waters",
+      "mood": "Dark but hopeful. Oceanic. Saudade.",
+      "status": "available",
+      "totalLevels": 5,
+      "availableShards": ["Salt", "Distance", "Memory", "Tide", "Breath", "Echo", "Silence", "Light", "Song", "Gold"]
+    },
+    {
+      "id": "blind-angel",
+      "title": "Blind Angel",
+      "tagline": "A world yet to surface from darkness",
+      "mood": "...",
+      "status": "coming-soon",
+      "totalLevels": 0,
+      "availableShards": []
+    },
+    {
+      "id": "jazz-sessions",
+      "title": "Jazz Sessions",
+      "tagline": "Late-night rooms where memory improvises",
+      "mood": "...",
+      "status": "coming-soon",
+      "totalLevels": 0,
+      "availableShards": []
+    }
+  ]
+}

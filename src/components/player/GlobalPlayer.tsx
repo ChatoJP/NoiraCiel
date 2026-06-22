@@ -1,9 +1,11 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, lazy, Suspense } from 'react'
 import { useAudio } from '@/context/AudioContext'
 import { formatDuration } from '@/lib/formatters'
 import { TrackCover } from './TrackCard'
+
+const TurntablePlayer = lazy(() => import('./TurntablePlayer'))
 
 function ProgressBar() {
   const { currentTime, duration, seek } = useAudio()
@@ -19,7 +21,7 @@ function ProgressBar() {
         onChange={(e) => seek(Number(e.target.value))}
         className="w-full h-1 cursor-pointer"
         style={{
-          background: `linear-gradient(to right, #C4953A ${pct}%, rgba(184,197,208,0.15) ${pct}%)`,
+          background: `linear-gradient(to right, rgb(var(--t-accent-rgb)) ${pct}%, rgba(184,197,208,0.15) ${pct}%)`,
           borderRadius: 0,
         }}
       />
@@ -57,148 +59,291 @@ function VolumeControl() {
         onChange={(e) => setVolume(Number(e.target.value))}
         className="flex-1"
         style={{
-          background: `linear-gradient(to right, #C4953A ${displayVol * 100}%, rgba(184,197,208,0.15) ${displayVol * 100}%)`,
+          background: `linear-gradient(to right, rgb(var(--t-accent-rgb)) ${displayVol * 100}%, rgba(184,197,208,0.15) ${displayVol * 100}%)`,
         }}
       />
     </div>
   )
 }
 
+// G81: session listening history (last 5 songs)
+const SESSION_HISTORY_KEY = 'nr-session-history'
+
+function pushHistory(title: string, slug: string) {
+  try {
+    const prev: { title: string; slug: string }[] = JSON.parse(sessionStorage.getItem(SESSION_HISTORY_KEY) || '[]')
+    const filtered = prev.filter(e => e.slug !== slug)
+    const next = [{ title, slug }, ...filtered].slice(0, 5)
+    sessionStorage.setItem(SESSION_HISTORY_KEY, JSON.stringify(next))
+  } catch { /* SSR / blocked */ }
+}
+
+function useSessionHistory() {
+  const [history, setHistory] = useState<{ title: string; slug: string }[]>([])
+  useEffect(() => {
+    try {
+      setHistory(JSON.parse(sessionStorage.getItem(SESSION_HISTORY_KEY) || '[]'))
+    } catch { /* blocked */ }
+  }, [])
+  return history
+}
+
+// ── Keyboard shortcut overlay ─────────────────────────────────────────────────
+
+function ShortcutOverlay({ onClose }: { onClose: () => void }) {
+  const SHORTCUTS = [
+    ['Space',  'Play / Pause'],
+    ['←',      'Seek back 10 seconds'],
+    ['→',      'Seek forward 10 seconds'],
+    ['M',      'Toggle mute'],
+    ['?',      'Show / hide shortcuts'],
+  ]
+  const history = useSessionHistory()
+  return (
+    <div
+      className="fixed inset-0 z-[300] flex items-center justify-center"
+      onClick={onClose}
+    >
+      <div className="absolute inset-0 bg-noir-void/80 backdrop-blur-sm" />
+      <div
+        className="relative glass border border-noir-silver/10 p-8 max-w-sm w-full mx-4"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h2 className="font-heading text-lg text-noir-ivory mb-6 tracking-wide">
+          Keyboard Shortcuts
+        </h2>
+        <div className="space-y-3">
+          {SHORTCUTS.map(([key, desc]) => (
+            <div key={key} className="flex items-center justify-between gap-4">
+              <span className="font-body text-xs text-noir-silver/60">{desc}</span>
+              <kbd className="font-body text-xs px-2 py-1 bg-noir-silver/10 text-noir-ivory border border-noir-silver/20 flex-shrink-0 min-w-[2rem] text-center">
+                {key}
+              </kbd>
+            </div>
+          ))}
+        </div>
+        {/* G81: recent history */}
+        {history.length > 0 && (
+          <div className="mt-6 pt-5 border-t border-noir-silver/10">
+            <p className="font-body text-[9px] tracking-[0.3em] uppercase text-noir-silver/30 mb-3">Recently played</p>
+            {history.map(h => (
+              <p key={h.slug} className="font-body text-xs text-noir-silver/50 truncate py-0.5">{h.title}</p>
+            ))}
+          </div>
+        )}
+        <button
+          onClick={onClose}
+          className="mt-6 w-full font-body text-xs tracking-[0.2em] uppercase text-noir-silver/40 hover:text-noir-ivory transition-colors"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  )
+}
+
+// G78: liked songs hook
+function useLiked(slug: string | undefined) {
+  const key = slug ? `nr-liked-${slug}` : null
+  const [liked, setLiked] = useState(false)
+  useEffect(() => {
+    if (key) setLiked(!!localStorage.getItem(key))
+  }, [key])
+  const toggle = () => {
+    if (!key) return
+    const next = !liked
+    if (next) localStorage.setItem(key, '1')
+    else localStorage.removeItem(key)
+    setLiked(next)
+  }
+  return [liked, toggle] as const
+}
+
 export default function GlobalPlayer() {
   const {
-    currentTrack, isPlaying, isLoading, isShuffled, repeatMode,
-    currentTime, duration, toggle, next, prev, toggleShuffle, toggleRepeat,
+    currentTrack, isPlaying, isLoading,
+    currentTime, duration,
+    toggle, next, prev, toggleMute, seek,
+    playlist, currentIndex,
   } = useAudio()
 
-  const [expanded, setExpanded] = useState(false)
+  const [expanded, setExpanded]         = useState(false)
+  const [showShortcuts, setShortcuts]   = useState(false)
+  const [mobileSheet, setMobileSheet]   = useState(false)
+  const prevSlugRef = useRef<string | null>(null)
+  const touchStartRef = useRef<number | null>(null)
+  const [liked, toggleLike] = useLiked(currentTrack?.slug)
+
+  // Auto-open turntable whenever a new track starts; G81: push to session history
+  useEffect(() => {
+    if (currentTrack && currentTrack.slug !== prevSlugRef.current) {
+      prevSlugRef.current = currentTrack.slug
+      setExpanded(true)
+      pushHistory(currentTrack.title, currentTrack.slug)
+    }
+  }, [currentTrack?.slug])
+
+  // Keyboard shortcuts
+  useEffect(() => {
+    if (!currentTrack) return
+    const handler = (e: KeyboardEvent) => {
+      const tag = (e.target as HTMLElement).tagName
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return
+      if (e.key === ' ')            { e.preventDefault(); toggle() }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); seek(Math.min(duration, currentTime + 10)) }
+      else if (e.key === 'ArrowLeft')  { e.preventDefault(); seek(Math.max(0, currentTime - 10)) }
+      else if (e.key === 'm' || e.key === 'M') toggleMute()
+      else if (e.key === '?') setShortcuts((v) => !v)
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [currentTrack, toggle, next, prev, toggleMute, seek, currentTime, duration])
 
   if (!currentTrack) return null
 
-  const pct = duration > 0 ? (currentTime / duration) * 100 : 0
+  const pct      = duration > 0 ? (currentTime / duration) * 100 : 0
+  const nextTrack = playlist[currentIndex + 1] ?? null
+  // SVG ring — TrackCover sm = w-10 h-10 = 40px, viewBox 44 gives 2px padding
+  const C = 125.66 // 2π × 20
+  const ringOffset = C * (1 - pct / 100)
 
   return (
     <>
-      {/* Backdrop for expanded */}
-      {expanded && (
-        <div
-          className="fixed inset-0 z-40 bg-noir-void/80 backdrop-blur-sm"
-          onClick={() => setExpanded(false)}
-        />
+      {/* Prefetch next track audio */}
+      {nextTrack && (
+        <link rel="prefetch" href={nextTrack.audioUrl} as="audio" />
       )}
 
-      <div
-        className={`fixed bottom-0 left-0 right-0 z-50 transition-all duration-500 ${
-          expanded ? 'bottom-0' : ''
-        }`}
-      >
-        {/* Full player (expanded) */}
-        {expanded && (
-          <div className="bg-noir-deep/95 backdrop-blur-2xl border-t border-noir-silver/10 px-6 py-8 max-w-2xl mx-auto mb-0 rounded-t-2xl">
-            {/* Close */}
-            <button
-              className="absolute top-4 right-6 text-noir-silver/40 hover:text-noir-ivory"
-              onClick={() => setExpanded(false)}
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
+      {/* Keyboard shortcut overlay */}
+      {showShortcuts && <ShortcutOverlay onClose={() => setShortcuts(false)} />}
 
-            {/* Track info large */}
-            <div className="flex flex-col items-center mb-8 text-center">
-              <div className="w-40 h-40 mb-5 bg-gradient-to-br from-noir-navy to-noir-atlantic border border-noir-gold/20 flex items-center justify-center">
-                <span className="font-heading text-5xl text-noir-gold/30">
-                  {currentTrack.trackNumber ? String(currentTrack.trackNumber).padStart(2, '0') : '◆'}
-                </span>
-              </div>
-              <h3 className="font-heading text-2xl text-noir-ivory tracking-wide">{currentTrack.title}</h3>
-              <p className="font-body text-sm text-noir-silver/50 mt-1">{currentTrack.artist || 'NoiraCiel'}</p>
-            </div>
+      {/* Floating "now playing" pill — top-right, desktop only, appears while playing */}
+      {isPlaying && !expanded && (
+        <div
+          className="fixed top-20 right-4 z-[199] hidden md:flex items-center gap-2 px-3 py-1.5"
+          style={{
+            background: 'rgba(4,4,10,0.88)',
+            backdropFilter: 'blur(10px)',
+            border: '1px solid rgba(196,149,58,0.18)',
+            maxWidth: '230px',
+          }}
+        >
+          <div
+            className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+            style={{
+              background: 'rgb(var(--t-accent-rgb))',
+              boxShadow: '0 0 5px rgb(var(--t-accent-rgb))',
+              animation: 'pulse 2s ease-in-out infinite',
+            }}
+          />
+          <p className="font-body text-xs text-noir-ivory truncate flex-1">{currentTrack.title}</p>
+          <button
+            onClick={toggle}
+            className="text-noir-silver/50 hover:text-noir-ivory flex-shrink-0 transition-colors"
+            aria-label="Pause"
+          >
+            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+            </svg>
+          </button>
+        </div>
+      )}
 
-            {/* Progress */}
-            <div className="mb-2">
-              <ProgressBar />
-            </div>
-            <div className="flex justify-between font-body text-xs text-noir-silver/40 mb-6">
-              <span>{formatDuration(currentTime)}</span>
-              <span>{formatDuration(duration)}</span>
-            </div>
+      {/* Turntable overlay */}
+      {expanded && (
+        <Suspense fallback={null}>
+          <TurntablePlayer onClose={() => setExpanded(false)} />
+        </Suspense>
+      )}
 
-            {/* Controls */}
-            <div className="flex items-center justify-center gap-6">
-              <button
-                onClick={toggleShuffle}
-                className={`transition-colors ${isShuffled ? 'text-noir-gold' : 'text-noir-silver/40 hover:text-noir-silver'}`}
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z" />
-                </svg>
+      {/* G86: Mobile bottom sheet for track info */}
+      {mobileSheet && currentTrack && (
+        <div className="fixed inset-0 z-[250] sm:hidden flex items-end" onClick={() => setMobileSheet(false)}>
+          <div className="absolute inset-0 bg-noir-void/70 backdrop-blur-sm" />
+          <div
+            className="relative w-full glass border-t border-noir-silver/15 p-6 pb-10"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="w-8 h-0.5 bg-noir-silver/30 mx-auto mb-5 rounded-full" />
+            <p className="font-heading italic text-xl text-noir-ivory mb-1">{currentTrack.title}</p>
+            <p className="font-body text-xs text-noir-silver/50 mb-4">{currentTrack.album || 'NoiraCiel'}</p>
+            {currentTrack.bpm && <p className="font-body text-xs text-noir-gold/50 mb-1">{currentTrack.bpm} BPM</p>}
+            {currentTrack.songKey && <p className="font-body text-xs text-noir-gold/50 mb-3">Key: {currentTrack.songKey}</p>}
+            <ProgressBar />
+            <div className="flex justify-center gap-8 mt-5">
+              <button onClick={prev} className="text-noir-silver/60 hover:text-noir-ivory">
+                <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
               </button>
-
-              <button onClick={prev} className="text-noir-silver/60 hover:text-noir-ivory transition-colors">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" />
-                </svg>
+              <button onClick={toggle} className="w-12 h-12 rounded-full border border-t-accent/60 bg-t-accent/10 flex items-center justify-center text-t-accent">
+                {isPlaying
+                  ? <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                  : <svg className="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                }
               </button>
-
-              <button
-                onClick={toggle}
-                className="w-14 h-14 rounded-full border border-noir-gold/60 bg-noir-gold/10 flex items-center justify-center hover:bg-noir-gold/20 transition-all text-noir-gold"
-              >
-                {isLoading ? (
-                  <svg className="w-6 h-6 animate-spin" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.4 0 0 5.4 0 12h4z" />
-                  </svg>
-                ) : isPlaying ? (
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
-                  </svg>
-                ) : (
-                  <svg className="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                )}
-              </button>
-
-              <button onClick={next} className="text-noir-silver/60 hover:text-noir-ivory transition-colors">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z" />
-                </svg>
-              </button>
-
-              <button
-                onClick={toggleRepeat}
-                className={`transition-colors ${repeatMode !== 'none' ? 'text-noir-gold' : 'text-noir-silver/40 hover:text-noir-silver'}`}
-              >
-                {repeatMode === 'one' ? (
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v5zm-4-2V9h-1l-2 1v1h1.5v4H13z" />
-                  </svg>
-                ) : (
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v5z" />
-                  </svg>
-                )}
+              <button onClick={next} className="text-noir-silver/60 hover:text-noir-ivory">
+                <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
               </button>
             </div>
           </div>
-        )}
+        </div>
+      )}
 
-        {/* Mini bar */}
-        <div className="glass border-t border-noir-silver/10">
-          {/* Progress line */}
-          <div className="w-full h-0.5 bg-noir-silver/10">
-            <div className="h-full bg-gradient-to-r from-noir-gold to-noir-gold-light transition-none" style={{ width: `${pct}%` }} />
-          </div>
+      {/* Mini bar — always on top */}
+      <div className="fixed bottom-0 left-0 right-0 z-[200]">
+        {/* Thin progress line */}
+        <div className="w-full h-0.5 bg-noir-silver/10">
+          <div className="h-full transition-none" style={{ width: `${pct}%`, background: 'rgb(var(--t-accent-rgb))' }} />
+        </div>
 
+        {/* G87: swipe left/right on the mini bar to skip */}
+        <div
+          className="glass border-t border-noir-silver/10"
+          onTouchStart={(e) => { touchStartRef.current = e.touches[0].clientX }}
+          onTouchEnd={(e) => {
+            if (touchStartRef.current === null) return
+            const diff = e.changedTouches[0].clientX - touchStartRef.current
+            if (Math.abs(diff) > 50) { diff < 0 ? next() : prev() }
+            touchStartRef.current = null
+          }}
+        >
           <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
-            {/* Cover + info */}
-            <button className="flex items-center gap-3 flex-1 min-w-0 text-left" onClick={() => setExpanded(!expanded)}>
-              <TrackCover track={currentTrack} size="sm" />
+            {/* Cover with progress ring + info → opens turntable (desktop) or bottom sheet (mobile) */}
+            <button
+              className="flex items-center gap-3 flex-1 min-w-0 text-left"
+              onClick={() => {
+                if (window.innerWidth < 640) setMobileSheet(v => !v)
+                else setExpanded(true)
+              }}
+              title="Open player"
+            >
+              {/* Progress ring wrapper */}
+              <div className="relative flex-shrink-0 w-10 h-10">
+                <TrackCover track={currentTrack} size="sm" />
+                <svg
+                  className="absolute inset-0 w-full h-full pointer-events-none"
+                  viewBox="0 0 44 44"
+                  aria-hidden="true"
+                >
+                  <circle
+                    cx="22" cy="22" r="20"
+                    fill="none"
+                    stroke="rgb(var(--t-accent-rgb))"
+                    strokeWidth="2"
+                    strokeDasharray={C}
+                    strokeDashoffset={ringOffset}
+                    strokeLinecap="round"
+                    transform="rotate(-90 22 22)"
+                    style={{ opacity: 0.65, transition: 'stroke-dashoffset 0.4s linear' }}
+                  />
+                </svg>
+              </div>
+
+              {/* Track info — G10: album name instead of artist */}
               <div className="min-w-0">
                 <p className="font-body text-sm text-noir-ivory truncate">{currentTrack.title}</p>
-                <p className="font-body text-xs text-noir-silver/50 truncate">{currentTrack.artist || 'NoiraCiel'}</p>
+                <p className="font-body text-xs text-noir-silver/50 truncate">
+                  {currentTrack.album || 'NoiraCiel'}
+                </p>
               </div>
             </button>
 
@@ -212,7 +357,7 @@ export default function GlobalPlayer() {
 
               <button
                 onClick={toggle}
-                className="w-9 h-9 rounded-full border border-noir-gold/60 bg-noir-gold/10 flex items-center justify-center hover:bg-noir-gold/20 transition-all text-noir-gold"
+                className="w-9 h-9 rounded-full border border-t-accent/60 bg-t-accent/10 flex items-center justify-center hover:bg-t-accent/20 transition-all text-t-accent"
               >
                 {isLoading ? (
                   <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
@@ -238,22 +383,45 @@ export default function GlobalPlayer() {
             </div>
 
             {/* Time + Volume */}
-            <div className="hidden md:flex items-center gap-3 flex-shrink-0">
-              <span className="font-body text-xs text-noir-silver/40 w-20 text-right">
+            <div className="hidden sm:flex items-center gap-3 flex-shrink-0">
+              <span className="font-body text-xs text-noir-silver/40 tabular-nums hidden md:block">
                 {formatDuration(currentTime)} / {formatDuration(duration)}
               </span>
               <VolumeControl />
             </div>
 
-            {/* Expand button */}
-            <button
-              onClick={() => setExpanded(!expanded)}
-              className="text-noir-silver/40 hover:text-noir-ivory transition-colors flex-shrink-0"
-            >
-              <svg className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-              </svg>
-            </button>
+            {/* Like + Shortcuts hint + expand chevron */}
+            <div className="flex items-center gap-2 flex-shrink-0">
+              {/* G78: heart/like button */}
+              <button
+                onClick={toggleLike}
+                title={liked ? 'Remove from liked songs' : 'Like this song'}
+                aria-label={liked ? 'Unlike' : 'Like'}
+                className="hidden sm:block transition-colors"
+                style={{ color: liked ? 'rgb(var(--t-accent-rgb))' : 'rgba(184,197,208,0.25)', fontSize: '14px', lineHeight: 1 }}
+              >
+                {liked ? '♥' : '♡'}
+              </button>
+              <button
+                onClick={() => setShortcuts((v) => !v)}
+                className="hidden md:block text-noir-silver/25 hover:text-noir-silver/60 transition-colors text-xs font-body"
+                title="Keyboard shortcuts (?)"
+              >
+                ?
+              </button>
+              <button
+                onClick={() => setExpanded(v => !v)}
+                className="text-noir-silver/40 hover:text-noir-ivory transition-colors"
+                title={expanded ? 'Close player' : 'Open player'}
+              >
+                <svg
+                  className={`w-4 h-4 transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`}
+                  fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>

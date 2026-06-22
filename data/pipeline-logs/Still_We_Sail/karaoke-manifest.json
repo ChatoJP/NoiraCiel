@@ -1,0 +1,81 @@
+{
+  "albumTitle": "Still We Sail",
+  "audioDir": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio",
+  "tracks": [
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/01_still_we_sail_v1.mp3",
+      "title": "Still We Sail",
+      "trackNumber": 1
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/02_exile_body_v1.mp3",
+      "title": "Exile Body",
+      "trackNumber": 2
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/03_the_accordion_breathes_v1.mp3",
+      "title": "The Accordion Breathes",
+      "trackNumber": 3
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/04_letters_never_crossed_v1.mp3",
+      "title": "Letters Never Crossed",
+      "trackNumber": 4
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/05_salt_gospel_v1.mp3",
+      "title": "Salt Gospel",
+      "trackNumber": 5
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/06_she_who_stayed_behind_v1.mp3",
+      "title": "She Who Stayed Behind",
+      "trackNumber": 6
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/07_atlantic_nocturne_v1.mp3",
+      "title": "Atlantic Nocturne",
+      "trackNumber": 7
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/08_grief_in_different_latitudes_v1.mp3",
+      "title": "Grief in Different Latitudes",
+      "trackNumber": 8
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/09_the_port_we_cannot_find_v1.mp3",
+      "title": "The Port We Cannot Find",
+      "trackNumber": 9
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/10_what_fado_holds_v1.mp3",
+      "title": "What Fado Holds",
+      "trackNumber": 10
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/11_saudade_has_a_weight_v1.mp3",
+      "title": "Saudade Has a Weight",
+      "trackNumber": 11
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/12_all_the_water_between_v1.mp3",
+      "title": "All the Water Between",
+      "trackNumber": 12
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/13_the_sea_keeps_our_names_v1.mp3",
+      "title": "The Sea Keeps Our Names",
+      "trackNumber": 13
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/14_i_chose_the_open_v1.mp3",
+      "title": "I Chose the Open",
+      "trackNumber": 14
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/15_still_we_sail_to_light_v1.mp3",
+      "title": "Still We Sail (To Light)",
+      "trackNumber": 15
+    }
+  ]
+}

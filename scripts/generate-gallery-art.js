@@ -3,7 +3,7 @@
  * generate-gallery-art.js
  *
  * Generates 12 large-format gallery art pieces for the NoiraCiel digital museum.
- * Mix of 1:1 and 16:9. Output: public/Images/gallery/{id}.jpg
+ * Mix of 1:1 and 16:9. Output: public/images/gallery/{id}.jpg
  *
  * USAGE
  *   node scripts/generate-gallery-art.js              # dry-run
@@ -27,7 +27,7 @@ const { loadState, saveState, isComplete, isPending, blankEntry } = require('./l
 loadEnv()
 
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'gallery')
-const PUBLIC_BASE = '/Images/gallery'
+const PUBLIC_BASE = '/images/gallery'
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000
 

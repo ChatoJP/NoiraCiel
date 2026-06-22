@@ -1,0 +1,227 @@
+{
+  "songId": "hd-6-side-by-sidewav",
+  "slug": "side-by-side",
+  "title": "Side By Side",
+  "album": "The Life Lessons I Hope You Learn",
+  "albumSlug": "the-life-lessons",
+  "albumCode": "HD",
+  "trackNumber": 6,
+  "artist": "NoiraCiel",
+  "duration": 262.5999791666667,
+  "durationFormatted": "4:22",
+  "mood": "intimate · emotional · Atlantic soul · human dignity · searching",
+  "style": "piano-led · fingerpicked guitar · intimate soul · cinematic sweep",
+  "hasLyrics": true,
+  "lyricsExcerpt": "I've shaken hands with people whose names are on the door I've shared a table with dreamers\r / Who were sleeping on the floor And the years have taught me something\r / That money never could The best people I've ever known\r / Were simply doing good Because titles pay\r",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/side-by-side.json",
+  "storyPath": "public/Books/stories/side-by-side.pdf",
+  "artworkPath": "public/images/song-art/side-by-side.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/side-by-side.jpg",
+  "audioUrl": "/api/audio/hd_6-%20Side%20By%20Side.wav",
+  "emotion": "The grace of companionship — walking the same road without needing to speak.",
+  "scene": "Two elderly people walking slowly on a coastal path, their hands close but not quite touching. Long shadows stretching behind them in late afternoon Atlantic light. The same unhurried rhythm.",
+  "symbols": "coastal path, long shadows, two figures, late light, unhurried steps",
+  "arc": [
+    "Starting out together — coastal path, morning mist",
+    "The long middle — decades passed, same pace",
+    "Late afternoon — long shadows, still walking"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the water surface — single slow breath-like swell rising and falling, foam edge barely shifting, horizon line locked and perfectly still. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "ocean_breathing",
+      "sourceImagePath": "public/images/song-art/side-by-side.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/side-by-side.jpg",
+      "videoLoopPath": null,
+      "publicUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/side-by-side/loop.mp4",
+      "taskId": "b724617ce3cd379eade76b1ee4bf0027",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:43:10.705Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "the water surface breathes slowly, near-imperceptible swells, foam edge dissolves and returns, horizon steady. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      },
+      "remoteUrl": null,
+      "localPath": null,
+      "r2Url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/side-by-side/loop.mp4"
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"Side By Side\" from album \"The Life Lessons I Hope You Learn\".\nShot role: opening.\nScene: Starting out together — coastal path, morning mist.\nCamera: slow push-in. Framing: wide establishing.\nMood: The grace of companionship — walking the same road without needing to speak..\nVisual symbols: coastal path, long shadows, two figures, late light, unhurried steps.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/side-by-side/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "intimate",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"Side By Side\" from album \"The Life Lessons I Hope You Learn\".\nShot role: intimate.\nScene: The long middle — decades passed, same pace.\nCamera: locked close-up. Framing: hands or face detail.\nMood: The grace of companionship — walking the same road without needing to speak..\nVisual symbols: coastal path, long shadows, two figures, late light, unhurried steps.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/side-by-side/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "memory",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"Side By Side\" from album \"The Life Lessons I Hope You Learn\".\nShot role: memory.\nScene: Late afternoon — long shadows, still walking.\nCamera: gentle dolly or overhead. Framing: symbolic object.\nMood: The grace of companionship — walking the same road without needing to speak..\nVisual symbols: coastal path, long shadows, two figures, late light, unhurried steps.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/side-by-side/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "turning",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"Side By Side\" from album \"The Life Lessons I Hope You Learn\".\nShot role: turning.\nScene: Two elderly people walking slowly on a coastal path, their hands close but not quite touching.\nCamera: slow rack focus. Framing: two planes of depth.\nMood: The grace of companionship — walking the same road without needing to speak..\nVisual symbols: coastal path, long shadows, two figures, late light, unhurried steps.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/side-by-side/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"Side By Side\" from album \"The Life Lessons I Hope You Learn\".\nShot role: closing.\nScene:  Long shadows stretching behind them in late afternoon Atlantic light.\nCamera: slow pull-back. Framing: wide, figure small in frame.\nMood: The grace of companionship — walking the same road without needing to speak..\nVisual symbols: coastal path, long shadows, two figures, late light, unhurried steps.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/side-by-side/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"Side By Side\" (The Life Lessons I Hope You Learn). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: The grace of companionship — walking the same road without needing to speak.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/side-by-side/film.mp4",
+      "publicUrl": "/generated/kie/films/side-by-side/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"Side By Side.\"\nChapter 06 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: The grace of companionship — walking the same road without needing to speak.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. coastal path, long shadows, two figures, late light, unhurried steps. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"I've shaken hands with people whose names are on the door I've shared a table with dreamers\r / Who were sleeping on the.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/side-by-side/script.txt",
+      "voicePath": "public/generated/kie/commentary/side-by-side/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/side-by-side/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/side-by-side/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"Side By Side.\"\nChapter 06 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: The grace of companionship — walking the same road without needing to speak.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. coastal path, long shadows, two figures, late light, unhurried steps. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"I've shaken hands with people whose names are on the door I've shared a table with dreamers\r / Who were sleeping on the.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/side-by-side/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "Chapter 06: Side By Side.\nFrom the album \"The Life Lessons I Hope You Learn\".\nI've shaken hands with people whose names are on the door I've shared a table with dreamers\r / Who were sleeping on the floor And the years have taught me something\r / That money never could The best people I've ever known\r / Were simply doing good Because titles pay\r\n— The grace of companionship — walking the same road without needing to speak.",
+      "narrationPath": "public/generated/kie/audiobook/side-by-side/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/side-by-side/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/side-by-side/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/side-by-side/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"Side By Side\". Style: ambient piano, sparse strings, Atlantic soul, gentle breathing room. Mood: The grace of companionship — walking the same road without needing to speak.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: The grace of companionship — walking the same road without needing to speak..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "Chapter 06: Side By Side.\nFrom the album \"The Life Lessons I Hope You Learn\".\nI've shaken hands with people whose names are on the door I've shared a table with dreamers\r / Who were sleeping on the floor And the years have taught me something\r / That money never could The best people I've ever known\r / Were simply doing good Because titles pay\r\n— The grace of companionship — walking the same road without needing to speak.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, ambient piano, sparse strings, Atlantic soul, gentle breathing room. The grace of companionship — walking the same road without needing to speak.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "ambient piano, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.033Z",
+  "updatedAt": "2026-06-15T18:43:10.705Z"
+}

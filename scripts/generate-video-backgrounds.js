@@ -25,7 +25,7 @@ const { loadState, saveState, isComplete, isPending, blankEntry } = require('./l
 loadEnv()
 
 const OUTPUT_DIR       = path.join(__dirname, '..', 'public', 'Images', 'video-backgrounds')
-const PUBLIC_BASE      = '/Images/video-backgrounds'
+const PUBLIC_BASE      = '/images/video-backgrounds'
 const POLL_INTERVAL_MS = 18_000
 const POLL_TIMEOUT_MS  = 25 * 60 * 1000
 

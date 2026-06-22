@@ -3,7 +3,7 @@
  * generate-backgrounds.js
  *
  * Generates cinematic background images for website sections via Kie.ai Flux Kontext.
- * Output: public/Images/backgrounds/{variant}.jpg  (16:9)
+ * Output: public/images/backgrounds/{variant}.jpg  (16:9)
  *
  * USAGE
  *   node scripts/generate-backgrounds.js              # dry-run
@@ -27,7 +27,7 @@ const { loadState, saveState, isComplete, isPending, blankEntry } = require('./l
 loadEnv()
 
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'backgrounds')
-const PUBLIC_BASE = '/Images/backgrounds'
+const PUBLIC_BASE = '/images/backgrounds'
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000
 

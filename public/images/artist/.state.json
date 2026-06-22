@@ -6,7 +6,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\artist\\noiraciel-identity-1.jpg",
-    "publicUrl": "/Images/artist/noiraciel-identity-1.jpg",
+    "publicUrl": "/images/artist/noiraciel-identity-1.jpg",
     "submittedAt": "2026-06-12T20:56:30.082Z",
     "completedAt": null,
     "error": null
@@ -18,7 +18,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_0f7741252aa04fd1acf4e80ed186e06d_1781297819_m4o7cfqq.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\artist\\noiraciel-identity-2.jpg",
-    "publicUrl": "/Images/artist/noiraciel-identity-2.jpg",
+    "publicUrl": "/images/artist/noiraciel-identity-2.jpg",
     "submittedAt": "2026-06-12T20:56:33.803Z",
     "completedAt": "2026-06-12T21:35:07.476Z",
     "error": null
@@ -30,7 +30,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\artist\\noiraciel-identity-3.jpg",
-    "publicUrl": "/Images/artist/noiraciel-identity-3.jpg",
+    "publicUrl": "/images/artist/noiraciel-identity-3.jpg",
     "submittedAt": "2026-06-12T20:56:37.518Z",
     "completedAt": null,
     "error": null
@@ -42,7 +42,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\artist\\noiraciel-identity-4.jpg",
-    "publicUrl": "/Images/artist/noiraciel-identity-4.jpg",
+    "publicUrl": "/images/artist/noiraciel-identity-4.jpg",
     "submittedAt": "2026-06-12T20:56:41.277Z",
     "completedAt": null,
     "error": null

@@ -7,6 +7,9 @@
 # next.js
 /.next/
 /out/
+# distDir is renamed in next.config.ts — /.next/ above doesn't match these
+.next_build/
+.next_out/
 
 # production
 /build
@@ -42,8 +45,37 @@ public/Videos/index.json
 # audio source files — too large for GitHub (1.2 GB)
 Music/
 
+# sheet music pages — media, lives in R2, not git (manifests stay tracked)
+public/Books/scores/*/*.svg
+
 # generated video clips in art/
 art/*.mp4
 
 # Remotion bundle cache
 .remotion/
+
+# Claude Code session state, agent worktrees — not project source
+.claude/
+
+# temp/scratch — render intermediates, score-pipeline working files, ad-hoc
+# migration/audit logs from R2 migration work (no secrets, just scratch)
+.tmp/
+.score-work/
+.migration-manifest-*.json
+.song-audit-report.json
+
+# Scholarship data — contains applicant PII, never commit
+data/applications.json
+data/applications.json.tmp
+data/donations.json
+data/donations.json.tmp
+data/volunteers.json
+data/volunteers.json.tmp
+data/open-call.json
+data/open-call.json.tmp
+data/community-messages.json
+data/community-messages.json.tmp
+data/future-letters.json
+data/future-letters.json.tmp
+data/partners.json
+data/partners.json.tmp

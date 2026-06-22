@@ -1,0 +1,1786 @@
+{
+  "title": "Still Human After All This Noise",
+  "words": [
+    {
+      "word": "I",
+      "start": 18.12,
+      "end": 19.12
+    },
+    {
+      "word": "woke",
+      "start": 19.12,
+      "end": 19.4
+    },
+    {
+      "word": "up",
+      "start": 19.4,
+      "end": 19.72
+    },
+    {
+      "word": "to",
+      "start": 19.72,
+      "end": 20.26
+    },
+    {
+      "word": "a",
+      "start": 20.26,
+      "end": 20.42
+    },
+    {
+      "word": "screen",
+      "start": 20.42,
+      "end": 20.72
+    },
+    {
+      "word": "glow",
+      "start": 20.72,
+      "end": 21.22
+    },
+    {
+      "word": "dome,",
+      "start": 21.22,
+      "end": 21.78
+    },
+    {
+      "word": "From",
+      "start": 22.86,
+      "end": 23.58
+    },
+    {
+      "word": "a",
+      "start": 23.58,
+      "end": 23.82
+    },
+    {
+      "word": "glass,",
+      "start": 23.82,
+      "end": 24.24
+    },
+    {
+      "word": "a",
+      "start": 24.72,
+      "end": 24.78
+    },
+    {
+      "word": "small",
+      "start": 24.78,
+      "end": 25.06
+    },
+    {
+      "word": "song,",
+      "start": 25.06,
+      "end": 25.46
+    },
+    {
+      "word": "Every",
+      "start": 26.66,
+      "end": 26.96
+    },
+    {
+      "word": "hour",
+      "start": 26.96,
+      "end": 27.28
+    },
+    {
+      "word": "had",
+      "start": 27.28,
+      "end": 27.7
+    },
+    {
+      "word": "a",
+      "start": 27.7,
+      "end": 27.8
+    },
+    {
+      "word": "sharp",
+      "start": 27.8,
+      "end": 28.08
+    },
+    {
+      "word": "edge,",
+      "start": 28.08,
+      "end": 28.96
+    },
+    {
+      "word": "Every",
+      "start": 29.68,
+      "end": 30.0
+    },
+    {
+      "word": "breath",
+      "start": 30.0,
+      "end": 30.58
+    },
+    {
+      "word": "felt",
+      "start": 30.58,
+      "end": 31.04
+    },
+    {
+      "word": "like",
+      "start": 31.04,
+      "end": 31.38
+    },
+    {
+      "word": "a",
+      "start": 31.38,
+      "end": 31.56
+    },
+    {
+      "word": "pledge,",
+      "start": 31.56,
+      "end": 31.96
+    },
+    {
+      "word": "Trains",
+      "start": 33.04,
+      "end": 33.48
+    },
+    {
+      "word": "would",
+      "start": 33.48,
+      "end": 33.64
+    },
+    {
+      "word": "like",
+      "start": 33.64,
+      "end": 33.88
+    },
+    {
+      "word": "my",
+      "start": 33.88,
+      "end": 34.14
+    },
+    {
+      "word": "name",
+      "start": 34.14,
+      "end": 34.44
+    },
+    {
+      "word": "was",
+      "start": 34.44,
+      "end": 34.74
+    },
+    {
+      "word": "fast,",
+      "start": 34.74,
+      "end": 35.1
+    },
+    {
+      "word": "Bios",
+      "start": 36.32,
+      "end": 36.72
+    },
+    {
+      "word": "and",
+      "start": 36.72,
+      "end": 36.92
+    },
+    {
+      "word": "folders",
+      "start": 36.92,
+      "end": 37.34
+    },
+    {
+      "word": "months",
+      "start": 37.34,
+      "end": 37.84
+    },
+    {
+      "word": "that",
+      "start": 37.84,
+      "end": 38.2
+    },
+    {
+      "word": "passed,",
+      "start": 38.2,
+      "end": 38.82
+    },
+    {
+      "word": "I",
+      "start": 39.62,
+      "end": 39.88
+    },
+    {
+      "word": "kept",
+      "start": 39.88,
+      "end": 40.16
+    },
+    {
+      "word": "moving",
+      "start": 40.16,
+      "end": 40.56
+    },
+    {
+      "word": "with",
+      "start": 40.56,
+      "end": 40.92
+    },
+    {
+      "word": "my",
+      "start": 40.92,
+      "end": 41.14
+    },
+    {
+      "word": "head",
+      "start": 41.14,
+      "end": 41.48
+    },
+    {
+      "word": "down,",
+      "start": 41.48,
+      "end": 41.9
+    },
+    {
+      "word": "Through",
+      "start": 42.86,
+      "end": 43.22
+    },
+    {
+      "word": "the",
+      "start": 43.22,
+      "end": 43.58
+    },
+    {
+      "word": "buzz",
+      "start": 43.58,
+      "end": 43.94
+    },
+    {
+      "word": "of",
+      "start": 43.94,
+      "end": 44.32
+    },
+    {
+      "word": "the",
+      "start": 44.32,
+      "end": 44.46
+    },
+    {
+      "word": "whole",
+      "start": 44.46,
+      "end": 44.74
+    },
+    {
+      "word": "town,",
+      "start": 44.74,
+      "end": 45.18
+    },
+    {
+      "word": "But",
+      "start": 46.24,
+      "end": 46.58
+    },
+    {
+      "word": "under",
+      "start": 46.58,
+      "end": 46.78
+    },
+    {
+      "word": "all",
+      "start": 46.78,
+      "end": 47.22
+    },
+    {
+      "word": "that",
+      "start": 47.22,
+      "end": 47.42
+    },
+    {
+      "word": "metal",
+      "start": 47.42,
+      "end": 47.74
+    },
+    {
+      "word": "rain,",
+      "start": 47.74,
+      "end": 48.14
+    },
+    {
+      "word": "Under",
+      "start": 49.46,
+      "end": 50.22
+    },
+    {
+      "word": "all",
+      "start": 50.22,
+      "end": 50.56
+    },
+    {
+      "word": "that",
+      "start": 50.56,
+      "end": 50.74
+    },
+    {
+      "word": "need",
+      "start": 50.74,
+      "end": 50.98
+    },
+    {
+      "word": "and",
+      "start": 50.98,
+      "end": 51.18
+    },
+    {
+      "word": "strength,",
+      "start": 51.18,
+      "end": 51.6
+    },
+    {
+      "word": "Something",
+      "start": 52.24,
+      "end": 53.4
+    },
+    {
+      "word": "won't",
+      "start": 53.4,
+      "end": 53.96
+    },
+    {
+      "word": "still",
+      "start": 53.96,
+      "end": 54.24
+    },
+    {
+      "word": "need,",
+      "start": 54.24,
+      "end": 54.46
+    },
+    {
+      "word": "Beating",
+      "start": 56.16,
+      "end": 56.5
+    },
+    {
+      "word": "under",
+      "start": 56.5,
+      "end": 56.78
+    },
+    {
+      "word": "what",
+      "start": 56.78,
+      "end": 57.16
+    },
+    {
+      "word": "they",
+      "start": 57.16,
+      "end": 57.34
+    },
+    {
+      "word": "made",
+      "start": 57.34,
+      "end": 57.64
+    },
+    {
+      "word": "me",
+      "start": 57.64,
+      "end": 57.9
+    },
+    {
+      "word": "be.",
+      "start": 57.9,
+      "end": 58.28
+    },
+    {
+      "word": "Still",
+      "start": 62.52,
+      "end": 63.28
+    },
+    {
+      "word": "human",
+      "start": 63.28,
+      "end": 63.6
+    },
+    {
+      "word": "after",
+      "start": 63.6,
+      "end": 64.34
+    },
+    {
+      "word": "all,",
+      "start": 64.34,
+      "end": 64.78
+    },
+    {
+      "word": "Still",
+      "start": 65.12,
+      "end": 66.48
+    },
+    {
+      "word": "standing",
+      "start": 66.48,
+      "end": 67.04
+    },
+    {
+      "word": "when",
+      "start": 67.04,
+      "end": 67.54
+    },
+    {
+      "word": "I",
+      "start": 67.54,
+      "end": 67.76
+    },
+    {
+      "word": "fall,",
+      "start": 67.76,
+      "end": 68.22
+    },
+    {
+      "word": "Still",
+      "start": 69.7,
+      "end": 69.78
+    },
+    {
+      "word": "a",
+      "start": 69.78,
+      "end": 70.16
+    },
+    {
+      "word": "lake",
+      "start": 70.16,
+      "end": 70.42
+    },
+    {
+      "word": "and",
+      "start": 70.42,
+      "end": 70.6
+    },
+    {
+      "word": "still",
+      "start": 70.6,
+      "end": 70.84
+    },
+    {
+      "word": "a",
+      "start": 70.84,
+      "end": 71.06
+    },
+    {
+      "word": "light,",
+      "start": 71.06,
+      "end": 71.52
+    },
+    {
+      "word": "Still",
+      "start": 72.44,
+      "end": 73.06
+    },
+    {
+      "word": "learning",
+      "start": 73.06,
+      "end": 73.68
+    },
+    {
+      "word": "how",
+      "start": 73.68,
+      "end": 74.2
+    },
+    {
+      "word": "to",
+      "start": 74.2,
+      "end": 74.34
+    },
+    {
+      "word": "try,",
+      "start": 74.34,
+      "end": 74.68
+    },
+    {
+      "word": "Still",
+      "start": 75.68,
+      "end": 76.48
+    },
+    {
+      "word": "human",
+      "start": 76.48,
+      "end": 76.88
+    },
+    {
+      "word": "after",
+      "start": 76.88,
+      "end": 77.6
+    },
+    {
+      "word": "all,",
+      "start": 77.6,
+      "end": 78.0
+    },
+    {
+      "word": "Through",
+      "start": 78.34,
+      "end": 79.7
+    },
+    {
+      "word": "the",
+      "start": 79.7,
+      "end": 79.88
+    },
+    {
+      "word": "crash",
+      "start": 79.88,
+      "end": 80.14
+    },
+    {
+      "word": "through",
+      "start": 80.14,
+      "end": 80.74
+    },
+    {
+      "word": "the",
+      "start": 80.74,
+      "end": 80.92
+    },
+    {
+      "word": "cold,",
+      "start": 80.92,
+      "end": 81.32
+    },
+    {
+      "word": "If",
+      "start": 82.68,
+      "end": 83.04
+    },
+    {
+      "word": "I",
+      "start": 83.04,
+      "end": 83.22
+    },
+    {
+      "word": "break",
+      "start": 83.22,
+      "end": 83.5
+    },
+    {
+      "word": "out,",
+      "start": 83.5,
+      "end": 83.84
+    },
+    {
+      "word": "break",
+      "start": 84.16,
+      "end": 84.34
+    },
+    {
+      "word": "in",
+      "start": 84.34,
+      "end": 84.7
+    },
+    {
+      "word": "the",
+      "start": 84.7,
+      "end": 84.9
+    },
+    {
+      "word": "light,",
+      "start": 84.9,
+      "end": 85.2
+    },
+    {
+      "word": "Still",
+      "start": 85.62,
+      "end": 86.52
+    },
+    {
+      "word": "human",
+      "start": 86.52,
+      "end": 87.04
+    },
+    {
+      "word": "tonight,",
+      "start": 87.04,
+      "end": 88.08
+    },
+    {
+      "word": "I",
+      "start": 91.76,
+      "end": 92.56
+    },
+    {
+      "word": "carried",
+      "start": 92.56,
+      "end": 93.36
+    },
+    {
+      "word": "grief",
+      "start": 93.36,
+      "end": 93.64
+    },
+    {
+      "word": "and",
+      "start": 93.64,
+      "end": 93.86
+    },
+    {
+      "word": "borrowed",
+      "start": 93.86,
+      "end": 94.16
+    },
+    {
+      "word": "shoes,",
+      "start": 94.16,
+      "end": 94.68
+    },
+    {
+      "word": "Smiled",
+      "start": 95.8,
+      "end": 96.48
+    },
+    {
+      "word": "on",
+      "start": 96.48,
+      "end": 96.76
+    },
+    {
+      "word": "like",
+      "start": 96.76,
+      "end": 97.2
+    },
+    {
+      "word": "I",
+      "start": 97.2,
+      "end": 97.4
+    },
+    {
+      "word": "had",
+      "start": 97.4,
+      "end": 97.62
+    },
+    {
+      "word": "to",
+      "start": 97.62,
+      "end": 97.74
+    },
+    {
+      "word": "choose,",
+      "start": 97.74,
+      "end": 98.24
+    },
+    {
+      "word": "Back",
+      "start": 99.24,
+      "end": 99.7
+    },
+    {
+      "word": "my",
+      "start": 99.7,
+      "end": 99.98
+    },
+    {
+      "word": "fear",
+      "start": 99.98,
+      "end": 100.42
+    },
+    {
+      "word": "in",
+      "start": 100.42,
+      "end": 100.76
+    },
+    {
+      "word": "a",
+      "start": 100.76,
+      "end": 100.86
+    },
+    {
+      "word": "clean",
+      "start": 100.86,
+      "end": 101.1
+    },
+    {
+      "word": "white",
+      "start": 101.1,
+      "end": 101.56
+    },
+    {
+      "word": "shirt,",
+      "start": 101.56,
+      "end": 101.96
+    },
+    {
+      "word": "Told",
+      "start": 101.96,
+      "end": 102.68
+    },
+    {
+      "word": "myself",
+      "start": 102.68,
+      "end": 103.02
+    },
+    {
+      "word": "it",
+      "start": 103.02,
+      "end": 103.8
+    },
+    {
+      "word": "didn't",
+      "start": 103.8,
+      "end": 104.26
+    },
+    {
+      "word": "hurt,",
+      "start": 104.26,
+      "end": 104.58
+    },
+    {
+      "word": "Last",
+      "start": 105.68,
+      "end": 106.44
+    },
+    {
+      "word": "towers",
+      "start": 106.44,
+      "end": 106.88
+    },
+    {
+      "word": "through",
+      "start": 106.88,
+      "end": 107.3
+    },
+    {
+      "word": "my",
+      "start": 107.3,
+      "end": 107.56
+    },
+    {
+      "word": "face,",
+      "start": 107.56,
+      "end": 107.82
+    },
+    {
+      "word": "Back",
+      "start": 108.1,
+      "end": 108.22
+    },
+    {
+      "word": "cold",
+      "start": 108.22,
+      "end": 108.74
+    },
+    {
+      "word": "made",
+      "start": 108.74,
+      "end": 109.24
+    },
+    {
+      "word": "me",
+      "start": 109.24,
+      "end": 109.6
+    },
+    {
+      "word": "small,",
+      "start": 109.6,
+      "end": 110.02
+    },
+    {
+      "word": "Made",
+      "start": 110.76,
+      "end": 110.94
+    },
+    {
+      "word": "me",
+      "start": 110.94,
+      "end": 111.66
+    },
+    {
+      "word": "old,",
+      "start": 111.66,
+      "end": 112.18
+    },
+    {
+      "word": "But",
+      "start": 112.78,
+      "end": 112.92
+    },
+    {
+      "word": "in",
+      "start": 112.92,
+      "end": 113.2
+    },
+    {
+      "word": "the",
+      "start": 113.2,
+      "end": 113.32
+    },
+    {
+      "word": "crowd",
+      "start": 113.32,
+      "end": 113.56
+    },
+    {
+      "word": "I",
+      "start": 113.56,
+      "end": 113.78
+    },
+    {
+      "word": "felt",
+      "start": 113.78,
+      "end": 113.94
+    },
+    {
+      "word": "my",
+      "start": 113.94,
+      "end": 114.32
+    },
+    {
+      "word": "end,",
+      "start": 114.32,
+      "end": 115.18
+    },
+    {
+      "word": "Rich",
+      "start": 115.88,
+      "end": 115.88
+    },
+    {
+      "word": "for",
+      "start": 115.88,
+      "end": 116.26
+    },
+    {
+      "word": "my",
+      "start": 116.26,
+      "end": 116.62
+    },
+    {
+      "word": "life,",
+      "start": 116.62,
+      "end": 117.0
+    },
+    {
+      "word": "I",
+      "start": 117.3,
+      "end": 117.3
+    },
+    {
+      "word": "still",
+      "start": 117.3,
+      "end": 117.52
+    },
+    {
+      "word": "can,",
+      "start": 117.52,
+      "end": 117.98
+    },
+    {
+      "word": "And",
+      "start": 118.82,
+      "end": 119.56
+    },
+    {
+      "word": "every",
+      "start": 119.56,
+      "end": 119.96
+    },
+    {
+      "word": "cool",
+      "start": 119.96,
+      "end": 120.18
+    },
+    {
+      "word": "little",
+      "start": 120.18,
+      "end": 120.5
+    },
+    {
+      "word": "machine,",
+      "start": 120.5,
+      "end": 121.0
+    },
+    {
+      "word": "Couldn't",
+      "start": 122.54,
+      "end": 123.3
+    },
+    {
+      "word": "name",
+      "start": 123.3,
+      "end": 123.54
+    },
+    {
+      "word": "what",
+      "start": 123.54,
+      "end": 123.74
+    },
+    {
+      "word": "posed",
+      "start": 123.74,
+      "end": 123.96
+    },
+    {
+      "word": "beneath,",
+      "start": 123.96,
+      "end": 124.36
+    },
+    {
+      "word": "All",
+      "start": 125.46,
+      "end": 126.3
+    },
+    {
+      "word": "the",
+      "start": 126.3,
+      "end": 126.58
+    },
+    {
+      "word": "rushing,",
+      "start": 126.58,
+      "end": 126.94
+    },
+    {
+      "word": "All",
+      "start": 126.94,
+      "end": 127.34
+    },
+    {
+      "word": "the",
+      "start": 127.34,
+      "end": 127.46
+    },
+    {
+      "word": "noise,",
+      "start": 127.46,
+      "end": 128.42
+    },
+    {
+      "word": "Couldn't",
+      "start": 129.34,
+      "end": 129.74
+    },
+    {
+      "word": "drown",
+      "start": 129.74,
+      "end": 129.96
+    },
+    {
+      "word": "out",
+      "start": 129.96,
+      "end": 130.38
+    },
+    {
+      "word": "my",
+      "start": 130.38,
+      "end": 130.64
+    },
+    {
+      "word": "own",
+      "start": 130.64,
+      "end": 130.96
+    },
+    {
+      "word": "voice,",
+      "start": 130.96,
+      "end": 131.56
+    },
+    {
+      "word": "Still",
+      "start": 132.82,
+      "end": 133.0
+    },
+    {
+      "word": "human",
+      "start": 133.0,
+      "end": 133.36
+    },
+    {
+      "word": "after",
+      "start": 133.36,
+      "end": 134.04
+    },
+    {
+      "word": "all,",
+      "start": 134.04,
+      "end": 134.44
+    },
+    {
+      "word": "Still",
+      "start": 135.26,
+      "end": 136.1
+    },
+    {
+      "word": "standing",
+      "start": 136.1,
+      "end": 136.74
+    },
+    {
+      "word": "when",
+      "start": 136.74,
+      "end": 137.24
+    },
+    {
+      "word": "I",
+      "start": 137.24,
+      "end": 137.48
+    },
+    {
+      "word": "fall,",
+      "start": 137.48,
+      "end": 137.9
+    },
+    {
+      "word": "Still",
+      "start": 139.2,
+      "end": 139.46
+    },
+    {
+      "word": "a",
+      "start": 139.46,
+      "end": 139.88
+    },
+    {
+      "word": "lake",
+      "start": 139.88,
+      "end": 140.14
+    },
+    {
+      "word": "and",
+      "start": 140.14,
+      "end": 140.3
+    },
+    {
+      "word": "still",
+      "start": 140.3,
+      "end": 140.54
+    },
+    {
+      "word": "a",
+      "start": 140.54,
+      "end": 140.76
+    },
+    {
+      "word": "light,",
+      "start": 140.76,
+      "end": 141.16
+    },
+    {
+      "word": "Still",
+      "start": 141.84,
+      "end": 142.78
+    },
+    {
+      "word": "learning",
+      "start": 142.78,
+      "end": 143.48
+    },
+    {
+      "word": "how",
+      "start": 143.48,
+      "end": 143.92
+    },
+    {
+      "word": "to",
+      "start": 143.92,
+      "end": 144.04
+    },
+    {
+      "word": "try,",
+      "start": 144.04,
+      "end": 144.32
+    },
+    {
+      "word": "Still",
+      "start": 146.16,
+      "end": 146.16
+    },
+    {
+      "word": "human",
+      "start": 146.16,
+      "end": 146.72
+    },
+    {
+      "word": "after",
+      "start": 146.72,
+      "end": 147.32
+    },
+    {
+      "word": "all,",
+      "start": 147.32,
+      "end": 147.74
+    },
+    {
+      "word": "Through",
+      "start": 148.04,
+      "end": 149.42
+    },
+    {
+      "word": "the",
+      "start": 149.42,
+      "end": 149.62
+    },
+    {
+      "word": "crash",
+      "start": 149.62,
+      "end": 149.92
+    },
+    {
+      "word": "through",
+      "start": 149.92,
+      "end": 150.46
+    },
+    {
+      "word": "the",
+      "start": 150.46,
+      "end": 150.66
+    },
+    {
+      "word": "cold,",
+      "start": 150.66,
+      "end": 151.02
+    },
+    {
+      "word": "If",
+      "start": 152.06,
+      "end": 152.82
+    },
+    {
+      "word": "I",
+      "start": 152.82,
+      "end": 152.94
+    },
+    {
+      "word": "break",
+      "start": 152.94,
+      "end": 153.24
+    },
+    {
+      "word": "out,",
+      "start": 153.24,
+      "end": 153.64
+    },
+    {
+      "word": "break",
+      "start": 153.64,
+      "end": 154.06
+    },
+    {
+      "word": "in",
+      "start": 154.06,
+      "end": 154.52
+    },
+    {
+      "word": "the",
+      "start": 154.52,
+      "end": 154.68
+    },
+    {
+      "word": "light,",
+      "start": 154.68,
+      "end": 155.04
+    },
+    {
+      "word": "Still",
+      "start": 155.58,
+      "end": 156.3
+    },
+    {
+      "word": "human",
+      "start": 156.3,
+      "end": 156.86
+    },
+    {
+      "word": "tonight,",
+      "start": 156.86,
+      "end": 157.6
+    },
+    {
+      "word": "Let",
+      "start": 171.92,
+      "end": 172.68
+    },
+    {
+      "word": "the",
+      "start": 172.68,
+      "end": 172.86
+    },
+    {
+      "word": "pressure",
+      "start": 172.86,
+      "end": 173.12
+    },
+    {
+      "word": "do",
+      "start": 173.12,
+      "end": 173.52
+    },
+    {
+      "word": "its",
+      "start": 173.52,
+      "end": 173.68
+    },
+    {
+      "word": "worst,",
+      "start": 173.68,
+      "end": 174.04
+    },
+    {
+      "word": "Let",
+      "start": 174.66,
+      "end": 176.0
+    },
+    {
+      "word": "the",
+      "start": 176.0,
+      "end": 176.18
+    },
+    {
+      "word": "numbers",
+      "start": 176.18,
+      "end": 176.52
+    },
+    {
+      "word": "speak",
+      "start": 176.52,
+      "end": 176.9
+    },
+    {
+      "word": "in",
+      "start": 176.9,
+      "end": 177.1
+    },
+    {
+      "word": "birds,",
+      "start": 177.1,
+      "end": 177.4
+    },
+    {
+      "word": "I",
+      "start": 178.74,
+      "end": 179.46
+    },
+    {
+      "word": "have",
+      "start": 179.46,
+      "end": 179.64
+    },
+    {
+      "word": "tears,",
+      "start": 179.64,
+      "end": 179.88
+    },
+    {
+      "word": "I",
+      "start": 180.26,
+      "end": 180.38
+    },
+    {
+      "word": "have",
+      "start": 180.38,
+      "end": 180.52
+    },
+    {
+      "word": "heat,",
+      "start": 180.52,
+      "end": 180.76
+    },
+    {
+      "word": "I",
+      "start": 181.1,
+      "end": 181.18
+    },
+    {
+      "word": "have",
+      "start": 181.18,
+      "end": 181.36
+    },
+    {
+      "word": "scars,",
+      "start": 181.36,
+      "end": 181.72
+    },
+    {
+      "word": "That",
+      "start": 182.72,
+      "end": 182.84
+    },
+    {
+      "word": "still",
+      "start": 182.84,
+      "end": 183.32
+    },
+    {
+      "word": "can't",
+      "start": 183.32,
+      "end": 184.1
+    },
+    {
+      "word": "speak,",
+      "start": 184.1,
+      "end": 184.7
+    },
+    {
+      "word": "I",
+      "start": 185.58,
+      "end": 186.18
+    },
+    {
+      "word": "am",
+      "start": 186.18,
+      "end": 186.4
+    },
+    {
+      "word": "more",
+      "start": 186.4,
+      "end": 186.7
+    },
+    {
+      "word": "than",
+      "start": 186.7,
+      "end": 187.02
+    },
+    {
+      "word": "what",
+      "start": 187.02,
+      "end": 187.22
+    },
+    {
+      "word": "I",
+      "start": 187.22,
+      "end": 187.46
+    },
+    {
+      "word": "built,",
+      "start": 187.46,
+      "end": 187.74
+    },
+    {
+      "word": "More",
+      "start": 188.6,
+      "end": 188.6
+    },
+    {
+      "word": "than",
+      "start": 188.6,
+      "end": 189.74
+    },
+    {
+      "word": "panic,",
+      "start": 189.74,
+      "end": 190.02
+    },
+    {
+      "word": "more",
+      "start": 190.3,
+      "end": 190.4
+    },
+    {
+      "word": "than",
+      "start": 190.4,
+      "end": 190.6
+    },
+    {
+      "word": "guilt,",
+      "start": 190.6,
+      "end": 190.88
+    },
+    {
+      "word": "When",
+      "start": 192.42,
+      "end": 192.84
+    },
+    {
+      "word": "the",
+      "start": 192.84,
+      "end": 193.06
+    },
+    {
+      "word": "world",
+      "start": 193.06,
+      "end": 193.46
+    },
+    {
+      "word": "turns",
+      "start": 193.46,
+      "end": 193.84
+    },
+    {
+      "word": "hard",
+      "start": 193.84,
+      "end": 194.34
+    },
+    {
+      "word": "and",
+      "start": 194.34,
+      "end": 194.62
+    },
+    {
+      "word": "bright,",
+      "start": 194.62,
+      "end": 194.98
+    },
+    {
+      "word": "I",
+      "start": 195.36,
+      "end": 195.48
+    },
+    {
+      "word": "keep",
+      "start": 195.48,
+      "end": 195.94
+    },
+    {
+      "word": "one",
+      "start": 195.94,
+      "end": 196.28
+    },
+    {
+      "word": "small",
+      "start": 196.28,
+      "end": 196.78
+    },
+    {
+      "word": "thing",
+      "start": 196.78,
+      "end": 197.6
+    },
+    {
+      "word": "in",
+      "start": 197.6,
+      "end": 198.0
+    },
+    {
+      "word": "touch,",
+      "start": 198.0,
+      "end": 199.06
+    },
+    {
+      "word": "Still",
+      "start": 201.0,
+      "end": 201.32
+    },
+    {
+      "word": "human",
+      "start": 201.32,
+      "end": 201.8
+    },
+    {
+      "word": "after",
+      "start": 201.8,
+      "end": 202.4
+    },
+    {
+      "word": "all,",
+      "start": 202.4,
+      "end": 202.76
+    },
+    {
+      "word": "Still",
+      "start": 202.94,
+      "end": 203.12
+    },
+    {
+      "word": "human",
+      "start": 203.12,
+      "end": 203.62
+    },
+    {
+      "word": "after",
+      "start": 203.62,
+      "end": 204.18
+    },
+    {
+      "word": "all,",
+      "start": 204.18,
+      "end": 204.68
+    },
+    {
+      "word": "Still",
+      "start": 204.68,
+      "end": 204.68
+    },
+    {
+      "word": "standing",
+      "start": 204.68,
+      "end": 205.2
+    },
+    {
+      "word": "when",
+      "start": 205.2,
+      "end": 205.64
+    },
+    {
+      "word": "I",
+      "start": 205.64,
+      "end": 205.82
+    },
+    {
+      "word": "fall,",
+      "start": 205.82,
+      "end": 206.02
+    },
+    {
+      "word": "Still",
+      "start": 206.02,
+      "end": 206.5
+    },
+    {
+      "word": "standing",
+      "start": 206.5,
+      "end": 207.02
+    },
+    {
+      "word": "when",
+      "start": 207.02,
+      "end": 207.48
+    },
+    {
+      "word": "I",
+      "start": 207.48,
+      "end": 207.78
+    },
+    {
+      "word": "fall,",
+      "start": 207.78,
+      "end": 208.0
+    },
+    {
+      "word": "Still",
+      "start": 208.24,
+      "end": 208.98
+    },
+    {
+      "word": "a",
+      "start": 208.98,
+      "end": 210.22
+    },
+    {
+      "word": "lake",
+      "start": 210.22,
+      "end": 210.48
+    },
+    {
+      "word": "and",
+      "start": 210.48,
+      "end": 210.72
+    },
+    {
+      "word": "still",
+      "start": 210.72,
+      "end": 211.24
+    },
+    {
+      "word": "a",
+      "start": 211.24,
+      "end": 211.66
+    },
+    {
+      "word": "light,",
+      "start": 211.66,
+      "end": 211.98
+    },
+    {
+      "word": "Still",
+      "start": 212.1,
+      "end": 212.1
+    },
+    {
+      "word": "learning",
+      "start": 212.1,
+      "end": 212.1
+    },
+    {
+      "word": "how",
+      "start": 212.1,
+      "end": 212.32
+    },
+    {
+      "word": "to",
+      "start": 212.32,
+      "end": 212.52
+    },
+    {
+      "word": "try,",
+      "start": 212.52,
+      "end": 212.88
+    },
+    {
+      "word": "Still",
+      "start": 214.54,
+      "end": 214.68
+    },
+    {
+      "word": "human",
+      "start": 214.68,
+      "end": 215.06
+    },
+    {
+      "word": "after",
+      "start": 215.06,
+      "end": 215.8
+    },
+    {
+      "word": "all,",
+      "start": 215.8,
+      "end": 216.2
+    },
+    {
+      "word": "Through",
+      "start": 216.78,
+      "end": 217.86
+    },
+    {
+      "word": "the",
+      "start": 217.86,
+      "end": 218.06
+    },
+    {
+      "word": "crash",
+      "start": 218.06,
+      "end": 218.4
+    },
+    {
+      "word": "through",
+      "start": 218.4,
+      "end": 218.92
+    },
+    {
+      "word": "the",
+      "start": 218.92,
+      "end": 219.12
+    },
+    {
+      "word": "cold,",
+      "start": 219.12,
+      "end": 219.46
+    },
+    {
+      "word": "If",
+      "start": 220.81,
+      "end": 221.2
+    },
+    {
+      "word": "I",
+      "start": 221.2,
+      "end": 221.42
+    },
+    {
+      "word": "break",
+      "start": 221.42,
+      "end": 221.64
+    },
+    {
+      "word": "out,",
+      "start": 221.64,
+      "end": 222.06
+    },
+    {
+      "word": "break",
+      "start": 222.26,
+      "end": 222.48
+    },
+    {
+      "word": "in",
+      "start": 222.48,
+      "end": 222.96
+    },
+    {
+      "word": "the",
+      "start": 222.96,
+      "end": 223.22
+    },
+    {
+      "word": "light,",
+      "start": 223.22,
+      "end": 223.46
+    },
+    {
+      "word": "Still",
+      "start": 224.24,
+      "end": 224.8
+    },
+    {
+      "word": "human",
+      "start": 224.8,
+      "end": 225.24
+    },
+    {
+      "word": "tonight,",
+      "start": 225.24,
+      "end": 226.04
+    },
+    {
+      "word": "Still",
+      "start": 231.22,
+      "end": 232.42
+    },
+    {
+      "word": "human",
+      "start": 232.42,
+      "end": 233.02
+    },
+    {
+      "word": "after",
+      "start": 233.02,
+      "end": 233.52
+    },
+    {
+      "word": "all,",
+      "start": 233.52,
+      "end": 234.2
+    },
+    {
+      "word": "Still",
+      "start": 234.2,
+      "end": 235.96
+    },
+    {
+      "word": "human",
+      "start": 235.96,
+      "end": 236.58
+    },
+    {
+      "word": "after",
+      "start": 236.58,
+      "end": 237.78
+    },
+    {
+      "word": "all,",
+      "start": 237.78,
+      "end": 238.4
+    },
+    {
+      "word": "I",
+      "start": 238.52,
+      "end": 238.98
+    },
+    {
+      "word": "am",
+      "start": 238.98,
+      "end": 239.16
+    },
+    {
+      "word": "here,",
+      "start": 239.16,
+      "end": 239.4
+    },
+    {
+      "word": "I",
+      "start": 240.26,
+      "end": 240.42
+    },
+    {
+      "word": "am",
+      "start": 240.42,
+      "end": 240.68
+    },
+    {
+      "word": "true,",
+      "start": 240.68,
+      "end": 241.06
+    },
+    {
+      "word": "Still",
+      "start": 241.68,
+      "end": 242.8
+    },
+    {
+      "word": "human",
+      "start": 242.8,
+      "end": 243.4
+    },
+    {
+      "word": "too,",
+      "start": 243.4,
+      "end": 245.04
+    }
+  ],
+  "duration": 0
+}

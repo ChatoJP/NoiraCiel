@@ -1,0 +1,224 @@
+{
+  "songId": "hd-3-the-roots-we-cannot-seewav",
+  "slug": "the-roots-we-cannot-see",
+  "title": "The Roots We Cannot See",
+  "album": "The Life Lessons I Hope You Learn",
+  "albumSlug": "the-life-lessons",
+  "albumCode": "HD",
+  "trackNumber": 3,
+  "artist": "NoiraCiel",
+  "duration": 277.55997916666666,
+  "durationFormatted": "4:37",
+  "mood": "intimate · emotional · Atlantic soul · human dignity · searching",
+  "style": "piano-led · fingerpicked guitar · intimate soul · cinematic sweep",
+  "hasLyrics": true,
+  "lyricsExcerpt": "The world admires the tallest branches Reaching proudly toward the sky\r / The leaves that dance in golden sunlight The beauty visible to every eye\r / But nobody stops to wonder What keeps that giant standing there\r / Through every storm, through every winter Year after year\r",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/the-roots-we-cannot-see.json",
+  "storyPath": "public/Books/stories/the-roots-we-cannot-see.pdf",
+  "artworkPath": "public/images/song-art/the-roots-we-cannot-see.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-roots-we-cannot-see.jpg",
+  "audioUrl": "/api/audio/hd_3%20-%20The%20Roots%20We%20Cannot%20See.wav",
+  "emotion": "The invisible inheritance — what our ancestors planted in us without us knowing.",
+  "scene": "Ancient tree roots breaking through stone pavement. An elderly woman tending a garden in silence. A child watching her grandmother from a doorway, not yet understanding what she is witnessing.",
+  "symbols": "roots, stone, garden, doorway, grandmother, seeds",
+  "arc": [
+    "Underground — roots beneath soil, unseen",
+    "The tending — patient hands in dark earth",
+    "The inheritance — child at doorway, future visible"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only one leaf at the very edge of frame — a single imperceptible shift sideways as if touched by unseen air, every other element frozen solid. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "leaf_breath",
+      "sourceImagePath": "public/images/song-art/the-roots-we-cannot-see.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-roots-we-cannot-see.jpg",
+      "videoLoopPath": "public/generated/kie/cinemagraphs/the-roots-we-cannot-see/loop.mp4",
+      "publicUrl": "/generated/kie/cinemagraphs/the-roots-we-cannot-see/loop.mp4",
+      "taskId": "a9abc89f4c418ce4fcbf776ca06dedd5",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:43:51.352Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "one or two leaves at the edge of frame shift imperceptibly in a slow unseen wind, the rest perfectly still. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      }
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"The Roots We Cannot See\" from album \"The Life Lessons I Hope You Learn\".\nShot role: opening.\nScene: Underground — roots beneath soil, unseen.\nCamera: slow push-in. Framing: wide establishing.\nMood: The invisible inheritance — what our ancestors planted in us without us knowing..\nVisual symbols: roots, stone, garden, doorway, grandmother, seeds.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-roots-we-cannot-see/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "intimate",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"The Roots We Cannot See\" from album \"The Life Lessons I Hope You Learn\".\nShot role: intimate.\nScene: The tending — patient hands in dark earth.\nCamera: locked close-up. Framing: hands or face detail.\nMood: The invisible inheritance — what our ancestors planted in us without us knowing..\nVisual symbols: roots, stone, garden, doorway, grandmother, seeds.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-roots-we-cannot-see/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "memory",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"The Roots We Cannot See\" from album \"The Life Lessons I Hope You Learn\".\nShot role: memory.\nScene: The inheritance — child at doorway, future visible.\nCamera: gentle dolly or overhead. Framing: symbolic object.\nMood: The invisible inheritance — what our ancestors planted in us without us knowing..\nVisual symbols: roots, stone, garden, doorway, grandmother, seeds.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-roots-we-cannot-see/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "turning",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"The Roots We Cannot See\" from album \"The Life Lessons I Hope You Learn\".\nShot role: turning.\nScene: Ancient tree roots breaking through stone pavement.\nCamera: slow rack focus. Framing: two planes of depth.\nMood: The invisible inheritance — what our ancestors planted in us without us knowing..\nVisual symbols: roots, stone, garden, doorway, grandmother, seeds.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-roots-we-cannot-see/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"The Roots We Cannot See\" from album \"The Life Lessons I Hope You Learn\".\nShot role: closing.\nScene:  An elderly woman tending a garden in silence.\nCamera: slow pull-back. Framing: wide, figure small in frame.\nMood: The invisible inheritance — what our ancestors planted in us without us knowing..\nVisual symbols: roots, stone, garden, doorway, grandmother, seeds.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-roots-we-cannot-see/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"The Roots We Cannot See\" (The Life Lessons I Hope You Learn). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: The invisible inheritance — what our ancestors planted in us without us knowing.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/the-roots-we-cannot-see/film.mp4",
+      "publicUrl": "/generated/kie/films/the-roots-we-cannot-see/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"The Roots We Cannot See.\"\nChapter 03 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: The invisible inheritance — what our ancestors planted in us without us knowing.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. roots, stone, garden, doorway, grandmother, seeds. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"The world admires the tallest branches Reaching proudly toward the sky\r / The leaves that dance in golden sunlight The b.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/the-roots-we-cannot-see/script.txt",
+      "voicePath": "public/generated/kie/commentary/the-roots-we-cannot-see/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/the-roots-we-cannot-see/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/the-roots-we-cannot-see/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"The Roots We Cannot See.\"\nChapter 03 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: The invisible inheritance — what our ancestors planted in us without us knowing.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. roots, stone, garden, doorway, grandmother, seeds. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"The world admires the tallest branches Reaching proudly toward the sky\r / The leaves that dance in golden sunlight The b.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/the-roots-we-cannot-see/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "Chapter 03: The Roots We Cannot See.\nFrom the album \"The Life Lessons I Hope You Learn\".\nThe world admires the tallest branches Reaching proudly toward the sky\r / The leaves that dance in golden sunlight The beauty visible to every eye\r / But nobody stops to wonder What keeps that giant standing there\r / Through every storm, through every winter Year after year\r\n— The invisible inheritance — what our ancestors planted in us without us knowing.",
+      "narrationPath": "public/generated/kie/audiobook/the-roots-we-cannot-see/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/the-roots-we-cannot-see/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/the-roots-we-cannot-see/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/the-roots-we-cannot-see/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"The Roots We Cannot See\". Style: ambient piano, sparse strings, Atlantic soul, gentle breathing room. Mood: The invisible inheritance — what our ancestors planted in us without us knowing.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: The invisible inheritance — what our ancestors planted in us without us knowing..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "Chapter 03: The Roots We Cannot See.\nFrom the album \"The Life Lessons I Hope You Learn\".\nThe world admires the tallest branches Reaching proudly toward the sky\r / The leaves that dance in golden sunlight The beauty visible to every eye\r / But nobody stops to wonder What keeps that giant standing there\r / Through every storm, through every winter Year after year\r\n— The invisible inheritance — what our ancestors planted in us without us knowing.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, ambient piano, sparse strings, Atlantic soul, gentle breathing room. The invisible inheritance — what our ancestors planted in us without us knowing.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "ambient piano, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.032Z",
+  "updatedAt": "2026-06-15T18:43:51.352Z"
+}

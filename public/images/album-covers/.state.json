@@ -1,0 +1,26 @@
+{
+  "jazz-sessions": {
+    "id": "jazz-sessions",
+    "label": "NoiraCiel Jazz Sessions",
+    "taskId": "fluxkontext_b601f3c7447e4e8486c44f15cb0a7753",
+    "status": "complete",
+    "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_b601f3c7447e4e8486c44f15cb0a7753_1781348254_0e9d33pg.jpg",
+    "localPath": "C:\\Users\\jorge\\noiraciel\\public\\Images\\album-covers\\jazz-sessions.jpg",
+    "publicUrl": "/images/album-covers/jazz-sessions.jpg",
+    "submittedAt": "2026-06-13T10:57:17.256Z",
+    "completedAt": "2026-06-13T10:57:38.486Z",
+    "error": null
+  },
+  "blind-angel": {
+    "id": "blind-angel",
+    "label": "The Blind Angel — Intimate Metal Sessions",
+    "taskId": "fluxkontext_f9aedc65bb5942a48cf0bf3d5da0ee51",
+    "status": "complete",
+    "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_f9aedc65bb5942a48cf0bf3d5da0ee51_1781348252_a4qxria0.jpg",
+    "localPath": "C:\\Users\\jorge\\noiraciel\\public\\Images\\album-covers\\blind-angel.jpg",
+    "publicUrl": "/images/album-covers/blind-angel.jpg",
+    "submittedAt": "2026-06-13T10:57:20.998Z",
+    "completedAt": "2026-06-13T10:57:39.445Z",
+    "error": null
+  }
+}

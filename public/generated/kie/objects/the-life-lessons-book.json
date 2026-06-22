@@ -1,0 +1,48 @@
+{
+  "slug": "the-life-lessons-book",
+  "title": "The Life Lessons I Hope You Learn — Book",
+  "type": "book",
+  "description": "The companion book to the album. Short stories and lyrics.",
+  "material": "matte black soft-cover, ivory text block, hand-sewn binding visible at spine",
+  "generatedAssets": {
+    "productPhoto": {
+      "status": "prompt_ready",
+      "prompt": "Hyper-photorealistic product photography. Studio environment.\nSingle dramatic light source from above-left at 45 degrees, casting deep shadow.\nDark slate or matte black surface. Background: deep shadow, nearly black.\nNo reflectors, no fill lights — intentionally dramatic, theatrical, premium.\nDeep navy and warm amber palette. 16mm film grain texture.\nNo text visible in image. No labels facing camera unless they are part of the aesthetic.\nShot on large-format digital medium, Hasselblad aesthetic.\nLuxury editorial quality. NOT e-commerce white background. NOT stock photography.\n\nProduct: The Life Lessons I Hope You Learn — Book.\nType: book.\nDescription: The companion book to the album. Short stories and lyrics..\nMaterial and appearance: matte black soft-cover, ivory text block, hand-sewn binding visible at spine.\n\nShot: single hero product, centered, no props, no hands.\nAngle: 3/4 view from slightly above for books and prints. Side-on for vinyl. Front-facing for apparel.\nAtmosphere: collector-edition premium. The object looks rare and earned.",
+      "gptPayload": {
+        "model": "gpt-image-2",
+        "prompt": "Hyper-photorealistic product photography. Studio environment.\nSingle dramatic light source from above-left at 45 degrees, casting deep shadow.\nDark slate or matte black surface. Background: deep shadow, nearly black.\nNo reflectors, no fill lights — intentionally dramatic, theatrical, premium.\nDeep navy and warm amber palette. 16mm film grain texture.\nNo text visible in image. No labels facing camera unless they are part of the aesthetic.\nShot on large-format digital medium, Hasselblad aesthetic.\nLuxury editorial quality. NOT e-commerce white background. NOT stock photography.\n\nProduct: The Life Lessons I Hope You Learn — Book.\nType: book.\nDescription: The companion book to the album. Short stories and lyrics..\nMaterial and appearance: matte black soft-cover, ivory text block, hand-sewn binding visible at spine.\n\nShot: single hero product, centered, no props, no hands.\nAngle: 3/4 view from slightly above for books and prints. Side-on for vinyl. Front-facing for apparel.\nAtmosphere: collector-edition premium. The object looks rare and earned.",
+        "quality": "high",
+        "size": "1024x1024"
+      },
+      "photoPath": "public/generated/kie/objects/the-life-lessons-book/photo.jpg",
+      "publicUrl": "/generated/kie/objects/the-life-lessons-book/photo.jpg",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null
+    },
+    "animatedLoop": {
+      "status": "prompt_ready",
+      "prompt": "Subtle product animation loop from still image. Product: The Life Lessons I Hope You Learn — Book. Motion: book lies closed, light slowly reveals the title on the cover, then it lifts open gently. Camera: locked off, no movement. Product and light move only. Loop: seamless. No sudden changes. No zoom. Mood: luxury, dark, cinematic, premium collector edition. 16mm grain. No text. Deep shadow. Warm amber light.",
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "6",
+        "cfg_scale": 0.5,
+        "prompt": "Subtle product animation loop from still image. Product: The Life Lessons I Hope You Learn — Book. Motion: book lies closed, light slowly reveals the title on the cover, then it lifts open gently. Camera: locked off, no movement. Product and light move only. Loop: seamless. No sudden changes. No zoom. Mood: luxury, dark, cinematic, premium collector edition. 16mm grain. No text. Deep shadow. Warm amber light."
+      },
+      "videoPath": "public/generated/kie/objects/the-life-lessons-book/loop.mp4",
+      "publicUrl": "/generated/kie/objects/the-life-lessons-book/loop.mp4",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null
+    }
+  },
+  "approvals": {
+    "productPhoto": false,
+    "animatedLoop": false
+  },
+  "createdAt": "2026-06-15T14:04:59.360Z",
+  "updatedAt": "2026-06-15T14:04:59.360Z"
+}

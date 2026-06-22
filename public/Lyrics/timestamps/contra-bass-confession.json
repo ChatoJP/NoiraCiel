@@ -1,0 +1,546 @@
+{
+  "title": "Contra-Bass Confession",
+  "words": [
+    {
+      "word": "Subtit",
+      "start": 27.18,
+      "end": 28.58
+    },
+    {
+      "word": "byFs",
+      "start": 28.58,
+      "end": 29.98
+    },
+    {
+      "word": "Street",
+      "start": 32.68,
+      "end": 33.64
+    },
+    {
+      "word": "lights",
+      "start": 33.64,
+      "end": 34.06
+    },
+    {
+      "word": "bleeding",
+      "start": 34.06,
+      "end": 34.7
+    },
+    {
+      "word": "yellow",
+      "start": 34.7,
+      "end": 35.32
+    },
+    {
+      "word": "haze",
+      "start": 35.32,
+      "end": 36.3
+    },
+    {
+      "word": "Another",
+      "start": 36.3,
+      "end": 39.56
+    },
+    {
+      "word": "night,",
+      "start": 39.56,
+      "end": 40.16
+    },
+    {
+      "word": "another",
+      "start": 40.56,
+      "end": 40.96
+    },
+    {
+      "word": "maze",
+      "start": 40.96,
+      "end": 41.48
+    },
+    {
+      "word": "My",
+      "start": 44.2,
+      "end": 44.68
+    },
+    {
+      "word": "thoughts",
+      "start": 44.68,
+      "end": 45.06
+    },
+    {
+      "word": "they",
+      "start": 45.06,
+      "end": 45.38
+    },
+    {
+      "word": "run",
+      "start": 45.38,
+      "end": 45.6
+    },
+    {
+      "word": "they",
+      "start": 45.6,
+      "end": 45.88
+    },
+    {
+      "word": "always",
+      "start": 45.88,
+      "end": 46.56
+    },
+    {
+      "word": "chase",
+      "start": 46.56,
+      "end": 47.02
+    },
+    {
+      "word": "A",
+      "start": 47.02,
+      "end": 50.3
+    },
+    {
+      "word": "silent",
+      "start": 50.3,
+      "end": 50.72
+    },
+    {
+      "word": "scream,",
+      "start": 50.72,
+      "end": 51.06
+    },
+    {
+      "word": "a",
+      "start": 51.68,
+      "end": 51.76
+    },
+    {
+      "word": "hidden",
+      "start": 51.76,
+      "end": 52.04
+    },
+    {
+      "word": "face",
+      "start": 52.04,
+      "end": 52.54
+    },
+    {
+      "word": "Oh",
+      "start": 55.16,
+      "end": 56.04
+    },
+    {
+      "word": "the",
+      "start": 56.04,
+      "end": 56.38
+    },
+    {
+      "word": "things",
+      "start": 56.38,
+      "end": 56.7
+    },
+    {
+      "word": "I",
+      "start": 56.7,
+      "end": 57.0
+    },
+    {
+      "word": "never",
+      "start": 57.0,
+      "end": 57.44
+    },
+    {
+      "word": "say",
+      "start": 57.44,
+      "end": 58.12
+    },
+    {
+      "word": "Hidden",
+      "start": 58.12,
+      "end": 61.7
+    },
+    {
+      "word": "deep",
+      "start": 61.7,
+      "end": 62.14
+    },
+    {
+      "word": "from",
+      "start": 62.14,
+      "end": 62.48
+    },
+    {
+      "word": "light",
+      "start": 62.48,
+      "end": 62.9
+    },
+    {
+      "word": "of",
+      "start": 62.9,
+      "end": 82.52
+    },
+    {
+      "word": "day",
+      "start": 82.52,
+      "end": 82.52
+    },
+    {
+      "word": "The",
+      "start": 91.02,
+      "end": 91.74
+    },
+    {
+      "word": "moon",
+      "start": 91.74,
+      "end": 91.96
+    },
+    {
+      "word": "it",
+      "start": 91.96,
+      "end": 92.18
+    },
+    {
+      "word": "hangs",
+      "start": 92.18,
+      "end": 92.46
+    },
+    {
+      "word": "a",
+      "start": 92.46,
+      "end": 92.82
+    },
+    {
+      "word": "watchful",
+      "start": 92.82,
+      "end": 93.48
+    },
+    {
+      "word": "light",
+      "start": 93.48,
+      "end": 94.08
+    },
+    {
+      "word": "No",
+      "start": 94.08,
+      "end": 97.42
+    },
+    {
+      "word": "one",
+      "start": 97.42,
+      "end": 97.68
+    },
+    {
+      "word": "else",
+      "start": 97.68,
+      "end": 98.02
+    },
+    {
+      "word": "beneath",
+      "start": 98.02,
+      "end": 98.66
+    },
+    {
+      "word": "the",
+      "start": 98.66,
+      "end": 99.02
+    },
+    {
+      "word": "sky",
+      "start": 99.02,
+      "end": 101.52
+    },
+    {
+      "word": "My",
+      "start": 101.52,
+      "end": 102.08
+    },
+    {
+      "word": "tenderness",
+      "start": 102.08,
+      "end": 103.48
+    },
+    {
+      "word": "a",
+      "start": 103.48,
+      "end": 103.84
+    },
+    {
+      "word": "fragile",
+      "start": 103.84,
+      "end": 104.42
+    },
+    {
+      "word": "thing",
+      "start": 104.42,
+      "end": 104.96
+    },
+    {
+      "word": "A",
+      "start": 104.96,
+      "end": 108.24
+    },
+    {
+      "word": "whispered",
+      "start": 108.24,
+      "end": 108.52
+    },
+    {
+      "word": "word",
+      "start": 108.52,
+      "end": 109.02
+    },
+    {
+      "word": "no",
+      "start": 109.02,
+      "end": 109.34
+    },
+    {
+      "word": "song",
+      "start": 109.34,
+      "end": 109.82
+    },
+    {
+      "word": "to",
+      "start": 109.82,
+      "end": 110.2
+    },
+    {
+      "word": "sing",
+      "start": 110.2,
+      "end": 110.56
+    },
+    {
+      "word": "Oh",
+      "start": 113.12,
+      "end": 113.96
+    },
+    {
+      "word": "the",
+      "start": 113.96,
+      "end": 114.32
+    },
+    {
+      "word": "things",
+      "start": 114.32,
+      "end": 114.64
+    },
+    {
+      "word": "I",
+      "start": 114.64,
+      "end": 114.9
+    },
+    {
+      "word": "never",
+      "start": 114.9,
+      "end": 115.28
+    },
+    {
+      "word": "say",
+      "start": 115.28,
+      "end": 116.04
+    },
+    {
+      "word": "Hidden",
+      "start": 116.04,
+      "end": 119.58
+    },
+    {
+      "word": "deep",
+      "start": 119.58,
+      "end": 120.04
+    },
+    {
+      "word": "from",
+      "start": 120.04,
+      "end": 120.38
+    },
+    {
+      "word": "light",
+      "start": 120.38,
+      "end": 120.76
+    },
+    {
+      "word": "of",
+      "start": 120.76,
+      "end": 131.48
+    },
+    {
+      "word": "day",
+      "start": 131.48,
+      "end": 131.5
+    },
+    {
+      "word": "The",
+      "start": 131.5,
+      "end": 131.78
+    },
+    {
+      "word": "good",
+      "start": 131.78,
+      "end": 161.48
+    },
+    {
+      "word": "feelings",
+      "start": 161.48,
+      "end": 161.48
+    },
+    {
+      "word": "go",
+      "start": 161.48,
+      "end": 161.48
+    },
+    {
+      "word": "go",
+      "start": 161.48,
+      "end": 161.48
+    },
+    {
+      "word": "Guilt",
+      "start": 168.32,
+      "end": 169.28
+    },
+    {
+      "word": "it",
+      "start": 169.28,
+      "end": 169.42
+    },
+    {
+      "word": "stains",
+      "start": 169.42,
+      "end": 169.68
+    },
+    {
+      "word": "a",
+      "start": 169.68,
+      "end": 170.4
+    },
+    {
+      "word": "bitter",
+      "start": 170.4,
+      "end": 170.64
+    },
+    {
+      "word": "taste",
+      "start": 170.64,
+      "end": 171.64
+    },
+    {
+      "word": "Time",
+      "start": 171.64,
+      "end": 174.62
+    },
+    {
+      "word": "I've",
+      "start": 174.62,
+      "end": 175.1
+    },
+    {
+      "word": "lost",
+      "start": 175.1,
+      "end": 175.34
+    },
+    {
+      "word": "time",
+      "start": 175.34,
+      "end": 175.8
+    },
+    {
+      "word": "gone",
+      "start": 175.8,
+      "end": 176.28
+    },
+    {
+      "word": "to",
+      "start": 176.28,
+      "end": 191.48
+    },
+    {
+      "word": "waste",
+      "start": 191.48,
+      "end": 191.48
+    },
+    {
+      "word": "Oh",
+      "start": 191.48,
+      "end": 191.74
+    },
+    {
+      "word": "the",
+      "start": 191.74,
+      "end": 191.98
+    },
+    {
+      "word": "things",
+      "start": 191.98,
+      "end": 192.3
+    },
+    {
+      "word": "I",
+      "start": 192.3,
+      "end": 192.6
+    },
+    {
+      "word": "never",
+      "start": 192.6,
+      "end": 192.92
+    },
+    {
+      "word": "say",
+      "start": 192.92,
+      "end": 193.72
+    },
+    {
+      "word": "Hidden",
+      "start": 193.72,
+      "end": 197.34
+    },
+    {
+      "word": "deep",
+      "start": 197.34,
+      "end": 197.78
+    },
+    {
+      "word": "from",
+      "start": 197.78,
+      "end": 198.1
+    },
+    {
+      "word": "light",
+      "start": 198.1,
+      "end": 198.56
+    },
+    {
+      "word": "of",
+      "start": 198.56,
+      "end": 221.46
+    },
+    {
+      "word": "day",
+      "start": 221.46,
+      "end": 221.46
+    },
+    {
+      "word": "The",
+      "start": 224.94,
+      "end": 226.34
+    },
+    {
+      "word": "good",
+      "start": 226.34,
+      "end": 226.34
+    },
+    {
+      "word": "feelings",
+      "start": 226.34,
+      "end": 226.34
+    },
+    {
+      "word": "go",
+      "start": 226.34,
+      "end": 226.34
+    },
+    {
+      "word": "go",
+      "start": 226.34,
+      "end": 226.34
+    }
+  ],
+  "duration": 0
+}

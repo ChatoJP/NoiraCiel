@@ -1,0 +1,626 @@
+{
+  "title": "Grief in Different Latitudes",
+  "words": [
+    {
+      "word": "Sunrise",
+      "start": 26.1,
+      "end": 27.5
+    },
+    {
+      "word": "in",
+      "start": 27.5,
+      "end": 28.66
+    },
+    {
+      "word": "Tokyo",
+      "start": 28.66,
+      "end": 29.12
+    },
+    {
+      "word": "Rain",
+      "start": 32.24,
+      "end": 33.34
+    },
+    {
+      "word": "and",
+      "start": 33.34,
+      "end": 33.74
+    },
+    {
+      "word": "bars",
+      "start": 33.74,
+      "end": 34.2
+    },
+    {
+      "word": "are",
+      "start": 34.2,
+      "end": 35.02
+    },
+    {
+      "word": "loomier",
+      "start": 35.02,
+      "end": 35.74
+    },
+    {
+      "word": "A",
+      "start": 37.44,
+      "end": 38.54
+    },
+    {
+      "word": "sigh",
+      "start": 38.54,
+      "end": 39.06
+    },
+    {
+      "word": "in",
+      "start": 39.06,
+      "end": 39.8
+    },
+    {
+      "word": "the",
+      "start": 39.8,
+      "end": 40.02
+    },
+    {
+      "word": "desert",
+      "start": 40.02,
+      "end": 40.44
+    },
+    {
+      "word": "wind",
+      "start": 40.44,
+      "end": 40.94
+    },
+    {
+      "word": "A",
+      "start": 42.28,
+      "end": 43.38
+    },
+    {
+      "word": "tear",
+      "start": 43.38,
+      "end": 43.72
+    },
+    {
+      "word": "on",
+      "start": 43.72,
+      "end": 44.3
+    },
+    {
+      "word": "a",
+      "start": 44.3,
+      "end": 44.54
+    },
+    {
+      "word": "frozen",
+      "start": 44.54,
+      "end": 44.88
+    },
+    {
+      "word": "window",
+      "start": 44.88,
+      "end": 45.86
+    },
+    {
+      "word": "pane",
+      "start": 45.86,
+      "end": 46.34
+    },
+    {
+      "word": "It's",
+      "start": 48.98,
+      "end": 50.08
+    },
+    {
+      "word": "the",
+      "start": 50.08,
+      "end": 50.22
+    },
+    {
+      "word": "same",
+      "start": 50.22,
+      "end": 50.82
+    },
+    {
+      "word": "old",
+      "start": 50.82,
+      "end": 51.34
+    },
+    {
+      "word": "story",
+      "start": 51.34,
+      "end": 52.48
+    },
+    {
+      "word": "A",
+      "start": 53.94,
+      "end": 55.04
+    },
+    {
+      "word": "heart",
+      "start": 55.04,
+      "end": 55.42
+    },
+    {
+      "word": "in",
+      "start": 55.42,
+      "end": 55.68
+    },
+    {
+      "word": "pieces",
+      "start": 55.68,
+      "end": 56.32
+    },
+    {
+      "word": "again",
+      "start": 56.32,
+      "end": 58.0
+    },
+    {
+      "word": "Oh,",
+      "start": 58.96,
+      "end": 59.64
+    },
+    {
+      "word": "the",
+      "start": 59.72,
+      "end": 59.84
+    },
+    {
+      "word": "way",
+      "start": 59.84,
+      "end": 60.12
+    },
+    {
+      "word": "it",
+      "start": 60.12,
+      "end": 60.26
+    },
+    {
+      "word": "just",
+      "start": 60.26,
+      "end": 60.56
+    },
+    {
+      "word": "hangs",
+      "start": 60.56,
+      "end": 60.96
+    },
+    {
+      "word": "A",
+      "start": 60.96,
+      "end": 61.9
+    },
+    {
+      "word": "heavy",
+      "start": 61.9,
+      "end": 62.3
+    },
+    {
+      "word": "cloud",
+      "start": 62.3,
+      "end": 62.78
+    },
+    {
+      "word": "Grief,",
+      "start": 66.98,
+      "end": 67.66
+    },
+    {
+      "word": "animal",
+      "start": 68.0,
+      "end": 68.36
+    },
+    {
+      "word": "You",
+      "start": 68.76,
+      "end": 69.1
+    },
+    {
+      "word": "grow,",
+      "start": 69.1,
+      "end": 69.38
+    },
+    {
+      "word": "you",
+      "start": 69.7,
+      "end": 69.78
+    },
+    {
+      "word": "buy,",
+      "start": 69.78,
+      "end": 70.2
+    },
+    {
+      "word": "grief,",
+      "start": 70.36,
+      "end": 70.58
+    },
+    {
+      "word": "animal",
+      "start": 70.88,
+      "end": 71.28
+    },
+    {
+      "word": "You",
+      "start": 71.28,
+      "end": 71.78
+    },
+    {
+      "word": "steal",
+      "start": 71.78,
+      "end": 72.06
+    },
+    {
+      "word": "my",
+      "start": 72.06,
+      "end": 72.52
+    },
+    {
+      "word": "life,",
+      "start": 72.52,
+      "end": 72.86
+    },
+    {
+      "word": "grief,",
+      "start": 72.96,
+      "end": 73.42
+    },
+    {
+      "word": "animal",
+      "start": 73.76,
+      "end": 73.98
+    },
+    {
+      "word": "You",
+      "start": 73.98,
+      "end": 74.56
+    },
+    {
+      "word": "make",
+      "start": 74.56,
+      "end": 74.9
+    },
+    {
+      "word": "me",
+      "start": 74.9,
+      "end": 75.24
+    },
+    {
+      "word": "smile,",
+      "start": 75.24,
+      "end": 75.54
+    },
+    {
+      "word": "animal",
+      "start": 76.58,
+      "end": 76.58
+    },
+    {
+      "word": "You",
+      "start": 76.58,
+      "end": 77.3
+    },
+    {
+      "word": "take",
+      "start": 77.3,
+      "end": 77.68
+    },
+    {
+      "word": "it",
+      "start": 77.68,
+      "end": 78.16
+    },
+    {
+      "word": "all",
+      "start": 78.16,
+      "end": 78.44
+    },
+    {
+      "word": "A",
+      "start": 88.88,
+      "end": 89.68
+    },
+    {
+      "word": "heart",
+      "start": 89.68,
+      "end": 89.68
+    },
+    {
+      "word": "in",
+      "start": 89.68,
+      "end": 89.68
+    },
+    {
+      "word": "pieces",
+      "start": 89.68,
+      "end": 89.68
+    },
+    {
+      "word": "again",
+      "start": 89.68,
+      "end": 100.44
+    },
+    {
+      "word": "Oh,",
+      "start": 100.44,
+      "end": 101.0
+    },
+    {
+      "word": "it's",
+      "start": 101.12,
+      "end": 101.28
+    },
+    {
+      "word": "a",
+      "start": 101.28,
+      "end": 101.46
+    },
+    {
+      "word": "good",
+      "start": 101.46,
+      "end": 101.56
+    },
+    {
+      "word": "prayer",
+      "start": 101.56,
+      "end": 101.82
+    },
+    {
+      "word": "in",
+      "start": 101.82,
+      "end": 102.2
+    },
+    {
+      "word": "the",
+      "start": 102.2,
+      "end": 102.34
+    },
+    {
+      "word": "humid",
+      "start": 102.34,
+      "end": 102.6
+    },
+    {
+      "word": "night",
+      "start": 102.6,
+      "end": 103.14
+    },
+    {
+      "word": "The",
+      "start": 103.14,
+      "end": 103.68
+    },
+    {
+      "word": "shout",
+      "start": 103.68,
+      "end": 103.94
+    },
+    {
+      "word": "across",
+      "start": 103.94,
+      "end": 104.54
+    },
+    {
+      "word": "the",
+      "start": 104.54,
+      "end": 104.94
+    },
+    {
+      "word": "endless",
+      "start": 104.94,
+      "end": 105.32
+    },
+    {
+      "word": "plains",
+      "start": 105.32,
+      "end": 105.94
+    },
+    {
+      "word": "A",
+      "start": 105.94,
+      "end": 106.28
+    },
+    {
+      "word": "quiet",
+      "start": 106.28,
+      "end": 106.62
+    },
+    {
+      "word": "home",
+      "start": 106.62,
+      "end": 107.36
+    },
+    {
+      "word": "of",
+      "start": 107.36,
+      "end": 107.66
+    },
+    {
+      "word": "burning",
+      "start": 107.66,
+      "end": 108.14
+    },
+    {
+      "word": "lake",
+      "start": 108.14,
+      "end": 108.64
+    },
+    {
+      "word": "A",
+      "start": 108.64,
+      "end": 109.18
+    },
+    {
+      "word": "silent",
+      "start": 109.18,
+      "end": 109.76
+    },
+    {
+      "word": "scream",
+      "start": 109.76,
+      "end": 110.16
+    },
+    {
+      "word": "of",
+      "start": 110.16,
+      "end": 110.44
+    },
+    {
+      "word": "pouring",
+      "start": 110.44,
+      "end": 110.94
+    },
+    {
+      "word": "rain",
+      "start": 110.94,
+      "end": 111.5
+    },
+    {
+      "word": "The",
+      "start": 111.5,
+      "end": 112.52
+    },
+    {
+      "word": "language",
+      "start": 112.52,
+      "end": 112.86
+    },
+    {
+      "word": "changes",
+      "start": 112.86,
+      "end": 113.96
+    },
+    {
+      "word": "The",
+      "start": 114.96,
+      "end": 116.0
+    },
+    {
+      "word": "feeling",
+      "start": 116.0,
+      "end": 116.52
+    },
+    {
+      "word": "stays",
+      "start": 116.52,
+      "end": 116.98
+    },
+    {
+      "word": "the",
+      "start": 116.98,
+      "end": 117.38
+    },
+    {
+      "word": "same",
+      "start": 117.38,
+      "end": 117.76
+    },
+    {
+      "word": "From",
+      "start": 119.62,
+      "end": 120.82
+    },
+    {
+      "word": "mountain",
+      "start": 120.82,
+      "end": 121.46
+    },
+    {
+      "word": "hot",
+      "start": 121.46,
+      "end": 121.92
+    },
+    {
+      "word": "to",
+      "start": 121.92,
+      "end": 122.2
+    },
+    {
+      "word": "ocean",
+      "start": 122.2,
+      "end": 122.92
+    },
+    {
+      "word": "deep",
+      "start": 122.92,
+      "end": 123.5
+    },
+    {
+      "word": "This",
+      "start": 125.02,
+      "end": 126.22
+    },
+    {
+      "word": "hollow",
+      "start": 126.22,
+      "end": 126.66
+    },
+    {
+      "word": "echo",
+      "start": 126.66,
+      "end": 127.48
+    },
+    {
+      "word": "where",
+      "start": 127.48,
+      "end": 128.02
+    },
+    {
+      "word": "you",
+      "start": 128.02,
+      "end": 128.34
+    },
+    {
+      "word": "see",
+      "start": 128.34,
+      "end": 129.16
+    },
+    {
+      "word": "A",
+      "start": 129.16,
+      "end": 129.76
+    },
+    {
+      "word": "shadow",
+      "start": 129.76,
+      "end": 132.28
+    },
+    {
+      "word": "dancing",
+      "start": 132.28,
+      "end": 132.96
+    },
+    {
+      "word": "in",
+      "start": 132.96,
+      "end": 143.94
+    },
+    {
+      "word": "my",
+      "start": 143.94,
+      "end": 143.94
+    },
+    {
+      "word": "head",
+      "start": 143.94,
+      "end": 143.94
+    },
+    {
+      "word": "It's",
+      "start": 143.94,
+      "end": 144.38
+    },
+    {
+      "word": "a",
+      "start": 144.38,
+      "end": 144.46
+    },
+    {
+      "word": "universal",
+      "start": 144.46,
+      "end": 144.92
+    }
+  ],
+  "duration": 0
+}

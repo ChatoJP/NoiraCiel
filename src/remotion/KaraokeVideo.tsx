@@ -1,6 +1,7 @@
 import {
   AbsoluteFill,
   Audio,
+  Easing,
   Img,
   interpolate,
   useCurrentFrame,
@@ -51,6 +52,12 @@ const GOLD  = '#C4953A'
 const IVORY = '#F5F0E8'
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
+// Background images may be a local public/ path (resolved via staticFile) or
+// a full R2 URL — pass remote URLs through untouched.
+function resolveImgSrc(src: string): string {
+  return /^https?:\/\//.test(src) ? src : staticFile(src)
+}
+
 function getActiveLineIndex(lines: Line[], t: number): number {
   if (!lines.length) return -1
   const firstStart = lines[0].words[0]?.start ?? 0
@@ -67,94 +74,81 @@ function getActiveLineIndex(lines: Line[], t: number): number {
 }
 
 // ─── Background ───────────────────────────────────────────────────────────────
-// Strategy: image at natural brightness + blur, with a single dark overlay
-// for depth. Never stack multiple darkening layers.
 function Background({ pool }: { pool: string[] }) {
   const frame = useCurrentFrame()
-  const { fps, durationInFrames } = useVideoConfig()
+  const { fps } = useVideoConfig()
 
   if (pool.length === 0) {
     return <AbsoluteFill style={{ background: '#06060e' }} />
   }
 
-  // Ken Burns — gentle zoom + drift across full video duration
-  const scale = interpolate(frame, [0, durationInFrames], [1.04, 1.18], {
-    extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
-  })
-  const panX = interpolate(frame, [0, durationInFrames], [-2.5, 2.5], {
-    extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
-  })
-  const panY = interpolate(frame, [0, durationInFrames], [1.2, -1.2], {
-    extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
-  })
+  const CYCLE_FRAMES = Math.round(6 * fps)
+  const FADE_FRAMES  = Math.round(1 * fps)
+  const fadeStart    = CYCLE_FRAMES - FADE_FRAMES
 
-  // Crossfade between images every 40s with 3s transition
-  const CYCLE_FRAMES = Math.round(40 * fps)
-  const FADE_FRAMES  = Math.round(3 * fps)
-  const cycleIdx  = Math.floor(frame / CYCLE_FRAMES)
-  const cyclePos  = frame % CYCLE_FRAMES
-  const fadeStart = CYCLE_FRAMES - FADE_FRAMES
+  const cycleIdx = Math.floor(frame / CYCLE_FRAMES)
+  const cyclePos = frame % CYCLE_FRAMES
 
-  const imgA = pool[cycleIdx % pool.length]
-  const imgB = pool[(cycleIdx + 1) % pool.length]
-
-  const crossfade = cyclePos >= fadeStart
+  const crossfadeLinear = cyclePos >= fadeStart
     ? interpolate(cyclePos, [fadeStart, CYCLE_FRAMES], [0, 1], {
         extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
       })
     : 0
+  const crossfade = crossfadeLinear > 0
+    ? Easing.inOut(Easing.ease)(crossfadeLinear)
+    : 0
 
-  // On each cycle, alternate pan direction for cinematic variety
-  const panDir = cycleIdx % 2 === 0 ? 1 : -1
+  const currentSrc  = pool[cycleIdx % pool.length]
+  const incomingSrc = pool[(cycleIdx + 1) % pool.length]
+  const isEven      = cycleIdx % 2 === 0
 
-  const makeTransform = (extraScale = 0) =>
-    `scale(${scale + extraScale}) translate(${panX * panDir}%, ${panY}%)`
+  // Ken Burns on the current image only, starting at scale(1) translate(0,0).
+  // Incoming image stays at the same neutral position — when it becomes current
+  // on the next cycle it starts exactly here, so there is zero snap at the boundary.
+  const scaleA = interpolate(cyclePos, [0, CYCLE_FRAMES], [1.0, 1.05], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })
+  const panXA  = interpolate(cyclePos, [0, CYCLE_FRAMES], [0, isEven ? 1.5 : -1.5], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })
+  const panYA  = interpolate(cyclePos, [0, CYCLE_FRAMES], [0, 0.5], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })
 
-  const imgStyle = {
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover' as const,
-    // Light blur — image stays recognisable. No brightness reduction here;
-    // the single dark overlay below handles overall darkening uniformly.
-    filter: 'blur(7px)',
-    transform: makeTransform(),
-  }
+  const baseStyle = { width: '100%', height: '100%', objectFit: 'cover' as const }
 
   return (
     <AbsoluteFill>
-      {/* Near-black fallback base */}
       <AbsoluteFill style={{ background: '#06060e' }} />
 
-      {/* Image A */}
-      <AbsoluteFill style={{ overflow: 'hidden', opacity: 1 - crossfade }}>
-        <Img src={staticFile(imgA)} style={imgStyle} />
+      {/* Key each layer by its src string.
+          When cycleIdx ticks over, what was the incoming layer becomes the current layer.
+          Because the key stays the same (same src), React MOVES the component rather than
+          swapping its src prop — the <Img> never re-fires and there is no decode flash.
+          The new incoming layer (key=incomingSrc) mounts at opacity 0, so Remotion
+          preloads it silently before it is ever visible. */}
+      <AbsoluteFill key={currentSrc} style={{ overflow: 'hidden', opacity: 1 - crossfade }}>
+        <Img
+          src={resolveImgSrc(currentSrc)}
+          style={{ ...baseStyle, transform: `scale(${scaleA}) translate(${panXA}%, ${panYA}%)` }}
+        />
       </AbsoluteFill>
 
-      {/* Image B fading in at end of cycle */}
-      {crossfade > 0 && (
-        <AbsoluteFill style={{ overflow: 'hidden', opacity: crossfade }}>
-          <Img
-            src={staticFile(imgB)}
-            style={{ ...imgStyle, transform: makeTransform(0.03) }}
-          />
-        </AbsoluteFill>
-      )}
+      <AbsoluteFill key={incomingSrc} style={{ overflow: 'hidden', opacity: pool.length === 1 ? 0 : crossfade }}>
+        <Img
+          src={resolveImgSrc(incomingSrc)}
+          style={{ ...baseStyle, transform: 'scale(1) translate(0%, 0%)' }}
+        />
+      </AbsoluteFill>
 
-      {/* Single cinematic dark overlay — gives depth without destroying image.
-          0.38 leaves bright parts clearly visible (~60% pass-through) */}
-      <AbsoluteFill style={{ background: 'rgba(0,0,0,0.38)' }} />
+      {/* Uniform dark overlay */}
+      <AbsoluteFill style={{ background: 'rgba(0,0,0,0.32)' }} />
 
-      {/* Text-safety gradient — ONLY bottom quarter */}
+      {/* Text-safety gradient — bottom only */}
       <AbsoluteFill style={{
         background: 'linear-gradient(to bottom, transparent 65%, rgba(4,4,14,0.75) 100%)',
       }} />
 
-      {/* Very subtle top shadow — just enough to frame chapter info */}
+      {/* Subtle top shadow */}
       <AbsoluteFill style={{
         background: 'linear-gradient(to bottom, rgba(4,4,14,0.35) 0%, transparent 14%)',
       }} />
 
-      {/* Gentle edge vignette — keeps frame tight without darkening the center */}
+      {/* Edge vignette */}
       <AbsoluteFill style={{
         background: 'radial-gradient(ellipse 120% 110% at 50% 50%, transparent 55%, rgba(4,4,14,0.42) 100%)',
       }} />

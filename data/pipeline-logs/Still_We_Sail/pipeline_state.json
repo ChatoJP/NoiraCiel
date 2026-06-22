@@ -1,0 +1,752 @@
+{
+  "01_still_we_sail": {
+    "trackNumber": 1,
+    "title": "Still We Sail",
+    "slug": "01_still_we_sail",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "6afe56fa96b58c2a9f191f93a597876a",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Still We Sail",
+        "text": "[Verse 1]\nWe left the shore in rain\nWith salt in our sleeves\nNames folded in our coats\nAnd ash in our teeth\n\nThe map was torn by time\nThe wind kept changing sides\nStill every night we pointed\nToward the other line\n\n[Chorus]\nStill we sail, still we sail\nThrough the dark, through the hail\nNot for pride, not for glory\nJust the cost of staying still\n\nStill we sail, still we sail\nPast the grief we cannot jail\nIf we stop here, we lose more\nSo we pull against the waves\n\n[Verse 2]\nI saw your face in ports\nIn lanterns and in glass\nIn strangers sharing bread\nThat never asked my past\n\nThe land behind us burned\nThe land ahead was blurred\nBut your hand on the rope\nWas the truest thing I learned\n\n[Chorus]\nStill we sail, still we sail\nThrough the dark, through the hail\nNot for pride, not for glory\nJust the cost of staying still\n\nStill we sail, still we sail\nPast the grief we cannot jail\nIf we stop here, we lose more\nSo we pull against the waves\n\n[Bridge]\nMaybe courage is a word\nFor people on the shore\nMaybe we just learned\nTo bleed and move once more\n\nThe cold can name us all\nThe sea can take its toll\nBut I won't trade the ache\nFor a locked and waiting soul\n\n[Chorus]\nStill we sail, still we sail\nThrough the dark, through the hail\nNot for pride, not for glory\nJust the cost of staying still\n\nStill we sail, still we sail\nPast the grief we cannot jail\nIf we stop here, we lose more\nSo we pull against the waves"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Still We Sail",
+        "text": "[Verse 1]\nI left my name in ash\nOn a door that would not stay\nYour coat still smells like rain\nOn the peg by the window frame\n\nThe maps all changed on me\nThe road got thin and cold\nBut I tied my hands to the wheel\nAnd I watched the dark unfold\n\n[Pre-Chorus]\nNot brave\nJust moved\nBy the shape of the bruise\nIf I stop here now\nI lose more than I lose\n\n[Chorus]\nStill we sail, still we sail\nPast the wreck and the hail\nStill we sail, still we sail\nWhat we fear feels less than stay\n\nStill we sail, still we sail\nWith the ache and the trail\nStill we sail, still we sail\nStopping now would cost us more\n\n[Verse 2]\nI kissed the edge of exile\nWith salt on my tongue\nThe harbor ghosted out\nAnd the gulls kept circling up\n\nI held your silence close\nLike a stone in my coat\nSome nights it pulled me under\nSome nights it kept me afloat\n\n[Pre-Chorus]\nNot brave\nJust moved\nBy the shape of the bruise\nIf I turn back now\nI lose more than I lose\n\n[Chorus]\nStill we sail, still we sail\nPast the wreck and the hail\nStill we sail, still we sail\nWhat we fear feels less than stay\n\nStill we sail, still we sail\nWith the ache and the trail\nStill we sail, still we sail\nStopping now would cost us more\n\n[Bridge]\nAnd if the sea takes names\nLet it take the old ones too\nI have learned what hunger means\nI have learned what loss can do\n\nSo I lean into the black\nLet the broken stars be proof\nWe are not made of courage\nWe are made of moving through\n\n[Final Chorus]\nStill we sail, still we sail\nPast the wreck and the hail\nStill we sail, still we sail\nWhat we fear feels less than stay\n\nStill we sail, still we sail\nWith the ache and the trail\nStill we sail, still we sail\nStopping now would cost us more"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 2,
+      "text": "[Verse 1]\nI left my name in ash\nOn a door that would not stay\nYour coat still smells like rain\nOn the peg by the window frame\n\nThe maps all changed on me\nThe road got thin and cold\nBut I tied my hands to the wheel\nAnd I watched the dark unfold\n\n[Pre-Chorus]\nNot brave\nJust moved\nBy the shape of the bruise\nIf I stop here now\nI lose more than I lose\n\n[Chorus]\nStill we sail, still we sail\nPast the wreck and the hail\nStill we sail, still we sail\nWhat we fear feels less than stay\n\nStill we sail, still we sail\nWith the ache and the trail\nStill we sail, still we sail\nStopping now would cost us more\n\n[Verse 2]\nI kissed the edge of exile\nWith salt on my tongue\nThe harbor ghosted out\nAnd the gulls kept circling up\n\nI held your silence close\nLike a stone in my coat\nSome nights it pulled me under\nSome nights it kept me afloat\n\n[Pre-Chorus]\nNot brave\nJust moved\nBy the shape of the bruise\nIf I turn back now\nI lose more than I lose\n\n[Chorus]\nStill we sail, still we sail\nPast the wreck and the hail\nStill we sail, still we sail\nWhat we fear feels less than stay\n\nStill we sail, still we sail\nWith the ache and the trail\nStill we sail, still we sail\nStopping now would cost us more\n\n[Bridge]\nAnd if the sea takes names\nLet it take the old ones too\nI have learned what hunger means\nI have learned what loss can do\n\nSo I lean into the black\nLet the broken stars be proof\nWe are not made of courage\nWe are made of moving through\n\n[Final Chorus]\nStill we sail, still we sail\nPast the wreck and the hail\nStill we sail, still we sail\nWhat we fear feels less than stay\n\nStill we sail, still we sail\nWith the ache and the trail\nStill we sail, still we sail\nStopping now would cost us more",
+      "title": "Still We Sail",
+      "score": 130,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; emotional vocabulary (5 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "3dd04d9d8800d51bf4242e3dcfb53f07",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/cb380fbe39bc485e9adad398600dead8.mp3",
+      "https://tempfile.aiquickdraw.com/r/7318979d91f14cebb0dd8145012c79d1.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/01_still_we_sail_v1.mp3"
+    ],
+    "storyStatus": "done",
+    "storyPath": "/home/noiraciel/NoiraCiel/content/stories/still-we-sail.md",
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/still-we-sail",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/still-we-sail.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/still-we-sail.json",
+    "karaokeStatus": "done",
+    "karaokeVideoPath": "/home/noiraciel/NoiraCiel/public/Videos/lyrics/still-we-sail.mp4",
+    "submittedAt": "2026-06-13T22:02:40.515Z",
+    "completedAt": "2026-06-13T22:05:08.763Z"
+  },
+  "02_exile_body": {
+    "trackNumber": 2,
+    "title": "Exile Body",
+    "slug": "02_exile_body",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "8ecb22efe58f1e5d1ab0fbea1e42038b",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Scar Country",
+        "text": "[Verse 1]\nI wake up here again\nin this borrowed skin\nMy ribs know the route\nmy mouth learned to live with\n\nA name in the pocket\nworn thin at the fold\nI touch every scar line\nlike map ink in gold\n\n[Pre-Chorus]\nEvery border I crossed\nis still under my hands\nEvery door I survived\nleft a mark where I stand\n\n[Chorus]\nMy body, my country\nmy body, my country\nI carry the lost home\nlike a bone in my sleeve\n\nMy body, my country\nmy body, my country\nIf exile comes looking\nit finds me here, still breathing\n\n[Verse 2]\nThe old rooms are vanished\nthe keys gone cold\nBut my heart keeps a census\nof every street I sold\n\nI sleep with the ruins\nbehind my eyes\nAnd wake with the language\nthat keeps me alive\n\n[Pre-Chorus]\nEvery border I crossed\nis still under my hands\nEvery door I survived\nleft a mark where I stand\n\n[Chorus]\nMy body, my country\nmy body, my country\nI carry the lost home\nlike a bone in my sleeve\n\nMy body, my country\nmy body, my country\nIf exile comes looking\nit finds me here, still breathing\n\n[Bridge]\nAnd if there’s no return\nthen let this be true\nI was made from the leaving\nbut I stayed with you\n\nNo flag in the window\nno soil I can claim\nJust this scarred little kingdom\nthat answers my name\n\n[Chorus]\nMy body, my country\nmy body, my country\nI carry the lost home\nlike a bone in my sleeve\n\nMy body, my country\nmy body, my country\nIf exile comes looking\nit finds me here, still breathing"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Exile Body",
+        "text": "[Verse 1]\nDust on the window pane\nJust like the dust on my memory\nOf a place I can't reclaim\nA life that ain't meant for me\n\n[Chorus]\nThis exile body, my only country now\nEvery scar a border, a silent vow\nTo a homeland lost, a forgotten sound\nIn this flesh and bone, I'm forever bound\n\n[Verse 2]\nThe ache in my bones, a map of old roads\nEach tremor a whisper of burdens I've towed\nMy breath, a thin thread, in the wind it still weaves\nThrough phantom fields of long-fallen leaves\n\n[Chorus]"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nI wake up here again\nin this borrowed skin\nMy ribs know the route\nmy mouth learned to live with\n\nA name in the pocket\nworn thin at the fold\nI touch every scar line\nlike map ink in gold\n\n[Pre-Chorus]\nEvery border I crossed\nis still under my hands\nEvery door I survived\nleft a mark where I stand\n\n[Chorus]\nMy body, my country\nmy body, my country\nI carry the lost home\nlike a bone in my sleeve\n\nMy body, my country\nmy body, my country\nIf exile comes looking\nit finds me here, still breathing\n\n[Verse 2]\nThe old rooms are vanished\nthe keys gone cold\nBut my heart keeps a census\nof every street I sold\n\nI sleep with the ruins\nbehind my eyes\nAnd wake with the language\nthat keeps me alive\n\n[Pre-Chorus]\nEvery border I crossed\nis still under my hands\nEvery door I survived\nleft a mark where I stand\n\n[Chorus]\nMy body, my country\nmy body, my country\nI carry the lost home\nlike a bone in my sleeve\n\nMy body, my country\nmy body, my country\nIf exile comes looking\nit finds me here, still breathing\n\n[Bridge]\nAnd if there’s no return\nthen let this be true\nI was made from the leaving\nbut I stayed with you\n\nNo flag in the window\nno soil I can claim\nJust this scarred little kingdom\nthat answers my name\n\n[Chorus]\nMy body, my country\nmy body, my country\nI carry the lost home\nlike a bone in my sleeve\n\nMy body, my country\nmy body, my country\nIf exile comes looking\nit finds me here, still breathing",
+      "title": "Scar Country",
+      "score": 121,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "6fb66c524321f8820b86efbebd1265f0",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/4cf855069b124efa9b0ac3721ca82500.mp3",
+      "https://tempfile.aiquickdraw.com/r/347635d00c044fcd9a97c0345ff61c24.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/02_exile_body_v1.mp3"
+    ],
+    "storyStatus": "done",
+    "storyPath": "/home/noiraciel/NoiraCiel/content/stories/exile-body.md",
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/exile-body",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/exile-body.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/exile-body.json",
+    "karaokeStatus": "done",
+    "karaokeVideoPath": "/home/noiraciel/NoiraCiel/public/Videos/lyrics/exile-body.mp4",
+    "submittedAt": "2026-06-13T22:02:44.225Z",
+    "completedAt": "2026-06-13T22:05:10.409Z"
+  },
+  "03_the_accordion_breathes": {
+    "trackNumber": 3,
+    "title": "The Accordion Breathes",
+    "slug": "03_the_accordion_breathes",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "63845217c1be32bd1b7bf208c15d4a40",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Accordion Soul",
+        "text": "[Verse 1]\nThat old squeeze box\nGot a story\nEvery push pull\nA memory\n\n[Chorus]\nAccordion breathes\nYeah it breathes\nLike a ghost in the room\nIt never leaves\n\n[Verse 2]\nDusty keys sigh\nA forgotten tune\nWhispers of places\nBeneath the moon\n\n[Chorus]\nAccordion breathes\nYeah it breathes\nLike a ghost in the room\nIt never leaves\n\n[Bridge]\nThey say it's just wood and air\nBut I hear a soul in there\nA long lost song\nA silent prayer\n\n[Chorus]\nAccordion breathes\nYeah it breathes"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Bread of Dust",
+        "text": "[Verse 1]\nYou sat by the window frame\nwith your case on your knees\nOld paint on your fingertips\nand salt in your sleeve\n\nYou learned every room you left\nby the shape of its door\nNow the silence comes back\nlike you walking through it once more\n\n[Pre-Chorus]\nAnd I can hear you in the fold\nin the creak, in the seam\nSomething old keeps wanting\nto become the air in me\n\n[Chorus]\nThe accordion breathes\nThe accordion breathes\nIt carries you home\nthrough the dust and the reeds\n\nThe accordion breathes\nThe accordion breathes\nLike a hand on my chest\nlike a name I still keep\n\n[Verse 2]\nIt knows the train platform rain\nthe soap on the floor\nThe blue bowl by the sink\nand your boots by the door\n\nIt remembers the feast\nand the empty after\nThe way your laugh could bloom\nthen vanish in the rafters\n\n[Pre-Chorus]\nAnd I lean in close\nwhen the bellows rise\nLike the world is opening\nwith your eyes\n\n[Chorus]\nThe accordion breathes\nThe accordion breathes\nIt carries you home\nthrough the dust and the reeds\n\nThe accordion breathes\nThe accordion breathes\nLike a hand on my chest\nlike a name I still keep\n\n[Bridge]\nLet it pull the air\nfrom the rooms we knew\nLet it bend that ache\ninto something true\n\nIf you are the gone\nthen stay in the song\nIn the push and the pull\nwhere I still belong\n\n[Final Chorus]\nThe accordion breathes\nThe accordion breathes\nIt carries you home\nthrough the dust and the reeds\n\nThe accordion breathes\nThe accordion breathes\nLike a hand on my chest\nlike a name I still keep\n\nThe accordion breathes\nThe accordion breathes\nAnd I hear you now\nin the space between me"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 2,
+      "text": "[Verse 1]\nYou sat by the window frame\nwith your case on your knees\nOld paint on your fingertips\nand salt in your sleeve\n\nYou learned every room you left\nby the shape of its door\nNow the silence comes back\nlike you walking through it once more\n\n[Pre-Chorus]\nAnd I can hear you in the fold\nin the creak, in the seam\nSomething old keeps wanting\nto become the air in me\n\n[Chorus]\nThe accordion breathes\nThe accordion breathes\nIt carries you home\nthrough the dust and the reeds\n\nThe accordion breathes\nThe accordion breathes\nLike a hand on my chest\nlike a name I still keep\n\n[Verse 2]\nIt knows the train platform rain\nthe soap on the floor\nThe blue bowl by the sink\nand your boots by the door\n\nIt remembers the feast\nand the empty after\nThe way your laugh could bloom\nthen vanish in the rafters\n\n[Pre-Chorus]\nAnd I lean in close\nwhen the bellows rise\nLike the world is opening\nwith your eyes\n\n[Chorus]\nThe accordion breathes\nThe accordion breathes\nIt carries you home\nthrough the dust and the reeds\n\nThe accordion breathes\nThe accordion breathes\nLike a hand on my chest\nlike a name I still keep\n\n[Bridge]\nLet it pull the air\nfrom the rooms we knew\nLet it bend that ache\ninto something true\n\nIf you are the gone\nthen stay in the song\nIn the push and the pull\nwhere I still belong\n\n[Final Chorus]\nThe accordion breathes\nThe accordion breathes\nIt carries you home\nthrough the dust and the reeds\n\nThe accordion breathes\nThe accordion breathes\nLike a hand on my chest\nlike a name I still keep\n\nThe accordion breathes\nThe accordion breathes\nAnd I hear you now\nin the space between me",
+      "title": "Bread of Dust",
+      "score": 118,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "4f1620f4b7ad2673d7167810396f69e8",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/2e14939d331e4ba79d8b29a49721d955.mp3",
+      "https://tempfile.aiquickdraw.com/r/e21f186c3b7d48d59575a0fe279ac17e.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/03_the_accordion_breathes_v1.mp3"
+    ],
+    "storyStatus": "done",
+    "storyPath": "/home/noiraciel/NoiraCiel/content/stories/the-accordion-breathes.md",
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/the-accordion-breathes",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/the-accordion-breathes.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/the-accordion-breathes.json",
+    "karaokeStatus": "done",
+    "karaokeVideoPath": "/home/noiraciel/NoiraCiel/public/Videos/lyrics/the-accordion-breathes.mp4",
+    "submittedAt": "2026-06-13T22:02:47.937Z",
+    "completedAt": "2026-06-13T22:05:11.925Z"
+  },
+  "04_letters_never_crossed": {
+    "trackNumber": 4,
+    "title": "Letters Never Crossed",
+    "slug": "04_letters_never_crossed",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "48577c67d214834616536e1f15a86678",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Never Mailed You",
+        "text": "[Verse 1]\nI folded your name\nIn a blue lined sheet\nWrote \"come back soon\"\nThen hid the creed\n\nLeft it in my drawer\nBy the tax receipts\nNext to broken pens\nAnd your extra key\n\n[Pre-Chorus]\nI had the words\nRight on my tongue\nHeld them too long\nTill the day was done\n\n[Chorus]\nNever mailed you\nNever mailed you\nLove with no address\nNever mailed you\nNever mailed you\nNow it lives in my chest\n(Sent it in my head)\n(Too late, too late)\n\n[Verse 2]\nI wrote \"I was scared\"\nAt the bottom there\n\"I loved you hard\"\nBut I never dared\n\nEach stamp I bought\nStayed in the book\nI kept your ghost\nIn a careful look\n\n[Pre-Chorus]\nI saw your porch\nI saw your car\nI turned around\nWith a pounding heart\n\n[Chorus]\nNever mailed you\nNever mailed you\nLove with no address\nNever mailed you\nNever mailed you\nNow it lives in my chest\n(Sent it in my head)\n(Too late, too late)\n\n[Bridge]\nIf you found the box\nWould you know my hand?\nWould you read my fear\nAnd still understand?\n\nI let the truth\nGrow dust and rust\nA love came whole\nThen missed us\n\n[Final Chorus]\nNever mailed you\nNever mailed you\nLove with no address\nNever mailed you\nNever mailed you\nNow it lives in my chest\n(Sent it in my head)\n(Too late, too late)\n\nNever mailed you\nNever mailed you\nAnd I still can't forget\n(Still can't forget)\n(Still can't forget)"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Letters Never Crossed",
+        "text": "[Verse 1]\nI wrote your name\nOn the back of June\nFolded up the truth\nIn a blue-lined room\nStamped my heart\nWith a trembling hand\nThen I let it sit\nWhere the silence lands\n\n[Pre-Chorus]\nI said it plain\nThen crossed it out\nHeld all the words\nLike a held-back shout\nIf I had one more hour\nOne more chance\nI'd send the page\nI'd risk the chance\n\n[Chorus]\nLetters never crossed\nLetters never crossed\nYou were my almost\nMy almost lost\nI loved you fully\nBut it stayed in my hands\nLetters never crossed\nNever crossed the end\n\n[Verse 2]\nI kept the drafts\nIn a drawer by the sink\nNext to all the things\nI could not think\nYour old reply\nStill lives in my phone\nA little white square\nThat feels like home\n\n[Pre-Chorus]\nI saw your face\nIn the rain on glass\nEvery good-bye\nGoing too fast\nIf I had one more breath\nOne more light\nI'd send that love\nInto the night\n\n[Chorus]\nLetters never crossed\nLetters never crossed\nYou were my almost\nMy almost lost\nI loved you fully\nBut it stayed in my hands\nLetters never crossed\nNever crossed the end\n\n[Bridge]\nNow the mailbox rusts\nBy the same front gate\nAnd I still hear\nWhat I did not say\nIf love can live\nIn the things unsent\nThen mine still burns\nWhere your name went\n\n[Final Chorus]\nLetters never crossed\nLetters never crossed\nYou were my almost\nMy almost lost\nI loved you fully\nBut it stayed in my hands\nLetters never crossed\nNever crossed the end\nLetters never crossed\nLetters never crossed\nSome loves arrive\nSome just suspend\nI loved you fully\nAnd that is where it stands\nLetters never crossed\nNever crossed the end"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nI folded your name\nIn a blue lined sheet\nWrote \"come back soon\"\nThen hid the creed\n\nLeft it in my drawer\nBy the tax receipts\nNext to broken pens\nAnd your extra key\n\n[Pre-Chorus]\nI had the words\nRight on my tongue\nHeld them too long\nTill the day was done\n\n[Chorus]\nNever mailed you\nNever mailed you\nLove with no address\nNever mailed you\nNever mailed you\nNow it lives in my chest\n(Sent it in my head)\n(Too late, too late)\n\n[Verse 2]\nI wrote \"I was scared\"\nAt the bottom there\n\"I loved you hard\"\nBut I never dared\n\nEach stamp I bought\nStayed in the book\nI kept your ghost\nIn a careful look\n\n[Pre-Chorus]\nI saw your porch\nI saw your car\nI turned around\nWith a pounding heart\n\n[Chorus]\nNever mailed you\nNever mailed you\nLove with no address\nNever mailed you\nNever mailed you\nNow it lives in my chest\n(Sent it in my head)\n(Too late, too late)\n\n[Bridge]\nIf you found the box\nWould you know my hand?\nWould you read my fear\nAnd still understand?\n\nI let the truth\nGrow dust and rust\nA love came whole\nThen missed us\n\n[Final Chorus]\nNever mailed you\nNever mailed you\nLove with no address\nNever mailed you\nNever mailed you\nNow it lives in my chest\n(Sent it in my head)\n(Too late, too late)\n\nNever mailed you\nNever mailed you\nAnd I still can't forget\n(Still can't forget)\n(Still can't forget)",
+      "title": "Never Mailed You",
+      "score": 115,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; emotional vocabulary (5 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "d9e3441c8d79199c114821d7022fae68",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/74972769103c465c91886237ec46832d.mp3",
+      "https://tempfile.aiquickdraw.com/r/b8c43aafce964cfea1b9c970eff64256.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/04_letters_never_crossed_v1.mp3"
+    ],
+    "storyStatus": "done",
+    "storyPath": "/home/noiraciel/NoiraCiel/content/stories/letters-never-crossed.md",
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/letters-never-crossed",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/letters-never-crossed.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/letters-never-crossed.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:02:51.644Z",
+    "completedAt": "2026-06-13T22:05:13.529Z"
+  },
+  "05_salt_gospel": {
+    "trackNumber": 5,
+    "title": "Salt Gospel",
+    "slug": "05_salt_gospel",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "24024ad4c058f5b22caeba276d247511",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Salt Gospel",
+        "text": "[Verse 1]\nThere is no church\nbut the open water\nI came with my grief\nlike stones in my pocket\n\nThe waves took one name\nthen took the next one\nI learned how to breathe\nwith my face in the salt\n\n[Chorus]\nSalt gospel, wash me clean\nSalt gospel, carry me\nWhat was lost goes under\nWhat survives can sing\n(Salt gospel)\n(Salt gospel)\n\n[Verse 2]\nI buried my fear\nin a coat of foam\nWatched the dark turn pale\non the edge of dawn\n\nThe tide kept score\nwith a ruthless hand\nThen it gave me back\nwhat I could still stand\n\n[Chorus]\nSalt gospel, wash me clean\nSalt gospel, carry me\nWhat was lost goes under\nWhat survives can sing\n(Salt gospel)\n(Salt gospel)\n\n[Bridge]\nIf there is a prayer\nit is hands in waves\nIf there is a heaven\nit is this hard day\n\nI was split open\nI was set afloat\nNow every scar\nis a rope on my boat\n\n[Final Chorus]\nSalt gospel, wash me clean\nSalt gospel, carry me\nWhat was lost goes under\nWhat survives can sing\nSalt gospel, I am here\nSalt gospel, I am here\n(Salt gospel)\n(Salt gospel)"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Salt Gospel",
+        "text": "[Verse 1]\nThere is no church here\nOnly open water\nI came with a name\nAnd left it in the brine\n\nThe wind took my shouting\nThe dark took my asking\nWhat could not be saved\nBecame the foam line\n\n[Chorus]\nSalt gospel\nWash me clean\nSalt gospel\nHold me mean\n\nWhat was broken\nLearns to shine\nIn the tide\nI am alive (I am alive)\n\n[Verse 2]\nI carried your absence\nLike stones in my pockets\nHeavy as winter\nHeavy as a vow\n\nThen the waves kept moving\nAnd I kept moving\nNo golden altar\nJust this salt now\n\n[Chorus]\nSalt gospel\nWash me clean\nSalt gospel\nHold me mean\n\nWhat was broken\nLearns to shine\nIn the tide\nI am alive (I am alive)\n\n[Bridge]\nI do not kneel to heaven\nI kneel to the deep\nWhere every wound is water\nAnd every grief can sleep\n\nIf I am a temple\nThen let it be weather\nLet my bones remember\nHow to stay together\n\n[Chorus]\nSalt gospel\nWash me clean\nSalt gospel\nHold me mean\n\nWhat was broken\nLearns to shine\nIn the tide\nI am alive (I am alive)"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nThere is no church\nbut the open water\nI came with my grief\nlike stones in my pocket\n\nThe waves took one name\nthen took the next one\nI learned how to breathe\nwith my face in the salt\n\n[Chorus]\nSalt gospel, wash me clean\nSalt gospel, carry me\nWhat was lost goes under\nWhat survives can sing\n(Salt gospel)\n(Salt gospel)\n\n[Verse 2]\nI buried my fear\nin a coat of foam\nWatched the dark turn pale\non the edge of dawn\n\nThe tide kept score\nwith a ruthless hand\nThen it gave me back\nwhat I could still stand\n\n[Chorus]\nSalt gospel, wash me clean\nSalt gospel, carry me\nWhat was lost goes under\nWhat survives can sing\n(Salt gospel)\n(Salt gospel)\n\n[Bridge]\nIf there is a prayer\nit is hands in waves\nIf there is a heaven\nit is this hard day\n\nI was split open\nI was set afloat\nNow every scar\nis a rope on my boat\n\n[Final Chorus]\nSalt gospel, wash me clean\nSalt gospel, carry me\nWhat was lost goes under\nWhat survives can sing\nSalt gospel, I am here\nSalt gospel, I am here\n(Salt gospel)\n(Salt gospel)",
+      "title": "Salt Gospel",
+      "score": 115,
+      "reason": "structure: [verse, [chorus, [bridge; substantial content; singable line lengths; emotional vocabulary (5 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "71ba0a0262d5c350fc65869a457f63ee",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/f4ef71f075ff45c8b722a0faf4f81887.mp3",
+      "https://tempfile.aiquickdraw.com/r/377424096d9748ab93530be06f76614a.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/05_salt_gospel_v1.mp3"
+    ],
+    "storyStatus": "done",
+    "storyPath": "/home/noiraciel/NoiraCiel/content/stories/salt-gospel.md",
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/salt-gospel",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/salt-gospel.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/salt-gospel.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:02:55.350Z",
+    "completedAt": "2026-06-13T22:05:43.403Z"
+  },
+  "06_she_who_stayed_behind": {
+    "trackNumber": 6,
+    "title": "She Who Stayed Behind",
+    "slug": "06_she_who_stayed_behind",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "21c9cc4998255d1dacdb6228ed38238c",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "She Who Stayed Behind",
+        "text": "[Verse]\nDust motes dance in sunbeams wide\nEmpty rooms where laughter died\nA ghost of you still walks these halls\nEchoes bounce off silent walls\n\n[Prechorus]\nFootprints faded\nDreams unbraided\n\n[Chorus]\nI stayed behind\nI kept the home\nI carried the absence\nAll alone\n\n[Verse 2]\nThe garden grows wild now and free\nJust like the thoughts inside of me\nYour favorite chair sits cold and bare\nA constant ache a silent prayer\n\n[Chorus]\nI stayed behind\nI kept the home\nI carried the absence\nAll alone\n\n[Bridge]\nThey say moving on is brave and bold\nBut staying put a story untold\nA quiet strength a steady hand\nTo guard the memories of this land"
+      },
+      {
+        "versionNumber": 2,
+        "title": "The Door I Kept",
+        "text": "[Verse 1]\nYou packed the blue bowl\nLeft it by the sink\nSaid you'd write on Sundays\nSaid you'd need to think\n\nI stood in the doorway\nWith your coat still near\nCounted every footstep\nTill the street went clear\n\n[Pre-Chorus]\nI swept your side of the table\nFolded up your chair\nI learned how a house can breathe\nWith only one soul there\n\n[Chorus]\nI stayed behind\nI stayed behind\nI kept the flame\nI kept the line\n\nYour name in the hall\nYour shoes by the wall\nI stayed behind\nI stayed behind\n\n[Verse 2]\nRain came through September\nTapped on every tin\nI fixed the loose window\nAnd let the dark come in\n\nNeighbors asked me lightly\n\"How long has it been?\"\nI said \"Just till the letters\nFind their way back in\"\n\n[Pre-Chorus]\nBut seasons don't ask permission\nThey just turn and turn\nEvery plate I washed alone\nWas a little lesson learned\n\n[Chorus]\nI stayed behind\nI stayed behind\nI kept the flame\nI kept the line\n\nYour name in the hall\nYour shoes by the wall\nI stayed behind\nI stayed behind\n\n[Bridge]\nYou get to be a story\nMoving town to town\nI am the porch and the hinge\nThe quiet settling down\n\nI am the key in the dish\nThe jam on the shelf\nI am the one who made a life\nOut of waiting by myself\n\n[Final Chorus]\nI stayed behind\nI stayed behind\nI kept the flame\nI kept the line\n\nYour name in the hall\nYour shoes by the wall\nI stayed behind\nI stayed behind\n\nI stayed behind\nI stayed behind\nAnd when you came back wrong\nI still knew how to hold this sound"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 2,
+      "text": "[Verse 1]\nYou packed the blue bowl\nLeft it by the sink\nSaid you'd write on Sundays\nSaid you'd need to think\n\nI stood in the doorway\nWith your coat still near\nCounted every footstep\nTill the street went clear\n\n[Pre-Chorus]\nI swept your side of the table\nFolded up your chair\nI learned how a house can breathe\nWith only one soul there\n\n[Chorus]\nI stayed behind\nI stayed behind\nI kept the flame\nI kept the line\n\nYour name in the hall\nYour shoes by the wall\nI stayed behind\nI stayed behind\n\n[Verse 2]\nRain came through September\nTapped on every tin\nI fixed the loose window\nAnd let the dark come in\n\nNeighbors asked me lightly\n\"How long has it been?\"\nI said \"Just till the letters\nFind their way back in\"\n\n[Pre-Chorus]\nBut seasons don't ask permission\nThey just turn and turn\nEvery plate I washed alone\nWas a little lesson learned\n\n[Chorus]\nI stayed behind\nI stayed behind\nI kept the flame\nI kept the line\n\nYour name in the hall\nYour shoes by the wall\nI stayed behind\nI stayed behind\n\n[Bridge]\nYou get to be a story\nMoving town to town\nI am the porch and the hinge\nThe quiet settling down\n\nI am the key in the dish\nThe jam on the shelf\nI am the one who made a life\nOut of waiting by myself\n\n[Final Chorus]\nI stayed behind\nI stayed behind\nI kept the flame\nI kept the line\n\nYour name in the hall\nYour shoes by the wall\nI stayed behind\nI stayed behind\n\nI stayed behind\nI stayed behind\nAnd when you came back wrong\nI still knew how to hold this sound",
+      "title": "The Door I Kept",
+      "score": 130,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; emotional vocabulary (5 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "d20f10ef33f5357d77f1b26159423a78",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/57b96788b55044aa80cbbe3a17d855aa.mp3",
+      "https://tempfile.aiquickdraw.com/r/58a3c79343c044629ffe56327df2fca9.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/06_she_who_stayed_behind_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/she-who-stayed-behind",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/she-who-stayed-behind.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/she-who-stayed-behind.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:02:59.057Z",
+    "completedAt": "2026-06-13T22:05:45.107Z"
+  },
+  "07_atlantic_nocturne": {
+    "trackNumber": 7,
+    "title": "Atlantic Nocturne",
+    "slug": "07_atlantic_nocturne",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "554e7eb0473c90dfd6603414f111be96",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Blackwater Mirror",
+        "text": "[Verse 1]\nI step onto the deck\nThe rope bites my palm\nSalt on my sleeves\nLike a second skin\n\nThe sea is dark\nBut it holds its face\nLike it knows my name\nAnd keeps it safe\n\n[Pre-Chorus]\nNo fear in that black\nOnly room to breathe\nA deeper kind of listening\nUnderneath\n\nThe night leans close\nAnd I lean back\nLike two old friends\nOn a steady track\n\n[Chorus]\nAtlantic at night\nHold me tonight\nAtlantic at night\nYou know my silence\n\nBlack water mirror\nShow me what I hide\nAtlantic at night\nHold me tonight\n\n[Verse 2]\nThe mast makes a sigh\nWhen the wind turns soft\nAnd every small light\nFeels a world away\n\nI watch the wake\nSplit open and heal\nAs if the dark\nCould teach me to feel\n\n[Pre-Chorus]\nNo map out here\nJust a hand of stars\nAnd the slow, brave drift\nOf our wanted scars\n\nIf day is a name\nNight is a song\nI sing it low\nAnd the miles roll on\n\n[Chorus]\nAtlantic at night\nHold me tonight\nAtlantic at night\nYou know my silence\n\nBlack water mirror\nShow me what I hide\nAtlantic at night\nHold me tonight\n\n[Bridge]\nLet the shore disappear\nLet the old hurt fade\nI was made for this sway\nFor this blue parade\n\nIf I cannot say it\nLet the waves say it for me\nLet the dark be kind\nLet the dark be free\n\n[Final Chorus]\nAtlantic at night\nHold me tonight\nAtlantic at night\nYou know my silence\n\nBlack water mirror\nShow me what I hide\nAtlantic at night\nHold me tonight\n\nAtlantic at night\nI am alive\nAtlantic at night\nI am alive"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Atlantic Nocturne",
+        "text": "[Verse 1]\nThe harbor slept in black silk\nI met you where the water held its breath\nNo lantern on the rail\nJust the long hush of the deck\n\nSalt on our sleeves\nAnd the night like a steady hand\nIt did not ask us anything\nIt only took our words and kept them\n\n[Pre-Chorus]\nAnd every wave said stay\nEvery shadow said stay\nWe were small, but we were safe\nIn the dark, the dark, the dark\n\n[Chorus]\nAtlantic nocturne\nHold me like this\nAtlantic nocturne\nWhere the unsaid lives\nThe sea keeps our secrets\nThe sea keeps our names\nAtlantic nocturne\nDream us again (dream us again)\n\n[Verse 2]\nI watched your face go silver\nAs a moon path split the water clean\nYou smiled like you knew\nThe things I could not mean\n\nThe old mast creaked\nLike a door in a quiet house\nAnd I let the night take over\nWhat I could not bring out loud\n\n[Pre-Chorus]\nAnd every wave said stay\nEvery shadow said stay\nWe were small, but we were safe\nIn the dark, the dark, the dark\n\n[Chorus]\nAtlantic nocturne\nHold me like this\nAtlantic nocturne\nWhere the unsaid lives\nThe sea keeps our secrets\nThe sea keeps our names\nAtlantic nocturne\nDream us again (dream us again)\n\n[Bridge]\nIf morning asks for answers\nLet it find the shore alone\nWe can leave our doubts\nIn the riddle of the foam\n\nTake the compass from my hands\nLet the stars forget our trail\nI would rather drift with you\nThan wake and call it real\n\n[Chorus]\nAtlantic nocturne\nHold me like this\nAtlantic nocturne\nWhere the unsaid lives\nThe sea keeps our secrets\nThe sea keeps our names\nAtlantic nocturne\nDream us again (dream us again)\n\n[Outro]\nDarkness, my companion\nSoft and wide and near\nThe ocean is a mirror\nAnd I am clear in here"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 2,
+      "text": "[Verse 1]\nThe harbor slept in black silk\nI met you where the water held its breath\nNo lantern on the rail\nJust the long hush of the deck\n\nSalt on our sleeves\nAnd the night like a steady hand\nIt did not ask us anything\nIt only took our words and kept them\n\n[Pre-Chorus]\nAnd every wave said stay\nEvery shadow said stay\nWe were small, but we were safe\nIn the dark, the dark, the dark\n\n[Chorus]\nAtlantic nocturne\nHold me like this\nAtlantic nocturne\nWhere the unsaid lives\nThe sea keeps our secrets\nThe sea keeps our names\nAtlantic nocturne\nDream us again (dream us again)\n\n[Verse 2]\nI watched your face go silver\nAs a moon path split the water clean\nYou smiled like you knew\nThe things I could not mean\n\nThe old mast creaked\nLike a door in a quiet house\nAnd I let the night take over\nWhat I could not bring out loud\n\n[Pre-Chorus]\nAnd every wave said stay\nEvery shadow said stay\nWe were small, but we were safe\nIn the dark, the dark, the dark\n\n[Chorus]\nAtlantic nocturne\nHold me like this\nAtlantic nocturne\nWhere the unsaid lives\nThe sea keeps our secrets\nThe sea keeps our names\nAtlantic nocturne\nDream us again (dream us again)\n\n[Bridge]\nIf morning asks for answers\nLet it find the shore alone\nWe can leave our doubts\nIn the riddle of the foam\n\nTake the compass from my hands\nLet the stars forget our trail\nI would rather drift with you\nThan wake and call it real\n\n[Chorus]\nAtlantic nocturne\nHold me like this\nAtlantic nocturne\nWhere the unsaid lives\nThe sea keeps our secrets\nThe sea keeps our names\nAtlantic nocturne\nDream us again (dream us again)\n\n[Outro]\nDarkness, my companion\nSoft and wide and near\nThe ocean is a mirror\nAnd I am clear in here",
+      "title": "Atlantic Nocturne",
+      "score": 145,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus, [outro; substantial content; singable line lengths; emotional vocabulary (5 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "8559e8f7215fee47aa78e8621f81b498",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/48e5cbc7d2724085b663b8ffe4347184.mp3",
+      "https://tempfile.aiquickdraw.com/r/e48214c643d046559f424dbb17ea4646.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/07_atlantic_nocturne_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/atlantic-nocturne",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/atlantic-nocturne.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/atlantic-nocturne.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:02.751Z",
+    "completedAt": "2026-06-13T22:05:46.801Z"
+  },
+  "08_grief_in_different_latitudes": {
+    "trackNumber": 8,
+    "title": "Grief in Different Latitudes",
+    "slug": "08_grief_in_different_latitudes",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "91da654c85aef36993159dfd290b4d6a",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "The Heavy Coat",
+        "text": "[Verse]\nWind bites hard on city streets\nSnowflakes sting like tiny sleets\nMy heart it aches a frozen beat\nYeah a frozen beat\n\n[Prechorus]\nDifferent tongues different tears\nSame old heavy fears\n\n[Chorus]\nGrief wears a heavy coat a heavy coat\nNo matter where you go where you go\nIt wraps around your throat around your throat\nNever lets you know lets you know\n\n[Verse 2]\nSun bleeds down on desert sand\nA burning ache across the land\nA ghost walks with an empty hand\nAn empty hand\n\n[Bridge]\nFrom mountain peak to ocean deep\nThe silent promises we keep\nThe endless reasons why we weep\nYeah why we weep\n\n[Chorus]\nGrief wears a heavy coat a heavy coat\nNo matter where you go where you go\nIt wraps around your"
+      },
+      {
+        "versionNumber": 2,
+        "title": "The Grief Animal",
+        "text": "[Verse 1]\nSunrise in Tokyo\nRain in Barcelona\nA sigh in the desert wind\nA tear on a frozen window pane\nIt’s the same old story\nA heart in pieces again\n\n[Prechorus]\nOh the weight it just hangs\nA heavy cloud\n\n[Chorus]\nGrief animal\nYou roar you bite\nGrief animal\nYou steal my light\nGrief animal\nYou make me small\nGrief animal\nYou take it all\n\n[Verse 2]\nA whispered prayer in the humid night\nA shout across the endless plains\nA quiet hum a burning ache\nA silent scream a pouring rain\nThe language changes\nThe feeling stays the same\n\n[Bridge]\nFrom mountain high to ocean deep\nThis hollow echo where you sleep\nA shadow dancing in my head\nWords unspoken left unsaid\nIt’s a universal"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 2,
+      "text": "[Verse 1]\nSunrise in Tokyo\nRain in Barcelona\nA sigh in the desert wind\nA tear on a frozen window pane\nIt’s the same old story\nA heart in pieces again\n\n[Prechorus]\nOh the weight it just hangs\nA heavy cloud\n\n[Chorus]\nGrief animal\nYou roar you bite\nGrief animal\nYou steal my light\nGrief animal\nYou make me small\nGrief animal\nYou take it all\n\n[Verse 2]\nA whispered prayer in the humid night\nA shout across the endless plains\nA quiet hum a burning ache\nA silent scream a pouring rain\nThe language changes\nThe feeling stays the same\n\n[Bridge]\nFrom mountain high to ocean deep\nThis hollow echo where you sleep\nA shadow dancing in my head\nWords unspoken left unsaid\nIt’s a universal",
+      "title": "The Grief Animal",
+      "score": 109,
+      "reason": "structure: [verse, [chorus, [bridge; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "05c66ce0ce5eb45784b534e1efcd6992",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/a71fd6e500094a40a2f6cd667e43a4da.mp3",
+      "https://tempfile.aiquickdraw.com/r/39445fc1bdfb4b7a99024768893ee360.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/08_grief_in_different_latitudes_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/grief-in-different-latitudes",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/grief-in-different-latitudes.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/grief-in-different-latitudes.json",
+    "karaokeStatus": "done",
+    "karaokeVideoPath": "/home/noiraciel/NoiraCiel/public/Videos/lyrics/grief-in-different-latitudes.mp4",
+    "submittedAt": "2026-06-13T22:03:06.456Z",
+    "completedAt": "2026-06-13T22:05:17.109Z"
+  },
+  "09_the_port_we_cannot_find": {
+    "trackNumber": 9,
+    "title": "The Port We Cannot Find",
+    "slug": "09_the_port_we_cannot_find",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "7b4323b9fe5844a56a6f603578a8fe28",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "The Port We Cannot Find",
+        "text": "[Verse 1]\nI packed my name in a paper bag\nBoarded up dreams in a train car sack\nEvery town gave me half a sign\nThen the rain washed out the line\n\nI asked the dock men, I asked the shore\nThey pointed east, they pointed more\nBut every map I held so tight\nTurned to smoke in the morning light\n\n[Pre-Chorus]\nStill I walk on\nStill I go\nWith a bent old map\nAnd a torn coat\n\n[Chorus]\nThe port we cannot find\nThe port we cannot find\nMaybe I was home\nIn the searching all the time\n\nThe port we cannot find\nThe port we cannot find\nEvery road I kept\nBrought me here alive\n\n[Verse 2]\nI slept by fields with the fence line bent\nCounted each loss like a week well spent\nA woman laughed with a mouth full of corn\nSaid, \"You been leaving since you were born\"\n\nI kept her words in my jacket seam\nLike a matchbook cut from a better dream\nAnd every mile that I thought was wrong\nTurned my ache into a song\n\n[Pre-Chorus]\nStill I walk on\nStill I go\nWith a bent old map\nAnd a torn coat\n\n[Chorus]\nThe port we cannot find\nThe port we cannot find\nMaybe I was home\nIn the searching all the time\n\nThe port we cannot find\nThe port we cannot find\nEvery road I kept\nBrought me here alive\n\n[Bridge]\nIf I never see that line on the sea\nIf the gate stays shut for me\nI will set my boots down slow\nWhere the river learns to go\n\nAnd I’ll call it mine\nI’ll call it mine\nNot a place I lost\nA place I chose in time\n\n[Chorus]\nThe port we cannot find\nThe port we cannot find\nMaybe I was home\nIn the searching all the time\n\nThe port we cannot find\nThe port we cannot find\nEvery road I kept\nBrought me here alive"
+      },
+      {
+        "versionNumber": 2,
+        "title": "The Port We Cannot Find",
+        "text": "[Verse 1]\nSunrise paints the highway gold\nAnother map unfolded\nGot a hunger in my soul\nA story to be told\n\n[Chorus]\nOh the port we cannot find\nIs the journey of our kind\nAlways moving always free\nSearching you and searching me\n\n[Verse 2]\nDusty boots and tired eyes\nBeneath these endless skies\nEvery town a whispered name\nFueling up this burning flame\n\n[Chorus]\nOh the port we cannot find\nIs the journey of our kind\nAlways moving always free\nSearching you and searching me\n\n[Bridge]\nMaybe home is just a word\nA feeling rarely heard\nOr maybe home is everywhere\nIn the wind in the air\n\n[Chorus]\nOh the port we cannot find\nIs the journey of our kind\nAlways moving always free\nSearching you and searching"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nI packed my name in a paper bag\nBoarded up dreams in a train car sack\nEvery town gave me half a sign\nThen the rain washed out the line\n\nI asked the dock men, I asked the shore\nThey pointed east, they pointed more\nBut every map I held so tight\nTurned to smoke in the morning light\n\n[Pre-Chorus]\nStill I walk on\nStill I go\nWith a bent old map\nAnd a torn coat\n\n[Chorus]\nThe port we cannot find\nThe port we cannot find\nMaybe I was home\nIn the searching all the time\n\nThe port we cannot find\nThe port we cannot find\nEvery road I kept\nBrought me here alive\n\n[Verse 2]\nI slept by fields with the fence line bent\nCounted each loss like a week well spent\nA woman laughed with a mouth full of corn\nSaid, \"You been leaving since you were born\"\n\nI kept her words in my jacket seam\nLike a matchbook cut from a better dream\nAnd every mile that I thought was wrong\nTurned my ache into a song\n\n[Pre-Chorus]\nStill I walk on\nStill I go\nWith a bent old map\nAnd a torn coat\n\n[Chorus]\nThe port we cannot find\nThe port we cannot find\nMaybe I was home\nIn the searching all the time\n\nThe port we cannot find\nThe port we cannot find\nEvery road I kept\nBrought me here alive\n\n[Bridge]\nIf I never see that line on the sea\nIf the gate stays shut for me\nI will set my boots down slow\nWhere the river learns to go\n\nAnd I’ll call it mine\nI’ll call it mine\nNot a place I lost\nA place I chose in time\n\n[Chorus]\nThe port we cannot find\nThe port we cannot find\nMaybe I was home\nIn the searching all the time\n\nThe port we cannot find\nThe port we cannot find\nEvery road I kept\nBrought me here alive",
+      "title": "The Port We Cannot Find",
+      "score": 121,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "e0f6d8d823c53870ca96f98619529737",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/602558878dfc47ab96614f481e4a4157.mp3",
+      "https://tempfile.aiquickdraw.com/r/5c4ebee06adb4c4589ab15e8f3b9b344.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/09_the_port_we_cannot_find_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/the-port-we-cannot-find",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/the-port-we-cannot-find.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/the-port-we-cannot-find.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:10.165Z",
+    "completedAt": "2026-06-13T22:05:48.589Z"
+  },
+  "10_what_fado_holds": {
+    "trackNumber": 10,
+    "title": "What Fado Holds",
+    "slug": "10_what_fado_holds",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "3a6f91d49cb4f3c18d26c1d3c272893b",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Salt on the Apron",
+        "text": "[Verse 1]\nYour cup still on the shelf\nA ring mark in the glaze\nThe bread knife in the drawer\nStill knows your careless ways\nI fold the day back up\nLike linen from the line\nAnd every crease says clearly\nYou were here, and you were mine\n\n[Pre-Chorus]\nI touch the chair you left\nIt leans like it remembers\nThe quiet in the house\nIs loud with old embers\n\n[Chorus]\nIt is love\nIt is loss\nIt is both in one hand\nIt is the face in the dark\nIt is the name in the sand\nI keep you\nI let you go\nThat is all I can do\nWhat fado holds\nWhat fado holds\nIs me still holding you\n\n[Verse 2]\nThe neighbor’s radio\nCarries a summer tune\nI see us at the window\nIn the iron afternoon\nYou laughed with half a peach\nAnd I with chipped blue plate\nThe world was small and shining\nAnd I was not too late\n\n[Pre-Chorus]\nNow I know the blessing\nThat broke before I knew it\nA blessed thing can vanish\nAnd still you walk right through it\n\n[Chorus]\nIt is love\nIt is loss\nIt is both in one hand\nIt is the face in the dark\nIt is the name in the sand\nI keep you\nI let you go\nThat is all I can do\nWhat fado holds\nWhat fado holds\nIs me still holding you\n\n[Bridge]\nLet time be rough with me\nLet the years take their due\nI will not curse the waking\nThat once belonged to you\nI will wear the tear\nLike a medal on my sleeve\nFor nothing real is nothing\nAnd I have learned to grieve\n\n[Final Chorus]\nIt is love\nIt is loss\nIt is both in one hand\nIt is the face in the dark\nIt is the name in the sand\nI keep you\nI let you go\nThat is all I can do\nWhat fado holds\nWhat fado holds\nIs me still holding you"
+      },
+      {
+        "versionNumber": 2,
+        "title": "What Fado Holds",
+        "text": "[Verse]\nStreetlights bleedin' gold on wet stone\nEchoes of a laugh I once owned\nFootsteps fading soft and slow\nWhere did all that good love go\n\n[Chorus]\nFado holds a tear a smile\nEvery broken dream a while\nFado holds the ghost of you\nAlways old always new\n\n[Verse 2]\nCobblestone paths remember our dance\nA fleeting touch a stolen glance\nWind whispers secrets through the night\nChasing shadows of pure delight\n\n[Chorus]\nFado holds a tear a smile\nEvery broken dream a while\nFado holds the ghost of you\nAlways old always new\n\n[Bridge]\nNo easy answers in this song\nJust feelings tangled right and wrong\nA bittersweet melody\nFor what was meant to be\n\n[Chorus]\nFado holds a tear a smile\nEvery broken dream a while\nFado holds the ghost of you"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nYour cup still on the shelf\nA ring mark in the glaze\nThe bread knife in the drawer\nStill knows your careless ways\nI fold the day back up\nLike linen from the line\nAnd every crease says clearly\nYou were here, and you were mine\n\n[Pre-Chorus]\nI touch the chair you left\nIt leans like it remembers\nThe quiet in the house\nIs loud with old embers\n\n[Chorus]\nIt is love\nIt is loss\nIt is both in one hand\nIt is the face in the dark\nIt is the name in the sand\nI keep you\nI let you go\nThat is all I can do\nWhat fado holds\nWhat fado holds\nIs me still holding you\n\n[Verse 2]\nThe neighbor’s radio\nCarries a summer tune\nI see us at the window\nIn the iron afternoon\nYou laughed with half a peach\nAnd I with chipped blue plate\nThe world was small and shining\nAnd I was not too late\n\n[Pre-Chorus]\nNow I know the blessing\nThat broke before I knew it\nA blessed thing can vanish\nAnd still you walk right through it\n\n[Chorus]\nIt is love\nIt is loss\nIt is both in one hand\nIt is the face in the dark\nIt is the name in the sand\nI keep you\nI let you go\nThat is all I can do\nWhat fado holds\nWhat fado holds\nIs me still holding you\n\n[Bridge]\nLet time be rough with me\nLet the years take their due\nI will not curse the waking\nThat once belonged to you\nI will wear the tear\nLike a medal on my sleeve\nFor nothing real is nothing\nAnd I have learned to grieve\n\n[Final Chorus]\nIt is love\nIt is loss\nIt is both in one hand\nIt is the face in the dark\nIt is the name in the sand\nI keep you\nI let you go\nThat is all I can do\nWhat fado holds\nWhat fado holds\nIs me still holding you",
+      "title": "Salt on the Apron",
+      "score": 124,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "e3316fc7536c1f6752e8696796d002e6",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/5dd38108ba8e4b1c803e8c160ba2a61a.mp3",
+      "https://tempfile.aiquickdraw.com/r/91343981c3c24cbcb99b53ef68630d3f.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/10_what_fado_holds_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/what-fado-holds",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/what-fado-holds.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/what-fado-holds.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:13.869Z",
+    "completedAt": "2026-06-13T22:05:50.265Z"
+  },
+  "11_saudade_has_a_weight": {
+    "trackNumber": 11,
+    "title": "Saudade Has a Weight",
+    "slug": "11_saudade_has_a_weight",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "8df415947933b61045564974759a844c",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Salt in the Sternum",
+        "text": "[Verse 1]\nSaudade sits down first\nIn the hollow of my chest\nLike a stone in wet cloth\nLike a coin I cannot spend\n\nIt leaves a print on my skin\nWhere your hand used to rest\nA thin and living pressure\nUnder every quiet step\n\n[Pre-Chorus]\nI wash my wrists\nIt stays\nI breathe in deep\nIt names me\n\n[Chorus]\nSaudade has a weight\nSaudade has a weight\nIt bends my ribs at dusk\nAnd makes the room feel late\n\nSaudade has a weight\nSaudade has a weight\nA hand against my heart\nThat never slips away\n\n[Verse 2]\nIn the mirror, my face\nLooks softly overfilled\nAs if your missing shadow\nHas taken up its fill\n\nI feel it in the sheets\nIn the seam of folded clothes\nIn the pocket of my coat\nWhere your last small silence froze\n\n[Pre-Chorus]\nI turn away\nIt turns\nI call your name\nIt learns\n\n[Chorus]\nSaudade has a weight\nSaudade has a weight\nIt bends my ribs at dusk\nAnd makes the room feel late\n\nSaudade has a weight\nSaudade has a weight\nA hand against my heart\nThat never slips away\n\n[Bridge]\nIf I could set it down\nI would hear the table groan\nI would mark the dent it made\nAnd know what I have known\n\nBut it lives in tender places\nWhere the body keeps its proofs\nIn the pulse beneath the throat\nIn the skin between the roots\n\n[Final Chorus]\nSaudade has a weight\nSaudade has a weight\nIt bends my ribs at dusk\nAnd makes the room feel late\n\nSaudade has a weight\nSaudade has a weight\nA hand against my heart\nThat never slips away\n\nSaudade has a weight\nSaudade has a weight\nI carry what you left\nAnd it carries me today"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Saudade na Pele",
+        "text": "[Verse 1]\nSaudade entra sem bater\nsenta no osso do peito\ntem o peso de um copo cheio\nque eu seguro sem jeito\n\nEla risca a pele por dentro\ncom dedos frios, exatos\ndeixa sal no canto da boca\ne um vazio nos braços\n\n[Pre-Chorus]\nEu mudo de lugar\nmas ela vem comigo\nno passo, no ar\nno meu abrigo\n\n[Chorus]\nSaudade pesa\npesa em mim\nsaudade pesa\nnão sai daqui\nno peito, inteira\nmeu chão, meu fim\nsaudade pesa\npesa em mim\n\n[Verse 2]\nTem textura de lençol dobrado\nde tarde fechada em vidro\ntem a cor de fruta esquecida\nna pia do meu destino\n\nQuando você some do quarto\nfica um relevo no escuro\ncomo se a casa soubesse\nonde dói mais no meu corpo\n\n[Pre-Chorus]\nEu mudo de lugar\nmas ela vem comigo\nno passo, no ar\nno meu abrigo\n\n[Chorus]\nSaudade pesa\npesa em mim\nsaudade pesa\nnão sai daqui\nno peito, inteira\nmeu chão, meu fim\nsaudade pesa\npesa em mim\n\n[Bridge]\nSe eu toco o peito, ela responde\ncomo pedra sob a pele\nse eu fecho os olhos, você volta\nmas volta e não me leve\n\nEu sei teu nome no meu sangue\nsei teu silêncio no meu sono\ne essa ausência tem contorno\ntem medida, tem dono\n\n[Final Chorus]\nSaudade pesa\npesa em mim\nsaudade pesa\nnão sai daqui\nno peito, inteira\nmeu chão, meu fim\nsaudade pesa\npesa em mim\nsaudade pesa\npesa em mim"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nSaudade sits down first\nIn the hollow of my chest\nLike a stone in wet cloth\nLike a coin I cannot spend\n\nIt leaves a print on my skin\nWhere your hand used to rest\nA thin and living pressure\nUnder every quiet step\n\n[Pre-Chorus]\nI wash my wrists\nIt stays\nI breathe in deep\nIt names me\n\n[Chorus]\nSaudade has a weight\nSaudade has a weight\nIt bends my ribs at dusk\nAnd makes the room feel late\n\nSaudade has a weight\nSaudade has a weight\nA hand against my heart\nThat never slips away\n\n[Verse 2]\nIn the mirror, my face\nLooks softly overfilled\nAs if your missing shadow\nHas taken up its fill\n\nI feel it in the sheets\nIn the seam of folded clothes\nIn the pocket of my coat\nWhere your last small silence froze\n\n[Pre-Chorus]\nI turn away\nIt turns\nI call your name\nIt learns\n\n[Chorus]\nSaudade has a weight\nSaudade has a weight\nIt bends my ribs at dusk\nAnd makes the room feel late\n\nSaudade has a weight\nSaudade has a weight\nA hand against my heart\nThat never slips away\n\n[Bridge]\nIf I could set it down\nI would hear the table groan\nI would mark the dent it made\nAnd know what I have known\n\nBut it lives in tender places\nWhere the body keeps its proofs\nIn the pulse beneath the throat\nIn the skin between the roots\n\n[Final Chorus]\nSaudade has a weight\nSaudade has a weight\nIt bends my ribs at dusk\nAnd makes the room feel late\n\nSaudade has a weight\nSaudade has a weight\nA hand against my heart\nThat never slips away\n\nSaudade has a weight\nSaudade has a weight\nI carry what you left\nAnd it carries me today",
+      "title": "Salt in the Sternum",
+      "score": 121,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "2d0f50671ee03ba11f63ed0e312e8988",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/7602800bca3f46f89d55f26a6d49eedb.mp3",
+      "https://tempfile.aiquickdraw.com/r/b80551daf99d4fffbfdc200bd0378560.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/11_saudade_has_a_weight_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/saudade-has-a-weight",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/saudade-has-a-weight.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/saudade-has-a-weight.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:17.575Z",
+    "completedAt": "2026-06-13T22:06:17.029Z"
+  },
+  "12_all_the_water_between": {
+    "trackNumber": 12,
+    "title": "All the Water Between",
+    "slug": "12_all_the_water_between",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "23d8184ee7f57960e1d07dc91c78bb6a",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "All the Water",
+        "text": "[Verse 1]\nYour name fits in my hand\nLike a coin I keep warm\nAcross the map, across the dark\nYou still hold your form\n\nMidnight here, morning there\nStill I feel the same pull\nLike the tide keeps its promise\nEven when the moon is full\n\n[Pre-Chorus]\nI don't need your shoulder\nTo know your weight\nI don't need your footsteps\nTo know you stay\n\n[Chorus]\nAll the water between\nCan’t wash you out\nAll the water between\nStill says your name out loud\nYou are here, you are real\nIn the shape you leave behind\nAll the water between\nStill keeps us tied\n\n[Verse 2]\nThere’s a cup by the sink\nStill set for two\nSome days that little detail\nIs the best thing I can do\n\nI read your old messages\nLike prayer lines in a row\nNot to bring you closer\nJust to let the truth show\n\n[Pre-Chorus]\nI don't need the room to turn\nFor you to be\nI don't need my eyes to lie\nYou live in me\n\n[Chorus]\nAll the water between\nCan’t wash you out\nAll the water between\nStill says your name out loud\nYou are here, you are real\nIn the shape you leave behind\nAll the water between\nStill keeps us tied\n\n[Bridge]\nIf the world draws lines\nI draw them back\nWith every memory\nAnd every track\n\nTime zone to time zone\nWe do not fade\nLove is a real thing\nEven when delayed\n\n[Chorus]\nAll the water between\nCan’t wash you out\nAll the water between\nStill says your name out loud\nYou are here, you are real\nIn the shape you leave behind\nAll the water between\nStill keeps us tied\n\n[Outro]\nNot missing\nNot gone\nJust far\nAnd still mine"
+      },
+      {
+        "versionNumber": 2,
+        "title": "All the Water Between",
+        "text": "[Verse 1]\nYour cup stays on my shelf\nThe blue one with the chip\nI see it every morning\nLike you just took a sip\n\nNine hours ahead of me\nYour day is still my night\nI send you little fragments\nYou hold them up to light\n\n[Pre-Chorus]\nAnd I don't need your hand\nTo know it's still your hand\nA shape I could not name\nNow I know where it lands\n\n[Chorus]\nAll the water between us\nStill can't wash you away\nAll the water between us\nKeeps your name in the clay\nYou are here in the missing\nYou are real when you're gone\nAll the water between us\nAnd I'm still holding on\n\n[Verse 2]\nYour laugh lives in my phone\nIn that clipped-up message tone\nI play it when the room goes\nToo quiet for my bones\n\nThe map keeps stretching farther\nThe clocks keep turning too\nBut distance is a border\nNot a thing between me and you\n\n[Pre-Chorus]\nAnd I don't need your face\nTo know it by its flame\nA specific kind of ache\nA specific kind of name\n\n[Chorus]\nAll the water between us\nStill can't wash you away\nAll the water between us\nKeeps your name in the clay\nYou are here in the missing\nYou are real when you're gone\nAll the water between us\nAnd I'm still holding on\n\n[Bridge]\nMaybe love is this\nA lantern in a jar\nCarried through the harbor\nCarried through the dark\n\nNot a hand to touch\nBut a fact I can repeat\nYou're a living distance\nRight here inside of me\n\n[Final Chorus]\nAll the water between us\nStill can't wash you away\nAll the water between us\nKeeps your name in the clay\nYou are here in the missing\nYou are real when you're gone\nAll the water between us\nAnd I'm still holding on"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nYour name fits in my hand\nLike a coin I keep warm\nAcross the map, across the dark\nYou still hold your form\n\nMidnight here, morning there\nStill I feel the same pull\nLike the tide keeps its promise\nEven when the moon is full\n\n[Pre-Chorus]\nI don't need your shoulder\nTo know your weight\nI don't need your footsteps\nTo know you stay\n\n[Chorus]\nAll the water between\nCan’t wash you out\nAll the water between\nStill says your name out loud\nYou are here, you are real\nIn the shape you leave behind\nAll the water between\nStill keeps us tied\n\n[Verse 2]\nThere’s a cup by the sink\nStill set for two\nSome days that little detail\nIs the best thing I can do\n\nI read your old messages\nLike prayer lines in a row\nNot to bring you closer\nJust to let the truth show\n\n[Pre-Chorus]\nI don't need the room to turn\nFor you to be\nI don't need my eyes to lie\nYou live in me\n\n[Chorus]\nAll the water between\nCan’t wash you out\nAll the water between\nStill says your name out loud\nYou are here, you are real\nIn the shape you leave behind\nAll the water between\nStill keeps us tied\n\n[Bridge]\nIf the world draws lines\nI draw them back\nWith every memory\nAnd every track\n\nTime zone to time zone\nWe do not fade\nLove is a real thing\nEven when delayed\n\n[Chorus]\nAll the water between\nCan’t wash you out\nAll the water between\nStill says your name out loud\nYou are here, you are real\nIn the shape you leave behind\nAll the water between\nStill keeps us tied\n\n[Outro]\nNot missing\nNot gone\nJust far\nAnd still mine",
+      "title": "All the Water",
+      "score": 148,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus, [outro; substantial content; singable line lengths; emotional vocabulary (6 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "441d010e0cc92388cfa5dd333fe688e5",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/122fad07ab5649d893c784017c6701e5.mp3",
+      "https://tempfile.aiquickdraw.com/r/c9bd057129ae4c22b1860c667dd16487.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/12_all_the_water_between_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/all-the-water-between",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/all-the-water-between.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/all-the-water-between.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:21.277Z",
+    "completedAt": "2026-06-13T22:06:40.053Z"
+  },
+  "13_the_sea_keeps_our_names": {
+    "trackNumber": 13,
+    "title": "The Sea Keeps Our Names",
+    "slug": "13_the_sea_keeps_our_names",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "28cb16b5dfa34f75f7edabcd0fe90425",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Sea Keeps Our Names",
+        "text": "[Verse 1]\nThe dock was wet with rain\nand salt on every sleeve\nMarta held a paper bag\nlike it could help her breathe\n\nMy brother kissed the rail\nthen stared into the dark\nWe learned the names we carried\nbefore we learned the sparks\n\n[Chorus]\nThe sea keeps our names\nthe sea keeps our names\nIt takes what we bring\nand still remembers\n\nThe sea keeps our names\nthe sea keeps our names\nThe brave, the lost, the changed\nall the same to the waves\n\n[Verse 2]\nSome came with shoes in hand\nsome came with empty eyes\nSome reached the other shore\nand left their old lives behind\n\nI saw a child wake up\nwith sand in her curled hair\nShe looked like two whole lives\nwere tangled in the air\n\n[Chorus]\nThe sea keeps our names\nthe sea keeps our names\nIt takes what we bring\nand still remembers\n\nThe sea keeps our names\nthe sea keeps our names\nThe brave, the lost, the changed\nall the same to the waves\n\n[Bridge]\nFor every face that vanished\nfor every voice that rose\nFor every soul that made it\nscarred by what it knows\n\nIf you call out over water\nit answers in its own way\nNot with hands, not with mercy\nbut with what it can save\n\n[Chorus]\nThe sea keeps our names\nthe sea keeps our names\nIt takes what we bring\nand still remembers\n\nThe sea keeps our names\nthe sea keeps our names\nThe brave, the lost, the changed\nall the same to the waves"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Salt On The Ledger",
+        "text": "[Verse 1]\nThe dock wrote down your face\nIn rain and engine smoke\nYou left with seven others\nA coat, a list, a hope\n\nThe waves took off your accent\nLeft sand in every seam\nYou came back with new weather\nAnd eyes that’d seen the seam\n\n[Chorus]\nThe sea keeps our names\nThe sea keeps our names\nOn a cold black page\nWhere the water won’t fade\n\nThe sea keeps our names\nThe sea keeps our names\nFor the ones who crossed\nAnd the ones who remained\n\n[Verse 2]\nThere’s one for every morning\nA cup left in the sink\nOne for the missing hammock\nOne for the ship that sank\n\nOne for the child who landed\nWith salt in her hair\nOne for the mother waiting\nStill folding air\n\n[Chorus]\nThe sea keeps our names\nThe sea keeps our names\nOn a cold black page\nWhere the water won’t fade\n\nThe sea keeps our names\nThe sea keeps our names\nFor the ones who crossed\nAnd the ones who remained\n\n[Bridge]\nSay mine\nSay yours\nSay the ones we lost at dawn\n\nIf the tide can take a body\nIt can’t take what we were called\n\n[Final Chorus]\nThe sea keeps our names\nThe sea keeps our names\nOn a cold black page\nWhere the water won’t fade\n\nThe sea keeps our names\nThe sea keeps our names\nFor the ones who crossed\nAnd the ones who remained"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nThe dock was wet with rain\nand salt on every sleeve\nMarta held a paper bag\nlike it could help her breathe\n\nMy brother kissed the rail\nthen stared into the dark\nWe learned the names we carried\nbefore we learned the sparks\n\n[Chorus]\nThe sea keeps our names\nthe sea keeps our names\nIt takes what we bring\nand still remembers\n\nThe sea keeps our names\nthe sea keeps our names\nThe brave, the lost, the changed\nall the same to the waves\n\n[Verse 2]\nSome came with shoes in hand\nsome came with empty eyes\nSome reached the other shore\nand left their old lives behind\n\nI saw a child wake up\nwith sand in her curled hair\nShe looked like two whole lives\nwere tangled in the air\n\n[Chorus]\nThe sea keeps our names\nthe sea keeps our names\nIt takes what we bring\nand still remembers\n\nThe sea keeps our names\nthe sea keeps our names\nThe brave, the lost, the changed\nall the same to the waves\n\n[Bridge]\nFor every face that vanished\nfor every voice that rose\nFor every soul that made it\nscarred by what it knows\n\nIf you call out over water\nit answers in its own way\nNot with hands, not with mercy\nbut with what it can save\n\n[Chorus]\nThe sea keeps our names\nthe sea keeps our names\nIt takes what we bring\nand still remembers\n\nThe sea keeps our names\nthe sea keeps our names\nThe brave, the lost, the changed\nall the same to the waves",
+      "title": "Sea Keeps Our Names",
+      "score": 112,
+      "reason": "structure: [verse, [chorus, [bridge; substantial content; singable line lengths; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "2d01fe46cfc1776e65a9ee10824864b4",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/40b5126342ec4a8887bc34e03584f756.mp3",
+      "https://tempfile.aiquickdraw.com/r/fc3a598b8c014154825533bda818daff.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/13_the_sea_keeps_our_names_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/the-sea-keeps-our-names",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/the-sea-keeps-our-names.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/the-sea-keeps-our-names.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:24.980Z",
+    "completedAt": "2026-06-13T22:05:53.241Z"
+  },
+  "14_i_chose_the_open": {
+    "trackNumber": 14,
+    "title": "I Chose the Open",
+    "slug": "14_i_chose_the_open",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "5a249c7f4ed6dc17634360be8afc4695",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "The Open Road",
+        "text": "[Verse]\nSunrise in my rearview mirror\nAnother town another sign\nDusty boots and a heart so clear\nLeaving worries behind\n\n[Pre-Chorus]\nYeah the road it calls my name\nA whisper in the wind\n\n[Chorus]\nI chose the open\nThe open road\nI chose the open\nA heavy load\nI chose the open\nA brand new day\nI chose the open\nCome what may\n\n[Verse 2]\nSome folks they chase the easy dream\nA soft bed a warm embrace\nMe I like the engine's scream\nA smile upon my face\n\n[Pre-Chorus]\nYeah the highway is my friend\nUntil the very end\n\n[Chorus]\nI chose the open\nThe open road\nI chose the open\nA heavy load\nI chose the open\nA brand new day\nI chose the open\nCome what may"
+      },
+      {
+        "versionNumber": 2,
+        "title": "I Chose the Open",
+        "text": "[Verse 1]\nThe room was black\nThe floor held still\nI heard my name\nLike a warning bell\nI had the door\nI had the key\nBut fear said stay\nAnd look at me\n\n[Pre-Chorus]\nI tasted dust\nI felt the bend\nOne more step\nOr break at the end\nNot for hope\nNot for a sign\nJust because\nI was still alive\n\n[Chorus]\nI chose the open\nI chose the open\nWhen the dark got loud\nI stayed in motion\nI chose the open\nI chose the open\nNot for tomorrow\nJust for devotion\n\n[Verse 2]\nThe night bit hard\nIt took its share\nCold in my lungs\nSharp in the air\nI saw what stops\nWhat stays, what dies\nThen I kept going\nWith shaking eyes\n\n[Pre-Chorus]\nI had the weight\nI had the fear\nI heard the truth\nToo plain, too clear\nIf I go back\nI lose my ground\nSo I moved on\nWithout a sound\n\n[Chorus]\nI chose the open\nI chose the open\nWhen the dark got loud\nI stayed in motion\nI chose the open\nI chose the open\nNot for tomorrow\nJust for devotion\n\n[Bridge]\nNot because\nThe sky was kind\nNot because\nI knew I'd find\nSome easy road\nSome healed-up part\nI moved because\nIt broke my heart\n\n[Final Chorus]\nI chose the open\nI chose the open\nWhen the dark got loud\nI stayed in motion\nI chose the open\nI chose the open\nNot for tomorrow\nJust for devotion\nI chose the open\nI chose the open\nAnd every hard step\nKept me whole again"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 2,
+      "text": "[Verse 1]\nThe room was black\nThe floor held still\nI heard my name\nLike a warning bell\nI had the door\nI had the key\nBut fear said stay\nAnd look at me\n\n[Pre-Chorus]\nI tasted dust\nI felt the bend\nOne more step\nOr break at the end\nNot for hope\nNot for a sign\nJust because\nI was still alive\n\n[Chorus]\nI chose the open\nI chose the open\nWhen the dark got loud\nI stayed in motion\nI chose the open\nI chose the open\nNot for tomorrow\nJust for devotion\n\n[Verse 2]\nThe night bit hard\nIt took its share\nCold in my lungs\nSharp in the air\nI saw what stops\nWhat stays, what dies\nThen I kept going\nWith shaking eyes\n\n[Pre-Chorus]\nI had the weight\nI had the fear\nI heard the truth\nToo plain, too clear\nIf I go back\nI lose my ground\nSo I moved on\nWithout a sound\n\n[Chorus]\nI chose the open\nI chose the open\nWhen the dark got loud\nI stayed in motion\nI chose the open\nI chose the open\nNot for tomorrow\nJust for devotion\n\n[Bridge]\nNot because\nThe sky was kind\nNot because\nI knew I'd find\nSome easy road\nSome healed-up part\nI moved because\nIt broke my heart\n\n[Final Chorus]\nI chose the open\nI chose the open\nWhen the dark got loud\nI stayed in motion\nI chose the open\nI chose the open\nNot for tomorrow\nJust for devotion\nI chose the open\nI chose the open\nAnd every hard step\nKept me whole again",
+      "title": "I Chose the Open",
+      "score": 112,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "45de543046abbed79ea7c97c4591b96e",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/54280b7caf3f489f84c577743ccaba8b.mp3",
+      "https://tempfile.aiquickdraw.com/r/7b8685aa3848463ea98c82ee75bf335a.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/14_i_chose_the_open_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/i-chose-the-open",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/i-chose-the-open.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/i-chose-the-open.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:28.977Z",
+    "completedAt": "2026-06-13T22:06:41.662Z"
+  },
+  "15_still_we_sail_to_light": {
+    "trackNumber": 15,
+    "title": "Still We Sail (To Light)",
+    "slug": "15_still_we_sail_to_light",
+    "lyricsStatus": "selected",
+    "lyricsTaskId": "6bd538876e3fc569e1ef16957f5dc392",
+    "lyricsVariations": [
+      {
+        "versionNumber": 1,
+        "title": "Still We Sail",
+        "text": "[Verse 1]\nWe left with salt on sleeves,\nand names we would not say.\nThe shore kept shrinking back\nlike it knew the price of stay.\nI packed your photograph\ninside my coat of rain.\n\n[Pre-Chorus]\nAnd all the miles\ndid not erase\nthe hands we lost,\nthe rooms we praised.\n\n[Chorus]\nStill we sail\nthrough the ache\nStill we sail\nwith a broken wake\nLove stays\nin the skin\nStill we sail\nto the light within\n\n[Verse 2]\nThe border ate our hours,\nthe road kept asking why.\nWe learned to walk with ghosts\nand keep the lantern dry.\nYour laughter in the dark\nwas bread I could not buy.\n\n[Pre-Chorus]\nSo let the wind\nkeep every scar\nwe are not whole,\nbut here we are.\n\n[Chorus]\nStill we sail\nthrough the ache\nStill we sail\nwith a broken wake\nLove stays\nin the skin\nStill we sail\nto the light within\n\n[Bridge]\nNot victory.\nNot a crown.\nJust two tired hearts\nnot putting down.\nSaudade in the ribs,\nsalt in the blood,\nwe carry what was gone\nand call it love.\n\n[Chorus]\nStill we sail\nthrough the ache\nStill we sail\nwith a broken wake\nLove stays\nin the skin\nStill we sail\nto the light within"
+      },
+      {
+        "versionNumber": 2,
+        "title": "Still We Sail",
+        "text": "[Verse 1]\nWe came with the salt\nStill on our sleeves\nNames in our mouths\nLike small hard seeds\nWe crossed the dark\nWith your hand in mine\nCarrying what broke\nAnd what would not die\n\n[Pre-Chorus]\nNot for a crown\nNot for applause\nJust to keep\nWhat the storm left yours\nJust to keep\nThe ember near\nJust to keep\nThe love right here\n\n[Chorus]\nStill we sail\nStill we sail\nPast the ache\nPast the veil\nStill we sail\nStill we sail\nTo light\nTo light\n\n[Verse 2]\nI learned your grief\nHad a shape and sound\nA chair by the door\nA coat on the ground\nExile in the blood\nSaudade in the bone\nA thousand miles\nAnd still we call it home\n\n[Pre-Chorus]\nNot all lost\nIs gone for good\nSome things live\nAs they always would\nIn the bread we break\nIn the names we save\nIn the quiet way\nWe refuse the grave\n\n[Chorus]\nStill we sail\nStill we sail\nPast the ache\nPast the veil\nStill we sail\nStill we sail\nTo light\nTo light\n\n[Bridge]\nAnd if there’s no bright gate\nNo horns, no gold\nNo final shore\nThat says we're whole\nThen let the small flame\nBe enough for me\nYour hand in my hand\nAt the edge of the sea\n\n[Final Chorus]\nStill we sail\nStill we sail\nPast the ache\nPast the veil\nStill we sail\nStill we sail\nTo light\nTo light\n\nStill we sail\nStill we sail\nWe are here\nWe are home"
+      }
+    ],
+    "selectedLyricsVersion": {
+      "versionNumber": 1,
+      "text": "[Verse 1]\nWe left with salt on sleeves,\nand names we would not say.\nThe shore kept shrinking back\nlike it knew the price of stay.\nI packed your photograph\ninside my coat of rain.\n\n[Pre-Chorus]\nAnd all the miles\ndid not erase\nthe hands we lost,\nthe rooms we praised.\n\n[Chorus]\nStill we sail\nthrough the ache\nStill we sail\nwith a broken wake\nLove stays\nin the skin\nStill we sail\nto the light within\n\n[Verse 2]\nThe border ate our hours,\nthe road kept asking why.\nWe learned to walk with ghosts\nand keep the lantern dry.\nYour laughter in the dark\nwas bread I could not buy.\n\n[Pre-Chorus]\nSo let the wind\nkeep every scar\nwe are not whole,\nbut here we are.\n\n[Chorus]\nStill we sail\nthrough the ache\nStill we sail\nwith a broken wake\nLove stays\nin the skin\nStill we sail\nto the light within\n\n[Bridge]\nNot victory.\nNot a crown.\nJust two tired hearts\nnot putting down.\nSaudade in the ribs,\nsalt in the blood,\nwe carry what was gone\nand call it love.\n\n[Chorus]\nStill we sail\nthrough the ache\nStill we sail\nwith a broken wake\nLove stays\nin the skin\nStill we sail\nto the light within",
+      "title": "Still We Sail",
+      "score": 121,
+      "reason": "structure: [verse, [chorus, [bridge, [pre-chorus; substantial content; emotional vocabulary (7 words); chorus repetition"
+    },
+    "musicStatus": "complete",
+    "musicTaskId": "02c0b0829281068a0b5853cfe652f049",
+    "audioUrls": [
+      "https://tempfile.aiquickdraw.com/r/9190d77377d242d3a35a52c8f9c38fb8.mp3",
+      "https://tempfile.aiquickdraw.com/r/457e2a1b90b7437489eb2be900489e0f.mp3"
+    ],
+    "localAudioPaths": [
+      "/home/noiraciel/NoiraCiel/Music/Still_We_Sail/audio/15_still_we_sail_to_light_v1.mp3"
+    ],
+    "storyStatus": "none",
+    "storyPath": null,
+    "bookStatus": "none",
+    "bookPath": null,
+    "scoresStatus": "done",
+    "scoresDir": "/home/noiraciel/NoiraCiel/public/Books/scores/still-we-sail-to-light",
+    "songArtStatus": "done",
+    "songArtPath": "/home/noiraciel/NoiraCiel/public/images/song-art/still-we-sail-to-light.jpg",
+    "songArtTaskId": null,
+    "transcribeStatus": "done",
+    "timestampsPath": "/home/noiraciel/NoiraCiel/public/Lyrics/timestamps/still-we-sail-to-light.json",
+    "karaokeStatus": "none",
+    "karaokeVideoPath": null,
+    "submittedAt": "2026-06-13T22:03:32.679Z",
+    "completedAt": "2026-06-13T22:05:55.338Z"
+  }
+}

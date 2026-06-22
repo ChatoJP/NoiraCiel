@@ -4,7 +4,7 @@
  *
  * Generates one 16:9 cinematic banner image per song.
  * Used as the full-bleed header background on each /songs/[slug] chapter page.
- * Output: public/Images/chapter-banners/{slug}.jpg
+ * Output: public/images/chapter-banners/{slug}.jpg
  *
  * USAGE
  *   node scripts/generate-chapter-banners.js              # dry-run
@@ -29,7 +29,7 @@ loadEnv()
 
 const MUSIC_DIR   = path.join(__dirname, '..', 'Music')
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'chapter-banners')
-const PUBLIC_BASE = '/Images/chapter-banners'
+const PUBLIC_BASE = '/images/chapter-banners'
 const SUPPORTED   = /\.(wav|mp3|flac|aiff|aif|m4a|ogg)$/i
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000

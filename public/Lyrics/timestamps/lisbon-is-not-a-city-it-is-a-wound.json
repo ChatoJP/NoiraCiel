@@ -1,0 +1,1116 @@
+{
+  "title": "Lisbon Is Not a City, It Is a Wound",
+  "words": [
+    {
+      "word": "I",
+      "start": 18.2,
+      "end": 19.04
+    },
+    {
+      "word": "learned",
+      "start": 19.04,
+      "end": 19.42
+    },
+    {
+      "word": "your",
+      "start": 19.42,
+      "end": 19.64
+    },
+    {
+      "word": "streets",
+      "start": 19.64,
+      "end": 20.0
+    },
+    {
+      "word": "by",
+      "start": 20.0,
+      "end": 20.42
+    },
+    {
+      "word": "scar,",
+      "start": 20.42,
+      "end": 20.84
+    },
+    {
+      "word": "stone",
+      "start": 21.84,
+      "end": 22.86
+    },
+    {
+      "word": "by",
+      "start": 22.86,
+      "end": 23.32
+    },
+    {
+      "word": "stone",
+      "start": 23.32,
+      "end": 23.66
+    },
+    {
+      "word": "by",
+      "start": 23.66,
+      "end": 24.26
+    },
+    {
+      "word": "name,",
+      "start": 24.26,
+      "end": 24.54
+    },
+    {
+      "word": "the",
+      "start": 25.72,
+      "end": 26.52
+    },
+    {
+      "word": "river",
+      "start": 26.52,
+      "end": 26.86
+    },
+    {
+      "word": "on",
+      "start": 26.86,
+      "end": 27.26
+    },
+    {
+      "word": "my",
+      "start": 27.26,
+      "end": 27.54
+    },
+    {
+      "word": "tongue,",
+      "start": 27.54,
+      "end": 27.94
+    },
+    {
+      "word": "the",
+      "start": 29.94,
+      "end": 30.1
+    },
+    {
+      "word": "bridges",
+      "start": 30.1,
+      "end": 30.46
+    },
+    {
+      "word": "burn",
+      "start": 30.46,
+      "end": 30.92
+    },
+    {
+      "word": "the",
+      "start": 30.92,
+      "end": 31.3
+    },
+    {
+      "word": "same,",
+      "start": 31.3,
+      "end": 31.7
+    },
+    {
+      "word": "my",
+      "start": 32.72,
+      "end": 33.76
+    },
+    {
+      "word": "hands",
+      "start": 33.76,
+      "end": 34.1
+    },
+    {
+      "word": "still",
+      "start": 34.1,
+      "end": 34.42
+    },
+    {
+      "word": "keep",
+      "start": 34.42,
+      "end": 34.74
+    },
+    {
+      "word": "the",
+      "start": 34.74,
+      "end": 35.06
+    },
+    {
+      "word": "folds",
+      "start": 35.06,
+      "end": 35.82
+    },
+    {
+      "word": "of",
+      "start": 35.82,
+      "end": 54.52
+    },
+    {
+      "word": "your",
+      "start": 54.52,
+      "end": 54.52
+    },
+    {
+      "word": "under",
+      "start": 55.52,
+      "end": 56.3
+    },
+    {
+      "word": "my",
+      "start": 56.3,
+      "end": 56.68
+    },
+    {
+      "word": "ribs",
+      "start": 56.68,
+      "end": 57.4
+    },
+    {
+      "word": "where",
+      "start": 57.4,
+      "end": 58.24
+    },
+    {
+      "word": "the",
+      "start": 58.24,
+      "end": 58.6
+    },
+    {
+      "word": "earth",
+      "start": 58.6,
+      "end": 59.24
+    },
+    {
+      "word": "can",
+      "start": 59.24,
+      "end": 59.5
+    },
+    {
+      "word": "hear",
+      "start": 59.5,
+      "end": 59.96
+    },
+    {
+      "word": "me",
+      "start": 59.96,
+      "end": 61.12
+    },
+    {
+      "word": "this",
+      "start": 62.38,
+      "end": 63.28
+    },
+    {
+      "word": "burn",
+      "start": 63.28,
+      "end": 63.56
+    },
+    {
+      "word": "is",
+      "start": 63.56,
+      "end": 63.94
+    },
+    {
+      "word": "old,",
+      "start": 63.94,
+      "end": 64.2
+    },
+    {
+      "word": "this",
+      "start": 65.12,
+      "end": 66.74
+    },
+    {
+      "word": "burn",
+      "start": 66.74,
+      "end": 67.18
+    },
+    {
+      "word": "is",
+      "start": 67.18,
+      "end": 67.52
+    },
+    {
+      "word": "old",
+      "start": 67.52,
+      "end": 67.82
+    },
+    {
+      "word": "beautiful",
+      "start": 69.8,
+      "end": 70.7
+    },
+    {
+      "word": "blue",
+      "start": 70.7,
+      "end": 71.6
+    },
+    {
+      "word": "and",
+      "start": 71.6,
+      "end": 72.7
+    },
+    {
+      "word": "it",
+      "start": 72.7,
+      "end": 72.94
+    },
+    {
+      "word": "follows",
+      "start": 72.94,
+      "end": 73.62
+    },
+    {
+      "word": "me",
+      "start": 73.62,
+      "end": 74.68
+    },
+    {
+      "word": "home",
+      "start": 74.68,
+      "end": 75.14
+    },
+    {
+      "word": "this",
+      "start": 75.14,
+      "end": 76.08
+    },
+    {
+      "word": "burn",
+      "start": 76.08,
+      "end": 76.32
+    },
+    {
+      "word": "is",
+      "start": 76.32,
+      "end": 76.6
+    },
+    {
+      "word": "old,",
+      "start": 76.6,
+      "end": 76.86
+    },
+    {
+      "word": "this",
+      "start": 77.42,
+      "end": 77.7
+    },
+    {
+      "word": "burn",
+      "start": 77.7,
+      "end": 78.08
+    },
+    {
+      "word": "is",
+      "start": 78.08,
+      "end": 78.38
+    },
+    {
+      "word": "old",
+      "start": 78.38,
+      "end": 78.64
+    },
+    {
+      "word": "this",
+      "start": 78.64,
+      "end": 79.58
+    },
+    {
+      "word": "burn",
+      "start": 79.58,
+      "end": 81.66
+    },
+    {
+      "word": "is",
+      "start": 81.66,
+      "end": 82.04
+    },
+    {
+      "word": "old",
+      "start": 82.04,
+      "end": 82.34
+    },
+    {
+      "word": "you",
+      "start": 83.56,
+      "end": 84.48
+    },
+    {
+      "word": "live",
+      "start": 84.48,
+      "end": 84.88
+    },
+    {
+      "word": "in",
+      "start": 84.88,
+      "end": 85.34
+    },
+    {
+      "word": "my",
+      "start": 85.34,
+      "end": 85.62
+    },
+    {
+      "word": "bones,",
+      "start": 85.62,
+      "end": 86.38
+    },
+    {
+      "word": "you",
+      "start": 86.82,
+      "end": 87.38
+    },
+    {
+      "word": "stay",
+      "start": 87.38,
+      "end": 87.94
+    },
+    {
+      "word": "when",
+      "start": 87.94,
+      "end": 88.92
+    },
+    {
+      "word": "I",
+      "start": 88.92,
+      "end": 89.3
+    },
+    {
+      "word": "go",
+      "start": 89.3,
+      "end": 89.7
+    },
+    {
+      "word": "your",
+      "start": 104.76,
+      "end": 105.68
+    },
+    {
+      "word": "hills",
+      "start": 105.68,
+      "end": 106.0
+    },
+    {
+      "word": "climb",
+      "start": 106.0,
+      "end": 106.32
+    },
+    {
+      "word": "through",
+      "start": 106.32,
+      "end": 106.84
+    },
+    {
+      "word": "my",
+      "start": 106.84,
+      "end": 107.3
+    },
+    {
+      "word": "chest",
+      "start": 107.3,
+      "end": 107.78
+    },
+    {
+      "word": "your",
+      "start": 108.78,
+      "end": 109.22
+    },
+    {
+      "word": "trambles",
+      "start": 109.22,
+      "end": 109.96
+    },
+    {
+      "word": "cut",
+      "start": 109.96,
+      "end": 110.2
+    },
+    {
+      "word": "through",
+      "start": 110.2,
+      "end": 110.64
+    },
+    {
+      "word": "sleep",
+      "start": 110.64,
+      "end": 111.06
+    },
+    {
+      "word": "I",
+      "start": 111.78,
+      "end": 112.82
+    },
+    {
+      "word": "pass",
+      "start": 112.82,
+      "end": 113.12
+    },
+    {
+      "word": "the",
+      "start": 113.12,
+      "end": 113.56
+    },
+    {
+      "word": "same",
+      "start": 113.56,
+      "end": 113.86
+    },
+    {
+      "word": "old",
+      "start": 113.86,
+      "end": 114.38
+    },
+    {
+      "word": "door",
+      "start": 114.38,
+      "end": 114.8
+    },
+    {
+      "word": "and",
+      "start": 114.8,
+      "end": 116.36
+    },
+    {
+      "word": "feel",
+      "start": 116.36,
+      "end": 116.76
+    },
+    {
+      "word": "the",
+      "start": 116.76,
+      "end": 117.18
+    },
+    {
+      "word": "whole",
+      "start": 117.18,
+      "end": 117.56
+    },
+    {
+      "word": "thing",
+      "start": 117.56,
+      "end": 117.96
+    },
+    {
+      "word": "bleed",
+      "start": 117.96,
+      "end": 118.28
+    },
+    {
+      "word": "the",
+      "start": 119.62,
+      "end": 120.06
+    },
+    {
+      "word": "map",
+      "start": 120.06,
+      "end": 120.38
+    },
+    {
+      "word": "is",
+      "start": 120.38,
+      "end": 121.0
+    },
+    {
+      "word": "in",
+      "start": 121.0,
+      "end": 121.3
+    },
+    {
+      "word": "my",
+      "start": 121.3,
+      "end": 121.74
+    },
+    {
+      "word": "pulse",
+      "start": 121.74,
+      "end": 122.24
+    },
+    {
+      "word": "the",
+      "start": 122.78,
+      "end": 123.68
+    },
+    {
+      "word": "proof",
+      "start": 123.68,
+      "end": 124.02
+    },
+    {
+      "word": "is",
+      "start": 124.02,
+      "end": 124.58
+    },
+    {
+      "word": "in",
+      "start": 124.58,
+      "end": 124.96
+    },
+    {
+      "word": "the",
+      "start": 124.96,
+      "end": 125.32
+    },
+    {
+      "word": "scar",
+      "start": 125.32,
+      "end": 125.56
+    },
+    {
+      "word": "I",
+      "start": 126.78,
+      "end": 127.24
+    },
+    {
+      "word": "carry",
+      "start": 127.24,
+      "end": 127.7
+    },
+    {
+      "word": "you",
+      "start": 127.7,
+      "end": 128.4
+    },
+    {
+      "word": "in",
+      "start": 128.4,
+      "end": 128.8
+    },
+    {
+      "word": "life",
+      "start": 128.8,
+      "end": 129.3
+    },
+    {
+      "word": "I",
+      "start": 129.3,
+      "end": 130.9
+    },
+    {
+      "word": "carry",
+      "start": 130.9,
+      "end": 131.18
+    },
+    {
+      "word": "you",
+      "start": 131.18,
+      "end": 131.98
+    },
+    {
+      "word": "in",
+      "start": 131.98,
+      "end": 132.44
+    },
+    {
+      "word": "dark",
+      "start": 132.44,
+      "end": 132.88
+    },
+    {
+      "word": "and",
+      "start": 132.88,
+      "end": 133.86
+    },
+    {
+      "word": "I",
+      "start": 133.86,
+      "end": 135.88
+    },
+    {
+      "word": "don't",
+      "start": 135.88,
+      "end": 136.26
+    },
+    {
+      "word": "leave",
+      "start": 136.26,
+      "end": 136.98
+    },
+    {
+      "word": "you",
+      "start": 136.98,
+      "end": 137.36
+    },
+    {
+      "word": "I",
+      "start": 137.88,
+      "end": 139.34
+    },
+    {
+      "word": "just",
+      "start": 139.34,
+      "end": 139.88
+    },
+    {
+      "word": "wear",
+      "start": 139.88,
+      "end": 140.26
+    },
+    {
+      "word": "you",
+      "start": 140.26,
+      "end": 140.98
+    },
+    {
+      "word": "under",
+      "start": 141.88,
+      "end": 143.0
+    },
+    {
+      "word": "my",
+      "start": 143.0,
+      "end": 143.46
+    },
+    {
+      "word": "ribs",
+      "start": 143.46,
+      "end": 144.18
+    },
+    {
+      "word": "where",
+      "start": 144.18,
+      "end": 145.06
+    },
+    {
+      "word": "the",
+      "start": 145.06,
+      "end": 145.4
+    },
+    {
+      "word": "earth",
+      "start": 145.4,
+      "end": 145.98
+    },
+    {
+      "word": "can",
+      "start": 145.98,
+      "end": 146.3
+    },
+    {
+      "word": "hear",
+      "start": 146.3,
+      "end": 146.78
+    },
+    {
+      "word": "me",
+      "start": 146.78,
+      "end": 147.88
+    },
+    {
+      "word": "this",
+      "start": 148.76,
+      "end": 149.98
+    },
+    {
+      "word": "burn",
+      "start": 149.98,
+      "end": 150.46
+    },
+    {
+      "word": "is",
+      "start": 150.46,
+      "end": 150.76
+    },
+    {
+      "word": "old,",
+      "start": 150.76,
+      "end": 151.0
+    },
+    {
+      "word": "this",
+      "start": 151.42,
+      "end": 153.54
+    },
+    {
+      "word": "burn",
+      "start": 153.54,
+      "end": 154.0
+    },
+    {
+      "word": "is",
+      "start": 154.0,
+      "end": 162.86
+    },
+    {
+      "word": "old",
+      "start": 162.86,
+      "end": 162.86
+    },
+    {
+      "word": "this",
+      "start": 162.86,
+      "end": 162.94
+    },
+    {
+      "word": "burn",
+      "start": 162.94,
+      "end": 163.22
+    },
+    {
+      "word": "is",
+      "start": 163.22,
+      "end": 163.44
+    },
+    {
+      "word": "old,",
+      "start": 163.44,
+      "end": 163.66
+    },
+    {
+      "word": "this",
+      "start": 164.26,
+      "end": 168.0
+    },
+    {
+      "word": "burn",
+      "start": 168.0,
+      "end": 168.46
+    },
+    {
+      "word": "is",
+      "start": 168.46,
+      "end": 168.8
+    },
+    {
+      "word": "old",
+      "start": 168.8,
+      "end": 169.1
+    },
+    {
+      "word": "you",
+      "start": 170.46,
+      "end": 170.9
+    },
+    {
+      "word": "live",
+      "start": 170.9,
+      "end": 171.72
+    },
+    {
+      "word": "in",
+      "start": 171.72,
+      "end": 172.14
+    },
+    {
+      "word": "my",
+      "start": 172.14,
+      "end": 172.42
+    },
+    {
+      "word": "bones,",
+      "start": 172.42,
+      "end": 173.14
+    },
+    {
+      "word": "you",
+      "start": 173.84,
+      "end": 174.16
+    },
+    {
+      "word": "stay",
+      "start": 174.16,
+      "end": 174.62
+    },
+    {
+      "word": "when",
+      "start": 174.62,
+      "end": 175.36
+    },
+    {
+      "word": "I",
+      "start": 175.36,
+      "end": 175.84
+    },
+    {
+      "word": "go",
+      "start": 175.84,
+      "end": 176.44
+    },
+    {
+      "word": "if",
+      "start": 178.5,
+      "end": 179.38
+    },
+    {
+      "word": "I",
+      "start": 179.38,
+      "end": 179.62
+    },
+    {
+      "word": "across",
+      "start": 179.62,
+      "end": 179.9
+    },
+    {
+      "word": "to",
+      "start": 179.9,
+      "end": 180.46
+    },
+    {
+      "word": "see",
+      "start": 180.46,
+      "end": 180.8
+    },
+    {
+      "word": "you",
+      "start": 180.8,
+      "end": 181.2
+    },
+    {
+      "word": "cross",
+      "start": 181.2,
+      "end": 181.6
+    },
+    {
+      "word": "with",
+      "start": 181.6,
+      "end": 182.1
+    },
+    {
+      "word": "me",
+      "start": 182.1,
+      "end": 182.6
+    },
+    {
+      "word": "in",
+      "start": 182.6,
+      "end": 183.32
+    },
+    {
+      "word": "salt",
+      "start": 183.32,
+      "end": 183.68
+    },
+    {
+      "word": "and",
+      "start": 183.68,
+      "end": 184.08
+    },
+    {
+      "word": "fear",
+      "start": 184.08,
+      "end": 184.34
+    },
+    {
+      "word": "and",
+      "start": 184.34,
+      "end": 184.82
+    },
+    {
+      "word": "memo",
+      "start": 184.82,
+      "end": 185.42
+    },
+    {
+      "word": "read",
+      "start": 185.42,
+      "end": 186.16
+    },
+    {
+      "word": "no",
+      "start": 186.16,
+      "end": 186.88
+    },
+    {
+      "word": "map,",
+      "start": 186.88,
+      "end": 187.32
+    },
+    {
+      "word": "confold",
+      "start": 187.6,
+      "end": 188.04
+    },
+    {
+      "word": "what",
+      "start": 188.04,
+      "end": 188.38
+    },
+    {
+      "word": "you",
+      "start": 188.38,
+      "end": 188.78
+    },
+    {
+      "word": "made",
+      "start": 188.78,
+      "end": 189.04
+    },
+    {
+      "word": "of",
+      "start": 189.04,
+      "end": 189.34
+    },
+    {
+      "word": "me",
+      "start": 189.34,
+      "end": 189.78
+    },
+    {
+      "word": "a",
+      "start": 189.78,
+      "end": 190.62
+    },
+    {
+      "word": "city",
+      "start": 190.62,
+      "end": 191.04
+    },
+    {
+      "word": "in",
+      "start": 191.04,
+      "end": 191.44
+    },
+    {
+      "word": "my",
+      "start": 191.44,
+      "end": 191.56
+    },
+    {
+      "word": "chest",
+      "start": 191.56,
+      "end": 191.82
+    },
+    {
+      "word": "that",
+      "start": 191.82,
+      "end": 192.34
+    },
+    {
+      "word": "will",
+      "start": 192.34,
+      "end": 192.68
+    },
+    {
+      "word": "not",
+      "start": 192.68,
+      "end": 193.02
+    },
+    {
+      "word": "leave",
+      "start": 193.02,
+      "end": 194.32
+    },
+    {
+      "word": "this",
+      "start": 196.73,
+      "end": 197.2
+    },
+    {
+      "word": "burn",
+      "start": 197.2,
+      "end": 197.46
+    },
+    {
+      "word": "is",
+      "start": 197.46,
+      "end": 197.76
+    },
+    {
+      "word": "old",
+      "start": 197.76,
+      "end": 197.98
+    },
+    {
+      "word": "beautiful",
+      "start": 203.58,
+      "end": 204.52
+    },
+    {
+      "word": "blue",
+      "start": 204.52,
+      "end": 205.46
+    },
+    {
+      "word": "and",
+      "start": 205.46,
+      "end": 206.66
+    },
+    {
+      "word": "it",
+      "start": 206.66,
+      "end": 206.88
+    },
+    {
+      "word": "follows",
+      "start": 206.88,
+      "end": 207.46
+    },
+    {
+      "word": "me",
+      "start": 207.46,
+      "end": 208.42
+    },
+    {
+      "word": "home",
+      "start": 208.42,
+      "end": 209.32
+    },
+    {
+      "word": "this",
+      "start": 209.32,
+      "end": 210.0
+    },
+    {
+      "word": "burn",
+      "start": 210.0,
+      "end": 210.16
+    },
+    {
+      "word": "is",
+      "start": 210.16,
+      "end": 215.78
+    },
+    {
+      "word": "old",
+      "start": 215.78,
+      "end": 216.08
+    },
+    {
+      "word": "you",
+      "start": 216.08,
+      "end": 218.3
+    },
+    {
+      "word": "live",
+      "start": 218.3,
+      "end": 218.8
+    },
+    {
+      "word": "in",
+      "start": 218.8,
+      "end": 219.16
+    },
+    {
+      "word": "my",
+      "start": 219.16,
+      "end": 219.42
+    },
+    {
+      "word": "bones,",
+      "start": 219.42,
+      "end": 220.08
+    },
+    {
+      "word": "you",
+      "start": 220.92,
+      "end": 221.54
+    },
+    {
+      "word": "stay",
+      "start": 221.54,
+      "end": 222.3
+    },
+    {
+      "word": "when",
+      "start": 222.3,
+      "end": 224.92
+    },
+    {
+      "word": "I",
+      "start": 224.92,
+      "end": 225.3
+    },
+    {
+      "word": "go",
+      "start": 225.3,
+      "end": 225.8
+    }
+  ],
+  "duration": 0
+}

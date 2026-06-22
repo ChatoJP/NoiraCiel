@@ -51,7 +51,7 @@ export default function WorldSection() {
       {/* ── Full-bleed pull quote ── */}
       <div
         ref={quoteRef}
-        className="reveal py-32 px-6 flex items-center justify-center text-center relative"
+        className="reveal py-16 md:py-24 lg:py-32 px-6 flex items-center justify-center text-center relative"
         style={{
           background: 'linear-gradient(135deg, rgba(27,58,75,0.12) 0%, transparent 60%)',
         }}
@@ -59,7 +59,7 @@ export default function WorldSection() {
         {/* Background image faint */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/Images/gallery/the-atlantic-at-night.jpg"
+          src="https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/gallery/the-atlantic-at-night.jpg"
           alt=""
           aria-hidden
           className="absolute inset-0 w-full h-full object-cover pointer-events-none"
@@ -74,18 +74,18 @@ export default function WorldSection() {
             <div className="w-12 h-px bg-noir-gold/30" />
           </div>
           <blockquote className="font-heading italic font-light text-[clamp(1.8rem,5vw,4rem)] text-noir-ivory/85 leading-[1.2] tracking-wide">
-            "Not fado. Not jazz. Not trip-hop.<br />
-            Something older. Something new."
+            "Not a genre. Not a medium.<br />
+            Art in its truest form — a way of living."
           </blockquote>
           <p className="font-body text-xs tracking-[0.35em] text-noir-silver/30 uppercase mt-8">NoiraCiel</p>
         </div>
       </div>
 
       {/* ── Main content ── */}
-      <div className="py-24 px-6 relative">
+      <div className="py-12 md:py-20 lg:py-24 px-6 relative">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/Images/backgrounds/world.jpg"
+          src="https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/backgrounds/world.jpg"
           alt=""
           aria-hidden
           className="absolute inset-0 w-full h-full object-cover pointer-events-none"
@@ -136,12 +136,23 @@ export default function WorldSection() {
                   <div key={theme.title} className="relative pl-6 py-1">
                     <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-noir-gold/50 via-noir-gold/20 to-transparent" />
                     <div className="flex items-center gap-3 mb-3">
-                      <span className="font-heading text-xl text-noir-gold/40 w-5 leading-none">{theme.symbol}</span>
+                      <span className="font-heading text-xl text-noir-gold/40 w-5 leading-none" aria-hidden="true">{theme.symbol}</span>
                       <h3 className="font-heading text-xl text-noir-ivory/90 tracking-wide">{theme.title}</h3>
                     </div>
                     <p className="font-body text-sm text-noir-silver/55 leading-relaxed">{theme.text}</p>
                   </div>
                 ))}
+              </div>
+              <div className="mt-10">
+                <a
+                  href="#biography"
+                  className="inline-flex items-center gap-2 font-body text-xs tracking-[0.2em] uppercase text-noir-gold/60 hover:text-noir-gold border-b border-noir-gold/20 hover:border-noir-gold/40 pb-0.5 transition-all duration-300"
+                >
+                  Read the full story
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

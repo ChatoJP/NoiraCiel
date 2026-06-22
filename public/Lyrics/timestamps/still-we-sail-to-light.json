@@ -1,0 +1,861 @@
+{
+  "title": "Still We Sail (To Light)",
+  "words": [
+    {
+      "word": "We",
+      "start": 22.6,
+      "end": 24.0
+    },
+    {
+      "word": "We",
+      "start": 28.74,
+      "end": 29.58
+    },
+    {
+      "word": "left",
+      "start": 29.58,
+      "end": 29.82
+    },
+    {
+      "word": "with",
+      "start": 29.82,
+      "end": 30.02
+    },
+    {
+      "word": "salt",
+      "start": 30.02,
+      "end": 30.42
+    },
+    {
+      "word": "on",
+      "start": 30.42,
+      "end": 30.84
+    },
+    {
+      "word": "sleeves",
+      "start": 30.84,
+      "end": 31.24
+    },
+    {
+      "word": "and",
+      "start": 31.24,
+      "end": 33.3
+    },
+    {
+      "word": "names",
+      "start": 33.3,
+      "end": 33.56
+    },
+    {
+      "word": "we",
+      "start": 33.56,
+      "end": 33.8
+    },
+    {
+      "word": "would",
+      "start": 33.8,
+      "end": 34.04
+    },
+    {
+      "word": "not",
+      "start": 34.04,
+      "end": 34.3
+    },
+    {
+      "word": "say",
+      "start": 34.3,
+      "end": 34.88
+    },
+    {
+      "word": "The",
+      "start": 36.12,
+      "end": 36.96
+    },
+    {
+      "word": "shock",
+      "start": 36.96,
+      "end": 37.22
+    },
+    {
+      "word": "kept",
+      "start": 37.22,
+      "end": 37.44
+    },
+    {
+      "word": "shrinking",
+      "start": 37.44,
+      "end": 37.8
+    },
+    {
+      "word": "back",
+      "start": 37.8,
+      "end": 38.74
+    },
+    {
+      "word": "like",
+      "start": 38.74,
+      "end": 39.6
+    },
+    {
+      "word": "it",
+      "start": 39.6,
+      "end": 39.88
+    },
+    {
+      "word": "knew",
+      "start": 39.88,
+      "end": 40.3
+    },
+    {
+      "word": "the",
+      "start": 40.3,
+      "end": 41.12
+    },
+    {
+      "word": "price",
+      "start": 41.12,
+      "end": 41.48
+    },
+    {
+      "word": "of",
+      "start": 41.48,
+      "end": 41.88
+    },
+    {
+      "word": "stay",
+      "start": 41.88,
+      "end": 42.26
+    },
+    {
+      "word": "I",
+      "start": 43.6,
+      "end": 44.44
+    },
+    {
+      "word": "packed",
+      "start": 44.44,
+      "end": 45.1
+    },
+    {
+      "word": "your",
+      "start": 45.1,
+      "end": 45.64
+    },
+    {
+      "word": "photograph",
+      "start": 45.64,
+      "end": 47.1
+    },
+    {
+      "word": "inside",
+      "start": 47.1,
+      "end": 48.18
+    },
+    {
+      "word": "my",
+      "start": 48.18,
+      "end": 48.78
+    },
+    {
+      "word": "coat",
+      "start": 48.78,
+      "end": 49.2
+    },
+    {
+      "word": "of",
+      "start": 49.2,
+      "end": 49.62
+    },
+    {
+      "word": "rain",
+      "start": 49.62,
+      "end": 50.12
+    },
+    {
+      "word": "And",
+      "start": 51.82,
+      "end": 52.78
+    },
+    {
+      "word": "all",
+      "start": 52.78,
+      "end": 53.06
+    },
+    {
+      "word": "the",
+      "start": 53.06,
+      "end": 53.22
+    },
+    {
+      "word": "miles",
+      "start": 53.22,
+      "end": 53.8
+    },
+    {
+      "word": "did",
+      "start": 53.8,
+      "end": 54.16
+    },
+    {
+      "word": "not",
+      "start": 54.16,
+      "end": 54.42
+    },
+    {
+      "word": "erase",
+      "start": 54.42,
+      "end": 55.36
+    },
+    {
+      "word": "the",
+      "start": 55.36,
+      "end": 56.42
+    },
+    {
+      "word": "hands",
+      "start": 56.42,
+      "end": 56.72
+    },
+    {
+      "word": "we",
+      "start": 56.72,
+      "end": 56.92
+    },
+    {
+      "word": "lost",
+      "start": 56.92,
+      "end": 57.24
+    },
+    {
+      "word": "the",
+      "start": 57.24,
+      "end": 57.82
+    },
+    {
+      "word": "rooms",
+      "start": 57.82,
+      "end": 58.22
+    },
+    {
+      "word": "we",
+      "start": 58.22,
+      "end": 58.7
+    },
+    {
+      "word": "prayed",
+      "start": 58.7,
+      "end": 59.28
+    },
+    {
+      "word": "Still",
+      "start": 60.88,
+      "end": 61.84
+    },
+    {
+      "word": "we",
+      "start": 61.84,
+      "end": 62.28
+    },
+    {
+      "word": "sailed",
+      "start": 62.28,
+      "end": 62.82
+    },
+    {
+      "word": "through",
+      "start": 62.82,
+      "end": 63.86
+    },
+    {
+      "word": "the",
+      "start": 63.86,
+      "end": 64.34
+    },
+    {
+      "word": "ink",
+      "start": 64.34,
+      "end": 64.84
+    },
+    {
+      "word": "Still",
+      "start": 64.84,
+      "end": 65.48
+    },
+    {
+      "word": "we",
+      "start": 65.48,
+      "end": 65.96
+    },
+    {
+      "word": "sailed",
+      "start": 65.96,
+      "end": 66.42
+    },
+    {
+      "word": "with",
+      "start": 66.42,
+      "end": 66.88
+    },
+    {
+      "word": "the",
+      "start": 66.88,
+      "end": 67.04
+    },
+    {
+      "word": "broken",
+      "start": 67.04,
+      "end": 67.46
+    },
+    {
+      "word": "way",
+      "start": 67.46,
+      "end": 68.36
+    },
+    {
+      "word": "Lost",
+      "start": 69.12,
+      "end": 69.72
+    },
+    {
+      "word": "stakes",
+      "start": 69.72,
+      "end": 70.22
+    },
+    {
+      "word": "in",
+      "start": 70.22,
+      "end": 71.28
+    },
+    {
+      "word": "the",
+      "start": 71.28,
+      "end": 71.66
+    },
+    {
+      "word": "skin",
+      "start": 71.66,
+      "end": 71.96
+    },
+    {
+      "word": "Still",
+      "start": 71.96,
+      "end": 72.78
+    },
+    {
+      "word": "we",
+      "start": 72.78,
+      "end": 73.36
+    },
+    {
+      "word": "sailed",
+      "start": 73.36,
+      "end": 73.78
+    },
+    {
+      "word": "to",
+      "start": 73.78,
+      "end": 74.26
+    },
+    {
+      "word": "the",
+      "start": 74.26,
+      "end": 74.44
+    },
+    {
+      "word": "light",
+      "start": 74.44,
+      "end": 74.96
+    },
+    {
+      "word": "within",
+      "start": 74.96,
+      "end": 75.28
+    },
+    {
+      "word": "The",
+      "start": 89.46,
+      "end": 90.58
+    },
+    {
+      "word": "border",
+      "start": 90.58,
+      "end": 90.96
+    },
+    {
+      "word": "ate",
+      "start": 90.96,
+      "end": 91.38
+    },
+    {
+      "word": "our",
+      "start": 91.38,
+      "end": 91.62
+    },
+    {
+      "word": "hours",
+      "start": 91.62,
+      "end": 92.88
+    },
+    {
+      "word": "The",
+      "start": 92.88,
+      "end": 94.26
+    },
+    {
+      "word": "roof",
+      "start": 94.26,
+      "end": 94.54
+    },
+    {
+      "word": "kept",
+      "start": 94.54,
+      "end": 94.74
+    },
+    {
+      "word": "asking",
+      "start": 94.74,
+      "end": 95.4
+    },
+    {
+      "word": "why",
+      "start": 95.4,
+      "end": 95.96
+    },
+    {
+      "word": "We",
+      "start": 97.12,
+      "end": 97.92
+    },
+    {
+      "word": "learned",
+      "start": 97.92,
+      "end": 98.16
+    },
+    {
+      "word": "to",
+      "start": 98.16,
+      "end": 98.44
+    },
+    {
+      "word": "walk",
+      "start": 98.44,
+      "end": 98.74
+    },
+    {
+      "word": "with",
+      "start": 98.74,
+      "end": 99.02
+    },
+    {
+      "word": "ghosts",
+      "start": 99.02,
+      "end": 99.64
+    },
+    {
+      "word": "and",
+      "start": 99.64,
+      "end": 100.64
+    },
+    {
+      "word": "keep",
+      "start": 100.64,
+      "end": 101.28
+    },
+    {
+      "word": "the",
+      "start": 101.28,
+      "end": 102.14
+    },
+    {
+      "word": "lantern",
+      "start": 102.14,
+      "end": 102.5
+    },
+    {
+      "word": "dry",
+      "start": 102.5,
+      "end": 103.56
+    },
+    {
+      "word": "Your",
+      "start": 104.56,
+      "end": 105.4
+    },
+    {
+      "word": "laughter",
+      "start": 105.4,
+      "end": 106.18
+    },
+    {
+      "word": "in",
+      "start": 106.18,
+      "end": 106.94
+    },
+    {
+      "word": "the",
+      "start": 106.94,
+      "end": 107.64
+    },
+    {
+      "word": "dark",
+      "start": 107.64,
+      "end": 108.24
+    },
+    {
+      "word": "was",
+      "start": 108.24,
+      "end": 108.98
+    },
+    {
+      "word": "bred",
+      "start": 108.98,
+      "end": 109.28
+    },
+    {
+      "word": "I",
+      "start": 109.28,
+      "end": 109.62
+    },
+    {
+      "word": "could",
+      "start": 109.62,
+      "end": 110.0
+    },
+    {
+      "word": "not",
+      "start": 110.0,
+      "end": 110.48
+    },
+    {
+      "word": "buy",
+      "start": 110.48,
+      "end": 110.98
+    },
+    {
+      "word": "To",
+      "start": 112.52,
+      "end": 113.52
+    },
+    {
+      "word": "let",
+      "start": 113.52,
+      "end": 113.84
+    },
+    {
+      "word": "the",
+      "start": 113.84,
+      "end": 114.04
+    },
+    {
+      "word": "wind",
+      "start": 114.04,
+      "end": 114.34
+    },
+    {
+      "word": "keep",
+      "start": 114.34,
+      "end": 114.98
+    },
+    {
+      "word": "every",
+      "start": 114.98,
+      "end": 115.82
+    },
+    {
+      "word": "scar",
+      "start": 115.82,
+      "end": 116.18
+    },
+    {
+      "word": "We",
+      "start": 116.18,
+      "end": 117.26
+    },
+    {
+      "word": "are",
+      "start": 117.26,
+      "end": 117.52
+    },
+    {
+      "word": "not",
+      "start": 117.52,
+      "end": 117.72
+    },
+    {
+      "word": "whole,",
+      "start": 117.72,
+      "end": 118.08
+    },
+    {
+      "word": "but",
+      "start": 118.08,
+      "end": 118.7
+    },
+    {
+      "word": "here",
+      "start": 118.7,
+      "end": 119.08
+    },
+    {
+      "word": "we",
+      "start": 119.08,
+      "end": 119.58
+    },
+    {
+      "word": "are",
+      "start": 119.58,
+      "end": 120.02
+    },
+    {
+      "word": "Still",
+      "start": 121.5,
+      "end": 122.5
+    },
+    {
+      "word": "we",
+      "start": 122.5,
+      "end": 123.1
+    },
+    {
+      "word": "sailed",
+      "start": 123.1,
+      "end": 123.58
+    },
+    {
+      "word": "through",
+      "start": 123.58,
+      "end": 124.62
+    },
+    {
+      "word": "the",
+      "start": 124.62,
+      "end": 125.16
+    },
+    {
+      "word": "ink",
+      "start": 125.16,
+      "end": 125.64
+    },
+    {
+      "word": "Still",
+      "start": 125.64,
+      "end": 126.18
+    },
+    {
+      "word": "we",
+      "start": 126.18,
+      "end": 126.78
+    },
+    {
+      "word": "sailed",
+      "start": 126.78,
+      "end": 127.18
+    },
+    {
+      "word": "with",
+      "start": 127.18,
+      "end": 127.68
+    },
+    {
+      "word": "the",
+      "start": 127.68,
+      "end": 127.84
+    },
+    {
+      "word": "broken",
+      "start": 127.84,
+      "end": 128.24
+    },
+    {
+      "word": "way",
+      "start": 128.24,
+      "end": 129.02
+    },
+    {
+      "word": "Lost",
+      "start": 130.02,
+      "end": 130.66
+    },
+    {
+      "word": "stakes",
+      "start": 130.66,
+      "end": 130.98
+    },
+    {
+      "word": "in",
+      "start": 130.98,
+      "end": 132.1
+    },
+    {
+      "word": "the",
+      "start": 132.1,
+      "end": 132.46
+    },
+    {
+      "word": "skin",
+      "start": 132.46,
+      "end": 132.72
+    },
+    {
+      "word": "Still",
+      "start": 132.72,
+      "end": 133.64
+    },
+    {
+      "word": "we",
+      "start": 133.64,
+      "end": 134.1
+    },
+    {
+      "word": "sailed",
+      "start": 134.1,
+      "end": 134.56
+    },
+    {
+      "word": "to",
+      "start": 134.56,
+      "end": 135.04
+    },
+    {
+      "word": "the",
+      "start": 135.04,
+      "end": 135.22
+    },
+    {
+      "word": "light",
+      "start": 135.22,
+      "end": 135.64
+    },
+    {
+      "word": "within",
+      "start": 135.64,
+      "end": 137.02
+    },
+    {
+      "word": "Still",
+      "start": 140.64,
+      "end": 142.04
+    },
+    {
+      "word": "we",
+      "start": 142.04,
+      "end": 142.14
+    },
+    {
+      "word": "sailed",
+      "start": 142.14,
+      "end": 142.2
+    },
+    {
+      "word": "through",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "the",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "ink",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "Still",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "we",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "sailed",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "through",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "the",
+      "start": 142.2,
+      "end": 142.2
+    },
+    {
+      "word": "ink",
+      "start": 142.2,
+      "end": 163.02
+    },
+    {
+      "word": "Still",
+      "start": 179.82,
+      "end": 181.22
+    },
+    {
+      "word": "we",
+      "start": 181.22,
+      "end": 181.66
+    },
+    {
+      "word": "sailed",
+      "start": 181.66,
+      "end": 182.1
+    },
+    {
+      "word": "with",
+      "start": 182.1,
+      "end": 183.18
+    },
+    {
+      "word": "the",
+      "start": 183.18,
+      "end": 193.0
+    },
+    {
+      "word": "broken",
+      "start": 193.0,
+      "end": 193.0
+    },
+    {
+      "word": "way",
+      "start": 193.0,
+      "end": 193.0
+    },
+    {
+      "word": "Still",
+      "start": 193.0,
+      "end": 193.1
+    },
+    {
+      "word": "we",
+      "start": 193.1,
+      "end": 193.1
+    },
+    {
+      "word": "sailed",
+      "start": 193.1,
+      "end": 216.3
+    },
+    {
+      "word": "through",
+      "start": 216.3,
+      "end": 216.3
+    },
+    {
+      "word": "the",
+      "start": 216.3,
+      "end": 216.3
+    },
+    {
+      "word": "ink",
+      "start": 216.3,
+      "end": 216.3
+    }
+  ],
+  "duration": 0
+}

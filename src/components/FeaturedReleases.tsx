@@ -1,8 +1,19 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useAudio } from '@/context/AudioContext'
 import type { Track, MusicCatalogue } from '@/lib/types'
+
+function useReveal() {
+  const ref = useRef<HTMLElement>(null)
+  useEffect(() => {
+    const el = ref.current; if (!el) return
+    const obs = new IntersectionObserver(([e]) => { if (e.isIntersecting) { el.classList.add('visible'); obs.disconnect() } }, { threshold: 0.12 })
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [])
+  return ref
+}
 
 function FeaturedTrack({ track, playlist, label }: { track: Track; playlist: Track[]; label: string }) {
   const { currentTrack, isPlaying, play, toggle } = useAudio()
@@ -56,9 +67,18 @@ function FeaturedTrack({ track, playlist, label }: { track: Track; playlist: Tra
           </span>
         </div>
 
-        {/* Track number corner */}
-        <div className="absolute bottom-3 right-3 opacity-40 group-hover:opacity-70 transition-opacity">
-          <span className="font-heading text-3xl text-noir-ivory/30 tabular-nums select-none">
+        {/* Duration badge — appears on hover (#25) */}
+        {track.durationFormatted && (
+          <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span className="font-body text-[8px] tracking-[0.2em] text-noir-ivory/70 bg-noir-void/70 border border-noir-silver/15 px-2 py-0.5 backdrop-blur-sm">
+              {track.durationFormatted}
+            </span>
+          </div>
+        )}
+
+        {/* Track number corner — gold (#28) */}
+        <div className="absolute bottom-3 right-3 opacity-30 group-hover:opacity-60 transition-opacity">
+          <span className="font-heading text-3xl text-noir-gold/25 tabular-nums select-none">
             {String(track.trackNumber ?? 0).padStart(2, '0')}
           </span>
         </div>
@@ -68,13 +88,19 @@ function FeaturedTrack({ track, playlist, label }: { track: Track; playlist: Tra
       <div className="h-px bg-gradient-to-r from-transparent via-noir-gold/30 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
 
       {/* Info */}
-      <div className="p-5 bg-noir-deep/50">
-        <p className={`font-heading text-xl leading-tight ${isCurrent ? 'text-noir-gold' : 'text-noir-ivory'} transition-colors mb-1`}>
+      <div className="p-5 border-t border-noir-silver/10">
+        <p className={`font-heading text-xl leading-tight ${isCurrent ? 'text-noir-gold' : 'text-noir-ivory group-hover:text-noir-gold'} transition-colors mb-1`}>
           {track.title}
         </p>
-        <p className="font-body text-xs text-noir-silver/35 tracking-wide">
+        <p className="font-body text-xs text-noir-silver/45 tracking-wide">
           {track.artist || 'NoiraCiel'} · {track.durationFormatted}
         </p>
+        {isCurrent && isPlaying && (
+          <p className="font-body text-[9px] tracking-[0.2em] uppercase text-noir-gold/60 mt-2 flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-noir-gold animate-pulse-gold" />
+            Now playing
+          </p>
+        )}
       </div>
     </div>
   )
@@ -82,6 +108,7 @@ function FeaturedTrack({ track, playlist, label }: { track: Track; playlist: Tra
 
 export default function FeaturedReleases() {
   const [catalogue, setCatalogue] = useState<MusicCatalogue | null>(null)
+  const sectionRef = useReveal() as React.RefObject<HTMLElement>
 
   useEffect(() => {
     fetch('/api/music')
@@ -102,17 +129,17 @@ export default function FeaturedReleases() {
   if (last && last.id !== tracks[0]?.id && last.id !== tracks[mid]?.id) featured.push({ track: last, label: 'Closing Track' })
 
   return (
-    <section className="py-28 px-6 bg-gradient-to-b from-noir-black to-noir-deep/40">
+    <section className="py-28 px-6 bg-gradient-to-b from-noir-black to-noir-deep/40 section-gold-top">
       <div className="max-w-5xl mx-auto">
         <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
-            <p className="font-body text-[9px] tracking-[0.5em] text-noir-gold/55 uppercase mb-3">Highlights</p>
-            <h2 className="font-heading text-5xl md:text-7xl text-noir-ivory font-light tracking-wide">
+            <p className="font-body text-[9px] tracking-[0.6em] text-noir-gold/65 uppercase mb-3">Highlights</p>
+            <h2 className="font-heading text-5xl md:text-8xl text-noir-ivory font-light tracking-wide section-reveal">
               Featured
             </h2>
           </div>
-          <p className="font-body text-xs text-noir-silver/30 max-w-xs leading-relaxed italic font-heading">
-            "Not fado. Not jazz. Not trip-hop.<br />Something older. Something new."
+          <p className="font-body text-xs text-noir-silver/50 max-w-xs leading-relaxed italic font-heading">
+            "Not a genre. Not a medium.<br />Art in its truest form — a way of living."
           </p>
         </div>
 
@@ -123,17 +150,17 @@ export default function FeaturedReleases() {
         </div>
 
         <div className="mt-14 flex items-center justify-center gap-6">
-          <div className="w-16 h-px bg-noir-gold/20" />
+          <div className="w-24 h-px bg-noir-gold/20" />
           <a
-            href="#music"
-            className="inline-flex items-center gap-3 font-body text-xs tracking-[0.2em] uppercase text-noir-silver/50 hover:text-noir-ivory transition-colors duration-300"
+            href="/music"
+            className="inline-flex items-center gap-3 font-body text-xs tracking-[0.25em] uppercase text-noir-gold/70 hover:text-noir-gold transition-colors duration-300 border-b border-noir-gold/20 hover:border-noir-gold/50 pb-0.5"
           >
-            View all {tracks.length} tracks
+            View all {tracks.length} tracks &amp; albums
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-          <div className="w-16 h-px bg-noir-gold/20" />
+          <div className="w-24 h-px bg-noir-gold/20" />
         </div>
       </div>
     </section>

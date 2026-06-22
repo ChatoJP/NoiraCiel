@@ -1,0 +1,2383 @@
+{
+  "title": "Noiraciel - Saint of the Damned",
+  "slug": "noiraciel-saint-of-the-damned",
+  "trackNumber": null,
+  "duration": 344.4,
+  "words": [
+    {
+      "word": "This",
+      "start": 4.62,
+      "end": 6.02
+    },
+    {
+      "word": "is",
+      "start": 6.02,
+      "end": 6.74
+    },
+    {
+      "word": "the",
+      "start": 6.74,
+      "end": 7.36
+    },
+    {
+      "word": "smoke.",
+      "start": 7.36,
+      "end": 7.78
+    },
+    {
+      "word": "Blood",
+      "start": 11.42,
+      "end": 12.82
+    },
+    {
+      "word": "on",
+      "start": 12.82,
+      "end": 13.56
+    },
+    {
+      "word": "the",
+      "start": 13.56,
+      "end": 14.14
+    },
+    {
+      "word": "stone.",
+      "start": 14.14,
+      "end": 14.62
+    },
+    {
+      "word": "I",
+      "start": 18.52,
+      "end": 19.92
+    },
+    {
+      "word": "heard",
+      "start": 19.92,
+      "end": 20.48
+    },
+    {
+      "word": "the",
+      "start": 20.48,
+      "end": 21.04
+    },
+    {
+      "word": "dead.",
+      "start": 21.04,
+      "end": 21.92
+    },
+    {
+      "word": "Call",
+      "start": 22.7,
+      "end": 23.12
+    },
+    {
+      "word": "me",
+      "start": 23.12,
+      "end": 23.74
+    },
+    {
+      "word": "their",
+      "start": 23.74,
+      "end": 24.32
+    },
+    {
+      "word": "own.",
+      "start": 24.32,
+      "end": 25.2
+    },
+    {
+      "word": "The",
+      "start": 44.5,
+      "end": 45.52
+    },
+    {
+      "word": "organ",
+      "start": 45.52,
+      "end": 45.86
+    },
+    {
+      "word": "brought",
+      "start": 45.86,
+      "end": 46.1
+    },
+    {
+      "word": "through",
+      "start": 46.1,
+      "end": 46.6
+    },
+    {
+      "word": "fractured",
+      "start": 46.6,
+      "end": 47.06
+    },
+    {
+      "word": "glass.",
+      "start": 47.06,
+      "end": 47.74
+    },
+    {
+      "word": "As",
+      "start": 48.58,
+      "end": 48.88
+    },
+    {
+      "word": "blackened",
+      "start": 48.88,
+      "end": 49.32
+    },
+    {
+      "word": "banners",
+      "start": 49.32,
+      "end": 49.58
+    },
+    {
+      "word": "rose",
+      "start": 49.58,
+      "end": 50.2
+    },
+    {
+      "word": "at",
+      "start": 50.2,
+      "end": 50.72
+    },
+    {
+      "word": "last.",
+      "start": 50.72,
+      "end": 51.26
+    },
+    {
+      "word": "Cathedral's",
+      "start": 51.26,
+      "end": 52.82
+    },
+    {
+      "word": "bent",
+      "start": 52.82,
+      "end": 53.02
+    },
+    {
+      "word": "beneath",
+      "start": 53.02,
+      "end": 53.66
+    },
+    {
+      "word": "the",
+      "start": 53.66,
+      "end": 54.06
+    },
+    {
+      "word": "sound",
+      "start": 54.06,
+      "end": 54.76
+    },
+    {
+      "word": "of",
+      "start": 54.76,
+      "end": 55.32
+    },
+    {
+      "word": "iron",
+      "start": 55.32,
+      "end": 55.72
+    },
+    {
+      "word": "wings",
+      "start": 55.72,
+      "end": 56.24
+    },
+    {
+      "word": "above",
+      "start": 56.24,
+      "end": 56.98
+    },
+    {
+      "word": "the",
+      "start": 56.98,
+      "end": 57.54
+    },
+    {
+      "word": "ground",
+      "start": 57.54,
+      "end": 58.14
+    },
+    {
+      "word": "The",
+      "start": 58.14,
+      "end": 59.16
+    },
+    {
+      "word": "firelands",
+      "start": 59.16,
+      "end": 59.94
+    },
+    {
+      "word": "were",
+      "start": 59.94,
+      "end": 60.24
+    },
+    {
+      "word": "blades",
+      "start": 60.24,
+      "end": 60.5
+    },
+    {
+      "word": "of",
+      "start": 60.5,
+      "end": 60.94
+    },
+    {
+      "word": "grief",
+      "start": 60.94,
+      "end": 61.46
+    },
+    {
+      "word": "The",
+      "start": 62.1,
+      "end": 62.58
+    },
+    {
+      "word": "shadows",
+      "start": 62.58,
+      "end": 62.94
+    },
+    {
+      "word": "dragged",
+      "start": 62.94,
+      "end": 63.2
+    },
+    {
+      "word": "the",
+      "start": 63.2,
+      "end": 63.68
+    },
+    {
+      "word": "world",
+      "start": 63.68,
+      "end": 64.02
+    },
+    {
+      "word": "beneath",
+      "start": 64.02,
+      "end": 64.54
+    },
+    {
+      "word": "Low",
+      "start": 65.06,
+      "end": 65.54
+    },
+    {
+      "word": "horns",
+      "start": 65.54,
+      "end": 66.02
+    },
+    {
+      "word": "rolled",
+      "start": 66.02,
+      "end": 66.28
+    },
+    {
+      "word": "out",
+      "start": 66.28,
+      "end": 66.54
+    },
+    {
+      "word": "like",
+      "start": 66.54,
+      "end": 67.0
+    },
+    {
+      "word": "coming",
+      "start": 67.0,
+      "end": 67.8
+    },
+    {
+      "word": "war",
+      "start": 67.8,
+      "end": 68.42
+    },
+    {
+      "word": "And",
+      "start": 68.42,
+      "end": 69.1
+    },
+    {
+      "word": "every",
+      "start": 69.1,
+      "end": 69.5
+    },
+    {
+      "word": "gate",
+      "start": 69.5,
+      "end": 69.94
+    },
+    {
+      "word": "became",
+      "start": 69.94,
+      "end": 70.36
+    },
+    {
+      "word": "a",
+      "start": 70.36,
+      "end": 71.28
+    },
+    {
+      "word": "door",
+      "start": 71.28,
+      "end": 71.76
+    },
+    {
+      "word": "No",
+      "start": 71.76,
+      "end": 72.88
+    },
+    {
+      "word": "blessing",
+      "start": 72.88,
+      "end": 73.22
+    },
+    {
+      "word": "left,",
+      "start": 73.22,
+      "end": 73.52
+    },
+    {
+      "word": "no",
+      "start": 74.86,
+      "end": 74.86
+    },
+    {
+      "word": "throne",
+      "start": 74.86,
+      "end": 74.86
+    },
+    {
+      "word": "above,",
+      "start": 74.86,
+      "end": 75.14
+    },
+    {
+      "word": "no",
+      "start": 76.04,
+      "end": 76.32
+    },
+    {
+      "word": "holy",
+      "start": 76.32,
+      "end": 76.64
+    },
+    {
+      "word": "law",
+      "start": 76.64,
+      "end": 77.02
+    },
+    {
+      "word": "No",
+      "start": 77.02,
+      "end": 78.0
+    },
+    {
+      "word": "sacred",
+      "start": 78.0,
+      "end": 78.36
+    },
+    {
+      "word": "blood",
+      "start": 78.36,
+      "end": 78.72
+    },
+    {
+      "word": "Only",
+      "start": 78.72,
+      "end": 79.86
+    },
+    {
+      "word": "the",
+      "start": 79.86,
+      "end": 80.12
+    },
+    {
+      "word": "choir,",
+      "start": 80.12,
+      "end": 80.44
+    },
+    {
+      "word": "only",
+      "start": 81.08,
+      "end": 81.46
+    },
+    {
+      "word": "the",
+      "start": 81.46,
+      "end": 81.82
+    },
+    {
+      "word": "scar,",
+      "start": 81.82,
+      "end": 82.1
+    },
+    {
+      "word": "only",
+      "start": 82.74,
+      "end": 83.08
+    },
+    {
+      "word": "the",
+      "start": 83.08,
+      "end": 83.56
+    },
+    {
+      "word": "name",
+      "start": 83.56,
+      "end": 83.82
+    },
+    {
+      "word": "They",
+      "start": 83.82,
+      "end": 84.32
+    },
+    {
+      "word": "gave",
+      "start": 84.32,
+      "end": 84.7
+    },
+    {
+      "word": "my",
+      "start": 84.7,
+      "end": 85.2
+    },
+    {
+      "word": "dark",
+      "start": 85.2,
+      "end": 85.68
+    },
+    {
+      "word": "Saints",
+      "start": 87.78,
+      "end": 88.5
+    },
+    {
+      "word": "of",
+      "start": 88.5,
+      "end": 89.22
+    },
+    {
+      "word": "the",
+      "start": 89.22,
+      "end": 89.4
+    },
+    {
+      "word": "damned",
+      "start": 89.4,
+      "end": 89.76
+    },
+    {
+      "word": "Crowning",
+      "start": 89.76,
+      "end": 90.94
+    },
+    {
+      "word": "fire",
+      "start": 90.94,
+      "end": 91.38
+    },
+    {
+      "word": "wrapped",
+      "start": 91.38,
+      "end": 92.02
+    },
+    {
+      "word": "ties",
+      "start": 92.02,
+      "end": 92.56
+    },
+    {
+      "word": "in",
+      "start": 92.56,
+      "end": 92.84
+    },
+    {
+      "word": "ruin",
+      "start": 92.84,
+      "end": 93.22
+    },
+    {
+      "word": "Saints",
+      "start": 93.22,
+      "end": 94.04
+    },
+    {
+      "word": "of",
+      "start": 94.04,
+      "end": 94.54
+    },
+    {
+      "word": "the",
+      "start": 94.54,
+      "end": 94.76
+    },
+    {
+      "word": "damned,",
+      "start": 94.76,
+      "end": 95.0
+    },
+    {
+      "word": "I",
+      "start": 95.0,
+      "end": 95.62
+    },
+    {
+      "word": "am",
+      "start": 95.62,
+      "end": 96.04
+    },
+    {
+      "word": "the",
+      "start": 96.04,
+      "end": 96.28
+    },
+    {
+      "word": "hymn",
+      "start": 96.28,
+      "end": 96.86
+    },
+    {
+      "word": "Of",
+      "start": 96.86,
+      "end": 97.46
+    },
+    {
+      "word": "the",
+      "start": 97.46,
+      "end": 97.88
+    },
+    {
+      "word": "unforgivable",
+      "start": 97.88,
+      "end": 100.38
+    },
+    {
+      "word": "Raise",
+      "start": 100.38,
+      "end": 101.22
+    },
+    {
+      "word": "the",
+      "start": 101.22,
+      "end": 101.4
+    },
+    {
+      "word": "drums,",
+      "start": 101.4,
+      "end": 101.56
+    },
+    {
+      "word": "raise",
+      "start": 101.98,
+      "end": 102.04
+    },
+    {
+      "word": "the",
+      "start": 102.04,
+      "end": 102.26
+    },
+    {
+      "word": "breath",
+      "start": 102.26,
+      "end": 102.54
+    },
+    {
+      "word": "Let",
+      "start": 102.54,
+      "end": 102.88
+    },
+    {
+      "word": "the",
+      "start": 102.88,
+      "end": 103.08
+    },
+    {
+      "word": "heavens",
+      "start": 103.08,
+      "end": 103.42
+    },
+    {
+      "word": "put",
+      "start": 103.42,
+      "end": 103.76
+    },
+    {
+      "word": "it",
+      "start": 103.76,
+      "end": 103.98
+    },
+    {
+      "word": "high",
+      "start": 103.98,
+      "end": 104.2
+    },
+    {
+      "word": "Saints",
+      "start": 104.2,
+      "end": 104.36
+    },
+    {
+      "word": "of",
+      "start": 104.36,
+      "end": 104.8
+    },
+    {
+      "word": "the",
+      "start": 104.8,
+      "end": 105.06
+    },
+    {
+      "word": "damned,",
+      "start": 105.06,
+      "end": 105.26
+    },
+    {
+      "word": "I",
+      "start": 105.62,
+      "end": 105.78
+    },
+    {
+      "word": "do",
+      "start": 105.78,
+      "end": 106.1
+    },
+    {
+      "word": "not",
+      "start": 106.1,
+      "end": 106.36
+    },
+    {
+      "word": "yield",
+      "start": 106.36,
+      "end": 107.1
+    },
+    {
+      "word": "I",
+      "start": 107.1,
+      "end": 108.38
+    },
+    {
+      "word": "make",
+      "start": 108.38,
+      "end": 108.94
+    },
+    {
+      "word": "the",
+      "start": 108.94,
+      "end": 109.54
+    },
+    {
+      "word": "fallen",
+      "start": 109.54,
+      "end": 111.16
+    },
+    {
+      "word": "rise",
+      "start": 111.16,
+      "end": 113.54
+    },
+    {
+      "word": "Saints",
+      "start": 116.32,
+      "end": 117.38
+    },
+    {
+      "word": "of",
+      "start": 117.38,
+      "end": 117.98
+    },
+    {
+      "word": "the",
+      "start": 117.98,
+      "end": 118.6
+    },
+    {
+      "word": "damned",
+      "start": 118.6,
+      "end": 119.26
+    },
+    {
+      "word": "In",
+      "start": 123.9,
+      "end": 124.96
+    },
+    {
+      "word": "the",
+      "start": 124.96,
+      "end": 126.02
+    },
+    {
+      "word": "knees",
+      "start": 126.02,
+      "end": 126.54
+    },
+    {
+      "word": "under,",
+      "start": 126.54,
+      "end": 126.88
+    },
+    {
+      "word": "under",
+      "start": 127.08,
+      "end": 127.46
+    },
+    {
+      "word": "bone",
+      "start": 127.46,
+      "end": 128.46
+    },
+    {
+      "word": "The",
+      "start": 128.46,
+      "end": 129.02
+    },
+    {
+      "word": "war",
+      "start": 129.02,
+      "end": 129.3
+    },
+    {
+      "word": "drums",
+      "start": 129.3,
+      "end": 129.76
+    },
+    {
+      "word": "struck",
+      "start": 129.76,
+      "end": 130.1
+    },
+    {
+      "word": "the",
+      "start": 130.1,
+      "end": 131.08
+    },
+    {
+      "word": "pillar's",
+      "start": 131.08,
+      "end": 131.42
+    },
+    {
+      "word": "stones",
+      "start": 131.42,
+      "end": 131.84
+    },
+    {
+      "word": "Crown",
+      "start": 131.84,
+      "end": 132.36
+    },
+    {
+      "word": "bones",
+      "start": 132.36,
+      "end": 132.68
+    },
+    {
+      "word": "like",
+      "start": 132.68,
+      "end": 133.2
+    },
+    {
+      "word": "judgement",
+      "start": 133.2,
+      "end": 133.68
+    },
+    {
+      "word": "filled",
+      "start": 133.68,
+      "end": 134.22
+    },
+    {
+      "word": "the",
+      "start": 134.22,
+      "end": 134.74
+    },
+    {
+      "word": "air",
+      "start": 134.74,
+      "end": 135.26
+    },
+    {
+      "word": "And",
+      "start": 135.26,
+      "end": 135.78
+    },
+    {
+      "word": "still",
+      "start": 135.78,
+      "end": 136.1
+    },
+    {
+      "word": "I",
+      "start": 136.1,
+      "end": 136.42
+    },
+    {
+      "word": "climb",
+      "start": 136.42,
+      "end": 136.7
+    },
+    {
+      "word": "And",
+      "start": 136.89,
+      "end": 137.3
+    },
+    {
+      "word": "still",
+      "start": 137.3,
+      "end": 137.76
+    },
+    {
+      "word": "I",
+      "start": 137.76,
+      "end": 138.16
+    },
+    {
+      "word": "turn",
+      "start": 138.16,
+      "end": 138.58
+    },
+    {
+      "word": "My",
+      "start": 138.89,
+      "end": 139.3
+    },
+    {
+      "word": "shadow",
+      "start": 139.3,
+      "end": 139.64
+    },
+    {
+      "word": "crossed",
+      "start": 139.64,
+      "end": 140.24
+    },
+    {
+      "word": "the",
+      "start": 140.24,
+      "end": 140.7
+    },
+    {
+      "word": "altar",
+      "start": 140.7,
+      "end": 141.3
+    },
+    {
+      "word": "wide",
+      "start": 141.3,
+      "end": 142.22
+    },
+    {
+      "word": "A",
+      "start": 142.22,
+      "end": 142.72
+    },
+    {
+      "word": "blocky",
+      "start": 142.72,
+      "end": 143.26
+    },
+    {
+      "word": "cliff",
+      "start": 143.26,
+      "end": 143.54
+    },
+    {
+      "word": "with",
+      "start": 143.54,
+      "end": 144.08
+    },
+    {
+      "word": "gold",
+      "start": 144.08,
+      "end": 144.72
+    },
+    {
+      "word": "inside",
+      "start": 144.72,
+      "end": 145.5
+    },
+    {
+      "word": "A",
+      "start": 145.5,
+      "end": 145.98
+    },
+    {
+      "word": "choir",
+      "start": 145.98,
+      "end": 146.56
+    },
+    {
+      "word": "burned",
+      "start": 146.56,
+      "end": 147.0
+    },
+    {
+      "word": "behind",
+      "start": 147.0,
+      "end": 147.76
+    },
+    {
+      "word": "my",
+      "start": 147.76,
+      "end": 148.38
+    },
+    {
+      "word": "breath",
+      "start": 148.38,
+      "end": 148.88
+    },
+    {
+      "word": "A",
+      "start": 148.88,
+      "end": 149.22
+    },
+    {
+      "word": "living",
+      "start": 149.22,
+      "end": 150.02
+    },
+    {
+      "word": "rite,",
+      "start": 150.02,
+      "end": 150.78
+    },
+    {
+      "word": "a",
+      "start": 150.78,
+      "end": 151.06
+    },
+    {
+      "word": "dress",
+      "start": 151.06,
+      "end": 151.3
+    },
+    {
+      "word": "of",
+      "start": 151.3,
+      "end": 151.78
+    },
+    {
+      "word": "death",
+      "start": 151.78,
+      "end": 152.28
+    },
+    {
+      "word": "I",
+      "start": 153.03,
+      "end": 153.44
+    },
+    {
+      "word": "kissed",
+      "start": 153.44,
+      "end": 153.64
+    },
+    {
+      "word": "the",
+      "start": 153.64,
+      "end": 153.9
+    },
+    {
+      "word": "ash,",
+      "start": 153.9,
+      "end": 154.18
+    },
+    {
+      "word": "I",
+      "start": 154.68,
+      "end": 155.16
+    },
+    {
+      "word": "broke",
+      "start": 155.16,
+      "end": 155.36
+    },
+    {
+      "word": "the",
+      "start": 155.36,
+      "end": 155.58
+    },
+    {
+      "word": "seal",
+      "start": 155.58,
+      "end": 155.92
+    },
+    {
+      "word": "I",
+      "start": 155.92,
+      "end": 156.86
+    },
+    {
+      "word": "touched",
+      "start": 156.86,
+      "end": 157.08
+    },
+    {
+      "word": "the",
+      "start": 157.08,
+      "end": 157.32
+    },
+    {
+      "word": "dark",
+      "start": 157.32,
+      "end": 157.7
+    },
+    {
+      "word": "and",
+      "start": 157.7,
+      "end": 158.56
+    },
+    {
+      "word": "made",
+      "start": 158.56,
+      "end": 158.86
+    },
+    {
+      "word": "it",
+      "start": 158.86,
+      "end": 159.04
+    },
+    {
+      "word": "real",
+      "start": 159.04,
+      "end": 159.42
+    },
+    {
+      "word": "No",
+      "start": 159.42,
+      "end": 160.12
+    },
+    {
+      "word": "saint",
+      "start": 160.12,
+      "end": 160.44
+    },
+    {
+      "word": "can",
+      "start": 160.44,
+      "end": 160.74
+    },
+    {
+      "word": "save",
+      "start": 160.74,
+      "end": 161.08
+    },
+    {
+      "word": "me,",
+      "start": 161.08,
+      "end": 161.3
+    },
+    {
+      "word": "no",
+      "start": 161.6,
+      "end": 161.64
+    },
+    {
+      "word": "god",
+      "start": 161.64,
+      "end": 161.96
+    },
+    {
+      "word": "can",
+      "start": 161.96,
+      "end": 162.3
+    },
+    {
+      "word": "stand",
+      "start": 162.3,
+      "end": 162.7
+    },
+    {
+      "word": "I",
+      "start": 162.7,
+      "end": 163.62
+    },
+    {
+      "word": "took",
+      "start": 163.62,
+      "end": 163.88
+    },
+    {
+      "word": "damnation",
+      "start": 163.88,
+      "end": 164.66
+    },
+    {
+      "word": "and",
+      "start": 164.66,
+      "end": 165.0
+    },
+    {
+      "word": "made",
+      "start": 165.0,
+      "end": 165.42
+    },
+    {
+      "word": "it",
+      "start": 165.42,
+      "end": 165.76
+    },
+    {
+      "word": "great",
+      "start": 165.76,
+      "end": 166.26
+    },
+    {
+      "word": "Saints",
+      "start": 168.3,
+      "end": 169.02
+    },
+    {
+      "word": "of",
+      "start": 169.02,
+      "end": 169.74
+    },
+    {
+      "word": "the",
+      "start": 169.74,
+      "end": 169.96
+    },
+    {
+      "word": "damned",
+      "start": 169.96,
+      "end": 170.44
+    },
+    {
+      "word": "Crowning",
+      "start": 170.44,
+      "end": 171.52
+    },
+    {
+      "word": "fire",
+      "start": 171.52,
+      "end": 171.98
+    },
+    {
+      "word": "wrapped",
+      "start": 171.98,
+      "end": 172.64
+    },
+    {
+      "word": "ties",
+      "start": 172.64,
+      "end": 173.16
+    },
+    {
+      "word": "in",
+      "start": 173.16,
+      "end": 173.44
+    },
+    {
+      "word": "ruin",
+      "start": 173.44,
+      "end": 173.82
+    },
+    {
+      "word": "Saints",
+      "start": 173.82,
+      "end": 174.62
+    },
+    {
+      "word": "of",
+      "start": 174.62,
+      "end": 175.1
+    },
+    {
+      "word": "the",
+      "start": 175.1,
+      "end": 175.32
+    },
+    {
+      "word": "damned,",
+      "start": 175.32,
+      "end": 175.62
+    },
+    {
+      "word": "I",
+      "start": 175.88,
+      "end": 176.18
+    },
+    {
+      "word": "am",
+      "start": 176.18,
+      "end": 176.58
+    },
+    {
+      "word": "the",
+      "start": 176.58,
+      "end": 176.82
+    },
+    {
+      "word": "hymn",
+      "start": 176.82,
+      "end": 177.38
+    },
+    {
+      "word": "Of",
+      "start": 177.38,
+      "end": 177.98
+    },
+    {
+      "word": "the",
+      "start": 177.98,
+      "end": 178.44
+    },
+    {
+      "word": "unforgivable",
+      "start": 178.44,
+      "end": 180.96
+    },
+    {
+      "word": "Raise",
+      "start": 181.42,
+      "end": 181.78
+    },
+    {
+      "word": "the",
+      "start": 181.78,
+      "end": 181.96
+    },
+    {
+      "word": "drums,",
+      "start": 181.96,
+      "end": 182.08
+    },
+    {
+      "word": "raise",
+      "start": 182.54,
+      "end": 182.62
+    },
+    {
+      "word": "the",
+      "start": 182.62,
+      "end": 182.84
+    },
+    {
+      "word": "breath",
+      "start": 182.84,
+      "end": 183.08
+    },
+    {
+      "word": "Let",
+      "start": 183.08,
+      "end": 183.46
+    },
+    {
+      "word": "the",
+      "start": 183.46,
+      "end": 183.66
+    },
+    {
+      "word": "heavens",
+      "start": 183.66,
+      "end": 184.0
+    },
+    {
+      "word": "put",
+      "start": 184.0,
+      "end": 184.32
+    },
+    {
+      "word": "it",
+      "start": 184.32,
+      "end": 184.54
+    },
+    {
+      "word": "high",
+      "start": 184.54,
+      "end": 184.82
+    },
+    {
+      "word": "Saints",
+      "start": 184.82,
+      "end": 184.98
+    },
+    {
+      "word": "of",
+      "start": 184.98,
+      "end": 185.38
+    },
+    {
+      "word": "the",
+      "start": 185.38,
+      "end": 185.62
+    },
+    {
+      "word": "damned,",
+      "start": 185.62,
+      "end": 185.86
+    },
+    {
+      "word": "I",
+      "start": 185.86,
+      "end": 186.36
+    },
+    {
+      "word": "do",
+      "start": 186.36,
+      "end": 186.68
+    },
+    {
+      "word": "not",
+      "start": 186.68,
+      "end": 187.0
+    },
+    {
+      "word": "kneel",
+      "start": 187.0,
+      "end": 188.7
+    },
+    {
+      "word": "I",
+      "start": 188.7,
+      "end": 189.0
+    },
+    {
+      "word": "make",
+      "start": 189.0,
+      "end": 189.54
+    },
+    {
+      "word": "the",
+      "start": 189.54,
+      "end": 190.14
+    },
+    {
+      "word": "fallen",
+      "start": 190.14,
+      "end": 191.72
+    },
+    {
+      "word": "rise",
+      "start": 191.72,
+      "end": 193.1
+    },
+    {
+      "word": "Grand",
+      "start": 198.52,
+      "end": 199.64
+    },
+    {
+      "word": "piano",
+      "start": 199.64,
+      "end": 200.48
+    },
+    {
+      "word": "crashing",
+      "start": 200.48,
+      "end": 201.12
+    },
+    {
+      "word": "like",
+      "start": 201.12,
+      "end": 201.84
+    },
+    {
+      "word": "winter",
+      "start": 201.84,
+      "end": 202.14
+    },
+    {
+      "word": "light",
+      "start": 202.14,
+      "end": 202.72
+    },
+    {
+      "word": "Viole",
+      "start": 202.72,
+      "end": 203.68
+    },
+    {
+      "word": "screaming",
+      "start": 203.68,
+      "end": 204.6
+    },
+    {
+      "word": "through",
+      "start": 204.6,
+      "end": 205.36
+    },
+    {
+      "word": "the",
+      "start": 205.36,
+      "end": 205.76
+    },
+    {
+      "word": "knife",
+      "start": 205.76,
+      "end": 206.14
+    },
+    {
+      "word": "Friends",
+      "start": 206.14,
+      "end": 206.44
+    },
+    {
+      "word": "horns",
+      "start": 206.44,
+      "end": 206.94
+    },
+    {
+      "word": "calling",
+      "start": 206.94,
+      "end": 207.52
+    },
+    {
+      "word": "like",
+      "start": 207.52,
+      "end": 208.64
+    },
+    {
+      "word": "kings",
+      "start": 208.64,
+      "end": 209.0
+    },
+    {
+      "word": "to",
+      "start": 209.0,
+      "end": 209.2
+    },
+    {
+      "word": "war",
+      "start": 209.2,
+      "end": 209.68
+    },
+    {
+      "word": "Then",
+      "start": 209.68,
+      "end": 210.24
+    },
+    {
+      "word": "I",
+      "start": 210.24,
+      "end": 210.5
+    },
+    {
+      "word": "wanted",
+      "start": 210.5,
+      "end": 210.84
+    },
+    {
+      "word": "more,",
+      "start": 210.84,
+      "end": 211.3
+    },
+    {
+      "word": "I",
+      "start": 211.52,
+      "end": 212.08
+    },
+    {
+      "word": "wanted",
+      "start": 212.08,
+      "end": 212.78
+    },
+    {
+      "word": "less",
+      "start": 212.78,
+      "end": 213.8
+    },
+    {
+      "word": "Sanctus,",
+      "start": 213.8,
+      "end": 214.74
+    },
+    {
+      "word": "no",
+      "start": 215.26,
+      "end": 215.94
+    },
+    {
+      "word": "more",
+      "start": 215.94,
+      "end": 216.5
+    },
+    {
+      "word": "Sanctus,",
+      "start": 216.5,
+      "end": 218.12
+    },
+    {
+      "word": "no",
+      "start": 218.36,
+      "end": 218.82
+    },
+    {
+      "word": "more",
+      "start": 218.82,
+      "end": 219.8
+    },
+    {
+      "word": "I've",
+      "start": 219.8,
+      "end": 220.34
+    },
+    {
+      "word": "woken",
+      "start": 220.34,
+      "end": 220.7
+    },
+    {
+      "word": "howling,",
+      "start": 220.7,
+      "end": 221.26
+    },
+    {
+      "word": "columns",
+      "start": 221.4,
+      "end": 221.98
+    },
+    {
+      "word": "break",
+      "start": 221.98,
+      "end": 222.58
+    },
+    {
+      "word": "Tacos",
+      "start": 222.58,
+      "end": 223.9
+    },
+    {
+      "word": "calling,",
+      "start": 223.9,
+      "end": 224.2
+    },
+    {
+      "word": "make",
+      "start": 225.08,
+      "end": 225.26
+    },
+    {
+      "word": "them",
+      "start": 225.26,
+      "end": 225.5
+    },
+    {
+      "word": "shake",
+      "start": 225.5,
+      "end": 225.9
+    },
+    {
+      "word": "Symbasty",
+      "start": 225.9,
+      "end": 227.24
+    },
+    {
+      "word": "roaring,",
+      "start": 227.24,
+      "end": 227.8
+    },
+    {
+      "word": "things",
+      "start": 227.8,
+      "end": 228.76
+    },
+    {
+      "word": "ignite",
+      "start": 228.76,
+      "end": 229.36
+    },
+    {
+      "word": "I",
+      "start": 229.36,
+      "end": 230.02
+    },
+    {
+      "word": "was",
+      "start": 230.02,
+      "end": 230.36
+    },
+    {
+      "word": "not",
+      "start": 230.36,
+      "end": 230.78
+    },
+    {
+      "word": "made",
+      "start": 230.78,
+      "end": 231.3
+    },
+    {
+      "word": "for",
+      "start": 231.3,
+      "end": 232.26
+    },
+    {
+      "word": "a",
+      "start": 232.26,
+      "end": 232.58
+    },
+    {
+      "word": "gentle",
+      "start": 232.58,
+      "end": 233.18
+    },
+    {
+      "word": "light",
+      "start": 233.18,
+      "end": 236.06
+    },
+    {
+      "word": "Strike",
+      "start": 243.8,
+      "end": 244.16
+    },
+    {
+      "word": "the",
+      "start": 244.16,
+      "end": 244.38
+    },
+    {
+      "word": "bells",
+      "start": 244.38,
+      "end": 244.54
+    },
+    {
+      "word": "in",
+      "start": 244.54,
+      "end": 245.02
+    },
+    {
+      "word": "the",
+      "start": 245.02,
+      "end": 245.18
+    },
+    {
+      "word": "sky,",
+      "start": 245.18,
+      "end": 245.4
+    },
+    {
+      "word": "drag",
+      "start": 245.82,
+      "end": 245.82
+    },
+    {
+      "word": "the",
+      "start": 245.82,
+      "end": 246.08
+    },
+    {
+      "word": "golden",
+      "start": 246.08,
+      "end": 246.44
+    },
+    {
+      "word": "idols",
+      "start": 246.44,
+      "end": 246.78
+    },
+    {
+      "word": "high",
+      "start": 246.78,
+      "end": 247.28
+    },
+    {
+      "word": "Break",
+      "start": 247.28,
+      "end": 247.56
+    },
+    {
+      "word": "the",
+      "start": 247.56,
+      "end": 247.8
+    },
+    {
+      "word": "bones,",
+      "start": 247.8,
+      "end": 248.04
+    },
+    {
+      "word": "let",
+      "start": 248.34,
+      "end": 248.4
+    },
+    {
+      "word": "the",
+      "start": 248.4,
+      "end": 248.64
+    },
+    {
+      "word": "name",
+      "start": 248.64,
+      "end": 248.96
+    },
+    {
+      "word": "Wake",
+      "start": 248.96,
+      "end": 249.24
+    },
+    {
+      "word": "the",
+      "start": 249.24,
+      "end": 249.5
+    },
+    {
+      "word": "fury",
+      "start": 249.5,
+      "end": 249.7
+    },
+    {
+      "word": "in",
+      "start": 249.7,
+      "end": 250.18
+    },
+    {
+      "word": "the",
+      "start": 250.18,
+      "end": 250.38
+    },
+    {
+      "word": "grave",
+      "start": 250.38,
+      "end": 250.66
+    },
+    {
+      "word": "Press",
+      "start": 250.66,
+      "end": 251.0
+    },
+    {
+      "word": "and",
+      "start": 251.0,
+      "end": 251.24
+    },
+    {
+      "word": "thunder",
+      "start": 251.24,
+      "end": 251.4
+    },
+    {
+      "word": "I'll",
+      "start": 251.4,
+      "end": 251.94
+    },
+    {
+      "word": "reframe,",
+      "start": 251.94,
+      "end": 252.36
+    },
+    {
+      "word": "let",
+      "start": 252.36,
+      "end": 252.72
+    },
+    {
+      "word": "the",
+      "start": 252.72,
+      "end": 252.92
+    },
+    {
+      "word": "world",
+      "start": 252.92,
+      "end": 253.14
+    },
+    {
+      "word": "remember",
+      "start": 253.14,
+      "end": 253.58
+    },
+    {
+      "word": "my",
+      "start": 253.58,
+      "end": 254.1
+    },
+    {
+      "word": "name",
+      "start": 254.1,
+      "end": 254.48
+    },
+    {
+      "word": "Hear",
+      "start": 257.26,
+      "end": 257.98
+    },
+    {
+      "word": "the",
+      "start": 257.98,
+      "end": 258.32
+    },
+    {
+      "word": "fire,",
+      "start": 258.32,
+      "end": 258.8
+    },
+    {
+      "word": "lips",
+      "start": 259.46,
+      "end": 259.6
+    },
+    {
+      "word": "ascending",
+      "start": 259.6,
+      "end": 260.52
+    },
+    {
+      "word": "Hear",
+      "start": 260.52,
+      "end": 261.3
+    },
+    {
+      "word": "the",
+      "start": 261.3,
+      "end": 261.78
+    },
+    {
+      "word": "low,",
+      "start": 261.78,
+      "end": 262.2
+    },
+    {
+      "word": "brass",
+      "start": 262.5,
+      "end": 262.66
+    },
+    {
+      "word": "bending",
+      "start": 262.66,
+      "end": 263.32
+    },
+    {
+      "word": "fate",
+      "start": 263.32,
+      "end": 263.86
+    },
+    {
+      "word": "Hear",
+      "start": 263.86,
+      "end": 264.8
+    },
+    {
+      "word": "the",
+      "start": 264.8,
+      "end": 265.18
+    },
+    {
+      "word": "choir",
+      "start": 265.18,
+      "end": 265.72
+    },
+    {
+      "word": "of",
+      "start": 265.72,
+      "end": 266.66
+    },
+    {
+      "word": "the",
+      "start": 266.66,
+      "end": 266.88
+    },
+    {
+      "word": "verses",
+      "start": 266.88,
+      "end": 267.58
+    },
+    {
+      "word": "Turn",
+      "start": 267.58,
+      "end": 268.24
+    },
+    {
+      "word": "the",
+      "start": 268.24,
+      "end": 268.6
+    },
+    {
+      "word": "ending",
+      "start": 268.6,
+      "end": 269.14
+    },
+    {
+      "word": "to",
+      "start": 269.14,
+      "end": 269.92
+    },
+    {
+      "word": "one",
+      "start": 269.92,
+      "end": 270.38
+    },
+    {
+      "word": "game",
+      "start": 270.38,
+      "end": 270.96
+    },
+    {
+      "word": "Saints",
+      "start": 274.64,
+      "end": 275.32
+    },
+    {
+      "word": "of",
+      "start": 275.32,
+      "end": 276.0
+    },
+    {
+      "word": "the",
+      "start": 276.0,
+      "end": 276.26
+    },
+    {
+      "word": "damned",
+      "start": 276.26,
+      "end": 276.62
+    },
+    {
+      "word": "Crowned",
+      "start": 276.62,
+      "end": 277.7
+    },
+    {
+      "word": "in",
+      "start": 277.7,
+      "end": 277.86
+    },
+    {
+      "word": "fire,",
+      "start": 277.86,
+      "end": 278.3
+    },
+    {
+      "word": "baptized",
+      "start": 278.88,
+      "end": 279.22
+    },
+    {
+      "word": "in",
+      "start": 279.22,
+      "end": 279.74
+    },
+    {
+      "word": "ruin",
+      "start": 279.74,
+      "end": 280.06
+    },
+    {
+      "word": "Saints",
+      "start": 280.56,
+      "end": 280.9
+    },
+    {
+      "word": "of",
+      "start": 280.9,
+      "end": 281.32
+    },
+    {
+      "word": "the",
+      "start": 281.32,
+      "end": 281.58
+    },
+    {
+      "word": "damned,",
+      "start": 281.58,
+      "end": 281.98
+    },
+    {
+      "word": "I",
+      "start": 282.16,
+      "end": 282.44
+    },
+    {
+      "word": "am",
+      "start": 282.44,
+      "end": 282.9
+    },
+    {
+      "word": "the",
+      "start": 282.9,
+      "end": 283.12
+    },
+    {
+      "word": "hymn",
+      "start": 283.12,
+      "end": 283.64
+    },
+    {
+      "word": "Of",
+      "start": 283.64,
+      "end": 284.26
+    },
+    {
+      "word": "the",
+      "start": 284.26,
+      "end": 284.72
+    },
+    {
+      "word": "unforgivable",
+      "start": 284.72,
+      "end": 287.2
+    },
+    {
+      "word": "Raise",
+      "start": 287.72,
+      "end": 288.06
+    },
+    {
+      "word": "the",
+      "start": 288.06,
+      "end": 288.26
+    },
+    {
+      "word": "drums,",
+      "start": 288.26,
+      "end": 288.46
+    },
+    {
+      "word": "raise",
+      "start": 288.82,
+      "end": 288.9
+    },
+    {
+      "word": "the",
+      "start": 288.9,
+      "end": 289.12
+    },
+    {
+      "word": "breath",
+      "start": 289.12,
+      "end": 289.4
+    },
+    {
+      "word": "Let",
+      "start": 289.4,
+      "end": 289.74
+    },
+    {
+      "word": "the",
+      "start": 289.74,
+      "end": 289.96
+    },
+    {
+      "word": "heavens",
+      "start": 289.96,
+      "end": 290.3
+    },
+    {
+      "word": "put",
+      "start": 290.3,
+      "end": 290.6
+    },
+    {
+      "word": "it",
+      "start": 290.6,
+      "end": 290.82
+    },
+    {
+      "word": "high",
+      "start": 290.82,
+      "end": 291.06
+    },
+    {
+      "word": "Saints",
+      "start": 291.06,
+      "end": 291.2
+    },
+    {
+      "word": "of",
+      "start": 291.2,
+      "end": 291.64
+    },
+    {
+      "word": "the",
+      "start": 291.64,
+      "end": 291.9
+    },
+    {
+      "word": "damned,",
+      "start": 291.9,
+      "end": 292.14
+    },
+    {
+      "word": "I",
+      "start": 292.14,
+      "end": 292.68
+    },
+    {
+      "word": "do",
+      "start": 292.68,
+      "end": 292.94
+    },
+    {
+      "word": "not",
+      "start": 292.94,
+      "end": 293.28
+    },
+    {
+      "word": "kneel",
+      "start": 293.28,
+      "end": 294.4
+    },
+    {
+      "word": "I",
+      "start": 294.4,
+      "end": 295.18
+    },
+    {
+      "word": "make",
+      "start": 295.18,
+      "end": 295.56
+    },
+    {
+      "word": "the",
+      "start": 295.56,
+      "end": 296.4
+    },
+    {
+      "word": "fallen",
+      "start": 296.4,
+      "end": 298.0
+    },
+    {
+      "word": "rise",
+      "start": 298.0,
+      "end": 299.02
+    },
+    {
+      "word": "Hear",
+      "start": 300.44,
+      "end": 301.12
+    },
+    {
+      "word": "the",
+      "start": 301.12,
+      "end": 301.34
+    },
+    {
+      "word": "organ,",
+      "start": 301.34,
+      "end": 301.56
+    },
+    {
+      "word": "hear",
+      "start": 301.56,
+      "end": 301.96
+    },
+    {
+      "word": "the",
+      "start": 301.96,
+      "end": 302.18
+    },
+    {
+      "word": "choir",
+      "start": 302.18,
+      "end": 302.4
+    },
+    {
+      "word": "Saints",
+      "start": 302.4,
+      "end": 303.12
+    },
+    {
+      "word": "of",
+      "start": 303.12,
+      "end": 303.52
+    },
+    {
+      "word": "the",
+      "start": 303.52,
+      "end": 303.68
+    },
+    {
+      "word": "damned",
+      "start": 303.68,
+      "end": 303.92
+    },
+    {
+      "word": "Every",
+      "start": 303.92,
+      "end": 304.72
+    },
+    {
+      "word": "woman",
+      "start": 304.72,
+      "end": 304.98
+    },
+    {
+      "word": "comes",
+      "start": 304.98,
+      "end": 305.46
+    },
+    {
+      "word": "in",
+      "start": 305.46,
+      "end": 305.64
+    },
+    {
+      "word": "fire",
+      "start": 305.64,
+      "end": 305.9
+    },
+    {
+      "word": "Saints",
+      "start": 306.16,
+      "end": 306.66
+    },
+    {
+      "word": "of",
+      "start": 306.66,
+      "end": 306.9
+    },
+    {
+      "word": "the",
+      "start": 306.9,
+      "end": 307.12
+    },
+    {
+      "word": "damned",
+      "start": 307.12,
+      "end": 307.5
+    },
+    {
+      "word": "No",
+      "start": 307.5,
+      "end": 307.84
+    },
+    {
+      "word": "forgiveness",
+      "start": 307.84,
+      "end": 308.34
+    },
+    {
+      "word": "only",
+      "start": 308.34,
+      "end": 308.98
+    },
+    {
+      "word": "flight",
+      "start": 308.98,
+      "end": 309.3
+    },
+    {
+      "word": "Saints",
+      "start": 309.3,
+      "end": 309.74
+    },
+    {
+      "word": "of",
+      "start": 309.74,
+      "end": 310.34
+    },
+    {
+      "word": "the",
+      "start": 310.34,
+      "end": 310.54
+    },
+    {
+      "word": "damned",
+      "start": 310.54,
+      "end": 310.9
+    },
+    {
+      "word": "Let",
+      "start": 310.9,
+      "end": 311.22
+    },
+    {
+      "word": "our",
+      "start": 311.22,
+      "end": 311.4
+    },
+    {
+      "word": "creation",
+      "start": 311.4,
+      "end": 312.14
+    },
+    {
+      "word": "learn",
+      "start": 312.14,
+      "end": 312.86
+    },
+    {
+      "word": "my",
+      "start": 312.86,
+      "end": 313.82
+    },
+    {
+      "word": "name",
+      "start": 313.82,
+      "end": 315.12
+    },
+    {
+      "word": "Those",
+      "start": 319.16,
+      "end": 319.66
+    },
+    {
+      "word": "in",
+      "start": 319.66,
+      "end": 320.24
+    },
+    {
+      "word": "the",
+      "start": 320.24,
+      "end": 320.88
+    },
+    {
+      "word": "smoke",
+      "start": 320.88,
+      "end": 321.34
+    },
+    {
+      "word": "Blood",
+      "start": 321.34,
+      "end": 323.04
+    },
+    {
+      "word": "on",
+      "start": 323.04,
+      "end": 323.62
+    },
+    {
+      "word": "the",
+      "start": 323.62,
+      "end": 324.32
+    },
+    {
+      "word": "stone",
+      "start": 324.32,
+      "end": 324.98
+    },
+    {
+      "word": "I",
+      "start": 324.98,
+      "end": 326.54
+    },
+    {
+      "word": "heard",
+      "start": 326.54,
+      "end": 327.28
+    },
+    {
+      "word": "a",
+      "start": 327.28,
+      "end": 327.94
+    },
+    {
+      "word": "dead",
+      "start": 327.94,
+      "end": 328.44
+    },
+    {
+      "word": "Call",
+      "start": 328.44,
+      "end": 330.08
+    },
+    {
+      "word": "me",
+      "start": 330.08,
+      "end": 330.56
+    },
+    {
+      "word": "their",
+      "start": 330.56,
+      "end": 331.12
+    },
+    {
+      "word": "own",
+      "start": 331.12,
+      "end": 332.48
+    }
+  ]
+}

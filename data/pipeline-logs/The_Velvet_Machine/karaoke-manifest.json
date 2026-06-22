@@ -1,0 +1,81 @@
+{
+  "albumTitle": "The Velvet Machine",
+  "audioDir": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio",
+  "tracks": [
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/01_the_velvet_machine_v2.mp3",
+      "title": "The Velvet Machine",
+      "trackNumber": 1
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/02_a_body_made_of_night_v2.mp3",
+      "title": "A Body Made of Night",
+      "trackNumber": 2
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/03_accordion_heart_v2.mp3",
+      "title": "Accordion Heart",
+      "trackNumber": 3
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/04_the_saints_go_clubbing_v2.mp3",
+      "title": "The Saints Go Clubbing",
+      "trackNumber": 4
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/05_she_dances_like_a_memory_v2.mp3",
+      "title": "She Dances Like a Memory",
+      "trackNumber": 5
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/06_lisbon_is_not_a_city_it_is_a_wound_v1.mp3",
+      "title": "Lisbon Is Not a City, It Is a Wound",
+      "trackNumber": 6
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/07_contra_bass_confession_v1.mp3",
+      "title": "Contra-Bass Confession",
+      "trackNumber": 7
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/08_hard_techno_prayer_v1.mp3",
+      "title": "Hard Techno Prayer",
+      "trackNumber": 8
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/09_the_girl_with_the_cello_scar_v2.mp3",
+      "title": "The Girl With the Cello Scar",
+      "trackNumber": 9
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/10_no_one_leaves_the_night_unchanged_v2.mp3",
+      "title": "No One Leaves the Night Unchanged",
+      "trackNumber": 10
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/11_saxophone_for_the_damned_and_the_loved_v2.mp3",
+      "title": "Saxophone for the Damned and the Loved",
+      "trackNumber": 11
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/12_the_future_has_an_accent_v2.mp3",
+      "title": "The Future Has an Accent",
+      "trackNumber": 12
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/13_velvet_bruises_v2.mp3",
+      "title": "Velvet Bruises",
+      "trackNumber": 13
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/14_when_the_machines_learn_saudade_v2.mp3",
+      "title": "When the Machines Learn Saudade",
+      "trackNumber": 14
+    },
+    {
+      "audioFile": "/home/noiraciel/NoiraCiel/Music/The_Velvet_Machine/audio/15_still_human_after_all_this_noise_v1.mp3",
+      "title": "Still Human After All This Noise",
+      "trackNumber": 15
+    }
+  ]
+}

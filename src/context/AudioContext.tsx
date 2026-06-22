@@ -1,6 +1,6 @@
 'use client'
 
-import React, { createContext, useContext, useReducer, useRef, useEffect, useCallback } from 'react'
+import React, { createContext, useContext, useReducer, useRef, useEffect, useCallback, useState } from 'react'
 import type { Track, AudioState } from '@/lib/types'
 
 interface AudioContextType extends AudioState {
@@ -15,6 +15,10 @@ interface AudioContextType extends AudioState {
   toggleShuffle: () => void
   toggleRepeat: () => void
   setPlaylistAndPlay: (tracks: Track[], index: number) => void
+  getAnalyser: () => AnalyserNode | null
+  isExternalActive: boolean
+  connectExternalAudio: (audioEl: HTMLAudioElement) => void
+  disconnectExternalAudio: () => void
 }
 
 type AudioAction =
@@ -70,12 +74,30 @@ function reducer(state: AudioState, action: AudioAction): AudioState {
   }
 }
 
+// Web Audio API forces silent output on a MediaElementAudioSourceNode created
+// from a cross-origin element unless the server sends CORS headers (R2's
+// public bucket doesn't). Tapping the node for visualization would silently
+// kill actual playback, so cross-origin sources skip the tap entirely.
+function isCrossOrigin(url: string): boolean {
+  if (typeof window === 'undefined') return false
+  try {
+    return new URL(url, window.location.href).origin !== window.location.origin
+  } catch {
+    return false
+  }
+}
+
 const AudioCtx = createContext<AudioContextType | null>(null)
 
 export function AudioProvider({ children }: { children: React.ReactNode }) {
   const [state, dispatch] = useReducer(reducer, initialState)
-  const audioRef = useRef<HTMLAudioElement | null>(null)
-  const shuffledIndices = useRef<number[]>([])
+  const [isExternalActive, setIsExternalActive] = useState(false)
+  const audioRef          = useRef<HTMLAudioElement | null>(null)
+  const shuffledIndices   = useRef<number[]>([])
+  const webAudioCtxRef    = useRef<AudioContext | null>(null)
+  const analyserRef       = useRef<AnalyserNode | null>(null)
+  const externalSourceRef = useRef<MediaElementAudioSourceNode | null>(null)
+  const externalElRef     = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
     const audio = new Audio()
@@ -184,9 +206,66 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const toggleShuffle = useCallback(() => dispatch({ type: 'TOGGLE_SHUFFLE' }), [])
   const toggleRepeat = useCallback(() => dispatch({ type: 'TOGGLE_REPEAT' }), [])
 
+  // Lazy Web Audio API analyser — call after user gesture
+  const getAnalyser = useCallback((): AnalyserNode | null => {
+    if (typeof window === 'undefined' || !audioRef.current) return null
+    if (analyserRef.current) return analyserRef.current
+    if (isCrossOrigin(audioRef.current.src)) return null
+    try {
+      const ctx = new (window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext)()
+      const source = ctx.createMediaElementSource(audioRef.current)
+      const analyser = ctx.createAnalyser()
+      analyser.fftSize = 2048
+      analyser.smoothingTimeConstant = 0.82
+      source.connect(analyser)
+      analyser.connect(ctx.destination)
+      webAudioCtxRef.current = ctx
+      analyserRef.current = analyser
+      return analyser
+    } catch { return null }
+  }, [])
+
   const setPlaylistAndPlay = useCallback((tracks: Track[], index: number) => {
     play(tracks[index], tracks)
   }, [play])
+
+  // Allow external audio elements (e.g. SyncedLyricsPlayer) to feed the shared analyser.
+  // Ghost Performance will then animate in response to the lyrics player's audio.
+  const connectExternalAudio = useCallback((audioEl: HTMLAudioElement) => {
+    if (typeof window === 'undefined') return
+    if (isCrossOrigin(audioEl.src)) { setIsExternalActive(true); return }
+    try {
+      // Reuse existing connection for the same element
+      if (externalElRef.current === audioEl && externalSourceRef.current) {
+        setIsExternalActive(true)
+        return
+      }
+      let ctx = webAudioCtxRef.current
+      if (!ctx) {
+        ctx = new (window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext)()
+        webAudioCtxRef.current = ctx
+      }
+      if (ctx.state === 'suspended') ctx.resume()
+      if (!analyserRef.current) {
+        const analyser = ctx.createAnalyser()
+        analyser.fftSize = 2048
+        analyser.smoothingTimeConstant = 0.82
+        analyserRef.current = analyser
+        analyser.connect(ctx.destination)
+      }
+      const source = ctx.createMediaElementSource(audioEl)
+      source.connect(analyserRef.current)
+      externalSourceRef.current = source
+      externalElRef.current = audioEl
+      setIsExternalActive(true)
+    } catch {
+      setIsExternalActive(true)
+    }
+  }, [])
+
+  const disconnectExternalAudio = useCallback(() => {
+    setIsExternalActive(false)
+  }, [])
 
   // Auto-advance to next track when current ends
   useEffect(() => {
@@ -209,6 +288,10 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       ...state,
       play, pause, toggle, next, prev, seek,
       setVolume, toggleMute, toggleShuffle, toggleRepeat, setPlaylistAndPlay,
+      getAnalyser,
+      isExternalActive,
+      connectExternalAudio,
+      disconnectExternalAudio,
     }}>
       {children}
     </AudioCtx.Provider>

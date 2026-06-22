@@ -1,0 +1,11 @@
+{
+  "slug": "side-by-side",
+  "stems": [
+    "other",
+    "vocals"
+  ],
+  "pages": {
+    "other": 12,
+    "vocals": 6
+  }
+}

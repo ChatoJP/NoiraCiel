@@ -45,11 +45,11 @@ export default function Biography() {
   const displayBio = expanded ? longBio : shortBio
 
   return (
-    <section id="biography" className="py-32 px-6 relative">
+    <section id="biography" className="py-16 md:py-24 lg:py-32 px-6 relative">
       {/* Biography background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/Images/backgrounds/biography.jpg"
+        src="https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/backgrounds/biography.jpg"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
@@ -88,7 +88,7 @@ export default function Biography() {
                 <p className="font-body text-[10px] tracking-[0.3em] text-noir-silver/30 uppercase mb-2">Themes</p>
                 <div className="flex flex-wrap gap-2 mt-1">
                   {['Memory', 'Family', 'The Sea', 'Transformation', 'Dignity', 'Loss'].map((tag) => (
-                    <span key={tag} className="font-body text-xs text-noir-silver/50 border border-noir-silver/15 px-2 py-1">
+                    <span key={tag} title={`Theme: ${tag}`} className="font-body text-xs text-noir-silver/50 border border-noir-silver/15 px-2 py-1 cursor-default select-none">
                       {tag}
                     </span>
                   ))}
@@ -101,15 +101,22 @@ export default function Biography() {
           <div className="lg:col-span-8">
             <div className="space-y-6 font-body text-sm text-noir-silver/70 leading-relaxed">
               {displayBio.split('\n\n').map((para, i) => (
-                <p key={i} className={i === 0 ? 'text-base text-noir-ivory/80 font-body leading-loose' : ''}>
+                <p key={i} className={i === 0 ? 'text-base text-noir-ivory/80 font-body leading-loose bio-dropcap' : ''}>
                   {para}
                 </p>
               ))}
             </div>
 
+            {/* Listen link (#38) */}
+            <a href="/music/the-life-lessons"
+              className="mt-8 inline-flex items-center gap-2 font-body text-[10px] tracking-[0.25em] uppercase text-noir-gold/50 hover:text-noir-gold border-b border-noir-gold/15 hover:border-noir-gold/40 pb-0.5 transition-all duration-300">
+              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Listen to the album that inspired this
+            </a>
+
             <button
               onClick={() => setExpanded(!expanded)}
-              className="mt-8 flex items-center gap-2 font-body text-xs tracking-[0.2em] uppercase text-noir-gold/60 hover:text-noir-gold transition-colors border-b border-noir-gold/20 hover:border-noir-gold/40 pb-0.5"
+              className="mt-5 flex items-center gap-2 font-body text-xs tracking-[0.2em] uppercase text-noir-gold/60 hover:text-noir-gold transition-colors border-b border-noir-gold/20 hover:border-noir-gold/40 pb-0.5"
             >
               {expanded ? 'Read less' : 'Read the full story'}
               <svg

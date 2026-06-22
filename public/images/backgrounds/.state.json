@@ -6,7 +6,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\backgrounds\\hero.jpg",
-    "publicUrl": "/Images/backgrounds/hero.jpg",
+    "publicUrl": "/images/backgrounds/hero.jpg",
     "submittedAt": "2026-06-12T20:56:22.132Z",
     "completedAt": null,
     "error": null
@@ -18,7 +18,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\backgrounds\\biography.jpg",
-    "publicUrl": "/Images/backgrounds/biography.jpg",
+    "publicUrl": "/images/backgrounds/biography.jpg",
     "submittedAt": "2026-06-12T20:56:25.846Z",
     "completedAt": null,
     "error": null
@@ -30,7 +30,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\backgrounds\\world.jpg",
-    "publicUrl": "/Images/backgrounds/world.jpg",
+    "publicUrl": "/images/backgrounds/world.jpg",
     "submittedAt": "2026-06-12T20:56:29.562Z",
     "completedAt": null,
     "error": null
@@ -42,7 +42,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\backgrounds\\featured.jpg",
-    "publicUrl": "/Images/backgrounds/featured.jpg",
+    "publicUrl": "/images/backgrounds/featured.jpg",
     "submittedAt": "2026-06-12T20:56:33.289Z",
     "completedAt": null,
     "error": null
@@ -54,7 +54,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\backgrounds\\contact.jpg",
-    "publicUrl": "/Images/backgrounds/contact.jpg",
+    "publicUrl": "/images/backgrounds/contact.jpg",
     "submittedAt": "2026-06-12T20:56:37.000Z",
     "completedAt": null,
     "error": null

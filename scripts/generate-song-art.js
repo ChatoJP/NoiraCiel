@@ -3,7 +3,7 @@
  * generate-song-art.js
  *
  * Generates one cinematic artwork per song via Kie.ai Flux Kontext.
- * Output: public/Images/song-art/{slug}.jpg  (1:1 square)
+ * Output: public/images/song-art/{slug}.jpg  (1:1 square)
  *
  * USAGE
  *   node scripts/generate-song-art.js              # dry-run (default)
@@ -30,7 +30,7 @@ loadEnv()
 // ─── Config ───────────────────────────────────────────────────────────────────
 const MUSIC_DIR   = path.join(__dirname, '..', 'Music')
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'song-art')
-const PUBLIC_BASE = '/Images/song-art'
+const PUBLIC_BASE = '/images/song-art'
 const SUPPORTED   = /\.(wav|mp3|flac|aiff|aif|m4a|ogg)$/i
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000
@@ -162,7 +162,7 @@ async function runPoll() {
   writeManifest(state)
 }
 
-// ─── Manifest (public/Images/song-art/manifest.json) ─────────────────────────
+// ─── Manifest (public/images/song-art/manifest.json) ─────────────────────────
 function writeManifest(state) {
   const entries = Object.values(state).filter((e) => e.status === 'complete' && e.publicUrl)
   const manifest = Object.fromEntries(entries.map((e) => [e.id, e.publicUrl]))

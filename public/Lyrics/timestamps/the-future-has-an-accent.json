@@ -1,0 +1,1516 @@
+{
+  "title": "The Future Has an Accent",
+  "words": [
+    {
+      "word": "My",
+      "start": 43.26,
+      "end": 44.02
+    },
+    {
+      "word": "mother",
+      "start": 44.02,
+      "end": 44.4
+    },
+    {
+      "word": "kept",
+      "start": 44.4,
+      "end": 44.66
+    },
+    {
+      "word": "her",
+      "start": 44.66,
+      "end": 44.88
+    },
+    {
+      "word": "first",
+      "start": 44.88,
+      "end": 45.26
+    },
+    {
+      "word": "name",
+      "start": 45.26,
+      "end": 45.86
+    },
+    {
+      "word": "Like",
+      "start": 45.86,
+      "end": 47.42
+    },
+    {
+      "word": "a",
+      "start": 47.42,
+      "end": 47.78
+    },
+    {
+      "word": "key",
+      "start": 47.78,
+      "end": 48.06
+    },
+    {
+      "word": "in",
+      "start": 48.06,
+      "end": 48.3
+    },
+    {
+      "word": "the",
+      "start": 48.3,
+      "end": 48.42
+    },
+    {
+      "word": "palm",
+      "start": 48.42,
+      "end": 48.74
+    },
+    {
+      "word": "My",
+      "start": 50.28,
+      "end": 50.66
+    },
+    {
+      "word": "father",
+      "start": 50.66,
+      "end": 51.04
+    },
+    {
+      "word": "brought",
+      "start": 51.04,
+      "end": 51.4
+    },
+    {
+      "word": "a",
+      "start": 51.4,
+      "end": 51.86
+    },
+    {
+      "word": "suitcase",
+      "start": 51.86,
+      "end": 52.28
+    },
+    {
+      "word": "And",
+      "start": 52.28,
+      "end": 53.26
+    },
+    {
+      "word": "a",
+      "start": 53.26,
+      "end": 53.42
+    },
+    {
+      "word": "language",
+      "start": 53.42,
+      "end": 53.92
+    },
+    {
+      "word": "full",
+      "start": 53.92,
+      "end": 54.66
+    },
+    {
+      "word": "of",
+      "start": 54.66,
+      "end": 54.94
+    },
+    {
+      "word": "stones",
+      "start": 54.94,
+      "end": 55.8
+    },
+    {
+      "word": "We",
+      "start": 56.58,
+      "end": 57.34
+    },
+    {
+      "word": "learned",
+      "start": 57.34,
+      "end": 57.58
+    },
+    {
+      "word": "no",
+      "start": 57.58,
+      "end": 57.82
+    },
+    {
+      "word": "word",
+      "start": 57.82,
+      "end": 58.08
+    },
+    {
+      "word": "in",
+      "start": 58.08,
+      "end": 58.22
+    },
+    {
+      "word": "two",
+      "start": 58.22,
+      "end": 58.44
+    },
+    {
+      "word": "tones",
+      "start": 58.44,
+      "end": 59.34
+    },
+    {
+      "word": "At",
+      "start": 59.34,
+      "end": 60.7
+    },
+    {
+      "word": "the",
+      "start": 60.7,
+      "end": 60.9
+    },
+    {
+      "word": "table",
+      "start": 60.9,
+      "end": 61.32
+    },
+    {
+      "word": "at",
+      "start": 61.32,
+      "end": 61.74
+    },
+    {
+      "word": "the",
+      "start": 61.74,
+      "end": 61.92
+    },
+    {
+      "word": "gate",
+      "start": 61.92,
+      "end": 62.28
+    },
+    {
+      "word": "Old",
+      "start": 63.3,
+      "end": 64.06
+    },
+    {
+      "word": "words",
+      "start": 64.06,
+      "end": 64.6
+    },
+    {
+      "word": "under",
+      "start": 64.6,
+      "end": 64.9
+    },
+    {
+      "word": "fresh",
+      "start": 64.9,
+      "end": 65.28
+    },
+    {
+      "word": "papers",
+      "start": 65.28,
+      "end": 65.94
+    },
+    {
+      "word": "New",
+      "start": 65.94,
+      "end": 66.52
+    },
+    {
+      "word": "maps",
+      "start": 66.52,
+      "end": 67.0
+    },
+    {
+      "word": "and",
+      "start": 67.0,
+      "end": 67.44
+    },
+    {
+      "word": "worn",
+      "start": 67.44,
+      "end": 67.8
+    },
+    {
+      "word": "out",
+      "start": 67.8,
+      "end": 68.3
+    },
+    {
+      "word": "case",
+      "start": 68.3,
+      "end": 68.74
+    },
+    {
+      "word": "They",
+      "start": 69.92,
+      "end": 70.68
+    },
+    {
+      "word": "said",
+      "start": 70.68,
+      "end": 70.96
+    },
+    {
+      "word": "blend",
+      "start": 70.96,
+      "end": 71.34
+    },
+    {
+      "word": "and",
+      "start": 71.34,
+      "end": 71.64
+    },
+    {
+      "word": "blend",
+      "start": 71.64,
+      "end": 71.98
+    },
+    {
+      "word": "in",
+      "start": 71.98,
+      "end": 72.42
+    },
+    {
+      "word": "But",
+      "start": 72.42,
+      "end": 74.0
+    },
+    {
+      "word": "we",
+      "start": 74.0,
+      "end": 74.2
+    },
+    {
+      "word": "came",
+      "start": 74.2,
+      "end": 74.48
+    },
+    {
+      "word": "with",
+      "start": 74.48,
+      "end": 74.92
+    },
+    {
+      "word": "a",
+      "start": 74.92,
+      "end": 75.04
+    },
+    {
+      "word": "choir",
+      "start": 75.04,
+      "end": 75.58
+    },
+    {
+      "word": "A",
+      "start": 76.58,
+      "end": 77.34
+    },
+    {
+      "word": "little",
+      "start": 77.34,
+      "end": 77.68
+    },
+    {
+      "word": "scar",
+      "start": 77.68,
+      "end": 77.96
+    },
+    {
+      "word": "on",
+      "start": 77.96,
+      "end": 78.28
+    },
+    {
+      "word": "the",
+      "start": 78.28,
+      "end": 78.38
+    },
+    {
+      "word": "forehead",
+      "start": 78.38,
+      "end": 78.88
+    },
+    {
+      "word": "And",
+      "start": 78.88,
+      "end": 80.68
+    },
+    {
+      "word": "a",
+      "start": 80.68,
+      "end": 80.92
+    },
+    {
+      "word": "little",
+      "start": 80.92,
+      "end": 81.22
+    },
+    {
+      "word": "more",
+      "start": 81.22,
+      "end": 81.62
+    },
+    {
+      "word": "fire",
+      "start": 81.62,
+      "end": 82.26
+    },
+    {
+      "word": "The",
+      "start": 83.66,
+      "end": 84.46
+    },
+    {
+      "word": "future",
+      "start": 84.46,
+      "end": 84.72
+    },
+    {
+      "word": "has",
+      "start": 84.72,
+      "end": 85.18
+    },
+    {
+      "word": "an",
+      "start": 85.18,
+      "end": 85.36
+    },
+    {
+      "word": "accent",
+      "start": 85.36,
+      "end": 85.64
+    },
+    {
+      "word": "Here",
+      "start": 85.64,
+      "end": 87.42
+    },
+    {
+      "word": "it",
+      "start": 87.42,
+      "end": 87.76
+    },
+    {
+      "word": "went",
+      "start": 87.76,
+      "end": 88.0
+    },
+    {
+      "word": "and",
+      "start": 88.0,
+      "end": 88.2
+    },
+    {
+      "word": "walked",
+      "start": 88.2,
+      "end": 88.5
+    },
+    {
+      "word": "soon",
+      "start": 88.5,
+      "end": 88.88
+    },
+    {
+      "word": "The",
+      "start": 90.28,
+      "end": 91.08
+    },
+    {
+      "word": "future",
+      "start": 91.08,
+      "end": 91.38
+    },
+    {
+      "word": "has",
+      "start": 91.38,
+      "end": 91.82
+    },
+    {
+      "word": "an",
+      "start": 91.82,
+      "end": 92.0
+    },
+    {
+      "word": "accent",
+      "start": 92.0,
+      "end": 92.34
+    },
+    {
+      "word": "It",
+      "start": 92.34,
+      "end": 93.22
+    },
+    {
+      "word": "comes",
+      "start": 93.22,
+      "end": 93.62
+    },
+    {
+      "word": "with",
+      "start": 93.62,
+      "end": 94.84
+    },
+    {
+      "word": "the",
+      "start": 94.84,
+      "end": 95.08
+    },
+    {
+      "word": "whole",
+      "start": 95.08,
+      "end": 95.52
+    },
+    {
+      "word": "skin",
+      "start": 95.52,
+      "end": 96.1
+    },
+    {
+      "word": "Old",
+      "start": 96.1,
+      "end": 97.4
+    },
+    {
+      "word": "songs",
+      "start": 97.4,
+      "end": 97.74
+    },
+    {
+      "word": "in",
+      "start": 97.74,
+      "end": 98.44
+    },
+    {
+      "word": "the",
+      "start": 98.44,
+      "end": 98.62
+    },
+    {
+      "word": "hallway",
+      "start": 98.62,
+      "end": 99.22
+    },
+    {
+      "word": "Both",
+      "start": 99.22,
+      "end": 100.68
+    },
+    {
+      "word": "teeth",
+      "start": 100.68,
+      "end": 101.18
+    },
+    {
+      "word": "broken",
+      "start": 101.18,
+      "end": 101.56
+    },
+    {
+      "word": "chains",
+      "start": 101.56,
+      "end": 102.18
+    },
+    {
+      "word": "The",
+      "start": 103.6,
+      "end": 104.4
+    },
+    {
+      "word": "future",
+      "start": 104.4,
+      "end": 104.66
+    },
+    {
+      "word": "has",
+      "start": 104.66,
+      "end": 105.16
+    },
+    {
+      "word": "an",
+      "start": 105.16,
+      "end": 105.32
+    },
+    {
+      "word": "accent",
+      "start": 105.32,
+      "end": 105.74
+    },
+    {
+      "word": "And",
+      "start": 105.74,
+      "end": 107.36
+    },
+    {
+      "word": "this",
+      "start": 107.36,
+      "end": 107.64
+    },
+    {
+      "word": "is",
+      "start": 107.64,
+      "end": 107.9
+    },
+    {
+      "word": "our",
+      "start": 107.9,
+      "end": 108.3
+    },
+    {
+      "word": "names",
+      "start": 108.3,
+      "end": 108.92
+    },
+    {
+      "word": "I",
+      "start": 110.88,
+      "end": 111.52
+    },
+    {
+      "word": "got",
+      "start": 111.52,
+      "end": 111.7
+    },
+    {
+      "word": "my",
+      "start": 111.7,
+      "end": 111.9
+    },
+    {
+      "word": "grandmother's",
+      "start": 111.9,
+      "end": 112.58
+    },
+    {
+      "word": "proverb",
+      "start": 112.58,
+      "end": 112.88
+    },
+    {
+      "word": "On",
+      "start": 112.88,
+      "end": 113.44
+    },
+    {
+      "word": "the",
+      "start": 113.44,
+      "end": 113.58
+    },
+    {
+      "word": "tip",
+      "start": 113.58,
+      "end": 113.8
+    },
+    {
+      "word": "of",
+      "start": 113.8,
+      "end": 114.02
+    },
+    {
+      "word": "my",
+      "start": 114.02,
+      "end": 114.2
+    },
+    {
+      "word": "tongue",
+      "start": 114.2,
+      "end": 114.46
+    },
+    {
+      "word": "Got",
+      "start": 114.46,
+      "end": 114.88
+    },
+    {
+      "word": "my",
+      "start": 114.88,
+      "end": 115.22
+    },
+    {
+      "word": "uncle's",
+      "start": 115.22,
+      "end": 115.76
+    },
+    {
+      "word": "hot",
+      "start": 115.76,
+      "end": 115.88
+    },
+    {
+      "word": "laughter",
+      "start": 115.88,
+      "end": 116.14
+    },
+    {
+      "word": "In",
+      "start": 116.14,
+      "end": 116.74
+    },
+    {
+      "word": "the",
+      "start": 116.74,
+      "end": 116.88
+    },
+    {
+      "word": "present,",
+      "start": 116.88,
+      "end": 117.24
+    },
+    {
+      "word": "make",
+      "start": 117.72,
+      "end": 117.8
+    },
+    {
+      "word": "me",
+      "start": 117.8,
+      "end": 118.14
+    },
+    {
+      "word": "younger",
+      "start": 118.14,
+      "end": 118.92
+    },
+    {
+      "word": "On",
+      "start": 120.88,
+      "end": 121.52
+    },
+    {
+      "word": "the",
+      "start": 121.52,
+      "end": 121.88
+    },
+    {
+      "word": "bus",
+      "start": 121.88,
+      "end": 122.14
+    },
+    {
+      "word": "in",
+      "start": 122.14,
+      "end": 122.52
+    },
+    {
+      "word": "the",
+      "start": 122.52,
+      "end": 122.7
+    },
+    {
+      "word": "market",
+      "start": 122.7,
+      "end": 123.08
+    },
+    {
+      "word": "In",
+      "start": 123.08,
+      "end": 123.42
+    },
+    {
+      "word": "the",
+      "start": 123.42,
+      "end": 123.54
+    },
+    {
+      "word": "crowd",
+      "start": 123.54,
+      "end": 123.74
+    },
+    {
+      "word": "in",
+      "start": 123.74,
+      "end": 124.02
+    },
+    {
+      "word": "the",
+      "start": 124.02,
+      "end": 124.18
+    },
+    {
+      "word": "rain",
+      "start": 124.18,
+      "end": 124.5
+    },
+    {
+      "word": "I",
+      "start": 124.5,
+      "end": 124.86
+    },
+    {
+      "word": "hear",
+      "start": 124.86,
+      "end": 125.06
+    },
+    {
+      "word": "a",
+      "start": 125.06,
+      "end": 125.22
+    },
+    {
+      "word": "hoe",
+      "start": 125.22,
+      "end": 125.4
+    },
+    {
+      "word": "And",
+      "start": 125.4,
+      "end": 125.78
+    },
+    {
+      "word": "a",
+      "start": 125.78,
+      "end": 126.04
+    },
+    {
+      "word": "thousand",
+      "start": 126.04,
+      "end": 126.38
+    },
+    {
+      "word": "different",
+      "start": 126.38,
+      "end": 126.86
+    },
+    {
+      "word": "ways",
+      "start": 126.86,
+      "end": 127.16
+    },
+    {
+      "word": "to",
+      "start": 127.16,
+      "end": 127.46
+    },
+    {
+      "word": "say",
+      "start": 127.46,
+      "end": 127.78
+    },
+    {
+      "word": "my",
+      "start": 127.78,
+      "end": 128.12
+    },
+    {
+      "word": "name",
+      "start": 128.12,
+      "end": 129.2
+    },
+    {
+      "word": "They",
+      "start": 129.94,
+      "end": 130.58
+    },
+    {
+      "word": "said",
+      "start": 130.58,
+      "end": 130.9
+    },
+    {
+      "word": "stay",
+      "start": 130.9,
+      "end": 131.32
+    },
+    {
+      "word": "small",
+      "start": 131.32,
+      "end": 132.1
+    },
+    {
+      "word": "Stay",
+      "start": 132.1,
+      "end": 133.1
+    },
+    {
+      "word": "quiet,",
+      "start": 133.1,
+      "end": 133.68
+    },
+    {
+      "word": "but",
+      "start": 133.68,
+      "end": 134.16
+    },
+    {
+      "word": "we",
+      "start": 134.16,
+      "end": 134.36
+    },
+    {
+      "word": "grew",
+      "start": 134.36,
+      "end": 134.56
+    },
+    {
+      "word": "out",
+      "start": 134.56,
+      "end": 134.88
+    },
+    {
+      "word": "loud",
+      "start": 134.88,
+      "end": 135.5
+    },
+    {
+      "word": "Every",
+      "start": 136.62,
+      "end": 137.44
+    },
+    {
+      "word": "boy,",
+      "start": 137.44,
+      "end": 137.82
+    },
+    {
+      "word": "to",
+      "start": 138.04,
+      "end": 138.1
+    },
+    {
+      "word": "God,",
+      "start": 138.1,
+      "end": 138.38
+    },
+    {
+      "word": "a",
+      "start": 138.54,
+      "end": 138.56
+    },
+    {
+      "word": "heartbeat",
+      "start": 138.56,
+      "end": 139.08
+    },
+    {
+      "word": "Every",
+      "start": 139.08,
+      "end": 139.92
+    },
+    {
+      "word": "lost",
+      "start": 139.92,
+      "end": 140.44
+    },
+    {
+      "word": "made",
+      "start": 140.44,
+      "end": 141.1
+    },
+    {
+      "word": "of",
+      "start": 141.1,
+      "end": 141.5
+    },
+    {
+      "word": "pride",
+      "start": 141.5,
+      "end": 142.0
+    },
+    {
+      "word": "The",
+      "start": 143.46,
+      "end": 144.28
+    },
+    {
+      "word": "future",
+      "start": 144.28,
+      "end": 144.58
+    },
+    {
+      "word": "has",
+      "start": 144.58,
+      "end": 145.04
+    },
+    {
+      "word": "an",
+      "start": 145.04,
+      "end": 145.22
+    },
+    {
+      "word": "accent",
+      "start": 145.22,
+      "end": 145.58
+    },
+    {
+      "word": "Here",
+      "start": 145.58,
+      "end": 147.24
+    },
+    {
+      "word": "it",
+      "start": 147.24,
+      "end": 147.62
+    },
+    {
+      "word": "went",
+      "start": 147.62,
+      "end": 147.8
+    },
+    {
+      "word": "and",
+      "start": 147.8,
+      "end": 148.04
+    },
+    {
+      "word": "walked",
+      "start": 148.04,
+      "end": 148.3
+    },
+    {
+      "word": "soon",
+      "start": 148.3,
+      "end": 148.72
+    },
+    {
+      "word": "The",
+      "start": 150.08,
+      "end": 150.9
+    },
+    {
+      "word": "future",
+      "start": 150.9,
+      "end": 151.18
+    },
+    {
+      "word": "has",
+      "start": 151.18,
+      "end": 151.68
+    },
+    {
+      "word": "an",
+      "start": 151.68,
+      "end": 151.82
+    },
+    {
+      "word": "accent",
+      "start": 151.82,
+      "end": 152.22
+    },
+    {
+      "word": "It",
+      "start": 152.22,
+      "end": 153.04
+    },
+    {
+      "word": "comes",
+      "start": 153.04,
+      "end": 153.44
+    },
+    {
+      "word": "with",
+      "start": 153.44,
+      "end": 154.64
+    },
+    {
+      "word": "the",
+      "start": 154.64,
+      "end": 154.88
+    },
+    {
+      "word": "whole",
+      "start": 154.88,
+      "end": 155.14
+    },
+    {
+      "word": "skin",
+      "start": 155.14,
+      "end": 155.92
+    },
+    {
+      "word": "Old",
+      "start": 156.5,
+      "end": 157.18
+    },
+    {
+      "word": "songs",
+      "start": 157.18,
+      "end": 157.52
+    },
+    {
+      "word": "in",
+      "start": 157.52,
+      "end": 158.22
+    },
+    {
+      "word": "the",
+      "start": 158.22,
+      "end": 158.4
+    },
+    {
+      "word": "hallway",
+      "start": 158.4,
+      "end": 158.96
+    },
+    {
+      "word": "Both",
+      "start": 158.96,
+      "end": 160.42
+    },
+    {
+      "word": "teeth",
+      "start": 160.42,
+      "end": 160.9
+    },
+    {
+      "word": "broken",
+      "start": 160.9,
+      "end": 161.32
+    },
+    {
+      "word": "chains",
+      "start": 161.32,
+      "end": 161.92
+    },
+    {
+      "word": "The",
+      "start": 163.34,
+      "end": 164.18
+    },
+    {
+      "word": "future",
+      "start": 164.18,
+      "end": 164.46
+    },
+    {
+      "word": "has",
+      "start": 164.46,
+      "end": 164.84
+    },
+    {
+      "word": "an",
+      "start": 164.84,
+      "end": 165.08
+    },
+    {
+      "word": "accent",
+      "start": 165.08,
+      "end": 165.68
+    },
+    {
+      "word": "It",
+      "start": 165.68,
+      "end": 167.04
+    },
+    {
+      "word": "comes",
+      "start": 167.04,
+      "end": 167.36
+    },
+    {
+      "word": "with",
+      "start": 167.36,
+      "end": 167.72
+    },
+    {
+      "word": "the",
+      "start": 167.72,
+      "end": 167.92
+    },
+    {
+      "word": "whole",
+      "start": 167.92,
+      "end": 169.28
+    },
+    {
+      "word": "skin",
+      "start": 169.28,
+      "end": 172.7
+    },
+    {
+      "word": "Let",
+      "start": 172.7,
+      "end": 172.7
+    },
+    {
+      "word": "it",
+      "start": 172.7,
+      "end": 174.48
+    },
+    {
+      "word": "sound",
+      "start": 174.48,
+      "end": 174.72
+    },
+    {
+      "word": "rough",
+      "start": 174.72,
+      "end": 175.12
+    },
+    {
+      "word": "Let",
+      "start": 175.12,
+      "end": 177.36
+    },
+    {
+      "word": "it",
+      "start": 177.36,
+      "end": 177.74
+    },
+    {
+      "word": "sound",
+      "start": 177.74,
+      "end": 178.16
+    },
+    {
+      "word": "true",
+      "start": 178.16,
+      "end": 178.66
+    },
+    {
+      "word": "Let",
+      "start": 179.82,
+      "end": 180.66
+    },
+    {
+      "word": "it",
+      "start": 180.66,
+      "end": 181.04
+    },
+    {
+      "word": "sound",
+      "start": 181.04,
+      "end": 181.72
+    },
+    {
+      "word": "like",
+      "start": 181.72,
+      "end": 182.3
+    },
+    {
+      "word": "the",
+      "start": 182.3,
+      "end": 182.68
+    },
+    {
+      "word": "road",
+      "start": 182.68,
+      "end": 183.16
+    },
+    {
+      "word": "That",
+      "start": 183.16,
+      "end": 183.54
+    },
+    {
+      "word": "brought",
+      "start": 183.54,
+      "end": 183.92
+    },
+    {
+      "word": "me",
+      "start": 183.92,
+      "end": 184.34
+    },
+    {
+      "word": "to",
+      "start": 184.34,
+      "end": 191.9
+    },
+    {
+      "word": "you",
+      "start": 191.9,
+      "end": 191.9
+    },
+    {
+      "word": "It",
+      "start": 192.9,
+      "end": 193.38
+    },
+    {
+      "word": "carries",
+      "start": 193.38,
+      "end": 193.84
+    },
+    {
+      "word": "my",
+      "start": 193.84,
+      "end": 194.32
+    },
+    {
+      "word": "people",
+      "start": 194.32,
+      "end": 194.88
+    },
+    {
+      "word": "Right",
+      "start": 194.88,
+      "end": 196.74
+    },
+    {
+      "word": "into",
+      "start": 196.74,
+      "end": 197.24
+    },
+    {
+      "word": "the",
+      "start": 197.24,
+      "end": 197.6
+    },
+    {
+      "word": "place",
+      "start": 197.6,
+      "end": 198.74
+    },
+    {
+      "word": "The",
+      "start": 198.74,
+      "end": 200.24
+    },
+    {
+      "word": "future",
+      "start": 200.24,
+      "end": 200.52
+    },
+    {
+      "word": "has",
+      "start": 200.52,
+      "end": 201.0
+    },
+    {
+      "word": "an",
+      "start": 201.0,
+      "end": 201.14
+    },
+    {
+      "word": "accent",
+      "start": 201.14,
+      "end": 201.52
+    },
+    {
+      "word": "Here",
+      "start": 201.52,
+      "end": 203.12
+    },
+    {
+      "word": "it",
+      "start": 203.12,
+      "end": 203.5
+    },
+    {
+      "word": "went",
+      "start": 203.5,
+      "end": 203.72
+    },
+    {
+      "word": "and",
+      "start": 203.72,
+      "end": 203.94
+    },
+    {
+      "word": "walked",
+      "start": 203.94,
+      "end": 204.28
+    },
+    {
+      "word": "soon",
+      "start": 204.28,
+      "end": 204.68
+    },
+    {
+      "word": "The",
+      "start": 205.86,
+      "end": 206.78
+    },
+    {
+      "word": "future",
+      "start": 206.78,
+      "end": 207.04
+    },
+    {
+      "word": "has",
+      "start": 207.04,
+      "end": 207.5
+    },
+    {
+      "word": "an",
+      "start": 207.5,
+      "end": 207.66
+    },
+    {
+      "word": "accent",
+      "start": 207.66,
+      "end": 208.1
+    },
+    {
+      "word": "It",
+      "start": 208.1,
+      "end": 208.84
+    },
+    {
+      "word": "comes",
+      "start": 208.84,
+      "end": 209.26
+    },
+    {
+      "word": "with",
+      "start": 209.26,
+      "end": 210.46
+    },
+    {
+      "word": "the",
+      "start": 210.46,
+      "end": 210.7
+    },
+    {
+      "word": "whole",
+      "start": 210.7,
+      "end": 211.06
+    },
+    {
+      "word": "skin",
+      "start": 211.06,
+      "end": 212.52
+    },
+    {
+      "word": "Old",
+      "start": 212.52,
+      "end": 213.0
+    },
+    {
+      "word": "songs",
+      "start": 213.0,
+      "end": 213.28
+    },
+    {
+      "word": "in",
+      "start": 213.28,
+      "end": 214.0
+    },
+    {
+      "word": "the",
+      "start": 214.0,
+      "end": 214.18
+    },
+    {
+      "word": "hallway",
+      "start": 214.18,
+      "end": 214.72
+    },
+    {
+      "word": "Both",
+      "start": 214.72,
+      "end": 216.16
+    },
+    {
+      "word": "teeth",
+      "start": 216.16,
+      "end": 216.62
+    },
+    {
+      "word": "broken",
+      "start": 216.62,
+      "end": 217.14
+    },
+    {
+      "word": "chains",
+      "start": 217.14,
+      "end": 217.64
+    },
+    {
+      "word": "The",
+      "start": 217.64,
+      "end": 218.52
+    },
+    {
+      "word": "future",
+      "start": 218.52,
+      "end": 220.14
+    },
+    {
+      "word": "has",
+      "start": 220.14,
+      "end": 220.6
+    },
+    {
+      "word": "an",
+      "start": 220.6,
+      "end": 220.8
+    },
+    {
+      "word": "accent",
+      "start": 220.8,
+      "end": 221.12
+    },
+    {
+      "word": "And",
+      "start": 221.12,
+      "end": 222.82
+    },
+    {
+      "word": "this",
+      "start": 222.82,
+      "end": 223.04
+    },
+    {
+      "word": "is",
+      "start": 223.04,
+      "end": 223.34
+    },
+    {
+      "word": "our",
+      "start": 223.34,
+      "end": 223.66
+    },
+    {
+      "word": "names",
+      "start": 223.66,
+      "end": 224.02
+    },
+    {
+      "word": "The",
+      "start": 248.52,
+      "end": 249.26
+    },
+    {
+      "word": "future",
+      "start": 249.26,
+      "end": 249.5
+    },
+    {
+      "word": "has",
+      "start": 249.5,
+      "end": 249.9
+    },
+    {
+      "word": "an",
+      "start": 249.9,
+      "end": 250.12
+    },
+    {
+      "word": "accent",
+      "start": 250.12,
+      "end": 250.52
+    },
+    {
+      "word": "And",
+      "start": 250.52,
+      "end": 251.22
+    },
+    {
+      "word": "we",
+      "start": 251.22,
+      "end": 251.42
+    },
+    {
+      "word": "wear",
+      "start": 251.42,
+      "end": 251.72
+    },
+    {
+      "word": "it",
+      "start": 251.72,
+      "end": 252.06
+    },
+    {
+      "word": "like",
+      "start": 252.06,
+      "end": 252.7
+    },
+    {
+      "word": "a",
+      "start": 252.7,
+      "end": 252.9
+    },
+    {
+      "word": "flame",
+      "start": 252.9,
+      "end": 253.36
+    }
+  ],
+  "duration": 0
+}

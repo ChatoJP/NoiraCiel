@@ -2,19 +2,86 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import TrackCard from './player/TrackCard'
+import { useAudio } from '@/context/AudioContext'
 import type { MusicCatalogue, Track } from '@/lib/types'
+import VideoModal from '@/components/VideoModal'
 
 const SPOTIFY_URL = 'https://open.spotify.com/album/49QDSwM3584OawGtC0O7eR?si=yTeObxPpRBivSExi1ehuXg'
 
-const CHAPTER_EMOTIONS: Record<number, string> = {
-  1:'The lifelong question.', 2:'The hollowness of achievement.', 3:'The invisible inheritance.',
-  4:'The weight of unspoken words.', 5:'Dignity in honest work.', 6:'The grace of companionship.',
-  7:"A parent's silent vigil.", 8:'Recognition — love that was always there.', 9:'The call that changes darkness.',
-  10:'The house that holds memory.', 11:'The tenderness of simplicity.', 12:"Love's most silent language.",
-  13:'Grief that found its place.', 14:'Patience as a radical act.', 15:'The courage of revision.',
-  16:'Gratitude for borrowed time.', 17:'Freedom as clarity.',
-}
+const ALBUM_ORDER = [
+  {
+    slug: 'main',
+    label: 'The Life Lessons I Hope You Learn',
+    genre: 'Atlantic Noir · Sea-Soul',
+    href: '/music/the-life-lessons',
+    coverSrc: '/images/album-cover.png',
+  },
+  {
+    slug: 'the-velvet-machine',
+    label: 'The Velvet Machine',
+    genre: 'Electronic · Fado · Atlantic Noir',
+    href: '/music/the-velvet-machine',
+    coverSrc: '/images/song-art/the-velvet-machine.jpg',
+  },
+  {
+    slug: 'still-we-sail',
+    label: 'Still We Sail',
+    genre: 'Atlantic Noir · Fado · Sea-Soul',
+    href: '/music/still-we-sail',
+    coverSrc: '/images/song-art/still-we-sail.jpg',
+  },
+  {
+    slug: 'jazz-sessions',
+    label: 'NoiraCiel Jazz Sessions',
+    genre: 'Jazz · Atlantic Noir',
+    href: '/music/jazz-sessions',
+    coverSrc: '/images/album-covers/jazz-sessions.jpg',
+  },
+  {
+    slug: 'blind-angel',
+    label: 'The Blind Angel — Intimate Metal Sessions',
+    genre: 'Intimate Metal',
+    href: '/music/blind-angel',
+    coverSrc: '/images/album-covers/blind-angel.jpg',
+  },
+  {
+    slug: 'whats-youre-made-of',
+    label: "What You're Made Of",
+    genre: 'Hip-Hop · DnB · Soul · Trap · Piano & Violin',
+    href: '/music/whats-youre-made-of',
+    coverSrc: '/images/song-art/whats-youre-made-of.jpg',
+  },
+  {
+    slug: 'the-sacred-drift',
+    label: 'The Sacred Drift',
+    genre: 'Indie Pop · R&B · DnB · Trip-Pop · Psych · Mantras',
+    href: '/music/the-sacred-drift',
+    coverSrc: '/images/song-art/the-sacred-drift.jpg',
+  },
+  {
+    slug: 'funk-my-way-in',
+    label: 'Funk My Way In',
+    genre: 'Funk · Soul · Groove',
+    href: '/music/funk-my-way-in',
+    coverSrc: '/images/song-art/the-work-nobody-sees.jpg',
+  },
+  {
+    slug: 'world-musics',
+    label: 'World Musics',
+    genre: 'World Music · African · Latin · Global',
+    href: '/music/world-musics',
+    coverSrc: '/images/song-art/so-hum.jpg',
+  },
+  {
+    slug: 'reggae-sessions',
+    label: 'Reggae Sessions',
+    genre: 'Reggae · Roots · Dub',
+    href: '/music/reggae-sessions',
+    coverSrc: '/images/song-art/the-quiet-revolution.jpg',
+  },
+]
+
+type AlbumMeta = typeof ALBUM_ORDER[0]
 
 function SpotifyIcon({ className }: { className?: string }) {
   return (
@@ -24,19 +91,171 @@ function SpotifyIcon({ className }: { className?: string }) {
   )
 }
 
-function SearchBar({ value, onChange }: { value: string; onChange: (v: string) => void }) {
+function Equalizer() {
   return (
-    <div className="relative">
-      <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-noir-silver/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-      </svg>
-      <input
-        type="text"
-        placeholder="Search tracks..."
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className="w-full pl-10 pr-4 py-2.5 bg-noir-deep/60 border border-noir-silver/15 text-noir-ivory font-body text-sm placeholder-noir-silver/30 focus:outline-none focus:border-noir-gold/40 transition-colors"
-      />
+    <div className="flex items-end gap-[2px] h-3.5 w-3.5">
+      {['animate-equalizer-1','animate-equalizer-2','animate-equalizer-3','animate-equalizer-4','animate-equalizer-5'].map((cls, i) => (
+        <div key={i} className={`w-0.5 bg-noir-gold rounded-full ${cls}`} style={{ animationDelay: `${i * 0.07}s` }} />
+      ))}
+    </div>
+  )
+}
+
+function CompactTrackRow({ track, playlist, index, isMain }: { track: Track; playlist: Track[]; index: number; isMain: boolean }) {
+  const { currentTrack, isPlaying, play, toggle } = useAudio()
+  const [videoOpen, setVideoOpen] = useState(false)
+  const isCurrent = currentTrack?.id === track.id
+
+  const handlePlay = () => {
+    if (isCurrent) toggle()
+    else play(track, playlist)
+  }
+
+  return (
+    <>
+    {videoOpen && track.lyricVideoUrl && (
+      <VideoModal url={track.lyricVideoUrl} title={track.title} onClose={() => setVideoOpen(false)} />
+    )}
+    <div
+      className={`group flex items-center gap-3 px-3 py-3 border-b border-noir-silver/8 last:border-0 transition-all duration-200 cursor-pointer ${
+        isCurrent ? 'bg-noir-gold/6' : 'hover:bg-noir-silver/5'
+      }`}
+      onClick={handlePlay}
+    >
+      {/* Number / play */}
+      <div className="w-6 flex-shrink-0 flex items-center justify-center">
+        {isCurrent && isPlaying ? (
+          <Equalizer />
+        ) : isCurrent ? (
+          <svg className="w-3.5 h-3.5 text-noir-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+        ) : (
+          <>
+            <span className="font-body text-[10px] tabular-nums text-noir-silver/35 group-hover:hidden">
+              {String(track.trackNumber ?? index + 1).padStart(2, '0')}
+            </span>
+            <svg className="w-3.5 h-3.5 hidden group-hover:block text-noir-silver/80 hover:text-noir-gold transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+          </>
+        )}
+      </div>
+
+      {/* Thumbnail */}
+      <div className="w-8 h-8 flex-shrink-0 overflow-hidden border border-noir-silver/10">
+        {track.songArtUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={track.songArtUrl} alt="" className="w-full h-full object-cover" />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-br from-noir-navy to-noir-atlantic" />
+        )}
+      </div>
+
+      {/* Title */}
+      <span className={`flex-1 min-w-0 font-body text-sm truncate transition-colors ${isCurrent ? 'text-noir-gold' : 'text-noir-ivory'}`}>
+        {isCurrent && <span className="inline-block w-1.5 h-1.5 rounded-full bg-noir-gold mr-2 align-middle animate-pulse-gold" />}
+        {track.title}
+      </span>
+
+      {/* Lyric video button */}
+      {track.lyricVideoUrl && (
+        <button
+          onClick={(e) => { e.stopPropagation(); setVideoOpen(true) }}
+          className="hidden group-hover:flex flex-shrink-0 items-center gap-1 font-body text-[9px] tracking-[0.12em] uppercase text-noir-gold/55 hover:text-noir-gold border border-noir-gold/20 hover:border-noir-gold/50 px-1.5 py-0.5 transition-all"
+          title="Watch lyric video"
+        >
+          <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+          Video
+        </button>
+      )}
+
+      {/* Chapter link — main album only, hover */}
+      {isMain && (
+        <Link
+          href={`/songs/${track.slug}`}
+          className="hidden group-hover:flex flex-shrink-0 items-center gap-0.5 font-body text-[9px] tracking-[0.15em] uppercase text-noir-silver/40 hover:text-noir-gold transition-colors"
+          onClick={(e) => e.stopPropagation()}
+        >
+          Chapter
+          <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </Link>
+      )}
+
+      {/* Duration */}
+      <span className="font-body text-[10px] text-noir-silver/45 flex-shrink-0 tabular-nums">
+        {track.durationFormatted}
+      </span>
+    </div>
+    </>
+  )
+}
+
+function AlbumBlock({ meta, tracks }: { meta: AlbumMeta; tracks: Track[] }) {
+  const [expanded, setExpanded] = useState(meta.slug === 'main')
+  const { setPlaylistAndPlay } = useAudio()
+
+  if (tracks.length === 0) return null
+
+  return (
+    <div className="border border-noir-silver/10 hover:border-noir-gold/18 hover:shadow-[0_4px_20px_rgba(0,0,0,0.35)] transition-all duration-400">
+      {/* Header */}
+      <div className="flex items-center gap-4 px-4 py-3.5 bg-noir-deep/20">
+        {/* Cover */}
+        <div className="w-10 h-10 flex-shrink-0 overflow-hidden border border-noir-gold/15 group-hover:border-noir-gold/30 transition-colors duration-300">
+          {meta.coverSrc ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={meta.coverSrc} alt={meta.label} className="w-full h-full object-cover" />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-[#0d1525] to-noir-black" />
+          )}
+        </div>
+
+        {/* Title + genre */}
+        <div className="flex-1 min-w-0">
+          <p className="font-body text-[9px] tracking-[0.25em] uppercase text-noir-gold/60">{meta.genre}</p>
+          <p className="font-heading italic text-sm text-noir-ivory/90 truncate leading-tight mt-0.5">{meta.label}</p>
+        </div>
+
+        {/* Track count */}
+        <span className="font-body text-[10px] text-noir-silver/45 flex-shrink-0 hidden sm:block">
+          {tracks.length} tracks
+        </span>
+
+        {/* Play All */}
+        <button
+          onClick={() => { setPlaylistAndPlay(tracks, 0); setExpanded(true) }}
+          className="flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 bg-noir-gold/8 border border-noir-gold/30 text-noir-gold/90 font-body text-[9px] tracking-[0.2em] uppercase hover:bg-noir-gold/15 hover:border-noir-gold/50 hover:text-noir-gold hover:shadow-[0_0_16px_rgba(196,149,58,0.12)] transition-all duration-300"
+        >
+          <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+          Play
+        </button>
+
+        {/* Expand toggle */}
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="flex-shrink-0 text-noir-silver/40 hover:text-noir-ivory transition-colors"
+          aria-label={expanded ? 'Collapse' : 'Expand'}
+        >
+          <svg className={`w-4 h-4 transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+      </div>
+
+      {/* Track list */}
+      {expanded && (
+        <>
+          {tracks.map((track, i) => (
+            <CompactTrackRow key={track.id} track={track} playlist={tracks} index={i} isMain={true} />
+          ))}
+          <div className="px-4 py-3 border-t border-noir-silver/8">
+            <Link href={meta.href} className="font-body text-[10px] tracking-[0.2em] uppercase text-noir-silver/45 hover:text-noir-gold transition-colors duration-300">
+              Full album →
+            </Link>
+          </div>
+        </>
+      )}
     </div>
   )
 }
@@ -44,153 +263,79 @@ function SearchBar({ value, onChange }: { value: string; onChange: (v: string) =
 export default function MusicSection() {
   const [catalogue, setCatalogue] = useState<MusicCatalogue | null>(null)
   const [loading, setLoading] = useState(true)
-  const [search, setSearch] = useState('')
-  const [view, setView] = useState<'list' | 'grid'>('list')
 
   useEffect(() => {
     fetch('/api/music')
       .then((r) => r.json())
-      .then((data: MusicCatalogue) => {
-        setCatalogue(data)
-        setLoading(false)
-      })
+      .then((data: MusicCatalogue) => { setCatalogue(data); setLoading(false) })
       .catch(() => setLoading(false))
   }, [])
 
-  const filtered: Track[] = (catalogue?.tracks || []).filter((t) =>
-    !search || t.title.toLowerCase().includes(search.toLowerCase()) || (t.artist || '').toLowerCase().includes(search.toLowerCase())
-  )
+  const albumsWithTracks = ALBUM_ORDER.map(meta => ({
+    meta,
+    tracks: (catalogue?.tracks || []).filter(t => t.albumSlug === meta.slug),
+  })).filter(a => a.tracks.length > 0)
 
   return (
     <section id="music" className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        {/* Section header */}
+
+        {/* Header */}
         <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
-            <p className="font-body text-xs tracking-[0.35em] text-noir-gold/60 uppercase mb-2">
-              {catalogue?.albumMeta?.title ?? 'The Catalogue'}
-            </p>
-            <h2 className="font-heading text-5xl md:text-6xl text-noir-ivory font-light tracking-wide">
-              Music
-            </h2>
+            <p className="font-body text-xs tracking-[0.35em] text-noir-gold/65 uppercase mb-2">Discography</p>
+            <h2 className="font-heading text-5xl md:text-6xl text-noir-ivory font-light tracking-wide">Music</h2>
             {catalogue && (
-              <p className="font-body text-sm text-noir-silver/40 mt-3">
-                {catalogue.total} track{catalogue.total !== 1 ? 's' : ''}
-                {catalogue.albumMeta?.totalDurationFormatted && (
-                  <span> · {catalogue.albumMeta.totalDurationFormatted}</span>
-                )}
+              <p className="font-body text-sm text-noir-silver/50 mt-3">
+                {albumsWithTracks.length} albums · {catalogue.tracks.length} tracks
               </p>
             )}
           </div>
-
           <div className="flex items-center gap-3">
-            {/* Spotify CTA */}
             <a
               href={SPOTIFY_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 border border-[#1DB954]/30 text-[#1DB954]/70 font-body text-xs tracking-[0.15em] uppercase hover:bg-[#1DB954]/10 hover:text-[#1DB954] transition-all"
+              className="inline-flex items-center gap-2 px-4 py-2 border border-[#1DB954]/35 text-[#1DB954]/75 font-body text-xs tracking-[0.18em] uppercase hover:bg-[#1DB954]/10 hover:text-[#1DB954] hover:border-[#1DB954]/55 hover:shadow-[0_0_16px_rgba(29,185,84,0.1)] transition-all duration-300"
+              title="The Life Lessons I Hope You Learn — on Spotify"
             >
               <SpotifyIcon className="w-3.5 h-3.5" />
-              Spotify
+              Life Lessons · Spotify
             </a>
-
-            {/* View toggle */}
-            <div className="flex border border-noir-silver/15">
-              <button
-                onClick={() => setView('list')}
-                className={`px-3 py-2 transition-colors ${view === 'list' ? 'bg-noir-silver/15 text-noir-ivory' : 'text-noir-silver/40 hover:text-noir-ivory'}`}
-              >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z" />
-                </svg>
-              </button>
-              <button
-                onClick={() => setView('grid')}
-                className={`px-3 py-2 transition-colors ${view === 'grid' ? 'bg-noir-silver/15 text-noir-ivory' : 'text-noir-silver/40 hover:text-noir-ivory'}`}
-              >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M3 3h7v7H3V3zm0 11h7v7H3v-7zm11-11h7v7h-7V3zm0 11h7v7h-7v-7z" />
-                </svg>
-              </button>
-            </div>
+            <Link
+              href="/music"
+              className="inline-flex items-center gap-2 px-4 py-2 border border-noir-silver/20 text-noir-silver/65 font-body text-xs tracking-[0.18em] uppercase hover:border-noir-gold/35 hover:text-noir-ivory transition-all duration-300"
+            >
+              All albums
+            </Link>
           </div>
         </div>
 
-        {/* Search */}
-        <div className="mb-6 max-w-sm">
-          <SearchBar value={search} onChange={setSearch} />
-        </div>
-
-        {/* Loading skeleton */}
+        {/* Loading */}
         {loading && (
           <div className="space-y-3">
-            {[...Array(8)].map((_, i) => (
-              <div key={i} className="h-16 bg-noir-deep/40 animate-pulse" style={{ animationDelay: `${i * 0.1}s` }} />
+            {[...Array(3)].map((_, i) => (
+              <div key={i} className="h-16 bg-noir-deep/40 animate-pulse" style={{ animationDelay: `${i * 0.15}s` }} />
             ))}
           </div>
         )}
 
-        {!loading && filtered.length === 0 && (
-          <div className="text-center py-20">
-            <p className="font-heading italic text-xl text-noir-silver/40">No tracks found.</p>
+        {/* Albums */}
+        {!loading && (
+          <div className="space-y-4">
+            {albumsWithTracks.map(({ meta, tracks }) => (
+              <AlbumBlock key={meta.slug} meta={meta} tracks={tracks} />
+            ))}
           </div>
         )}
 
-        {!loading && filtered.length > 0 && (
-          <>
-            {view === 'list' ? (
-              <div className="border border-noir-silver/10">
-                <div className="flex items-center gap-4 px-4 py-2 border-b border-noir-silver/10">
-                  <span className="w-8 font-body text-[10px] tracking-[0.2em] text-noir-silver/30 uppercase">#</span>
-                  <span className="w-14 flex-shrink-0" />
-                  <span className="flex-1 font-body text-[10px] tracking-[0.2em] text-noir-silver/30 uppercase">Chapter</span>
-                  <span className="hidden sm:block w-16 font-body text-[10px] tracking-[0.2em] text-noir-silver/30 uppercase">Format</span>
-                  <span className="font-body text-[10px] tracking-[0.2em] text-noir-silver/30 uppercase w-10 text-right">Time</span>
-                </div>
-                {filtered.map((track, i) => (
-                  <div key={track.id} className="group relative">
-                    <TrackCard track={track} playlist={filtered} index={i} variant="list" />
-                    {/* Chapter link on hover */}
-                    <Link
-                      href={`/songs/${track.slug}`}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 hidden group-hover:flex items-center gap-1 font-body text-[10px] tracking-[0.15em] text-noir-silver/40 hover:text-noir-gold uppercase transition-colors bg-noir-black/80 px-2 py-1"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      Open
-                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                {filtered.map((track, i) => (
-                  <div key={track.id} className="relative group">
-                    <TrackCard track={track} playlist={filtered} index={i} variant="grid" />
-                    <Link
-                      href={`/songs/${track.slug}`}
-                      className="absolute bottom-0 left-0 right-0 py-1.5 bg-noir-void/90 text-center font-body text-[9px] tracking-[0.2em] text-noir-silver/50 hover:text-noir-gold uppercase transition-colors translate-y-full group-hover:translate-y-0 duration-200"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      {CHAPTER_EMOTIONS[track.trackNumber ?? 0] ?? 'Open chapter'}
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            )}
-          </>
-        )}
-
-        {/* Bottom: full album link + Spotify */}
-        <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-noir-silver/10">
+        {/* Footer */}
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-noir-silver/10">
           <Link
             href="/music"
-            className="inline-flex items-center gap-3 font-body text-sm tracking-[0.15em] uppercase text-noir-silver/60 hover:text-noir-ivory border-b border-noir-silver/20 hover:border-noir-ivory pb-1 transition-all duration-300"
+            className="inline-flex items-center gap-3 font-body text-sm tracking-[0.15em] uppercase text-noir-silver/65 hover:text-noir-ivory border-b border-noir-silver/20 hover:border-noir-gold/50 pb-1 transition-all duration-300"
           >
-            Full album — lyrics & tracklist
+            Full discography — lyrics & tracklists
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -200,11 +345,13 @@ export default function MusicSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-body text-xs tracking-[0.15em] uppercase text-[#1DB954]/60 hover:text-[#1DB954] transition-colors"
+            title="The Life Lessons I Hope You Learn — on Spotify"
           >
             <SpotifyIcon className="w-4 h-4" />
-            Open on Spotify
+            Life Lessons on Spotify
           </a>
         </div>
+
       </div>
     </section>
   )

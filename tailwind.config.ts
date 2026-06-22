@@ -5,10 +5,14 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/features/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       colors: {
+        // Dynamic theme accent — controlled by CSS variable, changes per album/song
+        't-accent': 'rgb(var(--t-accent-rgb) / <alpha-value>)',
+        't-tint':   'rgb(var(--t-bg-tint-rgb) / <alpha-value>)',
         noir: {
           void: '#04040A',
           black: '#080810',

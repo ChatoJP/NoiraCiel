@@ -4,7 +4,7 @@
  *
  * Generates 6 ultra-dark atmospheric backgrounds for lyric cards (Instagram etc.)
  * Each is 1:1 square, 80-90% dark, designed to have text overlaid.
- * Output: public/Images/lyric-backgrounds/{id}.jpg
+ * Output: public/images/lyric-backgrounds/{id}.jpg
  *
  * USAGE
  *   node scripts/generate-lyric-backgrounds.js            # dry-run
@@ -27,7 +27,7 @@ const { loadState, saveState, isComplete, isPending, blankEntry } = require('./l
 loadEnv()
 
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'lyric-backgrounds')
-const PUBLIC_BASE = '/Images/lyric-backgrounds'
+const PUBLIC_BASE = '/images/lyric-backgrounds'
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000
 

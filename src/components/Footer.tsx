@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import { ALBUM_META } from '@/lib/musicScanner'
+import FooterQuote from '@/components/FooterQuote'
 
 const STREAMING = [
   {
@@ -49,23 +51,21 @@ export default function Footer() {
 
         {/* Large centred wordmark */}
         <div className="flex flex-col items-center mb-16 text-center">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="mb-5 opacity-50">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="mb-5 opacity-65">
             <polygon points="16,2 30,16 16,30 2,16" stroke="#C4953A" strokeWidth="1" fill="none"/>
             <circle cx="16" cy="16" r="1.8" fill="#C4953A"/>
           </svg>
-          <p className="font-heading text-3xl md:text-4xl tracking-[0.3em] text-noir-ivory/80 mb-2 uppercase">NoiraCiel</p>
-          <p className="font-body text-[10px] tracking-[0.45em] text-noir-silver/30 uppercase">
+          <p className="font-heading text-3xl md:text-4xl tracking-[0.3em] text-noir-ivory/85 mb-2 uppercase">NoiraCiel</p>
+          <p className="font-body text-[10px] tracking-[0.45em] text-noir-silver/40 uppercase">
             Atlantic Noir · Sea-Soul
           </p>
-          <p className="font-heading italic text-sm text-noir-silver/25 mt-3 max-w-xs">
-            Songs from the dark edge of memory.
-          </p>
+          <FooterQuote />
         </div>
 
         {/* Divider */}
         <div className="flex items-center gap-4 mb-14">
           <div className="flex-1 h-px bg-noir-silver/8" />
-          <div className="w-1 h-1 rounded-full bg-noir-gold/30" />
+          <div className="w-1 h-1 rounded-full bg-noir-gold/40" />
           <div className="flex-1 h-px bg-noir-silver/8" />
         </div>
 
@@ -74,45 +74,55 @@ export default function Footer() {
 
           {/* Album */}
           <div>
-            <p className="font-body text-[9px] tracking-[0.45em] text-noir-silver/25 uppercase mb-5">The Album</p>
+            <p className="font-body text-[9px] tracking-[0.45em] text-noir-silver/35 uppercase mb-5">The Album</p>
             <div className="flex items-start gap-4 mb-4">
               {/* Album cover thumbnail */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/Images/album-cover.png"
+                src="https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-cover.png"
                 alt="The Life Lessons I Hope You Learn"
                 className="w-14 h-14 object-cover border border-noir-gold/15 flex-shrink-0"
               />
               <div>
-                <p className="font-heading text-base text-noir-ivory/60 italic leading-snug mb-1">
+                <p className="font-heading text-base text-noir-ivory/70 italic leading-snug mb-1">
                   The Life Lessons<br />I Hope You Learn
                 </p>
-                <p className="font-body text-xs text-noir-silver/30">17 songs · {year}</p>
+                <p className="font-body text-xs text-noir-silver/40">17 songs · {year}</p>
               </div>
             </div>
           </div>
 
           {/* Navigation */}
           <div>
-            <p className="font-body text-[9px] tracking-[0.45em] text-noir-silver/25 uppercase mb-5">Navigate</p>
+            <p className="font-body text-[9px] tracking-[0.45em] text-noir-silver/35 uppercase mb-5">Navigate</p>
             <ul className="space-y-2.5">
               {[
-                ['Music',      '#music'],
-                ['Gallery',    '#gallery'],
-                ['Videos',     '#videos'],
-                ['Merch',      '#merch'],
-                ['The World',  '#world'],
-                ['Biography',  '#biography'],
-                ['Press Kit',  '#press'],
-                ['Contact',    '#contact'],
+                ['Music',        '#music'],
+                ['Gallery',      '#gallery'],
+                ['Videos',       '#videos'],
+                ['Merch',        '#merch'],
+                ['The World',    '#world'],
+                ['Biography',    '#biography'],
+                ['Press Kit',    '#press'],
+                ['Contact',      '#contact'],
+                ['Memory Atlas', '/memory-atlas'],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <a
-                    href={href}
-                    className="font-body text-xs text-noir-silver/40 hover:text-noir-ivory transition-colors tracking-wide"
-                  >
-                    {label}
-                  </a>
+                  {href.startsWith('/') ? (
+                    <Link
+                      href={href}
+                      className="font-body text-xs text-noir-gold/50 hover:text-noir-gold transition-colors tracking-wide"
+                    >
+                      {label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={href}
+                      className="font-body text-xs text-noir-silver/50 hover:text-noir-ivory transition-colors tracking-wide"
+                    >
+                      {label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -120,7 +130,7 @@ export default function Footer() {
 
           {/* Listen Now */}
           <div>
-            <p className="font-body text-[9px] tracking-[0.45em] text-noir-silver/25 uppercase mb-5">Listen Now</p>
+            <p className="font-body text-[9px] tracking-[0.45em] text-noir-silver/35 uppercase mb-5">Listen Now</p>
             <p className="font-heading italic text-sm text-noir-ivory/35 leading-snug mb-5">
               Now available on all<br />major platforms.
             </p>
@@ -134,15 +144,17 @@ export default function Footer() {
                   className="flex items-center gap-3 group"
                 >
                   <span
-                    className="flex-shrink-0 opacity-60 group-hover:opacity-100 transition-opacity"
+                    className="flex-shrink-0 opacity-70 group-hover:opacity-100 transition-opacity"
                     style={{ color }}
                   >
                     {icon}
                   </span>
-                  <span className="font-body text-xs text-noir-silver/40 group-hover:text-noir-ivory transition-colors tracking-wide">
+                  <span className="font-body text-xs text-noir-silver/50 group-hover:text-noir-ivory transition-colors tracking-wide">
                     {label}
                   </span>
-                  <span className="text-noir-silver/20 text-xs ml-auto group-hover:text-noir-gold/50 transition-colors">↗</span>
+                  <svg className="w-3 h-3 ml-auto text-noir-silver/20 group-hover:text-noir-gold/50 transition-colors flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
                 </a>
               ))}
             </div>
@@ -151,12 +163,12 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 border-t border-noir-silver/6 gap-4">
-          <p className="font-body text-[9px] text-noir-silver/20 tracking-wide">
+          <p className="font-body text-[9px] text-noir-silver/30 tracking-wide">
             © {year} NoiraCiel. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <div className="w-1 h-1 rounded-full bg-noir-gold/35 animate-pulse-gold" />
-            <span className="font-body text-[9px] tracking-[0.3em] text-noir-silver/18 uppercase">
+            <span className="font-body text-[9px] tracking-[0.3em] text-noir-silver/28 uppercase">
               Atlantic Noir · Digital Art Universe
             </span>
           </div>

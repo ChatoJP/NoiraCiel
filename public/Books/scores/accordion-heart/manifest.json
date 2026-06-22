@@ -1,0 +1,11 @@
+{
+  "slug": "accordion-heart",
+  "stems": [
+    "other",
+    "vocals"
+  ],
+  "pages": {
+    "other": 4,
+    "vocals": 4
+  }
+}

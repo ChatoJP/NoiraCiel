@@ -1,0 +1,227 @@
+{
+  "songId": "the-port-we-cannot-find",
+  "slug": "the-port-we-cannot-find",
+  "title": "The Port We Cannot Find",
+  "album": "Still We Sail",
+  "albumSlug": "still-we-sail",
+  "albumCode": null,
+  "trackNumber": 9,
+  "artist": "NoiraCiel",
+  "duration": null,
+  "durationFormatted": "",
+  "mood": "Atlantic noir · trip-pop · drum & bass · saudade · exile",
+  "style": "cinematic · dark Atlantic · premium production",
+  "hasLyrics": true,
+  "lyricsExcerpt": "",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/the-port-we-cannot-find.json",
+  "storyPath": null,
+  "artworkPath": "public/images/song-art/the-port-we-cannot-find.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-port-we-cannot-find.jpg",
+  "audioUrl": "/api/music/Still_We_Sail/audio/09_the_port_we_cannot_find_v1.mp3",
+  "emotion": "The phone call that changes the quality of darkness — someone always present.",
+  "scene": "A small room at night, rain on the window, a single lamp. A phone call received — the darkness shifts. Morning light arriving slowly through thin curtains as reassurance settles.",
+  "symbols": "rain on window, single lamp, phone call, morning light, thin curtains",
+  "arc": [
+    "The dark room — alone, rain, lamp",
+    "The call — light changing",
+    "The morning — curtains, quiet reassurance"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the light source — a single candle or lamp pulses with one slow organic breath, brightness +5% then back, surrounding darkness completely unchanged. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "light_flicker",
+      "sourceImagePath": "public/images/song-art/the-port-we-cannot-find.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-port-we-cannot-find.jpg",
+      "videoLoopPath": null,
+      "publicUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/the-port-we-cannot-find/loop.mp4",
+      "taskId": "0f0f3ff53f41554d990f5f20c3940e2c",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:43:47.659Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "a single light source pulses with slow organic warmth, a breath-like rhythm, surrounding darkness unchanged. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      },
+      "remoteUrl": null,
+      "localPath": null,
+      "r2Url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/the-port-we-cannot-find/loop.mp4"
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"The Port We Cannot Find\" from album \"Still We Sail\".\nShot role: opening.\nScene: The dark room — alone, rain, lamp.\nCamera: slow push-in. Framing: wide establishing scene.\nMood: The phone call that changes the quality of darkness — someone always present..\nVisual symbols: rain on window, single lamp, phone call, morning light, thin curtains.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-port-we-cannot-find/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "detail",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"The Port We Cannot Find\" from album \"Still We Sail\".\nShot role: detail.\nScene: The call — light changing.\nCamera: locked close-up. Framing: symbolic object or hands.\nMood: The phone call that changes the quality of darkness — someone always present..\nVisual symbols: rain on window, single lamp, phone call, morning light, thin curtains.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-port-we-cannot-find/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "emotion",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"The Port We Cannot Find\" from album \"Still We Sail\".\nShot role: emotion.\nScene: The morning — curtains, quiet reassurance.\nCamera: gentle dolly. Framing: environment, no visible faces.\nMood: The phone call that changes the quality of darkness — someone always present..\nVisual symbols: rain on window, single lamp, phone call, morning light, thin curtains.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-port-we-cannot-find/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "symbol",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"The Port We Cannot Find\" from album \"Still We Sail\".\nShot role: symbol.\nScene: A small room at night, rain on the window, a single lamp.\nCamera: overhead poetic tableaux. Framing: abstract symbolic image.\nMood: The phone call that changes the quality of darkness — someone always present..\nVisual symbols: rain on window, single lamp, phone call, morning light, thin curtains.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-port-we-cannot-find/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"The Port We Cannot Find\" from album \"Still We Sail\".\nShot role: closing.\nScene:  A phone call received — the darkness shifts.\nCamera: slow pull-back. Framing: wide, figure or object small in frame.\nMood: The phone call that changes the quality of darkness — someone always present..\nVisual symbols: rain on window, single lamp, phone call, morning light, thin curtains.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-port-we-cannot-find/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"The Port We Cannot Find\" (Still We Sail). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: The phone call that changes the quality of darkness — someone always present.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/the-port-we-cannot-find/film.mp4",
+      "publicUrl": "/generated/kie/films/the-port-we-cannot-find/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"The Port We Cannot Find.\"\nChapter 09 of Still We Sail.\n\n\nThis song came from a single question I couldn't stop asking myself: The phone call that changes the quality of darkness — someone always present.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. rain on window, single lamp, phone call, morning light, thin curtains. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/the-port-we-cannot-find/script.txt",
+      "voicePath": "public/generated/kie/commentary/the-port-we-cannot-find/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/the-port-we-cannot-find/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/the-port-we-cannot-find/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"The Port We Cannot Find.\"\nChapter 09 of Still We Sail.\n\n\nThis song came from a single question I couldn't stop asking myself: The phone call that changes the quality of darkness — someone always present.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. rain on window, single lamp, phone call, morning light, thin curtains. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/the-port-we-cannot-find/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "The Port We Cannot Find.\nFrom the album \"Still We Sail\".\n\nThe phone call that changes the quality of darkness — someone always present.",
+      "narrationPath": "public/generated/kie/audiobook/the-port-we-cannot-find/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/the-port-we-cannot-find/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/the-port-we-cannot-find/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/the-port-we-cannot-find/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"The Port We Cannot Find\". Style: cinematic ambient, piano, strings, atmospheric. Mood: The phone call that changes the quality of darkness — someone always present.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: The phone call that changes the quality of darkness — someone always present..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "The Port We Cannot Find.\nFrom the album \"Still We Sail\".\n\nThe phone call that changes the quality of darkness — someone always present.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, cinematic ambient, piano, strings, atmospheric. The phone call that changes the quality of darkness — someone always present.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "cinematic ambient, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.041Z",
+  "updatedAt": "2026-06-15T18:43:47.659Z"
+}

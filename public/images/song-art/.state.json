@@ -6,7 +6,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\why.jpg",
-    "publicUrl": "/Images/song-art/why.jpg",
+    "publicUrl": "/images/song-art/why.jpg",
     "submittedAt": "2026-06-12T20:56:21.497Z",
     "completedAt": null,
     "error": null
@@ -18,7 +18,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\who-wins-if-i-win.jpg",
-    "publicUrl": "/Images/song-art/who-wins-if-i-win.jpg",
+    "publicUrl": "/images/song-art/who-wins-if-i-win.jpg",
     "submittedAt": "2026-06-12T20:56:25.219Z",
     "completedAt": null,
     "error": null
@@ -30,7 +30,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\the-roots-we-cannot-see.jpg",
-    "publicUrl": "/Images/song-art/the-roots-we-cannot-see.jpg",
+    "publicUrl": "/images/song-art/the-roots-we-cannot-see.jpg",
     "submittedAt": "2026-06-12T20:56:28.921Z",
     "completedAt": null,
     "error": null
@@ -42,7 +42,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\if-we-cant-say-the-hard-truths.jpg",
-    "publicUrl": "/Images/song-art/if-we-cant-say-the-hard-truths.jpg",
+    "publicUrl": "/images/song-art/if-we-cant-say-the-hard-truths.jpg",
     "submittedAt": "2026-06-12T20:56:32.634Z",
     "completedAt": null,
     "error": null
@@ -54,7 +54,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_29a55194f9a64ddfabe5203f57d90ab4_1781297810_g10hjzu0.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\song-art\\still-worth-it.jpg",
-    "publicUrl": "/Images/song-art/still-worth-it.jpg",
+    "publicUrl": "/images/song-art/still-worth-it.jpg",
     "submittedAt": "2026-06-12T20:56:36.348Z",
     "completedAt": "2026-06-12T21:34:32.343Z",
     "error": null
@@ -66,7 +66,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\side-by-side.jpg",
-    "publicUrl": "/Images/song-art/side-by-side.jpg",
+    "publicUrl": "/images/song-art/side-by-side.jpg",
     "submittedAt": "2026-06-12T20:56:40.055Z",
     "completedAt": null,
     "error": null
@@ -78,7 +78,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\as-long-as-youre-okay.jpg",
-    "publicUrl": "/Images/song-art/as-long-as-youre-okay.jpg",
+    "publicUrl": "/images/song-art/as-long-as-youre-okay.jpg",
     "submittedAt": "2026-06-12T20:56:43.791Z",
     "completedAt": null,
     "error": null
@@ -90,7 +90,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\it-was-already-there.jpg",
-    "publicUrl": "/Images/song-art/it-was-already-there.jpg",
+    "publicUrl": "/images/song-art/it-was-already-there.jpg",
     "submittedAt": "2026-06-12T20:56:47.544Z",
     "completedAt": null,
     "error": null
@@ -102,7 +102,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\always-in-your-corner.jpg",
-    "publicUrl": "/Images/song-art/always-in-your-corner.jpg",
+    "publicUrl": "/images/song-art/always-in-your-corner.jpg",
     "submittedAt": "2026-06-12T20:56:51.256Z",
     "completedAt": null,
     "error": null
@@ -114,7 +114,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\the-house-we-couldnt-leave.jpg",
-    "publicUrl": "/Images/song-art/the-house-we-couldnt-leave.jpg",
+    "publicUrl": "/images/song-art/the-house-we-couldnt-leave.jpg",
     "submittedAt": "2026-06-12T20:56:54.963Z",
     "completedAt": null,
     "error": null
@@ -126,7 +126,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\i-never-knew-any-other-way.jpg",
-    "publicUrl": "/Images/song-art/i-never-knew-any-other-way.jpg",
+    "publicUrl": "/images/song-art/i-never-knew-any-other-way.jpg",
     "submittedAt": "2026-06-12T20:56:58.671Z",
     "completedAt": null,
     "error": null
@@ -138,7 +138,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\leave-a-light-on.jpg",
-    "publicUrl": "/Images/song-art/leave-a-light-on.jpg",
+    "publicUrl": "/images/song-art/leave-a-light-on.jpg",
     "submittedAt": "2026-06-12T20:57:02.373Z",
     "completedAt": null,
     "error": null
@@ -150,7 +150,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_26f0728b07f6483ea4af369ce32913c0_1781297841_v057hk76.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\song-art\\the-empty-chair.jpg",
-    "publicUrl": "/Images/song-art/the-empty-chair.jpg",
+    "publicUrl": "/images/song-art/the-empty-chair.jpg",
     "submittedAt": "2026-06-12T20:57:06.096Z",
     "completedAt": "2026-06-12T21:34:33.513Z",
     "error": null
@@ -162,7 +162,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_e800e09d018b4a5c973cdc1b076a7acb_1781297869_n90azy0s.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\song-art\\good-things-grow-slow.jpg",
-    "publicUrl": "/Images/song-art/good-things-grow-slow.jpg",
+    "publicUrl": "/images/song-art/good-things-grow-slow.jpg",
     "submittedAt": "2026-06-12T20:57:09.795Z",
     "completedAt": "2026-06-12T21:34:34.611Z",
     "error": null
@@ -174,7 +174,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_337dc34e4cc74b09b1349814292ef1e0_1781297846_2p5xelpm.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\song-art\\maybe-i-was-wrong.jpg",
-    "publicUrl": "/Images/song-art/maybe-i-was-wrong.jpg",
+    "publicUrl": "/images/song-art/maybe-i-was-wrong.jpg",
     "submittedAt": "2026-06-12T20:57:13.513Z",
     "completedAt": "2026-06-12T21:34:35.694Z",
     "error": null
@@ -186,7 +186,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_eeda35e9b9ef46448f85e83a498978b9_1781297851_sdcpi32f.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\song-art\\borrowed-time.jpg",
-    "publicUrl": "/Images/song-art/borrowed-time.jpg",
+    "publicUrl": "/images/song-art/borrowed-time.jpg",
     "submittedAt": "2026-06-12T20:57:17.239Z",
     "completedAt": "2026-06-12T21:34:36.416Z",
     "error": null
@@ -198,7 +198,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\song-art\\free-men-tell-the-truth.jpg",
-    "publicUrl": "/Images/song-art/free-men-tell-the-truth.jpg",
+    "publicUrl": "/images/song-art/free-men-tell-the-truth.jpg",
     "submittedAt": "2026-06-12T20:57:20.956Z",
     "completedAt": null,
     "error": null

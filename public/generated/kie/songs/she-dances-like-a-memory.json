@@ -1,0 +1,227 @@
+{
+  "songId": "she-dances-like-a-memory",
+  "slug": "she-dances-like-a-memory",
+  "title": "She Dances Like a Memory",
+  "album": "The Velvet Machine",
+  "albumSlug": "the-velvet-machine",
+  "albumCode": null,
+  "trackNumber": 5,
+  "artist": "NoiraCiel",
+  "duration": null,
+  "durationFormatted": "",
+  "mood": "electronic · dark industrial · tension · complexity",
+  "style": "electronic · dark synth · industrial texture · machine pulse",
+  "hasLyrics": true,
+  "lyricsExcerpt": "",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/she-dances-like-a-memory.json",
+  "storyPath": null,
+  "artworkPath": "public/images/song-art/she-dances-like-a-memory.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/she-dances-like-a-memory.jpg",
+  "audioUrl": "/api/music/The_Velvet_Machine/audio/05_she_dances_like_a_memory_v2.mp3",
+  "emotion": "Dignity in honest work — the beauty of a life lived through labour and love.",
+  "scene": "A weathered fishing boat returning through rough Atlantic waves at dawn. Calloused hands still working after decades of wear. A woman waiting at a harbour wall, her face against the salt wind.",
+  "symbols": "fishing boat, harbour, weathered hands, dawn, Atlantic waves",
+  "arc": [
+    "The going out — boat in rough dark water",
+    "The working — hands, nets, salt, endurance",
+    "The return — harbour wall, a woman waiting, dawn light"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the water surface — single slow breath-like swell rising and falling, foam edge barely shifting, horizon line locked and perfectly still. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "ocean_breathing",
+      "sourceImagePath": "public/images/song-art/she-dances-like-a-memory.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/she-dances-like-a-memory.jpg",
+      "videoLoopPath": null,
+      "publicUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/she-dances-like-a-memory/loop.mp4",
+      "taskId": "d926d0d708641ffc17fede1e0ba2611e",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:43:03.321Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "the water surface breathes slowly, near-imperceptible swells, foam edge dissolves and returns, horizon steady. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      },
+      "remoteUrl": null,
+      "localPath": null,
+      "r2Url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/she-dances-like-a-memory/loop.mp4"
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"She Dances Like a Memory\" from album \"The Velvet Machine\".\nShot role: opening.\nScene: The going out — boat in rough dark water.\nCamera: slow push-in. Framing: wide establishing scene.\nMood: Dignity in honest work — the beauty of a life lived through labour and love..\nVisual symbols: fishing boat, harbour, weathered hands, dawn, Atlantic waves.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/she-dances-like-a-memory/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "detail",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"She Dances Like a Memory\" from album \"The Velvet Machine\".\nShot role: detail.\nScene: The working — hands, nets, salt, endurance.\nCamera: locked close-up. Framing: symbolic object or hands.\nMood: Dignity in honest work — the beauty of a life lived through labour and love..\nVisual symbols: fishing boat, harbour, weathered hands, dawn, Atlantic waves.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/she-dances-like-a-memory/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "emotion",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"She Dances Like a Memory\" from album \"The Velvet Machine\".\nShot role: emotion.\nScene: The return — harbour wall, a woman waiting, dawn light.\nCamera: gentle dolly. Framing: environment, no visible faces.\nMood: Dignity in honest work — the beauty of a life lived through labour and love..\nVisual symbols: fishing boat, harbour, weathered hands, dawn, Atlantic waves.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/she-dances-like-a-memory/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "symbol",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"She Dances Like a Memory\" from album \"The Velvet Machine\".\nShot role: symbol.\nScene: A weathered fishing boat returning through rough Atlantic waves at dawn.\nCamera: overhead poetic tableaux. Framing: abstract symbolic image.\nMood: Dignity in honest work — the beauty of a life lived through labour and love..\nVisual symbols: fishing boat, harbour, weathered hands, dawn, Atlantic waves.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/she-dances-like-a-memory/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"She Dances Like a Memory\" from album \"The Velvet Machine\".\nShot role: closing.\nScene:  Calloused hands still working after decades of wear.\nCamera: slow pull-back. Framing: wide, figure or object small in frame.\nMood: Dignity in honest work — the beauty of a life lived through labour and love..\nVisual symbols: fishing boat, harbour, weathered hands, dawn, Atlantic waves.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/she-dances-like-a-memory/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"She Dances Like a Memory\" (The Velvet Machine). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: Dignity in honest work — the beauty of a life lived through labour and love.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/she-dances-like-a-memory/film.mp4",
+      "publicUrl": "/generated/kie/films/she-dances-like-a-memory/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"She Dances Like a Memory.\"\nChapter 05 of The Velvet Machine.\n\n\nThis song came from a single question I couldn't stop asking myself: Dignity in honest work — the beauty of a life lived through labour and love.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. fishing boat, harbour, weathered hands, dawn, Atlantic waves. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/she-dances-like-a-memory/script.txt",
+      "voicePath": "public/generated/kie/commentary/she-dances-like-a-memory/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/she-dances-like-a-memory/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/she-dances-like-a-memory/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"She Dances Like a Memory.\"\nChapter 05 of The Velvet Machine.\n\n\nThis song came from a single question I couldn't stop asking myself: Dignity in honest work — the beauty of a life lived through labour and love.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. fishing boat, harbour, weathered hands, dawn, Atlantic waves. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/she-dances-like-a-memory/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "She Dances Like a Memory.\nFrom the album \"The Velvet Machine\".\n\nDignity in honest work — the beauty of a life lived through labour and love.",
+      "narrationPath": "public/generated/kie/audiobook/she-dances-like-a-memory/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/she-dances-like-a-memory/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/she-dances-like-a-memory/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/she-dances-like-a-memory/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"She Dances Like a Memory\". Style: dark electronic ambient, industrial texture, slow pulse, machine breath. Mood: Dignity in honest work — the beauty of a life lived through labour and love.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: Dignity in honest work — the beauty of a life lived through labour and love..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "She Dances Like a Memory.\nFrom the album \"The Velvet Machine\".\n\nDignity in honest work — the beauty of a life lived through labour and love.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, dark electronic ambient, industrial texture, slow pulse, machine breath. Dignity in honest work — the beauty of a life lived through labour and love.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "dark electronic ambient, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.044Z",
+  "updatedAt": "2026-06-15T18:43:03.321Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "vinyl-limited",
+  "title": "NoiraCiel Vinyl — Collector Edition",
+  "type": "vinyl",
+  "description": "Limited edition 180g audiophile vinyl. Heavy sleeve, inner booklet, hand-numbered.",
+  "material": "180g black vinyl, heavy matte sleeve, gold foil spine label, inner tissue sleeve",
+  "generatedAssets": {
+    "productPhoto": {
+      "status": "prompt_ready",
+      "prompt": "Hyper-photorealistic product photography. Studio environment.\nSingle dramatic light source from above-left at 45 degrees, casting deep shadow.\nDark slate or matte black surface. Background: deep shadow, nearly black.\nNo reflectors, no fill lights — intentionally dramatic, theatrical, premium.\nDeep navy and warm amber palette. 16mm film grain texture.\nNo text visible in image. No labels facing camera unless they are part of the aesthetic.\nShot on large-format digital medium, Hasselblad aesthetic.\nLuxury editorial quality. NOT e-commerce white background. NOT stock photography.\n\nProduct: NoiraCiel Vinyl — Collector Edition.\nType: vinyl.\nDescription: Limited edition 180g audiophile vinyl. Heavy sleeve, inner booklet, hand-numbered..\nMaterial and appearance: 180g black vinyl, heavy matte sleeve, gold foil spine label, inner tissue sleeve.\n\nShot: single hero product, centered, no props, no hands.\nAngle: 3/4 view from slightly above for books and prints. Side-on for vinyl. Front-facing for apparel.\nAtmosphere: collector-edition premium. The object looks rare and earned.",
+      "gptPayload": {
+        "model": "gpt-image-2",
+        "prompt": "Hyper-photorealistic product photography. Studio environment.\nSingle dramatic light source from above-left at 45 degrees, casting deep shadow.\nDark slate or matte black surface. Background: deep shadow, nearly black.\nNo reflectors, no fill lights — intentionally dramatic, theatrical, premium.\nDeep navy and warm amber palette. 16mm film grain texture.\nNo text visible in image. No labels facing camera unless they are part of the aesthetic.\nShot on large-format digital medium, Hasselblad aesthetic.\nLuxury editorial quality. NOT e-commerce white background. NOT stock photography.\n\nProduct: NoiraCiel Vinyl — Collector Edition.\nType: vinyl.\nDescription: Limited edition 180g audiophile vinyl. Heavy sleeve, inner booklet, hand-numbered..\nMaterial and appearance: 180g black vinyl, heavy matte sleeve, gold foil spine label, inner tissue sleeve.\n\nShot: single hero product, centered, no props, no hands.\nAngle: 3/4 view from slightly above for books and prints. Side-on for vinyl. Front-facing for apparel.\nAtmosphere: collector-edition premium. The object looks rare and earned.",
+        "quality": "high",
+        "size": "1024x1024"
+      },
+      "photoPath": "public/generated/kie/objects/vinyl-limited/photo.jpg",
+      "publicUrl": "/generated/kie/objects/vinyl-limited/photo.jpg",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null
+    },
+    "animatedLoop": {
+      "status": "prompt_ready",
+      "prompt": "Subtle product animation loop from still image. Product: NoiraCiel Vinyl — Collector Edition. Motion: vinyl record spins slowly under dramatic single-source directional light, reflections trace grooves. Camera: locked off, no movement. Product and light move only. Loop: seamless. No sudden changes. No zoom. Mood: luxury, dark, cinematic, premium collector edition. 16mm grain. No text. Deep shadow. Warm amber light.",
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "6",
+        "cfg_scale": 0.5,
+        "prompt": "Subtle product animation loop from still image. Product: NoiraCiel Vinyl — Collector Edition. Motion: vinyl record spins slowly under dramatic single-source directional light, reflections trace grooves. Camera: locked off, no movement. Product and light move only. Loop: seamless. No sudden changes. No zoom. Mood: luxury, dark, cinematic, premium collector edition. 16mm grain. No text. Deep shadow. Warm amber light."
+      },
+      "videoPath": "public/generated/kie/objects/vinyl-limited/loop.mp4",
+      "publicUrl": "/generated/kie/objects/vinyl-limited/loop.mp4",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null
+    }
+  },
+  "approvals": {
+    "productPhoto": false,
+    "animatedLoop": false
+  },
+  "createdAt": "2026-06-15T14:04:59.361Z",
+  "updatedAt": "2026-06-15T14:04:59.361Z"
+}

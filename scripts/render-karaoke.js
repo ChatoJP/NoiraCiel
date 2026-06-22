@@ -179,7 +179,7 @@ async function loadTracks(musicServerPort) {
     // Background image pool — pick 6 from video-backgrounds pool, fall back to art
     const bgPool = loadBgImagePool()
     const bgImages = bgPool.length > 0
-      ? pickBgImages(bgPool, slug, 6)
+      ? pickBgImages(bgPool, slug, 80)
       : [chapterBannerPath, songArtPath].filter(Boolean)
 
     // Duration: prefer timestamp data, else read from audio
@@ -198,6 +198,7 @@ async function loadTracks(musicServerPort) {
       songArtPath, chapterBannerPath, bgImages,
       hasTimestamps: !!tsData,
       chapterEmotion: trackNumber ? CHAPTER_EMOTIONS[trackNumber] ?? null : null,
+      albumTitle: 'The Life Lessons I Hope You Learn',
       outputPath: path.join(OUTPUT_DIR, `${slug}.mp4`),
     })
   }
@@ -232,7 +233,7 @@ async function renderTrack(track, bundleLocation) {
   const inputProps = {
     trackTitle:        track.title,
     trackNumber:       track.trackNumber,
-    albumTitle:        'The Life Lessons I Hope You Learn',
+    albumTitle:        track.albumTitle ?? 'The Life Lessons I Hope You Learn',
     audioUrl:          track.audioUrl,
     songArtPath:       track.songArtPath,
     chapterBannerPath: track.chapterBannerPath,
@@ -295,35 +296,116 @@ async function renderPool(tracks, bundleLocation, concurrency) {
   return { rendered, failed }
 }
 
+// ─── Build a single track object from explicit flags (for album subdirectory audio) ──
+async function buildTrackFromArgs({ audioFile, title, trackNumber, albumTitle, musicPort }) {
+  const slug     = slugify(title)
+  const filename = path.basename(audioFile)
+  const tsFile   = path.join(TIMESTAMPS_DIR, `${slug}.json`)
+  const tsData   = fs.existsSync(tsFile) ? JSON.parse(fs.readFileSync(tsFile, 'utf-8')) : null
+  const lines    = tsData ? groupIntoLines(tsData.words) : []
+
+  const audioUrl = `http://127.0.0.1:${musicPort}/${encodeURIComponent(filename)}`
+
+  const songArtPath       = fs.existsSync(path.join(SONG_ART_DIR, `${slug}.jpg`))
+    ? `images/song-art/${slug}.jpg` : null
+  const chapterBannerPath = fs.existsSync(path.join(BANNER_DIR, `${slug}.jpg`))
+    ? `images/chapter-banners/${slug}.jpg` : null
+
+  const bgPool   = loadBgImagePool()
+  const bgImages = bgPool.length > 0
+    ? pickBgImages(bgPool, slug, 80)
+    : [chapterBannerPath, songArtPath].filter(Boolean)
+
+  let duration = tsData?.duration ?? null
+  if (!duration) {
+    try {
+      const mm   = require('music-metadata')
+      const meta = await mm.parseFile(audioFile, { duration: true })
+      duration   = meta.format.duration ?? null
+    } catch {}
+  }
+
+  return {
+    slug, title, trackNumber, filename,
+    lines, audioUrl, duration,
+    songArtPath, chapterBannerPath, bgImages,
+    hasTimestamps: !!tsData,
+    chapterEmotion: trackNumber ? CHAPTER_EMOTIONS[trackNumber] ?? null : null,
+    outputPath: path.join(OUTPUT_DIR, `${slug}.mp4`),
+    albumTitle: albumTitle ?? 'NoiraCiel',
+  }
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 async function main() {
   const args        = process.argv.slice(2)
-  const trackArg    = (() => { const i = args.indexOf('--track'); return i !== -1 ? args[i + 1] : null })()
+  const arg         = (flag) => { const i = args.indexOf(flag); return i !== -1 ? args[i + 1] : null }
+  const trackArg       = arg('--track')
+  const audioArg       = arg('--audio')        // single audio file path (single-track mode)
+  const titleArg       = arg('--title')
+  const trackNumArg    = arg('--track-number')
+  const albumArg       = arg('--album')
+  const tracksFileArg  = arg('--tracks-file')  // JSON manifest for all-at-once album mode
   const listMode    = args.includes('--list')
   const forceMode   = args.includes('--force')
-  const concurrencyArg = (() => { const i = args.indexOf('--concurrency'); return i !== -1 ? parseInt(args[i + 1], 10) : null })()
-  const concurrency = concurrencyArg && concurrencyArg > 0 ? concurrencyArg : 3
+  const concurrencyArg = arg('--concurrency')
+  const concurrency = concurrencyArg && parseInt(concurrencyArg, 10) > 0 ? parseInt(concurrencyArg, 10) : 1
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true })
 
-  // Start local HTTP server to serve Music/ directory (Remotion can't use file://)
-  const { server: musicServer, port: musicPort } = await startMusicServer(MUSIC_DIR)
-  log(`Music server listening on http://127.0.0.1:${musicPort}/`)
+  let tracks
+  let musicServer
 
-  log('Loading tracks…')
-  const allTracks = await loadTracks(musicPort)
-  const tracks    = trackArg ? allTracks.filter((t) => t.slug === trackArg) : allTracks
+  if (tracksFileArg) {
+    // Album batch mode: read all track info from a JSON manifest written by generate-album.js
+    const manifest = JSON.parse(fs.readFileSync(tracksFileArg, 'utf-8'))
+    const audioDir = manifest.audioDir
+    const { server, port } = await startMusicServer(audioDir)
+    musicServer = server
+    log(`Music server on http://127.0.0.1:${port}/ (serving ${audioDir})`)
+    tracks = await Promise.all(manifest.tracks.map((t) =>
+      buildTrackFromArgs({
+        audioFile:   t.audioFile,
+        title:       t.title,
+        trackNumber: t.trackNumber,
+        albumTitle:  manifest.albumTitle,
+        musicPort:   port,
+      })
+    ))
+  } else if (audioArg && titleArg) {
+    // Single-track mode: caller provided the audio file path explicitly
+    const audioDir = path.dirname(audioArg)
+    const { server, port } = await startMusicServer(audioDir)
+    musicServer = server
+    log(`Music server on http://127.0.0.1:${port}/ (serving ${audioDir})`)
+    const track = await buildTrackFromArgs({
+      audioFile:   audioArg,
+      title:       titleArg,
+      trackNumber: trackNumArg ? parseInt(trackNumArg, 10) : null,
+      albumTitle:  albumArg ?? 'NoiraCiel',
+      musicPort:   port,
+    })
+    tracks = [track]
+  } else {
+    // Legacy mode: scan flat Music/ directory
+    const { server, port } = await startMusicServer(MUSIC_DIR)
+    musicServer = server
+    log(`Music server on http://127.0.0.1:${port}/`)
+    log('Loading tracks…')
+    const allTracks = await loadTracks(port)
+    tracks = trackArg ? allTracks.filter((t) => t.slug === trackArg) : allTracks
 
-  if (trackArg && !tracks.length) {
-    err(`Track "${trackArg}" not found. Valid: ${allTracks.map((t) => t.slug).join(', ')}`)
-    process.exit(1)
+    if (trackArg && !tracks.length) {
+      err(`Track "${trackArg}" not found. Valid: ${allTracks.map((t) => t.slug).join(', ')}`)
+      process.exit(1)
+    }
   }
 
   if (listMode) { runList(tracks); musicServer.close(); return }
 
   const renderable = tracks.filter((t) => {
     if (!t.hasTimestamps) {
-      log(`⚠  "${t.title}" — no timestamps. Run: python scripts/transcribe-songs.py ${t.slug}`)
+      log(`⚠  "${t.title}" — no timestamps. Run transcribe first.`)
       return false
     }
     if (!forceMode && fs.existsSync(t.outputPath)) {
@@ -334,7 +416,7 @@ async function main() {
   })
 
   if (!renderable.length) {
-    log('Nothing to render. Run python scripts/transcribe-songs.py first, or use --force.')
+    log('Nothing to render.')
     musicServer.close()
     return
   }

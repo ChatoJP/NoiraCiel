@@ -6,7 +6,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\why.jpg",
-    "publicUrl": "/Images/chapter-banners/why.jpg",
+    "publicUrl": "/images/chapter-banners/why.jpg",
     "submittedAt": "2026-06-12T20:56:27.011Z",
     "completedAt": null,
     "error": null
@@ -18,7 +18,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\who-wins-if-i-win.jpg",
-    "publicUrl": "/Images/chapter-banners/who-wins-if-i-win.jpg",
+    "publicUrl": "/images/chapter-banners/who-wins-if-i-win.jpg",
     "submittedAt": "2026-06-12T20:56:30.717Z",
     "completedAt": null,
     "error": null
@@ -30,7 +30,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\the-roots-we-cannot-see.jpg",
-    "publicUrl": "/Images/chapter-banners/the-roots-we-cannot-see.jpg",
+    "publicUrl": "/images/chapter-banners/the-roots-we-cannot-see.jpg",
     "submittedAt": "2026-06-12T20:56:34.418Z",
     "completedAt": null,
     "error": null
@@ -42,7 +42,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\if-we-cant-say-the-hard-truths.jpg",
-    "publicUrl": "/Images/chapter-banners/if-we-cant-say-the-hard-truths.jpg",
+    "publicUrl": "/images/chapter-banners/if-we-cant-say-the-hard-truths.jpg",
     "submittedAt": "2026-06-12T20:56:38.133Z",
     "completedAt": null,
     "error": null
@@ -54,7 +54,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\still-worth-it.jpg",
-    "publicUrl": "/Images/chapter-banners/still-worth-it.jpg",
+    "publicUrl": "/images/chapter-banners/still-worth-it.jpg",
     "submittedAt": "2026-06-12T20:56:41.845Z",
     "completedAt": null,
     "error": null
@@ -66,7 +66,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\side-by-side.jpg",
-    "publicUrl": "/Images/chapter-banners/side-by-side.jpg",
+    "publicUrl": "/images/chapter-banners/side-by-side.jpg",
     "submittedAt": "2026-06-12T20:56:45.558Z",
     "completedAt": null,
     "error": null
@@ -78,7 +78,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\as-long-as-youre-okay.jpg",
-    "publicUrl": "/Images/chapter-banners/as-long-as-youre-okay.jpg",
+    "publicUrl": "/images/chapter-banners/as-long-as-youre-okay.jpg",
     "submittedAt": "2026-06-12T20:56:49.264Z",
     "completedAt": null,
     "error": null
@@ -90,7 +90,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\it-was-already-there.jpg",
-    "publicUrl": "/Images/chapter-banners/it-was-already-there.jpg",
+    "publicUrl": "/images/chapter-banners/it-was-already-there.jpg",
     "submittedAt": "2026-06-12T20:56:52.966Z",
     "completedAt": null,
     "error": null
@@ -102,7 +102,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\always-in-your-corner.jpg",
-    "publicUrl": "/Images/chapter-banners/always-in-your-corner.jpg",
+    "publicUrl": "/images/chapter-banners/always-in-your-corner.jpg",
     "submittedAt": "2026-06-12T20:56:56.684Z",
     "completedAt": null,
     "error": null
@@ -114,7 +114,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\the-house-we-couldnt-leave.jpg",
-    "publicUrl": "/Images/chapter-banners/the-house-we-couldnt-leave.jpg",
+    "publicUrl": "/images/chapter-banners/the-house-we-couldnt-leave.jpg",
     "submittedAt": "2026-06-12T20:57:00.446Z",
     "completedAt": null,
     "error": null
@@ -126,7 +126,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_f18d3980bdb84cba9033223321502725_1781297851_6jtinxm3.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\chapter-banners\\i-never-knew-any-other-way.jpg",
-    "publicUrl": "/Images/chapter-banners/i-never-knew-any-other-way.jpg",
+    "publicUrl": "/images/chapter-banners/i-never-knew-any-other-way.jpg",
     "submittedAt": "2026-06-12T20:57:04.149Z",
     "completedAt": "2026-06-12T21:34:59.806Z",
     "error": null
@@ -138,7 +138,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\leave-a-light-on.jpg",
-    "publicUrl": "/Images/chapter-banners/leave-a-light-on.jpg",
+    "publicUrl": "/images/chapter-banners/leave-a-light-on.jpg",
     "submittedAt": "2026-06-12T20:57:07.864Z",
     "completedAt": null,
     "error": null
@@ -150,7 +150,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_e168e7c5150e43c99b39e2fc8a5c3fa3_1781297846_h2erwlf8.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\chapter-banners\\the-empty-chair.jpg",
-    "publicUrl": "/Images/chapter-banners/the-empty-chair.jpg",
+    "publicUrl": "/images/chapter-banners/the-empty-chair.jpg",
     "submittedAt": "2026-06-12T20:57:11.581Z",
     "completedAt": "2026-06-12T21:35:00.890Z",
     "error": null
@@ -162,7 +162,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_de72acfcf0d54de8a471d2d19393536c_1781297849_hdkxidu5.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\chapter-banners\\good-things-grow-slow.jpg",
-    "publicUrl": "/Images/chapter-banners/good-things-grow-slow.jpg",
+    "publicUrl": "/images/chapter-banners/good-things-grow-slow.jpg",
     "submittedAt": "2026-06-12T20:57:15.318Z",
     "completedAt": "2026-06-12T21:35:02.266Z",
     "error": null
@@ -174,7 +174,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\maybe-i-was-wrong.jpg",
-    "publicUrl": "/Images/chapter-banners/maybe-i-was-wrong.jpg",
+    "publicUrl": "/images/chapter-banners/maybe-i-was-wrong.jpg",
     "submittedAt": "2026-06-12T20:57:19.026Z",
     "completedAt": null,
     "error": null
@@ -186,7 +186,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\borrowed-time.jpg",
-    "publicUrl": "/Images/chapter-banners/borrowed-time.jpg",
+    "publicUrl": "/images/chapter-banners/borrowed-time.jpg",
     "submittedAt": "2026-06-12T20:57:22.724Z",
     "completedAt": null,
     "error": null
@@ -198,7 +198,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\chapter-banners\\free-men-tell-the-truth.jpg",
-    "publicUrl": "/Images/chapter-banners/free-men-tell-the-truth.jpg",
+    "publicUrl": "/images/chapter-banners/free-men-tell-the-truth.jpg",
     "submittedAt": "2026-06-12T20:57:26.459Z",
     "completedAt": null,
     "error": null

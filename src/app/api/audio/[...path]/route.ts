@@ -1,73 +1,13 @@
-import path from 'path'
-import fs from 'fs'
-import { getMimeType } from '@/lib/formatters'
+const R2_BASE = 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev'
 
-const MUSIC_DIR = path.join(process.cwd(), 'Music')
-
+// Music/ now lives in R2 — musicScanner builds R2 URLs directly, so the app
+// itself never calls this route anymore. Kept as a redirect for any stale
+// bookmarks/embeds pointing at the old local-disk streaming path.
 export async function GET(
   request: Request,
   { params }: { params: Promise<{ path: string[] }> }
 ) {
   const { path: pathParts } = await params
-  const filename = decodeURIComponent(pathParts.join('/'))
-  const filePath = path.resolve(path.join(MUSIC_DIR, filename))
-
-  if (!filePath.startsWith(MUSIC_DIR)) {
-    return new Response('Forbidden', { status: 403 })
-  }
-
-  if (!fs.existsSync(filePath)) {
-    return new Response('Not Found', { status: 404 })
-  }
-
-  const stat = fs.statSync(filePath)
-  const fileSize = stat.size
-  const contentType = getMimeType(filename)
-  const range = request.headers.get('range')
-
-  if (range) {
-    const parts = range.replace(/bytes=/, '').split('-')
-    const start = parseInt(parts[0], 10)
-    const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1
-    const chunkSize = end - start + 1
-
-    const nodeStream = fs.createReadStream(filePath, { start, end })
-    const webStream = new ReadableStream({
-      start(controller) {
-        nodeStream.on('data', (chunk) => controller.enqueue(chunk))
-        nodeStream.on('end', () => controller.close())
-        nodeStream.on('error', (err) => controller.error(err))
-      },
-      cancel() { nodeStream.destroy() },
-    })
-
-    return new Response(webStream, {
-      status: 206,
-      headers: {
-        'Content-Range': `bytes ${start}-${end}/${fileSize}`,
-        'Accept-Ranges': 'bytes',
-        'Content-Length': chunkSize.toString(),
-        'Content-Type': contentType,
-      },
-    })
-  }
-
-  const nodeStream = fs.createReadStream(filePath)
-  const webStream = new ReadableStream({
-    start(controller) {
-      nodeStream.on('data', (chunk) => controller.enqueue(chunk))
-      nodeStream.on('end', () => controller.close())
-      nodeStream.on('error', (err) => controller.error(err))
-    },
-    cancel() { nodeStream.destroy() },
-  })
-
-  return new Response(webStream, {
-    headers: {
-      'Content-Length': fileSize.toString(),
-      'Content-Type': contentType,
-      'Accept-Ranges': 'bytes',
-      'Cache-Control': 'public, max-age=3600',
-    },
-  })
+  const r2Path = pathParts.map((p) => encodeURIComponent(decodeURIComponent(p))).join('/')
+  return Response.redirect(`${R2_BASE}/music/${r2Path}`, 308)
 }

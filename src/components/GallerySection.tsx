@@ -27,6 +27,12 @@ function Lightbox({
   onNext: () => void
 }) {
   const idx = items.indexOf(item)
+  const [hintVisible, setHintVisible] = useState(true)
+
+  useEffect(() => {
+    const t = setTimeout(() => setHintVisible(false), 3000)
+    return () => clearTimeout(t)
+  }, [])
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -116,6 +122,16 @@ function Lightbox({
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 5l7 7-7 7" />
         </svg>
       </button>
+
+      {/* Keyboard hint — fades after 3s */}
+      <div
+        className={`absolute bottom-6 right-6 flex items-center gap-2 font-body text-[10px] tracking-[0.25em] uppercase text-noir-silver/35 pointer-events-none transition-opacity duration-700 ${hintVisible ? 'opacity-100' : 'opacity-0'}`}
+        aria-hidden="true"
+      >
+        <span>← →</span>
+        <span className="text-noir-silver/20">·</span>
+        <span>Esc</span>
+      </div>
     </div>
   )
 }
@@ -173,27 +189,36 @@ function GalleryPiece({
         />
 
         {/* Cinematic overlay: dark at bottom, clear at top */}
-        <div className="absolute inset-0 bg-gradient-to-t from-noir-void via-noir-void/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500" />
+        <div className="absolute inset-0 bg-gradient-to-t from-noir-void/95 via-noir-void/20 to-transparent opacity-55 group-hover:opacity-90 transition-opacity duration-500" />
+
+        {/* Track number badge — always visible for song-art items */}
+        {isChapter && item.trackNumber !== undefined && (
+          <div className="absolute top-3 left-3">
+            <span className="font-body text-[8px] tracking-[0.25em] text-noir-gold/80 bg-noir-void/80 border border-noir-gold/25 px-1.5 py-0.5 backdrop-blur-sm">
+              {String(item.trackNumber).padStart(2, '0')}
+            </span>
+          </div>
+        )}
 
         {/* Expand icon — top right on hover */}
-        <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <div className="w-8 h-8 border border-noir-ivory/30 flex items-center justify-center backdrop-blur-sm bg-noir-void/30">
-            <svg className="w-3.5 h-3.5 text-noir-ivory/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:scale-100 scale-90">
+          <div className="w-8 h-8 border border-noir-ivory/35 flex items-center justify-center backdrop-blur-sm bg-noir-void/40">
+            <svg className="w-3.5 h-3.5 text-noir-ivory/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
             </svg>
           </div>
         </div>
 
         {/* Caption at bottom */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-1 group-hover:translate-y-0 transition-transform duration-400">
+        <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 group-hover:translate-y-0 transition-transform duration-500 ease-out">
           {isChapter && (
-            <p className="font-body text-[8px] tracking-[0.45em] text-noir-gold/65 uppercase mb-1">
+            <p className="font-body text-[8px] tracking-[0.45em] text-noir-gold/75 uppercase mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-400">
               Chapter {String(item.trackNumber).padStart(2, '0')}
             </p>
           )}
-          <p className="font-heading italic text-sm leading-snug text-noir-ivory/85">{item.title}</p>
+          <p className="font-heading italic text-sm leading-snug text-noir-ivory/90">{item.title}</p>
           {item.linkTo && (
-            <p className="font-body text-[8px] tracking-[0.25em] text-noir-gold/45 uppercase mt-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="font-body text-[8px] tracking-[0.25em] text-noir-gold/55 uppercase mt-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-400 delay-75">
               Open chapter →
             </p>
           )}
@@ -204,32 +229,20 @@ function GalleryPiece({
 }
 
 // ─── Horizontal filmstrip ─────────────────────────────────────────────────────
-const STRIP_IMAGES = [
-  '/Images/chapter-banners/why.jpg',
-  '/Images/gallery/the-atlantic-at-night.jpg',
-  '/Images/chapter-banners/the-empty-chair.jpg',
-  '/Images/gallery/the-winter-sea.jpg',
-  '/Images/chapter-banners/borrowed-time.jpg',
-  '/Images/gallery/coastal-road-at-dawn.jpg',
-  '/Images/chapter-banners/free-men-tell-the-truth.jpg',
-  '/Images/chapter-banners/leave-a-light-on.jpg',
-  '/Images/gallery/the-vigil.jpg',
-  '/Images/chapter-banners/side-by-side.jpg',
-  '/Images/gallery/memory-of-water.jpg',
-  '/Images/chapter-banners/still-worth-it.jpg',
-]
-
-function Filmstrip() {
-  const doubled = [...STRIP_IMAGES, ...STRIP_IMAGES]
+function Filmstrip({ images }: { images: string[] }) {
+  const doubled = [...images, ...images]
 
   return (
-    <div className="w-full overflow-hidden mb-0" aria-hidden>
+    <div className="w-full overflow-hidden mb-0 group/strip" aria-hidden>
       <div
         className="flex gap-1"
         style={{
           width: `${doubled.length * 176}px`,
           animation: 'filmstrip 50s linear infinite',
+          animationPlayState: 'running',
         }}
+        onMouseEnter={e => ((e.currentTarget as HTMLElement).style.animationPlayState = 'paused')}
+        onMouseLeave={e => ((e.currentTarget as HTMLElement).style.animationPlayState = 'running')}
       >
         {doubled.map((src, i) => (
           <div
@@ -243,7 +256,7 @@ function Filmstrip() {
               alt=""
               aria-hidden
               loading="lazy"
-              className="w-full h-full object-cover opacity-50 hover:opacity-80 transition-opacity duration-500 animate-ken-burns"
+              className="w-full h-full object-cover opacity-55 hover:opacity-85 transition-opacity duration-700 animate-ken-burns"
             />
           </div>
         ))}
@@ -253,72 +266,110 @@ function Filmstrip() {
 }
 
 // ─── Main Section ─────────────────────────────────────────────────────────────
+type GalleryFilter = 'all' | 'photography' | 'song-art' | 'objects'
+
+const GALLERY_FILTERS: { value: GalleryFilter; label: string }[] = [
+  { value: 'all',         label: 'All' },
+  { value: 'photography', label: 'Photography' },
+  { value: 'song-art',   label: 'Song Art' },
+  { value: 'objects',    label: 'Objects' },
+]
+
 interface Props { items: GalleryItem[] }
 
 export default function GallerySection({ items }: Props) {
   const [lightboxItem, setLightboxItem] = useState<GalleryItem | null>(null)
+  const [filter, setFilter] = useState<GalleryFilter>('all')
 
   const openLightbox = useCallback((item: GalleryItem) => setLightboxItem(item), [])
   const closeLightbox = useCallback(() => setLightboxItem(null), [])
 
   const prevItem = useCallback(() => {
     if (!lightboxItem) return
-    const idx = items.indexOf(lightboxItem)
-    setLightboxItem(items[(idx - 1 + items.length) % items.length])
-  }, [lightboxItem, items])
+    const idx = filteredItems.indexOf(lightboxItem)
+    setLightboxItem(filteredItems[(idx - 1 + filteredItems.length) % filteredItems.length])
+  }, [lightboxItem, items]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const nextItem = useCallback(() => {
     if (!lightboxItem) return
-    const idx = items.indexOf(lightboxItem)
-    setLightboxItem(items[(idx + 1) % items.length])
-  }, [lightboxItem, items])
+    const idx = filteredItems.indexOf(lightboxItem)
+    setLightboxItem(filteredItems[(idx + 1) % filteredItems.length])
+  }, [lightboxItem, items]) // eslint-disable-line react-hooks/exhaustive-deps
 
   if (items.length === 0) return null
 
-  // Build a masonry-style layout: first item wide, then alternating normal/tall
-  const featured = items[0]
-  const rest = items.slice(1)
+  const filteredItems = filter === 'all' ? items
+    : filter === 'photography' ? items.filter(i => i.kind === 'gallery' && !i.id.startsWith('object-'))
+    : filter === 'song-art'   ? items.filter(i => i.kind === 'song-art')
+    : items.filter(i => i.id.startsWith('object-'))
+
+  const featured = filteredItems[0]
+  const rest = filteredItems.slice(1)
 
   return (
     <>
       <section id="gallery" className="py-0 relative overflow-hidden">
 
+        {/* ── Cinematic section divider ── */}
+        <div className="divider-gold mx-6 max-w-6xl" />
+
         {/* ── Section header ── */}
-        <div className="pt-28 pb-12 px-6 max-w-6xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div className="pt-24 pb-8 px-6 max-w-6xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
-            <p className="font-body text-[9px] tracking-[0.55em] text-noir-gold/50 uppercase mb-3">The Visual Archive</p>
+            <p className="font-body text-[9px] tracking-[0.6em] text-noir-gold/60 uppercase mb-3">The Visual Archive</p>
             <h2 className="font-heading font-light text-6xl md:text-8xl text-noir-ivory tracking-wide leading-none">
               Gallery
             </h2>
           </div>
           <div className="flex flex-col items-start md:items-end gap-3">
-            <p className="font-heading italic text-sm text-noir-silver/40 max-w-xs text-right leading-relaxed">
+            <p className="font-heading italic text-sm text-noir-silver/50 max-w-xs text-right leading-relaxed">
               Each chapter has its own world,<br />painted in dark Atlantic light.
             </p>
-            <Link
-              href="/music"
-              className="font-body text-[10px] tracking-[0.25em] uppercase text-noir-silver/40 hover:text-noir-gold border-b border-noir-silver/15 hover:border-noir-gold/40 pb-0.5 transition-all duration-300"
-            >
+            <Link href="/music"
+              className="font-body text-[10px] tracking-[0.25em] uppercase text-noir-silver/45 hover:text-noir-gold border-b border-noir-silver/20 hover:border-noir-gold/50 pb-0.5 transition-all duration-300">
               Full tracklist →
             </Link>
           </div>
         </div>
 
+        {/* Filter tabs (#30) */}
+        <div className="px-6 max-w-6xl mx-auto pb-6 flex items-center gap-0.5">
+          {GALLERY_FILTERS.map(f => (
+            <button key={f.value} onClick={() => setFilter(f.value)}
+              className={`font-body text-[9px] tracking-[0.2em] uppercase px-4 py-2 transition-all duration-200 ${
+                filter === f.value
+                  ? 'text-noir-gold border-b border-noir-gold'
+                  : 'text-noir-silver/32 hover:text-noir-ivory border-b border-transparent'
+              }`}>
+              {f.label}
+              <span className="ml-1 opacity-35 text-[8px]">
+                ({f.value === 'all' ? items.length
+                  : f.value === 'photography' ? items.filter(i => i.kind === 'gallery' && !i.id.startsWith('object-')).length
+                  : f.value === 'song-art' ? items.filter(i => i.kind === 'song-art').length
+                  : items.filter(i => i.id.startsWith('object-')).length})
+              </span>
+            </button>
+          ))}
+        </div>
+
         {/* ── Filmstrip ── */}
-        <Filmstrip />
+        <Filmstrip images={filteredItems.map((i) => i.imageUrl)} />
 
         {/* ── Masonry grid ── */}
         <div className="px-6 pt-1 max-w-6xl mx-auto">
+          {filteredItems.length === 0 && (
+            <div className="py-24 text-center font-body text-xs text-noir-silver/30 tracking-[0.3em] uppercase">No items in this category</div>
+          )}
 
           {/* Row 1: wide featured + 2 normals */}
-          <div className="grid grid-cols-4 gap-1 mb-1">
+          {featured && <div className="grid grid-cols-4 gap-1 mb-1">
             <div className="col-span-2">
               <GalleryPiece item={featured} span="wide" onOpen={openLightbox} />
             </div>
             {rest.slice(0, 2).map((item) => (
               <GalleryPiece key={item.id} item={item} onOpen={openLightbox} />
             ))}
-          </div>
+          </div>}
 
           {/* Row 2: 4 normal */}
           <div className="grid grid-cols-4 gap-1 mb-1">
@@ -349,12 +400,12 @@ export default function GallerySection({ items }: Props) {
           )}
 
           {/* Museum label */}
-          <div className="mt-8 pb-24 flex items-center gap-5">
-            <div className="flex-1 h-px bg-noir-silver/6" />
-            <p className="font-body text-[9px] tracking-[0.4em] text-noir-silver/15 uppercase">
+          <div className="mt-10 pb-24 flex items-center gap-5">
+            <div className="divider-silver flex-1" />
+            <p className="font-body text-[9px] tracking-[0.4em] text-noir-silver/25 uppercase">
               Digital Museum · NoiraCiel · Atlantic Noir
             </p>
-            <div className="flex-1 h-px bg-noir-silver/6" />
+            <div className="divider-silver flex-1" />
           </div>
         </div>
       </section>

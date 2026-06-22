@@ -1,0 +1,1141 @@
+{
+  "title": "The Girl With the Cello Scar",
+  "words": [
+    {
+      "word": "Like",
+      "start": 30.0,
+      "end": 30.18
+    },
+    {
+      "word": "rain",
+      "start": 30.18,
+      "end": 30.58
+    },
+    {
+      "word": "on",
+      "start": 30.58,
+      "end": 30.98
+    },
+    {
+      "word": "glass,",
+      "start": 30.98,
+      "end": 31.52
+    },
+    {
+      "word": "small",
+      "start": 32.44,
+      "end": 33.3
+    },
+    {
+      "word": "steps,",
+      "start": 33.3,
+      "end": 33.88
+    },
+    {
+      "word": "careful",
+      "start": 33.88,
+      "end": 34.86
+    },
+    {
+      "word": "No",
+      "start": 34.86,
+      "end": 37.12
+    },
+    {
+      "word": "one",
+      "start": 37.12,
+      "end": 37.52
+    },
+    {
+      "word": "sees",
+      "start": 37.52,
+      "end": 38.1
+    },
+    {
+      "word": "the",
+      "start": 38.1,
+      "end": 38.8
+    },
+    {
+      "word": "scene",
+      "start": 38.8,
+      "end": 39.32
+    },
+    {
+      "word": "where",
+      "start": 39.32,
+      "end": 40.32
+    },
+    {
+      "word": "her",
+      "start": 40.32,
+      "end": 40.7
+    },
+    {
+      "word": "ribs",
+      "start": 40.7,
+      "end": 41.2
+    },
+    {
+      "word": "remember",
+      "start": 41.2,
+      "end": 42.36
+    },
+    {
+      "word": "In",
+      "start": 43.72,
+      "end": 44.3
+    },
+    {
+      "word": "the",
+      "start": 44.3,
+      "end": 44.52
+    },
+    {
+      "word": "mirror",
+      "start": 44.52,
+      "end": 44.92
+    },
+    {
+      "word": "she",
+      "start": 44.92,
+      "end": 45.28
+    },
+    {
+      "word": "smiles,",
+      "start": 45.28,
+      "end": 46.2
+    },
+    {
+      "word": "then",
+      "start": 46.2,
+      "end": 48.36
+    },
+    {
+      "word": "looks",
+      "start": 48.36,
+      "end": 48.7
+    },
+    {
+      "word": "away",
+      "start": 48.7,
+      "end": 49.28
+    },
+    {
+      "word": "Like",
+      "start": 49.28,
+      "end": 51.66
+    },
+    {
+      "word": "something",
+      "start": 51.66,
+      "end": 52.14
+    },
+    {
+      "word": "under",
+      "start": 52.14,
+      "end": 52.72
+    },
+    {
+      "word": "skin",
+      "start": 52.72,
+      "end": 53.2
+    },
+    {
+      "word": "is",
+      "start": 53.2,
+      "end": 55.52
+    },
+    {
+      "word": "tuning",
+      "start": 55.52,
+      "end": 55.84
+    },
+    {
+      "word": "up",
+      "start": 55.84,
+      "end": 56.36
+    },
+    {
+      "word": "again",
+      "start": 56.36,
+      "end": 56.96
+    },
+    {
+      "word": "Girl",
+      "start": 58.3,
+      "end": 59.26
+    },
+    {
+      "word": "with",
+      "start": 59.26,
+      "end": 59.72
+    },
+    {
+      "word": "the",
+      "start": 59.72,
+      "end": 59.82
+    },
+    {
+      "word": "cello",
+      "start": 59.82,
+      "end": 60.38
+    },
+    {
+      "word": "scar",
+      "start": 60.38,
+      "end": 60.78
+    },
+    {
+      "word": "It",
+      "start": 60.78,
+      "end": 62.14
+    },
+    {
+      "word": "sings",
+      "start": 62.14,
+      "end": 63.02
+    },
+    {
+      "word": "when",
+      "start": 63.02,
+      "end": 63.48
+    },
+    {
+      "word": "the",
+      "start": 63.48,
+      "end": 63.66
+    },
+    {
+      "word": "room",
+      "start": 63.66,
+      "end": 63.94
+    },
+    {
+      "word": "goes",
+      "start": 63.94,
+      "end": 64.22
+    },
+    {
+      "word": "dark",
+      "start": 64.22,
+      "end": 64.84
+    },
+    {
+      "word": "Girl",
+      "start": 65.88,
+      "end": 66.84
+    },
+    {
+      "word": "with",
+      "start": 66.84,
+      "end": 67.32
+    },
+    {
+      "word": "the",
+      "start": 67.32,
+      "end": 67.46
+    },
+    {
+      "word": "cello",
+      "start": 67.46,
+      "end": 68.02
+    },
+    {
+      "word": "scar",
+      "start": 68.02,
+      "end": 68.48
+    },
+    {
+      "word": "Hello,",
+      "start": 68.48,
+      "end": 69.58
+    },
+    {
+      "word": "no,",
+      "start": 70.0,
+      "end": 70.24
+    },
+    {
+      "word": "under",
+      "start": 70.72,
+      "end": 71.56
+    },
+    {
+      "word": "her",
+      "start": 71.56,
+      "end": 71.96
+    },
+    {
+      "word": "eye",
+      "start": 71.96,
+      "end": 73.2
+    },
+    {
+      "word": "It",
+      "start": 73.2,
+      "end": 73.68
+    },
+    {
+      "word": "hurts,",
+      "start": 73.68,
+      "end": 75.24
+    },
+    {
+      "word": "then",
+      "start": 76.98,
+      "end": 77.06
+    },
+    {
+      "word": "holds",
+      "start": 77.06,
+      "end": 77.46
+    },
+    {
+      "word": "it",
+      "start": 77.46,
+      "end": 78.0
+    },
+    {
+      "word": "bends,",
+      "start": 78.0,
+      "end": 78.36
+    },
+    {
+      "word": "then",
+      "start": 78.86,
+      "end": 78.96
+    },
+    {
+      "word": "glows",
+      "start": 78.96,
+      "end": 79.9
+    },
+    {
+      "word": "Girl",
+      "start": 79.9,
+      "end": 80.22
+    },
+    {
+      "word": "with",
+      "start": 80.22,
+      "end": 80.72
+    },
+    {
+      "word": "the",
+      "start": 80.72,
+      "end": 80.9
+    },
+    {
+      "word": "cello",
+      "start": 80.9,
+      "end": 81.6
+    },
+    {
+      "word": "scar",
+      "start": 81.6,
+      "end": 82.0
+    },
+    {
+      "word": "She",
+      "start": 82.75,
+      "end": 83.4
+    },
+    {
+      "word": "carries",
+      "start": 83.4,
+      "end": 84.4
+    },
+    {
+      "word": "it",
+      "start": 84.4,
+      "end": 84.8
+    },
+    {
+      "word": "wherever",
+      "start": 84.8,
+      "end": 85.4
+    },
+    {
+      "word": "she",
+      "start": 85.4,
+      "end": 87.14
+    },
+    {
+      "word": "goes",
+      "start": 87.14,
+      "end": 88.16
+    },
+    {
+      "word": "At",
+      "start": 88.16,
+      "end": 91.16
+    },
+    {
+      "word": "the",
+      "start": 91.16,
+      "end": 91.36
+    },
+    {
+      "word": "grocery",
+      "start": 91.36,
+      "end": 91.72
+    },
+    {
+      "word": "lights,",
+      "start": 91.72,
+      "end": 92.72
+    },
+    {
+      "word": "she",
+      "start": 93.44,
+      "end": 94.22
+    },
+    {
+      "word": "stands",
+      "start": 94.22,
+      "end": 94.58
+    },
+    {
+      "word": "to",
+      "start": 94.58,
+      "end": 94.98
+    },
+    {
+      "word": "steal",
+      "start": 94.98,
+      "end": 95.68
+    },
+    {
+      "word": "A",
+      "start": 97.37,
+      "end": 98.02
+    },
+    {
+      "word": "song",
+      "start": 98.02,
+      "end": 98.44
+    },
+    {
+      "word": "of",
+      "start": 98.44,
+      "end": 98.88
+    },
+    {
+      "word": "scraped",
+      "start": 98.88,
+      "end": 100.1
+    },
+    {
+      "word": "wood",
+      "start": 100.1,
+      "end": 100.4
+    },
+    {
+      "word": "arises",
+      "start": 100.4,
+      "end": 101.64
+    },
+    {
+      "word": "through",
+      "start": 101.64,
+      "end": 102.2
+    },
+    {
+      "word": "the",
+      "start": 102.2,
+      "end": 102.62
+    },
+    {
+      "word": "chill",
+      "start": 102.62,
+      "end": 103.06
+    },
+    {
+      "word": "When",
+      "start": 105.22,
+      "end": 106.26
+    },
+    {
+      "word": "she",
+      "start": 106.26,
+      "end": 106.66
+    },
+    {
+      "word": "left",
+      "start": 106.66,
+      "end": 107.02
+    },
+    {
+      "word": "with",
+      "start": 107.02,
+      "end": 107.48
+    },
+    {
+      "word": "friends,",
+      "start": 107.48,
+      "end": 108.16
+    },
+    {
+      "word": "it",
+      "start": 108.16,
+      "end": 109.66
+    },
+    {
+      "word": "almost",
+      "start": 109.66,
+      "end": 109.92
+    },
+    {
+      "word": "hides",
+      "start": 109.92,
+      "end": 110.88
+    },
+    {
+      "word": "The",
+      "start": 110.88,
+      "end": 112.84
+    },
+    {
+      "word": "hidden",
+      "start": 112.84,
+      "end": 113.24
+    },
+    {
+      "word": "line",
+      "start": 113.24,
+      "end": 113.76
+    },
+    {
+      "word": "of",
+      "start": 113.76,
+      "end": 114.08
+    },
+    {
+      "word": "sorrow",
+      "start": 114.08,
+      "end": 114.46
+    },
+    {
+      "word": "pulls",
+      "start": 114.46,
+      "end": 116.5
+    },
+    {
+      "word": "the",
+      "start": 116.5,
+      "end": 117.18
+    },
+    {
+      "word": "air",
+      "start": 117.18,
+      "end": 117.56
+    },
+    {
+      "word": "inside",
+      "start": 117.56,
+      "end": 118.8
+    },
+    {
+      "word": "Girl",
+      "start": 118.8,
+      "end": 120.34
+    },
+    {
+      "word": "with",
+      "start": 120.34,
+      "end": 120.86
+    },
+    {
+      "word": "the",
+      "start": 120.86,
+      "end": 121.0
+    },
+    {
+      "word": "cello",
+      "start": 121.0,
+      "end": 121.58
+    },
+    {
+      "word": "scar",
+      "start": 121.58,
+      "end": 122.04
+    },
+    {
+      "word": "It",
+      "start": 122.04,
+      "end": 123.5
+    },
+    {
+      "word": "sings",
+      "start": 123.5,
+      "end": 124.18
+    },
+    {
+      "word": "when",
+      "start": 124.18,
+      "end": 124.68
+    },
+    {
+      "word": "the",
+      "start": 124.68,
+      "end": 124.86
+    },
+    {
+      "word": "room",
+      "start": 124.86,
+      "end": 125.18
+    },
+    {
+      "word": "goes",
+      "start": 125.18,
+      "end": 125.42
+    },
+    {
+      "word": "dark",
+      "start": 125.42,
+      "end": 126.08
+    },
+    {
+      "word": "Girl",
+      "start": 127.08,
+      "end": 128.12
+    },
+    {
+      "word": "with",
+      "start": 128.12,
+      "end": 128.56
+    },
+    {
+      "word": "the",
+      "start": 128.56,
+      "end": 128.66
+    },
+    {
+      "word": "cello",
+      "start": 128.66,
+      "end": 129.18
+    },
+    {
+      "word": "scar",
+      "start": 129.18,
+      "end": 129.64
+    },
+    {
+      "word": "Hello,",
+      "start": 129.64,
+      "end": 130.76
+    },
+    {
+      "word": "no,",
+      "start": 131.24,
+      "end": 131.58
+    },
+    {
+      "word": "under",
+      "start": 132.18,
+      "end": 132.76
+    },
+    {
+      "word": "her",
+      "start": 132.76,
+      "end": 133.38
+    },
+    {
+      "word": "eye",
+      "start": 133.38,
+      "end": 135.38
+    },
+    {
+      "word": "It",
+      "start": 135.38,
+      "end": 135.7
+    },
+    {
+      "word": "hurts,",
+      "start": 135.7,
+      "end": 137.56
+    },
+    {
+      "word": "then",
+      "start": 137.98,
+      "end": 138.2
+    },
+    {
+      "word": "holds",
+      "start": 138.2,
+      "end": 138.56
+    },
+    {
+      "word": "it",
+      "start": 138.56,
+      "end": 139.18
+    },
+    {
+      "word": "bends,",
+      "start": 139.18,
+      "end": 139.52
+    },
+    {
+      "word": "then",
+      "start": 140.06,
+      "end": 140.12
+    },
+    {
+      "word": "glows",
+      "start": 140.12,
+      "end": 141.02
+    },
+    {
+      "word": "Girl",
+      "start": 141.02,
+      "end": 141.38
+    },
+    {
+      "word": "with",
+      "start": 141.38,
+      "end": 141.88
+    },
+    {
+      "word": "the",
+      "start": 141.88,
+      "end": 142.04
+    },
+    {
+      "word": "cello",
+      "start": 142.04,
+      "end": 142.7
+    },
+    {
+      "word": "scar",
+      "start": 142.7,
+      "end": 143.18
+    },
+    {
+      "word": "She",
+      "start": 143.92,
+      "end": 144.44
+    },
+    {
+      "word": "carries",
+      "start": 144.44,
+      "end": 145.46
+    },
+    {
+      "word": "it",
+      "start": 145.46,
+      "end": 146.02
+    },
+    {
+      "word": "wherever",
+      "start": 146.02,
+      "end": 146.5
+    },
+    {
+      "word": "she",
+      "start": 146.5,
+      "end": 148.36
+    },
+    {
+      "word": "goes",
+      "start": 148.36,
+      "end": 149.22
+    },
+    {
+      "word": "Girl",
+      "start": 165.52,
+      "end": 166.44
+    },
+    {
+      "word": "with",
+      "start": 166.44,
+      "end": 167.36
+    },
+    {
+      "word": "the",
+      "start": 167.36,
+      "end": 167.36
+    },
+    {
+      "word": "cello",
+      "start": 167.36,
+      "end": 167.36
+    },
+    {
+      "word": "scar",
+      "start": 167.36,
+      "end": 167.36
+    },
+    {
+      "word": "Maybe",
+      "start": 167.36,
+      "end": 167.36
+    },
+    {
+      "word": "it",
+      "start": 167.36,
+      "end": 167.68
+    },
+    {
+      "word": "was",
+      "start": 167.68,
+      "end": 167.88
+    },
+    {
+      "word": "lost,",
+      "start": 167.88,
+      "end": 168.32
+    },
+    {
+      "word": "or",
+      "start": 168.32,
+      "end": 169.28
+    },
+    {
+      "word": "maybe",
+      "start": 169.28,
+      "end": 169.62
+    },
+    {
+      "word": "love",
+      "start": 169.62,
+      "end": 170.16
+    },
+    {
+      "word": "That",
+      "start": 170.16,
+      "end": 170.72
+    },
+    {
+      "word": "carved",
+      "start": 170.72,
+      "end": 171.02
+    },
+    {
+      "word": "a",
+      "start": 171.02,
+      "end": 171.22
+    },
+    {
+      "word": "quiet",
+      "start": 171.22,
+      "end": 171.62
+    },
+    {
+      "word": "measure",
+      "start": 171.62,
+      "end": 172.24
+    },
+    {
+      "word": "Underground",
+      "start": 172.24,
+      "end": 172.96
+    },
+    {
+      "word": "above,",
+      "start": 172.96,
+      "end": 173.74
+    },
+    {
+      "word": "she",
+      "start": 174.46,
+      "end": 174.54
+    },
+    {
+      "word": "presses",
+      "start": 174.54,
+      "end": 174.9
+    },
+    {
+      "word": "her",
+      "start": 174.9,
+      "end": 175.3
+    },
+    {
+      "word": "hand",
+      "start": 175.3,
+      "end": 175.72
+    },
+    {
+      "word": "Like",
+      "start": 175.72,
+      "end": 176.22
+    },
+    {
+      "word": "a",
+      "start": 176.22,
+      "end": 176.48
+    },
+    {
+      "word": "mute",
+      "start": 176.48,
+      "end": 176.74
+    },
+    {
+      "word": "on",
+      "start": 176.74,
+      "end": 177.02
+    },
+    {
+      "word": "strings",
+      "start": 177.02,
+      "end": 177.52
+    },
+    {
+      "word": "And",
+      "start": 177.52,
+      "end": 178.2
+    },
+    {
+      "word": "for",
+      "start": 178.2,
+      "end": 178.4
+    },
+    {
+      "word": "one",
+      "start": 178.4,
+      "end": 178.82
+    },
+    {
+      "word": "clear",
+      "start": 178.82,
+      "end": 179.12
+    },
+    {
+      "word": "second,",
+      "start": 179.12,
+      "end": 179.76
+    },
+    {
+      "word": "the",
+      "start": 180.38,
+      "end": 181.68
+    },
+    {
+      "word": "whole",
+      "start": 181.68,
+      "end": 181.96
+    },
+    {
+      "word": "room",
+      "start": 181.96,
+      "end": 182.54
+    },
+    {
+      "word": "leans",
+      "start": 182.54,
+      "end": 183.02
+    },
+    {
+      "word": "in",
+      "start": 183.02,
+      "end": 183.54
+    },
+    {
+      "word": "Girl",
+      "start": 188.28,
+      "end": 189.28
+    },
+    {
+      "word": "with",
+      "start": 189.28,
+      "end": 189.7
+    },
+    {
+      "word": "the",
+      "start": 189.7,
+      "end": 189.82
+    },
+    {
+      "word": "cello",
+      "start": 189.82,
+      "end": 190.4
+    },
+    {
+      "word": "scar",
+      "start": 190.4,
+      "end": 190.84
+    },
+    {
+      "word": "It",
+      "start": 190.84,
+      "end": 192.14
+    },
+    {
+      "word": "sings",
+      "start": 192.14,
+      "end": 192.96
+    },
+    {
+      "word": "when",
+      "start": 192.96,
+      "end": 193.46
+    },
+    {
+      "word": "the",
+      "start": 193.46,
+      "end": 193.68
+    },
+    {
+      "word": "room",
+      "start": 193.68,
+      "end": 193.94
+    },
+    {
+      "word": "goes",
+      "start": 193.94,
+      "end": 194.26
+    },
+    {
+      "word": "dark",
+      "start": 194.26,
+      "end": 195.48
+    },
+    {
+      "word": "Girl",
+      "start": 195.48,
+      "end": 196.84
+    },
+    {
+      "word": "with",
+      "start": 196.84,
+      "end": 197.32
+    },
+    {
+      "word": "the",
+      "start": 197.32,
+      "end": 197.46
+    },
+    {
+      "word": "cello",
+      "start": 197.46,
+      "end": 198.0
+    },
+    {
+      "word": "scar",
+      "start": 198.0,
+      "end": 198.5
+    },
+    {
+      "word": "Hello,",
+      "start": 198.5,
+      "end": 199.56
+    },
+    {
+      "word": "no,",
+      "start": 200.02,
+      "end": 200.24
+    },
+    {
+      "word": "under",
+      "start": 200.7,
+      "end": 201.46
+    },
+    {
+      "word": "her",
+      "start": 201.46,
+      "end": 202.2
+    },
+    {
+      "word": "eye",
+      "start": 202.2,
+      "end": 203.9
+    },
+    {
+      "word": "It",
+      "start": 203.9,
+      "end": 204.56
+    },
+    {
+      "word": "hurts,",
+      "start": 204.56,
+      "end": 206.46
+    },
+    {
+      "word": "then",
+      "start": 206.98,
+      "end": 207.04
+    },
+    {
+      "word": "holds",
+      "start": 207.04,
+      "end": 207.38
+    },
+    {
+      "word": "it",
+      "start": 207.38,
+      "end": 207.98
+    },
+    {
+      "word": "bends,",
+      "start": 207.98,
+      "end": 208.32
+    },
+    {
+      "word": "then",
+      "start": 208.66,
+      "end": 208.94
+    },
+    {
+      "word": "glows",
+      "start": 208.94,
+      "end": 209.94
+    },
+    {
+      "word": "Girl",
+      "start": 209.94,
+      "end": 210.14
+    },
+    {
+      "word": "with",
+      "start": 210.14,
+      "end": 210.64
+    },
+    {
+      "word": "the",
+      "start": 210.64,
+      "end": 210.84
+    },
+    {
+      "word": "cello",
+      "start": 210.84,
+      "end": 211.44
+    },
+    {
+      "word": "scar",
+      "start": 211.44,
+      "end": 211.9
+    },
+    {
+      "word": "She",
+      "start": 211.9,
+      "end": 213.38
+    },
+    {
+      "word": "carries",
+      "start": 213.38,
+      "end": 214.34
+    },
+    {
+      "word": "it",
+      "start": 214.34,
+      "end": 214.72
+    },
+    {
+      "word": "wherever",
+      "start": 214.72,
+      "end": 215.42
+    },
+    {
+      "word": "she",
+      "start": 215.42,
+      "end": 217.1
+    },
+    {
+      "word": "goes",
+      "start": 217.1,
+      "end": 217.92
+    }
+  ],
+  "duration": 0
+}

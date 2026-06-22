@@ -3,7 +3,7 @@
  * generate-merch-art.js
  *
  * Generates t-shirt / merchandise art concepts via Kie.ai Flux Kontext.
- * Output: public/Images/merch/{concept-id}.jpg  (1:1)
+ * Output: public/images/merch/{concept-id}.jpg  (1:1)
  *
  * USAGE
  *   node scripts/generate-merch-art.js              # dry-run
@@ -28,7 +28,7 @@ const { loadState, saveState, isComplete, isPending, blankEntry } = require('./l
 loadEnv()
 
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'merch')
-const PUBLIC_BASE = '/Images/merch'
+const PUBLIC_BASE = '/images/merch'
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000
 

@@ -1,75 +1,125 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { useCart } from '@/context/CartContext'
 
-type MerchKind = 'all' | 'apparel' | 'home' | 'print' | 'accessories' | 'stationery'
+type MerchKind = 'all' | 'music' | 'books' | 'print' | 'home' | 'apparel' | 'accessories' | 'stationery' | 'experiences'
+
+const p = (id: string) => `/images/products/${id}.jpg`
+const m = (id: string) => `/images/merch/${id}.jpg`
 
 const MERCH_ITEMS = [
+  // ── Music ────────────────────────────────────────────────────────────────
+  { id: 'vinyl-record',         label: 'Vinyl Record',                kind: 'music',       img: p('vinyl-record'),          tag: 'Vinyl 12"',    price: '€35' },
+  { id: 'vinyl-bundle',         label: 'Collector Bundle',            kind: 'music',       img: p('vinyl-bundle'),          tag: 'Bundle',       price: '€120', featured: true, impact: true },
+  { id: 'vinyl-gatefold-open',  label: 'Vinyl — Gatefold Edition',    kind: 'music',       img: p('vinyl-gatefold-open'),   tag: 'Vinyl 12"',    price: '€45' },
+  { id: 'cassette-tape',        label: 'Cassette Tape',               kind: 'music',       img: p('cassette-tape'),         tag: 'Cassette',     price: '€18' },
+  { id: 'cd-album',             label: 'CD Album + Booklet',          kind: 'music',       img: p('cd-album'),              tag: 'CD',           price: '€18' },
+  { id: 'vinyl-on-player',      label: 'Vinyl on Player (Poster)',    kind: 'music',       img: p('vinyl-on-player'),       tag: 'Poster',       price: '€30' },
+
+  // ── Books ─────────────────────────────────────────────────────────────────
+  { id: 'hardcover-novel',      label: 'Hardcover Novel',             kind: 'books',       img: p('hardcover-novel'),       tag: 'Hardcover',    price: '€38', featured: true, impact: true },
+  { id: 'hardcover-novel-open', label: 'Hardcover Novel (Signed)',    kind: 'books',       img: p('hardcover-novel-open'),  tag: 'Limited',      price: '€65' },
+  { id: 'paperback-novel',      label: 'Paperback Novel',             kind: 'books',       img: p('paperback-novel'),       tag: 'Paperback',    price: '€18', impact: true },
+  { id: 'art-book',             label: 'Art Book — Coffee Table',     kind: 'books',       img: p('art-book'),              tag: 'Art Book',     price: '€75' },
+  { id: 'painting-book',        label: 'Painting Book',               kind: 'books',       img: p('painting-book'),         tag: 'Painting',     price: '€28' },
+  { id: 'painting-book-in-progress', label: 'Painting Book — Atlantic Scenes', kind: 'books', img: p('painting-book-in-progress'), tag: 'Painting', price: '€28' },
+  { id: 'lyric-booklet',        label: 'Lyric Booklet',               kind: 'books',       img: p('lyric-booklet'),         tag: 'Booklet',      price: '€16', impact: true },
+  { id: 'postcard-set',         label: 'Postcard Set — 17 Chapters',  kind: 'books',       img: p('postcard-set'),          tag: 'Postcards',    price: '€20' },
+  { id: 'quote-cards',          label: 'Quote Cards — Foil Set',      kind: 'books',       img: p('quote-cards'),           tag: 'Cards',        price: '€24' },
+
   // ── Apparel ──────────────────────────────────────────────────────────────
-  { id: 'atlantic-noir-wordmark',  label: 'Atlantic Noir Wordmark',       kind: 'apparel',     img: '/Images/merch/atlantic-noir-wordmark.jpg',  tag: 'T-Shirt',     price: '€35' },
-  { id: 'the-road-itself',         label: '"The Road Itself"',             kind: 'apparel',     img: '/Images/merch/the-road-itself.jpg',          tag: 'T-Shirt',     price: '€35' },
-  { id: 'leave-a-light-on',        label: '"Leave A Light On"',            kind: 'apparel',     img: '/Images/merch/leave-a-light-on.jpg',         tag: 'T-Shirt',     price: '€35' },
-  { id: 'roots-we-cannot-see',     label: 'The Roots We Cannot See',       kind: 'apparel',     img: '/Images/merch/roots-we-cannot-see.jpg',      tag: 'T-Shirt',     price: '€35' },
-  { id: 'free-men-tell-truth',     label: '"Free Men Tell The Truth"',     kind: 'apparel',     img: '/Images/merch/free-men-tell-truth.jpg',      tag: 'T-Shirt',     price: '€35' },
-  { id: 'hoodie-sea-soul',         label: 'Sea-Soul Hoodie',               kind: 'apparel',     img: '/Images/merch/hoodie-sea-soul.jpg',          tag: 'Hoodie',      price: '€65' },
-  { id: 'hoodie-free-men',         label: '"Free Men" Hoodie',             kind: 'apparel',     img: '/Images/merch/hoodie-free-men.jpg',          tag: 'Hoodie',      price: '€65' },
-  { id: 'longsleeve-atlantic',     label: 'Atlantic Long Sleeve',          kind: 'apparel',     img: '/Images/merch/atlantic-noir-wordmark.jpg',   tag: 'Long Sleeve', price: '€40' },
-  { id: 'beanie-nc',               label: 'NoiraCiel Beanie',              kind: 'apparel',     img: '/Images/merch/cap-nc-monogram.jpg',          tag: 'Beanie',      price: '€28' },
+  { id: 'tshirt-folded',            label: 'Atlantic Noir T-Shirt',        kind: 'apparel',     img: p('tshirt-folded'),                          tag: 'T-Shirt',     price: '€35' },
+  { id: 'atlantic-noir-wordmark',  label: 'Atlantic Noir Wordmark Tee',   kind: 'apparel',     img: m('atlantic-noir-wordmark'),                 tag: 'T-Shirt',     price: '€35' },
+  { id: 'the-road-itself',         label: '"The Road Itself"',             kind: 'apparel',     img: '/images/merch/the-road-itself.jpg',          tag: 'T-Shirt',     price: '€35' },
+  { id: 'leave-a-light-on',        label: '"Leave A Light On"',            kind: 'apparel',     img: '/images/merch/leave-a-light-on.jpg',         tag: 'T-Shirt',     price: '€35' },
+  { id: 'roots-we-cannot-see',     label: 'The Roots We Cannot See',       kind: 'apparel',     img: '/images/merch/roots-we-cannot-see.jpg',      tag: 'T-Shirt',     price: '€35' },
+  { id: 'free-men-tell-truth',     label: '"Free Men Tell The Truth"',     kind: 'apparel',     img: '/images/merch/free-men-tell-truth.jpg',      tag: 'T-Shirt',     price: '€35' },
+  { id: 'hoodie-sea-soul',         label: 'Sea-Soul Hoodie',               kind: 'apparel',     img: '/images/merch/hoodie-sea-soul.jpg',          tag: 'Hoodie',      price: '€65' },
+  { id: 'hoodie-free-men',         label: '"Free Men" Hoodie',             kind: 'apparel',     img: '/images/merch/hoodie-free-men.jpg',          tag: 'Hoodie',      price: '€65' },
+  { id: 'longsleeve-atlantic',     label: 'Atlantic Long Sleeve',          kind: 'apparel',     img: '/images/merch/atlantic-noir-wordmark.jpg',   tag: 'Long Sleeve', price: '€40' },
+  { id: 'beanie-nc',               label: 'NoiraCiel Beanie',              kind: 'apparel',     img: '/images/merch/cap-nc-monogram.jpg',          tag: 'Beanie',      price: '€28' },
 
   // ── Home & Lifestyle ─────────────────────────────────────────────────────
-  { id: 'candle-atlantic-night',   label: 'Atlantic Night Candle',         kind: 'home',        img: '/Images/merch/mug-atlantic-dawn.jpg',        tag: 'Candle',      price: '€32' },
-  { id: 'candle-leave-light',      label: '"Leave A Light On" Candle',     kind: 'home',        img: '/Images/merch/mug-empty-chair.jpg',          tag: 'Candle',      price: '€32' },
-  { id: 'candle-memory',           label: 'Memory · Woody Noir Candle',    kind: 'home',        img: '/Images/merch/mug-atlantic-dawn.jpg',        tag: 'Candle',      price: '€32' },
-  { id: 'candle-set-sea-soul',     label: 'Sea-Soul Candle Set (3)',        kind: 'home',        img: '/Images/merch/mug-empty-chair.jpg',          tag: 'Candle Set',  price: '€85' },
-  { id: 'mug-atlantic-dawn',       label: 'Atlantic Dawn Mug',             kind: 'home',        img: '/Images/merch/mug-atlantic-dawn.jpg',        tag: 'Mug',         price: '€22' },
-  { id: 'mug-empty-chair',         label: '"The Empty Chair" Mug',         kind: 'home',        img: '/Images/merch/mug-empty-chair.jpg',          tag: 'Mug',         price: '€22' },
-  { id: 'coaster-set',             label: 'Atlantic Coaster Set (4)',       kind: 'home',        img: '/Images/merch/vinyl-record-sleeve.jpg',      tag: 'Coasters',    price: '€28' },
-  { id: 'throw-blanket',           label: 'Atlantic Noir Throw',           kind: 'home',        img: '/Images/merch/hoodie-sea-soul.jpg',          tag: 'Throw',       price: '€75' },
-  { id: 'cushion-sea',             label: '"The Sea" Cushion',              kind: 'home',        img: '/Images/merch/roots-we-cannot-see.jpg',      tag: 'Cushion',     price: '€45' },
-  { id: 'diffuser-atlantic',       label: 'Atlantic Noir Reed Diffuser',   kind: 'home',        img: '/Images/merch/mug-atlantic-dawn.jpg',        tag: 'Diffuser',    price: '€38' },
+  { id: 'candle-leave-light',      label: '"Leave A Light On" Candle',     kind: 'home',        img: '/images/merch/mug-empty-chair.jpg',          tag: 'Candle',      price: '€32' },
+  { id: 'candle-memory',           label: 'Memory · Woody Noir Candle',    kind: 'home',        img: '/images/merch/mug-atlantic-dawn.jpg',        tag: 'Candle',      price: '€32' },
+  { id: 'candle-set-sea-soul',     label: 'Sea-Soul Candle Set (3)',        kind: 'home',        img: '/images/merch/mug-empty-chair.jpg',          tag: 'Candle Set',  price: '€85' },
+  { id: 'mug-atlantic-dawn',       label: 'Atlantic Dawn Mug',             kind: 'home',        img: '/images/merch/mug-atlantic-dawn.jpg',        tag: 'Mug',         price: '€22' },
+  { id: 'mug-empty-chair',         label: '"The Empty Chair" Mug',         kind: 'home',        img: '/images/merch/mug-empty-chair.jpg',          tag: 'Mug',         price: '€22' },
+  { id: 'coaster-set',             label: 'Atlantic Coaster Set (4)',       kind: 'home',        img: '/images/merch/vinyl-record-sleeve.jpg',      tag: 'Coasters',    price: '€28' },
+  { id: 'throw-blanket',           label: 'Atlantic Noir Throw',           kind: 'home',        img: '/images/merch/hoodie-sea-soul.jpg',          tag: 'Throw',       price: '€75' },
+  { id: 'cushion-sea',             label: '"The Sea" Cushion',              kind: 'home',        img: '/images/merch/roots-we-cannot-see.jpg',      tag: 'Cushion',     price: '€45' },
+  { id: 'diffuser-atlantic',       label: 'Atlantic Noir Reed Diffuser',   kind: 'home',        img: '/images/merch/mug-atlantic-dawn.jpg',        tag: 'Diffuser',    price: '€38' },
 
   // ── Accessories ──────────────────────────────────────────────────────────
-  { id: 'tote-roots',              label: 'Roots Tote Bag',                kind: 'accessories', img: '/Images/merch/tote-roots.jpg',               tag: 'Tote Bag',    price: '€30' },
-  { id: 'tote-borrowed-time',      label: '"Borrowed Time" Tote',          kind: 'accessories', img: '/Images/merch/tote-borrowed-time.jpg',       tag: 'Tote Bag',    price: '€30' },
-  { id: 'cap-nc-monogram',         label: 'NC Monogram Cap',               kind: 'accessories', img: '/Images/merch/cap-nc-monogram.jpg',          tag: 'Cap',         price: '€32' },
-  { id: 'cap-atlantic-noir',       label: '"Atlantic Noir" Cap',           kind: 'accessories', img: '/Images/merch/cap-atlantic-noir.jpg',        tag: 'Cap',         price: '€32' },
-  { id: 'phone-case-atlantic',     label: 'Atlantic Phone Case',           kind: 'accessories', img: '/Images/merch/phone-case-atlantic.jpg',      tag: 'Phone Case',  price: '€25' },
-  { id: 'phone-case-roots',        label: '"Roots" Phone Case',            kind: 'accessories', img: '/Images/merch/phone-case-roots.jpg',         tag: 'Phone Case',  price: '€25' },
-  { id: 'sticker-diamond-mark',    label: 'Diamond Mark Sticker',          kind: 'accessories', img: '/Images/merch/sticker-diamond-mark.jpg',     tag: 'Sticker',     price: '€8' },
-  { id: 'keyring-nc',              label: 'NoiraCiel Key Ring',             kind: 'accessories', img: '/Images/merch/sticker-diamond-mark.jpg',    tag: 'Key Ring',    price: '€15' },
-  { id: 'patch-set',               label: 'Embroidered Patch Set',         kind: 'accessories', img: '/Images/merch/sticker-diamond-mark.jpg',    tag: 'Patches',     price: '€18' },
-  { id: 'backpack-atlantic',       label: 'Atlantic Noir Backpack',        kind: 'accessories', img: '/Images/merch/tote-roots.jpg',               tag: 'Backpack',    price: '€90' },
+  { id: 'tote-roots',              label: 'Roots Tote Bag',                kind: 'accessories', img: '/images/merch/tote-roots.jpg',               tag: 'Tote Bag',    price: '€30' },
+  { id: 'tote-borrowed-time',      label: '"Borrowed Time" Tote',          kind: 'accessories', img: '/images/merch/tote-borrowed-time.jpg',       tag: 'Tote Bag',    price: '€30' },
+  { id: 'cap-nc-monogram',         label: 'NC Monogram Cap',               kind: 'accessories', img: '/images/merch/cap-nc-monogram.jpg',          tag: 'Cap',         price: '€32' },
+  { id: 'cap-atlantic-noir',       label: '"Atlantic Noir" Cap',           kind: 'accessories', img: '/images/merch/cap-atlantic-noir.jpg',        tag: 'Cap',         price: '€32' },
+  { id: 'phone-case-atlantic',     label: 'Atlantic Phone Case',           kind: 'accessories', img: '/images/merch/phone-case-atlantic.jpg',      tag: 'Phone Case',  price: '€25' },
+  { id: 'phone-case-roots',        label: '"Roots" Phone Case',            kind: 'accessories', img: '/images/merch/phone-case-roots.jpg',         tag: 'Phone Case',  price: '€25' },
+  { id: 'sticker-diamond-mark',    label: 'Diamond Mark Sticker',          kind: 'accessories', img: '/images/merch/sticker-diamond-mark.jpg',     tag: 'Sticker',     price: '€8' },
+  { id: 'keyring-nc',              label: 'NoiraCiel Key Ring',             kind: 'accessories', img: '/images/merch/sticker-diamond-mark.jpg',    tag: 'Key Ring',    price: '€15' },
+  { id: 'patch-set',               label: 'Embroidered Patch Set',         kind: 'accessories', img: '/images/merch/sticker-diamond-mark.jpg',    tag: 'Patches',     price: '€18' },
+  { id: 'backpack-atlantic',       label: 'Atlantic Noir Backpack',        kind: 'accessories', img: '/images/merch/tote-roots.jpg',               tag: 'Backpack',    price: '€90' },
 
   // ── Print & Art ──────────────────────────────────────────────────────────
-  { id: 'poster-why',              label: '"Why" Cinematic Poster',        kind: 'print',       img: '/Images/merch/poster-why.jpg',               tag: 'Poster',      price: '€30' },
-  { id: 'poster-life-lessons',     label: 'Album Declaration Poster',      kind: 'print',       img: '/Images/merch/poster-life-lessons.jpg',      tag: 'Poster',      price: '€30' },
-  { id: 'life-lessons-cover',      label: 'Album Cover Art Print',         kind: 'print',       img: '/Images/album-cover.png',                    tag: 'Art Print',   price: '€45' },
-  { id: 'noiraciel-crest',         label: 'Heritage Crest Print',          kind: 'print',       img: '/Images/merch/noiraciel-crest.jpg',          tag: 'Art Print',   price: '€45' },
-  { id: 'borrowed-time-print',     label: '"Borrowed Time" Art Print',     kind: 'print',       img: '/Images/merch/borrowed-time.jpg',            tag: 'Art Print',   price: '€45' },
-  { id: 'vinyl-record-sleeve',     label: 'Vinyl Record Sleeve',           kind: 'print',       img: '/Images/merch/vinyl-record-sleeve.jpg',      tag: 'Vinyl',       price: '€40' },
-  { id: 'signed-album-print',      label: 'Signed Limited Print (1/50)',   kind: 'print',       img: '/Images/album-cover.png',                    tag: 'Limited',     price: '€120' },
-  { id: 'postcard-set',            label: 'Atlantic Noir Postcard Set',    kind: 'print',       img: '/Images/merch/poster-why.jpg',               tag: 'Postcards',   price: '€16' },
+  { id: 'poster-why',              label: '"Why" Cinematic Poster',        kind: 'print',       img: '/images/merch/poster-why.jpg',               tag: 'Poster',      price: '€30' },
+  { id: 'poster-life-lessons',     label: 'Album Declaration Poster',      kind: 'print',       img: '/images/merch/poster-life-lessons.jpg',      tag: 'Poster',      price: '€30' },
+  { id: 'life-lessons-cover',      label: 'Album Cover Art Print',         kind: 'print',       img: '/images/album-cover.png',                    tag: 'Art Print',   price: '€45' },
+  { id: 'noiraciel-crest',         label: 'Heritage Crest Print',          kind: 'print',       img: '/images/merch/noiraciel-crest.jpg',          tag: 'Art Print',   price: '€45' },
+  { id: 'borrowed-time-print',     label: '"Borrowed Time" Art Print',     kind: 'print',       img: '/images/merch/borrowed-time.jpg',            tag: 'Art Print',   price: '€45' },
+  { id: 'vinyl-record-sleeve',     label: 'Vinyl Record Sleeve',           kind: 'print',       img: '/images/merch/vinyl-record-sleeve.jpg',      tag: 'Vinyl',       price: '€40' },
+  { id: 'signed-album-print',      label: 'Signed Limited Print (1/50)',   kind: 'print',       img: '/images/album-cover.png',                    tag: 'Limited',     price: '€120' },
+  { id: 'postcard-set-print',      label: 'Atlantic Noir Postcard Set',    kind: 'print',       img: '/images/merch/poster-why.jpg',               tag: 'Postcards',   price: '€16' },
 
   // ── Stationery ────────────────────────────────────────────────────────────
-  { id: 'journal-atlantic',        label: 'Atlantic Journal',              kind: 'stationery',  img: '/Images/merch/poster-life-lessons.jpg',      tag: 'Journal',     price: '€28' },
-  { id: 'notebook-lyrics',         label: 'Lyric Notes Notebook',          kind: 'stationery',  img: '/Images/merch/poster-life-lessons.jpg',      tag: 'Notebook',    price: '€20' },
-  { id: 'bookmarks',               label: 'Atlantic Bookmark Set (5)',     kind: 'stationery',  img: '/Images/merch/sticker-diamond-mark.jpg',    tag: 'Bookmarks',   price: '€12' },
-  { id: 'greeting-cards',          label: '"Life Lessons" Card Set (8)',   kind: 'stationery',  img: '/Images/merch/poster-why.jpg',               tag: 'Cards',       price: '€20' },
-  { id: 'gift-box',                label: 'NoiraCiel Gift Box',            kind: 'stationery',  img: '/Images/album-cover.png',                    tag: 'Gift Set',    price: '€95' },
+  { id: 'journal-atlantic',        label: 'Atlantic Journal',              kind: 'stationery',  img: '/images/merch/poster-life-lessons.jpg',      tag: 'Journal',     price: '€28' },
+  { id: 'notebook-lyrics',         label: 'Lyric Notes Notebook',          kind: 'stationery',  img: '/images/merch/poster-life-lessons.jpg',      tag: 'Notebook',    price: '€20' },
+  { id: 'bookmarks',               label: 'Atlantic Bookmark Set (5)',     kind: 'stationery',  img: '/images/merch/sticker-diamond-mark.jpg',    tag: 'Bookmarks',   price: '€12' },
+  { id: 'greeting-cards',          label: '"Life Lessons" Card Set (8)',   kind: 'stationery',  img: '/images/merch/poster-why.jpg',               tag: 'Cards',       price: '€20' },
+  { id: 'gift-box',                label: 'NoiraCiel Gift Box',            kind: 'stationery',  img: p('gift-box'),                               tag: 'Gift Set',    price: '€95', impact: true },
+  { id: 'writing-set',             label: 'Atlantic Writing Set',          kind: 'stationery',  img: p('writing-set'),                            tag: 'Writing Set', price: '€65', impact: true },
+
+  // ── Print & Art (new) ─────────────────────────────────────────────────────
+  { id: 'chapter-map-poster',      label: 'Chapter Map Poster',            kind: 'print',       img: p('chapter-map-poster'),                     tag: 'Poster',      price: '€45', featured: true },
+  { id: 'chapter-art-print-framed',label: 'Chapter Art Print — Framed',    kind: 'print',       img: p('chapter-art-print-framed'),               tag: 'Art Print',   price: '€65' },
+  { id: 'art-print-set',           label: 'Art Print Series — 17 Pieces',  kind: 'print',       img: p('art-print-set'),                          tag: 'Series',      price: '€320' },
+  { id: 'canvas-print',            label: 'Canvas Print',                   kind: 'print',       img: p('canvas-print'),                           tag: 'Canvas',      price: '€95' },
+  { id: 'signed-limited-print',    label: 'Signed Limited Print (1/50)',   kind: 'print',       img: p('signed-limited-print'),                   tag: 'Limited',     price: '€150' },
+
+  // ── Home (new) ────────────────────────────────────────────────────────────
+  { id: 'candle-atlantic-night',   label: 'Atlantic Night Candle',          kind: 'home',        img: p('candle-atlantic-night'),                  tag: 'Candle',      price: '€32' },
+  { id: 'candle-borrowed-time',    label: 'Borrowed Time Candle',           kind: 'home',        img: p('candle-borrowed-time'),                   tag: 'Candle',      price: '€32' },
+  { id: 'candle-set-three',        label: 'Candle Set — Three',             kind: 'home',        img: p('candle-set-three'),                       tag: 'Candle Set',  price: '€85', featured: true },
+  { id: 'mug-noir',                label: 'Atlantic Mug',                   kind: 'home',        img: p('mug-noir'),                               tag: 'Mug',         price: '€22' },
+  { id: 'matchbox',                label: 'Branded Matchbox',               kind: 'home',        img: p('matchbox'),                               tag: 'Matches',     price: '€8' },
+  { id: 'reed-diffuser',           label: 'Atlantic Noir Reed Diffuser',    kind: 'home',        img: p('reed-diffuser'),                          tag: 'Diffuser',    price: '€38' },
+  { id: 'cushion',                 label: 'Atlantic Linen Cushion',         kind: 'home',        img: p('cushion'),                                tag: 'Cushion',     price: '€45' },
+
+  // ── Experiences ───────────────────────────────────────────────────────────
+  { id: 'listening-session',       label: 'Listening Session — Ticket',    kind: 'experiences', img: p('listening-session'),                      tag: 'Event',       price: '€45', featured: true },
+  { id: 'sheet-music-digital',     label: 'Sheet Music — Digital',         kind: 'experiences', img: p('lyric-booklet'),                          tag: 'Digital',     price: '€12' },
+  { id: 'wallpaper-pack',          label: 'Wallpaper Pack — 17 Screens',   kind: 'experiences', img: p('chapter-map-poster'),                     tag: 'Digital',     price: '€8' },
 ]
 
-const FILTERS: { label: string; value: MerchKind; count?: number }[] = [
-  { label: 'All',             value: 'all' },
-  { label: 'Apparel',         value: 'apparel' },
-  { label: 'Home & Candles',  value: 'home' },
-  { label: 'Print & Art',     value: 'print' },
-  { label: 'Accessories',     value: 'accessories' },
-  { label: 'Stationery',      value: 'stationery' },
+const FILTERS: { label: string; value: MerchKind }[] = [
+  { label: 'All',          value: 'all' },
+  { label: 'Music',        value: 'music' },
+  { label: 'Books',        value: 'books' },
+  { label: 'Print & Art',  value: 'print' },
+  { label: 'Home',         value: 'home' },
+  { label: 'Apparel',      value: 'apparel' },
+  { label: 'Stationery',   value: 'stationery' },
+  { label: 'Accessories',  value: 'accessories' },
+  { label: 'Experiences',  value: 'experiences' },
 ]
 
 function MerchCard({ item }: { item: typeof MERCH_ITEMS[0] }) {
   const [loaded, setLoaded] = useState(false)
+  const [added, setAdded] = useState(false)
   const imgRef = useRef<HTMLImageElement>(null)
+  const cart = useCart()
 
   useEffect(() => {
     if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) setLoaded(true)
@@ -78,8 +128,15 @@ function MerchCard({ item }: { item: typeof MERCH_ITEMS[0] }) {
   const isLimited = item.tag === 'Limited'
   const isCandleSet = item.tag === 'Candle Set' || item.tag === 'Gift Set'
 
+  function handleAddToCart() {
+    const priceNum = parseFloat(item.price.replace(/[€$£,]/g, '').trim()) || 0
+    cart.add({ id: item.id, label: item.label, price: item.price, priceNum, img: item.img })
+    setAdded(true)
+    setTimeout(() => setAdded(false), 1500)
+  }
+
   return (
-    <div className="group relative overflow-hidden bg-noir-deep border border-noir-silver/6 hover:border-noir-gold/25 transition-all duration-500">
+    <div className="group relative overflow-hidden bg-noir-deep border border-noir-silver/6 hover:border-noir-gold/25 transition-all duration-500 flex flex-col">
       {/* Image */}
       <div className="aspect-square relative overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -96,13 +153,18 @@ function MerchCard({ item }: { item: typeof MERCH_ITEMS[0] }) {
         <div className="absolute inset-0 bg-gradient-to-t from-noir-void/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
         {/* Badges */}
-        <div className="absolute top-3 left-3 flex gap-1.5">
+        <div className="absolute top-3 left-3 flex gap-1.5 flex-col items-start">
           <span className="font-body text-[8px] tracking-[0.3em] text-noir-silver/50 bg-noir-void/70 border border-noir-silver/10 px-2 py-0.5 uppercase">
             {item.tag}
           </span>
           {isLimited && (
             <span className="font-body text-[8px] tracking-[0.2em] text-noir-gold bg-noir-void/80 border border-noir-gold/30 px-2 py-0.5 uppercase">
               Limited
+            </span>
+          )}
+          {'impact' in item && item.impact && (
+            <span className="font-body text-[7px] tracking-[0.18em] text-[#C4953A] bg-noir-void/85 border border-[#C4953A]/40 px-2 py-0.5 uppercase">
+              ✦ Scholarship
             </span>
           )}
         </div>
@@ -118,19 +180,34 @@ function MerchCard({ item }: { item: typeof MERCH_ITEMS[0] }) {
         <div className="absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <a
             href="#contact"
+            title="Send an enquiry via the contact form"
             className="font-body text-[9px] tracking-[0.3em] uppercase text-noir-gold border border-noir-gold/50 px-4 py-2 bg-noir-void/80 hover:bg-noir-gold hover:text-noir-void transition-all duration-300"
           >
-            Order
+            Enquire
           </a>
         </div>
       </div>
 
       {/* Label */}
-      <div className="px-3 py-3 flex items-start justify-between gap-2">
+      <div className="px-3 pt-3 pb-1 flex items-start justify-between gap-2 flex-1">
         <p className="font-heading italic text-sm text-noir-ivory/75 leading-tight">{item.label}</p>
         {isCandleSet && (
           <span className="text-[9px] font-body text-noir-gold/50 tracking-wide whitespace-nowrap">Best Value</span>
         )}
+      </div>
+
+      {/* Add to Cart */}
+      <div className="px-3 pb-3">
+        <button
+          onClick={handleAddToCart}
+          className={`w-full font-body text-[9px] tracking-[0.22em] uppercase py-2 border transition-all duration-300 ${
+            added
+              ? 'text-noir-gold border-noir-gold/60 bg-noir-gold/8'
+              : 'text-noir-silver/50 border-noir-silver/12 hover:text-noir-gold hover:border-noir-gold/40 hover:bg-noir-gold/5'
+          }`}
+        >
+          {added ? '✓ Added' : 'Add to Cart'}
+        </button>
       </div>
     </div>
   )
@@ -180,7 +257,7 @@ export default function MerchSection() {
   }))
 
   return (
-    <section id="merch" className="py-28 px-6 relative">
+    <section id="merch" className="py-14 md:py-20 lg:py-28 px-6 relative">
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -190,10 +267,10 @@ export default function MerchSection() {
 
       <div className="max-w-6xl mx-auto relative">
         {/* Header */}
-        <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div className="mb-10 flex flex-col gap-6">
           <div>
-            <p className="font-body text-[9px] tracking-[0.5em] text-noir-gold/55 uppercase mb-3">The Shop</p>
-            <h2 className="font-heading text-5xl md:text-7xl text-noir-ivory font-light tracking-wide">
+            <p className="font-body text-[9px] tracking-[0.6em] text-noir-gold/55 uppercase mb-3">Objects &amp; Artifacts</p>
+            <h2 className="font-heading text-4xl sm:text-5xl md:text-7xl text-noir-ivory font-light tracking-wide">
               Wear the Universe
             </h2>
             <p className="font-body text-sm text-noir-silver/40 mt-3 max-w-md leading-relaxed">
@@ -201,20 +278,28 @@ export default function MerchSection() {
             </p>
           </div>
 
-          {/* Filter tabs */}
-          <div className="flex flex-wrap items-center gap-1">
+          {/* Scholarship impact note */}
+          <a href="/scholarship" className="hidden md:flex items-center gap-2 border border-noir-gold/15 px-3 py-2 hover:border-noir-gold/30 transition-all duration-300 no-underline">
+            <span className="text-[#C4953A]/70 text-xs">✦</span>
+            <span className="font-body text-[8px] tracking-[0.2em] text-noir-gold/55 uppercase leading-tight">
+              A % of sales<br />funds the Scholarship
+            </span>
+          </a>
+
+          {/* Filter tabs (#35) */}
+          <div className="flex flex-wrap items-center gap-1 overflow-x-auto scrollbar-none">
             {filterCounts.map((f) => (
               <button
                 key={f.value}
                 onClick={() => setFilter(f.value)}
-                className={`font-body text-[9px] tracking-[0.18em] uppercase px-3 py-2 transition-all duration-200 ${
+                className={`font-body text-[9px] tracking-[0.2em] uppercase px-3 py-1.5 border transition-all duration-200 ${
                   filter === f.value
-                    ? 'text-noir-gold border-b border-noir-gold'
-                    : 'text-noir-silver/35 hover:text-noir-silver/60 border-b border-transparent'
+                    ? 'text-noir-gold border-noir-gold/40 bg-noir-gold/5'
+                    : 'text-noir-silver/32 border-noir-silver/12 hover:text-noir-ivory hover:border-noir-silver/25'
                 }`}
               >
                 {f.label}
-                <span className="ml-1 opacity-40">({f.count})</span>
+                <span className="ml-1 opacity-35 text-[8px]">({f.count})</span>
               </button>
             ))}
           </div>

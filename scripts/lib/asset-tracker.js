@@ -4,8 +4,8 @@
  * Shared state management for all NoiraCiel asset generation scripts.
  *
  * Each asset type stores a state JSON file inside its output folder:
- *   public/Images/song-art/.state.json
- *   public/Images/backgrounds/.state.json
+ *   public/images/song-art/.state.json
+ *   public/images/backgrounds/.state.json
  *   etc.
  *
  * State entry shape:
@@ -16,7 +16,7 @@
  *     status:      'none' | 'pending' | 'generating' | 'complete' | 'failed'
  *     remoteUrl:   string | null   — Kie.ai CDN URL (14-day expiry)
  *     localPath:   string | null   — absolute path on disk
- *     publicUrl:   string | null   — /Images/... URL for the website
+ *     publicUrl:   string | null   — /images/... URL for the website
  *     submittedAt: string | null
  *     completedAt: string | null
  *     error:       string | null

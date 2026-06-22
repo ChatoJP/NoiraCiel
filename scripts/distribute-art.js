@@ -21,13 +21,13 @@ const ART_DIR = path.join(__dirname, '..', 'art')
 
 // All generation categories and their output directories
 const CATEGORIES = [
-  { name: 'song-art',        dir: 'public/Images/song-art',        public: '/Images/song-art' },
-  { name: 'backgrounds',     dir: 'public/Images/backgrounds',      public: '/Images/backgrounds' },
-  { name: 'social',          dir: 'public/Images/social',           public: '/Images/social' },
-  { name: 'merch',           dir: 'public/Images/merch',            public: '/Images/merch' },
-  { name: 'chapter-banners', dir: 'public/Images/chapter-banners',  public: '/Images/chapter-banners' },
-  { name: 'gallery',         dir: 'public/Images/gallery',          public: '/Images/gallery' },
-  { name: 'artist',          dir: 'public/Images/artist',           public: '/Images/artist' },
+  { name: 'song-art',        dir: 'public/images/song-art',        public: '/images/song-art' },
+  { name: 'backgrounds',     dir: 'public/images/backgrounds',      public: '/images/backgrounds' },
+  { name: 'social',          dir: 'public/images/social',           public: '/images/social' },
+  { name: 'merch',           dir: 'public/images/merch',            public: '/images/merch' },
+  { name: 'chapter-banners', dir: 'public/images/chapter-banners',  public: '/images/chapter-banners' },
+  { name: 'gallery',         dir: 'public/images/gallery',          public: '/images/gallery' },
+  { name: 'artist',          dir: 'public/images/artist',           public: '/images/artist' },
 ]
 
 const log  = (m) => console.log(m)

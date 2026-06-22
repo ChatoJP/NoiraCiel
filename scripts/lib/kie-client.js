@@ -188,6 +188,46 @@ async function pollVideoClip(taskId) {
   return { done: false, failed: false, url: null }
 }
 
+// ─── TTS API (ElevenLabs via KIE.AI) ─────────────────────────────────────────
+/**
+ * Submit a text-to-speech job using ElevenLabs via KIE.AI market.
+ * @param {string} text  Full narration text
+ * @param {{ voice?: string, stability?: number, language_code?: string }} opts
+ * @returns {Promise<string>} taskId
+ */
+async function submitTTSJob(text, opts = {}) {
+  const res = await kieRequestWithRetry('POST', '/jobs/createTask', {
+    model: 'elevenlabs/text-to-dialogue-v3',
+    input: {
+      dialogue: [{ text, voice: opts.voice ?? 'hpp4J3VqNfWAUOO0d1Us' }],
+      stability: opts.stability ?? 0.5,
+      ...(opts.language_code ? { language_code: opts.language_code } : {}),
+    },
+  })
+  const taskId = res.data?.taskId
+  if (!taskId) throw new Error('No taskId in TTS response')
+  return taskId
+}
+
+/**
+ * Poll a TTS job.
+ * @returns {{ done: boolean, failed: boolean, url: string|null }}
+ */
+async function pollTTSJob(taskId) {
+  const res = await kieRequestWithRetry('GET', `/jobs/recordInfo?taskId=${taskId}`)
+  const d = res.data ?? {}
+  if (d.state === 'success') {
+    let url = null
+    try {
+      const parsed = typeof d.resultJson === 'string' ? JSON.parse(d.resultJson) : d.resultJson
+      url = parsed?.resultUrls?.[0] ?? parsed?.url ?? null
+    } catch { url = null }
+    return { done: true, failed: false, url }
+  }
+  if (d.state === 'fail') return { done: true, failed: true, url: null }
+  return { done: false, failed: false, url: null }
+}
+
 module.exports = {
   loadEnv,
   log, warn, err, sleep, slugify,
@@ -197,5 +237,7 @@ module.exports = {
   pollImageJob,
   submitVideoClip,
   pollVideoClip,
+  submitTTSJob,
+  pollTTSJob,
   RATE_LIMIT_MS,
 }

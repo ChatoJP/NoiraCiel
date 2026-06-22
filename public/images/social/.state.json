@@ -6,7 +6,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\why.jpg",
-    "publicUrl": "/Images/social/why.jpg",
+    "publicUrl": "/images/social/why.jpg",
     "submittedAt": "2026-06-12T20:56:24.061Z",
     "completedAt": null,
     "error": null
@@ -18,7 +18,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\who-wins-if-i-win.jpg",
-    "publicUrl": "/Images/social/who-wins-if-i-win.jpg",
+    "publicUrl": "/images/social/who-wins-if-i-win.jpg",
     "submittedAt": "2026-06-12T20:56:27.815Z",
     "completedAt": null,
     "error": null
@@ -30,7 +30,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\the-roots-we-cannot-see.jpg",
-    "publicUrl": "/Images/social/the-roots-we-cannot-see.jpg",
+    "publicUrl": "/images/social/the-roots-we-cannot-see.jpg",
     "submittedAt": "2026-06-12T20:56:31.517Z",
     "completedAt": null,
     "error": null
@@ -42,7 +42,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_1c1210f0c3c74f8c9319d403101449a9_1781297809_gdw4pcr2.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\social\\if-we-cant-say-the-hard-truths.jpg",
-    "publicUrl": "/Images/social/if-we-cant-say-the-hard-truths.jpg",
+    "publicUrl": "/images/social/if-we-cant-say-the-hard-truths.jpg",
     "submittedAt": "2026-06-12T20:56:35.233Z",
     "completedAt": "2026-06-12T21:34:53.212Z",
     "error": null
@@ -54,7 +54,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\still-worth-it.jpg",
-    "publicUrl": "/Images/social/still-worth-it.jpg",
+    "publicUrl": "/images/social/still-worth-it.jpg",
     "submittedAt": "2026-06-12T20:56:38.941Z",
     "completedAt": null,
     "error": null
@@ -66,7 +66,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\side-by-side.jpg",
-    "publicUrl": "/Images/social/side-by-side.jpg",
+    "publicUrl": "/images/social/side-by-side.jpg",
     "submittedAt": "2026-06-12T20:56:42.645Z",
     "completedAt": null,
     "error": null
@@ -78,7 +78,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\as-long-as-youre-okay.jpg",
-    "publicUrl": "/Images/social/as-long-as-youre-okay.jpg",
+    "publicUrl": "/images/social/as-long-as-youre-okay.jpg",
     "submittedAt": "2026-06-12T20:56:46.358Z",
     "completedAt": null,
     "error": null
@@ -90,7 +90,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\it-was-already-there.jpg",
-    "publicUrl": "/Images/social/it-was-already-there.jpg",
+    "publicUrl": "/images/social/it-was-already-there.jpg",
     "submittedAt": "2026-06-12T20:56:50.062Z",
     "completedAt": null,
     "error": null
@@ -102,7 +102,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\always-in-your-corner.jpg",
-    "publicUrl": "/Images/social/always-in-your-corner.jpg",
+    "publicUrl": "/images/social/always-in-your-corner.jpg",
     "submittedAt": "2026-06-12T20:56:53.783Z",
     "completedAt": null,
     "error": null
@@ -114,7 +114,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\the-house-we-couldnt-leave.jpg",
-    "publicUrl": "/Images/social/the-house-we-couldnt-leave.jpg",
+    "publicUrl": "/images/social/the-house-we-couldnt-leave.jpg",
     "submittedAt": "2026-06-12T20:56:57.504Z",
     "completedAt": null,
     "error": null
@@ -126,7 +126,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\i-never-knew-any-other-way.jpg",
-    "publicUrl": "/Images/social/i-never-knew-any-other-way.jpg",
+    "publicUrl": "/images/social/i-never-knew-any-other-way.jpg",
     "submittedAt": "2026-06-12T20:57:01.208Z",
     "completedAt": null,
     "error": null
@@ -138,7 +138,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\leave-a-light-on.jpg",
-    "publicUrl": "/Images/social/leave-a-light-on.jpg",
+    "publicUrl": "/images/social/leave-a-light-on.jpg",
     "submittedAt": "2026-06-12T20:57:04.911Z",
     "completedAt": null,
     "error": null
@@ -150,7 +150,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_7068e1c2be3c43aa86070865f7a8c9cb_1781297842_8r0dbzjv.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\social\\the-empty-chair.jpg",
-    "publicUrl": "/Images/social/the-empty-chair.jpg",
+    "publicUrl": "/images/social/the-empty-chair.jpg",
     "submittedAt": "2026-06-12T20:57:08.619Z",
     "completedAt": "2026-06-12T21:34:54.247Z",
     "error": null
@@ -162,7 +162,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_6c9d440ed8a4466c875ef6390100b7be_1781297845_eofytto1.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\social\\good-things-grow-slow.jpg",
-    "publicUrl": "/Images/social/good-things-grow-slow.jpg",
+    "publicUrl": "/images/social/good-things-grow-slow.jpg",
     "submittedAt": "2026-06-12T20:57:12.323Z",
     "completedAt": "2026-06-12T21:34:55.313Z",
     "error": null
@@ -174,7 +174,7 @@
     "status": "complete",
     "remoteUrl": "https://tempfile.aiquickdraw.com/r/fluxkontext_62e6285755b24a0d8ffe0fe1b7196344_1781297850_x6jtr2m7.jpg",
     "localPath": "C:\\Users\\jorge\\NoiraCiel\\public\\Images\\social\\maybe-i-was-wrong.jpg",
-    "publicUrl": "/Images/social/maybe-i-was-wrong.jpg",
+    "publicUrl": "/images/social/maybe-i-was-wrong.jpg",
     "submittedAt": "2026-06-12T20:57:16.055Z",
     "completedAt": "2026-06-12T21:34:56.085Z",
     "error": null
@@ -186,7 +186,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\borrowed-time.jpg",
-    "publicUrl": "/Images/social/borrowed-time.jpg",
+    "publicUrl": "/images/social/borrowed-time.jpg",
     "submittedAt": "2026-06-12T20:57:19.763Z",
     "completedAt": null,
     "error": null
@@ -198,7 +198,7 @@
     "status": "done",
     "remoteUrl": null,
     "localPath": "public\\Images\\social\\free-men-tell-the-truth.jpg",
-    "publicUrl": "/Images/social/free-men-tell-the-truth.jpg",
+    "publicUrl": "/images/social/free-men-tell-the-truth.jpg",
     "submittedAt": "2026-06-12T20:57:23.463Z",
     "completedAt": null,
     "error": null

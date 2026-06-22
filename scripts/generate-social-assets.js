@@ -4,7 +4,7 @@
  *
  * Generates lyric card backgrounds per song (9:16 portrait) via Kie.ai Flux Kontext.
  * The website overlays lyric text on top of these dark backgrounds.
- * Output: public/Images/social/{slug}.jpg
+ * Output: public/images/social/{slug}.jpg
  *
  * USAGE
  *   node scripts/generate-social-assets.js              # dry-run
@@ -30,7 +30,7 @@ loadEnv()
 
 const MUSIC_DIR   = path.join(__dirname, '..', 'Music')
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'social')
-const PUBLIC_BASE = '/Images/social'
+const PUBLIC_BASE = '/images/social'
 const SUPPORTED   = /\.(wav|mp3|flac|aiff|aif|m4a|ogg)$/i
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000

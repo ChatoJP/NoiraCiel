@@ -1,0 +1,1296 @@
+{
+  "title": "The Sea Keeps Our Names",
+  "words": [
+    {
+      "word": "The",
+      "start": 21.44,
+      "end": 22.2
+    },
+    {
+      "word": "dark",
+      "start": 22.2,
+      "end": 22.56
+    },
+    {
+      "word": "was",
+      "start": 22.56,
+      "end": 22.84
+    },
+    {
+      "word": "wet",
+      "start": 22.84,
+      "end": 23.28
+    },
+    {
+      "word": "with",
+      "start": 23.28,
+      "end": 23.64
+    },
+    {
+      "word": "rain",
+      "start": 23.64,
+      "end": 24.02
+    },
+    {
+      "word": "and",
+      "start": 24.02,
+      "end": 25.2
+    },
+    {
+      "word": "salt",
+      "start": 25.2,
+      "end": 25.54
+    },
+    {
+      "word": "on",
+      "start": 25.54,
+      "end": 25.98
+    },
+    {
+      "word": "every",
+      "start": 25.98,
+      "end": 26.3
+    },
+    {
+      "word": "sleeve",
+      "start": 26.3,
+      "end": 26.82
+    },
+    {
+      "word": "Marta",
+      "start": 26.82,
+      "end": 28.26
+    },
+    {
+      "word": "held",
+      "start": 28.26,
+      "end": 28.54
+    },
+    {
+      "word": "a",
+      "start": 28.54,
+      "end": 28.74
+    },
+    {
+      "word": "paper",
+      "start": 28.74,
+      "end": 29.22
+    },
+    {
+      "word": "bag",
+      "start": 29.22,
+      "end": 29.66
+    },
+    {
+      "word": "like",
+      "start": 29.66,
+      "end": 30.68
+    },
+    {
+      "word": "it",
+      "start": 30.68,
+      "end": 31.0
+    },
+    {
+      "word": "could",
+      "start": 31.0,
+      "end": 31.3
+    },
+    {
+      "word": "help",
+      "start": 31.3,
+      "end": 31.74
+    },
+    {
+      "word": "her",
+      "start": 31.74,
+      "end": 31.98
+    },
+    {
+      "word": "breathe",
+      "start": 31.98,
+      "end": 32.5
+    },
+    {
+      "word": "My",
+      "start": 32.5,
+      "end": 33.46
+    },
+    {
+      "word": "brother",
+      "start": 33.46,
+      "end": 33.96
+    },
+    {
+      "word": "kissed",
+      "start": 33.96,
+      "end": 34.4
+    },
+    {
+      "word": "the",
+      "start": 34.4,
+      "end": 34.82
+    },
+    {
+      "word": "rail",
+      "start": 34.82,
+      "end": 35.3
+    },
+    {
+      "word": "and",
+      "start": 35.3,
+      "end": 36.16
+    },
+    {
+      "word": "stared",
+      "start": 36.16,
+      "end": 36.58
+    },
+    {
+      "word": "into",
+      "start": 36.58,
+      "end": 37.12
+    },
+    {
+      "word": "the",
+      "start": 37.12,
+      "end": 37.48
+    },
+    {
+      "word": "dark",
+      "start": 37.48,
+      "end": 38.18
+    },
+    {
+      "word": "We",
+      "start": 38.58,
+      "end": 39.02
+    },
+    {
+      "word": "learned",
+      "start": 39.02,
+      "end": 39.44
+    },
+    {
+      "word": "the",
+      "start": 39.44,
+      "end": 39.82
+    },
+    {
+      "word": "names",
+      "start": 39.82,
+      "end": 40.22
+    },
+    {
+      "word": "we",
+      "start": 40.22,
+      "end": 40.46
+    },
+    {
+      "word": "carried",
+      "start": 40.46,
+      "end": 40.94
+    },
+    {
+      "word": "before",
+      "start": 40.94,
+      "end": 42.04
+    },
+    {
+      "word": "we",
+      "start": 42.04,
+      "end": 42.62
+    },
+    {
+      "word": "learned",
+      "start": 42.62,
+      "end": 42.92
+    },
+    {
+      "word": "the",
+      "start": 42.92,
+      "end": 43.18
+    },
+    {
+      "word": "sparks",
+      "start": 43.18,
+      "end": 43.76
+    },
+    {
+      "word": "The",
+      "start": 45.06,
+      "end": 45.94
+    },
+    {
+      "word": "sea",
+      "start": 45.94,
+      "end": 46.38
+    },
+    {
+      "word": "keeps",
+      "start": 46.38,
+      "end": 46.92
+    },
+    {
+      "word": "our",
+      "start": 46.92,
+      "end": 47.24
+    },
+    {
+      "word": "names,",
+      "start": 47.24,
+      "end": 47.66
+    },
+    {
+      "word": "the",
+      "start": 47.66,
+      "end": 48.78
+    },
+    {
+      "word": "sea",
+      "start": 48.78,
+      "end": 49.14
+    },
+    {
+      "word": "keeps",
+      "start": 49.14,
+      "end": 49.7
+    },
+    {
+      "word": "our",
+      "start": 49.7,
+      "end": 50.04
+    },
+    {
+      "word": "names",
+      "start": 50.04,
+      "end": 50.56
+    },
+    {
+      "word": "It",
+      "start": 50.56,
+      "end": 51.6
+    },
+    {
+      "word": "takes",
+      "start": 51.6,
+      "end": 52.06
+    },
+    {
+      "word": "what",
+      "start": 52.06,
+      "end": 52.62
+    },
+    {
+      "word": "we",
+      "start": 52.62,
+      "end": 52.86
+    },
+    {
+      "word": "bring",
+      "start": 52.86,
+      "end": 53.24
+    },
+    {
+      "word": "and",
+      "start": 53.24,
+      "end": 53.54
+    },
+    {
+      "word": "still",
+      "start": 53.54,
+      "end": 53.98
+    },
+    {
+      "word": "remembers",
+      "start": 53.98,
+      "end": 54.92
+    },
+    {
+      "word": "The",
+      "start": 56.28,
+      "end": 57.16
+    },
+    {
+      "word": "sea",
+      "start": 57.16,
+      "end": 57.6
+    },
+    {
+      "word": "keeps",
+      "start": 57.6,
+      "end": 58.2
+    },
+    {
+      "word": "our",
+      "start": 58.2,
+      "end": 58.44
+    },
+    {
+      "word": "names,",
+      "start": 58.44,
+      "end": 58.86
+    },
+    {
+      "word": "the",
+      "start": 58.86,
+      "end": 59.8
+    },
+    {
+      "word": "sea",
+      "start": 59.8,
+      "end": 60.38
+    },
+    {
+      "word": "keeps",
+      "start": 60.38,
+      "end": 60.98
+    },
+    {
+      "word": "our",
+      "start": 60.98,
+      "end": 61.22
+    },
+    {
+      "word": "names",
+      "start": 61.22,
+      "end": 61.72
+    },
+    {
+      "word": "The",
+      "start": 61.72,
+      "end": 62.26
+    },
+    {
+      "word": "brave,",
+      "start": 62.26,
+      "end": 63.1
+    },
+    {
+      "word": "the",
+      "start": 63.28,
+      "end": 63.4
+    },
+    {
+      "word": "lost,",
+      "start": 63.4,
+      "end": 63.72
+    },
+    {
+      "word": "the",
+      "start": 64.08,
+      "end": 64.08
+    },
+    {
+      "word": "changed,",
+      "start": 64.08,
+      "end": 64.4
+    },
+    {
+      "word": "all",
+      "start": 64.68,
+      "end": 65.22
+    },
+    {
+      "word": "the",
+      "start": 65.22,
+      "end": 65.48
+    },
+    {
+      "word": "same",
+      "start": 65.48,
+      "end": 66.08
+    },
+    {
+      "word": "to",
+      "start": 66.08,
+      "end": 66.62
+    },
+    {
+      "word": "the",
+      "start": 66.62,
+      "end": 66.82
+    },
+    {
+      "word": "waves",
+      "start": 66.82,
+      "end": 67.3
+    },
+    {
+      "word": "Some",
+      "start": 72.36,
+      "end": 73.24
+    },
+    {
+      "word": "came",
+      "start": 73.24,
+      "end": 73.54
+    },
+    {
+      "word": "with",
+      "start": 73.54,
+      "end": 73.94
+    },
+    {
+      "word": "shoes",
+      "start": 73.94,
+      "end": 74.24
+    },
+    {
+      "word": "in",
+      "start": 74.24,
+      "end": 74.52
+    },
+    {
+      "word": "hand,",
+      "start": 74.52,
+      "end": 74.84
+    },
+    {
+      "word": "some",
+      "start": 74.84,
+      "end": 75.92
+    },
+    {
+      "word": "came",
+      "start": 75.92,
+      "end": 76.34
+    },
+    {
+      "word": "with",
+      "start": 76.34,
+      "end": 76.76
+    },
+    {
+      "word": "empty",
+      "start": 76.76,
+      "end": 77.2
+    },
+    {
+      "word": "eyes",
+      "start": 77.2,
+      "end": 77.76
+    },
+    {
+      "word": "Some",
+      "start": 77.76,
+      "end": 78.8
+    },
+    {
+      "word": "reached",
+      "start": 78.8,
+      "end": 79.18
+    },
+    {
+      "word": "the",
+      "start": 79.18,
+      "end": 79.66
+    },
+    {
+      "word": "other",
+      "start": 79.66,
+      "end": 79.92
+    },
+    {
+      "word": "shore",
+      "start": 79.92,
+      "end": 80.4
+    },
+    {
+      "word": "and",
+      "start": 80.4,
+      "end": 80.92
+    },
+    {
+      "word": "left",
+      "start": 80.92,
+      "end": 81.28
+    },
+    {
+      "word": "their",
+      "start": 81.28,
+      "end": 81.7
+    },
+    {
+      "word": "own",
+      "start": 81.7,
+      "end": 82.12
+    },
+    {
+      "word": "lives",
+      "start": 82.12,
+      "end": 82.6
+    },
+    {
+      "word": "behind",
+      "start": 82.6,
+      "end": 83.22
+    },
+    {
+      "word": "us",
+      "start": 83.22,
+      "end": 83.84
+    },
+    {
+      "word": "Some,",
+      "start": 83.84,
+      "end": 84.44
+    },
+    {
+      "word": "a",
+      "start": 84.5,
+      "end": 84.86
+    },
+    {
+      "word": "child,",
+      "start": 84.86,
+      "end": 85.28
+    },
+    {
+      "word": "wake",
+      "start": 85.72,
+      "end": 85.78
+    },
+    {
+      "word": "up",
+      "start": 85.78,
+      "end": 86.14
+    },
+    {
+      "word": "with",
+      "start": 86.14,
+      "end": 86.42
+    },
+    {
+      "word": "sand",
+      "start": 86.42,
+      "end": 86.86
+    },
+    {
+      "word": "in",
+      "start": 86.86,
+      "end": 87.36
+    },
+    {
+      "word": "her",
+      "start": 87.36,
+      "end": 87.7
+    },
+    {
+      "word": "curl",
+      "start": 87.7,
+      "end": 88.12
+    },
+    {
+      "word": "head",
+      "start": 88.12,
+      "end": 88.82
+    },
+    {
+      "word": "She",
+      "start": 88.82,
+      "end": 89.22
+    },
+    {
+      "word": "looked",
+      "start": 89.22,
+      "end": 89.62
+    },
+    {
+      "word": "like",
+      "start": 89.62,
+      "end": 89.98
+    },
+    {
+      "word": "two",
+      "start": 89.98,
+      "end": 90.28
+    },
+    {
+      "word": "whole",
+      "start": 90.28,
+      "end": 90.5
+    },
+    {
+      "word": "lives",
+      "start": 90.5,
+      "end": 91.16
+    },
+    {
+      "word": "were",
+      "start": 91.16,
+      "end": 92.04
+    },
+    {
+      "word": "tangled",
+      "start": 92.04,
+      "end": 92.48
+    },
+    {
+      "word": "in",
+      "start": 92.48,
+      "end": 93.16
+    },
+    {
+      "word": "the",
+      "start": 93.16,
+      "end": 93.5
+    },
+    {
+      "word": "air",
+      "start": 93.5,
+      "end": 94.2
+    },
+    {
+      "word": "The",
+      "start": 94.34,
+      "end": 94.78
+    },
+    {
+      "word": "sea",
+      "start": 94.78,
+      "end": 95.24
+    },
+    {
+      "word": "keeps",
+      "start": 95.24,
+      "end": 95.86
+    },
+    {
+      "word": "our",
+      "start": 95.86,
+      "end": 96.12
+    },
+    {
+      "word": "names,",
+      "start": 96.12,
+      "end": 96.5
+    },
+    {
+      "word": "the",
+      "start": 96.5,
+      "end": 97.58
+    },
+    {
+      "word": "sea",
+      "start": 97.58,
+      "end": 98.04
+    },
+    {
+      "word": "keeps",
+      "start": 98.04,
+      "end": 98.52
+    },
+    {
+      "word": "our",
+      "start": 98.52,
+      "end": 107.24
+    },
+    {
+      "word": "names",
+      "start": 107.24,
+      "end": 107.74
+    },
+    {
+      "word": "The",
+      "start": 110.82,
+      "end": 111.56
+    },
+    {
+      "word": "brave,",
+      "start": 111.56,
+      "end": 111.96
+    },
+    {
+      "word": "the",
+      "start": 112.2,
+      "end": 112.26
+    },
+    {
+      "word": "lost,",
+      "start": 112.26,
+      "end": 112.62
+    },
+    {
+      "word": "the",
+      "start": 112.92,
+      "end": 112.94
+    },
+    {
+      "word": "changed,",
+      "start": 112.94,
+      "end": 113.24
+    },
+    {
+      "word": "all",
+      "start": 113.98,
+      "end": 113.98
+    },
+    {
+      "word": "the",
+      "start": 113.98,
+      "end": 114.36
+    },
+    {
+      "word": "same",
+      "start": 114.36,
+      "end": 114.86
+    },
+    {
+      "word": "to",
+      "start": 114.86,
+      "end": 115.42
+    },
+    {
+      "word": "the",
+      "start": 115.42,
+      "end": 115.58
+    },
+    {
+      "word": "waves",
+      "start": 115.58,
+      "end": 115.95
+    },
+    {
+      "word": "For",
+      "start": 137.74,
+      "end": 138.2
+    },
+    {
+      "word": "every",
+      "start": 138.2,
+      "end": 138.5
+    },
+    {
+      "word": "face",
+      "start": 138.5,
+      "end": 139.2
+    },
+    {
+      "word": "that",
+      "start": 139.2,
+      "end": 139.5
+    },
+    {
+      "word": "vanished,",
+      "start": 139.5,
+      "end": 140.04
+    },
+    {
+      "word": "for",
+      "start": 140.6,
+      "end": 141.0
+    },
+    {
+      "word": "every",
+      "start": 141.0,
+      "end": 141.44
+    },
+    {
+      "word": "voice",
+      "start": 141.44,
+      "end": 141.9
+    },
+    {
+      "word": "that",
+      "start": 141.9,
+      "end": 142.32
+    },
+    {
+      "word": "rose",
+      "start": 142.32,
+      "end": 142.78
+    },
+    {
+      "word": "For",
+      "start": 142.78,
+      "end": 143.7
+    },
+    {
+      "word": "every",
+      "start": 143.7,
+      "end": 144.3
+    },
+    {
+      "word": "soul",
+      "start": 144.3,
+      "end": 144.86
+    },
+    {
+      "word": "that",
+      "start": 144.86,
+      "end": 145.24
+    },
+    {
+      "word": "made",
+      "start": 145.24,
+      "end": 145.68
+    },
+    {
+      "word": "it",
+      "start": 145.68,
+      "end": 146.02
+    },
+    {
+      "word": "start",
+      "start": 146.02,
+      "end": 146.46
+    },
+    {
+      "word": "by",
+      "start": 146.46,
+      "end": 147.22
+    },
+    {
+      "word": "what",
+      "start": 147.22,
+      "end": 147.6
+    },
+    {
+      "word": "it",
+      "start": 147.6,
+      "end": 147.76
+    },
+    {
+      "word": "knows",
+      "start": 147.76,
+      "end": 148.2
+    },
+    {
+      "word": "If",
+      "start": 148.52,
+      "end": 148.96
+    },
+    {
+      "word": "you",
+      "start": 148.96,
+      "end": 149.12
+    },
+    {
+      "word": "call",
+      "start": 149.12,
+      "end": 149.56
+    },
+    {
+      "word": "out",
+      "start": 149.56,
+      "end": 150.16
+    },
+    {
+      "word": "over",
+      "start": 150.16,
+      "end": 150.5
+    },
+    {
+      "word": "water,",
+      "start": 150.5,
+      "end": 151.1
+    },
+    {
+      "word": "it",
+      "start": 151.94,
+      "end": 152.14
+    },
+    {
+      "word": "answers",
+      "start": 152.14,
+      "end": 152.64
+    },
+    {
+      "word": "in",
+      "start": 152.64,
+      "end": 153.02
+    },
+    {
+      "word": "its",
+      "start": 153.02,
+      "end": 153.26
+    },
+    {
+      "word": "own",
+      "start": 153.26,
+      "end": 153.5
+    },
+    {
+      "word": "way",
+      "start": 153.5,
+      "end": 153.96
+    },
+    {
+      "word": "Not",
+      "start": 153.96,
+      "end": 154.64
+    },
+    {
+      "word": "with",
+      "start": 154.64,
+      "end": 154.94
+    },
+    {
+      "word": "hands,",
+      "start": 154.94,
+      "end": 155.3
+    },
+    {
+      "word": "not",
+      "start": 155.94,
+      "end": 156.1
+    },
+    {
+      "word": "with",
+      "start": 156.1,
+      "end": 156.38
+    },
+    {
+      "word": "mercy,",
+      "start": 156.38,
+      "end": 157.1
+    },
+    {
+      "word": "but",
+      "start": 157.1,
+      "end": 158.88
+    },
+    {
+      "word": "with",
+      "start": 158.88,
+      "end": 159.1
+    },
+    {
+      "word": "what",
+      "start": 159.1,
+      "end": 159.52
+    },
+    {
+      "word": "it",
+      "start": 159.52,
+      "end": 159.94
+    },
+    {
+      "word": "can",
+      "start": 159.94,
+      "end": 160.28
+    },
+    {
+      "word": "say",
+      "start": 160.28,
+      "end": 161.28
+    },
+    {
+      "word": "The",
+      "start": 162.32,
+      "end": 163.26
+    },
+    {
+      "word": "sea",
+      "start": 163.26,
+      "end": 163.62
+    },
+    {
+      "word": "keeps",
+      "start": 163.62,
+      "end": 164.18
+    },
+    {
+      "word": "our",
+      "start": 164.18,
+      "end": 164.56
+    },
+    {
+      "word": "names,",
+      "start": 164.56,
+      "end": 164.98
+    },
+    {
+      "word": "the",
+      "start": 165.46,
+      "end": 166.06
+    },
+    {
+      "word": "sea",
+      "start": 166.06,
+      "end": 166.4
+    },
+    {
+      "word": "keeps",
+      "start": 166.4,
+      "end": 167.04
+    },
+    {
+      "word": "our",
+      "start": 167.04,
+      "end": 167.34
+    },
+    {
+      "word": "names",
+      "start": 167.34,
+      "end": 167.78
+    },
+    {
+      "word": "It",
+      "start": 167.78,
+      "end": 168.86
+    },
+    {
+      "word": "takes",
+      "start": 168.86,
+      "end": 169.3
+    },
+    {
+      "word": "what",
+      "start": 169.3,
+      "end": 169.88
+    },
+    {
+      "word": "we",
+      "start": 169.88,
+      "end": 170.14
+    },
+    {
+      "word": "bring",
+      "start": 170.14,
+      "end": 170.5
+    },
+    {
+      "word": "and",
+      "start": 170.5,
+      "end": 170.86
+    },
+    {
+      "word": "still",
+      "start": 170.86,
+      "end": 171.32
+    },
+    {
+      "word": "remembers",
+      "start": 171.32,
+      "end": 172.24
+    },
+    {
+      "word": "The",
+      "start": 174.01,
+      "end": 174.48
+    },
+    {
+      "word": "sea",
+      "start": 174.48,
+      "end": 174.82
+    },
+    {
+      "word": "keeps",
+      "start": 174.82,
+      "end": 175.5
+    },
+    {
+      "word": "our",
+      "start": 175.5,
+      "end": 175.74
+    },
+    {
+      "word": "names,",
+      "start": 175.74,
+      "end": 176.26
+    },
+    {
+      "word": "the",
+      "start": 176.6,
+      "end": 177.28
+    },
+    {
+      "word": "sea",
+      "start": 177.28,
+      "end": 177.6
+    },
+    {
+      "word": "keeps",
+      "start": 177.6,
+      "end": 178.22
+    },
+    {
+      "word": "our",
+      "start": 178.22,
+      "end": 178.52
+    },
+    {
+      "word": "names",
+      "start": 178.52,
+      "end": 179.18
+    },
+    {
+      "word": "The",
+      "start": 179.18,
+      "end": 180.0
+    },
+    {
+      "word": "brave,",
+      "start": 180.0,
+      "end": 180.28
+    },
+    {
+      "word": "the",
+      "start": 180.28,
+      "end": 180.76
+    },
+    {
+      "word": "lost,",
+      "start": 180.76,
+      "end": 181.1
+    },
+    {
+      "word": "the",
+      "start": 181.22,
+      "end": 181.44
+    },
+    {
+      "word": "changed,",
+      "start": 181.44,
+      "end": 182.14
+    },
+    {
+      "word": "all",
+      "start": 182.42,
+      "end": 183.96
+    },
+    {
+      "word": "the",
+      "start": 183.96,
+      "end": 184.24
+    },
+    {
+      "word": "same",
+      "start": 184.24,
+      "end": 184.8
+    },
+    {
+      "word": "to",
+      "start": 184.8,
+      "end": 186.0
+    },
+    {
+      "word": "the",
+      "start": 186.0,
+      "end": 186.76
+    },
+    {
+      "word": "waves",
+      "start": 186.76,
+      "end": 187.5
+    },
+    {
+      "word": "The",
+      "start": 216.08,
+      "end": 217.48
+    },
+    {
+      "word": "sea",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "keeps",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "our",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "names,",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "the",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "sea",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "keeps",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "our",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "names",
+      "start": 217.48,
+      "end": 217.48
+    },
+    {
+      "word": "The",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "sea",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "keeps",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "our",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "names,",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "the",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "changing,",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "all",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "the",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "same",
+      "start": 217.5,
+      "end": 217.5
+    },
+    {
+      "word": "to",
+      "start": 217.5,
+      "end": 217.66
+    },
+    {
+      "word": "the",
+      "start": 217.66,
+      "end": 217.66
+    },
+    {
+      "word": "waves",
+      "start": 217.66,
+      "end": 217.66
+    }
+  ],
+  "duration": 0
+}

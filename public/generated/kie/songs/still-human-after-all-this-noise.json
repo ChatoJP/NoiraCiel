@@ -1,0 +1,227 @@
+{
+  "songId": "still-human-after-all-this-noise",
+  "slug": "still-human-after-all-this-noise",
+  "title": "Still Human After All This Noise",
+  "album": "The Velvet Machine",
+  "albumSlug": "the-velvet-machine",
+  "albumCode": null,
+  "trackNumber": 15,
+  "artist": "NoiraCiel",
+  "duration": null,
+  "durationFormatted": "",
+  "mood": "electronic · dark industrial · tension · complexity",
+  "style": "electronic · dark synth · industrial texture · machine pulse",
+  "hasLyrics": true,
+  "lyricsExcerpt": "",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/still-human-after-all-this-noise.json",
+  "storyPath": null,
+  "artworkPath": "public/images/song-art/still-human-after-all-this-noise.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/still-human-after-all-this-noise.jpg",
+  "audioUrl": "/api/music/The_Velvet_Machine/audio/15_still_human_after_all_this_noise_v1.mp3",
+  "emotion": "The courage of revision — the grace of returning to say what you should have said.",
+  "scene": "Two people at the same kitchen table, years later. Morning coffee. The light is different but the room is the same. Something has shifted — an opening, a softening, a return.",
+  "symbols": "kitchen table, morning coffee, same room years later, changed light, an opening",
+  "arc": [
+    "The same kitchen — years later, light changed",
+    "Morning coffee — no words yet, just presence",
+    "The opening — a face changing, something released"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the light source — a single candle or lamp pulses with one slow organic breath, brightness +5% then back, surrounding darkness completely unchanged. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "light_flicker",
+      "sourceImagePath": "public/images/song-art/still-human-after-all-this-noise.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/still-human-after-all-this-noise.jpg",
+      "videoLoopPath": null,
+      "publicUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/still-human-after-all-this-noise/loop.mp4",
+      "taskId": "04699ac823a614dc7a82679811ef3369",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:43:14.398Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "a single light source pulses with slow organic warmth, a breath-like rhythm, surrounding darkness unchanged. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      },
+      "remoteUrl": null,
+      "localPath": null,
+      "r2Url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/still-human-after-all-this-noise/loop.mp4"
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"Still Human After All This Noise\" from album \"The Velvet Machine\".\nShot role: opening.\nScene: The same kitchen — years later, light changed.\nCamera: slow push-in. Framing: wide establishing scene.\nMood: The courage of revision — the grace of returning to say what you should have said..\nVisual symbols: kitchen table, morning coffee, same room years later, changed light, an opening.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/still-human-after-all-this-noise/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "detail",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"Still Human After All This Noise\" from album \"The Velvet Machine\".\nShot role: detail.\nScene: Morning coffee — no words yet, just presence.\nCamera: locked close-up. Framing: symbolic object or hands.\nMood: The courage of revision — the grace of returning to say what you should have said..\nVisual symbols: kitchen table, morning coffee, same room years later, changed light, an opening.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/still-human-after-all-this-noise/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "emotion",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"Still Human After All This Noise\" from album \"The Velvet Machine\".\nShot role: emotion.\nScene: The opening — a face changing, something released.\nCamera: gentle dolly. Framing: environment, no visible faces.\nMood: The courage of revision — the grace of returning to say what you should have said..\nVisual symbols: kitchen table, morning coffee, same room years later, changed light, an opening.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/still-human-after-all-this-noise/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "symbol",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"Still Human After All This Noise\" from album \"The Velvet Machine\".\nShot role: symbol.\nScene: Two people at the same kitchen table, years later.\nCamera: overhead poetic tableaux. Framing: abstract symbolic image.\nMood: The courage of revision — the grace of returning to say what you should have said..\nVisual symbols: kitchen table, morning coffee, same room years later, changed light, an opening.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/still-human-after-all-this-noise/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"Still Human After All This Noise\" from album \"The Velvet Machine\".\nShot role: closing.\nScene:  Morning coffee.\nCamera: slow pull-back. Framing: wide, figure or object small in frame.\nMood: The courage of revision — the grace of returning to say what you should have said..\nVisual symbols: kitchen table, morning coffee, same room years later, changed light, an opening.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/still-human-after-all-this-noise/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"Still Human After All This Noise\" (The Velvet Machine). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: The courage of revision — the grace of returning to say what you should have said.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/still-human-after-all-this-noise/film.mp4",
+      "publicUrl": "/generated/kie/films/still-human-after-all-this-noise/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"Still Human After All This Noise.\"\nChapter 15 of The Velvet Machine.\n\n\nThis song came from a single question I couldn't stop asking myself: The courage of revision — the grace of returning to say what you should have said.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. kitchen table, morning coffee, same room years later, changed light, an opening. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/still-human-after-all-this-noise/script.txt",
+      "voicePath": "public/generated/kie/commentary/still-human-after-all-this-noise/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/still-human-after-all-this-noise/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/still-human-after-all-this-noise/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"Still Human After All This Noise.\"\nChapter 15 of The Velvet Machine.\n\n\nThis song came from a single question I couldn't stop asking myself: The courage of revision — the grace of returning to say what you should have said.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. kitchen table, morning coffee, same room years later, changed light, an opening. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/still-human-after-all-this-noise/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "Still Human After All This Noise.\nFrom the album \"The Velvet Machine\".\n\nThe courage of revision — the grace of returning to say what you should have said.",
+      "narrationPath": "public/generated/kie/audiobook/still-human-after-all-this-noise/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/still-human-after-all-this-noise/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/still-human-after-all-this-noise/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/still-human-after-all-this-noise/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"Still Human After All This Noise\". Style: dark electronic ambient, industrial texture, slow pulse, machine breath. Mood: The courage of revision — the grace of returning to say what you should have said.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: The courage of revision — the grace of returning to say what you should have said..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "Still Human After All This Noise.\nFrom the album \"The Velvet Machine\".\n\nThe courage of revision — the grace of returning to say what you should have said.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, dark electronic ambient, industrial texture, slow pulse, machine breath. The courage of revision — the grace of returning to say what you should have said.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "dark electronic ambient, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.046Z",
+  "updatedAt": "2026-06-15T18:43:14.398Z"
+}

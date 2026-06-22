@@ -1,0 +1,224 @@
+{
+  "songId": "the-saints-go-clubbing",
+  "slug": "the-saints-go-clubbing",
+  "title": "The Saints Go Clubbing",
+  "album": "The Velvet Machine",
+  "albumSlug": "the-velvet-machine",
+  "albumCode": null,
+  "trackNumber": 4,
+  "artist": "NoiraCiel",
+  "duration": null,
+  "durationFormatted": "",
+  "mood": "electronic · dark industrial · tension · complexity",
+  "style": "electronic · dark synth · industrial texture · machine pulse",
+  "hasLyrics": true,
+  "lyricsExcerpt": "",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/the-saints-go-clubbing.json",
+  "storyPath": null,
+  "artworkPath": "public/images/song-art/the-saints-go-clubbing.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-saints-go-clubbing.jpg",
+  "audioUrl": "/api/music/The_Velvet_Machine/audio/04_the_saints_go_clubbing_v2.mp3",
+  "emotion": "The weight of words never spoken — how silence can be its own kind of violence.",
+  "scene": "Two chairs at a kitchen table, both empty. Letters folded but never sent, scattered across a floor. A hand reaching across a table that is too wide to cross.",
+  "symbols": "empty chairs, unsent letters, kitchen table, reaching hand, silence",
+  "arc": [
+    "The kitchen — two chairs, late afternoon, unspoken",
+    "The letters — scattered paper, ink that dried",
+    "The crossing — a hand reaching across impossible distance"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the shadow at the edge of frame — it expands by 3% then contracts back, a single slow breath cycle, all other elements perfectly static. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "shadow_breathe",
+      "sourceImagePath": "public/images/song-art/the-saints-go-clubbing.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-saints-go-clubbing.jpg",
+      "videoLoopPath": "public/generated/kie/cinemagraphs/the-saints-go-clubbing/loop.mp4",
+      "publicUrl": "/generated/kie/cinemagraphs/the-saints-go-clubbing/loop.mp4",
+      "taskId": "216c311d54136622031a573bc416fb12",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:43:55.078Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "deep shadows at the edges pulse with a slow breath, darkness contracting and expanding barely perceptibly. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      }
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"The Saints Go Clubbing\" from album \"The Velvet Machine\".\nShot role: opening.\nScene: The kitchen — two chairs, late afternoon, unspoken.\nCamera: slow push-in. Framing: wide establishing scene.\nMood: The weight of words never spoken — how silence can be its own kind of violence..\nVisual symbols: empty chairs, unsent letters, kitchen table, reaching hand, silence.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-saints-go-clubbing/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "detail",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"The Saints Go Clubbing\" from album \"The Velvet Machine\".\nShot role: detail.\nScene: The letters — scattered paper, ink that dried.\nCamera: locked close-up. Framing: symbolic object or hands.\nMood: The weight of words never spoken — how silence can be its own kind of violence..\nVisual symbols: empty chairs, unsent letters, kitchen table, reaching hand, silence.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-saints-go-clubbing/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "emotion",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"The Saints Go Clubbing\" from album \"The Velvet Machine\".\nShot role: emotion.\nScene: The crossing — a hand reaching across impossible distance.\nCamera: gentle dolly. Framing: environment, no visible faces.\nMood: The weight of words never spoken — how silence can be its own kind of violence..\nVisual symbols: empty chairs, unsent letters, kitchen table, reaching hand, silence.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-saints-go-clubbing/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "symbol",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"The Saints Go Clubbing\" from album \"The Velvet Machine\".\nShot role: symbol.\nScene: Two chairs at a kitchen table, both empty.\nCamera: overhead poetic tableaux. Framing: abstract symbolic image.\nMood: The weight of words never spoken — how silence can be its own kind of violence..\nVisual symbols: empty chairs, unsent letters, kitchen table, reaching hand, silence.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-saints-go-clubbing/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"The Saints Go Clubbing\" from album \"The Velvet Machine\".\nShot role: closing.\nScene:  Letters folded but never sent, scattered across a floor.\nCamera: slow pull-back. Framing: wide, figure or object small in frame.\nMood: The weight of words never spoken — how silence can be its own kind of violence..\nVisual symbols: empty chairs, unsent letters, kitchen table, reaching hand, silence.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/the-saints-go-clubbing/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"The Saints Go Clubbing\" (The Velvet Machine). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: The weight of words never spoken — how silence can be its own kind of violence.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/the-saints-go-clubbing/film.mp4",
+      "publicUrl": "/generated/kie/films/the-saints-go-clubbing/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"The Saints Go Clubbing.\"\nChapter 04 of The Velvet Machine.\n\n\nThis song came from a single question I couldn't stop asking myself: The weight of words never spoken — how silence can be its own kind of violence.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. empty chairs, unsent letters, kitchen table, reaching hand, silence. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/the-saints-go-clubbing/script.txt",
+      "voicePath": "public/generated/kie/commentary/the-saints-go-clubbing/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/the-saints-go-clubbing/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/the-saints-go-clubbing/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"The Saints Go Clubbing.\"\nChapter 04 of The Velvet Machine.\n\n\nThis song came from a single question I couldn't stop asking myself: The weight of words never spoken — how silence can be its own kind of violence.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. empty chairs, unsent letters, kitchen table, reaching hand, silence. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/the-saints-go-clubbing/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "The Saints Go Clubbing.\nFrom the album \"The Velvet Machine\".\n\nThe weight of words never spoken — how silence can be its own kind of violence.",
+      "narrationPath": "public/generated/kie/audiobook/the-saints-go-clubbing/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/the-saints-go-clubbing/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/the-saints-go-clubbing/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/the-saints-go-clubbing/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"The Saints Go Clubbing\". Style: dark electronic ambient, industrial texture, slow pulse, machine breath. Mood: The weight of words never spoken — how silence can be its own kind of violence.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: The weight of words never spoken — how silence can be its own kind of violence..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "The Saints Go Clubbing.\nFrom the album \"The Velvet Machine\".\n\nThe weight of words never spoken — how silence can be its own kind of violence.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, dark electronic ambient, industrial texture, slow pulse, machine breath. The weight of words never spoken — how silence can be its own kind of violence.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "dark electronic ambient, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.044Z",
+  "updatedAt": "2026-06-15T18:43:55.078Z"
+}

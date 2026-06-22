@@ -1,0 +1,227 @@
+{
+  "songId": "hd-16-borrowed-timewav",
+  "slug": "borrowed-time",
+  "title": "Borrowed Time",
+  "album": "The Life Lessons I Hope You Learn",
+  "albumSlug": "the-life-lessons",
+  "albumCode": "HD",
+  "trackNumber": 16,
+  "artist": "NoiraCiel",
+  "duration": 243.67997916666667,
+  "durationFormatted": "4:03",
+  "mood": "intimate · emotional · Atlantic soul · human dignity · searching",
+  "style": "piano-led · fingerpicked guitar · intimate soul · cinematic sweep",
+  "hasLyrics": true,
+  "lyricsExcerpt": "I used to think there'd always be another summer down the road\r / Another song to learn by heart\r / Another story to be told\r / I thought the years move slowly like clouds across the sky\r",
+  "lyricsTimestampsPath": "public/Lyrics/timestamps/borrowed-time.json",
+  "storyPath": "public/Books/stories/borrowed-time.pdf",
+  "artworkPath": "public/images/song-art/borrowed-time.jpg",
+  "artworkUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/borrowed-time.jpg",
+  "audioUrl": "/api/audio/hd_16%20-%20Borrowed%20Time.wav",
+  "emotion": "Gratitude for the unearned gift of extra time — afternoons that feel like grace.",
+  "scene": "An elderly pair of hands intertwined, warm afternoon light on weathered skin. An old clock on a mantelpiece. The specific quality of late light in borrowed afternoons, quiet and golden.",
+  "symbols": "intertwined hands, afternoon light, old clock, weathered skin, borrowed grace",
+  "arc": [
+    "The hands — intertwined, afternoon gold",
+    "The clock — slow, present, borrowed",
+    "The light — fading, still warm, enough"
+  ],
+  "generatedAssets": {
+    "cinemagraph": {
+      "status": "generating",
+      "prompt": "CINEMAGRAPH: animate only the light source — a single candle or lamp pulses with one slow organic breath, brightness +5% then back, surrounding darkness completely unchanged. Absolute camera lock — zero shake, zero zoom, zero drift. Only ONE element moves. Everything else: frozen photograph. Clean sharp digital image quality. NO film grain. NO noise. NO vignette. NO analog artifacts. NO borders. NO letterbox. NO frame lines. Full edge-to-edge image. NO text. NO watermarks. NO subtitles. Seamless 8-second loop — end frame matches start frame exactly.",
+      "animationType": "light_flicker",
+      "sourceImagePath": "public/images/song-art/borrowed-time.jpg",
+      "sourceImageUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/borrowed-time.jpg",
+      "videoLoopPath": null,
+      "publicUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/borrowed-time/loop.mp4",
+      "taskId": "c84917342b419155c933e1e942aec924",
+      "model": "veo3-image2video",
+      "submittedAt": "2026-06-15T18:41:53.100Z",
+      "completedAt": null,
+      "error": null,
+      "klingPayload": {
+        "model": "kling-2.6",
+        "mode": "image_to_video",
+        "duration": "5",
+        "cfg_scale": 0.5,
+        "prompt": "a single light source pulses with slow organic warmth, a breath-like rhythm, surrounding darkness unchanged. Seamless loop. Minimal motion. Dark Atlantic mood. 16mm grain. No text."
+      },
+      "remoteUrl": null,
+      "localPath": null,
+      "r2Url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/generated/kie/cinemagraphs/borrowed-time/loop.mp4"
+    },
+    "songFilm": {
+      "status": "prompt_ready",
+      "shots": [
+        {
+          "order": 1,
+          "role": "opening",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 1 of 5 for song film: \"Borrowed Time\" from album \"The Life Lessons I Hope You Learn\".\nShot role: opening.\nScene: The hands — intertwined, afternoon gold.\nCamera: slow push-in. Framing: wide establishing.\nMood: Gratitude for the unearned gift of extra time — afternoons that feel like grace..\nVisual symbols: intertwined hands, afternoon light, old clock, weathered skin, borrowed grace.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/borrowed-time/shot-01.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 2,
+          "role": "intimate",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 2 of 5 for song film: \"Borrowed Time\" from album \"The Life Lessons I Hope You Learn\".\nShot role: intimate.\nScene: The clock — slow, present, borrowed.\nCamera: locked close-up. Framing: hands or face detail.\nMood: Gratitude for the unearned gift of extra time — afternoons that feel like grace..\nVisual symbols: intertwined hands, afternoon light, old clock, weathered skin, borrowed grace.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/borrowed-time/shot-02.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 3,
+          "role": "memory",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 3 of 5 for song film: \"Borrowed Time\" from album \"The Life Lessons I Hope You Learn\".\nShot role: memory.\nScene: The light — fading, still warm, enough.\nCamera: gentle dolly or overhead. Framing: symbolic object.\nMood: Gratitude for the unearned gift of extra time — afternoons that feel like grace..\nVisual symbols: intertwined hands, afternoon light, old clock, weathered skin, borrowed grace.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/borrowed-time/shot-03.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 4,
+          "role": "turning",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 4 of 5 for song film: \"Borrowed Time\" from album \"The Life Lessons I Hope You Learn\".\nShot role: turning.\nScene: An elderly pair of hands intertwined, warm afternoon light on weathered skin.\nCamera: slow rack focus. Framing: two planes of depth.\nMood: Gratitude for the unearned gift of extra time — afternoons that feel like grace..\nVisual symbols: intertwined hands, afternoon light, old clock, weathered skin, borrowed grace.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/borrowed-time/shot-04.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        },
+        {
+          "order": 5,
+          "role": "closing",
+          "durationSeconds": 12,
+          "model": "veo3",
+          "aspectRatio": "16:9",
+          "prompt": "Cinematic shot 5 of 5 for song film: \"Borrowed Time\" from album \"The Life Lessons I Hope You Learn\".\nShot role: closing.\nScene:  An old clock on a mantelpiece.\nCamera: slow pull-back. Framing: wide, figure small in frame.\nMood: Gratitude for the unearned gift of extra time — afternoons that feel like grace..\nVisual symbols: intertwined hands, afternoon light, old clock, weathered skin, borrowed grace.\nDuration: 12 seconds. No dialogue. No text.\n16mm film grain. Deep navy, pitch black, warm amber gold. Painterly.\nSlow dolly or locked off. No handheld shake. No fast cuts. No text overlays. No neon.\nPremium European art cinema. Long tonal range near-black to warm amber.\nAtlantic world: coastline, fog, aged stone, old boats, candlelight, weathered hands, empty chairs.\nEmotional dignity. Hope inside darkness. Beauty inside struggle. No stock-video clichés.",
+          "status": "not_started",
+          "taskId": null,
+          "localPath": "public/generated/kie/films/borrowed-time/shot-05.mp4",
+          "remoteUrl": "",
+          "submittedAt": null,
+          "completedAt": null,
+          "error": null
+        }
+      ],
+      "assemblyPrompt": "Multi-shot cinematic film for \"Borrowed Time\" (The Life Lessons I Hope You Learn). Assemble 5 shots into a continuous ~60-second film. Transitions: slow dissolve between shots, no hard cuts. Score: if native audio generation is available, use atmospheric ambient score. Mood arc: Gratitude for the unearned gift of extra time — afternoons that feel like grace.. Final output: seamless cinematic experience. No end card. No credits. No text.",
+      "finalVideoPath": "public/generated/kie/films/borrowed-time/film.mp4",
+      "publicUrl": "/generated/kie/films/borrowed-time/film.mp4",
+      "model": "veo3",
+      "assembledAt": null,
+      "error": null
+    },
+    "commentary": {
+      "status": "prompt_ready",
+      "script": "\"Borrowed Time.\"\nChapter 16 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: Gratitude for the unearned gift of extra time — afternoons that feel like grace.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. intertwined hands, afternoon light, old clock, weathered skin, borrowed grace. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"I used to think there'd always be another summer down the road\r / Another song to learn by heart\r / Another story to be.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+      "scriptPath": "public/generated/kie/commentary/borrowed-time/script.txt",
+      "voicePath": "public/generated/kie/commentary/borrowed-time/narration.mp3",
+      "avatarVideoPath": "public/generated/kie/commentary/borrowed-time/commentary.mp4",
+      "publicUrl": "/generated/kie/commentary/borrowed-time/commentary.mp4",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "\"Borrowed Time.\"\nChapter 16 of The Life Lessons I Hope You Learn.\n\n\nThis song came from a single question I couldn't stop asking myself: Gratitude for the unearned gift of extra time — afternoons that feel like grace.\n\nI wasn't looking for a clean answer. I was looking for the right way to carry the question.\n\nWhen I wrote this, I kept coming back to certain images. intertwined hands, afternoon light, old clock, weathered skin, borrowed grace. Not because they're poetic — because they're honest. These are the images that carry weight without trying to.\n\nThe lyrics started as a fragment: \"I used to think there'd always be another summer down the road\r / Another song to learn by heart\r / Another story to be.\" Everything else grew from that place.\n\nIf this song reaches you at the right moment — I hope it gives you permission.\nPermission to ask. To sit with not knowing. To feel the weight without rushing to put it down.\n\nThat's all any of this is for.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.55,
+          "similarity_boost": 0.78,
+          "style": 0.25,
+          "use_speaker_boost": true
+        }
+      },
+      "avatarPayload": {
+        "model": "infinitetalk",
+        "input": {
+          "audioUrl": "public/generated/kie/commentary/borrowed-time/narration.mp3",
+          "imagePrompt": "A cinematic portrait of a solo artist, seen from slightly below eye level. Dramatic side lighting from a single warm source. Deep shadows. Film grain. Dark wardrobe, understated. Expression: composed, interior, present. Atlantic European feel. Not generic. Not corporate. Genuinely present. No background clutter. Stone wall or dark fabric behind. Cinematic still.",
+          "duration": 120
+        }
+      }
+    },
+    "audiobook": {
+      "status": "prompt_ready",
+      "narrationText": "Chapter 16: Borrowed Time.\nFrom the album \"The Life Lessons I Hope You Learn\".\nI used to think there'd always be another summer down the road\r / Another song to learn by heart\r / Another story to be told\r / I thought the years move slowly like clouds across the sky\r\n— Gratitude for the unearned gift of extra time — afternoons that feel like grace.",
+      "narrationPath": "public/generated/kie/audiobook/borrowed-time/narration.mp3",
+      "scorePath": "public/generated/kie/audiobook/borrowed-time/score.mp3",
+      "finalMixPath": "public/generated/kie/audiobook/borrowed-time/final.mp3",
+      "publicUrl": "/generated/kie/audiobook/borrowed-time/final.mp3",
+      "voiceModel": "elevenlabs-text-to-dialogue-v3",
+      "scoreModel": "suno-v5.5",
+      "taskId": null,
+      "submittedAt": null,
+      "completedAt": null,
+      "error": null,
+      "scorePrompt": "Instrumental ambient score for narrated audiobook chapter: \"Borrowed Time\". Style: ambient piano, sparse strings, Atlantic soul, gentle breathing room. Mood: Gratitude for the unearned gift of extra time — afternoons that feel like grace.. Duration: 4 minutes. Seamless loop possible. NO vocals. NO lyrics. NO drums that would compete with narration. Dynamics: quiet and supportive, the narration must stay primary. Slow evolution over 4 minutes, no sudden changes. Emotional register: Gratitude for the unearned gift of extra time — afternoons that feel like grace..",
+      "ttsPayload": {
+        "model": "elevenlabs/text-to-dialogue-v3",
+        "input": {
+          "dialogue": [
+            {
+              "text": "Chapter 16: Borrowed Time.\nFrom the album \"The Life Lessons I Hope You Learn\".\nI used to think there'd always be another summer down the road\r / Another song to learn by heart\r / Another story to be told\r / I thought the years move slowly like clouds across the sky\r\n— Gratitude for the unearned gift of extra time — afternoons that feel like grace.",
+              "voice": "hpp4J3VqNfWAUOO0d1Us"
+            }
+          ],
+          "stability": 0.6,
+          "similarity_boost": 0.78
+        }
+      },
+      "sunoPayload": {
+        "model": "suno-v5.5",
+        "prompt": "Instrumental ambient score, ambient piano, sparse strings, Atlantic soul, gentle breathing room. Gratitude for the unearned gift of extra time — afternoons that feel like grace.. No vocals. 4 minutes.",
+        "make_instrumental": true,
+        "tags": "ambient piano, ambient, cinematic, atmospheric, NoiraCiel"
+      },
+      "hasStorySource": false
+    }
+  },
+  "approvals": {
+    "cinemagraph": true,
+    "songFilm": false,
+    "commentary": false,
+    "audiobook": false
+  },
+  "readiness": {
+    "cinemagraph": "prompt_ready",
+    "songFilm": "prompt_ready",
+    "commentary": "prompt_ready",
+    "audiobook": "prompt_ready"
+  },
+  "createdAt": "2026-06-15T14:04:59.037Z",
+  "updatedAt": "2026-06-15T18:41:53.100Z"
+}

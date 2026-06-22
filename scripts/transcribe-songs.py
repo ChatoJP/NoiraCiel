@@ -17,9 +17,9 @@ USAGE
 import os, sys, re, json
 from pathlib import Path
 
-MUSIC_DIR  = Path(__file__).parent.parent / "Music"
-OUTPUT_DIR = Path(__file__).parent.parent / "public" / "Lyrics" / "timestamps"
-SUPPORTED  = re.compile(r'\.(wav|mp3|flac|aiff?|m4a|ogg)$', re.IGNORECASE)
+ROOT_MUSIC_DIR = Path(__file__).parent.parent / "Music"
+OUTPUT_DIR     = Path(__file__).parent.parent / "public" / "Lyrics" / "timestamps"
+SUPPORTED      = re.compile(r'\.(wav|mp3|flac|aiff?|m4a|ogg)$', re.IGNORECASE)
 
 def slugify(text):
     text = re.sub(r"[^\w\s-]", "", text.lower())
@@ -67,9 +67,9 @@ def transcribe(model, audio_path, slug):
 
     return words, info.duration
 
-def run_list():
+def run_list(music_dir):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    files = sorted(f for f in MUSIC_DIR.iterdir() if SUPPORTED.search(f.name))
+    files = sorted(f for f in music_dir.iterdir() if SUPPORTED.search(f.name))
     print(f"\n{'#':>3}  {'Title':<40}  Status")
     print("─" * 60)
     for f in files:
@@ -82,17 +82,29 @@ def run_list():
 
 def main():
     args = sys.argv[1:]
+    force     = "--force" in args
+    list_mode = "--list" in args
+
+    # --dir path/to/subfolder  (relative to repo root or absolute)
+    dir_idx = next((i for i, a in enumerate(args) if a == '--dir'), None)
+    if dir_idx is not None and dir_idx + 1 < len(args):
+        music_dir = Path(args[dir_idx + 1])
+        if not music_dir.is_absolute():
+            music_dir = Path(__file__).parent.parent / music_dir
+        # remove --dir and its value so they don't pollute target_slug detection
+        args = [a for i, a in enumerate(args) if i != dir_idx and i != dir_idx + 1]
+    else:
+        music_dir = ROOT_MUSIC_DIR
+
     target_slug = next((a for a in args if not a.startswith("--")), None)
-    force       = "--force" in args
-    list_mode   = "--list" in args
 
     if list_mode:
-        run_list()
+        run_list(music_dir)
         return
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     audio_files = sorted(
-        f for f in MUSIC_DIR.iterdir() if SUPPORTED.search(f.name)
+        f for f in music_dir.iterdir() if SUPPORTED.search(f.name)
     )
 
     targets = []

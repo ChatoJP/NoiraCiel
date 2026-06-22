@@ -1,0 +1,1401 @@
+{
+  "title": "She Who Stayed Behind",
+  "words": [
+    {
+      "word": "You",
+      "start": 18.3,
+      "end": 19.1
+    },
+    {
+      "word": "packed",
+      "start": 19.1,
+      "end": 19.72
+    },
+    {
+      "word": "the",
+      "start": 19.72,
+      "end": 20.06
+    },
+    {
+      "word": "blue",
+      "start": 20.06,
+      "end": 20.28
+    },
+    {
+      "word": "bow",
+      "start": 20.28,
+      "end": 20.68
+    },
+    {
+      "word": "Left",
+      "start": 20.68,
+      "end": 22.68
+    },
+    {
+      "word": "it",
+      "start": 22.68,
+      "end": 23.08
+    },
+    {
+      "word": "by",
+      "start": 23.08,
+      "end": 23.7
+    },
+    {
+      "word": "the",
+      "start": 23.7,
+      "end": 23.96
+    },
+    {
+      "word": "sink",
+      "start": 23.96,
+      "end": 24.36
+    },
+    {
+      "word": "Said",
+      "start": 24.36,
+      "end": 26.56
+    },
+    {
+      "word": "you'd",
+      "start": 26.56,
+      "end": 26.96
+    },
+    {
+      "word": "write",
+      "start": 26.96,
+      "end": 27.24
+    },
+    {
+      "word": "on",
+      "start": 27.24,
+      "end": 27.6
+    },
+    {
+      "word": "Sundays",
+      "start": 27.6,
+      "end": 28.5
+    },
+    {
+      "word": "Said",
+      "start": 29.5,
+      "end": 30.48
+    },
+    {
+      "word": "you'd",
+      "start": 30.48,
+      "end": 31.0
+    },
+    {
+      "word": "need",
+      "start": 31.0,
+      "end": 31.44
+    },
+    {
+      "word": "to",
+      "start": 31.44,
+      "end": 31.72
+    },
+    {
+      "word": "think",
+      "start": 31.72,
+      "end": 32.1
+    },
+    {
+      "word": "I",
+      "start": 32.1,
+      "end": 34.38
+    },
+    {
+      "word": "stood",
+      "start": 34.38,
+      "end": 34.92
+    },
+    {
+      "word": "in",
+      "start": 34.92,
+      "end": 35.24
+    },
+    {
+      "word": "the",
+      "start": 35.24,
+      "end": 35.38
+    },
+    {
+      "word": "doorway",
+      "start": 35.38,
+      "end": 36.12
+    },
+    {
+      "word": "With",
+      "start": 36.12,
+      "end": 38.22
+    },
+    {
+      "word": "your",
+      "start": 38.22,
+      "end": 38.38
+    },
+    {
+      "word": "coat",
+      "start": 38.38,
+      "end": 38.68
+    },
+    {
+      "word": "still",
+      "start": 38.68,
+      "end": 39.32
+    },
+    {
+      "word": "near",
+      "start": 39.32,
+      "end": 39.74
+    },
+    {
+      "word": "Counted",
+      "start": 41.42,
+      "end": 42.4
+    },
+    {
+      "word": "every",
+      "start": 42.4,
+      "end": 42.92
+    },
+    {
+      "word": "footstep",
+      "start": 42.92,
+      "end": 43.84
+    },
+    {
+      "word": "Till",
+      "start": 43.84,
+      "end": 45.9
+    },
+    {
+      "word": "the",
+      "start": 45.9,
+      "end": 46.16
+    },
+    {
+      "word": "street",
+      "start": 46.16,
+      "end": 46.52
+    },
+    {
+      "word": "went",
+      "start": 46.52,
+      "end": 46.86
+    },
+    {
+      "word": "clear",
+      "start": 46.86,
+      "end": 47.48
+    },
+    {
+      "word": "I",
+      "start": 48.8,
+      "end": 49.78
+    },
+    {
+      "word": "swept",
+      "start": 49.78,
+      "end": 50.08
+    },
+    {
+      "word": "your",
+      "start": 50.08,
+      "end": 50.42
+    },
+    {
+      "word": "side",
+      "start": 50.42,
+      "end": 51.08
+    },
+    {
+      "word": "of",
+      "start": 51.08,
+      "end": 51.54
+    },
+    {
+      "word": "the",
+      "start": 51.54,
+      "end": 51.76
+    },
+    {
+      "word": "table",
+      "start": 51.76,
+      "end": 52.44
+    },
+    {
+      "word": "Folded",
+      "start": 52.44,
+      "end": 54.1
+    },
+    {
+      "word": "up",
+      "start": 54.1,
+      "end": 54.44
+    },
+    {
+      "word": "your",
+      "start": 54.44,
+      "end": 54.72
+    },
+    {
+      "word": "chair",
+      "start": 54.72,
+      "end": 55.46
+    },
+    {
+      "word": "I",
+      "start": 55.46,
+      "end": 57.58
+    },
+    {
+      "word": "learned",
+      "start": 57.58,
+      "end": 57.9
+    },
+    {
+      "word": "how",
+      "start": 57.9,
+      "end": 58.36
+    },
+    {
+      "word": "a",
+      "start": 58.36,
+      "end": 58.52
+    },
+    {
+      "word": "house",
+      "start": 58.52,
+      "end": 58.9
+    },
+    {
+      "word": "can",
+      "start": 58.9,
+      "end": 59.24
+    },
+    {
+      "word": "breathe",
+      "start": 59.24,
+      "end": 59.76
+    },
+    {
+      "word": "With",
+      "start": 59.76,
+      "end": 61.42
+    },
+    {
+      "word": "only",
+      "start": 61.42,
+      "end": 61.72
+    },
+    {
+      "word": "one",
+      "start": 61.72,
+      "end": 62.24
+    },
+    {
+      "word": "soul",
+      "start": 62.24,
+      "end": 62.76
+    },
+    {
+      "word": "there",
+      "start": 62.76,
+      "end": 63.58
+    },
+    {
+      "word": "I",
+      "start": 64.46,
+      "end": 65.74
+    },
+    {
+      "word": "stayed",
+      "start": 65.74,
+      "end": 66.34
+    },
+    {
+      "word": "behind",
+      "start": 66.34,
+      "end": 67.04
+    },
+    {
+      "word": "I",
+      "start": 67.04,
+      "end": 69.4
+    },
+    {
+      "word": "stayed",
+      "start": 69.4,
+      "end": 70.22
+    },
+    {
+      "word": "behind",
+      "start": 70.22,
+      "end": 71.4
+    },
+    {
+      "word": "I",
+      "start": 72.46,
+      "end": 73.5
+    },
+    {
+      "word": "kept",
+      "start": 73.5,
+      "end": 74.16
+    },
+    {
+      "word": "the",
+      "start": 74.16,
+      "end": 74.46
+    },
+    {
+      "word": "flame",
+      "start": 74.46,
+      "end": 74.92
+    },
+    {
+      "word": "I",
+      "start": 74.92,
+      "end": 77.04
+    },
+    {
+      "word": "kept",
+      "start": 77.04,
+      "end": 84.9
+    },
+    {
+      "word": "the",
+      "start": 84.9,
+      "end": 85.44
+    },
+    {
+      "word": "line",
+      "start": 85.44,
+      "end": 85.44
+    },
+    {
+      "word": "By",
+      "start": 85.44,
+      "end": 85.9
+    },
+    {
+      "word": "the",
+      "start": 85.9,
+      "end": 86.18
+    },
+    {
+      "word": "wall",
+      "start": 86.18,
+      "end": 86.66
+    },
+    {
+      "word": "I",
+      "start": 86.66,
+      "end": 88.9
+    },
+    {
+      "word": "stayed",
+      "start": 88.9,
+      "end": 89.5
+    },
+    {
+      "word": "behind",
+      "start": 89.5,
+      "end": 90.16
+    },
+    {
+      "word": "I",
+      "start": 90.16,
+      "end": 92.56
+    },
+    {
+      "word": "stayed",
+      "start": 92.56,
+      "end": 93.34
+    },
+    {
+      "word": "behind",
+      "start": 93.34,
+      "end": 94.08
+    },
+    {
+      "word": "Rain",
+      "start": 95.44,
+      "end": 96.38
+    },
+    {
+      "word": "came",
+      "start": 96.38,
+      "end": 96.72
+    },
+    {
+      "word": "through",
+      "start": 96.72,
+      "end": 97.38
+    },
+    {
+      "word": "September",
+      "start": 97.38,
+      "end": 98.36
+    },
+    {
+      "word": "Tapped",
+      "start": 98.36,
+      "end": 100.34
+    },
+    {
+      "word": "on",
+      "start": 100.34,
+      "end": 100.7
+    },
+    {
+      "word": "every",
+      "start": 100.7,
+      "end": 101.5
+    },
+    {
+      "word": "tin",
+      "start": 101.5,
+      "end": 102.0
+    },
+    {
+      "word": "I",
+      "start": 103.42,
+      "end": 104.08
+    },
+    {
+      "word": "fixed",
+      "start": 104.08,
+      "end": 104.46
+    },
+    {
+      "word": "the",
+      "start": 104.46,
+      "end": 104.98
+    },
+    {
+      "word": "loose",
+      "start": 104.98,
+      "end": 105.26
+    },
+    {
+      "word": "window",
+      "start": 105.26,
+      "end": 106.22
+    },
+    {
+      "word": "And",
+      "start": 106.22,
+      "end": 107.18
+    },
+    {
+      "word": "let",
+      "start": 107.18,
+      "end": 107.76
+    },
+    {
+      "word": "the",
+      "start": 107.76,
+      "end": 108.02
+    },
+    {
+      "word": "dark",
+      "start": 108.02,
+      "end": 108.38
+    },
+    {
+      "word": "come",
+      "start": 108.38,
+      "end": 109.24
+    },
+    {
+      "word": "in",
+      "start": 109.24,
+      "end": 110.44
+    },
+    {
+      "word": "Neighbors",
+      "start": 111.44,
+      "end": 112.08
+    },
+    {
+      "word": "asked",
+      "start": 112.08,
+      "end": 112.68
+    },
+    {
+      "word": "me",
+      "start": 112.68,
+      "end": 113.1
+    },
+    {
+      "word": "lightly",
+      "start": 113.1,
+      "end": 113.74
+    },
+    {
+      "word": "How",
+      "start": 113.74,
+      "end": 114.86
+    },
+    {
+      "word": "alone",
+      "start": 114.86,
+      "end": 115.4
+    },
+    {
+      "word": "has",
+      "start": 115.4,
+      "end": 116.8
+    },
+    {
+      "word": "it",
+      "start": 116.8,
+      "end": 117.0
+    },
+    {
+      "word": "been?",
+      "start": 117.0,
+      "end": 117.34
+    },
+    {
+      "word": "I",
+      "start": 118.26,
+      "end": 118.64
+    },
+    {
+      "word": "said",
+      "start": 118.64,
+      "end": 118.92
+    },
+    {
+      "word": "just",
+      "start": 118.92,
+      "end": 119.84
+    },
+    {
+      "word": "till",
+      "start": 119.84,
+      "end": 120.4
+    },
+    {
+      "word": "the",
+      "start": 120.4,
+      "end": 120.72
+    },
+    {
+      "word": "letters",
+      "start": 120.72,
+      "end": 121.24
+    },
+    {
+      "word": "Find",
+      "start": 121.24,
+      "end": 123.16
+    },
+    {
+      "word": "their",
+      "start": 123.16,
+      "end": 123.6
+    },
+    {
+      "word": "way",
+      "start": 123.6,
+      "end": 123.94
+    },
+    {
+      "word": "back",
+      "start": 123.94,
+      "end": 124.66
+    },
+    {
+      "word": "in",
+      "start": 124.66,
+      "end": 124.98
+    },
+    {
+      "word": "But",
+      "start": 126.44,
+      "end": 127.22
+    },
+    {
+      "word": "seasons",
+      "start": 127.22,
+      "end": 127.68
+    },
+    {
+      "word": "don't",
+      "start": 127.68,
+      "end": 128.44
+    },
+    {
+      "word": "ask",
+      "start": 128.44,
+      "end": 129.02
+    },
+    {
+      "word": "permission",
+      "start": 129.02,
+      "end": 129.5
+    },
+    {
+      "word": "They",
+      "start": 129.5,
+      "end": 131.28
+    },
+    {
+      "word": "just",
+      "start": 131.28,
+      "end": 131.68
+    },
+    {
+      "word": "turn",
+      "start": 131.68,
+      "end": 132.42
+    },
+    {
+      "word": "and",
+      "start": 132.42,
+      "end": 132.78
+    },
+    {
+      "word": "turn",
+      "start": 132.78,
+      "end": 133.36
+    },
+    {
+      "word": "Every",
+      "start": 134.36,
+      "end": 135.54
+    },
+    {
+      "word": "plate",
+      "start": 135.54,
+      "end": 135.96
+    },
+    {
+      "word": "I",
+      "start": 135.96,
+      "end": 136.3
+    },
+    {
+      "word": "washed",
+      "start": 136.3,
+      "end": 136.78
+    },
+    {
+      "word": "alone",
+      "start": 136.78,
+      "end": 137.4
+    },
+    {
+      "word": "Was",
+      "start": 137.4,
+      "end": 139.12
+    },
+    {
+      "word": "a",
+      "start": 139.12,
+      "end": 139.32
+    },
+    {
+      "word": "little",
+      "start": 139.32,
+      "end": 139.62
+    },
+    {
+      "word": "lesson",
+      "start": 139.62,
+      "end": 140.26
+    },
+    {
+      "word": "learned",
+      "start": 140.26,
+      "end": 140.98
+    },
+    {
+      "word": "I",
+      "start": 142.36,
+      "end": 143.18
+    },
+    {
+      "word": "stayed",
+      "start": 143.18,
+      "end": 143.92
+    },
+    {
+      "word": "behind",
+      "start": 143.92,
+      "end": 144.62
+    },
+    {
+      "word": "I",
+      "start": 144.62,
+      "end": 147.0
+    },
+    {
+      "word": "stayed",
+      "start": 147.0,
+      "end": 147.82
+    },
+    {
+      "word": "behind",
+      "start": 147.82,
+      "end": 148.98
+    },
+    {
+      "word": "I",
+      "start": 150.1,
+      "end": 150.8
+    },
+    {
+      "word": "kept",
+      "start": 150.8,
+      "end": 151.8
+    },
+    {
+      "word": "the",
+      "start": 151.8,
+      "end": 152.1
+    },
+    {
+      "word": "flame",
+      "start": 152.1,
+      "end": 152.58
+    },
+    {
+      "word": "I",
+      "start": 152.58,
+      "end": 154.74
+    },
+    {
+      "word": "kept",
+      "start": 154.74,
+      "end": 155.72
+    },
+    {
+      "word": "the",
+      "start": 155.72,
+      "end": 156.06
+    },
+    {
+      "word": "line",
+      "start": 156.06,
+      "end": 156.56
+    },
+    {
+      "word": "Your",
+      "start": 157.56,
+      "end": 158.66
+    },
+    {
+      "word": "name",
+      "start": 158.66,
+      "end": 159.3
+    },
+    {
+      "word": "in",
+      "start": 159.3,
+      "end": 159.76
+    },
+    {
+      "word": "the",
+      "start": 159.76,
+      "end": 159.94
+    },
+    {
+      "word": "hall",
+      "start": 159.94,
+      "end": 160.46
+    },
+    {
+      "word": "You're",
+      "start": 160.46,
+      "end": 162.54
+    },
+    {
+      "word": "shoes",
+      "start": 162.54,
+      "end": 162.94
+    },
+    {
+      "word": "by",
+      "start": 162.94,
+      "end": 163.58
+    },
+    {
+      "word": "the",
+      "start": 163.58,
+      "end": 163.78
+    },
+    {
+      "word": "wall",
+      "start": 163.78,
+      "end": 164.38
+    },
+    {
+      "word": "I",
+      "start": 165.56,
+      "end": 166.5
+    },
+    {
+      "word": "stayed",
+      "start": 166.5,
+      "end": 167.24
+    },
+    {
+      "word": "behind",
+      "start": 167.24,
+      "end": 167.94
+    },
+    {
+      "word": "I",
+      "start": 167.94,
+      "end": 170.28
+    },
+    {
+      "word": "stayed",
+      "start": 170.28,
+      "end": 170.84
+    },
+    {
+      "word": "behind",
+      "start": 170.84,
+      "end": 171.9
+    },
+    {
+      "word": "You",
+      "start": 175.5,
+      "end": 176.14
+    },
+    {
+      "word": "get",
+      "start": 176.14,
+      "end": 176.44
+    },
+    {
+      "word": "to",
+      "start": 176.44,
+      "end": 176.78
+    },
+    {
+      "word": "be",
+      "start": 176.78,
+      "end": 177.14
+    },
+    {
+      "word": "a",
+      "start": 177.14,
+      "end": 177.42
+    },
+    {
+      "word": "story",
+      "start": 177.42,
+      "end": 178.08
+    },
+    {
+      "word": "Moving",
+      "start": 178.08,
+      "end": 180.3
+    },
+    {
+      "word": "town",
+      "start": 180.3,
+      "end": 181.04
+    },
+    {
+      "word": "to",
+      "start": 181.04,
+      "end": 181.62
+    },
+    {
+      "word": "town",
+      "start": 181.62,
+      "end": 182.56
+    },
+    {
+      "word": "I",
+      "start": 182.56,
+      "end": 183.18
+    },
+    {
+      "word": "am",
+      "start": 183.18,
+      "end": 183.46
+    },
+    {
+      "word": "the",
+      "start": 183.46,
+      "end": 183.92
+    },
+    {
+      "word": "porch",
+      "start": 183.92,
+      "end": 184.48
+    },
+    {
+      "word": "and",
+      "start": 184.48,
+      "end": 185.0
+    },
+    {
+      "word": "the",
+      "start": 185.0,
+      "end": 185.3
+    },
+    {
+      "word": "hinge",
+      "start": 185.3,
+      "end": 185.9
+    },
+    {
+      "word": "The",
+      "start": 185.9,
+      "end": 186.26
+    },
+    {
+      "word": "quiet",
+      "start": 186.26,
+      "end": 186.94
+    },
+    {
+      "word": "cell",
+      "start": 186.94,
+      "end": 187.7
+    },
+    {
+      "word": "in",
+      "start": 187.7,
+      "end": 188.34
+    },
+    {
+      "word": "down",
+      "start": 188.34,
+      "end": 188.9
+    },
+    {
+      "word": "I",
+      "start": 189.56,
+      "end": 190.12
+    },
+    {
+      "word": "am",
+      "start": 190.12,
+      "end": 190.98
+    },
+    {
+      "word": "the",
+      "start": 190.98,
+      "end": 191.16
+    },
+    {
+      "word": "key",
+      "start": 191.16,
+      "end": 191.74
+    },
+    {
+      "word": "in",
+      "start": 191.74,
+      "end": 192.98
+    },
+    {
+      "word": "the",
+      "start": 192.98,
+      "end": 193.12
+    },
+    {
+      "word": "dish",
+      "start": 193.12,
+      "end": 193.86
+    },
+    {
+      "word": "The",
+      "start": 193.86,
+      "end": 194.74
+    },
+    {
+      "word": "jail",
+      "start": 194.74,
+      "end": 195.36
+    },
+    {
+      "word": "on",
+      "start": 195.36,
+      "end": 196.3
+    },
+    {
+      "word": "the",
+      "start": 196.3,
+      "end": 196.94
+    },
+    {
+      "word": "shelf",
+      "start": 196.94,
+      "end": 197.46
+    },
+    {
+      "word": "I",
+      "start": 198.24,
+      "end": 198.8
+    },
+    {
+      "word": "am",
+      "start": 198.8,
+      "end": 199.1
+    },
+    {
+      "word": "the",
+      "start": 199.1,
+      "end": 199.36
+    },
+    {
+      "word": "one",
+      "start": 199.36,
+      "end": 199.78
+    },
+    {
+      "word": "who",
+      "start": 199.78,
+      "end": 200.06
+    },
+    {
+      "word": "made",
+      "start": 200.06,
+      "end": 200.48
+    },
+    {
+      "word": "a",
+      "start": 200.48,
+      "end": 200.76
+    },
+    {
+      "word": "life",
+      "start": 200.76,
+      "end": 201.28
+    },
+    {
+      "word": "Out",
+      "start": 201.28,
+      "end": 202.9
+    },
+    {
+      "word": "of",
+      "start": 202.9,
+      "end": 203.08
+    },
+    {
+      "word": "waiting",
+      "start": 203.08,
+      "end": 203.5
+    },
+    {
+      "word": "by",
+      "start": 203.5,
+      "end": 204.1
+    },
+    {
+      "word": "myself",
+      "start": 204.1,
+      "end": 205.32
+    },
+    {
+      "word": "I",
+      "start": 206.32,
+      "end": 207.88
+    },
+    {
+      "word": "stayed",
+      "start": 207.88,
+      "end": 208.56
+    },
+    {
+      "word": "behind",
+      "start": 208.56,
+      "end": 209.66
+    },
+    {
+      "word": "I",
+      "start": 209.66,
+      "end": 211.94
+    },
+    {
+      "word": "stayed",
+      "start": 211.94,
+      "end": 212.78
+    },
+    {
+      "word": "behind",
+      "start": 212.78,
+      "end": 214.3
+    },
+    {
+      "word": "I",
+      "start": 215.14,
+      "end": 215.84
+    },
+    {
+      "word": "kept",
+      "start": 215.84,
+      "end": 216.8
+    },
+    {
+      "word": "the",
+      "start": 216.8,
+      "end": 217.08
+    },
+    {
+      "word": "flame",
+      "start": 217.08,
+      "end": 217.54
+    },
+    {
+      "word": "I",
+      "start": 217.54,
+      "end": 219.76
+    },
+    {
+      "word": "kept",
+      "start": 219.76,
+      "end": 220.62
+    },
+    {
+      "word": "the",
+      "start": 220.62,
+      "end": 221.0
+    },
+    {
+      "word": "line",
+      "start": 221.0,
+      "end": 221.72
+    },
+    {
+      "word": "Your",
+      "start": 221.98,
+      "end": 222.68
+    },
+    {
+      "word": "name",
+      "start": 222.68,
+      "end": 223.52
+    },
+    {
+      "word": "in",
+      "start": 223.52,
+      "end": 224.3
+    },
+    {
+      "word": "the",
+      "start": 224.3,
+      "end": 224.64
+    },
+    {
+      "word": "hall",
+      "start": 224.64,
+      "end": 225.26
+    },
+    {
+      "word": "You're",
+      "start": 225.26,
+      "end": 227.52
+    },
+    {
+      "word": "shoes",
+      "start": 227.52,
+      "end": 228.12
+    },
+    {
+      "word": "by",
+      "start": 228.12,
+      "end": 228.66
+    },
+    {
+      "word": "the",
+      "start": 228.66,
+      "end": 228.94
+    },
+    {
+      "word": "wall",
+      "start": 228.94,
+      "end": 229.34
+    },
+    {
+      "word": "I",
+      "start": 230.9,
+      "end": 231.94
+    },
+    {
+      "word": "stayed",
+      "start": 231.94,
+      "end": 232.38
+    },
+    {
+      "word": "behind",
+      "start": 232.38,
+      "end": 233.14
+    },
+    {
+      "word": "I",
+      "start": 233.14,
+      "end": 235.36
+    },
+    {
+      "word": "stayed",
+      "start": 235.36,
+      "end": 235.96
+    },
+    {
+      "word": "behind",
+      "start": 235.96,
+      "end": 237.14
+    },
+    {
+      "word": "I",
+      "start": 238.24,
+      "end": 239.28
+    },
+    {
+      "word": "stayed",
+      "start": 239.28,
+      "end": 240.2
+    },
+    {
+      "word": "behind",
+      "start": 240.2,
+      "end": 241.7
+    },
+    {
+      "word": "And",
+      "start": 241.7,
+      "end": 243.64
+    },
+    {
+      "word": "when",
+      "start": 243.64,
+      "end": 243.98
+    },
+    {
+      "word": "you",
+      "start": 243.98,
+      "end": 244.22
+    },
+    {
+      "word": "came",
+      "start": 244.22,
+      "end": 244.52
+    },
+    {
+      "word": "back",
+      "start": 244.52,
+      "end": 244.96
+    },
+    {
+      "word": "wrong",
+      "start": 244.96,
+      "end": 245.4
+    },
+    {
+      "word": "I",
+      "start": 247.3,
+      "end": 248.34
+    },
+    {
+      "word": "still",
+      "start": 248.34,
+      "end": 248.7
+    },
+    {
+      "word": "knew",
+      "start": 248.7,
+      "end": 249.06
+    },
+    {
+      "word": "how",
+      "start": 249.06,
+      "end": 249.48
+    },
+    {
+      "word": "to",
+      "start": 249.48,
+      "end": 250.94
+    },
+    {
+      "word": "hold",
+      "start": 250.94,
+      "end": 251.46
+    },
+    {
+      "word": "the",
+      "start": 251.46,
+      "end": 251.72
+    },
+    {
+      "word": "sound",
+      "start": 251.72,
+      "end": 252.2
+    },
+    {
+      "word": "I",
+      "start": 259.34,
+      "end": 259.58
+    },
+    {
+      "word": "stayed",
+      "start": 259.58,
+      "end": 259.58
+    },
+    {
+      "word": "behind",
+      "start": 259.58,
+      "end": 259.58
+    },
+    {
+      "word": "I",
+      "start": 259.58,
+      "end": 259.58
+    },
+    {
+      "word": "stayed",
+      "start": 259.58,
+      "end": 259.58
+    },
+    {
+      "word": "behind",
+      "start": 259.58,
+      "end": 259.58
+    },
+    {
+      "word": "I",
+      "start": 259.58,
+      "end": 259.66
+    },
+    {
+      "word": "stayed",
+      "start": 259.66,
+      "end": 259.66
+    },
+    {
+      "word": "behind",
+      "start": 259.66,
+      "end": 259.66
+    },
+    {
+      "word": "I",
+      "start": 259.66,
+      "end": 260.28
+    },
+    {
+      "word": "stayed",
+      "start": 260.28,
+      "end": 261.38
+    },
+    {
+      "word": "behind",
+      "start": 261.38,
+      "end": 261.38
+    }
+  ],
+  "duration": 0
+}

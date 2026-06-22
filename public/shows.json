@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tll-lisbon-2026",
+    "date": "2026-09-12",
+    "venue": "Musicbox",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "description": "An intimate evening of Atlantic Noir — live renditions from The Life Lessons I Hope You Learn.",
+    "ticketUrl": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "tll-porto-2026",
+    "date": "2026-09-20",
+    "venue": "Hard Club",
+    "city": "Porto",
+    "country": "Portugal",
+    "description": "NoiraCiel live in Porto. Full catalogue set with special acoustic moments.",
+    "ticketUrl": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "tll-london-2026",
+    "date": "2026-10-04",
+    "venue": "Scala",
+    "city": "London",
+    "country": "United Kingdom",
+    "description": "A night of music, memory and spoken word at Scala London.",
+    "ticketUrl": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "tll-paris-2026",
+    "date": "2026-10-18",
+    "venue": "La Maroquinerie",
+    "city": "Paris",
+    "country": "France",
+    "description": "Atlantic Noir at its most cinematic — full band with string arrangement.",
+    "ticketUrl": null,
+    "status": "upcoming"
+  },
+  {
+    "id": "tll-berlin-2026",
+    "date": "2026-11-06",
+    "venue": "Passionskirche",
+    "city": "Berlin",
+    "country": "Germany",
+    "description": "A late-autumn church concert — stillness and sound in a landmark venue.",
+    "ticketUrl": null,
+    "status": "upcoming"
+  }
+]

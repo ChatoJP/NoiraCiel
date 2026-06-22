@@ -1,0 +1,277 @@
+[
+  {
+    "id": "atlantic-noir",
+    "name": "Atlantic Noir Room",
+    "tagline": "For the ones who hear the ocean inside silence.",
+    "description": "A dark cinematic room for NoiraCiel's oceanic songs — memory, distance, and beautiful sadness. The Atlantic has its own grammar. You either know it, or you don't.",
+    "mood": ["noir", "ocean", "memory", "saudade", "distance"],
+    "album": "Still We Sail",
+    "albumSlug": "still-we-sail",
+    "currentTrack": {
+      "id": "side-by-side",
+      "title": "Side by Side",
+      "artist": "NoiraCiel",
+      "duration": "4:23",
+      "albumName": "Still We Sail",
+      "albumSlug": "still-we-sail",
+      "audioUrl": "/api/audio/hd_6-%20Side%20By%20Side.wav"
+    },
+    "queue": [
+      { "id": "maybe-i-was-wrong",        "title": "Maybe I Was Wrong",         "artist": "NoiraCiel", "duration": "4:10", "albumName": "Still We Sail" },
+      { "id": "the-house-we-couldnt-leave","title": "The House We Couldn't Leave","artist": "NoiraCiel", "duration": "5:02", "albumName": "Still We Sail" },
+      { "id": "borrowed-time",             "title": "Borrowed Time",              "artist": "NoiraCiel", "duration": "5:30", "albumName": "Still We Sail" }
+    ],
+    "accentColor": "blue-gold",
+    "gradient": "radial-gradient(ellipse at 20% 40%, #0b1d3a 0%, transparent 55%), radial-gradient(ellipse at 80% 60%, #0a1628 0%, transparent 50%), radial-gradient(circle at 50% 90%, #07131f 0%, transparent 40%), linear-gradient(180deg, #03060d 0%, #080f1a 40%, #0a1426 70%, #030810 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 14,
+    "peakMembers": 28
+  },
+  {
+    "id": "jazz-night",
+    "name": "Jazz Night Room",
+    "tagline": "Late. Honest. Warm in the right places.",
+    "description": "A room for those who find jazz at 2am and realise they were never alone. NoiraCiel's jazz sessions play here — smoke, brass, low light, and the kind of silence between notes that says everything.",
+    "mood": ["jazz", "late-night", "warmth", "intimacy", "honest"],
+    "album": "Jazz Sessions",
+    "albumSlug": "jazz-sessions",
+    "currentTrack": {
+      "id": "the-heart-comes-home-at-night",
+      "title": "The Heart Comes Home at Night",
+      "artist": "NoiraCiel",
+      "duration": "5:11",
+      "albumName": "Jazz Sessions",
+      "albumSlug": "jazz-sessions",
+      "audioUrl": "/api/audio/NoiraCiel%20Jazz%20Sessions/The%20Heart%20Comes%20Home%20At%20Night.mp3"
+    },
+    "queue": [
+      { "id": "jazz-2am",      "title": "3am at the Window",     "artist": "NoiraCiel", "duration": "4:48", "albumName": "Jazz Sessions" },
+      { "id": "jazz-after-rain","title": "After the Rain, Coffee", "artist": "NoiraCiel", "duration": "5:22", "albumName": "Jazz Sessions" },
+      { "id": "jazz-slow",      "title": "Slow Arrival",           "artist": "NoiraCiel", "duration": "6:04", "albumName": "Jazz Sessions" }
+    ],
+    "accentColor": "gold-white",
+    "gradient": "radial-gradient(ellipse at 30% 50%, #1a1205 0%, transparent 50%), radial-gradient(ellipse at 70% 30%, #100d04 0%, transparent 45%), radial-gradient(circle at 50% 80%, #1f1608 0%, transparent 35%), linear-gradient(160deg, #050400 0%, #0d0b03 40%, #121005 70%, #040300 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 9,
+    "peakMembers": 21
+  },
+  {
+    "id": "the-velvet-room",
+    "name": "The Velvet Room",
+    "tagline": "A room for your darker frequencies.",
+    "description": "Cinematic, noir, electronic. The Velvet Machine finds you here. This is for the ones who feel sound as texture — who hear the space between the notes and know something is being said.",
+    "mood": ["cinematic", "electronic", "texture", "dark", "atmospheric"],
+    "album": "The Velvet Machine",
+    "albumSlug": "the-velvet-machine",
+    "currentTrack": {
+      "id": "velvet-pulse",
+      "title": "Velvet Pulse",
+      "artist": "NoiraCiel",
+      "duration": "6:02",
+      "albumName": "The Velvet Machine",
+      "albumSlug": "the-velvet-machine"
+    },
+    "queue": [
+      { "id": "velvet-static",  "title": "Velvet Static",      "artist": "NoiraCiel", "duration": "5:38", "albumName": "The Velvet Machine" },
+      { "id": "freq-phantom",   "title": "Frequency Phantom",  "artist": "NoiraCiel", "duration": "7:14", "albumName": "The Velvet Machine" },
+      { "id": "machine-nocturne","title": "Machine Nocturne",   "artist": "NoiraCiel", "duration": "6:50", "albumName": "The Velvet Machine" }
+    ],
+    "accentColor": "violet-gold",
+    "gradient": "radial-gradient(ellipse at 25% 35%, #1a0830 0%, transparent 50%), radial-gradient(ellipse at 75% 65%, #150620 0%, transparent 45%), radial-gradient(circle at 60% 85%, #0f0420 0%, transparent 40%), linear-gradient(170deg, #06020e 0%, #0d0520 40%, #110628 70%, #040010 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 7,
+    "peakMembers": 16
+  },
+  {
+    "id": "ghost-performance",
+    "name": "Ghost Performance Room",
+    "tagline": "The invisible band. The unrepeatable moment.",
+    "description": "Instrumental. Atmospheric. The kind of music that plays in the spaces behind thoughts. Ghost performances of the NoiraCiel catalogue — piano, strings, guitar, drums. No lyrics. Only feeling.",
+    "mood": ["instrumental", "atmospheric", "cinematic", "introspective", "ghost"],
+    "currentTrack": {
+      "id": "ghost-piano-session",
+      "title": "Ghost Piano Session",
+      "artist": "NoiraCiel",
+      "duration": "7:44",
+      "albumName": "Ghost Performance Series"
+    },
+    "queue": [
+      { "id": "ghost-strings-session", "title": "Ghost Strings Session",  "artist": "NoiraCiel", "duration": "6:18", "albumName": "Ghost Performance Series" },
+      { "id": "ghost-guitar-session",  "title": "Ghost Guitar Session",   "artist": "NoiraCiel", "duration": "5:52", "albumName": "Ghost Performance Series" },
+      { "id": "ghost-full-ensemble",   "title": "Ghost Full Ensemble",    "artist": "NoiraCiel", "duration": "9:03", "albumName": "Ghost Performance Series" }
+    ],
+    "accentColor": "silver-blue",
+    "gradient": "radial-gradient(ellipse at 40% 30%, #0d1520 0%, transparent 50%), radial-gradient(ellipse at 60% 70%, #080f18 0%, transparent 45%), radial-gradient(circle at 20% 80%, #0a1020 0%, transparent 35%), linear-gradient(150deg, #020508 0%, #080d14 40%, #0c1219 70%, #030609 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 11,
+    "peakMembers": 19
+  },
+  {
+    "id": "after-midnight",
+    "name": "After Midnight Room",
+    "tagline": "The hours that only some of us know.",
+    "description": "3am. The city is quiet but you are not. Songs that understand insomnia, longing, and the strange clarity that comes at the edge of night. Everyone here has been awake for a reason.",
+    "mood": ["insomnia", "quiet", "longing", "raw", "3am"],
+    "album": "The Life Lessons I Hope You Learn",
+    "albumSlug": "main",
+    "currentTrack": {
+      "id": "leave-a-light-on",
+      "title": "Leave a Light On",
+      "artist": "NoiraCiel",
+      "duration": "4:55",
+      "albumName": "The Life Lessons I Hope You Learn",
+      "albumSlug": "main",
+      "audioUrl": "/api/audio/hd_12%20-%20Leave%20A%20Light%20On.wav"
+    },
+    "queue": [
+      { "id": "good-things-grow-slow", "title": "Good Things Grow Slow", "artist": "NoiraCiel", "duration": "4:42", "albumName": "The Life Lessons I Hope You Learn" },
+      { "id": "why",                   "title": "Why",                   "artist": "NoiraCiel", "duration": "3:58", "albumName": "The Life Lessons I Hope You Learn" },
+      { "id": "the-empty-chair",       "title": "The Empty Chair",        "artist": "NoiraCiel", "duration": "5:14", "albumName": "The Life Lessons I Hope You Learn" }
+    ],
+    "accentColor": "blue-gold",
+    "gradient": "radial-gradient(ellipse at 50% 20%, #0f1a2a 0%, transparent 45%), radial-gradient(ellipse at 20% 80%, #08101e 0%, transparent 50%), radial-gradient(circle at 80% 60%, #0a1320 0%, transparent 40%), linear-gradient(190deg, #030810 0%, #060c18 35%, #0a1020 65%, #020608 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 22,
+    "peakMembers": 41
+  },
+  {
+    "id": "the-roots-room",
+    "name": "The Roots Room",
+    "tagline": "For the ones who carry their people inside them.",
+    "description": "Folk, memory, inheritance, family — the music that exists before language and survives after words fail. Songs about what we are made of, who made us, and what we carry forward.",
+    "mood": ["folk", "roots", "memory", "family", "earth"],
+    "album": "What You're Made Of",
+    "albumSlug": "whats-youre-made-of",
+    "currentTrack": {
+      "id": "the-roots-we-cannot-see",
+      "title": "The Roots We Cannot See",
+      "artist": "NoiraCiel",
+      "duration": "3:58",
+      "albumName": "What You're Made Of",
+      "albumSlug": "whats-youre-made-of",
+      "audioUrl": "/api/audio/hd_3%20-%20The%20Roots%20We%20Cannot%20See.wav"
+    },
+    "queue": [
+      { "id": "it-was-already-there",       "title": "It Was Already There",       "artist": "NoiraCiel", "duration": "4:28", "albumName": "What You're Made Of" },
+      { "id": "i-never-knew-any-other-way", "title": "I Never Knew Any Other Way", "artist": "NoiraCiel", "duration": "4:51", "albumName": "What You're Made Of" },
+      { "id": "always-in-your-corner",      "title": "Always in Your Corner",      "artist": "NoiraCiel", "duration": "4:33", "albumName": "What You're Made Of" }
+    ],
+    "accentColor": "red-gold",
+    "gradient": "radial-gradient(ellipse at 30% 40%, #1a0e04 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, #140a02 0%, transparent 45%), radial-gradient(circle at 50% 80%, #1e1204 0%, transparent 40%), linear-gradient(165deg, #060301 0%, #0e0802 40%, #130a03 70%, #040200 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 6,
+    "peakMembers": 14
+  },
+  {
+    "id": "fado-trip-hop",
+    "name": "Fado Trip-Hop Room",
+    "tagline": "Portuguese melancholy meets broken beats.",
+    "description": "The sound of saudade mapped onto electronic percussion. Fado's grief and trip-hop's fog, sharing the same room. For those who know that sadness is not an illness — it is an intelligence.",
+    "mood": ["fado", "trip-hop", "saudade", "melancholy", "electronic"],
+    "currentTrack": {
+      "id": "borrowed-time",
+      "title": "Borrowed Time",
+      "artist": "NoiraCiel",
+      "duration": "5:30",
+      "albumName": "Still We Sail",
+      "albumSlug": "still-we-sail",
+      "audioUrl": "/api/audio/hd_16%20-%20Borrowed%20Time.wav"
+    },
+    "queue": [
+      { "id": "side-by-side",           "title": "Side by Side",            "artist": "NoiraCiel", "duration": "4:23", "albumName": "Still We Sail" },
+      { "id": "the-house-we-couldnt-leave","title": "The House We Couldn't Leave","artist": "NoiraCiel", "duration": "5:02", "albumName": "Still We Sail" },
+      { "id": "always-in-your-corner",  "title": "Always in Your Corner",  "artist": "NoiraCiel", "duration": "4:33", "albumName": "Still We Sail" }
+    ],
+    "accentColor": "violet-gold",
+    "gradient": "radial-gradient(ellipse at 40% 50%, #150820 0%, transparent 55%), radial-gradient(ellipse at 60% 30%, #1a0830 0%, transparent 45%), radial-gradient(circle at 30% 80%, #0f0620 0%, transparent 40%), linear-gradient(175deg, #05020c 0%, #0a0418 40%, #0e0520 65%, #040010 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 5,
+    "peakMembers": 12
+  },
+  {
+    "id": "world-sounds",
+    "name": "World Sounds Room",
+    "tagline": "Music older than borders. Rhythm older than language.",
+    "description": "Tribal house, world percussion, global grooves. The music that was here before the map was drawn. People from everywhere, listening together to something that belongs to everyone.",
+    "mood": ["tribal", "global", "percussion", "movement", "ancestral"],
+    "album": "World Musics",
+    "albumSlug": "world-musics",
+    "currentTrack": {
+      "id": "noiraciel-world-music-5",
+      "title": "World Music V",
+      "artist": "NoiraCiel",
+      "duration": "6:18",
+      "albumName": "World Musics",
+      "albumSlug": "world-musics"
+    },
+    "queue": [
+      { "id": "world-music-2", "title": "World Music II",  "artist": "NoiraCiel", "duration": "5:44", "albumName": "World Musics" },
+      { "id": "world-music-3", "title": "World Music III", "artist": "NoiraCiel", "duration": "6:02", "albumName": "World Musics" },
+      { "id": "world-music-4", "title": "World Music IV",  "artist": "NoiraCiel", "duration": "7:11", "albumName": "World Musics" }
+    ],
+    "accentColor": "green-blue",
+    "gradient": "radial-gradient(ellipse at 25% 45%, #041a10 0%, transparent 50%), radial-gradient(ellipse at 75% 55%, #061812 0%, transparent 45%), radial-gradient(circle at 50% 85%, #081a14 0%, transparent 40%), linear-gradient(160deg, #010804 0%, #040f08 40%, #06120a 70%, #010503 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 18,
+    "peakMembers": 35
+  },
+  {
+    "id": "the-sacred-drift",
+    "name": "Sacred Drift Room",
+    "tagline": "For those who find the divine in the damaged.",
+    "description": "Spiritual but not religious. Searching but not lost. The Sacred Drift is for the ones who carry their own altar — who find the sacred in strange places, and who are not afraid of the dark side of the beautiful.",
+    "mood": ["spiritual", "ambient", "searching", "sacred", "drift"],
+    "album": "The Sacred Drift",
+    "albumSlug": "the-sacred-drift",
+    "currentTrack": {
+      "id": "sacred-drift-main",
+      "title": "Sacred Drift",
+      "artist": "NoiraCiel",
+      "duration": "8:12",
+      "albumName": "The Sacred Drift",
+      "albumSlug": "the-sacred-drift"
+    },
+    "queue": [
+      { "id": "sacred-drift-2",    "title": "Sacred Drift II",     "artist": "NoiraCiel", "duration": "7:38", "albumName": "The Sacred Drift" },
+      { "id": "the-long-way-around","title": "The Long Way Around", "artist": "NoiraCiel", "duration": "9:22", "albumName": "The Sacred Drift" },
+      { "id": "hollow-ground",     "title": "Hollow Ground",       "artist": "NoiraCiel", "duration": "6:55", "albumName": "The Sacred Drift" }
+    ],
+    "accentColor": "violet-gold",
+    "gradient": "radial-gradient(ellipse at 35% 40%, #1a0a2a 0%, transparent 50%), radial-gradient(ellipse at 65% 60%, #140520 0%, transparent 45%), radial-gradient(circle at 50% 80%, #180828 0%, transparent 40%), linear-gradient(160deg, #060010 0%, #0c0418 40%, #100520 70%, #050010 100%)",
+    "isPremium": false,
+    "isPrivate": false,
+    "memberCount": 8,
+    "peakMembers": 17
+  },
+  {
+    "id": "the-house-premium",
+    "name": "NoiraCiel House",
+    "tagline": "By invitation only. For the ones who have always been here.",
+    "description": "A private listening room for those who have gone deepest into the NoiraCiel universe. Premiere sessions, unreleased music, intimate conversations, and the rare experience of listening together in complete trust.",
+    "mood": ["exclusive", "intimate", "premiere", "private", "deep"],
+    "currentTrack": {
+      "id": "unreleased-session",
+      "title": "Unreleased Session — Members Only",
+      "artist": "NoiraCiel",
+      "duration": "???",
+      "albumName": "NoiraCiel House Private Sessions"
+    },
+    "queue": [
+      { "id": "members-session-2", "title": "Members Session II", "artist": "NoiraCiel", "duration": "???", "albumName": "NoiraCiel House Private Sessions" }
+    ],
+    "accentColor": "gold-white",
+    "gradient": "radial-gradient(ellipse at 40% 30%, #1a1205 0%, transparent 50%), radial-gradient(ellipse at 60% 70%, #151005 0%, transparent 45%), radial-gradient(circle at 50% 80%, #1a1403 0%, transparent 40%), linear-gradient(155deg, #050400 0%, #0a0802 40%, #0f0c03 70%, #040300 100%)",
+    "isPremium": true,
+    "isPrivate": true,
+    "memberCount": 3,
+    "peakMembers": 7
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "generatedAt": "2026-06-15T14:09:41.090Z",
+  "totalSongs": 47,
+  "songs": [
+    {
+      "slug": "still-we-sail",
+      "title": "Still We Sail",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "exile-body",
+      "title": "Exile Body",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "the-accordion-breathes",
+      "title": "The Accordion Breathes",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "letters-never-crossed",
+      "title": "Letters Never Crossed",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "salt-gospel",
+      "title": "Salt Gospel",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "she-who-stayed-behind",
+      "title": "She Who Stayed Behind",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "atlantic-nocturne",
+      "title": "Atlantic Nocturne",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "grief-in-different-latitudes",
+      "title": "Grief in Different Latitudes",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "the-port-we-cannot-find",
+      "title": "The Port We Cannot Find",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "what-fado-holds",
+      "title": "What Fado Holds",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "saudade-has-a-weight",
+      "title": "Saudade Has a Weight",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "all-the-water-between",
+      "title": "All the Water Between",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "the-sea-keeps-our-names",
+      "title": "The Sea Keeps Our Names",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "i-chose-the-open",
+      "title": "I Chose the Open",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "still-we-sail-to-light",
+      "title": "Still We Sail (To Light)",
+      "albumSlug": "still-we-sail"
+    },
+    {
+      "slug": "why",
+      "title": "Why",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "who-wins-if-i-win",
+      "title": "Who Wins if I win",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "the-roots-we-cannot-see",
+      "title": "The Roots We Cannot See",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "if-we-cant-say-the-hard-truths",
+      "title": "If We Can't Say The Hard Truths",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "still-worth-it",
+      "title": "Still Worth it",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "side-by-side",
+      "title": "Side By Side",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "as-long-as-youre-okay",
+      "title": "As long as you're okay",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "it-was-already-there",
+      "title": "It Was Already There",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "always-in-your-corner",
+      "title": "Always In Your Corner",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "the-house-we-couldnt-leave",
+      "title": "The House We Couldn't Leave",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "i-never-knew-any-other-way",
+      "title": "I Never Knew any other way",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "leave-a-light-on",
+      "title": "Leave A Light On",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "the-empty-chair",
+      "title": "The Empty Chair",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "good-things-grow-slow",
+      "title": "Good Things Grow Slow",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "maybe-i-was-wrong",
+      "title": "Maybe I was wrong",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "borrowed-time",
+      "title": "Borrowed Time",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "free-men-tell-the-truth",
+      "title": "Free Men Tell the truth",
+      "albumSlug": "the-life-lessons"
+    },
+    {
+      "slug": "the-velvet-machine",
+      "title": "The Velvet Machine",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "a-body-made-of-night",
+      "title": "A Body Made of Night",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "accordion-heart",
+      "title": "Accordion Heart",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "the-saints-go-clubbing",
+      "title": "The Saints Go Clubbing",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "she-dances-like-a-memory",
+      "title": "She Dances Like a Memory",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "lisbon-is-not-a-city-it-is-a-wound",
+      "title": "Lisbon Is Not a City, It Is a Wound",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "contra-bass-confession",
+      "title": "Contra-Bass Confession",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "hard-techno-prayer",
+      "title": "Hard Techno Prayer",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "the-girl-with-the-cello-scar",
+      "title": "The Girl With the Cello Scar",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "no-one-leaves-the-night-unchanged",
+      "title": "No One Leaves the Night Unchanged",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "saxophone-for-the-damned-and-the-loved",
+      "title": "Saxophone for the Damned and the Loved",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "the-future-has-an-accent",
+      "title": "The Future Has an Accent",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "velvet-bruises",
+      "title": "Velvet Bruises",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "when-the-machines-learn-saudade",
+      "title": "When the Machines Learn Saudade",
+      "albumSlug": "the-velvet-machine"
+    },
+    {
+      "slug": "still-human-after-all-this-noise",
+      "title": "Still Human After All This Noise",
+      "albumSlug": "the-velvet-machine"
+    }
+  ]
+}

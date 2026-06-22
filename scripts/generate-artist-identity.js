@@ -4,7 +4,7 @@
  *
  * Generates 4 cinematic artist identity images for NoiraCiel.
  * Used in biography, hero, and press sections.
- * Output: public/Images/artist/{id}.jpg
+ * Output: public/images/artist/{id}.jpg
  *
  * USAGE
  *   node scripts/generate-artist-identity.js              # dry-run
@@ -26,7 +26,7 @@ const { loadState, saveState, isComplete, isPending, blankEntry } = require('./l
 loadEnv()
 
 const OUTPUT_DIR  = path.join(__dirname, '..', 'public', 'Images', 'artist')
-const PUBLIC_BASE = '/Images/artist'
+const PUBLIC_BASE = '/images/artist'
 const POLL_INTERVAL_MS = 15_000
 const POLL_TIMEOUT_MS  = 20 * 60 * 1000
 

@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "still-we-sail",
+    "title": "Still We Sail",
+    "artist": "NoiraCiel",
+    "year": 2026,
+    "genre": "Atlantic Noir · Trip-Pop · Drum & Bass · Soul · Fado DNA · Accordion Atlantic",
+    "concept": "Carrying grief, love, exile, memory and saudade across unknown emotional waters — and still choosing to continue.",
+    "coverSrc": "/images/album-covers/still-we-sail.jpg",
+    "trackCount": 15,
+    "publishedAt": "2026-06-13T23:33:54.358Z"
+  },
+  {
+    "slug": "the-velvet-machine",
+    "title": "The Velvet Machine",
+    "artist": "NoiraCiel",
+    "year": 2026,
+    "genre": "Atlantic Noir · Dark Cinematic Soul · DnB · Hard Techno · Fado DNA",
+    "concept": "The human soul surviving beautifully inside the machine.",
+    "coverSrc": "/images/album-covers/the-velvet-machine.jpg",
+    "trackCount": 15,
+    "publishedAt": "2026-06-13T23:33:43.107Z"
+  }
+]
