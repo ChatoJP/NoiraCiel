@@ -1,0 +1,249 @@
+{
+  "slug": "metal",
+  "title": "Metal",
+  "dirName": "Metal",
+  "tracks": [
+    {
+      "num": 1,
+      "slug": "metal-session-2-n1",
+      "title": "Metal Session 2 - N1",
+      "filename": "01_metal-session-2-n1.mp3",
+      "duration": 440.959979,
+      "durationFormatted": "7:21",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/01_metal-session-2-n1.mp3",
+      "r2Key": "music/Metal/audio/01_metal-session-2-n1.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 2,
+      "slug": "metal-session-2-n10",
+      "title": "Metal Session 2 - N10",
+      "filename": "02_metal-session-2-n10.mp3",
+      "duration": 374.959979,
+      "durationFormatted": "6:15",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/02_metal-session-2-n10.mp3",
+      "r2Key": "music/Metal/audio/02_metal-session-2-n10.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 3,
+      "slug": "metal-session-2-n11",
+      "title": "Metal Session 2 - N11",
+      "filename": "03_metal-session-2-n11.mp3",
+      "duration": 369.639979,
+      "durationFormatted": "6:10",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/03_metal-session-2-n11.mp3",
+      "r2Key": "music/Metal/audio/03_metal-session-2-n11.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 4,
+      "slug": "metal-session-2-n12",
+      "title": "Metal Session 2 - N12",
+      "filename": "04_metal-session-2-n12.mp3",
+      "duration": 413.759979,
+      "durationFormatted": "6:54",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/04_metal-session-2-n12.mp3",
+      "r2Key": "music/Metal/audio/04_metal-session-2-n12.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 5,
+      "slug": "metal-session-2-n13",
+      "title": "Metal Session 2 - N13",
+      "filename": "05_metal-session-2-n13.mp3",
+      "duration": 192.919979,
+      "durationFormatted": "3:13",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/05_metal-session-2-n13.mp3",
+      "r2Key": "music/Metal/audio/05_metal-session-2-n13.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 6,
+      "slug": "metal-session-2-n14",
+      "title": "Metal Session 2 - N14",
+      "filename": "06_metal-session-2-n14.mp3",
+      "duration": 456.039979,
+      "durationFormatted": "7:36",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/06_metal-session-2-n14.mp3",
+      "r2Key": "music/Metal/audio/06_metal-session-2-n14.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 7,
+      "slug": "metal-session-2-n15",
+      "title": "Metal Session 2 - N15",
+      "filename": "07_metal-session-2-n15.mp3",
+      "duration": 279.799979,
+      "durationFormatted": "4:40",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/07_metal-session-2-n15.mp3",
+      "r2Key": "music/Metal/audio/07_metal-session-2-n15.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 8,
+      "slug": "metal-session-2-n16",
+      "title": "Metal Session 2 - N16",
+      "filename": "08_metal-session-2-n16.mp3",
+      "duration": 303.719979,
+      "durationFormatted": "5:04",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/08_metal-session-2-n16.mp3",
+      "r2Key": "music/Metal/audio/08_metal-session-2-n16.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 9,
+      "slug": "metal-session-2-n17",
+      "title": "Metal Session 2 - N17",
+      "filename": "09_metal-session-2-n17.mp3",
+      "duration": 344.879979,
+      "durationFormatted": "5:45",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/09_metal-session-2-n17.mp3",
+      "r2Key": "music/Metal/audio/09_metal-session-2-n17.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 10,
+      "slug": "metal-session-2-n18",
+      "title": "Metal Session 2 - N18",
+      "filename": "10_metal-session-2-n18.mp3",
+      "duration": 284.959979,
+      "durationFormatted": "4:45",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/10_metal-session-2-n18.mp3",
+      "r2Key": "music/Metal/audio/10_metal-session-2-n18.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 11,
+      "slug": "metal-session-2-n19",
+      "title": "Metal Session 2 - N19",
+      "filename": "11_metal-session-2-n19.mp3",
+      "duration": 479.959979,
+      "durationFormatted": "7:60",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/11_metal-session-2-n19.mp3",
+      "r2Key": "music/Metal/audio/11_metal-session-2-n19.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 12,
+      "slug": "metal-session-2-n2",
+      "title": "Metal Session 2 - N2",
+      "filename": "12_metal-session-2-n2.mp3",
+      "duration": 191.359979,
+      "durationFormatted": "3:11",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/12_metal-session-2-n2.mp3",
+      "r2Key": "music/Metal/audio/12_metal-session-2-n2.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 13,
+      "slug": "metal-session-2-n21",
+      "title": "Metal Session 2 - N21",
+      "filename": "13_metal-session-2-n21.mp3",
+      "duration": 479.959979,
+      "durationFormatted": "7:60",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/13_metal-session-2-n21.mp3",
+      "r2Key": "music/Metal/audio/13_metal-session-2-n21.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 14,
+      "slug": "metal-session-2-n22",
+      "title": "Metal Session 2 - N22",
+      "filename": "14_metal-session-2-n22.mp3",
+      "duration": 479.959979,
+      "durationFormatted": "7:60",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/14_metal-session-2-n22.mp3",
+      "r2Key": "music/Metal/audio/14_metal-session-2-n22.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 15,
+      "slug": "metal-session-2-n3",
+      "title": "Metal Session 2 - N3",
+      "filename": "15_metal-session-2-n3.mp3",
+      "duration": 344.919979,
+      "durationFormatted": "5:45",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/15_metal-session-2-n3.mp3",
+      "r2Key": "music/Metal/audio/15_metal-session-2-n3.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 16,
+      "slug": "metal-session-2-n4",
+      "title": "Metal Session 2 - N4",
+      "filename": "16_metal-session-2-n4.mp3",
+      "duration": 291.959979,
+      "durationFormatted": "4:52",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/16_metal-session-2-n4.mp3",
+      "r2Key": "music/Metal/audio/16_metal-session-2-n4.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 17,
+      "slug": "metal-session-2-n5",
+      "title": "Metal Session 2 - N5",
+      "filename": "17_metal-session-2-n5.mp3",
+      "duration": 342.159979,
+      "durationFormatted": "5:42",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/17_metal-session-2-n5.mp3",
+      "r2Key": "music/Metal/audio/17_metal-session-2-n5.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 18,
+      "slug": "metal-session-2-n6",
+      "title": "Metal Session 2 - N6",
+      "filename": "18_metal-session-2-n6.mp3",
+      "duration": 409.039979,
+      "durationFormatted": "6:49",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/18_metal-session-2-n6.mp3",
+      "r2Key": "music/Metal/audio/18_metal-session-2-n6.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 19,
+      "slug": "metal-session-2-n7",
+      "title": "Metal Session 2 - N7",
+      "filename": "19_metal-session-2-n7.mp3",
+      "duration": 369.919979,
+      "durationFormatted": "6:10",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/19_metal-session-2-n7.mp3",
+      "r2Key": "music/Metal/audio/19_metal-session-2-n7.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 20,
+      "slug": "metal-session-2-n8",
+      "title": "Metal Session 2 - N8",
+      "filename": "20_metal-session-2-n8.mp3",
+      "duration": 216.119979,
+      "durationFormatted": "3:36",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/20_metal-session-2-n8.mp3",
+      "r2Key": "music/Metal/audio/20_metal-session-2-n8.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 21,
+      "slug": "metal-session-2-n9",
+      "title": "Metal Session 2 - N9",
+      "filename": "21_metal-session-2-n9.mp3",
+      "duration": 214.959979,
+      "durationFormatted": "3:35",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/21_metal-session-2-n9.mp3",
+      "r2Key": "music/Metal/audio/21_metal-session-2-n9.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 22,
+      "slug": "image-1765202455090-68",
+      "title": "image 1765202455090 68",
+      "filename": "22_image-1765202455090-68.mp3",
+      "duration": 277.999979,
+      "durationFormatted": "4:38",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Metal/audio/22_image-1765202455090-68.mp3",
+      "r2Key": "music/Metal/audio/22_image-1765202455090-68.mp3",
+      "format": "MP3"
+    }
+  ]
+}

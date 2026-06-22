@@ -1,0 +1,392 @@
+{
+  "the-entrance-hall": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "64a7c16fc9610b410d438d754a910d81",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/01_the-entrance-hall.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/01_the-entrance-hall.mp3",
+      "duration": 184.399979,
+      "durationFormatted": "3:04"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_23ff646d80194a05b4937746a118297d",
+      "state": "complete",
+      "r2Key": "images/song-art/the-entrance-hall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-entrance-hall.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_9f5ca2322c91493787ff3d7c4d92aec8",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-entrance-hall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-entrance-hall.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:34:35.262Z"
+  },
+  "the-mask-on-the-wall": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "7c3d60c28b027e2b2d0cf0811f6bb6a9",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/02_the-mask-on-the-wall.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/02_the-mask-on-the-wall.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_21fb54385f5f40959e685f88330290d1",
+      "state": "complete",
+      "r2Key": "images/song-art/the-mask-on-the-wall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-mask-on-the-wall.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_9346eb92d2734c5f95ba17cef66011d8",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-mask-on-the-wall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-mask-on-the-wall.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:34:52.620Z"
+  },
+  "the-chair-arranged-for-visitors": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "6137a63c7637f0f482a7d7cff5d47186",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/03_the-chair-arranged-for-visitors.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/03_the-chair-arranged-for-visitors.mp3",
+      "duration": 185.839979,
+      "durationFormatted": "3:06"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_b1d30d55abca401ca0db66f856940fd9",
+      "state": "complete",
+      "r2Key": "images/song-art/the-chair-arranged-for-visitors.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-chair-arranged-for-visitors.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_e6aa0142dc6942a19f3b1d44919d7b8b",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-chair-arranged-for-visitors.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-chair-arranged-for-visitors.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:35:10.093Z"
+  },
+  "the-photograph-they-chose-to-frame": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "82bb8610d263fa5bb52eee5aca81ac9e",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/04_the-photograph-they-chose-to-frame.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/04_the-photograph-they-chose-to-frame.mp3",
+      "duration": 199.279979,
+      "durationFormatted": "3:19"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_019d98f5431a464aa60ff1db98c0c860",
+      "state": "complete",
+      "r2Key": "images/song-art/the-photograph-they-chose-to-frame.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-photograph-they-chose-to-frame.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_8c4e22ad03954bb0be3b3e557d1f69c7",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-photograph-they-chose-to-frame.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-photograph-they-chose-to-frame.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:35:27.408Z"
+  },
+  "hairline": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "4eacbb27a99b74834ae2e97a4007e524",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/05_hairline.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/05_hairline.mp3",
+      "duration": 212.359979,
+      "durationFormatted": "3:32"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_ad3b6d85149c42488ce0ddab5d59a934",
+      "state": "complete",
+      "r2Key": "images/song-art/hairline.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/hairline.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_0ec06693df5b48abb4fe0fe16e5f1c9b",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/hairline.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/hairline.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:35:44.925Z"
+  },
+  "the-mirror-turned-to-the-wall": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "aa5e09e4c142b9d0c64669e1d1991a5f",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/06_the-mirror-turned-to-the-wall.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/06_the-mirror-turned-to-the-wall.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_3ebc4072ae8d479ebdb688614681d4e9",
+      "state": "complete",
+      "r2Key": "images/song-art/the-mirror-turned-to-the-wall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-mirror-turned-to-the-wall.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_ee4e4df4d3e741bfb4e1ec241821cd54",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-mirror-turned-to-the-wall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-mirror-turned-to-the-wall.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:36:10.882Z"
+  },
+  "fingerprints-on-the-case": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "4e9adb74d300d21e392d9527279e2486",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/07_fingerprints-on-the-case.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/07_fingerprints-on-the-case.mp3",
+      "duration": 215.159979,
+      "durationFormatted": "3:35"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_e0ed7ab4643445d5a219cf2816ae7ba2",
+      "state": "complete",
+      "r2Key": "images/song-art/fingerprints-on-the-case.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/fingerprints-on-the-case.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_1f72c45f44b64a61a9f3ea06906bd746",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/fingerprints-on-the-case.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/fingerprints-on-the-case.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:36:28.242Z"
+  },
+  "the-door-that-wont-lock": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "e1073d9d8fd853e08c8fe112ed74a8ca",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/08_the-door-that-wont-lock.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/08_the-door-that-wont-lock.mp3",
+      "duration": 209.759979,
+      "durationFormatted": "3:30"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_7e7dd655bdbd4e7bb82856726c765a45",
+      "state": "complete",
+      "r2Key": "images/song-art/the-door-that-wont-lock.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-door-that-wont-lock.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_cb1a0bd0a73e4a4e8ef940aba59d8802",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-door-that-wont-lock.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-door-that-wont-lock.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:36:54.198Z"
+  },
+  "static-between-exhibits": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "dffee5159de3f2d848aca0ccd9cb5e18",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/09_static-between-exhibits.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/09_static-between-exhibits.mp3",
+      "duration": 231.959979,
+      "durationFormatted": "3:52"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_ac5c7f32462e4bc2ab59ad1ce9dea95f",
+      "state": "complete",
+      "r2Key": "images/song-art/static-between-exhibits.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/static-between-exhibits.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_c220bbea2561498fa855ba6e7674828f",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/static-between-exhibits.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/static-between-exhibits.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:37:11.500Z"
+  },
+  "the-empty-pedestal": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "8e7c6f5eb8752e638d29c3daf8ff03de",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/10_the-empty-pedestal.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/10_the-empty-pedestal.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_e844c247929041e58fd5effc62ae75d3",
+      "state": "complete",
+      "r2Key": "images/song-art/the-empty-pedestal.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-empty-pedestal.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_43dfa6b1441b46758643b133c30fc399",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-empty-pedestal.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-empty-pedestal.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:38:02.231Z"
+  },
+  "the-drawer-of-discarded-photographs": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "1321fb379a5b9318b53ebcb733e97928",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/11_the-drawer-of-discarded-photographs.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/11_the-drawer-of-discarded-photographs.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_50d1702533b34379b7c903bf27cdb391",
+      "state": "complete",
+      "r2Key": "images/song-art/the-drawer-of-discarded-photographs.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-drawer-of-discarded-photographs.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_b929e541835748e291122fe64b7ff8c2",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-drawer-of-discarded-photographs.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-drawer-of-discarded-photographs.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:38:19.745Z"
+  },
+  "the-dress-that-no-longer-fits": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "05895a982b6d5492464e790e69abd919",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/12_the-dress-that-no-longer-fits.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/12_the-dress-that-no-longer-fits.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_a0a19d1cf968461684af216af9619936",
+      "state": "complete",
+      "r2Key": "images/song-art/the-dress-that-no-longer-fits.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-dress-that-no-longer-fits.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_0b4e62064a0949e19f84218eb5914918",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-dress-that-no-longer-fits.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-dress-that-no-longer-fits.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:38:37.365Z"
+  },
+  "the-unlocked-door": {
+    "num": 13,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "0db0de0d21fcd983df742cedd8cc9c92",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/13_the-unlocked-door.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/13_the-unlocked-door.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_3097bcb07f284733807a15190fca10d0",
+      "state": "complete",
+      "r2Key": "images/song-art/the-unlocked-door.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-unlocked-door.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_c8c6a2f46f664042a2480487858f8578",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-unlocked-door.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-unlocked-door.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:38:54.702Z"
+  },
+  "the-object-with-no-label": {
+    "num": 14,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "e7cce686e519cb5059eb22c436d2fb75",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/14_the-object-with-no-label.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/14_the-object-with-no-label.mp3",
+      "duration": 154.879979,
+      "durationFormatted": "2:35"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_dd03f824a04a471e8964dba6790ca0dd",
+      "state": "complete",
+      "r2Key": "images/song-art/the-object-with-no-label.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-object-with-no-label.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_5c7c606d65fe4640b3b4f73946c94bde",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-object-with-no-label.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-object-with-no-label.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:39:12.007Z"
+  },
+  "daylight-in-the-last-room": {
+    "num": 15,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "ff91b05e432f4c87eddbfe32f0cd0806",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Glass_Animal/audio/15_daylight-in-the-last-room.mp3",
+      "r2Key": "music/The_Glass_Animal/audio/15_daylight-in-the-last-room.mp3",
+      "duration": 198.399979,
+      "durationFormatted": "3:18"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_5e53f3d344ee477b81dbdfdd1678c722",
+      "state": "complete",
+      "r2Key": "images/song-art/daylight-in-the-last-room.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/daylight-in-the-last-room.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_070ece66b16a4f059bd8ff00ac995be5",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/daylight-in-the-last-room.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/daylight-in-the-last-room.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:39:29.413Z"
+  }
+}

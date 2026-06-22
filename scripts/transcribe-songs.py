@@ -28,10 +28,19 @@ def slugify(text):
 
 def parse_filename(filename):
     stem = Path(filename).stem
+    # Pattern A — original main-album exports: "hd_8 - It Was Already There"
     m = re.match(r'^([a-z]+)_(\d+)\s*[-\s]+(.+)$', stem, re.IGNORECASE)
     if m:
-        return int(m.group(2)), m.group(3).strip()
-    return None, stem.strip()
+        return int(m.group(2)), m.group(3).strip(), None
+    # Pattern B — every other album's convention: "01_so-hum_v1" or
+    # "01_the-coat-i-left-on-the-rail" — the middle segment is already a
+    # proper slug, so use it directly instead of re-deriving one from a title.
+    m = re.match(r'^(\d+)_([a-z0-9-]+?)(?:_v\d+)?$', stem, re.IGNORECASE)
+    if m:
+        slug = m.group(2).lower()
+        title = slug.replace('-', ' ').title()
+        return int(m.group(1)), title, slug
+    return None, stem.strip(), None
 
 def load_model():
     from faster_whisper import WhisperModel
@@ -73,8 +82,8 @@ def run_list(music_dir):
     print(f"\n{'#':>3}  {'Title':<40}  Status")
     print("─" * 60)
     for f in files:
-        track_num, title = parse_filename(f.name)
-        slug = slugify(title)
+        track_num, title, explicit_slug = parse_filename(f.name)
+        slug = explicit_slug or slugify(title)
         out = OUTPUT_DIR / f"{slug}.json"
         status = "✅ done" if out.exists() else "○  pending"
         print(f"  {str(track_num or '?'):>3}  {title:<40}  {status}")
@@ -109,8 +118,8 @@ def main():
 
     targets = []
     for f in audio_files:
-        track_num, title = parse_filename(f.name)
-        slug = slugify(title)
+        track_num, title, explicit_slug = parse_filename(f.name)
+        slug = explicit_slug or slugify(title)
         if target_slug and slug != target_slug:
             continue
         out = OUTPUT_DIR / f"{slug}.json"

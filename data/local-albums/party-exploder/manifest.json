@@ -1,0 +1,84 @@
+{
+  "slug": "party-exploder",
+  "title": "Party Exploder",
+  "dirName": "Party_Exploder",
+  "tracks": [
+    {
+      "num": 1,
+      "slug": "party-exploder-track-1",
+      "title": "Party Exploder — Track 1",
+      "filename": "01_party-exploder-track-1.mp3",
+      "duration": 251.639979,
+      "durationFormatted": "4:12",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/01_party-exploder-track-1.mp3",
+      "r2Key": "music/Party_Exploder/audio/01_party-exploder-track-1.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 2,
+      "slug": "party-exploder-track-2",
+      "title": "Party Exploder — Track 2",
+      "filename": "02_party-exploder-track-2.mp3",
+      "duration": 223.519979,
+      "durationFormatted": "3:44",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/02_party-exploder-track-2.mp3",
+      "r2Key": "music/Party_Exploder/audio/02_party-exploder-track-2.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 3,
+      "slug": "the-house-we-couldnt-leave-party-mix",
+      "title": "The house we couldn't leave (Party Mix)",
+      "filename": "03_the-house-we-couldnt-leave.mp3",
+      "duration": 264.799979,
+      "durationFormatted": "4:25",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/03_the-house-we-couldnt-leave.mp3",
+      "r2Key": "music/Party_Exploder/audio/03_the-house-we-couldnt-leave.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 4,
+      "slug": "party-exploder-track-4",
+      "title": "Party Exploder — Track 4",
+      "filename": "04_party-exploder-track-4.mp3",
+      "duration": 118.679979,
+      "durationFormatted": "1:59",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/04_party-exploder-track-4.mp3",
+      "r2Key": "music/Party_Exploder/audio/04_party-exploder-track-4.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 5,
+      "slug": "bebado-n3",
+      "title": "bebado n3",
+      "filename": "05_bebado-n3.mp3",
+      "duration": 252.799979,
+      "durationFormatted": "4:13",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/05_bebado-n3.mp3",
+      "r2Key": "music/Party_Exploder/audio/05_bebado-n3.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 6,
+      "slug": "party-exploder-track-6",
+      "title": "Party Exploder — Track 6",
+      "filename": "06_party-exploder-track-6.mp3",
+      "duration": 232.479979,
+      "durationFormatted": "3:52",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/06_party-exploder-track-6.mp3",
+      "r2Key": "music/Party_Exploder/audio/06_party-exploder-track-6.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 7,
+      "slug": "shake-the-damn-table",
+      "title": "shake the damn table",
+      "filename": "07_shake-the-damn-table.mp3",
+      "duration": 126.519979,
+      "durationFormatted": "2:07",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Party_Exploder/audio/07_shake-the-damn-table.mp3",
+      "r2Key": "music/Party_Exploder/audio/07_shake-the-damn-table.mp3",
+      "format": "MP3"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "hardstyle",
+  "title": "Hardstyle",
+  "dirName": "Hardstyle",
+  "tracks": [
+    {
+      "num": 1,
+      "slug": "hardstyle-track-1",
+      "title": "Hardstyle — Track 1",
+      "filename": "01_hardstyle-track-1.mp3",
+      "duration": 407.679979,
+      "durationFormatted": "6:48",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Hardstyle/audio/01_hardstyle-track-1.mp3",
+      "r2Key": "music/Hardstyle/audio/01_hardstyle-track-1.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 2,
+      "slug": "hardstyle-track-2",
+      "title": "Hardstyle — Track 2",
+      "filename": "02_hardstyle-track-2.mp3",
+      "duration": 222.319979,
+      "durationFormatted": "3:42",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Hardstyle/audio/02_hardstyle-track-2.mp3",
+      "r2Key": "music/Hardstyle/audio/02_hardstyle-track-2.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 3,
+      "slug": "hardstyle-track-3",
+      "title": "Hardstyle — Track 3",
+      "filename": "03_hardstyle-track-3.mp3",
+      "duration": 237.159979,
+      "durationFormatted": "3:57",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Hardstyle/audio/03_hardstyle-track-3.mp3",
+      "r2Key": "music/Hardstyle/audio/03_hardstyle-track-3.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 4,
+      "slug": "hardstyle-track-4",
+      "title": "Hardstyle — Track 4",
+      "filename": "04_hardstyle-track-4.mp3",
+      "duration": 269.359979,
+      "durationFormatted": "4:29",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Hardstyle/audio/04_hardstyle-track-4.mp3",
+      "r2Key": "music/Hardstyle/audio/04_hardstyle-track-4.mp3",
+      "format": "MP3"
+    }
+  ]
+}

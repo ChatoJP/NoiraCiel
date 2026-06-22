@@ -30,6 +30,11 @@ const ALBUM_PROFILES = {
   'whats-youre-made-of': { instruments: ['bass', 'drums', 'piano', 'strings'],          visualStyle: 'noir-cinematic', accentColors: ['red-gold', 'gold-white'] },
   'world-musics':        { instruments: ['strings', 'drums', 'guitar', 'piano'],         visualStyle: 'atmospheric',    accentColors: ['green-blue', 'blue-silver'] },
   'reggae-sessions':     { instruments: ['guitar', 'bass', 'drums'],                     visualStyle: 'atmospheric',    accentColors: ['green-blue'] },
+  'salt-cathedral':      { instruments: ['guitar', 'bass', 'strings', 'piano'],          visualStyle: 'atmospheric',    accentColors: ['blue-silver', 'blue-gold'] },
+  'neon-saints':         { instruments: ['synth', 'bass', 'drums', 'piano'],             visualStyle: 'noir-cinematic', accentColors: ['blue-silver', 'red-gold'] },
+  'glass-animal':        { instruments: ['piano', 'strings', 'synth'],                  visualStyle: 'dark-minimal',   accentColors: ['gold-white', 'blue-silver'] },
+  'black-sun-gospel':    { instruments: ['guitar', 'bass', 'drums', 'strings'],          visualStyle: 'noir-cinematic', accentColors: ['red-gold', 'gold-white'] },
+  'the-memory-atlas':    { instruments: ['piano', 'strings', 'guitar', 'choir'],         visualStyle: 'atmospheric',    accentColors: ['gold-white', 'green-blue'] },
 }
 
 let added = 0

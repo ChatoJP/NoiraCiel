@@ -297,7 +297,13 @@ export default function GlobalPlayer() {
 
         {/* G87: swipe left/right on the mini bar to skip */}
         <div
-          className="glass border-t border-noir-silver/10"
+          className="border-t border-noir-gold/10"
+          style={{
+            background: 'linear-gradient(180deg, rgba(8,8,16,0.78) 0%, rgba(4,4,10,0.94) 100%)',
+            backdropFilter: 'blur(28px) saturate(1.1)',
+            WebkitBackdropFilter: 'blur(28px) saturate(1.1)',
+            boxShadow: '0 -1px 0 rgba(196,149,58,0.06) inset, 0 -16px 40px rgba(0,0,0,0.35)',
+          }}
           onTouchStart={(e) => { touchStartRef.current = e.touches[0].clientX }}
           onTouchEnd={(e) => {
             if (touchStartRef.current === null) return

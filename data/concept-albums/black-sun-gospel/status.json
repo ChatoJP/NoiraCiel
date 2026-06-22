@@ -1,0 +1,392 @@
+{
+  "black-sun-rising": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "2c266cd4b314bc994ec6daf96ae90af8",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/01_black-sun-rising.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/01_black-sun-rising.mp3",
+      "duration": 218.839979,
+      "durationFormatted": "3:39"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_dabfe2e20f1f42d0835d7886abca98bb",
+      "state": "complete",
+      "r2Key": "images/song-art/black-sun-rising.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/black-sun-rising.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_c7a12834fa774d9e94f2e38fa216250d",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/black-sun-rising.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/black-sun-rising.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:12:40.951Z"
+  },
+  "the-mill-keeps-the-hands": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "37ef8e7f81bb7f7d478e489bf26038af",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/02_the-mill-keeps-the-hands.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/02_the-mill-keeps-the-hands.mp3",
+      "duration": 213.759979,
+      "durationFormatted": "3:34"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_0e26b25ae9774a58850005ef22b08154",
+      "state": "complete",
+      "r2Key": "images/song-art/the-mill-keeps-the-hands.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-mill-keeps-the-hands.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_99a57f8cc92845bebd1d650c9f1e8f2f",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-mill-keeps-the-hands.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-mill-keeps-the-hands.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:12:58.342Z"
+  },
+  "candle-row": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "958666f23f9c267994708c4ef5c623c2",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/03_candle-row.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/03_candle-row.mp3",
+      "duration": 202.359979,
+      "durationFormatted": "3:22"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_727a589b43c84c7f8cd8936053aa45b7",
+      "state": "complete",
+      "r2Key": "images/song-art/candle-row.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/candle-row.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_4b2c1cbdce6341d1aa51d9125fe3e1fc",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/candle-row.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/candle-row.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:13:15.747Z"
+  },
+  "pawn-shop-confession": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "a57f10dd3cf03f186ccc6226279f3f88",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/04_pawn-shop-confession.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/04_pawn-shop-confession.mp3",
+      "duration": 202.799979,
+      "durationFormatted": "3:23"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_0d92e1995812472fb86aed4bfd2da66a",
+      "state": "complete",
+      "r2Key": "images/song-art/pawn-shop-confession.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/pawn-shop-confession.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_1866f8b119394662924cf24a14f55980",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/pawn-shop-confession.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/pawn-shop-confession.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:13:41.395Z"
+  },
+  "third-shift": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "0c6b0c0f0f33d37b4849038a4e145f22",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/05_third-shift.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/05_third-shift.mp3",
+      "duration": 173.399979,
+      "durationFormatted": "2:53"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_1e281ee29fe14dfc8108d957bef1a706",
+      "state": "complete",
+      "r2Key": "images/song-art/third-shift.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/third-shift.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_89460a538ec84a74a5ab24bd56d89dff",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/third-shift.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/third-shift.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:14:15.201Z"
+  },
+  "eviction-notice-blues": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "f0588c6039f905c9c7cec4c9d8f0fa51",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/06_eviction-notice-blues.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/06_eviction-notice-blues.mp3",
+      "duration": 184.999979,
+      "durationFormatted": "3:05"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_08fdb4358d294e62a00376f5384a3c36",
+      "state": "complete",
+      "r2Key": "images/song-art/eviction-notice-blues.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/eviction-notice-blues.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_9668563236e446b2b323238cf138c9f2",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/eviction-notice-blues.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/eviction-notice-blues.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:14:32.575Z"
+  },
+  "diner-at-2am": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "49e6975983c257bcf53d67401607daf6",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/07_diner-at-2am.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/07_diner-at-2am.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_54294d2d4bf24d43a5d8438aa036292f",
+      "state": "complete",
+      "r2Key": "images/song-art/diner-at-2am.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/diner-at-2am.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_1a3ed89aabd9446f90ed56cf76d46801",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/diner-at-2am.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/diner-at-2am.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:14:50.019Z"
+  },
+  "the-boxer-at-fifty": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "8116e49a51a163fb1a8b2533d34d881f",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/08_the-boxer-at-fifty.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/08_the-boxer-at-fifty.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_f1ff12897ac14be8838ca27b05eb4582",
+      "state": "complete",
+      "r2Key": "images/song-art/the-boxer-at-fifty.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-boxer-at-fifty.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_a8c91011ac104db2b5be710e2c494c57",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-boxer-at-fifty.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-boxer-at-fifty.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:15:23.864Z"
+  },
+  "letters-she-never-sent": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "1fec17d23638e603d3431772bad0bcad",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/09_letters-she-never-sent.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/09_letters-she-never-sent.mp3",
+      "duration": 183.879979,
+      "durationFormatted": "3:04"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_82bce4c5025b4f299b116a93409872c6",
+      "state": "complete",
+      "r2Key": "images/song-art/letters-she-never-sent.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/letters-she-never-sent.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_76e2949fbe49419ca9490b34c667a0e1",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/letters-she-never-sent.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/letters-she-never-sent.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:15:41.249Z"
+  },
+  "stand-up-straight": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "2c8ca6f41e8bf965399a8348c364bf3f",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/10_stand-up-straight.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/10_stand-up-straight.mp3",
+      "duration": 164.879979,
+      "durationFormatted": "2:45"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_71c47eb922094111933464b5d9351b5f",
+      "state": "complete",
+      "r2Key": "images/song-art/stand-up-straight.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/stand-up-straight.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_98c8a59adfca496498600e17d725013b",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/stand-up-straight.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/stand-up-straight.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:15:58.751Z"
+  },
+  "name-on-the-wall": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "837d0ed55b20221a2bda61d065b52fdf",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/11_name-on-the-wall.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/11_name-on-the-wall.mp3",
+      "duration": 174.279979,
+      "durationFormatted": "2:54"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_f053ec37e1af4ca89e732682f2053b28",
+      "state": "complete",
+      "r2Key": "images/song-art/name-on-the-wall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/name-on-the-wall.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_4d5ca8c7732949608001e9fd871b2b1f",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/name-on-the-wall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/name-on-the-wall.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:16:16.016Z"
+  },
+  "the-table-stays-set": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "1ed072949fbb8751b3685aca29beb6e1",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/12_the-table-stays-set.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/12_the-table-stays-set.mp3",
+      "duration": 219.959979,
+      "durationFormatted": "3:40"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_2e2be3d14eb24bd9be573a00a43eb801",
+      "state": "complete",
+      "r2Key": "images/song-art/the-table-stays-set.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-table-stays-set.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_09460c1a730f4c98845223d6c7177d16",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-table-stays-set.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-table-stays-set.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:16:41.571Z"
+  },
+  "night-prayer-no-god-required": {
+    "num": 13,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "0854e121b9353332091058bf1656d223",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/13_night-prayer-no-god-required.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/13_night-prayer-no-god-required.mp3",
+      "duration": 176.719979,
+      "durationFormatted": "2:57"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_6fcfba6142af420a8b4b24bfe419cdae",
+      "state": "complete",
+      "r2Key": "images/song-art/night-prayer-no-god-required.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/night-prayer-no-god-required.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_902f3ad75b8647648f411e5602a151d1",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/night-prayer-no-god-required.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/night-prayer-no-god-required.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:16:58.893Z"
+  },
+  "the-fire-that-didnt-ask": {
+    "num": 14,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "c1e00ed52bf72bf83213d668533afdc3",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/14_the-fire-that-didnt-ask.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/14_the-fire-that-didnt-ask.mp3",
+      "duration": 188.599979,
+      "durationFormatted": "3:09"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_c48d8ed7b7614e6c9fd2f33f279234d9",
+      "state": "complete",
+      "r2Key": "images/song-art/the-fire-that-didnt-ask.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-fire-that-didnt-ask.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_c92534bf4fee4ec0af61fa7d1d98ad42",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-fire-that-didnt-ask.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-fire-that-didnt-ask.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:17:16.313Z"
+  },
+  "choir-of-one": {
+    "num": 15,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "609b6c557edace275c8e994cefeed6f8",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Black_Sun_Gospel/audio/15_choir-of-one.mp3",
+      "r2Key": "music/Black_Sun_Gospel/audio/15_choir-of-one.mp3",
+      "duration": 212.279979,
+      "durationFormatted": "3:32"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_77233fa1a31a4afeb144cf845034aeee",
+      "state": "complete",
+      "r2Key": "images/song-art/choir-of-one.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/choir-of-one.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_34692ecee863475daf4e4a6f2df1afc2",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/choir-of-one.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/choir-of-one.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:17:41.830Z"
+  }
+}

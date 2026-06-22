@@ -55,6 +55,7 @@ function LogoVisualizer() {
 
 const PRIMARY_LINKS = [
   { label: 'Music',   href: '/music' },
+  { label: 'Party People', href: '/party-people' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Book',    href: '/book' },
   { label: 'Stories', href: '/stories' },

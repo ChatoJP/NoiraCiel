@@ -1,0 +1,21 @@
+{
+  "slug": "glass-animal",
+  "title": "The Glass Animal",
+  "dirName": "The_Glass_Animal",
+  "genre": "Experimental Art-Pop · Trip-Pop · Chamber Soul · Fragile Electronic Jazz",
+  "concept": "A private museum of one person's masks — fourteen rooms and a hallway, where every object on display is something the narrator used to survive being looked at.",
+  "statement": "NoiraCiel's most intimate and least armored record — close-mic, breath audible, built from prepared piano and glass-like synths rather than drums and hooks, treating vulnerability as architecture instead of confession.",
+  "visualIdentity": "A house made of glass furniture, soft interior light, porcelain and static, half-developed photographs, mirrors turned to the wall.",
+  "palette": ["pale rose-glass #D9B8BE", "smoke grey #565A5E", "bone white #EDE7DD", "cracked-gold seam #C4953A"],
+  "typographyMood": "Thin-weight, fragile letterforms with generous space between characters — like type seen through frosted glass.",
+  "musicalStyle": "Experimental art-pop, trip-pop, chamber soul, fragile electronic jazz. Prepared piano, glass-like synths, upright bass, brushed drums, harp fragments, muted trumpet, cello, minimal sub.",
+  "vocalDirection": "Smoky fragile female/androgynous alto, close-mic, breathy, detached but emotional — never performs the pain, just lets it be audible.",
+  "negativeTags": ["mainstream pop hooks", "overproduced radio polish", "sad-girl-aesthetic cliche", "obvious choruses for their own sake", "generic AI lyrics"],
+  "emotionalArc": [
+    { "phase": "Presentation and masks", "trackRange": [1, 4] },
+    { "phase": "Cracks and the danger of being truly seen", "trackRange": [5, 9] },
+    { "phase": "Grief for the self that had to perform", "trackRange": [10, 12] },
+    { "phase": "Fragile, hard-won self-possession", "trackRange": [13, 15] }
+  ],
+  "theme": { "name": "glass-animal", "label": "The Glass Animal", "mood": "Chamber Soul · Fragile Pop", "accentRgb": "217, 184, 190", "bgTintRgb": "30, 24, 26" }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "concrete-saints",
+  "title": "Concrete Saints",
+  "dirName": "Concrete_Saints",
+  "section": "party-people",
+  "genre": "Hard Techno · Schranz",
+  "concept": "A warehouse turned into a chapel for people who pray with their feet — brutal, industrial, elegant pressure built from steel and repetition.",
+  "statement": "Schranz drive and distorted percussion under cinematic tension — dark, mechanical, devotional in its discipline rather than its volume.",
+  "visualIdentity": "Raw concrete and steel under cold strobe light, smoke catching a single shaft of white, ritual symbols cut from sheet metal.",
+  "palette": ["industrial black #0C0C0E", "steel grey #4A4D52", "cold strobe white #E8EAEC", "blood-shadow red #7A1F26"],
+  "musicalStyle": "Hard techno kick, distorted percussion, schranz drive, industrial textures, dark stabs, metallic impacts, hypnotic loops, aggressive bass, cinematic tension.",
+  "instrumental": true,
+  "negativeTags": ["vocals", "voice", "singer", "singing", "lyrics", "rap", "spoken word", "narration", "choir words", "recognizable words", "acapella", "pop vocal", "verse", "chorus lyrics"],
+  "bpmRange": [145, 155],
+  "energyArc": [
+    { "phase": "Industrial warm-up", "trackRange": [1, 3] },
+    { "phase": "Pressure building / machine ritual", "trackRange": [4, 7] },
+    { "phase": "Peak brutality", "trackRange": [8, 10] },
+    { "phase": "Cooldown / steel afterglow", "trackRange": [11, 12] }
+  ],
+  "theme": { "name": "concrete-saints", "label": "Concrete Saints", "mood": "hard techno · industrial · brutal elegance", "accentRgb": "232, 234, 236", "bgTintRgb": "12, 12, 14" }
+}

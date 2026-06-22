@@ -1,0 +1,21 @@
+{
+  "slug": "salt-cathedral",
+  "title": "The Salt Cathedral",
+  "dirName": "The_Salt_Cathedral",
+  "genre": "Atlantic Noir · Sea-Soul · Trip-Hop Jazz · Oceanic DnB",
+  "concept": "An ocean liner's worth of guilt, exile and wonder, sung from inside a chapel built of salt and weather — a place where confession dissolves the moment it's spoken and the sea keeps every secret anyway.",
+  "statement": "Built from the same Atlantic DNA as NoiraCiel's earlier sea-soul work, but harder, older, more dangerous — fado's grief stripped of its postcard, replaced with brushed drums, sub bass and a voice that sounds like it's already underwater.",
+  "visualIdentity": "Submerged stone architecture, salt-crusted iron, rope and brass, candlelight refracted through deep green-black water, a coastline that is more myth than map.",
+  "palette": ["deep slate-teal #1B3A4B", "oxidized brass #6E5A3D", "salt-white #E8E4D8", "near-black indigo #0A1420", "warm amber candle accent #C4953A"],
+  "typographyMood": "Carved, weathered, slightly eroded — like lettering worn by salt spray. Wide-tracked uppercase for labels, italic serif for confession.",
+  "musicalStyle": "Atlantic noir, sea-soul, trip-hop jazz, oceanic DnB. Upright bass, brushed/trip-hop drums, deep sub, Portuguese/nylon guitar shimmer, low brass, cello, smoky piano, distant choir, oceanic percussion.",
+  "vocalDirection": "Crystalline restrained female or androgynous alto, neutral European English, intimate and haunting — close-mic, never belted, like a confession someone wasn't sure they wanted heard.",
+  "negativeTags": ["tourist fado", "Eurovision balladry", "generic world-music exoticism", "cheerful sea-shanty tropes", "generic AI lyrics", "obvious rhyme-for-rhyme's-sake"],
+  "emotionalArc": [
+    { "phase": "Exile and unanswered guilt", "trackRange": [1, 4] },
+    { "phase": "Danger and moral discovery at sea", "trackRange": [5, 9] },
+    { "phase": "Courage and reckoning", "trackRange": [10, 12] },
+    { "phase": "Slow surfacing into wonder and grace", "trackRange": [13, 15] }
+  ],
+  "theme": { "name": "salt-cathedral", "label": "The Salt Cathedral", "mood": "Atlantic Noir · Sea-Soul", "accentRgb": "196, 149, 58", "bgTintRgb": "10, 20, 32" }
+}

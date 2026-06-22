@@ -1,0 +1,21 @@
+{
+  "slug": "the-memory-atlas",
+  "title": "The Memory Atlas",
+  "dirName": "The_Memory_Atlas",
+  "genre": "Cinematic Puzzle-Pop · Art-Rock · Orchestral Trip-Hop · Emotional Electronic Folk",
+  "concept": "A cartographer's record of a childhood that can only be reached by half-remembered roads — every song a different room in a house that doesn't exist anymore, mapped from memory instead of geography.",
+  "statement": "Music-box textures, accordion played for ache rather than nostalgia, and a children's choir used only as distant wordless texture — curiosity and wonder without ever tipping into kitsch.",
+  "visualIdentity": "Hand-drawn atlases, pressed flowers between letter pages, attic light, paper boats, a globe with the oceans worn pale by fingers.",
+  "palette": ["faded sepia-gold #B98F4A", "dusty rose #C49A93", "soft slate-blue #5C7280", "parchment cream #EDE3CC"],
+  "typographyMood": "Hand-set, slightly uneven serif — like type from an old map legend. Warm, intimate, never sterile.",
+  "musicalStyle": "Cinematic puzzle-pop, art-rock, orchestral trip-hop, emotional electronic folk, dreamlike DnB accents. Piano, music-box textures, accordion used emotionally, cello, soft DnB percussion, nylon guitar, warm synth pads, children's choir only as distant wordless texture.",
+  "vocalDirection": "Neutral European English, intimate, curious, fragile but hopeful — a narrator piecing together their own past in real time.",
+  "negativeTags": ["childish/Disney sound", "generic fantasy-soundtrack swell", "twee whimsy", "literal children's-choir lead vocals", "generic AI lyrics"],
+  "emotionalArc": [
+    { "phase": "Wonder and first maps", "trackRange": [1, 4] },
+    { "phase": "Lost rooms and hidden grief", "trackRange": [5, 9] },
+    { "phase": "The discovery of what was hidden", "trackRange": [10, 12] },
+    { "phase": "Integration — a found way home", "trackRange": [13, 15] }
+  ],
+  "theme": { "name": "the-memory-atlas", "label": "The Memory Atlas", "mood": "Cinematic Folk · Puzzle-Pop", "accentRgb": "185, 143, 74", "bgTintRgb": "26, 22, 16" }
+}

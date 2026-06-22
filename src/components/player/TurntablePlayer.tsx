@@ -516,7 +516,7 @@ export default function TurntablePlayer({ onClose }: { onClose: () => void }) {
                   el.style.borderColor = 'rgba(196,149,58,0.18)'
                 }}
               >
-                Open song page →
+                Enter Song Page →
               </a>
             )}
           </div>

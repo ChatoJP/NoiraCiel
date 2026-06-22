@@ -1,0 +1,314 @@
+{
+  "first-coal": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "865f31957ffac8783cf4349145df9228",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/01_first-coal.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/01_first-coal.mp3",
+      "duration": 166.439979,
+      "durationFormatted": "2:46"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_ebd86ee9f14544f6ae62ef8a5c49326e",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/first-coal.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/first-coal.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_4363607ac23f4539b46dbc5e94b2b150",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/first-coal.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/first-coal.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T14:38:45.116Z"
+  },
+  "salt-circle": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "2e8e1f53aceafae0843e070c09209d52",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/02_salt-circle.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/02_salt-circle.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_32eeb0c2c8c74a9daeb39058eab8b352",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/salt-circle.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/salt-circle.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_f1286552e56f4de284731e47f448f52b",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/salt-circle.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/salt-circle.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:05:29.349Z"
+  },
+  "skin-and-static": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "3111ebdad66f68005d3e506ffaf823d1",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/03_skin-and-static.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/03_skin-and-static.mp3",
+      "duration": 238.599979,
+      "durationFormatted": "3:59"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_6c51b8c121554dcdbbeabd6b1f5211b9",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/skin-and-static.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/skin-and-static.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_98e8d9e8386d4b5792656480b34053f0",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/skin-and-static.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/skin-and-static.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:05:46.763Z"
+  },
+  "voltage-marrow": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "ac3424a5587ea3bd0c6bfc059db044e3",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/04_voltage-marrow.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/04_voltage-marrow.mp3",
+      "duration": 65.999979,
+      "durationFormatted": "1:06"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_652ab0af20d5429f99b4eaab723de18a",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/voltage-marrow.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/voltage-marrow.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_a4e26399d746463ab6a52a2fcdf4b0b2",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/voltage-marrow.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/voltage-marrow.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:06:12.709Z"
+  },
+  "spiral-gait": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "65dd3028120cd360d228bb93d50d3c38",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/05_spiral-gait.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/05_spiral-gait.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_5375fd20f9b44a3e9d9011ef79330775",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/spiral-gait.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/spiral-gait.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_42851fc4ed374beda7a7e4933fa2e3cf",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/spiral-gait.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/spiral-gait.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:06:38.339Z"
+  },
+  "chrome-totem": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "25df0f37441bd6a5be4b3cdfb42ea73b",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/06_chrome-totem.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/06_chrome-totem.mp3",
+      "duration": 157.439979,
+      "durationFormatted": "2:37"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_d3c24f0435ae4bc9b2f67bde21179358",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/chrome-totem.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/chrome-totem.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_e02b2bdb434e45b6b37c6a68a41042ba",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/chrome-totem.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/chrome-totem.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:06:55.717Z"
+  },
+  "blood-rhythm-overdrive": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "07dcff2f3b15ec2d0e943d51bab02939",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/07_blood-rhythm-overdrive.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/07_blood-rhythm-overdrive.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_7c6563ab2e62447a8d394b8ae95a8ba6",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/blood-rhythm-overdrive.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/blood-rhythm-overdrive.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_009768aeeb5248a28abc66590d688397",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/blood-rhythm-overdrive.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/blood-rhythm-overdrive.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:07:21.326Z"
+  },
+  "voltage-altar": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "69fdf14686a1beaea32af3f441ad041f",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/08_voltage-altar.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/08_voltage-altar.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_2051fae5f10247dfb586e6aef19dc9be",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/voltage-altar.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/voltage-altar.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_a9f07c3531534506a0333150a638436c",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/voltage-altar.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/voltage-altar.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:07:46.918Z"
+  },
+  "taiko-storm-protocol": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "4f7538335e2a135196ff5e20ee5028f0",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/09_taiko-storm-protocol.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/09_taiko-storm-protocol.mp3",
+      "duration": 133.759979,
+      "durationFormatted": "2:14"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_ac50d4f9075a47fcb7c4fe58d1739007",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/taiko-storm-protocol.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/taiko-storm-protocol.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_3cf60bd9c4954e4d8ec4b85c00490264",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/taiko-storm-protocol.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/taiko-storm-protocol.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:08:04.238Z"
+  },
+  "full-ritual-engaged": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "cade6ac9402d04a0af9065d89d3b0db4",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/10_full-ritual-engaged.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/10_full-ritual-engaged.mp3",
+      "duration": 114.759979,
+      "durationFormatted": "1:55"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_cc6591d8e7434222b512ccb7f67a05f1",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/full-ritual-engaged.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/full-ritual-engaged.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_200dad57ac234c44a03c678ac26288b7",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/full-ritual-engaged.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/full-ritual-engaged.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:08:21.551Z"
+  },
+  "ash-and-afterimage": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "648e919fbbb191ab1ada5a306eb4e6d9",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/11_ash-and-afterimage.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/11_ash-and-afterimage.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_4582b1f8811e4e6b8016a864a9aa145c",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/ash-and-afterimage.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/ash-and-afterimage.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_e7ed019e177343abac2777699536926e",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/ash-and-afterimage.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/ash-and-afterimage.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:08:38.881Z"
+  },
+  "last-ember-walk": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "51c4430bc978c4873aed3f499e0b58e1",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Ritual_Voltage/audio/12_last-ember-walk.mp3",
+      "r2Key": "party-people/Ritual_Voltage/audio/12_last-ember-walk.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_ad193965629449e0b09dbaa2b1990c01",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/last-ember-walk.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/last-ember-walk.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_35734166d89546b09189f81999a7eadb",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/last-ember-walk.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/last-ember-walk.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:09:04.468Z"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "velvet-circuit",
+  "title": "Velvet Circuit",
+  "dirName": "Velvet_Circuit",
+  "section": "party-people",
+  "genre": "Tech-House · Dark Club House",
+  "concept": "A premium nocturnal club built from groove instead of spectacle — sexy without trying, elegant without cooling off.",
+  "statement": "Deep basslines and shuffled hats under jazz chord stabs and smoky piano fragments — vocal-free synth hooks doing the work a singer usually would.",
+  "visualIdentity": "Black velvet booths, neon gold rim-light, deep plum shadow, a circuit-board pattern rendered as jewellery instead of wiring.",
+  "palette": ["black velvet #0E0A12", "neon gold #D4A84B", "deep plum #3A1A3E", "smoke grey #565A5E"],
+  "musicalStyle": "Tech-house groove, deep bassline, tight drums, shuffled hats, minimal vocal-free synth hooks, jazz chord stabs, smoky piano fragments, dark disco pulse.",
+  "instrumental": true,
+  "negativeTags": ["vocals", "voice", "singer", "singing", "lyrics", "rap", "spoken word", "narration", "choir words", "recognizable words", "acapella", "pop vocal", "verse", "chorus lyrics"],
+  "bpmRange": [122, 126],
+  "energyArc": [
+    { "phase": "Door opens / warm groove", "trackRange": [1, 3] },
+    { "phase": "Floor fills / deepening pulse", "trackRange": [4, 7] },
+    { "phase": "Peak groove", "trackRange": [8, 10] },
+    { "phase": "Last call / velvet wind-down", "trackRange": [11, 12] }
+  ],
+  "theme": { "name": "velvet-circuit", "label": "Velvet Circuit", "mood": "tech-house · nocturnal · groove", "accentRgb": "212, 168, 75", "bgTintRgb": "20, 14, 22" }
+}

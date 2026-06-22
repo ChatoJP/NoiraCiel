@@ -1,0 +1,21 @@
+{
+  "slug": "neon-saints",
+  "title": "Neon Saints of the Machine",
+  "dirName": "Neon_Saints_of_the_Machine",
+  "genre": "Dark Cyber-Soul · Industrial DnB · Gospel Shadows · Jazz Harmony",
+  "concept": "Hymns sung by people who work night shifts inside systems built to replace them — a sacred technology where the machine is the cathedral and the congregation is whoever is still clocked in at 3am.",
+  "statement": "Industrial textures and broken beats held together by gospel call-and-response and real jazz harmony underneath — not 'cyberpunk' as costume, but the actual ache of staying human inside something built to be efficient.",
+  "visualIdentity": "Wet concrete, sodium and neon reflections, server-room cathedrals, work gloves and stained-glass made of broken phone screens.",
+  "palette": ["deep magenta-black #2A0B22", "cold cyan #3FB8C9", "gospel gold #C4953A", "industrial grey #43474D"],
+  "typographyMood": "Sharp, mono-spaced, slightly glitched at the edges — uppercase labels lit like exit signs, italic serif only for the gospel responses.",
+  "musicalStyle": "Dark cyber-soul, industrial DnB, gospel shadows, jazz harmony, elegant hard electronic pulse. Aggressive smooth bass, broken beats, industrial textures, jazz piano, brass shadows, distorted choir, analog synths, metallic percussion.",
+  "vocalDirection": "Deep wounded male or androgynous low vocal, soulful but controlled — restraint under pressure, never shouted.",
+  "negativeTags": ["generic cyberpunk costume tropes", "cheap techno", "EDM festival drops", "robot-voice gimmick vocals", "generic AI lyrics"],
+  "emotionalArc": [
+    { "phase": "Pressure and survival", "trackRange": [1, 4] },
+    { "phase": "Resistance and night-city defiance", "trackRange": [5, 9] },
+    { "phase": "Tenderness found inside the machine", "trackRange": [10, 12] },
+    { "phase": "Sacred exhaustion and grace", "trackRange": [13, 15] }
+  ],
+  "theme": { "name": "neon-saints", "label": "Neon Saints of the Machine", "mood": "Cyber-Soul · Industrial Gospel", "accentRgb": "63, 184, 201", "bgTintRgb": "26, 8, 20" }
+}

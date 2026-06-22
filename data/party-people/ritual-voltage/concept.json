@@ -1,0 +1,22 @@
+{
+  "slug": "ritual-voltage",
+  "title": "Ritual Voltage",
+  "dirName": "Ritual_Voltage",
+  "section": "party-people",
+  "genre": "Psy-Trance · Cinematic Tribal Psy",
+  "concept": "A night-long ritual disguised as a dancefloor — rolling psy-trance bass and tribal drums built for bodies that have stopped pretending they came here to think.",
+  "statement": "Hypnotic, dark, physical and spiritual without religion — acid spirals and taiko hits under cinematic risers, Portuguese guitar shimmer used only as a ghost-texture underneath the voltage.",
+  "visualIdentity": "Black velvet and deep violet lit by a single ritual fire, laser haze cutting through smoke, tribal masks rendered in chrome instead of wood.",
+  "palette": ["black velvet #0A0810", "ritual violet #4B1E66", "acid green #7FE070", "firelight orange #C45A1E"],
+  "musicalStyle": "Rolling psy-trance bass, tight kick, acid spirals, tribal drums, toms, taiko hits, dark cinematic risers, metallic delays, deep sub movement, nylon guitar shimmer as texture only.",
+  "instrumental": true,
+  "negativeTags": ["vocals", "voice", "singer", "singing", "lyrics", "rap", "spoken word", "narration", "choir words", "recognizable words", "acapella", "pop vocal", "verse", "chorus lyrics"],
+  "bpmRange": [138, 145],
+  "energyArc": [
+    { "phase": "Warm-up ritual / hypnotic entry", "trackRange": [1, 3] },
+    { "phase": "Building voltage / tribal drive", "trackRange": [4, 7] },
+    { "phase": "Peak-time drops / full ritual", "trackRange": [8, 10] },
+    { "phase": "Comedown / afterglow", "trackRange": [11, 12] }
+  ],
+  "theme": { "name": "ritual-voltage", "label": "Ritual Voltage", "mood": "psy-trance · ritual · physical", "accentRgb": "127, 224, 112", "bgTintRgb": "20, 12, 28" }
+}

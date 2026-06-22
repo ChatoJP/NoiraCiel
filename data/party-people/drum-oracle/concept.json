@@ -1,0 +1,22 @@
+{
+  "slug": "drum-oracle",
+  "title": "The Drum Oracle",
+  "dirName": "The_Drum_Oracle",
+  "section": "party-people",
+  "genre": "Tribal House · Afro-Latin-European Tribal Fusion",
+  "concept": "A night-fire dance built from real hands on real drums — warm, collective, ritual movement rendered as elegant world-club sound, never as costume.",
+  "statement": "Tribal house drums and hand percussion under deep house bass and cinematic pads — accordion and Portuguese guitar appear only as distant texture, respectful rather than decorative.",
+  "visualIdentity": "Firelight on packed earth, hands on drum skin, smoke rising straight up in still night air, gold dust caught in motion-blur.",
+  "palette": ["night-fire red #8C2A1E", "deep earth brown #3A2A1E", "ritual gold #C4953A", "ember orange #D9722E"],
+  "musicalStyle": "Tribal house drums, hand percussion, frame drums, toms, congas/bongos, deep house bass, cinematic pads, accordion or Portuguese guitar as distant texture.",
+  "instrumental": true,
+  "negativeTags": ["vocals", "voice", "singer", "singing", "lyrics", "rap", "spoken word", "narration", "choir words", "recognizable words", "acapella", "pop vocal", "verse", "chorus lyrics", "tourist world music cliche"],
+  "bpmRange": [118, 124],
+  "energyArc": [
+    { "phase": "Fire lit / gathering", "trackRange": [1, 3] },
+    { "phase": "Drums rising / collective movement", "trackRange": [4, 7] },
+    { "phase": "Peak ritual dance", "trackRange": [8, 10] },
+    { "phase": "Embers / closing circle", "trackRange": [11, 12] }
+  ],
+  "theme": { "name": "drum-oracle", "label": "The Drum Oracle", "mood": "tribal house · warm · collective", "accentRgb": "217, 114, 46", "bgTintRgb": "24, 16, 12" }
+}

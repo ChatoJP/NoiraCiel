@@ -1,0 +1,372 @@
+{
+  "the-drawer-that-still-sticks": {
+    "num": 1,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "d461b39215e7af83a9771e95308ae8b6",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/01_the-drawer-that-still-sticks.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/01_the-drawer-that-still-sticks.mp3",
+      "duration": 183.719979,
+      "durationFormatted": "3:04"
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:19:14.595Z"
+  },
+  "paper-boats-on-the-gutter-river": {
+    "num": 2,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "2890164d4814a95e4ff292aa3447382a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/02_paper-boats-on-the-gutter-river.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/02_paper-boats-on-the-gutter-river.mp3",
+      "duration": 162.439979,
+      "durationFormatted": "2:42"
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:21:02.775Z"
+  },
+  "the-globe-with-the-worn-pacific": {
+    "num": 3,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "24db38ab5ff940794baffd80dd4312d3",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/03_the-globe-with-the-worn-pacific.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/03_the-globe-with-the-worn-pacific.mp3",
+      "duration": 197.559979,
+      "durationFormatted": "3:18"
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:23:21.754Z"
+  },
+  "the-attic-stairs-have-fourteen-steps": {
+    "num": 4,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "c7d8149b33ce7492fd5fd8eb5f1b7b6c",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/04_the-attic-stairs-have-fourteen-steps.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/04_the-attic-stairs-have-fourteen-steps.mp3",
+      "duration": 191.959979,
+      "durationFormatted": "3:12"
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:25:09.659Z"
+  },
+  "the-room-with-the-taped-up-window": {
+    "num": 5,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "f0df4e29f4d2d0e6713a3bb5d43a81e8",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/05_the-room-with-the-taped-up-window.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/05_the-room-with-the-taped-up-window.mp3",
+      "duration": 209.239979,
+      "durationFormatted": "3:29"
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:27:13.513Z"
+  },
+  "the-hallway-that-got-shorter": {
+    "num": 6,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": "a5a2ef570c379bc94c79d5619beb491d",
+      "state": "pending",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:27:13.712Z"
+  },
+  "letters-pressed-with-flowers-from-the-yard": {
+    "num": 7,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-empty-chair-at-sunday-dinner": {
+    "num": 8,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-shed-nobody-was-allowed-to-enter": {
+    "num": 9,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-photograph-with-the-corner-burned-off": {
+    "num": 10,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-fever-summer": {
+    "num": 11,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-name-i-was-never-told": {
+    "num": 12,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "redrawing-the-floorplan": {
+    "num": 13,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-road-that-was-always-a-circle": {
+    "num": 14,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  },
+  "the-atlas-closes-on-its-own-front-door": {
+    "num": 15,
+    "stage": "lyrics_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null
+    },
+    "songArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "chapterBanner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:13:42.940Z"
+  }
+}

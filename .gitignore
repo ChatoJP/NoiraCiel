@@ -43,7 +43,10 @@ public/Videos/*.mp4
 public/Videos/index.json
 
 # audio source files — too large for GitHub (1.2 GB)
-Music/
+# Leading slash matters: with core.ignorecase=true, an unanchored "Music/"
+# also matches src/app/music/ case-insensitively, silently untracking every
+# album page route. Anchor to repo root so it only matches the real folder.
+/Music/
 
 # sheet music pages — media, lives in R2, not git (manifests stay tracked)
 public/Books/scores/*/*.svg

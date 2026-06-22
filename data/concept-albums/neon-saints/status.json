@@ -1,0 +1,392 @@
+{
+  "clock-in-hymn": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "facc11f2475e6033c11e690acb714c08",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/01_clock-in-hymn.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/01_clock-in-hymn.mp3",
+      "duration": 174.999979,
+      "durationFormatted": "2:55"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_1e88ff37964e48c08398a46da52935b1",
+      "state": "complete",
+      "r2Key": "images/song-art/clock-in-hymn.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/clock-in-hymn.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_e0d208553e5c40c5b7db32dda3410c8e",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/clock-in-hymn.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/clock-in-hymn.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:30:25.905Z"
+  },
+  "the-algorithm-knows-my-name": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "aeab21f7a3ed6f623a1cf613697e43af",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/02_the-algorithm-knows-my-name.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/02_the-algorithm-knows-my-name.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_b52bf277288e4a7e873b6f6815a375dd",
+      "state": "complete",
+      "r2Key": "images/song-art/the-algorithm-knows-my-name.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-algorithm-knows-my-name.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_34bdaac860f0401b8707495064947fb2",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-algorithm-knows-my-name.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-algorithm-knows-my-name.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:30:43.761Z"
+  },
+  "warehouse-vespers": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "595fc07624fb323e8534e30521f329e4",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/03_warehouse-vespers.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/03_warehouse-vespers.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_4881561a6bae47239218855c9511eb90",
+      "state": "complete",
+      "r2Key": "images/song-art/warehouse-vespers.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/warehouse-vespers.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_4e8abe6078ec45d2a10398891f122ac7",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/warehouse-vespers.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/warehouse-vespers.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:31:09.419Z"
+  },
+  "thirty-seconds-or-less": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "2487e430f222687aac722455a581e05a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/04_thirty-seconds-or-less.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/04_thirty-seconds-or-less.mp3",
+      "duration": 188.999979,
+      "durationFormatted": "3:09"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_8f9dd4e20a604a67b3f4b6161e1f7603",
+      "state": "complete",
+      "r2Key": "images/song-art/thirty-seconds-or-less.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/thirty-seconds-or-less.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_41f57233e7f44118855f19521b3ccc94",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/thirty-seconds-or-less.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/thirty-seconds-or-less.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:31:35.059Z"
+  },
+  "graveyard-choir": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "fe5c9fbab82738a2a2737dbe32446b54",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/05_graveyard-choir.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/05_graveyard-choir.mp3",
+      "duration": 193.599979,
+      "durationFormatted": "3:14"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_515c0f8a5f294c7e8cf14cc4c1db1006",
+      "state": "complete",
+      "r2Key": "images/song-art/graveyard-choir.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/graveyard-choir.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_d308ba89f09341089d7935d5a9a7e960",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/graveyard-choir.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/graveyard-choir.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:32:00.577Z"
+  },
+  "sabotage-in-3-4": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "6b32273d0943010acf6c0ddd7562ed4f",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/06_sabotage-in-3-4.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/06_sabotage-in-3-4.mp3",
+      "duration": 214.879979,
+      "durationFormatted": "3:35"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_ad73bfce44394727ac0a497e4f557bcd",
+      "state": "complete",
+      "r2Key": "images/song-art/sabotage-in-3-4.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/sabotage-in-3-4.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_5e432c89fce949e5927f6e4b52a1a2ca",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/sabotage-in-3-4.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/sabotage-in-3-4.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:32:18.013Z"
+  },
+  "blackout-on-level-9": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "40c64e24ee462d35d0ae97fc11539865",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/07_blackout-on-level-9.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/07_blackout-on-level-9.mp3",
+      "duration": 193.959979,
+      "durationFormatted": "3:14"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_bf876b7831dc474386a15b9a86fde2ff",
+      "state": "complete",
+      "r2Key": "images/song-art/blackout-on-level-9.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/blackout-on-level-9.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_43a081172ba14662b9ad9e083958eb7b",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/blackout-on-level-9.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/blackout-on-level-9.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:33:00.119Z"
+  },
+  "the-foreman-is-also-tired": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "d8be8c276724fb2a123728561410ad8d",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/08_the-foreman-is-also-tired.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/08_the-foreman-is-also-tired.mp3",
+      "duration": 212.919979,
+      "durationFormatted": "3:33"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_5002fa91d26a4e4e98e1d9ad463e0415",
+      "state": "complete",
+      "r2Key": "images/song-art/the-foreman-is-also-tired.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-foreman-is-also-tired.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_a31ebe2e495845958527073630dbcc23",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-foreman-is-also-tired.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-foreman-is-also-tired.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:33:17.437Z"
+  },
+  "we-built-the-cathedral-ourselves": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "5982ab4c8d5338d8428a0beaaedf0cdf",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/09_we-built-the-cathedral-ourselves.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/09_we-built-the-cathedral-ourselves.mp3",
+      "duration": 204.879979,
+      "durationFormatted": "3:25"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_43214c793cbe4575895e7a6c847f7c86",
+      "state": "complete",
+      "r2Key": "images/song-art/we-built-the-cathedral-ourselves.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/we-built-the-cathedral-ourselves.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_de70df6ab76947f8b18e98b7f100035b",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/we-built-the-cathedral-ourselves.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/we-built-the-cathedral-ourselves.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:33:34.918Z"
+  },
+  "lunch-at-2am": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "01d147c12b6b69f7d13f1f20a384fc97",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/10_lunch-at-2am.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/10_lunch-at-2am.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_46551f108cc84f039d0ef2cc12038cd6",
+      "state": "complete",
+      "r2Key": "images/song-art/lunch-at-2am.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/lunch-at-2am.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_1e2eefb1a8dd4eee843c37c85a0655a9",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/lunch-at-2am.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/lunch-at-2am.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:33:53.176Z"
+  },
+  "the-old-machine-remembers-my-mother": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "7f96198c8e216e215da5eb953e3173da",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/11_the-old-machine-remembers-my-mother.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/11_the-old-machine-remembers-my-mother.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_8daa6ec9e6b14e9cbeb735a2e41a5ee9",
+      "state": "complete",
+      "r2Key": "images/song-art/the-old-machine-remembers-my-mother.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-old-machine-remembers-my-mother.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_622b025a323b4db2b87ba983642e503a",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-old-machine-remembers-my-mother.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-old-machine-remembers-my-mother.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:34:10.548Z"
+  },
+  "teach-me-the-old-songs": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "804fb6b816083ddc8272974e4e1ea15b",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/12_teach-me-the-old-songs.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/12_teach-me-the-old-songs.mp3",
+      "duration": 213.879979,
+      "durationFormatted": "3:34"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_358d3f5726e845fe8345b4bc3c5b1f3c",
+      "state": "complete",
+      "r2Key": "images/song-art/teach-me-the-old-songs.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/teach-me-the-old-songs.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_8395ffb64f10498c96afd6116f63af48",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/teach-me-the-old-songs.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/teach-me-the-old-songs.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:34:29.214Z"
+  },
+  "doxology-for-the-last-shift": {
+    "num": 13,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "2ffc6e1a500a0275553b27785374a2d8",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/13_doxology-for-the-last-shift.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/13_doxology-for-the-last-shift.mp3",
+      "duration": 207.999979,
+      "durationFormatted": "3:28"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_50e7347f227d49b8a6ee3e4a989009a1",
+      "state": "complete",
+      "r2Key": "images/song-art/doxology-for-the-last-shift.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/doxology-for-the-last-shift.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_d6242a8bcc814d12b7e62cb165103f61",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/doxology-for-the-last-shift.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/doxology-for-the-last-shift.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:34:46.669Z"
+  },
+  "psalm-for-the-night-cleaners": {
+    "num": 14,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "022e1eb7ed1ac2142f7dafea84fdf74b",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/14_psalm-for-the-night-cleaners.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/14_psalm-for-the-night-cleaners.mp3",
+      "duration": 198.679979,
+      "durationFormatted": "3:19"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_934786ca26444c9bac3988641d474d11",
+      "state": "complete",
+      "r2Key": "images/song-art/psalm-for-the-night-cleaners.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/psalm-for-the-night-cleaners.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_979c1e5da5f54795ad0116526cff262d",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/psalm-for-the-night-cleaners.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/psalm-for-the-night-cleaners.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:35:07.327Z"
+  },
+  "grace-at-the-end-of-the-shift": {
+    "num": 15,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "f851c13df5a33d8da1ae6fb88ddbbc66",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Neon_Saints_of_the_Machine/audio/15_grace-at-the-end-of-the-shift.mp3",
+      "r2Key": "music/Neon_Saints_of_the_Machine/audio/15_grace-at-the-end-of-the-shift.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_25c95a3e4be540498bef9fff92a5d4c8",
+      "state": "complete",
+      "r2Key": "images/song-art/grace-at-the-end-of-the-shift.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/grace-at-the-end-of-the-shift.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_85d6b3a319904310ba5a6d5f7bddf217",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/grace-at-the-end-of-the-shift.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/grace-at-the-end-of-the-shift.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T13:35:58.791Z"
+  }
+}

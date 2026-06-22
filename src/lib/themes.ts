@@ -8,6 +8,15 @@ export const THEME_NAMES = [
   'reggae-dub',
   'intimate-metal',
   'sacred-drift',
+  'salt-cathedral',
+  'neon-saints',
+  'glass-animal',
+  'black-sun-gospel',
+  'the-memory-atlas',
+  'ritual-voltage',
+  'concrete-saints',
+  'velvet-circuit',
+  'drum-oracle',
 ] as const
 
 export type ThemeName = (typeof THEME_NAMES)[number]
@@ -87,6 +96,70 @@ export const THEMES: Record<ThemeName, ThemeDefinition> = {
     bgTintRgb: '22, 8, 38',
     mood: 'drifting · psych · soul',
   },
+  'salt-cathedral': {
+    name: 'salt-cathedral',
+    label: 'The Salt Cathedral',
+    accentRgb: '196, 149, 58',
+    bgTintRgb: '10, 20, 32',
+    mood: 'atlantic noir · sea-soul · exile',
+  },
+  'neon-saints': {
+    name: 'neon-saints',
+    label: 'Neon Saints of the Machine',
+    accentRgb: '63, 184, 201',
+    bgTintRgb: '26, 8, 20',
+    mood: 'cyber-soul · industrial gospel',
+  },
+  'glass-animal': {
+    name: 'glass-animal',
+    label: 'The Glass Animal',
+    accentRgb: '217, 184, 190',
+    bgTintRgb: '30, 24, 26',
+    mood: 'chamber soul · fragile pop',
+  },
+  'black-sun-gospel': {
+    name: 'black-sun-gospel',
+    label: 'Black Sun Gospel',
+    // Lightened from 181,72,30 (3.61:1, fails WCAG AA) to 214,108,58 (5.61:1).
+    accentRgb: '214, 108, 58',
+    bgTintRgb: '14, 13, 13',
+    mood: 'dark soul · cinematic gospel',
+  },
+  'the-memory-atlas': {
+    name: 'the-memory-atlas',
+    label: 'The Memory Atlas',
+    accentRgb: '185, 143, 74',
+    bgTintRgb: '26, 22, 16',
+    mood: 'cinematic folk · puzzle-pop',
+  },
+  'ritual-voltage': {
+    name: 'ritual-voltage',
+    label: 'Ritual Voltage',
+    accentRgb: '127, 224, 112',
+    bgTintRgb: '20, 12, 28',
+    mood: 'psy-trance · ritual · physical',
+  },
+  'concrete-saints': {
+    name: 'concrete-saints',
+    label: 'Concrete Saints',
+    accentRgb: '232, 234, 236',
+    bgTintRgb: '12, 12, 14',
+    mood: 'hard techno · industrial · brutal elegance',
+  },
+  'velvet-circuit': {
+    name: 'velvet-circuit',
+    label: 'Velvet Circuit',
+    accentRgb: '212, 168, 75',
+    bgTintRgb: '20, 14, 22',
+    mood: 'tech-house · nocturnal · groove',
+  },
+  'drum-oracle': {
+    name: 'drum-oracle',
+    label: 'The Drum Oracle',
+    accentRgb: '217, 114, 46',
+    bgTintRgb: '24, 16, 12',
+    mood: 'tribal house · warm · collective',
+  },
 }
 
 // Album slug → theme
@@ -101,6 +174,15 @@ export const ALBUM_THEMES: Record<string, ThemeName> = {
   'the-sacred-drift':         'sacred-drift',
   'funk-my-way-in':           'ritual-amber',
   'world-musics':             'emerald-soul',
+  'salt-cathedral':           'salt-cathedral',
+  'neon-saints':              'neon-saints',
+  'glass-animal':             'glass-animal',
+  'black-sun-gospel':         'black-sun-gospel',
+  'the-memory-atlas':         'the-memory-atlas',
+  'ritual-voltage':           'ritual-voltage',
+  'concrete-saints':          'concrete-saints',
+  'velvet-circuit':           'velvet-circuit',
+  'drum-oracle':              'drum-oracle',
 }
 
 export function getThemeForAlbum(albumSlug: string | null | undefined): ThemeName {

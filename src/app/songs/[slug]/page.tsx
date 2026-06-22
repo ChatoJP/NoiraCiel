@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
-import { scanMusicFolder } from '@/lib/musicScanner'
+import { scanMusicFolder, DISCOGRAPHY } from '@/lib/musicScanner'
 import SongChapterPage from '@/components/SongChapterPage'
 import { JsonLd } from '@/components/JsonLd'
 
@@ -161,33 +161,12 @@ export default async function SongPage({ params }: Props) {
     }
   })()
 
-  const albumName = track.albumSlug === 'blind-angel'
-    ? 'The Blind Angel — Intimate Metal Sessions'
-    : track.albumSlug === 'jazz-sessions'
-    ? 'NoiraCiel Jazz Sessions'
-    : track.albumSlug === 'the-velvet-machine'
-    ? 'The Velvet Machine'
-    : track.albumSlug === 'still-we-sail'
-    ? 'Still We Sail'
-    : track.albumSlug === 'whats-youre-made-of'
-    ? "What You're Made Of"
-    : track.albumSlug === 'the-sacred-drift'
-    ? 'The Sacred Drift'
-    : 'The Life Lessons I Hope You Learn'
-
-  const albumHref = track.albumSlug === 'blind-angel'
-    ? '/music/blind-angel'
-    : track.albumSlug === 'jazz-sessions'
-    ? '/music/jazz-sessions'
-    : track.albumSlug === 'the-velvet-machine'
-    ? '/music/the-velvet-machine'
-    : track.albumSlug === 'still-we-sail'
-    ? '/music/still-we-sail'
-    : track.albumSlug === 'whats-youre-made-of'
-    ? '/music/whats-youre-made-of'
-    : track.albumSlug === 'the-sacred-drift'
-    ? '/music/the-sacred-drift'
-    : '/music/the-life-lessons'
+  // DISCOGRAPHY is the single source of truth for every album's title/href —
+  // scaffold-album.js appends new albums there, so this lookup covers every
+  // album automatically instead of needing a new branch added by hand each time.
+  const discographyEntry = DISCOGRAPHY.find((e) => e.slug === track.albumSlug)
+  const albumName = discographyEntry?.meta.title ?? 'The Life Lessons I Hope You Learn'
+  const albumHref = discographyEntry?.href ?? '/music/the-life-lessons'
 
   const socialImage = track.socialCardUrl ?? track.songArtUrl ?? null
 

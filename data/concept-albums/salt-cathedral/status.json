@@ -1,0 +1,392 @@
+{
+  "the-coat-i-left-on-the-rail": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "e306c6f1f5af569c49217ca8e2c21e44",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/01_the-coat-i-left-on-the-rail.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/01_the-coat-i-left-on-the-rail.mp3",
+      "duration": 180.879979,
+      "durationFormatted": "3:01"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_5cfc4d25c86d4120a49c90e152789d91",
+      "state": "complete",
+      "r2Key": "images/song-art/the-coat-i-left-on-the-rail.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-coat-i-left-on-the-rail.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_2c59f8c57d3c44eb87b9dbb0982e62b5",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-coat-i-left-on-the-rail.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-coat-i-left-on-the-rail.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:17:36.335Z"
+  },
+  "letters-i-didnt-post": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "7da584ad2563c0770175a01c6090d88a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/02_letters-i-didnt-post.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/02_letters-i-didnt-post.mp3",
+      "duration": 189.599979,
+      "durationFormatted": "3:10"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_6a6c900e503942e588ff21f7ee2ff9dd",
+      "state": "complete",
+      "r2Key": "images/song-art/letters-i-didnt-post.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/letters-i-didnt-post.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_654a1769c1a14ef0b6dd8c3b9e34be5f",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/letters-i-didnt-post.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/letters-i-didnt-post.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:50:34.590Z"
+  },
+  "the-name-i-gave-the-customs-officer": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "435fe2c750b282d963f7207e756847fc",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/03_the-name-i-gave-the-customs-officer.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/03_the-name-i-gave-the-customs-officer.mp3",
+      "duration": 164.239979,
+      "durationFormatted": "2:44"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_13e0815efa004a0890b9da39691f01a4",
+      "state": "complete",
+      "r2Key": "images/song-art/the-name-i-gave-the-customs-officer.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-name-i-gave-the-customs-officer.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_e2c0cfe5b6f647beb32a6a2fb2fdc99a",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-name-i-gave-the-customs-officer.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-name-i-gave-the-customs-officer.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:51:08.379Z"
+  },
+  "the-last-photograph-before-the-pier": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "f85c69bbd47fbdc1e932d19af2a2bcef",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/04_the-last-photograph-before-the-pier.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/04_the-last-photograph-before-the-pier.mp3",
+      "duration": 209.959979,
+      "durationFormatted": "3:30"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_63360bfbfae64622913557959f01f513",
+      "state": "complete",
+      "r2Key": "images/song-art/the-last-photograph-before-the-pier.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-last-photograph-before-the-pier.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_856ca7c4bea54389b236ec03e1f2cc1a",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-last-photograph-before-the-pier.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-last-photograph-before-the-pier.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:51:25.651Z"
+  },
+  "cargo-we-dont-name": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "9ae01c33fdcce0cc4bb69e0cc63aeb61",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/05_cargo-we-dont-name.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/05_cargo-we-dont-name.mp3",
+      "duration": 198.879979,
+      "durationFormatted": "3:19"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_c2546c5b98f94121a95bb44969087ce2",
+      "state": "complete",
+      "r2Key": "images/song-art/cargo-we-dont-name.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/cargo-we-dont-name.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_21af036118ab42f3a903ac7a6b473452",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/cargo-we-dont-name.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/cargo-we-dont-name.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:51:51.171Z"
+  },
+  "the-diver-who-came-up-wrong": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "237ffb35994052138ad1455fd1e7f951",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/06_the-diver-who-came-up-wrong.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/06_the-diver-who-came-up-wrong.mp3",
+      "duration": 226.839979,
+      "durationFormatted": "3:47"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_99682feeb83d4b6ab5285fd4aa25bc7d",
+      "state": "complete",
+      "r2Key": "images/song-art/the-diver-who-came-up-wrong.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-diver-who-came-up-wrong.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_cfc15e8b6cc946b7ad30a71a250fa381",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-diver-who-came-up-wrong.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-diver-who-came-up-wrong.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:52:08.751Z"
+  },
+  "what-the-lighthouse-keeper-saw": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "501c2e3053243936ff76dcb031148903",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/07_what-the-lighthouse-keeper-saw.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/07_what-the-lighthouse-keeper-saw.mp3",
+      "duration": 193.839979,
+      "durationFormatted": "3:14"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_473d7e77d9464e7993cb828bbba455dd",
+      "state": "complete",
+      "r2Key": "images/song-art/what-the-lighthouse-keeper-saw.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/what-the-lighthouse-keeper-saw.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_d98ead12e90546278c52ce39003eb519",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/what-the-lighthouse-keeper-saw.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/what-the-lighthouse-keeper-saw.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:52:26.092Z"
+  },
+  "the-stowaway-in-the-rope-locker": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "a6f83e88bd6a4c0e8abc1bd821f0dabe",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/08_the-stowaway-in-the-rope-locker.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/08_the-stowaway-in-the-rope-locker.mp3",
+      "duration": 221.599979,
+      "durationFormatted": "3:42"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_a1e8315ca9244a8e8b6fde74b6144775",
+      "state": "complete",
+      "r2Key": "images/song-art/the-stowaway-in-the-rope-locker.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-stowaway-in-the-rope-locker.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_cbdaebc8a59a4e0183d7101568756142",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-stowaway-in-the-rope-locker.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-stowaway-in-the-rope-locker.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:52:43.375Z"
+  },
+  "the-storm-that-asked-a-fair-price": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "c306de844f7b7b7428c9307a7b86f21c",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/09_the-storm-that-asked-a-fair-price.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/09_the-storm-that-asked-a-fair-price.mp3",
+      "duration": 183.599979,
+      "durationFormatted": "3:04"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_22614526ce0d49589b68d55928efb70e",
+      "state": "complete",
+      "r2Key": "images/song-art/the-storm-that-asked-a-fair-price.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-storm-that-asked-a-fair-price.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_24561d4c71fb4731968b1f6426854a8e",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-storm-that-asked-a-fair-price.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-storm-that-asked-a-fair-price.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:53:08.958Z"
+  },
+  "the-confession-booth-built-of-salt": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "e39fcc4dec86569269af8345506cb89b",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/10_the-confession-booth-built-of-salt.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/10_the-confession-booth-built-of-salt.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_248e12088b454f818f698ade155ca8d2",
+      "state": "complete",
+      "r2Key": "images/song-art/the-confession-booth-built-of-salt.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-confession-booth-built-of-salt.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_3ca09411992f44eda4fc235114b3f6d3",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-confession-booth-built-of-salt.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-confession-booth-built-of-salt.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:53:34.576Z"
+  },
+  "every-name-the-sea-kept-anyway": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "f0a8d2a8a5640e25f6d2d60a0380fb73",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/11_every-name-the-sea-kept-anyway.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/11_every-name-the-sea-kept-anyway.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_d9af743feea04769ac5cff61f902d272",
+      "state": "complete",
+      "r2Key": "images/song-art/every-name-the-sea-kept-anyway.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/every-name-the-sea-kept-anyway.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_25e01182b190449d9908c555eca1162b",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/every-name-the-sea-kept-anyway.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/every-name-the-sea-kept-anyway.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:53:51.926Z"
+  },
+  "the-letter-i-finally-post": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "292c26b45a6f3137584915c6c0909f42",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/12_the-letter-i-finally-post.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/12_the-letter-i-finally-post.mp3",
+      "duration": 228.879979,
+      "durationFormatted": "3:49"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_d43ce9751e3642848bc3ac649a881885",
+      "state": "complete",
+      "r2Key": "images/song-art/the-letter-i-finally-post.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-letter-i-finally-post.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_b21f8ad117644948a78f625226417db5",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-letter-i-finally-post.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-letter-i-finally-post.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:54:09.246Z"
+  },
+  "the-water-turns-clear-past-the-wreck": {
+    "num": 13,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "fe1f65422317f0e9b902d039248056bf",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/13_the-water-turns-clear-past-the-wreck.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/13_the-water-turns-clear-past-the-wreck.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_6dd710c6c84849a3b6c634d579d7567f",
+      "state": "complete",
+      "r2Key": "images/song-art/the-water-turns-clear-past-the-wreck.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-water-turns-clear-past-the-wreck.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_6a3538fdaf1e415dbfffacd7659fa786",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-water-turns-clear-past-the-wreck.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-water-turns-clear-past-the-wreck.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:54:26.544Z"
+  },
+  "the-choir-we-hear-from-the-deck": {
+    "num": 14,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "38a831bb06d8d7736108cda38d8a082a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/14_the-choir-we-hear-from-the-deck.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/14_the-choir-we-hear-from-the-deck.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_8e92b42cf8bf44f5a62a024dc4feccb8",
+      "state": "complete",
+      "r2Key": "images/song-art/the-choir-we-hear-from-the-deck.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-choir-we-hear-from-the-deck.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_f327678bfca044719fb29dc8050dda98",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-choir-we-hear-from-the-deck.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-choir-we-hear-from-the-deck.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:54:52.148Z"
+  },
+  "home-is-just-a-coast-that-waited": {
+    "num": 15,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "919cb68907e28aa5de1e4a819092b898",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Salt_Cathedral/audio/15_home-is-just-a-coast-that-waited.mp3",
+      "r2Key": "music/The_Salt_Cathedral/audio/15_home-is-just-a-coast-that-waited.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "songArt": {
+      "taskId": "fluxkontext_7921dc2f2b30487fb9331f3b188843fa",
+      "state": "complete",
+      "r2Key": "images/song-art/home-is-just-a-coast-that-waited.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/home-is-just-a-coast-that-waited.jpg"
+    },
+    "chapterBanner": {
+      "taskId": "fluxkontext_d1e6bb1472b04d38b1e461d3f12f0c14",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/home-is-just-a-coast-that-waited.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/home-is-just-a-coast-that-waited.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T12:55:26.018Z"
+  }
+}

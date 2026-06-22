@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "render:missing-videos": "node scripts/media/render-missing-videos-local.js",
+    "render:missing-videos:dry": "node scripts/media/render-missing-videos-local.js --dry-run"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.1",

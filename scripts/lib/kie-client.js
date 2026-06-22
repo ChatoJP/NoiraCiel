@@ -228,6 +228,53 @@ async function pollTTSJob(taskId) {
   return { done: false, failed: false, url: null }
 }
 
+// ─── Music API (Suno V4 via KIE.AI) ──────────────────────────────────────────
+/**
+ * Submit a Suno music generation job.
+ * @param {{ lyrics: string, style: string, title: string, instrumental?: boolean }} opts
+ * @returns {Promise<string>} taskId
+ */
+async function submitMusicJob({ lyrics, style, title, instrumental = false, negativeTags, model = 'V4' }) {
+  const res = await kieRequestWithRetry('POST', '/generate', {
+    model,
+    customMode: true,
+    prompt: lyrics,
+    style,
+    title,
+    instrumental,
+    callBackUrl: 'https://noiraciel.com/api/noop',
+    ...(negativeTags ? { negativeTags } : {}),
+  })
+  const taskId = res.data?.taskId
+  if (!taskId) throw new Error('No taskId in music response')
+  return taskId
+}
+
+/**
+ * Poll a Suno music job.
+ * @returns {{ done: boolean, failed: boolean, audioUrl: string|null, lyricsText: string|null }}
+ */
+async function pollMusicJob(taskId) {
+  const res = await kieRequestWithRetry('GET', `/generate/record-info?taskId=${taskId}`)
+  const data = res.data ?? {}
+  const status = data.status ?? 'PENDING'
+  const sunoData = data.response?.sunoData ?? []
+
+  if (status === 'SUCCESS' && sunoData.length > 0) {
+    const first = sunoData[0]
+    return {
+      done: true,
+      failed: false,
+      audioUrl: first.audioUrl ?? first.audio_url ?? null,
+      lyricsText: first.lyrics ?? null,
+    }
+  }
+  if (status === 'FAILED' || status === 'ERROR') {
+    return { done: true, failed: true, audioUrl: null, lyricsText: null }
+  }
+  return { done: false, failed: false, audioUrl: null, lyricsText: null }
+}
+
 module.exports = {
   loadEnv,
   log, warn, err, sleep, slugify,
@@ -239,5 +286,7 @@ module.exports = {
   pollVideoClip,
   submitTTSJob,
   pollTTSJob,
+  submitMusicJob,
+  pollMusicJob,
   RATE_LIMIT_MS,
 }

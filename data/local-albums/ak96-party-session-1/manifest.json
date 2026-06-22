@@ -1,0 +1,150 @@
+{
+  "slug": "ak96-party-session-1",
+  "title": "Ak96 Mixes — Party Session N1",
+  "dirName": "Ak96_Mixes_Party_Session_N1",
+  "tracks": [
+    {
+      "num": 1,
+      "slug": "ak96-mixes-party-session-n1-mix-1",
+      "title": "Ak96 Mixes Party Session n1 - Mix 1",
+      "filename": "01_ak96-mixes-party-session-n1-mix-1.mp3",
+      "duration": 181.879979,
+      "durationFormatted": "3:02",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/01_ak96-mixes-party-session-n1-mix-1.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/01_ak96-mixes-party-session-n1-mix-1.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 2,
+      "slug": "ak96-mixes-party-session-n1-mix-2",
+      "title": "Ak96 Mixes Party Session n1 - Mix 2",
+      "filename": "02_ak96-mixes-party-session-n1-mix-2.mp3",
+      "duration": 157.239979,
+      "durationFormatted": "2:37",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/02_ak96-mixes-party-session-n1-mix-2.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/02_ak96-mixes-party-session-n1-mix-2.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 3,
+      "slug": "ak96-mixes-party-session-n1-mix-3",
+      "title": "Ak96 Mixes Party Session n1 - Mix 3",
+      "filename": "03_ak96-mixes-party-session-n1-mix-3.mp3",
+      "duration": 197.159979,
+      "durationFormatted": "3:17",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/03_ak96-mixes-party-session-n1-mix-3.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/03_ak96-mixes-party-session-n1-mix-3.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 4,
+      "slug": "ak96-mixes-party-session-n1-mix-4",
+      "title": "Ak96 Mixes Party Session n1 - Mix 4",
+      "filename": "04_ak96-mixes-party-session-n1-mix-4.mp3",
+      "duration": 239.959979,
+      "durationFormatted": "3:60",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/04_ak96-mixes-party-session-n1-mix-4.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/04_ak96-mixes-party-session-n1-mix-4.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 5,
+      "slug": "ak96-mixes-party-session-n1-mix-5",
+      "title": "Ak96 Mixes Party Session n1 - Mix 5",
+      "filename": "05_ak96-mixes-party-session-n1-mix-5.mp3",
+      "duration": 422.039979,
+      "durationFormatted": "7:02",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/05_ak96-mixes-party-session-n1-mix-5.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/05_ak96-mixes-party-session-n1-mix-5.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 6,
+      "slug": "ak96-mixes-party-session-n1-mix-6",
+      "title": "Ak96 Mixes Party Session n1 - Mix 6",
+      "filename": "06_ak96-mixes-party-session-n1-mix-6.mp3",
+      "duration": 185.599979,
+      "durationFormatted": "3:06",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/06_ak96-mixes-party-session-n1-mix-6.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/06_ak96-mixes-party-session-n1-mix-6.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 7,
+      "slug": "ak96-mixes-party-session-n1-mix-7",
+      "title": "Ak96 Mixes Party Session n1 - Mix 7",
+      "filename": "07_ak96-mixes-party-session-n1-mix-7.mp3",
+      "duration": 153.759979,
+      "durationFormatted": "2:34",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/07_ak96-mixes-party-session-n1-mix-7.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/07_ak96-mixes-party-session-n1-mix-7.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 8,
+      "slug": "ak96-mixes-party-session-n1-mix-8",
+      "title": "Ak96 Mixes Party Session n1 - Mix 8",
+      "filename": "08_ak96-mixes-party-session-n1-mix-8.mp3",
+      "duration": 109.479979,
+      "durationFormatted": "1:49",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/08_ak96-mixes-party-session-n1-mix-8.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/08_ak96-mixes-party-session-n1-mix-8.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 9,
+      "slug": "ak96-mixes-party-session-n1-mix-9",
+      "title": "Ak96 Mixes Party Session n1 - Mix 9",
+      "filename": "09_ak96-mixes-party-session-n1-mix-9.mp3",
+      "duration": 106.519979,
+      "durationFormatted": "1:47",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/09_ak96-mixes-party-session-n1-mix-9.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/09_ak96-mixes-party-session-n1-mix-9.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 10,
+      "slug": "ak96-mixes-party-session-n1-mix-10",
+      "title": "Ak96 Mixes Party Session n1 - Mix 10",
+      "filename": "10_ak96-mixes-party-session-n1-mix-10.mp3",
+      "duration": 154.959979,
+      "durationFormatted": "2:35",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/10_ak96-mixes-party-session-n1-mix-10.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/10_ak96-mixes-party-session-n1-mix-10.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 11,
+      "slug": "ak96-mixes-party-session-n1-mix-11",
+      "title": "Ak96 Mixes Party Session n1 - Mix 11",
+      "filename": "11_ak96-mixes-party-session-n1-mix-11.mp3",
+      "duration": 308.519979,
+      "durationFormatted": "5:09",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/11_ak96-mixes-party-session-n1-mix-11.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/11_ak96-mixes-party-session-n1-mix-11.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 12,
+      "slug": "image-1760964297765-442",
+      "title": "image 1760964297765 442",
+      "filename": "12_image-1760964297765-442.mp3",
+      "duration": 139.959979,
+      "durationFormatted": "2:20",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/12_image-1760964297765-442.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/12_image-1760964297765-442.mp3",
+      "format": "MP3"
+    },
+    {
+      "num": 13,
+      "slug": "image-1760964365805-453",
+      "title": "image 1760964365805 453",
+      "filename": "13_image-1760964365805-453.mp3",
+      "duration": 158.599979,
+      "durationFormatted": "2:39",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/Ak96_Mixes_Party_Session_N1/audio/13_image-1760964365805-453.mp3",
+      "r2Key": "music/Ak96_Mixes_Party_Session_N1/audio/13_image-1760964365805-453.mp3",
+      "format": "MP3"
+    }
+  ]
+}

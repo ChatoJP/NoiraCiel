@@ -1,0 +1,21 @@
+{
+  "slug": "black-sun-gospel",
+  "title": "Black Sun Gospel",
+  "dirName": "Black_Sun_Gospel",
+  "genre": "Dark Soul · Blues-Rock · Cinematic Gospel · Slow-Burn DnB/Half-Time",
+  "concept": "A gospel record for people who left the church but kept the fire — redemption with no theology attached, just scars, dignity and the chord changes that used to mean something.",
+  "statement": "Choir responses and blues guitar over half-time breaks and cinematic strings — heroic without religion, raspy and powerful, built for survival rather than salvation.",
+  "visualIdentity": "A black sun rising over scorched fields, work-worn hands, candle rows, deep red dust light.",
+  "palette": ["charcoal black #0E0D0D", "blood-orange #D66C3A", "deep crimson #6E1423", "faded gold #9A7020"],
+  "typographyMood": "Heavy, weighted serifs with worn edges — like letterpress run too many times. Uppercase used sparingly, for weight not decoration.",
+  "musicalStyle": "Dark soul, blues-rock, cinematic gospel, slow-burn DnB/half-time breaks, orchestral pressure. Gospel choir responses, blues guitar, cinematic strings, heavy drums, sub bass, organ, brass, dark piano.",
+  "vocalDirection": "Powerful raspy male or female contralto, wounded but heroic — no American country accent, no theatrical excess, dignity over spectacle.",
+  "negativeTags": ["generic church-pop", "cheesy inspirational pop uplift", "Americana/country accent", "trailer-music bombast", "generic AI lyrics"],
+  "emotionalArc": [
+    { "phase": "Fire and scars", "trackRange": [1, 4] },
+    { "phase": "Survival and defiance", "trackRange": [5, 9] },
+    { "phase": "Dignity reclaimed", "trackRange": [10, 12] },
+    { "phase": "Unreligious redemption / night prayer", "trackRange": [13, 15] }
+  ],
+  "theme": { "name": "black-sun-gospel", "label": "Black Sun Gospel", "mood": "Dark Soul · Cinematic Gospel", "accentRgb": "181, 72, 30", "bgTintRgb": "14, 13, 13" }
+}

@@ -2,6 +2,17 @@ import React from 'react'
 import { Composition } from 'remotion'
 import { LyricVideo, type LyricVideoProps } from './LyricVideo'
 import { KaraokeVideo, type KaraokeVideoProps } from './KaraokeVideo'
+import { MotionFilm, type MotionFilmProps } from './MotionFilm'
+
+// Default props for MotionFilm Studio preview
+const MOTION_FILM_DEFAULT: MotionFilmProps = {
+  trackTitle: 'First Coal',
+  visualStyle: 'spirals',
+  palette: ['#140C1C', '#4B1E66', '#7FE070', '#C45A1E'],
+  bpm: 140,
+  energyLevel: 5,
+  durationInSeconds: 8,
+}
 
 // Default props for LyricVideo Studio preview
 const LYRIC_DEFAULT: LyricVideoProps = {
@@ -74,6 +85,16 @@ export function Root() {
         width={1920}
         height={1080}
         defaultProps={LYRIC_DEFAULT}
+      />
+      <Composition
+        id="MotionFilm"
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        component={MotionFilm as any}
+        durationInFrames={240}
+        fps={30}
+        width={1280}
+        height={720}
+        defaultProps={MOTION_FILM_DEFAULT}
       />
     </>
   )

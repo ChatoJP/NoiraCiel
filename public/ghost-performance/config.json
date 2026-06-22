@@ -2474,5 +2474,860 @@
     "showParticles": true,
     "showWaveform": false,
     "cameraMode": "static"
+  },
+  "the-coat-i-left-on-the-rail": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "letters-i-didnt-post": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-name-i-gave-the-customs-officer": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-last-photograph-before-the-pier": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "cargo-we-dont-name": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-diver-who-came-up-wrong": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "what-the-lighthouse-keeper-saw": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-stowaway-in-the-rope-locker": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-storm-that-asked-a-fair-price": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-confession-booth-built-of-salt": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "every-name-the-sea-kept-anyway": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-letter-i-finally-post": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-water-turns-clear-past-the-wreck": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-choir-we-hear-from-the-deck": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "home-is-just-a-coast-that-waited": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "blue-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "clock-in-hymn": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-algorithm-knows-my-name": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "warehouse-vespers": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "thirty-seconds-or-less": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "graveyard-choir": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "sabotage-in-3-4": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "blackout-on-level-9": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-foreman-is-also-tired": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "we-built-the-cathedral-ourselves": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "lunch-at-2am": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-old-machine-remembers-my-mother": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "teach-me-the-old-songs": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "doxology-for-the-last-shift": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "psalm-for-the-night-cleaners": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "grace-at-the-end-of-the-shift": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-entrance-hall": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-mask-on-the-wall": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-chair-arranged-for-visitors": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-photograph-they-chose-to-frame": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "hairline": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-mirror-turned-to-the-wall": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "fingerprints-on-the-case": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-door-that-wont-lock": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "static-between-exhibits": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-empty-pedestal": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-drawer-of-discarded-photographs": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-dress-that-no-longer-fits": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-unlocked-door": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "synth"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-object-with-no-label": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "synth",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "daylight-in-the-last-room": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "dark-minimal",
+    "accentColor": "blue-silver",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
   }
 }

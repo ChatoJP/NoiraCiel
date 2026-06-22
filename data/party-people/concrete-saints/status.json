@@ -1,0 +1,314 @@
+{
+  "first-pour": {
+    "num": 1,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "d52733dc3f023a796be85cd8b9cb042a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/01_first-pour.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/01_first-pour.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:11:08.006Z"
+  },
+  "rebar-litany": {
+    "num": 2,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "eb3d7d0c88257c1e4c0e81ae3cb91618",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/02_rebar-litany.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/02_rebar-litany.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:13:12.064Z"
+  },
+  "cold-foundry": {
+    "num": 3,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "d636c5fb3837fc2b727c47e43212144a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/03_cold-foundry.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/03_cold-foundry.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:15:15.785Z"
+  },
+  "pressure-vessel": {
+    "num": 4,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "d2ef7774ef40552c14952f1ec37ba928",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/04_pressure-vessel.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/04_pressure-vessel.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:17:18.952Z"
+  },
+  "machine-vespers": {
+    "num": 5,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "53b529e9be818ce458bd57067ed16324",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/05_machine-vespers.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/05_machine-vespers.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:19:22.060Z"
+  },
+  "tensile-strength": {
+    "num": 6,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "95a18e7b485b529bc0e3817bd0c0eedd",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/06_tensile-strength.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/06_tensile-strength.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:21:25.659Z"
+  },
+  "machine-ritual": {
+    "num": 7,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "d2720699bd68aa122f2f6305aaf36fad",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/07_machine-ritual.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/07_machine-ritual.mp3",
+      "duration": 83.079979,
+      "durationFormatted": "1:23"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:23:13.430Z"
+  },
+  "shockwave-doctrine": {
+    "num": 8,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "a05d09cbfe361d979766edebc6632e69",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/08_shockwave-doctrine.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/08_shockwave-doctrine.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:25:16.480Z"
+  },
+  "concrete-saints": {
+    "num": 9,
+    "stage": "music_complete",
+    "music": {
+      "taskId": "ec86c67fafaef89caff4f742babebee5",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/09_concrete-saints.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/09_concrete-saints.mp3",
+      "duration": 141.959979,
+      "durationFormatted": "2:22"
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:27:19.504Z"
+  },
+  "blunt-force-communion": {
+    "num": 10,
+    "stage": "metadata_generated",
+    "music": {
+      "taskId": "d98fb78d9a1dfbb5d34b30adf13a4e5c",
+      "state": "pending",
+      "audioUrl": null,
+      "r2Key": null,
+      "duration": null,
+      "durationFormatted": ""
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:27:19.718Z"
+  },
+  "afterglow-protocol": {
+    "num": 11,
+    "stage": "metadata_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null,
+      "duration": null,
+      "durationFormatted": ""
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:09:04.513Z"
+  },
+  "last-light-steel": {
+    "num": 12,
+    "stage": "metadata_generated",
+    "music": {
+      "taskId": null,
+      "state": "none",
+      "audioUrl": null,
+      "r2Key": null,
+      "duration": null,
+      "durationFormatted": ""
+    },
+    "trackArt": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "banner": {
+      "taskId": null,
+      "state": "none",
+      "r2Key": null,
+      "url": null
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T15:09:04.513Z"
+  }
+}

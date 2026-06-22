@@ -15,14 +15,17 @@
 const fs   = require('fs')
 const path = require('path')
 
-// /tmp on this server is a 1.9G RAM-backed tmpfs — Remotion's frame buffer
-// writes there blew through it (ENOSPC) and compete with Chrome for the same
-// RAM (contributing to the earlier OOM). Redirect all temp I/O to real disk
-// before requiring remotion packages, since they read TMPDIR via os.tmpdir()
-// at call time.
+// /tmp on the production server is a 1.9G RAM-backed tmpfs — Remotion's frame
+// buffer writes there blew through it (ENOSPC) and competed with Chrome for
+// the same RAM (contributing to an earlier OOM). Redirect all temp I/O to
+// real disk before requiring remotion packages, since they read os.tmpdir()
+// at call time. os.tmpdir() checks TMPDIR on POSIX but TEMP/TMP on Windows —
+// set all three so this works on both.
 const TMP_DIR = path.join(__dirname, '..', '.tmp', 'render-cache')
 require('fs').mkdirSync(TMP_DIR, { recursive: true })
 process.env.TMPDIR = TMP_DIR
+process.env.TEMP = TMP_DIR
+process.env.TMP = TMP_DIR
 
 const { bundle } = require('@remotion/bundler')
 const { renderMedia, selectComposition } = require('@remotion/renderer')

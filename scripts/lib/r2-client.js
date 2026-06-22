@@ -153,7 +153,16 @@ function atomicWriteJSON(targetPath, data) {
 }
 
 // ─── Disk space guard ──────────────────────────────────────────────────────────
-function checkDiskSpace(minFreeMb = 500) {
+function checkDiskSpace(minFreeMb = 500, checkPath = process.cwd()) {
+  // fs.statfsSync (Node 18.15+) works cross-platform (Linux/macOS/Windows) —
+  // avoids shelling out to `df`/`awk`, which don't exist on Windows.
+  try {
+    if (typeof fs.statfsSync === 'function') {
+      const stats = fs.statfsSync(checkPath)
+      const freeMb = Math.floor((stats.bavail * stats.bsize) / (1024 * 1024))
+      return { freeMb, ok: freeMb >= minFreeMb }
+    }
+  } catch { /* fall through to the df/awk attempt below */ }
   try {
     const out = execSync("df -m / | awk 'NR==2{print $4}'").toString().trim()
     const freeMb = parseInt(out, 10)
