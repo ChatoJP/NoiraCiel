@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     description: 'TODO: write a real description for Classic.',
     url: 'https://noiraciel.com/music/classic',
     type: 'music.album',
-    images: [{ url: '/images/album-cover.png', width: 1200, height: 1200, alt: 'Classic album cover' }],
+    images: [{ url: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/classic.jpg', width: 1200, height: 1200, alt: 'Classic album cover' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Classic',
     description: 'TODO: write a real description for Classic.',
-    images: ['/images/album-cover.png'],
+    images: ['https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/classic.jpg'],
   },
 }
 
@@ -32,7 +32,7 @@ const albumSchema = {
   name: 'Classic',
   byArtist: { '@type': 'MusicGroup', name: 'NoiraCiel', url: 'https://noiraciel.com' },
   url: 'https://noiraciel.com/music/classic',
-  image: 'https://noiraciel.com/images/album-cover.png',
+  image: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/classic.jpg',
   description: 'TODO: write a real description for Classic.',
   genre: ["Classic"],
 }

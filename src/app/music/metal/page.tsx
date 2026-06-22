@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     description: 'TODO: write a real description for Metal.',
     url: 'https://noiraciel.com/music/metal',
     type: 'music.album',
-    images: [{ url: '/images/album-cover.png', width: 1200, height: 1200, alt: 'Metal album cover' }],
+    images: [{ url: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/metal.jpg', width: 1200, height: 1200, alt: 'Metal album cover' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Metal',
     description: 'TODO: write a real description for Metal.',
-    images: ['/images/album-cover.png'],
+    images: ['https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/metal.jpg'],
   },
 }
 
@@ -32,7 +32,7 @@ const albumSchema = {
   name: 'Metal',
   byArtist: { '@type': 'MusicGroup', name: 'NoiraCiel', url: 'https://noiraciel.com' },
   url: 'https://noiraciel.com/music/metal',
-  image: 'https://noiraciel.com/images/album-cover.png',
+  image: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/metal.jpg',
   description: 'TODO: write a real description for Metal.',
   genre: ["Metal Sessions"],
 }
