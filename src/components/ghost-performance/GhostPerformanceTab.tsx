@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic'
 import { useAudio } from '@/context/AudioContext'
 import type { Track } from '@/lib/types'
 import { THEMES, ALBUM_THEMES } from '@/lib/themes'
+import MediaProvenanceBadge from '@/components/MediaProvenanceBadge'
 
 const GhostStage = dynamic(() => import('./stage/GhostStage'), { ssr: false })
 
@@ -47,6 +48,7 @@ export default function GhostPerformanceTab({ track }: Props) {
           <p className="font-heading italic text-sm" style={{ color: 'rgba(242,237,227,0.5)' }}>
             {track.title}
           </p>
+          <MediaProvenanceBadge type="algorithmic" className="mt-1 block" />
         </div>
       </div>
 

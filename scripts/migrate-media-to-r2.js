@@ -88,7 +88,7 @@ async function main() {
         try {
           fs.unlinkSync(localPath)
           manifest[rel].deletedLocal = true
-          fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2))
+          r2.atomicWriteJSON(manifestPath, manifest)
           r2.log(`local file deleted (already verified earlier): ${localPath}`)
         } catch (e) {
           r2.warn(`  (left in place — needs sudo cleanup later: ${rel}) ${e.code || e.message}`)

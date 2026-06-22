@@ -16,6 +16,7 @@
 const fs   = require('fs')
 const path = require('path')
 const http = require('http')
+const r2   = require('./lib/r2-client')
 
 const SERVER_URL = process.argv[2] || 'http://localhost:3000'
 const R2_BASE     = 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev'
@@ -46,7 +47,7 @@ async function main() {
     }
   }
 
-  fs.writeFileSync(OUT_PATH, JSON.stringify(catalogue, null, 2))
+  r2.atomicWriteJSON(OUT_PATH, catalogue)
   console.log(`Wrote ${OUT_PATH}`)
   console.log(`  tracks: ${catalogue.tracks?.length ?? 0}, audioUrls rewritten to R2: ${swapped}`)
 }

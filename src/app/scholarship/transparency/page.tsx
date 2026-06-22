@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getImpactStats } from '@/lib/scholarshipStore'
+import { getImpactStats, getLedger } from '@/lib/scholarshipStore'
 
 export const dynamic = 'force-dynamic'
 
@@ -8,8 +8,15 @@ export const metadata: Metadata = {
   title: 'Transparency Report — The Invisible Roots Scholarship',
 }
 
+const CATEGORY_LABELS: Record<string, string> = {
+  education: 'Education', books: 'Books', music: 'Music', art: 'Art',
+  laptop: 'Laptop', materials: 'Materials', instrument: 'Instrument',
+  training: 'Training', other: 'Other',
+}
+
 export default function TransparencyPage() {
   const stats = getImpactStats()
+  const ledger = getLedger()
 
   return (
     <div style={{ background: '#080810', color: '#F2EDE3', minHeight: '100vh' }}>
@@ -76,6 +83,60 @@ export default function TransparencyPage() {
             </div>
           ))}
         </div>
+
+        {/* Line-item ledger — beyond the aggregate totals above. Anonymized:
+            no names, no emails, no exact timestamps (rounded to the day),
+            no payment IDs — just date, amount, and (for awards) category. */}
+        <section style={{ marginBottom: '3.5rem' }}>
+          <h2 style={{
+            fontFamily: 'var(--font-heading)', fontWeight: 300, fontStyle: 'italic',
+            fontSize: '1.3rem', color: '#F2EDE3', marginBottom: '1.25rem',
+            paddingBottom: '0.75rem', borderBottom: '1px solid rgba(196,149,58,0.12)',
+          }}>
+            Ledger
+          </h2>
+          <p style={{
+            fontFamily: 'var(--font-body)', fontSize: '0.7rem', lineHeight: 1.7,
+            color: 'rgba(242,237,227,0.35)', marginBottom: '1.5rem',
+          }}>
+            Every contribution and award, anonymized — date only (no exact time), amount,
+            and category. No names, emails, or payment identifiers.
+          </p>
+          {ledger.length === 0 ? (
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem', color: 'rgba(242,237,227,0.3)' }}>
+              No recorded activity yet.
+            </p>
+          ) : (
+            <div style={{ maxHeight: '420px', overflowY: 'auto', border: '1px solid rgba(196,149,58,0.1)' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: 'var(--font-body)', fontSize: '0.75rem' }}>
+                <thead>
+                  <tr style={{ position: 'sticky', top: 0, background: '#0c0c16' }}>
+                    <th style={{ textAlign: 'left', padding: '0.6rem 1rem', color: 'rgba(242,237,227,0.4)', fontWeight: 400 }}>Date</th>
+                    <th style={{ textAlign: 'left', padding: '0.6rem 1rem', color: 'rgba(242,237,227,0.4)', fontWeight: 400 }}>Type</th>
+                    <th style={{ textAlign: 'left', padding: '0.6rem 1rem', color: 'rgba(242,237,227,0.4)', fontWeight: 400 }}>Category</th>
+                    <th style={{ textAlign: 'right', padding: '0.6rem 1rem', color: 'rgba(242,237,227,0.4)', fontWeight: 400 }}>Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ledger.map((entry, i) => (
+                    <tr key={i} style={{ borderTop: '1px solid rgba(255,255,255,0.04)' }}>
+                      <td style={{ padding: '0.5rem 1rem', color: 'rgba(242,237,227,0.5)' }}>{entry.date}</td>
+                      <td style={{ padding: '0.5rem 1rem', color: entry.type === 'donation' ? 'rgba(80,200,120,0.8)' : 'rgba(196,149,58,0.8)' }}>
+                        {entry.type === 'donation' ? 'Contribution' : 'Award'}
+                      </td>
+                      <td style={{ padding: '0.5rem 1rem', color: 'rgba(242,237,227,0.4)' }}>
+                        {entry.category ? CATEGORY_LABELS[entry.category] ?? entry.category : '—'}
+                      </td>
+                      <td style={{ padding: '0.5rem 1rem', textAlign: 'right', color: '#C4953A' }}>
+                        {new Intl.NumberFormat('en-IE', { style: 'currency', currency: entry.currency }).format(entry.amountCents / 100)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </section>
 
         {/* How it works */}
         <section style={{ marginBottom: '3.5rem' }}>

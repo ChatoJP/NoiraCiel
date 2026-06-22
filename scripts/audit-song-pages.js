@@ -10,22 +10,25 @@
 
 const fs = require('fs')
 const path = require('path')
+const r2 = require('./lib/r2-client')
 
 const ROOT = path.join(__dirname, '..')
 const catalogue = JSON.parse(fs.readFileSync(path.join(ROOT, 'public/music-catalogue.json'), 'utf-8'))
-const audioManifest = JSON.parse(fs.readFileSync(path.join(ROOT, '.migration-manifest-audio.json'), 'utf-8'))
-const booksManifest = JSON.parse(fs.readFileSync(path.join(ROOT, '.migration-manifest-books.json'), 'utf-8'))
-const generatedManifest = JSON.parse(fs.readFileSync(path.join(ROOT, '.migration-manifest-generated.json'), 'utf-8'))
 
-const audiobookSlugs = new Set(
-  Object.keys(audioManifest).filter(k => k.startsWith('audiobook/')).map(k => k.replace(/^audiobook\//, '').replace(/\.mp3$/, ''))
-)
-const storyPdfSlugs = new Set(
-  Object.keys(booksManifest).filter(k => k.startsWith('stories/') && k.endsWith('.pdf')).map(k => k.replace(/^stories\//, '').replace(/\.pdf$/, ''))
-)
-const cinemagraphSlugs = new Set(
-  Object.keys(generatedManifest).filter(k => k.startsWith('cinemagraphs/') && k.endsWith('loop.mp4')).map(k => k.split('/')[1])
-)
+// Small, git-committed availability manifests — the same ones the live app
+// reads (see src/app/songs/[slug]/page.tsx's loadSlugManifest) — rather than
+// the .migration-manifest-*.json scratch files, which are gitignored and
+// won't exist on a fresh CI checkout.
+function loadManifest(relPath) {
+  try {
+    return new Set(JSON.parse(fs.readFileSync(path.join(ROOT, relPath), 'utf-8')))
+  } catch {
+    return new Set()
+  }
+}
+const audiobookSlugs    = loadManifest('public/Audio/audiobook-manifest.json')
+const storyPdfSlugs     = loadManifest('public/Books/stories-manifest.json')
+const cinemagraphSlugs  = loadManifest('public/generated/kie/cinemagraphs-manifest.json')
 
 const tracks = catalogue.tracks
 const bySlug = new Map(tracks.map(t => [t.slug, t]))
@@ -83,5 +86,11 @@ console.log(`Tracks with chapterBannerUrl:         ${tracks.filter(t => t.chapte
 console.log(`\n── Issues (${issues.length}) ──`)
 for (const i of issues) console.log(`  [${i.slug}] ${i.msg}`)
 
-fs.writeFileSync(path.join(ROOT, '.song-audit-report.json'), JSON.stringify({ issues, tracks: tracks.map(t => ({ slug: t.slug, ...t._audit })) }, null, 2))
+r2.atomicWriteJSON(path.join(ROOT, '.song-audit-report.json'), { issues, tracks: tracks.map(t => ({ slug: t.slug, ...t._audit })) })
 console.log(`\nFull report written to .song-audit-report.json`)
+
+// --strict makes this CI-gateable: any finding fails the run.
+if (process.argv.includes('--strict') && issues.length > 0) {
+  console.error(`\n✗ --strict: ${issues.length} issue(s) found`)
+  process.exit(1)
+}

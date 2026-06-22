@@ -124,6 +124,34 @@ function httpRequest(method, key, opts = {}) {
   })
 }
 
+// ─── Atomic JSON writes ─────────────────────────────────────────────────────────
+/**
+ * Write JSON to disk safely: serialize, write to a temp file in the same
+ * directory, read it back and re-parse it, then rename over the target.
+ * The read-back-and-reparse step is what actually catches a disk-full mid
+ * -write (the exact failure mode that truncated lyric-videos.json earlier) —
+ * a short write still "succeeds" as far as fs.writeFileSync is concerned, but
+ * the bytes on disk don't round-trip through JSON.parse. The rename is atomic
+ * on the same filesystem, so readers never observe a half-written file: they
+ * see either the old complete version or the new complete version, never a
+ * partial one.
+ */
+function atomicWriteJSON(targetPath, data) {
+  const dir   = path.dirname(targetPath)
+  const tmp   = path.join(dir, `.${path.basename(targetPath)}.${process.pid}.${Date.now()}.tmp`)
+  const text  = JSON.stringify(data, null, 2)
+  try {
+    fs.mkdirSync(dir, { recursive: true })
+    fs.writeFileSync(tmp, text)
+    const roundTrip = fs.readFileSync(tmp, 'utf-8')
+    JSON.parse(roundTrip) // throws if the write was truncated/corrupted
+    fs.renameSync(tmp, targetPath)
+  } catch (e) {
+    try { fs.unlinkSync(tmp) } catch { /* tmp may not exist — fine */ }
+    throw new Error(`atomicWriteJSON failed for ${targetPath}: ${e.message}`)
+  }
+}
+
 // ─── Disk space guard ──────────────────────────────────────────────────────────
 function checkDiskSpace(minFreeMb = 500) {
   try {
@@ -210,4 +238,5 @@ module.exports = {
   ENDPOINT, BUCKET, PUBLIC_URL,
   assertConfigured, contentTypeFor,
   uploadFile, downloadFile, verifyUpload, migrateFile, checkDiskSpace, publicUrlFor,
+  atomicWriteJSON,
 }

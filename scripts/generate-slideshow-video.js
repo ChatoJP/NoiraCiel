@@ -121,7 +121,7 @@ async function main() {
 
   if (type === 'film') {
     track.musicVideoUrl = r2Url
-    fs.writeFileSync(CATALOGUE_PATH, JSON.stringify(catalogue, null, 2))
+    r2.atomicWriteJSON(CATALOGUE_PATH, catalogue)
   }
 
   r2.log(`Done. ${slug} ${type} -> ${r2Url}`)

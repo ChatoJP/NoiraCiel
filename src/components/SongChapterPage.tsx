@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { useAudio } from '@/context/AudioContext'
 import type { Track } from '@/lib/types'
 import ScoreViewer from '@/components/ScoreViewer'
+import MediaProvenanceBadge from '@/components/MediaProvenanceBadge'
 const SongDNA = dynamic(() => import('@/components/SongDNA'), { ssr: false })
 import ApplyTheme from '@/components/ApplyTheme'
 
@@ -514,14 +515,17 @@ export default function SongChapterPage({ track, prev, next, allTracks, albumInd
         {activeTab === 'film' && (
           <div className="pt-8 pb-12">
             {track.musicVideoUrl ? (
-              <video
-                key={track.slug}
-                controls
-                playsInline
-                style={{ width: '100%', display: 'block', background: '#000' }}
-              >
-                <source src={track.musicVideoUrl} type="video/mp4" />
-              </video>
+              <>
+                <video
+                  key={track.slug}
+                  controls
+                  playsInline
+                  style={{ width: '100%', display: 'block', background: '#000' }}
+                >
+                  <source src={track.musicVideoUrl} type="video/mp4" />
+                </video>
+                <MediaProvenanceBadge type="ai-video" className="mt-3 block" />
+              </>
             ) : (
               <div style={{
                 border: '1px solid rgba(196,149,58,0.12)',

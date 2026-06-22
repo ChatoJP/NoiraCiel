@@ -466,3 +466,42 @@ export function getImpactStats() {
     galleryCount: oc.filter(s => s.status === 'featured').length,
   }
 }
+
+// ─── Public transparency ledger ────────────────────────────────────────────────
+// Line-item detail beyond the aggregate counters above — deliberately strips
+// every PII field (no name/email/message/payment IDs) and rounds donation
+// timestamps down to the day, so individual entries can't be cross-referenced
+// back to a specific person via an exact amount + exact time.
+export interface LedgerEntry {
+  date: string // YYYY-MM-DD
+  amountCents: number
+  currency: string
+  type: 'donation' | 'award'
+  category?: ApplicationCategory
+}
+
+export function getLedger(): LedgerEntry[] {
+  const dons = readDons()
+  const apps = readApps()
+
+  const donations: LedgerEntry[] = dons
+    .filter(d => d.status === 'completed')
+    .map(d => ({
+      date: new Date(d.createdAt).toISOString().slice(0, 10),
+      amountCents: d.amountCents,
+      currency: d.currency,
+      type: 'donation' as const,
+    }))
+
+  const awards: LedgerEntry[] = apps
+    .filter(a => a.amountApproved != null && ['funded', 'paid'].includes(a.status))
+    .map(a => ({
+      date: new Date(a.updatedAt).toISOString().slice(0, 10),
+      amountCents: Math.round((a.amountApproved ?? 0) * 100),
+      currency: 'EUR',
+      type: 'award' as const,
+      category: a.category,
+    }))
+
+  return [...donations, ...awards].sort((a, b) => b.date.localeCompare(a.date))
+}

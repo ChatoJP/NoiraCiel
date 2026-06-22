@@ -164,10 +164,10 @@ async function main() {
     trackId: slug,
     trackNumber: track.trackNumber,
   })
-  fs.writeFileSync(LYRIC_VIDEOS_PATH, JSON.stringify(lv, null, 2))
+  r2.atomicWriteJSON(LYRIC_VIDEOS_PATH, lv)
 
   track.lyricVideoUrl = r2Url
-  fs.writeFileSync(CATALOGUE_PATH, JSON.stringify(catalogue, null, 2))
+  r2.atomicWriteJSON(CATALOGUE_PATH, catalogue)
 
   r2.log(`Done. ${slug} lyricVideoUrl -> ${r2Url}`)
 }

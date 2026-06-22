@@ -10,6 +10,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const r2 = require('./lib/r2-client')
 
 const ROOT = path.join(__dirname, '..')
 const CONFIG_PATH = path.join(ROOT, 'public/ghost-performance/config.json')
@@ -60,7 +61,7 @@ for (const t of catalogue.tracks) {
   added++
 }
 
-fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2))
+r2.atomicWriteJSON(CONFIG_PATH, config)
 console.log(`Added ${added} Ghost Performance configs to public/ghost-performance/config.json`)
 
 // Patch the catalogue snapshot too (same pattern used for lyricVideoUrl).
@@ -71,5 +72,5 @@ for (const t of catalogue.tracks) {
     patched++
   }
 }
-fs.writeFileSync(CATALOGUE_PATH, JSON.stringify(catalogue, null, 2))
+r2.atomicWriteJSON(CATALOGUE_PATH, catalogue)
 console.log(`Patched ghostPerformance for ${patched} tracks in music-catalogue.json`)

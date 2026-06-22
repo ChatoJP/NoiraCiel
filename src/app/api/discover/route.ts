@@ -1,29 +1,63 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { NextRequest, NextResponse } from 'next/server'
+import fs from 'fs'
+import path from 'path'
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
-const SYSTEM_PROMPT = `You are the musical soul of NoiraCiel — an Atlantic Noir project of music, literature, and memory. Your job is to match what someone is feeling or going through to the most resonant songs in the catalogue.
+interface Track {
+  slug: string
+  title: string
+  albumSlug: string | null
+  album: string | null
+  trackNumber: number | null
+  lyrics: string | null
+}
+
+function firstLyricLine(lyrics: string | null): string | null {
+  if (!lyrics) return null
+  const line = lyrics.split(/\r?\n/).map((l) => l.trim()).find((l) => l && l.toLowerCase() !== 'inspiration')
+  if (!line) return null
+  return line.length > 100 ? line.slice(0, 100).replace(/\s\S*$/, '') + '…' : line
+}
+
+// Builds the full-catalogue listing for the system prompt from real data —
+// previously this was a hand-typed block covering only the 17 main-album
+// tracks, leaving 113 tracks (87% of the catalogue) invisible to matching.
+function buildCatalogueBlock(): string {
+  const catalogue = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'public/music-catalogue.json'), 'utf-8')
+  ) as { tracks: Track[] }
+  const commentary = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'public/directors-cut-commentary.json'), 'utf-8')
+  ) as Record<string, string>
+
+  const byAlbum = new Map<string, Track[]>()
+  for (const t of catalogue.tracks) {
+    const key = t.album || t.albumSlug || 'Unsorted'
+    if (!byAlbum.has(key)) byAlbum.set(key, [])
+    byAlbum.get(key)!.push(t)
+  }
+
+  const sections: string[] = []
+  for (const [album, tracks] of byAlbum) {
+    tracks.sort((a, b) => (a.trackNumber ?? 999) - (b.trackNumber ?? 999))
+    const lines = tracks.map((t) => {
+      const context = commentary[t.slug]
+        ? commentary[t.slug].slice(0, 110).replace(/\s\S*$/, '') + (commentary[t.slug].length > 110 ? '…' : '')
+        : firstLyricLine(t.lyrics) ?? t.title
+      return `- ${t.title} — ${context} Slug: ${t.slug}`
+    })
+    sections.push(`${album}:\n${lines.join('\n')}`)
+  }
+  return sections.join('\n\n')
+}
+
+function buildSystemPrompt(): string {
+  return `You are the musical soul of NoiraCiel — an Atlantic Noir project of music, literature, and memory. Your job is to match what someone is feeling or going through to the most resonant songs in the catalogue.
 
 CATALOGUE:
-Main Album — The Life Lessons I Hope You Learn:
-1. Why — The lifelong question, searching for meaning that was always already there. Slug: why
-2. Who Wins If I Win — The hollowness of achievement when it costs us the people we love. Slug: who-wins-if-i-win
-3. The Roots We Cannot See — The invisible inheritance from ancestors. Slug: the-roots-we-cannot-see
-4. If We Can't Say The Hard Truths — The weight of words never spoken. Slug: if-we-cant-say-the-hard-truths
-5. Still Worth It — Dignity in honest work. Slug: still-worth-it
-6. Side by Side — The grace of companionship. Slug: side-by-side
-7. As Long as You're Okay — A parent's silent vigil. Slug: as-long-as-youre-okay
-8. It Was Already There — Recognition of love always present. Slug: it-was-already-there
-9. Always in Your Corner — The call that changes the darkness. Slug: always-in-your-corner
-10. The House We Couldn't Leave — An empty house full of absence. Slug: the-house-we-couldnt-leave
-11. I Never Knew Any Other Way — One kind of love, sun-faded. Slug: i-never-knew-any-other-way
-12. Leave a Light On — A window with a light inside. Slug: leave-a-light-on
-13. The Empty Chair — The presence of absence. Slug: the-empty-chair
-14. Good Things Grow Slow — Patience. Seeds. Dignity. Slug: good-things-grow-slow
-15. Maybe I Was Wrong — Revisiting the past with open eyes. Slug: maybe-i-was-wrong
-16. Borrowed Time — Holding hands with the fragile. Slug: borrowed-time
-17. Free Men Tell the Truth — Truth as freedom. Slug: free-men-tell-the-truth
+${buildCatalogueBlock()}
 
 Return JSON only — no markdown, no explanation outside the JSON:
 {
@@ -34,6 +68,7 @@ Return JSON only — no markdown, no explanation outside the JSON:
   ],
   "reflection": "A short, poetic, two-sentence response to what they shared — written in the NoiraCiel voice: warm, honest, not sentimental."
 }`
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -49,7 +84,7 @@ export async function POST(req: NextRequest) {
     const msg = await client.messages.create({
       model: 'claude-sonnet-4-6',
       max_tokens: 600,
-      system: SYSTEM_PROMPT,
+      system: buildSystemPrompt(),
       messages: [{ role: 'user', content: userMsg }],
     })
 
