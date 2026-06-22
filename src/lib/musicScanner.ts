@@ -292,6 +292,22 @@ export const DISCOGRAPHY: DiscographyEntry[] = [
     genre:      'DJ Mix · Party Session',
     subdirName: 'Ak96_Mixes_Party_Session_N1',
   },
+  {
+    slug:       'black-sun-gospel',
+    href:       '/music/black-sun-gospel',
+    meta:       { title: 'Black Sun Gospel', artist: 'NoiraCiel', spotifyUrl: '', appleMusicUrl: '', youtubeUrl: '', totalDuration: 0, totalDurationFormatted: '' },
+    coverSrc:   'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/black-sun-rising.jpg',
+    genre:      'Dark Soul · Blues-Rock · Cinematic Gospel · Slow-Burn DnB/Half-Time',
+    subdirName: 'Black_Sun_Gospel',
+  },
+  {
+    slug:       'the-memory-atlas',
+    href:       '/music/the-memory-atlas',
+    meta:       { title: 'The Memory Atlas', artist: 'NoiraCiel', spotifyUrl: '', appleMusicUrl: '', youtubeUrl: '', totalDuration: 0, totalDurationFormatted: '' },
+    coverSrc:   'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-drawer-that-still-sticks.jpg',
+    genre:      'Cinematic Puzzle-Pop · Art-Rock · Orchestral Trip-Hop · Emotional Electronic Folk',
+    subdirName: 'The_Memory_Atlas',
+  },
 ]
 
 // Maps subdirectory name → { metadata, clean URL slug }  (derived from DISCOGRAPHY)

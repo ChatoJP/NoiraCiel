@@ -1,7 +1,7 @@
 {
   "first-pour": {
     "num": 1,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "d52733dc3f023a796be85cd8b9cb042a",
       "state": "complete",
@@ -11,23 +11,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_4ad32374789d47568c6ed4095a2422cf",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/first-pour.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/first-pour.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_17203c3fa9d9451e95fba8f49069c808",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/first-pour.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/first-pour.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:11:08.006Z"
+    "updatedAt": "2026-06-22T15:37:24.639Z"
   },
   "rebar-litany": {
     "num": 2,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "eb3d7d0c88257c1e4c0e81ae3cb91618",
       "state": "complete",
@@ -37,23 +37,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_468477afb9a24aa681c3b41d7b6f4a42",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/rebar-litany.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/rebar-litany.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_236818586ffb4d5ea7f5c91c743ea051",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/rebar-litany.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/rebar-litany.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:13:12.064Z"
+    "updatedAt": "2026-06-22T15:37:42.074Z"
   },
   "cold-foundry": {
     "num": 3,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "d636c5fb3837fc2b727c47e43212144a",
       "state": "complete",
@@ -63,23 +63,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_63d413d0e55e496d891aded01638b789",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/cold-foundry.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/cold-foundry.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_4206563151d749adacca11ded86ed1ae",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/cold-foundry.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/cold-foundry.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:15:15.785Z"
+    "updatedAt": "2026-06-22T15:37:59.369Z"
   },
   "pressure-vessel": {
     "num": 4,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "d2ef7774ef40552c14952f1ec37ba928",
       "state": "complete",
@@ -89,23 +89,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_8f8bc1a52ec7472ab2d8cc3b1d631078",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/pressure-vessel.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/pressure-vessel.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_34edaf03952e4eb5942c8a99d3fa3cb9",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/pressure-vessel.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/pressure-vessel.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:17:18.952Z"
+    "updatedAt": "2026-06-22T15:38:16.767Z"
   },
   "machine-vespers": {
     "num": 5,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "53b529e9be818ce458bd57067ed16324",
       "state": "complete",
@@ -115,23 +115,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_9a4d096f85414868a772378b3d5ae36a",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/machine-vespers.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/machine-vespers.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_5d2d402448a245b0b9a8426d8836e738",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/machine-vespers.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/machine-vespers.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:19:22.060Z"
+    "updatedAt": "2026-06-22T15:38:34.134Z"
   },
   "tensile-strength": {
     "num": 6,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "95a18e7b485b529bc0e3817bd0c0eedd",
       "state": "complete",
@@ -141,23 +141,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_496678b9479d4b78badffe4b65040a6a",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/tensile-strength.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/tensile-strength.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_d50425555cac4812bc4159211aee9400",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/tensile-strength.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/tensile-strength.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:21:25.659Z"
+    "updatedAt": "2026-06-22T15:38:59.609Z"
   },
   "machine-ritual": {
     "num": 7,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "d2720699bd68aa122f2f6305aaf36fad",
       "state": "complete",
@@ -167,23 +167,23 @@
       "durationFormatted": "1:23"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_aede61bdc9d740fc9732aaf47d562b67",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/machine-ritual.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/machine-ritual.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_e42b1c2e309c47b6ad41bbd1f9005063",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/machine-ritual.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/machine-ritual.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:23:13.430Z"
+    "updatedAt": "2026-06-22T15:39:16.910Z"
   },
   "shockwave-doctrine": {
     "num": 8,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "a05d09cbfe361d979766edebc6632e69",
       "state": "complete",
@@ -193,23 +193,23 @@
       "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_56b6bf66fe0149aaad3d30d5d4d44bd4",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/shockwave-doctrine.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/shockwave-doctrine.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_d0a45fbb8e3a446e932381565358649f",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/shockwave-doctrine.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/shockwave-doctrine.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:25:16.480Z"
+    "updatedAt": "2026-06-22T15:39:34.238Z"
   },
   "concrete-saints": {
     "num": 9,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "ec86c67fafaef89caff4f742babebee5",
       "state": "complete",
@@ -219,96 +219,96 @@
       "durationFormatted": "2:22"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_1e7733645a2441a0ac71ddbaecafe07d",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/concrete-saints.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/concrete-saints.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_1ca667ab8a2f45f7894b807478d05f1d",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/concrete-saints.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/concrete-saints.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:27:19.504Z"
+    "updatedAt": "2026-06-22T15:39:51.622Z"
   },
   "blunt-force-communion": {
     "num": 10,
-    "stage": "metadata_generated",
+    "stage": "images_generated",
     "music": {
       "taskId": "d98fb78d9a1dfbb5d34b30adf13a4e5c",
-      "state": "pending",
-      "audioUrl": null,
-      "r2Key": null,
-      "duration": null,
-      "durationFormatted": ""
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/10_blunt-force-communion.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/10_blunt-force-communion.mp3",
+      "duration": 172.079979,
+      "durationFormatted": "2:52"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_16c7f0c6ab704b48ad5b1739ebbe06e2",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/blunt-force-communion.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/blunt-force-communion.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_c648cb8628f447c0a28e937ac599f3ab",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/blunt-force-communion.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/blunt-force-communion.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:27:19.718Z"
+    "updatedAt": "2026-06-22T15:40:09.014Z"
   },
   "afterglow-protocol": {
     "num": 11,
-    "stage": "metadata_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null,
-      "duration": null,
-      "durationFormatted": ""
+      "taskId": "672764ff8d441a99bc592f7ca4692060",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/11_afterglow-protocol.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/11_afterglow-protocol.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_325e9f993ac44d42bb4853ee50b7b57c",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/afterglow-protocol.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/afterglow-protocol.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_6cc15b2689dc463586566f2cd52b3806",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/afterglow-protocol.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/afterglow-protocol.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:09:04.513Z"
+    "updatedAt": "2026-06-22T15:40:34.655Z"
   },
   "last-light-steel": {
     "num": 12,
-    "stage": "metadata_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null,
-      "duration": null,
-      "durationFormatted": ""
+      "taskId": "2c53d397420396a1ffe4ca0ded454326",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Concrete_Saints/audio/12_last-light-steel.mp3",
+      "r2Key": "party-people/Concrete_Saints/audio/12_last-light-steel.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
     },
     "trackArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_64a21ac1ee7b482c9c34bad427d44d66",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/last-light-steel.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/last-light-steel.jpg"
     },
     "banner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_e6bba22686dd430fbee55e0b9a479b6d",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/last-light-steel.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/last-light-steel.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:09:04.513Z"
+    "updatedAt": "2026-06-22T15:40:52.026Z"
   }
 }
