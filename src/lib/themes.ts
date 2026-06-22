@@ -38,7 +38,10 @@ export const THEMES: Record<ThemeName, ThemeDefinition> = {
   'violet-red': {
     name: 'violet-red',
     label: 'Violet Red',
-    accentRgb: '176, 88, 108',
+    // Lightened +16% from the original 176,88,108 — that pairing was 3.90:1
+    // against its background tint, failing WCAG AA for small text (4.5:1
+    // minimum). This reaches 5.04:1 while keeping the same wine-red hue.
+    accentRgb: '204, 102, 125',
     bgTintRgb: '40, 10, 20',
     mood: 'sensual · dramatic · nocturnal',
   },

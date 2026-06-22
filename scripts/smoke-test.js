@@ -22,6 +22,7 @@ const ROUTES = [
   '/music/the-life-lessons',
   '/songs/why',
   '/objects',
+  '/brand',
   '/discover',
   '/scholarship',
   '/scholarship/transparency',

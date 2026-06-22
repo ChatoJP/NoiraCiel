@@ -43,6 +43,9 @@ jobs:
       - name: Song page consistency audit
         run: node scripts/audit-song-pages.js --strict
 
+      - name: Theme contrast audit
+        run: node scripts/check-theme-contrast.js --strict
+
       - name: Server logs (on failure)
         if: failure()
         run: cat server.log || true
