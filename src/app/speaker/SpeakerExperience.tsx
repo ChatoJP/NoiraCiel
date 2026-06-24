@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react'
 import Link from 'next/link'
+import SignGlyph from './SignGlyph'
 
 // ── Types passed down from the server page ───────────────────────────────────
 interface GlyphView {
@@ -14,6 +15,9 @@ interface GlyphView {
   signKeywords: string[]
   toneNumber: number
   toneName: string
+  lordGlyph: string
+  lordTheme: string
+  trecena: string
   guidance: string
   reflectionQuestion: string
 }
@@ -259,7 +263,13 @@ export default function SpeakerExperience({
           <aside className="lg:sticky lg:top-24 space-y-4 animate-fade-up">
             <div className="border border-noir-silver/10 bg-noir-void/70 backdrop-blur-sm">
               <div className="flex flex-col items-center px-5 pt-6 pb-4 border-b border-noir-silver/8">
-                <GlyphSigil tone={glyph.toneNumber} />
+                {/* Tone ring with the per-sign glyph at its centre */}
+                <div className="relative flex items-center justify-center text-t-accent">
+                  <GlyphSigil tone={glyph.toneNumber} />
+                  <span className="absolute inset-0 flex items-center justify-center">
+                    <SignGlyph sign={glyph.signName} size={46} />
+                  </span>
+                </div>
                 <p className="font-body text-[9px] tracking-[0.4em] uppercase text-noir-gold/45 mt-4">
                   Today’s Glyph
                 </p>
@@ -268,6 +278,9 @@ export default function SpeakerExperience({
                 </p>
                 <p className="font-body text-[11px] text-noir-silver/45 mt-1">
                   Tone {glyph.toneNumber} · {glyph.toneName} · {glyph.signName}
+                </p>
+                <p className="font-body text-[10px] text-noir-silver/35 mt-1.5">
+                  {glyph.trecena} · {glyph.lordGlyph}
                 </p>
               </div>
 
@@ -283,8 +296,8 @@ export default function SpeakerExperience({
               {/* Calendar detail */}
               <div className="px-5 py-3 border-t border-noir-silver/8 grid grid-cols-3 gap-2 text-center">
                 <Detail label="Long Count" value={glyph.longCount} />
-                <Detail label="Tzolk’in" value={glyph.tzolkin} />
                 <Detail label="Haab’" value={glyph.haab} />
+                <Detail label="Night" value={glyph.lordGlyph} />
               </div>
             </div>
 

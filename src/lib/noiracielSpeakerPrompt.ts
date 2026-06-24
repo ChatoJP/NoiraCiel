@@ -81,6 +81,8 @@ function formatGlyphContext(glyph: DailyGlyph): string {
 • Long Count: ${m.longCount.display}
 • Tzolk'in: ${m.tzolkin.display} — sign "${glyph.sign.name}" (${glyph.sign.keywords.join(', ')}); tone ${glyph.tone.number} "${glyph.tone.name}" (${glyph.tone.theme})
 • Haab': ${m.haab.display}
+• Lord of the Night: ${m.lordOfNight.glyph} — ${glyph.lord.theme}
+• Trecena: ${m.trecena.display}
 • Sign — emotional: ${glyph.sign.emotional}
 • Sign — shadow: ${glyph.sign.shadow}
 • Sign — NoiraCiel reading: ${glyph.sign.noiraciel}

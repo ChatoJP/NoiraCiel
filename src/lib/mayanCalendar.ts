@@ -24,6 +24,40 @@
 
 export const GMT_CORRELATION = 584283
 
+/**
+ * "NoiraCiel time" — the canonical timezone the Daily Glyph is computed in.
+ *
+ * The glyph is a single, shared thing for the whole audience, so it must roll
+ * over at one consistent moment rather than at each visitor's local midnight (or,
+ * worse, at the server's UTC midnight — which would show the wrong day to anyone
+ * west of Greenwich). Lisbon / the Atlantic coast is the spiritual home of the
+ * project (Atlantic Noir, Sea-Soul, saudade), so the day turns there.
+ */
+export const NOIRACIEL_TZ = 'Europe/Lisbon'
+
+/**
+ * The current calendar date as it stands in NoiraCiel time, returned as a Date
+ * whose UTC components equal that wall-clock date (so the UTC-based math below
+ * reads the intended day). Defaults to the real "now".
+ */
+export function noiracielToday(now: Date = new Date()): Date {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: NOIRACIEL_TZ,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(now)
+  const get = (t: string) => Number(parts.find((p) => p.type === t)?.value)
+  return new Date(Date.UTC(get('year'), get('month') - 1, get('day')))
+}
+
+// ── The Nine Lords of the Night (Bolon Ti'ku), a 9-day cycle ─────────────────
+// Labelled G1–G9 (the convention from epigraphy, where the deity glyphs are
+// catalogued G1…G9). The era base (0.0.0.0.0) is conventionally associated with
+// G9; the exact deity identities are debated, so we treat this purely as a
+// symbolic 9-day rhythm. Full themes live in src/data/mayanInterpretations.ts.
+export const LORDS_OF_NIGHT = ['G1', 'G2', 'G3', 'G4', 'G5', 'G6', 'G7', 'G8', 'G9'] as const
+
 // ── Tzolk'in day-signs, in canonical order (Imix → Ahau) ─────────────────────
 // Index 0 = Imix. The era base (0.0.0.0.0) lands on Ahau (index 19).
 export const TZOLKIN_SIGNS = [
@@ -97,6 +131,17 @@ export interface MayanDay {
     monthName: string
     display: string     // e.g. "8 Kumku"
   }
+  lordOfNight: {
+    number: number      // 1–9
+    glyph: string       // "G1"…"G9"
+    display: string     // e.g. "G9 — Lord of the Night"
+  }
+  trecena: {
+    position: number    // 1–13 (which day of the 13-day period this is)
+    leadSignIndex: number
+    leadSignName: string
+    display: string     // e.g. "Trecena of Ahau (day 4 of 13)"
+  }
 }
 
 // One-line glosses kept here so the calendar is self-describing even without the
@@ -167,9 +212,10 @@ function isoDate(date: Date): string {
  * getMayanDay — the single public entry point.
  *
  * @param date  A JS Date. Only its UTC calendar date is used (time is ignored).
- *              Defaults to "now" so callers never hardcode today's date.
+ *              Defaults to today in NoiraCiel time so callers never hardcode the
+ *              date and every visitor sees the same shared glyph.
  */
-export function getMayanDay(date: Date = new Date()): MayanDay {
+export function getMayanDay(date: Date = noiracielToday()): MayanDay {
   const jdn = gregorianToJDN(date)
 
   // Days elapsed since the Maya era base (0.0.0.0.0 = JDN 584283).
@@ -197,6 +243,18 @@ export function getMayanDay(date: Date = new Date()): MayanDay {
   const haabDay = haabDayOfYear % 20                 // 0–19 (0–4 for Wayeb)
   const monthName = HAAB_MONTHS[monthIndex]
 
+  // ── Lord of the Night (G1–G9) ─────────────────────────────────────────────
+  // Era base (days = 0) is conventionally G9; the cycle then runs G1…G9.
+  const lordNumber = mod(days + 8, 9) + 1
+  const lordGlyph = LORDS_OF_NIGHT[lordNumber - 1]
+
+  // ── Trecena ───────────────────────────────────────────────────────────────
+  // The 13-day period this day belongs to. Its position is simply the tone; the
+  // period is named by the sign on which it began (tone 1).
+  const trecenaPosition = tone
+  const leadSignIndex = mod(signIndex - (tone - 1), 20)
+  const leadSignName = TZOLKIN_SIGNS[leadSignIndex]
+
   return {
     gregorianDate: isoDate(date),
     julianDayNumber: jdn,
@@ -220,6 +278,17 @@ export function getMayanDay(date: Date = new Date()): MayanDay {
       monthIndex,
       monthName,
       display: `${haabDay} ${monthName}`,
+    },
+    lordOfNight: {
+      number: lordNumber,
+      glyph: lordGlyph,
+      display: `${lordGlyph} — Lord of the Night`,
+    },
+    trecena: {
+      position: trecenaPosition,
+      leadSignIndex,
+      leadSignName,
+      display: `Trecena of ${leadSignName} (day ${trecenaPosition} of 13)`,
     },
   }
 }

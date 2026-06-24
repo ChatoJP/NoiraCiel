@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { getDailyGlyph } from '@/data/mayanInterpretations'
+import { getDailyReflection } from '@/lib/dailyReflection'
 import { recommend } from '@/lib/noiracielRecommendationEngine'
 import SpeakerExperience from './SpeakerExperience'
 
@@ -16,11 +17,14 @@ export const metadata: Metadata = {
   },
 }
 
-export default function SpeakerPage() {
+export default async function SpeakerPage() {
   // Compute the day's glyph + a gentle default recommendation on the server so the
-  // panel paints instantly and the date is never hardcoded.
+  // panel paints instantly and the date is never hardcoded (NoiraCiel time).
   const glyph = getDailyGlyph()
   const seedRec = recommend('', glyph)
+  // AI-authored reflection, cached once per day; falls back to the deterministic
+  // guidance if the model is unavailable.
+  const reflection = await getDailyReflection(glyph)
 
   // Pass only what the client needs — plain serialisable objects.
   const glyphView = {
@@ -33,7 +37,10 @@ export default function SpeakerPage() {
     signKeywords: glyph.sign.keywords,
     toneNumber: glyph.tone.number,
     toneName: glyph.tone.name,
-    guidance: glyph.guidance,
+    lordGlyph: glyph.mayan.lordOfNight.glyph,
+    lordTheme: glyph.lord.theme,
+    trecena: glyph.mayan.trecena.display,
+    guidance: reflection,
     reflectionQuestion: glyph.reflectionQuestion,
   }
 

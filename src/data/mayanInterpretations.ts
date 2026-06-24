@@ -36,6 +36,12 @@ export interface ToneInterpretation {
   creative: string    // creative instruction
 }
 
+export interface LordInterpretation {
+  number: number      // 1–9
+  glyph: string       // "G1"…"G9"
+  theme: string       // the night's undercurrent (symbolic, not scholarly)
+}
+
 // ── The 20 day-signs ─────────────────────────────────────────────────────────
 export const TZOLKIN_INTERPRETATIONS: SignInterpretation[] = [
   {
@@ -328,11 +334,26 @@ export const TONE_INTERPRETATIONS: ToneInterpretation[] = [
   },
 ]
 
+// ── The Nine Lords of the Night ──────────────────────────────────────────────
+// A symbolic 9-day undercurrent. Themes are artistic, not scholarly claims.
+export const LORD_INTERPRETATIONS: LordInterpretation[] = [
+  { number: 1, glyph: 'G1', theme: 'a night of beginnings kept quiet — what stirs before it is named' },
+  { number: 2, glyph: 'G2', theme: 'a night of two minds — the dark where decisions are weighed' },
+  { number: 3, glyph: 'G3', theme: 'a night of water and depth — feeling moving underneath the day' },
+  { number: 4, glyph: 'G4', theme: 'a night of the hearth — the small fire that keeps the house warm' },
+  { number: 5, glyph: 'G5', theme: 'a night of the centre — gathering what was scattered' },
+  { number: 6, glyph: 'G6', theme: 'a night of passage — thresholds crossed while the world sleeps' },
+  { number: 7, glyph: 'G7', theme: 'a night of the jaguar — instinct awake in the dark' },
+  { number: 8, glyph: 'G8', theme: 'a night of completion — what the day built, settling into place' },
+  { number: 9, glyph: 'G9', theme: 'a night of the deep source — the oldest dark, where renewal begins' },
+]
+
 export interface DailyGlyph {
   mayan: MayanDay
   sign: SignInterpretation
   tone: ToneInterpretation
-  /** A woven tone + sign reflection in the NoiraCiel voice. */
+  lord: LordInterpretation
+  /** A woven tone + sign reflection in the NoiraCiel voice (deterministic fallback). */
   guidance: string
   /** A single open question to sit with. */
   reflectionQuestion: string
@@ -363,6 +384,7 @@ const REFLECTION_QUESTIONS = [
 export function combineGlyph(mayan: MayanDay): DailyGlyph {
   const sign = TZOLKIN_INTERPRETATIONS[mayan.tzolkin.signIndex]
   const tone = TONE_INTERPRETATIONS[mayan.tzolkin.tone - 1]
+  const lord = LORD_INTERPRETATIONS[mayan.lordOfNight.number - 1]
 
   const guidance =
     `${tone.advice} ${sign.emotional} ` +
@@ -371,13 +393,14 @@ export function combineGlyph(mayan: MayanDay): DailyGlyph {
   // Deterministic question selection seeded by the Julian Day Number.
   const question = REFLECTION_QUESTIONS[mayan.julianDayNumber % REFLECTION_QUESTIONS.length]
 
-  return { mayan, sign, tone, guidance, reflectionQuestion: question }
+  return { mayan, sign, tone, lord, guidance, reflectionQuestion: question }
 }
 
 /**
- * getDailyGlyph — convenience wrapper: compute the glyph for a date (default now).
- * This is the single function the page, API and recommendation engine call.
+ * getDailyGlyph — convenience wrapper: compute the glyph for a date.
+ * Defaults to today in NoiraCiel time (via getMayanDay). This is the single
+ * function the page, API and recommendation engine call.
  */
-export function getDailyGlyph(date: Date = new Date()): DailyGlyph {
-  return combineGlyph(getMayanDay(date))
+export function getDailyGlyph(date?: Date): DailyGlyph {
+  return combineGlyph(date ? getMayanDay(date) : getMayanDay())
 }
