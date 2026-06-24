@@ -63,6 +63,7 @@ const PRIMARY_LINKS = [
 ]
 
 const MORE_LINKS = [
+  { label: 'Speaker',     href: '/speaker' },
   { label: 'Videos',      href: '#videos' },
   { label: 'Objects',     href: '/objects' },
   { label: 'Shows',       href: '/shows' },
