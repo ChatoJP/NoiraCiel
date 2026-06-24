@@ -94,17 +94,27 @@ export async function POST(req: NextRequest) {
   const encoder = new TextEncoder()
   const readable = new ReadableStream({
     async start(controller) {
+      let emittedAny = false
       try {
         for await (const chunk of stream) {
           if (
             chunk.type === 'content_block_delta' &&
             chunk.delta.type === 'text_delta'
           ) {
+            emittedAny = true
             controller.enqueue(encoder.encode(chunk.delta.text))
           }
         }
       } catch (err) {
         console.error('Speaker stream error:', err)
+        // Headers are already sent (200), so we cannot change the status. If we
+        // never emitted any text, surface a graceful, in-voice fallback instead
+        // of returning a blank reply.
+        if (!emittedAny) {
+          controller.enqueue(
+            encoder.encode('The Speaker has gone quiet for a moment. Try again shortly.'),
+          )
+        }
       } finally {
         controller.close()
       }
