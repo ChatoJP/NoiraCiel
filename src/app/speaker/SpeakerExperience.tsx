@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import SignGlyph from './SignGlyph'
+import KinCard from './KinCard'
 
 // ── Types passed down from the server page ───────────────────────────────────
 interface GlyphView {
@@ -383,23 +384,22 @@ export default function SpeakerExperience({
               <p className="font-body text-[11px] text-noir-silver/45 leading-relaxed mb-4">
                 {wave.noiracielInterpretation}
               </p>
-              <ol className="space-y-1.5">
+              <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-7 gap-2">
                 {wave.days.map((d) => (
-                  <li
+                  <KinCard
                     key={d.position}
-                    className={`flex items-baseline gap-3 px-2 py-1 ${
-                      d.position === wave.currentPosition ? 'bg-noir-gold/5 border-l-2 border-noir-gold/40' : 'border-l-2 border-transparent'
-                    }`}
-                  >
-                    <span className="font-body text-[10px] tabular-nums text-noir-gold/50 w-5 flex-shrink-0">{d.position}</span>
-                    <span className="font-heading italic text-[13px] text-noir-ivory/75 w-20 flex-shrink-0">{d.kinDisplay}</span>
-                    <span className="font-body text-[11px] text-noir-silver/50">{d.shortMeaning}</span>
-                    {d.position === wave.currentPosition && (
-                      <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-gold/60 ml-auto">today</span>
-                    )}
-                  </li>
+                    variant="mini"
+                    active={d.position === wave.currentPosition}
+                    data={{
+                      kinDisplay: d.kinDisplay,
+                      tone: d.tone,
+                      signName: d.signName,
+                      position: d.position,
+                      shortMeaning: d.shortMeaning,
+                    }}
+                  />
                 ))}
-              </ol>
+              </div>
               {wave.albumTitle && wave.albumHref && (
                 <p className="font-body text-[11px] text-noir-silver/45 mt-4">
                   This wave:{' '}
