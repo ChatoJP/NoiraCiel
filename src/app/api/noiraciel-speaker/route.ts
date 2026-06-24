@@ -16,8 +16,8 @@
 
 import Anthropic from '@anthropic-ai/sdk'
 import { NextRequest } from 'next/server'
-import { getDailyGlyph } from '@/data/mayanInterpretations'
-import { recommend } from '@/lib/noiracielRecommendationEngine'
+import { getDailyGlyph, getCurrentWave } from '@/data/mayanInterpretations'
+import { recommend, recommendForWave } from '@/lib/noiracielRecommendationEngine'
 import { buildSpeakerSystemPrompt } from '@/lib/noiracielSpeakerPrompt'
 
 export const dynamic = 'force-dynamic'
@@ -73,10 +73,12 @@ export async function POST(req: NextRequest) {
     return jsonError('Say something to the Speaker first.', 400)
   }
 
-  // Live grounding: today's glyph + a recommendation for the latest message.
+  // Live grounding: today's glyph, the current 13-day wave, and recommendations.
   const glyph = getDailyGlyph()
+  const wave = getCurrentWave()
   const recommendation = recommend(lastUser.content, glyph)
-  const system = buildSpeakerSystemPrompt({ glyph, recommendation })
+  const waveRecommendation = recommendForWave(wave)
+  const system = buildSpeakerSystemPrompt({ glyph, recommendation, wave, waveRecommendation })
 
   let stream
   try {

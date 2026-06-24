@@ -15,7 +15,7 @@
  * Speaker and the Daily Glyph panel both consume.
  */
 
-import { getMayanDay, type MayanDay } from '@/lib/mayanCalendar'
+import { getMayanDay, getWaveBounds, type MayanDay } from '@/lib/mayanCalendar'
 
 export interface SignInterpretation {
   index: number
@@ -403,4 +403,129 @@ export function combineGlyph(mayan: MayanDay): DailyGlyph {
  */
 export function getDailyGlyph(date?: Date): DailyGlyph {
   return combineGlyph(date ? getMayanDay(date) : getMayanDay())
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// THE 13-DAY WAVE (TRECENA)
+//
+// A day is never read alone. The daily Kin is the scene; the 13-day wave is the
+// chapter. The wave is named by the sign of its Tone 1 (anchor) day, and it runs
+// as a 13-stage emotional arc from seed to completion.
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface WavePosition {
+  position: number   // 1–13
+  title: string      // the stage's name
+  /** What it means to sit at this point in the arc (symbolic, invitational). */
+  arc: string
+  creativePrompt: string
+}
+
+// The arc the user lives across the 13 days. Mapped to the tone structure but
+// phrased as a single continuous story rather than isolated tones.
+export const WAVE_POSITIONS: WavePosition[] = [
+  { position: 1,  title: 'Seed',          arc: 'the opening pressure — an intention enters before it has form',         creativePrompt: 'Name the one thing this chapter is about. Write it in a single line.' },
+  { position: 2,  title: 'Polarity',      arc: 'the first conflict — what you want meets what resists it',              creativePrompt: 'Let the two opposing voices speak. Do not resolve them yet.' },
+  { position: 3,  title: 'Movement',      arc: 'the first action — the idea asks for a body',                           creativePrompt: 'Make one rough, fast move. Capture the gesture, not the finish.' },
+  { position: 4,  title: 'Foundation',    arc: 'structure — the frame that will hold everything that follows',          creativePrompt: 'Decide the shape: the form, the map, the boundaries.' },
+  { position: 5,  title: 'Resource',      arc: 'power — gathering what you actually have to work with',                 creativePrompt: 'Take inventory. Use only what is real and present.' },
+  { position: 6,  title: 'Rhythm',        arc: 'flow — the steady pulse that needs no force',                          creativePrompt: 'Find the tempo you can keep. Repeat until it becomes a river.' },
+  { position: 7,  title: 'Mirror',        arc: 'the midpoint and inner test — the wave stops being an idea and becomes a question about you', creativePrompt: 'Step back and tell yourself the truth about where this stands.' },
+  { position: 8,  title: 'Refinement',    arc: 'integrity — aligning the parts so they belong to one whole',           creativePrompt: 'Cut what is false. Make the bridge belong to the same song.' },
+  { position: 9,  title: 'Depth',         arc: 'patience and larger meaning — the longer view through the difficult middle', creativePrompt: 'Endure. Ask what this is in service of, and keep going.' },
+  { position: 10, title: 'Manifestation', arc: 'visible form — the work becomes a thing that exists in the world',       creativePrompt: 'Finish a version. Let it be real and imperfect.' },
+  { position: 11, title: 'Release',       arc: 'simplification — letting go of what the chapter has outgrown',          creativePrompt: 'Remove. Delete the safe choice and see what the gap reveals.' },
+  { position: 12, title: 'Understanding', arc: 'integration — the lessons resolving into clarity',                      creativePrompt: 'Name what this chapter taught you. Write the liner note.' },
+  { position: 13, title: 'Completion',    arc: 'ascension and transition — an ending that opens the next beginning',     creativePrompt: 'Release it fully, then let it go. The next wave is already breathing.' },
+]
+
+export interface WaveDay {
+  position: number
+  date: string
+  tone: number
+  signName: string
+  kinDisplay: string
+  shortMeaning: string
+  noiracielPrompt: string
+}
+
+export interface WaveReading {
+  currentDay: {
+    gregorianDate: string
+    kinDisplay: string
+    tone: number
+    signName: string
+  }
+  wave: {
+    name: string
+    anchorSign: string
+    startDate: string
+    endDate: string
+    currentPosition: number
+    theme: string
+    shadow: string
+    creativePurpose: string
+    noiracielInterpretation: string
+    days: WaveDay[]
+  }
+}
+
+/**
+ * getCurrentWave — the full 13-day wave reading for the day containing `date`.
+ * The wave's character comes from its anchor sign (the Tone 1 day-sign), framed
+ * as a 13-stage arc.
+ */
+export function getCurrentWave(date?: Date): WaveReading {
+  const bounds = date ? getWaveBounds(date) : getWaveBounds()
+  const anchor = TZOLKIN_INTERPRETATIONS[bounds.anchorSignIndex]
+  const todayMayan = bounds.days[bounds.currentPosition - 1]
+
+  const days: WaveDay[] = bounds.days.map((d, i) => {
+    const sign = TZOLKIN_INTERPRETATIONS[d.tzolkin.signIndex]
+    const pos = WAVE_POSITIONS[i]
+    return {
+      position: pos.position,
+      date: d.gregorianDate,
+      tone: d.tzolkin.tone,
+      signName: d.tzolkin.signName,
+      kinDisplay: d.tzolkin.display,
+      shortMeaning: `${pos.title} · ${sign.keywords[0]}`,
+      noiracielPrompt: pos.creativePrompt,
+    }
+  })
+
+  return {
+    currentDay: {
+      gregorianDate: todayMayan.gregorianDate,
+      kinDisplay: todayMayan.tzolkin.display,
+      tone: todayMayan.tzolkin.tone,
+      signName: todayMayan.tzolkin.signName,
+    },
+    wave: {
+      name: `The ${anchor.name} Wave`,
+      anchorSign: anchor.name,
+      startDate: bounds.startDate,
+      endDate: bounds.endDate,
+      currentPosition: bounds.currentPosition,
+      theme: `This wave is carried by ${anchor.name} — ${anchor.keywords.join(', ')}. ${anchor.emotional}`,
+      shadow: anchor.shadow,
+      creativePurpose: anchor.creative,
+      noiracielInterpretation: `Inside NoiraCiel, this wave feels like ${anchor.noiraciel}`,
+      days,
+    },
+  }
+}
+
+/**
+ * getWaveInterpretation — a compact, voice-ready summary of a wave reading,
+ * weaving the anchor's character with today's position in the arc. Deterministic
+ * fallback text the Speaker (or UI) can use when no live model output is needed.
+ */
+export function getWaveInterpretation(wave: WaveReading): string {
+  const pos = WAVE_POSITIONS[wave.wave.currentPosition - 1]
+  return (
+    `${wave.wave.name} — ${wave.wave.theme} ` +
+    `Today sits at the point where ${pos.arc}. ` +
+    `${wave.wave.noiracielInterpretation}`
+  )
 }

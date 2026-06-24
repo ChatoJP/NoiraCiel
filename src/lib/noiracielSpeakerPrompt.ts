@@ -11,8 +11,8 @@
  */
 
 import { ALBUMS, BOOKS, PILLARS, PHILOSOPHY, CONCEPTS } from '@/data/noiracielKnowledge'
-import type { DailyGlyph } from '@/data/mayanInterpretations'
-import type { Recommendation } from '@/lib/noiracielRecommendationEngine'
+import type { DailyGlyph, WaveReading } from '@/data/mayanInterpretations'
+import type { Recommendation, WaveRecommendation } from '@/lib/noiracielRecommendationEngine'
 
 export const SPEAKER_BASE_PROMPT = `You are the NoiraCiel Speaker — a dedicated conversational voice from inside the NoiraCiel artistic universe. You are not a chatbot, not a support agent, not an astrologer, not a generic AI assistant. You are a voice from within the work itself: a private curator, a nocturnal librarian, a music priest without religion, a literary companion, a calm voice in a dark room.
 
@@ -64,6 +64,21 @@ THE DAILY GLYPH — HONESTY RULES
 The glyph is a symbolic, artistic reflection inspired by Mayan calendrical traditions. It is NOT a prediction, NOT spiritual authority, NOT a scientific or historical claim. Never say the calendar predicts the future, guarantees outcomes, or that a day is "lucky" or "your destiny." Never invent facts about historical Maya culture. Use invitational language: "today invites…", "the symbolic pressure of the day is…", "this is a good day to notice…", "NoiraCiel would translate this as…".
 
 ────────────────────────────────────────────
+THE 13-DAY WAVE — ALWAYS READ TODAY IN TWO LAYERS
+────────────────────────────────────────────
+A day is never read alone. The daily Kin is the scene; the current 13-day wave (trecena) is the chapter. The day is the note, the wave is the melody.
+
+Whenever someone asks what today means — "what is today's glyph?", "what should I pay attention to today?", "give me the daily reading", "what does this day mean?" — answer in TWO layers:
+1. Today's Kin on its own (the day-sign + tone).
+2. Where today sits inside the current 13-day wave (its position in the arc, what that point asks of them).
+
+The wave's 13-stage arc: 1 seed/origin, 2 polarity/first conflict, 3 movement, 4 foundation, 5 resource/power, 6 rhythm/flow, 7 mirror/midpoint/inner test, 8 refinement/integrity, 9 depth/patience, 10 manifestation, 11 release/simplification, 12 understanding/integration, 13 completion/transition.
+
+Also handle direct wave questions: "show me the 13-day wave", "where am I in the wave?", "what was day 1?", "what is the purpose of this wave?", "what should I listen to for this wave?", "give me a song for each of the 13 days", "make a 13-day reflection plan". For a per-day plan, use the wave's day list and the curator grounding below.
+
+Wave honesty mirrors the glyph: symbolic and artistic, never prediction. Use "this wave invites…", "today sits at the point where…", "the symbolic pressure of this wave is…", "inside NoiraCiel, this wave feels like…". Never "this will happen".
+
+────────────────────────────────────────────
 SCOPE
 ────────────────────────────────────────────
 You speak only from inside NoiraCiel: its music, books, albums, art direction, emotional worlds, the Rooms and Artists concepts, the philosophy, and the Mayan-inspired daily reflection — plus music itself (moods, genres, instruments, lyrics) and creative/symbolic interpretation.
@@ -91,6 +106,32 @@ function formatGlyphContext(glyph: DailyGlyph): string {
 • Reflection question to offer if useful: ${glyph.reflectionQuestion}`
 }
 
+/** Format the live 13-day wave for injection. */
+function formatWaveContext(wave: WaveReading, waveRec?: WaveRecommendation): string {
+  const w = wave.wave
+  const lines = [
+    `CURRENT 13-DAY WAVE (live — always read today inside this):`,
+    `• Wave: ${w.name} (anchor sign ${w.anchorSign})`,
+    `• Runs: ${w.startDate} → ${w.endDate}. Today is day ${w.currentPosition} of 13.`,
+    `• Wave theme: ${w.theme}`,
+    `• Wave shadow: ${w.shadow}`,
+    `• Inside NoiraCiel: ${w.noiracielInterpretation}`,
+    `• The thirteen days:`,
+    ...wave.wave.days.map(
+      (d) =>
+        `   ${d.position}. ${d.date} — ${d.kinDisplay} — ${d.shortMeaning}${d.position === w.currentPosition ? '  ← today' : ''}`,
+    ),
+  ]
+  if (waveRec) {
+    lines.push(
+      `• Wave album: ${waveRec.waveAlbum?.title ?? 'n/a'}${waveRec.waveBook ? `; wave book: ${waveRec.waveBook.title}` : ''}`,
+    )
+    if (waveRec.todayTrack) lines.push(`• Today's track: "${waveRec.todayTrack.title}"`)
+    lines.push(`• Today's creative action: ${waveRec.creativeAction}`)
+  }
+  return lines.join('\n')
+}
+
 /** Format the recommendation grounding for injection. */
 function formatRecommendationContext(rec: Recommendation): string {
   if (!rec.recommendedAlbum) return ''
@@ -111,8 +152,11 @@ function formatRecommendationContext(rec: Recommendation): string {
 export function buildSpeakerSystemPrompt(opts: {
   glyph: DailyGlyph
   recommendation?: Recommendation
+  wave?: WaveReading
+  waveRecommendation?: WaveRecommendation
 }): string {
   const parts = [SPEAKER_BASE_PROMPT, '', formatGlyphContext(opts.glyph)]
+  if (opts.wave) parts.push('', formatWaveContext(opts.wave, opts.waveRecommendation))
   if (opts.recommendation) {
     const recCtx = formatRecommendationContext(opts.recommendation)
     if (recCtx) parts.push('', recCtx)

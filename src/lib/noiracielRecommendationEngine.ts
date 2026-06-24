@@ -19,7 +19,7 @@ import {
   type KnowledgeBook,
   type SongEntry,
 } from '@/data/noiracielKnowledge'
-import type { DailyGlyph } from '@/data/mayanInterpretations'
+import { WAVE_POSITIONS, type DailyGlyph, type WaveReading } from '@/data/mayanInterpretations'
 
 export interface Recommendation {
   detectedMoods: string[]
@@ -184,4 +184,53 @@ function buildReason(
     : ''
 
   return `For ${moodPhrase}, I would place you near ${album.title} — ${album.world}.${glyphPhrase}`
+}
+
+// ── Wave-level recommendations ───────────────────────────────────────────────
+
+export interface WaveRecommendation {
+  waveAlbum: KnowledgeAlbum | null
+  todayTrack: SongEntry | null
+  waveBook: KnowledgeBook | null
+  creativeAction: string        // today's creative prompt within the wave arc
+  reason: string
+  /** One track per position (1–13) for a full reflection plan, when asked. */
+  dayTracks: { position: number; date: string; track: SongEntry | null }[]
+}
+
+/**
+ * recommendForWave — choose music/book/action for the whole 13-day wave plus
+ * today's track and an optional track-per-day plan.
+ *
+ * The wave's character comes from its anchor sign; the album is scored against
+ * the anchor's keywords so one record carries the whole chapter.
+ */
+export function recommendForWave(wave: WaveReading): WaveRecommendation {
+  const tags = wave.wave.anchorSign
+    ? [...wave.wave.theme.toLowerCase().split(/[^a-z]+/).filter(Boolean)]
+    : []
+
+  const ranked = ALBUMS
+    .map((a) => ({ album: a, score: scoreAlbum(a, tags) }))
+    .sort((a, b) => b.score - a.score)
+
+  // Deterministic seed from the wave start so the choice is stable for 13 days.
+  const seed = wave.wave.startDate.split('-').reduce((n, p) => n + Number(p), 0)
+  const waveAlbum = ranked[0] && ranked[0].score > 0 ? ranked[0].album : ALBUMS[seed % ALBUMS.length]
+
+  const todayTrack = pickTrack(waveAlbum.id, seed + wave.wave.currentPosition)
+  const waveBook = getBookForAlbum(waveAlbum.id) ?? BOOKS[seed % BOOKS.length]
+  const creativeAction = WAVE_POSITIONS[wave.wave.currentPosition - 1].creativePrompt
+
+  const dayTracks = wave.wave.days.map((d) => ({
+    position: d.position,
+    date: d.date,
+    track: pickTrack(waveAlbum.id, seed + d.position),
+  }))
+
+  const reason =
+    `${wave.wave.name} carries ${wave.wave.anchorSign} — ${wave.wave.theme} ` +
+    `${waveAlbum.title} (${waveAlbum.world}) holds that arc across the thirteen days.`
+
+  return { waveAlbum, todayTrack, waveBook, creativeAction, reason, dayTracks }
 }

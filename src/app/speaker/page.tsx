@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
-import { getDailyGlyph } from '@/data/mayanInterpretations'
+import { getDailyGlyph, getCurrentWave } from '@/data/mayanInterpretations'
 import { getDailyReflection } from '@/lib/dailyReflection'
-import { recommend } from '@/lib/noiracielRecommendationEngine'
+import { recommend, recommendForWave } from '@/lib/noiracielRecommendationEngine'
 import SpeakerExperience from './SpeakerExperience'
 
 export const dynamic = 'force-dynamic' // the glyph changes by day
@@ -55,5 +55,30 @@ export default async function SpeakerPage() {
       }
     : null
 
-  return <SpeakerExperience glyph={glyphView} recommendation={recView} />
+  // The current 13-day wave — always present so the panel is never empty.
+  const wave = getCurrentWave()
+  const waveRec = recommendForWave(wave)
+  const waveView = {
+    name: wave.wave.name,
+    anchorSign: wave.wave.anchorSign,
+    startDate: wave.wave.startDate,
+    endDate: wave.wave.endDate,
+    currentPosition: wave.wave.currentPosition,
+    theme: wave.wave.theme,
+    noiracielInterpretation: wave.wave.noiracielInterpretation,
+    albumTitle: waveRec.waveAlbum?.title ?? null,
+    albumHref: waveRec.waveAlbum?.href ?? null,
+    bookTitle: waveRec.waveBook?.title ?? null,
+    creativeAction: waveRec.creativeAction,
+    days: wave.wave.days.map((d) => ({
+      position: d.position,
+      date: d.date,
+      tone: d.tone,
+      signName: d.signName,
+      kinDisplay: d.kinDisplay,
+      shortMeaning: d.shortMeaning,
+    })),
+  }
+
+  return <SpeakerExperience glyph={glyphView} recommendation={recView} wave={waveView} />
 }

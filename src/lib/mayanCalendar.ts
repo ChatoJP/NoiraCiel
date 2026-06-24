@@ -292,3 +292,47 @@ export function getMayanDay(date: Date = noiracielToday()): MayanDay {
     },
   }
 }
+
+// Add a whole number of days to a UTC date and return the new date.
+function addDays(date: Date, n: number): Date {
+  const d = new Date(date)
+  d.setUTCDate(d.getUTCDate() + n)
+  return d
+}
+
+/**
+ * getWaveDays — the 13 MayanDays of the trecena (13-day wave) containing `date`.
+ *
+ * The wave begins on the day of Tone 1 and runs to Tone 13. Returned in order,
+ * index 0 = Tone 1 … index 12 = Tone 13. Pure and dependency-free; the rich
+ * interpretation layer (themes, per-position meaning) lives in
+ * src/data/mayanInterpretations.ts to avoid a circular dependency.
+ */
+export function getWaveDays(date: Date = noiracielToday()): MayanDay[] {
+  const today = getMayanDay(date)
+  const waveStart = addDays(date, -(today.tzolkin.tone - 1))
+  return Array.from({ length: 13 }, (_, i) => getMayanDay(addDays(waveStart, i)))
+}
+
+/**
+ * getWaveBounds — structural facts about the current wave (no interpretation).
+ */
+export function getWaveBounds(date: Date = noiracielToday()): {
+  startDate: string
+  endDate: string
+  currentPosition: number
+  anchorSign: string
+  anchorSignIndex: number
+  days: MayanDay[]
+} {
+  const days = getWaveDays(date)
+  const today = getMayanDay(date)
+  return {
+    startDate: days[0].gregorianDate,
+    endDate: days[12].gregorianDate,
+    currentPosition: today.tzolkin.tone,
+    anchorSign: days[0].tzolkin.signName,
+    anchorSignIndex: days[0].tzolkin.signIndex,
+    days,
+  }
+}

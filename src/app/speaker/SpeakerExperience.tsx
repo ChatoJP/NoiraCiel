@@ -31,6 +31,30 @@ interface RecommendationView {
   bookTitle: string | null
 }
 
+interface WaveDayView {
+  position: number
+  date: string
+  tone: number
+  signName: string
+  kinDisplay: string
+  shortMeaning: string
+}
+
+interface WaveView {
+  name: string
+  anchorSign: string
+  startDate: string
+  endDate: string
+  currentPosition: number
+  theme: string
+  noiracielInterpretation: string
+  albumTitle: string | null
+  albumHref: string | null
+  bookTitle: string | null
+  creativeAction: string
+  days: WaveDayView[]
+}
+
 interface Message {
   role: 'user' | 'assistant'
   content: string
@@ -42,11 +66,12 @@ I can guide you through NoiraCiel — its songs, books, albums, moods, and the g
 
 const STARTERS = [
   'What should I listen to today?',
+  'Show me the 13-day wave.',
+  'Where am I in the current wave?',
   'Read today’s glyph.',
+  'Give me a song for each of the 13 days.',
   'Guide me through NoiraCiel.',
   'I feel restless. What should I hear?',
-  'Which book chapter belongs to today?',
-  'Explain NoiraCiel to me.',
   'Give me a symbolic reading for today.',
 ]
 
@@ -113,9 +138,11 @@ function SpeakerIcon({ muted }: { muted?: boolean }) {
 export default function SpeakerExperience({
   glyph,
   recommendation,
+  wave,
 }: {
   glyph: GlyphView
   recommendation: RecommendationView | null
+  wave: WaveView
 }) {
   const [messages, setMessages] = useState<Message[]>([{ role: 'assistant', content: OPENER }])
   const [input, setInput] = useState('')
@@ -123,8 +150,10 @@ export default function SpeakerExperience({
   const [autoRead, setAutoRead] = useState(false)
   const [ttsSupported, setTtsSupported] = useState(false)
   const [speakingIdx, setSpeakingIdx] = useState<number | null>(null)
+  const [waveExpanded, setWaveExpanded] = useState(false)
 
   const bottomRef = useRef<HTMLDivElement>(null)
+  const chatRef = useRef<HTMLElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
   const abortRef = useRef<AbortController | null>(null)
 
@@ -236,6 +265,12 @@ export default function SpeakerExperience({
     }
   }
 
+  // Ask the Speaker to read the current wave, scrolling the chat into view.
+  const askAboutWave = useCallback(() => {
+    chatRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    send(`Read the current 13-day wave for me — ${wave.name}. Where does today (day ${wave.currentPosition} of 13) sit inside it, and what should I listen to for this wave?`)
+  }, [send, wave.name, wave.currentPosition])
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* Ambient background glow */}
@@ -257,6 +292,131 @@ export default function SpeakerExperience({
             A private voice for music, books, emotion, and symbolic time.
           </p>
         </header>
+
+        {/* ── Current 13-Day Wave ──────────────────────────────────────── */}
+        <section className="mb-8 border border-noir-silver/10 bg-noir-void/60 backdrop-blur-sm animate-fade-up">
+          <div className="flex items-start justify-between gap-4 px-5 sm:px-6 pt-5 pb-3 flex-wrap">
+            <div className="flex items-center gap-4">
+              <span className="text-t-accent">
+                <SignGlyph sign={wave.anchorSign} size={42} />
+              </span>
+              <div>
+                <p className="font-body text-[9px] tracking-[0.4em] uppercase text-noir-gold/45">
+                  Current 13-Day Wave
+                </p>
+                <p className="font-heading italic text-xl text-noir-ivory/85 leading-tight mt-0.5">
+                  {wave.name}
+                </p>
+                <p className="font-body text-[10px] text-noir-silver/40 mt-1">
+                  {wave.startDate} → {wave.endDate} · Day {wave.currentPosition} of 13 · anchor {wave.anchorSign}
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setWaveExpanded((v) => !v)}
+                className="font-body text-[10px] tracking-[0.2em] uppercase text-noir-silver/45 border border-noir-silver/12 px-3 py-1.5 hover:border-noir-gold/40 hover:text-noir-gold/80 transition-colors"
+              >
+                {waveExpanded ? 'Hide the wave' : 'Read the full wave'}
+              </button>
+              <button
+                onClick={() => askAboutWave()}
+                className="font-body text-[10px] tracking-[0.2em] uppercase text-noir-gold/70 border border-noir-gold/30 px-3 py-1.5 hover:border-noir-gold/60 hover:text-noir-gold transition-colors disabled:opacity-30"
+                disabled={streaming}
+              >
+                Ask the Speaker
+              </button>
+            </div>
+          </div>
+
+          {/* Horizontal 13-day timeline */}
+          <div className="px-5 sm:px-6 pb-5 pt-1">
+            <div className="flex items-end justify-between gap-1 sm:gap-1.5">
+              {wave.days.map((d) => {
+                const isToday = d.position === wave.currentPosition
+                const isEdge = d.position === 1 || d.position === 13
+                return (
+                  <button
+                    key={d.position}
+                    onClick={() => setWaveExpanded(true)}
+                    title={`${d.kinDisplay} — ${d.shortMeaning}`}
+                    className="group flex flex-col items-center flex-1 min-w-0"
+                  >
+                    <span
+                      className={`block rounded-full transition-all ${
+                        isToday
+                          ? 'bg-t-accent shadow-[0_0_12px_rgb(var(--t-accent-rgb))]'
+                          : isEdge
+                            ? 'bg-noir-gold/45 ring-1 ring-noir-gold/40'
+                            : 'bg-noir-silver/25 group-hover:bg-noir-silver/50'
+                      }`}
+                      style={{
+                        width: isToday ? 12 : 8,
+                        height: isToday ? 12 : 8,
+                        marginBottom: isToday ? 0 : 2,
+                      }}
+                    />
+                    <span
+                      className={`mt-1.5 font-body text-[8px] tabular-nums ${
+                        isToday ? 'text-noir-gold/90' : 'text-noir-silver/30'
+                      }`}
+                    >
+                      {d.tone}
+                    </span>
+                  </button>
+                )
+              })}
+            </div>
+            <div className="flex justify-between mt-1.5">
+              <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-silver/25">Seed</span>
+              <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-silver/25">Mirror</span>
+              <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-silver/25">Completion</span>
+            </div>
+          </div>
+
+          {/* Expanded: the full 13-day arc */}
+          {waveExpanded && (
+            <div className="px-5 sm:px-6 pb-5 border-t border-noir-silver/8 pt-4 animate-fade-in">
+              <p className="font-heading italic text-[13px] text-noir-ivory/70 leading-[1.7] mb-1">
+                {wave.theme}
+              </p>
+              <p className="font-body text-[11px] text-noir-silver/45 leading-relaxed mb-4">
+                {wave.noiracielInterpretation}
+              </p>
+              <ol className="space-y-1.5">
+                {wave.days.map((d) => (
+                  <li
+                    key={d.position}
+                    className={`flex items-baseline gap-3 px-2 py-1 ${
+                      d.position === wave.currentPosition ? 'bg-noir-gold/5 border-l-2 border-noir-gold/40' : 'border-l-2 border-transparent'
+                    }`}
+                  >
+                    <span className="font-body text-[10px] tabular-nums text-noir-gold/50 w-5 flex-shrink-0">{d.position}</span>
+                    <span className="font-heading italic text-[13px] text-noir-ivory/75 w-20 flex-shrink-0">{d.kinDisplay}</span>
+                    <span className="font-body text-[11px] text-noir-silver/50">{d.shortMeaning}</span>
+                    {d.position === wave.currentPosition && (
+                      <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-gold/60 ml-auto">today</span>
+                    )}
+                  </li>
+                ))}
+              </ol>
+              {wave.albumTitle && wave.albumHref && (
+                <p className="font-body text-[11px] text-noir-silver/45 mt-4">
+                  This wave:{' '}
+                  <Link href={wave.albumHref} className="text-noir-ivory/75 hover:text-noir-gold transition-colors">
+                    {wave.albumTitle}
+                  </Link>
+                  {wave.bookTitle && <> · to read: <span className="text-noir-silver/65">{wave.bookTitle}</span></>}
+                </p>
+              )}
+              <p className="font-body text-[9px] leading-relaxed text-noir-silver/25 mt-4">
+                The 13-day wave is a symbolic and artistic interpretation inspired by
+                Mesoamerican calendrical cycles. It is not a prediction, scientific
+                claim, or spiritual authority.
+              </p>
+            </div>
+          )}
+        </section>
 
         <div className="grid lg:grid-cols-[320px_1fr] gap-6 lg:gap-8 items-start">
           {/* ── Left panel: Today's Glyph ───────────────────────────── */}
@@ -335,7 +495,7 @@ export default function SpeakerExperience({
           </aside>
 
           {/* ── Main panel: conversation ────────────────────────────── */}
-          <section className="flex flex-col min-h-[60vh] border border-noir-silver/10 bg-[#04040a]/85 backdrop-blur-md animate-fade-up">
+          <section ref={chatRef} className="flex flex-col min-h-[60vh] border border-noir-silver/10 bg-[#04040a]/85 backdrop-blur-md animate-fade-up scroll-mt-24">
             {/* Panel header */}
             <div className="flex items-center justify-between px-5 py-3.5 border-b border-noir-silver/8 flex-shrink-0">
               <div className="flex items-center gap-3">
