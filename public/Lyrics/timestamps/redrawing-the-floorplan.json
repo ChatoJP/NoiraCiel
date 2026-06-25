@@ -1,0 +1,1368 @@
+{
+  "title": "Redrawing The Floorplan",
+  "slug": "redrawing-the-floorplan",
+  "trackNumber": 13,
+  "duration": 199.0,
+  "words": [
+    {
+      "word": "We're",
+      "start": 4.42,
+      "end": 5.82
+    },
+    {
+      "word": "starting",
+      "start": 5.82,
+      "end": 6.52
+    },
+    {
+      "word": "the",
+      "start": 6.52,
+      "end": 7.1
+    },
+    {
+      "word": "Atlas",
+      "start": 7.1,
+      "end": 7.92
+    },
+    {
+      "word": "over,",
+      "start": 7.92,
+      "end": 8.94
+    },
+    {
+      "word": "the",
+      "start": 10.26,
+      "end": 11.32
+    },
+    {
+      "word": "same",
+      "start": 11.32,
+      "end": 11.7
+    },
+    {
+      "word": "house,",
+      "start": 11.7,
+      "end": 12.46
+    },
+    {
+      "word": "new",
+      "start": 13.24,
+      "end": 13.54
+    },
+    {
+      "word": "ink.",
+      "start": 13.54,
+      "end": 14.3
+    },
+    {
+      "word": "The",
+      "start": 16.74,
+      "end": 17.22
+    },
+    {
+      "word": "shed",
+      "start": 17.22,
+      "end": 17.5
+    },
+    {
+      "word": "isn't",
+      "start": 17.5,
+      "end": 18.22
+    },
+    {
+      "word": "a",
+      "start": 18.22,
+      "end": 18.5
+    },
+    {
+      "word": "question",
+      "start": 18.5,
+      "end": 19.04
+    },
+    {
+      "word": "mark",
+      "start": 19.04,
+      "end": 20.04
+    },
+    {
+      "word": "anymore,",
+      "start": 20.04,
+      "end": 21.26
+    },
+    {
+      "word": "it's",
+      "start": 21.94,
+      "end": 22.14
+    },
+    {
+      "word": "just",
+      "start": 22.14,
+      "end": 22.32
+    },
+    {
+      "word": "a",
+      "start": 22.32,
+      "end": 22.62
+    },
+    {
+      "word": "shed.",
+      "start": 22.62,
+      "end": 22.88
+    },
+    {
+      "word": "The",
+      "start": 27.54,
+      "end": 28.46
+    },
+    {
+      "word": "burned",
+      "start": 28.46,
+      "end": 29.14
+    },
+    {
+      "word": "corner",
+      "start": 29.14,
+      "end": 29.84
+    },
+    {
+      "word": "has",
+      "start": 29.84,
+      "end": 30.56
+    },
+    {
+      "word": "a",
+      "start": 30.56,
+      "end": 31.08
+    },
+    {
+      "word": "name,",
+      "start": 31.08,
+      "end": 31.48
+    },
+    {
+      "word": "written",
+      "start": 32.44,
+      "end": 32.8
+    },
+    {
+      "word": "under",
+      "start": 32.8,
+      "end": 33.52
+    },
+    {
+      "word": "it",
+      "start": 33.52,
+      "end": 33.82
+    },
+    {
+      "word": "now,",
+      "start": 33.82,
+      "end": 34.34
+    },
+    {
+      "word": "every",
+      "start": 35.2,
+      "end": 35.6
+    },
+    {
+      "word": "room",
+      "start": 35.6,
+      "end": 36.0
+    },
+    {
+      "word": "I",
+      "start": 36.0,
+      "end": 36.3
+    },
+    {
+      "word": "used",
+      "start": 36.3,
+      "end": 36.62
+    },
+    {
+      "word": "to",
+      "start": 36.62,
+      "end": 36.9
+    },
+    {
+      "word": "draw",
+      "start": 36.9,
+      "end": 37.26
+    },
+    {
+      "word": "empty,",
+      "start": 37.26,
+      "end": 38.02
+    },
+    {
+      "word": "I'm",
+      "start": 38.98,
+      "end": 39.34
+    },
+    {
+      "word": "filling",
+      "start": 39.34,
+      "end": 39.7
+    },
+    {
+      "word": "it.",
+      "start": 39.7,
+      "end": 40.04
+    },
+    {
+      "word": "The",
+      "start": 45.18,
+      "end": 45.94
+    },
+    {
+      "word": "hallway's",
+      "start": 45.94,
+      "end": 46.7
+    },
+    {
+      "word": "still",
+      "start": 46.7,
+      "end": 47.04
+    },
+    {
+      "word": "19",
+      "start": 47.04,
+      "end": 47.62
+    },
+    {
+      "word": "feet,",
+      "start": 47.62,
+      "end": 48.58
+    },
+    {
+      "word": "I",
+      "start": 49.98,
+      "end": 50.08
+    },
+    {
+      "word": "measured",
+      "start": 50.08,
+      "end": 50.44
+    },
+    {
+      "word": "it",
+      "start": 50.44,
+      "end": 50.82
+    },
+    {
+      "word": "again,",
+      "start": 50.82,
+      "end": 51.38
+    },
+    {
+      "word": "but",
+      "start": 52.5,
+      "end": 52.64
+    },
+    {
+      "word": "I",
+      "start": 52.64,
+      "end": 52.88
+    },
+    {
+      "word": "drew",
+      "start": 52.88,
+      "end": 53.18
+    },
+    {
+      "word": "it",
+      "start": 53.18,
+      "end": 53.42
+    },
+    {
+      "word": "long",
+      "start": 53.42,
+      "end": 53.7
+    },
+    {
+      "word": "this",
+      "start": 53.7,
+      "end": 54.12
+    },
+    {
+      "word": "time,",
+      "start": 54.12,
+      "end": 54.5
+    },
+    {
+      "word": "the",
+      "start": 55.04,
+      "end": 55.12
+    },
+    {
+      "word": "way",
+      "start": 55.12,
+      "end": 55.4
+    },
+    {
+      "word": "it",
+      "start": 55.4,
+      "end": 55.58
+    },
+    {
+      "word": "felt",
+      "start": 55.58,
+      "end": 55.86
+    },
+    {
+      "word": "at",
+      "start": 55.86,
+      "end": 56.22
+    },
+    {
+      "word": "six.",
+      "start": 56.22,
+      "end": 56.68
+    },
+    {
+      "word": "The",
+      "start": 58.4,
+      "end": 58.48
+    },
+    {
+      "word": "drawer",
+      "start": 58.48,
+      "end": 58.76
+    },
+    {
+      "word": "still",
+      "start": 58.76,
+      "end": 59.3
+    },
+    {
+      "word": "sticks,",
+      "start": 59.3,
+      "end": 59.96
+    },
+    {
+      "word": "I",
+      "start": 60.62,
+      "end": 60.7
+    },
+    {
+      "word": "drew",
+      "start": 60.7,
+      "end": 61.04
+    },
+    {
+      "word": "the",
+      "start": 61.04,
+      "end": 61.52
+    },
+    {
+      "word": "stick",
+      "start": 61.52,
+      "end": 61.76
+    },
+    {
+      "word": "into,",
+      "start": 61.76,
+      "end": 62.02
+    },
+    {
+      "word": "some",
+      "start": 63.24,
+      "end": 63.52
+    },
+    {
+      "word": "things",
+      "start": 63.52,
+      "end": 63.96
+    },
+    {
+      "word": "don't",
+      "start": 63.96,
+      "end": 64.74
+    },
+    {
+      "word": "need",
+      "start": 64.74,
+      "end": 65.1
+    },
+    {
+      "word": "fixing,",
+      "start": 65.1,
+      "end": 65.78
+    },
+    {
+      "word": "they",
+      "start": 66.7,
+      "end": 67.12
+    },
+    {
+      "word": "just",
+      "start": 67.12,
+      "end": 67.46
+    },
+    {
+      "word": "need",
+      "start": 67.46,
+      "end": 67.84
+    },
+    {
+      "word": "to",
+      "start": 67.84,
+      "end": 68.16
+    },
+    {
+      "word": "be",
+      "start": 68.16,
+      "end": 68.34
+    },
+    {
+      "word": "true.",
+      "start": 68.34,
+      "end": 68.62
+    },
+    {
+      "word": "I'm",
+      "start": 72.48,
+      "end": 73.24
+    },
+    {
+      "word": "redrawing",
+      "start": 73.24,
+      "end": 74.0
+    },
+    {
+      "word": "the",
+      "start": 74.0,
+      "end": 74.2
+    },
+    {
+      "word": "floor",
+      "start": 74.2,
+      "end": 74.54
+    },
+    {
+      "word": "plan,",
+      "start": 74.54,
+      "end": 75.0
+    },
+    {
+      "word": "with",
+      "start": 75.62,
+      "end": 75.84
+    },
+    {
+      "word": "everything",
+      "start": 75.84,
+      "end": 76.44
+    },
+    {
+      "word": "I",
+      "start": 76.44,
+      "end": 76.88
+    },
+    {
+      "word": "know",
+      "start": 76.88,
+      "end": 77.24
+    },
+    {
+      "word": "now,",
+      "start": 77.24,
+      "end": 77.92
+    },
+    {
+      "word": "no",
+      "start": 78.32,
+      "end": 78.58
+    },
+    {
+      "word": "more",
+      "start": 78.58,
+      "end": 79.0
+    },
+    {
+      "word": "plain",
+      "start": 79.0,
+      "end": 79.32
+    },
+    {
+      "word": "grooms,",
+      "start": 79.32,
+      "end": 80.46
+    },
+    {
+      "word": "no",
+      "start": 80.56,
+      "end": 80.72
+    },
+    {
+      "word": "more",
+      "start": 80.72,
+      "end": 81.16
+    },
+    {
+      "word": "pencil",
+      "start": 81.16,
+      "end": 81.56
+    },
+    {
+      "word": "where",
+      "start": 81.56,
+      "end": 82.14
+    },
+    {
+      "word": "they",
+      "start": 82.14,
+      "end": 82.32
+    },
+    {
+      "word": "should",
+      "start": 82.32,
+      "end": 82.58
+    },
+    {
+      "word": "be",
+      "start": 82.58,
+      "end": 82.96
+    },
+    {
+      "word": "ink.",
+      "start": 82.96,
+      "end": 83.5
+    },
+    {
+      "word": "The",
+      "start": 85.56,
+      "end": 85.62
+    },
+    {
+      "word": "grief",
+      "start": 85.62,
+      "end": 86.0
+    },
+    {
+      "word": "gets",
+      "start": 86.0,
+      "end": 86.64
+    },
+    {
+      "word": "a",
+      "start": 86.64,
+      "end": 86.9
+    },
+    {
+      "word": "room,",
+      "start": 86.9,
+      "end": 87.24
+    },
+    {
+      "word": "and",
+      "start": 88.26,
+      "end": 88.34
+    },
+    {
+      "word": "the",
+      "start": 88.34,
+      "end": 88.5
+    },
+    {
+      "word": "wonder",
+      "start": 88.5,
+      "end": 88.82
+    },
+    {
+      "word": "gets",
+      "start": 88.82,
+      "end": 89.54
+    },
+    {
+      "word": "a",
+      "start": 89.54,
+      "end": 89.78
+    },
+    {
+      "word": "room,",
+      "start": 89.78,
+      "end": 90.2
+    },
+    {
+      "word": "and",
+      "start": 90.56,
+      "end": 90.66
+    },
+    {
+      "word": "for",
+      "start": 90.66,
+      "end": 91.04
+    },
+    {
+      "word": "the",
+      "start": 91.04,
+      "end": 91.34
+    },
+    {
+      "word": "first",
+      "start": 91.34,
+      "end": 91.74
+    },
+    {
+      "word": "time",
+      "start": 91.74,
+      "end": 92.24
+    },
+    {
+      "word": "they're",
+      "start": 92.24,
+      "end": 92.78
+    },
+    {
+      "word": "both",
+      "start": 92.78,
+      "end": 93.1
+    },
+    {
+      "word": "on",
+      "start": 93.1,
+      "end": 93.24
+    },
+    {
+      "word": "the",
+      "start": 93.24,
+      "end": 93.86
+    },
+    {
+      "word": "same",
+      "start": 93.86,
+      "end": 94.14
+    },
+    {
+      "word": "page.",
+      "start": 94.14,
+      "end": 95.06
+    },
+    {
+      "word": "My",
+      "start": 108.28,
+      "end": 108.66
+    },
+    {
+      "word": "mother's",
+      "start": 108.66,
+      "end": 109.42
+    },
+    {
+      "word": "letters",
+      "start": 109.42,
+      "end": 109.68
+    },
+    {
+      "word": "get",
+      "start": 109.68,
+      "end": 110.66
+    },
+    {
+      "word": "a",
+      "start": 110.66,
+      "end": 110.82
+    },
+    {
+      "word": "drawer",
+      "start": 110.82,
+      "end": 111.16
+    },
+    {
+      "word": "of",
+      "start": 111.16,
+      "end": 111.44
+    },
+    {
+      "word": "their",
+      "start": 111.44,
+      "end": 111.6
+    },
+    {
+      "word": "own",
+      "start": 111.6,
+      "end": 111.98
+    },
+    {
+      "word": "this",
+      "start": 111.98,
+      "end": 112.36
+    },
+    {
+      "word": "time,",
+      "start": 112.36,
+      "end": 112.92
+    },
+    {
+      "word": "Thomas",
+      "start": 113.76,
+      "end": 114.82
+    },
+    {
+      "word": "gets",
+      "start": 114.82,
+      "end": 115.16
+    },
+    {
+      "word": "through",
+      "start": 115.16,
+      "end": 115.6
+    },
+    {
+      "word": "at",
+      "start": 115.6,
+      "end": 116.36
+    },
+    {
+      "word": "the",
+      "start": 116.36,
+      "end": 116.54
+    },
+    {
+      "word": "end",
+      "start": 116.54,
+      "end": 116.78
+    },
+    {
+      "word": "of",
+      "start": 116.78,
+      "end": 116.92
+    },
+    {
+      "word": "the",
+      "start": 116.92,
+      "end": 117.08
+    },
+    {
+      "word": "hall.",
+      "start": 117.08,
+      "end": 117.32
+    },
+    {
+      "word": "The",
+      "start": 119.06,
+      "end": 119.94
+    },
+    {
+      "word": "empty",
+      "start": 119.94,
+      "end": 120.52
+    },
+    {
+      "word": "chair",
+      "start": 120.52,
+      "end": 120.9
+    },
+    {
+      "word": "gets",
+      "start": 120.9,
+      "end": 121.18
+    },
+    {
+      "word": "drawn,",
+      "start": 121.18,
+      "end": 121.64
+    },
+    {
+      "word": "exactly",
+      "start": 122.16,
+      "end": 123.1
+    },
+    {
+      "word": "as",
+      "start": 123.1,
+      "end": 124.12
+    },
+    {
+      "word": "empty,",
+      "start": 124.12,
+      "end": 124.44
+    },
+    {
+      "word": "because",
+      "start": 125.2,
+      "end": 125.7
+    },
+    {
+      "word": "that's",
+      "start": 125.7,
+      "end": 126.54
+    },
+    {
+      "word": "what",
+      "start": 126.54,
+      "end": 126.76
+    },
+    {
+      "word": "it",
+      "start": 126.76,
+      "end": 126.94
+    },
+    {
+      "word": "was,",
+      "start": 126.94,
+      "end": 127.22
+    },
+    {
+      "word": "and",
+      "start": 127.6,
+      "end": 128.0
+    },
+    {
+      "word": "that's",
+      "start": 128.0,
+      "end": 128.28
+    },
+    {
+      "word": "allowed",
+      "start": 128.28,
+      "end": 128.52
+    },
+    {
+      "word": "to",
+      "start": 129.14,
+      "end": 129.58
+    },
+    {
+      "word": "just",
+      "start": 129.58,
+      "end": 129.74
+    },
+    {
+      "word": "stay.",
+      "start": 129.74,
+      "end": 130.06
+    },
+    {
+      "word": "I'm",
+      "start": 130.64,
+      "end": 131.16
+    },
+    {
+      "word": "redrawing",
+      "start": 131.16,
+      "end": 132.4
+    },
+    {
+      "word": "the",
+      "start": 132.4,
+      "end": 132.84
+    },
+    {
+      "word": "floor",
+      "start": 132.84,
+      "end": 133.18
+    },
+    {
+      "word": "plan,",
+      "start": 133.18,
+      "end": 133.56
+    },
+    {
+      "word": "with",
+      "start": 134.02,
+      "end": 134.4
+    },
+    {
+      "word": "everything",
+      "start": 134.4,
+      "end": 134.92
+    },
+    {
+      "word": "I",
+      "start": 134.92,
+      "end": 135.46
+    },
+    {
+      "word": "know",
+      "start": 135.46,
+      "end": 135.8
+    },
+    {
+      "word": "now,",
+      "start": 135.8,
+      "end": 136.4
+    },
+    {
+      "word": "no",
+      "start": 136.84,
+      "end": 137.18
+    },
+    {
+      "word": "more",
+      "start": 137.18,
+      "end": 137.64
+    },
+    {
+      "word": "plain",
+      "start": 137.64,
+      "end": 138.02
+    },
+    {
+      "word": "grooms,",
+      "start": 138.02,
+      "end": 139.06
+    },
+    {
+      "word": "no",
+      "start": 139.2,
+      "end": 139.34
+    },
+    {
+      "word": "more",
+      "start": 139.34,
+      "end": 139.66
+    },
+    {
+      "word": "pencil",
+      "start": 139.66,
+      "end": 140.12
+    },
+    {
+      "word": "where",
+      "start": 140.12,
+      "end": 140.68
+    },
+    {
+      "word": "they",
+      "start": 140.68,
+      "end": 140.88
+    },
+    {
+      "word": "should",
+      "start": 140.88,
+      "end": 141.18
+    },
+    {
+      "word": "be",
+      "start": 141.18,
+      "end": 141.5
+    },
+    {
+      "word": "ink,",
+      "start": 141.5,
+      "end": 142.04
+    },
+    {
+      "word": "the",
+      "start": 142.68,
+      "end": 142.78
+    },
+    {
+      "word": "grief",
+      "start": 142.78,
+      "end": 143.14
+    },
+    {
+      "word": "gets",
+      "start": 143.14,
+      "end": 143.78
+    },
+    {
+      "word": "a",
+      "start": 143.78,
+      "end": 144.06
+    },
+    {
+      "word": "room,",
+      "start": 144.06,
+      "end": 144.52
+    },
+    {
+      "word": "and",
+      "start": 144.52,
+      "end": 145.04
+    },
+    {
+      "word": "the",
+      "start": 145.04,
+      "end": 145.68
+    },
+    {
+      "word": "wonder",
+      "start": 145.68,
+      "end": 145.96
+    },
+    {
+      "word": "gets",
+      "start": 145.96,
+      "end": 146.64
+    },
+    {
+      "word": "a",
+      "start": 146.64,
+      "end": 146.92
+    },
+    {
+      "word": "room,",
+      "start": 146.92,
+      "end": 147.42
+    },
+    {
+      "word": "and",
+      "start": 147.42,
+      "end": 147.86
+    },
+    {
+      "word": "for",
+      "start": 147.86,
+      "end": 148.22
+    },
+    {
+      "word": "the",
+      "start": 148.22,
+      "end": 148.5
+    },
+    {
+      "word": "first",
+      "start": 148.5,
+      "end": 148.88
+    },
+    {
+      "word": "time",
+      "start": 148.88,
+      "end": 149.38
+    },
+    {
+      "word": "they're",
+      "start": 149.38,
+      "end": 149.9
+    },
+    {
+      "word": "both",
+      "start": 149.9,
+      "end": 150.22
+    },
+    {
+      "word": "on",
+      "start": 150.22,
+      "end": 150.74
+    },
+    {
+      "word": "the",
+      "start": 150.74,
+      "end": 151.0
+    },
+    {
+      "word": "same",
+      "start": 151.0,
+      "end": 151.28
+    },
+    {
+      "word": "page.",
+      "start": 151.28,
+      "end": 152.22
+    },
+    {
+      "word": "It's",
+      "start": 153.06,
+      "end": 153.38
+    },
+    {
+      "word": "not",
+      "start": 153.38,
+      "end": 153.54
+    },
+    {
+      "word": "a",
+      "start": 153.54,
+      "end": 153.72
+    },
+    {
+      "word": "happier",
+      "start": 153.72,
+      "end": 154.08
+    },
+    {
+      "word": "house,",
+      "start": 154.08,
+      "end": 154.56
+    },
+    {
+      "word": "it's",
+      "start": 155.0,
+      "end": 156.36
+    },
+    {
+      "word": "just",
+      "start": 156.36,
+      "end": 156.68
+    },
+    {
+      "word": "a",
+      "start": 156.68,
+      "end": 156.96
+    },
+    {
+      "word": "whole",
+      "start": 156.96,
+      "end": 157.36
+    },
+    {
+      "word": "one,",
+      "start": 157.36,
+      "end": 158.66
+    },
+    {
+      "word": "it's",
+      "start": 158.94,
+      "end": 159.12
+    },
+    {
+      "word": "not",
+      "start": 159.12,
+      "end": 159.28
+    },
+    {
+      "word": "a",
+      "start": 159.28,
+      "end": 159.42
+    },
+    {
+      "word": "lighter",
+      "start": 159.42,
+      "end": 159.76
+    },
+    {
+      "word": "map,",
+      "start": 159.76,
+      "end": 160.16
+    },
+    {
+      "word": "it's",
+      "start": 160.62,
+      "end": 162.08
+    },
+    {
+      "word": "just",
+      "start": 162.08,
+      "end": 162.34
+    },
+    {
+      "word": "a",
+      "start": 162.34,
+      "end": 162.66
+    },
+    {
+      "word": "finished",
+      "start": 162.66,
+      "end": 163.46
+    },
+    {
+      "word": "one,",
+      "start": 163.46,
+      "end": 164.38
+    },
+    {
+      "word": "every",
+      "start": 164.6,
+      "end": 165.3
+    },
+    {
+      "word": "sad",
+      "start": 165.3,
+      "end": 165.8
+    },
+    {
+      "word": "room",
+      "start": 165.8,
+      "end": 166.46
+    },
+    {
+      "word": "is",
+      "start": 166.46,
+      "end": 166.84
+    },
+    {
+      "word": "true,",
+      "start": 166.84,
+      "end": 167.12
+    },
+    {
+      "word": "and",
+      "start": 167.58,
+      "end": 167.7
+    },
+    {
+      "word": "every",
+      "start": 167.7,
+      "end": 168.2
+    },
+    {
+      "word": "glad",
+      "start": 168.2,
+      "end": 168.5
+    },
+    {
+      "word": "room",
+      "start": 168.5,
+      "end": 169.38
+    },
+    {
+      "word": "is",
+      "start": 169.38,
+      "end": 169.68
+    },
+    {
+      "word": "true,",
+      "start": 169.68,
+      "end": 170.06
+    },
+    {
+      "word": "and",
+      "start": 170.06,
+      "end": 171.2
+    },
+    {
+      "word": "the",
+      "start": 171.2,
+      "end": 171.36
+    },
+    {
+      "word": "house",
+      "start": 171.36,
+      "end": 171.7
+    },
+    {
+      "word": "finally",
+      "start": 171.7,
+      "end": 172.32
+    },
+    {
+      "word": "holds",
+      "start": 172.32,
+      "end": 172.98
+    },
+    {
+      "word": "both",
+      "start": 172.98,
+      "end": 173.6
+    },
+    {
+      "word": "without",
+      "start": 173.6,
+      "end": 174.24
+    },
+    {
+      "word": "falling",
+      "start": 174.24,
+      "end": 175.36
+    },
+    {
+      "word": "down.",
+      "start": 175.36,
+      "end": 175.76
+    },
+    {
+      "word": "I'm",
+      "start": 180.8,
+      "end": 181.68
+    },
+    {
+      "word": "redrawing",
+      "start": 181.68,
+      "end": 182.56
+    },
+    {
+      "word": "the",
+      "start": 182.56,
+      "end": 182.8
+    },
+    {
+      "word": "floor",
+      "start": 182.8,
+      "end": 183.14
+    },
+    {
+      "word": "plan,",
+      "start": 183.14,
+      "end": 183.52
+    },
+    {
+      "word": "the",
+      "start": 184.2,
+      "end": 184.4
+    },
+    {
+      "word": "ink",
+      "start": 184.4,
+      "end": 184.68
+    },
+    {
+      "word": "is",
+      "start": 184.68,
+      "end": 184.98
+    },
+    {
+      "word": "finally",
+      "start": 184.98,
+      "end": 185.5
+    },
+    {
+      "word": "dry,",
+      "start": 185.5,
+      "end": 186.0
+    },
+    {
+      "word": "this",
+      "start": 186.8,
+      "end": 187.9
+    },
+    {
+      "word": "is",
+      "start": 187.9,
+      "end": 188.24
+    },
+    {
+      "word": "the",
+      "start": 188.24,
+      "end": 188.52
+    },
+    {
+      "word": "house,",
+      "start": 188.52,
+      "end": 188.84
+    },
+    {
+      "word": "this",
+      "start": 189.18,
+      "end": 189.32
+    },
+    {
+      "word": "is",
+      "start": 189.32,
+      "end": 189.74
+    },
+    {
+      "word": "the",
+      "start": 189.74,
+      "end": 190.18
+    },
+    {
+      "word": "home",
+      "start": 190.18,
+      "end": 190.42
+    },
+    {
+      "word": "house,",
+      "start": 190.42,
+      "end": 190.76
+    },
+    {
+      "word": "this",
+      "start": 191.0,
+      "end": 191.12
+    },
+    {
+      "word": "is",
+      "start": 191.12,
+      "end": 191.3
+    },
+    {
+      "word": "mine.",
+      "start": 191.3,
+      "end": 191.66
+    }
+  ]
+}

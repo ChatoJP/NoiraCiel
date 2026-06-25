@@ -1,0 +1,1028 @@
+{
+  "title": "Diner At 2Am",
+  "slug": "diner-at-2am",
+  "trackNumber": 7,
+  "duration": 240.0,
+  "words": [
+    {
+      "word": "Coffee's",
+      "start": 1.26,
+      "end": 2.18
+    },
+    {
+      "word": "been",
+      "start": 2.18,
+      "end": 2.5
+    },
+    {
+      "word": "sittin'",
+      "start": 2.5,
+      "end": 3.16
+    },
+    {
+      "word": "since",
+      "start": 3.28,
+      "end": 3.76
+    },
+    {
+      "word": "the",
+      "start": 3.76,
+      "end": 4.1
+    },
+    {
+      "word": "second",
+      "start": 4.1,
+      "end": 4.6
+    },
+    {
+      "word": "part",
+      "start": 4.6,
+      "end": 4.98
+    },
+    {
+      "word": "went",
+      "start": 4.98,
+      "end": 5.28
+    },
+    {
+      "word": "cold",
+      "start": 5.28,
+      "end": 5.78
+    },
+    {
+      "word": "He's",
+      "start": 5.78,
+      "end": 7.8
+    },
+    {
+      "word": "got",
+      "start": 7.8,
+      "end": 8.0
+    },
+    {
+      "word": "a",
+      "start": 8.0,
+      "end": 8.16
+    },
+    {
+      "word": "folder",
+      "start": 8.16,
+      "end": 8.68
+    },
+    {
+      "word": "full",
+      "start": 8.68,
+      "end": 9.42
+    },
+    {
+      "word": "of",
+      "start": 9.42,
+      "end": 9.64
+    },
+    {
+      "word": "papers",
+      "start": 9.64,
+      "end": 10.14
+    },
+    {
+      "word": "he",
+      "start": 10.14,
+      "end": 10.38
+    },
+    {
+      "word": "won't",
+      "start": 10.38,
+      "end": 10.8
+    },
+    {
+      "word": "unfold",
+      "start": 10.8,
+      "end": 11.26
+    },
+    {
+      "word": "I've",
+      "start": 11.26,
+      "end": 13.46
+    },
+    {
+      "word": "worked",
+      "start": 13.46,
+      "end": 13.64
+    },
+    {
+      "word": "a",
+      "start": 13.64,
+      "end": 13.88
+    },
+    {
+      "word": "double,",
+      "start": 13.88,
+      "end": 14.28
+    },
+    {
+      "word": "my",
+      "start": 15.2,
+      "end": 15.26
+    },
+    {
+      "word": "feet",
+      "start": 15.26,
+      "end": 15.62
+    },
+    {
+      "word": "don't",
+      "start": 15.62,
+      "end": 16.28
+    },
+    {
+      "word": "feel",
+      "start": 16.28,
+      "end": 16.6
+    },
+    {
+      "word": "like",
+      "start": 16.6,
+      "end": 17.06
+    },
+    {
+      "word": "mine",
+      "start": 17.06,
+      "end": 17.4
+    },
+    {
+      "word": "We",
+      "start": 17.4,
+      "end": 22.96
+    },
+    {
+      "word": "don't",
+      "start": 22.96,
+      "end": 23.56
+    },
+    {
+      "word": "say",
+      "start": 23.56,
+      "end": 23.92
+    },
+    {
+      "word": "much,",
+      "start": 23.92,
+      "end": 24.52
+    },
+    {
+      "word": "just",
+      "start": 24.52,
+      "end": 26.16
+    },
+    {
+      "word": "split",
+      "start": 26.16,
+      "end": 26.56
+    },
+    {
+      "word": "the",
+      "start": 26.56,
+      "end": 26.84
+    },
+    {
+      "word": "only",
+      "start": 26.84,
+      "end": 27.48
+    },
+    {
+      "word": "pie",
+      "start": 27.48,
+      "end": 28.48
+    },
+    {
+      "word": "they",
+      "start": 28.48,
+      "end": 29.26
+    },
+    {
+      "word": "had",
+      "start": 29.26,
+      "end": 29.76
+    },
+    {
+      "word": "a",
+      "start": 29.76,
+      "end": 29.98
+    },
+    {
+      "word": "look",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "at",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "me",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "I've",
+      "start": 30.0,
+      "end": 30.24
+    },
+    {
+      "word": "lived",
+      "start": 30.24,
+      "end": 30.24
+    },
+    {
+      "word": "a",
+      "start": 30.24,
+      "end": 30.52
+    },
+    {
+      "word": "night,",
+      "start": 30.52,
+      "end": 31.08
+    },
+    {
+      "word": "what",
+      "start": 32.08,
+      "end": 33.88
+    },
+    {
+      "word": "happened",
+      "start": 33.88,
+      "end": 34.58
+    },
+    {
+      "word": "to",
+      "start": 34.58,
+      "end": 35.32
+    },
+    {
+      "word": "his?",
+      "start": 35.32,
+      "end": 35.82
+    },
+    {
+      "word": "What",
+      "start": 38.28,
+      "end": 38.56
+    },
+    {
+      "word": "happened",
+      "start": 38.56,
+      "end": 40.22
+    },
+    {
+      "word": "to",
+      "start": 40.22,
+      "end": 41.02
+    },
+    {
+      "word": "her?",
+      "start": 41.02,
+      "end": 41.64
+    },
+    {
+      "word": "Why",
+      "start": 44.24,
+      "end": 45.64
+    },
+    {
+      "word": "are",
+      "start": 45.64,
+      "end": 46.2
+    },
+    {
+      "word": "they",
+      "start": 46.2,
+      "end": 46.64
+    },
+    {
+      "word": "here?",
+      "start": 46.64,
+      "end": 47.36
+    },
+    {
+      "word": "What",
+      "start": 50.3,
+      "end": 51.28
+    },
+    {
+      "word": "do",
+      "start": 51.28,
+      "end": 51.76
+    },
+    {
+      "word": "they",
+      "start": 51.76,
+      "end": 52.3
+    },
+    {
+      "word": "need?",
+      "start": 52.3,
+      "end": 52.72
+    },
+    {
+      "word": "Just",
+      "start": 52.72,
+      "end": 53.6
+    },
+    {
+      "word": "someone",
+      "start": 53.6,
+      "end": 54.5
+    },
+    {
+      "word": "else",
+      "start": 54.5,
+      "end": 55.0
+    },
+    {
+      "word": "awake",
+      "start": 55.0,
+      "end": 55.66
+    },
+    {
+      "word": "to",
+      "start": 55.66,
+      "end": 56.28
+    },
+    {
+      "word": "see",
+      "start": 56.28,
+      "end": 56.82
+    },
+    {
+      "word": "Dining",
+      "start": 56.82,
+      "end": 58.96
+    },
+    {
+      "word": "her",
+      "start": 58.96,
+      "end": 59.46
+    },
+    {
+      "word": "at",
+      "start": 59.46,
+      "end": 59.62
+    },
+    {
+      "word": "2am,",
+      "start": 59.62,
+      "end": 61.38
+    },
+    {
+      "word": "neon",
+      "start": 62.64,
+      "end": 63.28
+    },
+    {
+      "word": "home",
+      "start": 63.28,
+      "end": 64.16
+    },
+    {
+      "word": "and",
+      "start": 64.16,
+      "end": 64.7
+    },
+    {
+      "word": "overhead",
+      "start": 64.7,
+      "end": 67.28
+    },
+    {
+      "word": "Two",
+      "start": 67.28,
+      "end": 69.52
+    },
+    {
+      "word": "strangers",
+      "start": 69.52,
+      "end": 70.34
+    },
+    {
+      "word": "carrying",
+      "start": 70.34,
+      "end": 71.62
+    },
+    {
+      "word": "away,",
+      "start": 71.62,
+      "end": 72.26
+    },
+    {
+      "word": "too",
+      "start": 73.08,
+      "end": 73.96
+    },
+    {
+      "word": "heavy",
+      "start": 73.96,
+      "end": 74.72
+    },
+    {
+      "word": "to",
+      "start": 74.72,
+      "end": 75.32
+    },
+    {
+      "word": "put",
+      "start": 75.32,
+      "end": 75.82
+    },
+    {
+      "word": "to",
+      "start": 75.82,
+      "end": 77.66
+    },
+    {
+      "word": "bed",
+      "start": 77.66,
+      "end": 78.38
+    },
+    {
+      "word": "No",
+      "start": 78.38,
+      "end": 81.1
+    },
+    {
+      "word": "sermon,",
+      "start": 81.1,
+      "end": 82.22
+    },
+    {
+      "word": "no",
+      "start": 82.64,
+      "end": 82.82
+    },
+    {
+      "word": "advice,",
+      "start": 82.82,
+      "end": 84.04
+    },
+    {
+      "word": "just",
+      "start": 85.14,
+      "end": 86.2
+    },
+    {
+      "word": "a",
+      "start": 86.2,
+      "end": 86.6
+    },
+    {
+      "word": "refill",
+      "start": 86.6,
+      "end": 87.4
+    },
+    {
+      "word": "and",
+      "start": 87.4,
+      "end": 88.26
+    },
+    {
+      "word": "an",
+      "start": 88.26,
+      "end": 89.34
+    },
+    {
+      "word": "arm",
+      "start": 89.34,
+      "end": 89.82
+    },
+    {
+      "word": "Sometimes",
+      "start": 89.82,
+      "end": 92.14
+    },
+    {
+      "word": "the",
+      "start": 92.14,
+      "end": 92.76
+    },
+    {
+      "word": "old",
+      "start": 92.76,
+      "end": 93.32
+    },
+    {
+      "word": "and",
+      "start": 93.32,
+      "end": 93.9
+    },
+    {
+      "word": "grey's",
+      "start": 93.9,
+      "end": 95.06
+    },
+    {
+      "word": "goin'",
+      "start": 95.06,
+      "end": 95.72
+    },
+    {
+      "word": "and",
+      "start": 96.62,
+      "end": 96.66
+    },
+    {
+      "word": "somebody",
+      "start": 96.66,
+      "end": 97.42
+    },
+    {
+      "word": "else",
+      "start": 97.42,
+      "end": 98.36
+    },
+    {
+      "word": "is",
+      "start": 98.36,
+      "end": 98.64
+    },
+    {
+      "word": "down",
+      "start": 98.64,
+      "end": 99.02
+    },
+    {
+      "word": "He",
+      "start": 102.24,
+      "end": 103.12
+    },
+    {
+      "word": "finally",
+      "start": 103.12,
+      "end": 103.76
+    },
+    {
+      "word": "says",
+      "start": 103.76,
+      "end": 104.32
+    },
+    {
+      "word": "long",
+      "start": 104.32,
+      "end": 105.3
+    },
+    {
+      "word": "day,",
+      "start": 105.3,
+      "end": 105.86
+    },
+    {
+      "word": "and",
+      "start": 106.36,
+      "end": 106.82
+    },
+    {
+      "word": "I",
+      "start": 106.82,
+      "end": 107.1
+    },
+    {
+      "word": "say",
+      "start": 107.1,
+      "end": 107.44
+    },
+    {
+      "word": "longer",
+      "start": 107.44,
+      "end": 108.14
+    },
+    {
+      "word": "than",
+      "start": 108.14,
+      "end": 108.4
+    },
+    {
+      "word": "you,",
+      "start": 108.4,
+      "end": 108.78
+    },
+    {
+      "word": "he",
+      "start": 109.78,
+      "end": 110.26
+    },
+    {
+      "word": "laughs",
+      "start": 110.26,
+      "end": 110.62
+    },
+    {
+      "word": "the",
+      "start": 110.62,
+      "end": 111.04
+    },
+    {
+      "word": "kind",
+      "start": 111.04,
+      "end": 111.34
+    },
+    {
+      "word": "of",
+      "start": 111.34,
+      "end": 111.56
+    },
+    {
+      "word": "laugh",
+      "start": 111.56,
+      "end": 111.9
+    },
+    {
+      "word": "that's",
+      "start": 111.9,
+      "end": 112.48
+    },
+    {
+      "word": "mostly",
+      "start": 112.48,
+      "end": 112.8
+    },
+    {
+      "word": "just",
+      "start": 112.8,
+      "end": 113.58
+    },
+    {
+      "word": "too",
+      "start": 113.58,
+      "end": 113.82
+    },
+    {
+      "word": "clear",
+      "start": 113.82,
+      "end": 114.22
+    },
+    {
+      "word": "I",
+      "start": 114.79,
+      "end": 115.28
+    },
+    {
+      "word": "ride",
+      "start": 115.28,
+      "end": 115.68
+    },
+    {
+      "word": "on",
+      "start": 115.68,
+      "end": 116.1
+    },
+    {
+      "word": "the",
+      "start": 116.1,
+      "end": 116.38
+    },
+    {
+      "word": "house,",
+      "start": 116.38,
+      "end": 116.84
+    },
+    {
+      "word": "on",
+      "start": 117.58,
+      "end": 117.94
+    },
+    {
+      "word": "his",
+      "start": 117.94,
+      "end": 118.16
+    },
+    {
+      "word": "ticket",
+      "start": 118.16,
+      "end": 118.54
+    },
+    {
+      "word": "when",
+      "start": 118.54,
+      "end": 119.56
+    },
+    {
+      "word": "he's",
+      "start": 119.56,
+      "end": 120.36
+    },
+    {
+      "word": "not",
+      "start": 120.36,
+      "end": 120.62
+    },
+    {
+      "word": "lookin'",
+      "start": 120.62,
+      "end": 121.36
+    },
+    {
+      "word": "Not",
+      "start": 122.9,
+      "end": 122.9
+    },
+    {
+      "word": "cause",
+      "start": 122.9,
+      "end": 126.52
+    },
+    {
+      "word": "I'm",
+      "start": 126.52,
+      "end": 127.1
+    },
+    {
+      "word": "kind,",
+      "start": 127.1,
+      "end": 127.54
+    },
+    {
+      "word": "just",
+      "start": 127.54,
+      "end": 131.72
+    },
+    {
+      "word": "cause",
+      "start": 131.72,
+      "end": 132.24
+    },
+    {
+      "word": "I",
+      "start": 132.24,
+      "end": 132.48
+    },
+    {
+      "word": "know",
+      "start": 132.48,
+      "end": 132.86
+    },
+    {
+      "word": "what",
+      "start": 132.86,
+      "end": 133.48
+    },
+    {
+      "word": "he's",
+      "start": 133.48,
+      "end": 134.54
+    },
+    {
+      "word": "been",
+      "start": 134.54,
+      "end": 134.84
+    },
+    {
+      "word": "cookin'",
+      "start": 134.84,
+      "end": 135.64
+    },
+    {
+      "word": "We're",
+      "start": 159.14,
+      "end": 160.5
+    },
+    {
+      "word": "not",
+      "start": 160.5,
+      "end": 160.82
+    },
+    {
+      "word": "friends,",
+      "start": 160.82,
+      "end": 161.52
+    },
+    {
+      "word": "we",
+      "start": 162.46,
+      "end": 163.12
+    },
+    {
+      "word": "won't",
+      "start": 163.12,
+      "end": 163.68
+    },
+    {
+      "word": "remember",
+      "start": 163.68,
+      "end": 164.18
+    },
+    {
+      "word": "each",
+      "start": 164.18,
+      "end": 165.28
+    },
+    {
+      "word": "other's",
+      "start": 165.28,
+      "end": 166.5
+    },
+    {
+      "word": "face",
+      "start": 166.5,
+      "end": 166.86
+    },
+    {
+      "word": "But",
+      "start": 169.92,
+      "end": 171.1
+    },
+    {
+      "word": "for",
+      "start": 171.1,
+      "end": 171.56
+    },
+    {
+      "word": "40",
+      "start": 171.56,
+      "end": 172.38
+    },
+    {
+      "word": "minutes,",
+      "start": 172.38,
+      "end": 172.9
+    },
+    {
+      "word": "we",
+      "start": 173.9,
+      "end": 174.56
+    },
+    {
+      "word": "held",
+      "start": 174.56,
+      "end": 174.92
+    },
+    {
+      "word": "the",
+      "start": 174.92,
+      "end": 175.26
+    },
+    {
+      "word": "same",
+      "start": 175.26,
+      "end": 175.74
+    },
+    {
+      "word": "small",
+      "start": 175.74,
+      "end": 177.12
+    },
+    {
+      "word": "space",
+      "start": 177.12,
+      "end": 178.02
+    },
+    {
+      "word": "That's",
+      "start": 178.02,
+      "end": 182.5
+    },
+    {
+      "word": "not",
+      "start": 182.5,
+      "end": 182.82
+    },
+    {
+      "word": "nothin'",
+      "start": 182.82,
+      "end": 184.24
+    },
+    {
+      "word": "in",
+      "start": 185.38,
+      "end": 186.58
+    },
+    {
+      "word": "a",
+      "start": 186.58,
+      "end": 186.78
+    },
+    {
+      "word": "world",
+      "start": 186.78,
+      "end": 187.24
+    },
+    {
+      "word": "that",
+      "start": 187.24,
+      "end": 187.74
+    },
+    {
+      "word": "takes",
+      "start": 187.74,
+      "end": 188.66
+    },
+    {
+      "word": "and",
+      "start": 188.66,
+      "end": 189.16
+    },
+    {
+      "word": "takes",
+      "start": 189.16,
+      "end": 189.68
+    },
+    {
+      "word": "That's",
+      "start": 193.34,
+      "end": 194.4
+    },
+    {
+      "word": "the",
+      "start": 194.4,
+      "end": 194.6
+    },
+    {
+      "word": "only",
+      "start": 194.6,
+      "end": 195.06
+    },
+    {
+      "word": "kind",
+      "start": 195.06,
+      "end": 195.7
+    },
+    {
+      "word": "of",
+      "start": 195.7,
+      "end": 196.3
+    },
+    {
+      "word": "church",
+      "start": 196.3,
+      "end": 196.62
+    },
+    {
+      "word": "that",
+      "start": 196.62,
+      "end": 198.12
+    },
+    {
+      "word": "this",
+      "start": 198.12,
+      "end": 198.5
+    },
+    {
+      "word": "town",
+      "start": 198.5,
+      "end": 198.96
+    },
+    {
+      "word": "still",
+      "start": 198.96,
+      "end": 219.66
+    },
+    {
+      "word": "makes",
+      "start": 219.66,
+      "end": 219.66
+    },
+    {
+      "word": "We're",
+      "start": 231.66,
+      "end": 233.06
+    },
+    {
+      "word": "not",
+      "start": 233.06,
+      "end": 234.46
+    },
+    {
+      "word": "friends,",
+      "start": 234.46,
+      "end": 234.46
+    },
+    {
+      "word": "we're",
+      "start": 236.14,
+      "end": 236.18
+    },
+    {
+      "word": "not",
+      "start": 236.18,
+      "end": 236.42
+    },
+    {
+      "word": "friends,",
+      "start": 236.42,
+      "end": 237.0
+    },
+    {
+      "word": "we're",
+      "start": 237.0,
+      "end": 237.04
+    },
+    {
+      "word": "not",
+      "start": 237.04,
+      "end": 238.08
+    },
+    {
+      "word": "friends",
+      "start": 238.08,
+      "end": 239.98
+    }
+  ]
+}

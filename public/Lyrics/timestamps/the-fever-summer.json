@@ -1,0 +1,1343 @@
+{
+  "title": "The Fever Summer",
+  "slug": "the-fever-summer",
+  "trackNumber": 11,
+  "duration": 222.16,
+  "words": [
+    {
+      "word": "Nineteen",
+      "start": 13.5,
+      "end": 14.5
+    },
+    {
+      "word": "ninety",
+      "start": 14.5,
+      "end": 15.14
+    },
+    {
+      "word": "one,",
+      "start": 15.14,
+      "end": 16.58
+    },
+    {
+      "word": "the",
+      "start": 16.84,
+      "end": 16.98
+    },
+    {
+      "word": "hottest",
+      "start": 16.98,
+      "end": 17.34
+    },
+    {
+      "word": "June",
+      "start": 17.34,
+      "end": 17.84
+    },
+    {
+      "word": "on",
+      "start": 17.84,
+      "end": 18.34
+    },
+    {
+      "word": "record",
+      "start": 18.34,
+      "end": 18.78
+    },
+    {
+      "word": "I",
+      "start": 18.78,
+      "end": 21.02
+    },
+    {
+      "word": "wasn't",
+      "start": 21.02,
+      "end": 21.62
+    },
+    {
+      "word": "born",
+      "start": 21.62,
+      "end": 22.06
+    },
+    {
+      "word": "yet",
+      "start": 22.06,
+      "end": 22.72
+    },
+    {
+      "word": "but",
+      "start": 22.72,
+      "end": 23.1
+    },
+    {
+      "word": "I",
+      "start": 23.1,
+      "end": 23.48
+    },
+    {
+      "word": "know",
+      "start": 23.48,
+      "end": 23.94
+    },
+    {
+      "word": "the",
+      "start": 23.94,
+      "end": 24.44
+    },
+    {
+      "word": "weather",
+      "start": 24.44,
+      "end": 24.78
+    },
+    {
+      "word": "report",
+      "start": 24.78,
+      "end": 25.44
+    },
+    {
+      "word": "I",
+      "start": 27.18,
+      "end": 28.26
+    },
+    {
+      "word": "know",
+      "start": 28.26,
+      "end": 28.56
+    },
+    {
+      "word": "the",
+      "start": 28.56,
+      "end": 28.94
+    },
+    {
+      "word": "parking",
+      "start": 28.94,
+      "end": 29.52
+    },
+    {
+      "word": "lot",
+      "start": 29.52,
+      "end": 30.2
+    },
+    {
+      "word": "had",
+      "start": 30.2,
+      "end": 30.86
+    },
+    {
+      "word": "no",
+      "start": 30.86,
+      "end": 31.28
+    },
+    {
+      "word": "shade",
+      "start": 31.28,
+      "end": 31.76
+    },
+    {
+      "word": "at",
+      "start": 31.76,
+      "end": 32.56
+    },
+    {
+      "word": "noon",
+      "start": 32.56,
+      "end": 32.86
+    },
+    {
+      "word": "I",
+      "start": 32.86,
+      "end": 34.56
+    },
+    {
+      "word": "know",
+      "start": 34.56,
+      "end": 34.88
+    },
+    {
+      "word": "because",
+      "start": 34.88,
+      "end": 35.54
+    },
+    {
+      "word": "my",
+      "start": 35.54,
+      "end": 35.96
+    },
+    {
+      "word": "mother",
+      "start": 35.96,
+      "end": 36.86
+    },
+    {
+      "word": "told",
+      "start": 36.86,
+      "end": 37.32
+    },
+    {
+      "word": "me",
+      "start": 37.32,
+      "end": 37.74
+    },
+    {
+      "word": "once,",
+      "start": 37.74,
+      "end": 38.1
+    },
+    {
+      "word": "just",
+      "start": 38.48,
+      "end": 39.78
+    },
+    {
+      "word": "once",
+      "start": 39.78,
+      "end": 40.32
+    },
+    {
+      "word": "The",
+      "start": 40.32,
+      "end": 42.68
+    },
+    {
+      "word": "neighbours",
+      "start": 42.68,
+      "end": 43.22
+    },
+    {
+      "word": "brought",
+      "start": 43.22,
+      "end": 43.68
+    },
+    {
+      "word": "casseroles",
+      "start": 43.68,
+      "end": 45.06
+    },
+    {
+      "word": "for",
+      "start": 45.06,
+      "end": 45.36
+    },
+    {
+      "word": "two",
+      "start": 45.36,
+      "end": 45.6
+    },
+    {
+      "word": "months",
+      "start": 45.6,
+      "end": 46.32
+    },
+    {
+      "word": "straight",
+      "start": 46.32,
+      "end": 47.12
+    },
+    {
+      "word": "One",
+      "start": 48.42,
+      "end": 49.3
+    },
+    {
+      "word": "dish",
+      "start": 49.3,
+      "end": 49.74
+    },
+    {
+      "word": "never",
+      "start": 49.74,
+      "end": 50.28
+    },
+    {
+      "word": "got",
+      "start": 50.28,
+      "end": 50.7
+    },
+    {
+      "word": "returned,",
+      "start": 50.7,
+      "end": 51.9
+    },
+    {
+      "word": "it's",
+      "start": 52.5,
+      "end": 52.66
+    },
+    {
+      "word": "still",
+      "start": 52.66,
+      "end": 53.04
+    },
+    {
+      "word": "in",
+      "start": 53.04,
+      "end": 53.44
+    },
+    {
+      "word": "our",
+      "start": 53.44,
+      "end": 53.7
+    },
+    {
+      "word": "garage",
+      "start": 53.7,
+      "end": 54.64
+    },
+    {
+      "word": "I",
+      "start": 54.64,
+      "end": 57.12
+    },
+    {
+      "word": "used",
+      "start": 57.12,
+      "end": 57.46
+    },
+    {
+      "word": "to",
+      "start": 57.46,
+      "end": 57.8
+    },
+    {
+      "word": "think",
+      "start": 57.8,
+      "end": 58.24
+    },
+    {
+      "word": "it",
+      "start": 58.24,
+      "end": 58.74
+    },
+    {
+      "word": "was",
+      "start": 58.74,
+      "end": 58.92
+    },
+    {
+      "word": "just",
+      "start": 58.92,
+      "end": 59.24
+    },
+    {
+      "word": "a",
+      "start": 59.24,
+      "end": 59.62
+    },
+    {
+      "word": "dish",
+      "start": 59.62,
+      "end": 59.94
+    },
+    {
+      "word": "nobody",
+      "start": 59.94,
+      "end": 60.46
+    },
+    {
+      "word": "claimed",
+      "start": 60.46,
+      "end": 61.48
+    },
+    {
+      "word": "Now",
+      "start": 61.48,
+      "end": 64.1
+    },
+    {
+      "word": "I",
+      "start": 64.1,
+      "end": 64.38
+    },
+    {
+      "word": "know",
+      "start": 64.38,
+      "end": 64.6
+    },
+    {
+      "word": "exactly",
+      "start": 64.6,
+      "end": 65.28
+    },
+    {
+      "word": "whose",
+      "start": 65.28,
+      "end": 66.52
+    },
+    {
+      "word": "hands",
+      "start": 66.52,
+      "end": 67.08
+    },
+    {
+      "word": "carried",
+      "start": 67.08,
+      "end": 67.62
+    },
+    {
+      "word": "it",
+      "start": 67.62,
+      "end": 68.0
+    },
+    {
+      "word": "over",
+      "start": 68.0,
+      "end": 68.66
+    },
+    {
+      "word": "I",
+      "start": 70.0,
+      "end": 71.08
+    },
+    {
+      "word": "didn't",
+      "start": 71.08,
+      "end": 71.56
+    },
+    {
+      "word": "live",
+      "start": 71.56,
+      "end": 71.86
+    },
+    {
+      "word": "the",
+      "start": 71.86,
+      "end": 72.04
+    },
+    {
+      "word": "fever",
+      "start": 72.04,
+      "end": 72.28
+    },
+    {
+      "word": "summer",
+      "start": 72.28,
+      "end": 72.9
+    },
+    {
+      "word": "but",
+      "start": 72.9,
+      "end": 73.74
+    },
+    {
+      "word": "I",
+      "start": 73.74,
+      "end": 74.06
+    },
+    {
+      "word": "inherited",
+      "start": 74.06,
+      "end": 74.84
+    },
+    {
+      "word": "the",
+      "start": 74.84,
+      "end": 75.2
+    },
+    {
+      "word": "map",
+      "start": 75.2,
+      "end": 75.74
+    },
+    {
+      "word": "of",
+      "start": 75.74,
+      "end": 76.18
+    },
+    {
+      "word": "it",
+      "start": 76.18,
+      "end": 76.46
+    },
+    {
+      "word": "Every",
+      "start": 76.46,
+      "end": 78.58
+    },
+    {
+      "word": "road",
+      "start": 78.58,
+      "end": 79.12
+    },
+    {
+      "word": "in",
+      "start": 79.12,
+      "end": 79.36
+    },
+    {
+      "word": "our",
+      "start": 79.36,
+      "end": 79.6
+    },
+    {
+      "word": "house",
+      "start": 79.6,
+      "end": 80.16
+    },
+    {
+      "word": "detours",
+      "start": 80.16,
+      "end": 81.22
+    },
+    {
+      "word": "around",
+      "start": 81.22,
+      "end": 81.94
+    },
+    {
+      "word": "that",
+      "start": 81.94,
+      "end": 82.48
+    },
+    {
+      "word": "June",
+      "start": 82.48,
+      "end": 84.66
+    },
+    {
+      "word": "I'm",
+      "start": 85.58,
+      "end": 86.02
+    },
+    {
+      "word": "filling",
+      "start": 86.02,
+      "end": 86.38
+    },
+    {
+      "word": "in",
+      "start": 86.38,
+      "end": 86.78
+    },
+    {
+      "word": "a",
+      "start": 86.78,
+      "end": 86.9
+    },
+    {
+      "word": "season",
+      "start": 86.9,
+      "end": 87.38
+    },
+    {
+      "word": "I",
+      "start": 87.38,
+      "end": 88.0
+    },
+    {
+      "word": "was",
+      "start": 88.0,
+      "end": 88.46
+    },
+    {
+      "word": "never",
+      "start": 88.46,
+      "end": 88.9
+    },
+    {
+      "word": "there",
+      "start": 88.9,
+      "end": 89.78
+    },
+    {
+      "word": "to",
+      "start": 89.78,
+      "end": 90.26
+    },
+    {
+      "word": "see",
+      "start": 90.26,
+      "end": 90.72
+    },
+    {
+      "word": "With",
+      "start": 90.72,
+      "end": 91.86
+    },
+    {
+      "word": "the",
+      "start": 91.86,
+      "end": 92.1
+    },
+    {
+      "word": "hospital",
+      "start": 92.1,
+      "end": 93.0
+    },
+    {
+      "word": "parking",
+      "start": 93.0,
+      "end": 93.84
+    },
+    {
+      "word": "lot",
+      "start": 93.84,
+      "end": 94.28
+    },
+    {
+      "word": "and",
+      "start": 94.28,
+      "end": 95.72
+    },
+    {
+      "word": "a",
+      "start": 95.72,
+      "end": 95.9
+    },
+    {
+      "word": "casserole",
+      "start": 95.9,
+      "end": 96.74
+    },
+    {
+      "word": "dish",
+      "start": 96.74,
+      "end": 97.18
+    },
+    {
+      "word": "in",
+      "start": 97.18,
+      "end": 97.68
+    },
+    {
+      "word": "the",
+      "start": 97.68,
+      "end": 97.84
+    },
+    {
+      "word": "heat",
+      "start": 97.84,
+      "end": 98.18
+    },
+    {
+      "word": "They",
+      "start": 99.54,
+      "end": 99.98
+    },
+    {
+      "word": "say",
+      "start": 99.98,
+      "end": 100.26
+    },
+    {
+      "word": "he",
+      "start": 100.26,
+      "end": 100.5
+    },
+    {
+      "word": "had",
+      "start": 100.5,
+      "end": 100.76
+    },
+    {
+      "word": "my",
+      "start": 100.76,
+      "end": 100.92
+    },
+    {
+      "word": "father's",
+      "start": 100.92,
+      "end": 101.66
+    },
+    {
+      "word": "hands,",
+      "start": 101.66,
+      "end": 102.1
+    },
+    {
+      "word": "my",
+      "start": 102.86,
+      "end": 103.14
+    },
+    {
+      "word": "mother's",
+      "start": 103.14,
+      "end": 103.82
+    },
+    {
+      "word": "stubborn",
+      "start": 103.82,
+      "end": 104.14
+    },
+    {
+      "word": "chin",
+      "start": 104.14,
+      "end": 104.8
+    },
+    {
+      "word": "They",
+      "start": 104.8,
+      "end": 106.28
+    },
+    {
+      "word": "say",
+      "start": 106.28,
+      "end": 106.54
+    },
+    {
+      "word": "the",
+      "start": 106.54,
+      "end": 106.76
+    },
+    {
+      "word": "house",
+      "start": 106.76,
+      "end": 107.14
+    },
+    {
+      "word": "was",
+      "start": 107.14,
+      "end": 107.44
+    },
+    {
+      "word": "quiet",
+      "start": 107.44,
+      "end": 107.8
+    },
+    {
+      "word": "for",
+      "start": 107.8,
+      "end": 108.42
+    },
+    {
+      "word": "a",
+      "start": 108.42,
+      "end": 108.74
+    },
+    {
+      "word": "year",
+      "start": 108.74,
+      "end": 109.2
+    },
+    {
+      "word": "after",
+      "start": 109.2,
+      "end": 110.26
+    },
+    {
+      "word": "I",
+      "start": 113.5,
+      "end": 114.42
+    },
+    {
+      "word": "grew",
+      "start": 114.42,
+      "end": 114.7
+    },
+    {
+      "word": "up",
+      "start": 114.7,
+      "end": 115.16
+    },
+    {
+      "word": "in",
+      "start": 115.16,
+      "end": 115.4
+    },
+    {
+      "word": "the",
+      "start": 115.4,
+      "end": 115.54
+    },
+    {
+      "word": "quiet",
+      "start": 115.54,
+      "end": 115.94
+    },
+    {
+      "word": "without",
+      "start": 115.94,
+      "end": 117.02
+    },
+    {
+      "word": "knowing",
+      "start": 117.02,
+      "end": 117.92
+    },
+    {
+      "word": "it",
+      "start": 117.92,
+      "end": 118.8
+    },
+    {
+      "word": "was",
+      "start": 118.8,
+      "end": 119.2
+    },
+    {
+      "word": "after",
+      "start": 119.2,
+      "end": 119.8
+    },
+    {
+      "word": "me",
+      "start": 119.8,
+      "end": 120.14
+    },
+    {
+      "word": "I",
+      "start": 120.14,
+      "end": 122.02
+    },
+    {
+      "word": "thought",
+      "start": 122.02,
+      "end": 122.44
+    },
+    {
+      "word": "that's",
+      "start": 122.44,
+      "end": 123.02
+    },
+    {
+      "word": "just",
+      "start": 123.02,
+      "end": 123.4
+    },
+    {
+      "word": "what",
+      "start": 123.4,
+      "end": 123.76
+    },
+    {
+      "word": "our",
+      "start": 123.76,
+      "end": 124.04
+    },
+    {
+      "word": "house",
+      "start": 124.04,
+      "end": 124.54
+    },
+    {
+      "word": "sounded",
+      "start": 124.54,
+      "end": 125.4
+    },
+    {
+      "word": "like",
+      "start": 125.4,
+      "end": 128.26
+    },
+    {
+      "word": "I",
+      "start": 128.26,
+      "end": 128.86
+    },
+    {
+      "word": "didn't",
+      "start": 128.86,
+      "end": 129.34
+    },
+    {
+      "word": "live",
+      "start": 129.34,
+      "end": 129.58
+    },
+    {
+      "word": "the",
+      "start": 129.58,
+      "end": 129.78
+    },
+    {
+      "word": "fever",
+      "start": 129.78,
+      "end": 130.02
+    },
+    {
+      "word": "summer",
+      "start": 130.02,
+      "end": 130.6
+    },
+    {
+      "word": "but",
+      "start": 130.6,
+      "end": 131.5
+    },
+    {
+      "word": "I",
+      "start": 131.5,
+      "end": 131.68
+    },
+    {
+      "word": "inherited",
+      "start": 131.68,
+      "end": 132.12
+    },
+    {
+      "word": "the",
+      "start": 132.12,
+      "end": 132.94
+    },
+    {
+      "word": "map",
+      "start": 132.94,
+      "end": 133.5
+    },
+    {
+      "word": "of",
+      "start": 133.5,
+      "end": 133.9
+    },
+    {
+      "word": "it",
+      "start": 133.9,
+      "end": 134.22
+    },
+    {
+      "word": "Every",
+      "start": 134.22,
+      "end": 136.42
+    },
+    {
+      "word": "road",
+      "start": 136.42,
+      "end": 136.88
+    },
+    {
+      "word": "in",
+      "start": 136.88,
+      "end": 137.08
+    },
+    {
+      "word": "our",
+      "start": 137.08,
+      "end": 137.36
+    },
+    {
+      "word": "house",
+      "start": 137.36,
+      "end": 137.94
+    },
+    {
+      "word": "detours",
+      "start": 137.94,
+      "end": 138.98
+    },
+    {
+      "word": "around",
+      "start": 138.98,
+      "end": 139.86
+    },
+    {
+      "word": "that",
+      "start": 139.86,
+      "end": 140.26
+    },
+    {
+      "word": "June",
+      "start": 140.26,
+      "end": 140.96
+    },
+    {
+      "word": "I'm",
+      "start": 142.84,
+      "end": 143.76
+    },
+    {
+      "word": "filling",
+      "start": 143.76,
+      "end": 144.1
+    },
+    {
+      "word": "in",
+      "start": 144.1,
+      "end": 144.52
+    },
+    {
+      "word": "a",
+      "start": 144.52,
+      "end": 144.64
+    },
+    {
+      "word": "season",
+      "start": 144.64,
+      "end": 145.1
+    },
+    {
+      "word": "I",
+      "start": 145.1,
+      "end": 145.7
+    },
+    {
+      "word": "was",
+      "start": 145.7,
+      "end": 146.18
+    },
+    {
+      "word": "never",
+      "start": 146.18,
+      "end": 146.58
+    },
+    {
+      "word": "there",
+      "start": 146.58,
+      "end": 147.62
+    },
+    {
+      "word": "to",
+      "start": 147.62,
+      "end": 147.98
+    },
+    {
+      "word": "see",
+      "start": 147.98,
+      "end": 148.44
+    },
+    {
+      "word": "With",
+      "start": 148.44,
+      "end": 149.62
+    },
+    {
+      "word": "the",
+      "start": 149.62,
+      "end": 149.84
+    },
+    {
+      "word": "hospital",
+      "start": 149.84,
+      "end": 150.68
+    },
+    {
+      "word": "parking",
+      "start": 150.68,
+      "end": 151.56
+    },
+    {
+      "word": "lot",
+      "start": 151.56,
+      "end": 152.0
+    },
+    {
+      "word": "and",
+      "start": 152.0,
+      "end": 153.28
+    },
+    {
+      "word": "a",
+      "start": 153.28,
+      "end": 153.44
+    },
+    {
+      "word": "casserole",
+      "start": 153.44,
+      "end": 154.48
+    },
+    {
+      "word": "dish",
+      "start": 154.48,
+      "end": 154.84
+    },
+    {
+      "word": "in",
+      "start": 154.84,
+      "end": 155.28
+    },
+    {
+      "word": "the",
+      "start": 155.28,
+      "end": 155.46
+    },
+    {
+      "word": "heat",
+      "start": 155.46,
+      "end": 156.0
+    },
+    {
+      "word": "No",
+      "start": 167.84,
+      "end": 168.88
+    },
+    {
+      "word": "shade",
+      "start": 168.88,
+      "end": 169.36
+    },
+    {
+      "word": "at",
+      "start": 169.36,
+      "end": 169.74
+    },
+    {
+      "word": "noon,",
+      "start": 169.74,
+      "end": 170.1
+    },
+    {
+      "word": "nowhere",
+      "start": 170.94,
+      "end": 172.48
+    },
+    {
+      "word": "in",
+      "start": 172.48,
+      "end": 173.2
+    },
+    {
+      "word": "the",
+      "start": 173.2,
+      "end": 173.32
+    },
+    {
+      "word": "ward",
+      "start": 173.32,
+      "end": 173.82
+    },
+    {
+      "word": "Addition",
+      "start": 173.82,
+      "end": 176.64
+    },
+    {
+      "word": "the",
+      "start": 176.64,
+      "end": 176.94
+    },
+    {
+      "word": "garage",
+      "start": 176.94,
+      "end": 177.52
+    },
+    {
+      "word": "with",
+      "start": 177.52,
+      "end": 178.14
+    },
+    {
+      "word": "no",
+      "start": 178.14,
+      "end": 178.64
+    },
+    {
+      "word": "name",
+      "start": 178.64,
+      "end": 179.3
+    },
+    {
+      "word": "on",
+      "start": 179.3,
+      "end": 179.76
+    },
+    {
+      "word": "the",
+      "start": 179.76,
+      "end": 180.3
+    },
+    {
+      "word": "lid",
+      "start": 180.3,
+      "end": 180.72
+    },
+    {
+      "word": "I",
+      "start": 181.72,
+      "end": 183.1
+    },
+    {
+      "word": "wasn't",
+      "start": 183.1,
+      "end": 184.08
+    },
+    {
+      "word": "there,",
+      "start": 184.08,
+      "end": 184.52
+    },
+    {
+      "word": "I",
+      "start": 185.24,
+      "end": 186.68
+    },
+    {
+      "word": "wasn't",
+      "start": 186.68,
+      "end": 187.64
+    },
+    {
+      "word": "there,",
+      "start": 187.64,
+      "end": 188.2
+    },
+    {
+      "word": "I",
+      "start": 188.84,
+      "end": 190.3
+    },
+    {
+      "word": "wasn't",
+      "start": 190.3,
+      "end": 191.28
+    },
+    {
+      "word": "there",
+      "start": 191.28,
+      "end": 191.76
+    },
+    {
+      "word": "But",
+      "start": 191.76,
+      "end": 192.92
+    },
+    {
+      "word": "I",
+      "start": 192.92,
+      "end": 193.2
+    },
+    {
+      "word": "grew",
+      "start": 193.2,
+      "end": 193.5
+    },
+    {
+      "word": "up",
+      "start": 193.5,
+      "end": 193.98
+    },
+    {
+      "word": "fluent",
+      "start": 193.98,
+      "end": 194.42
+    },
+    {
+      "word": "in",
+      "start": 194.42,
+      "end": 195.64
+    },
+    {
+      "word": "the",
+      "start": 195.64,
+      "end": 195.82
+    },
+    {
+      "word": "silence",
+      "start": 195.82,
+      "end": 196.36
+    },
+    {
+      "word": "it",
+      "start": 196.36,
+      "end": 197.0
+    },
+    {
+      "word": "left",
+      "start": 197.0,
+      "end": 197.3
+    },
+    {
+      "word": "behind",
+      "start": 197.3,
+      "end": 198.92
+    },
+    {
+      "word": "I'm",
+      "start": 200.56,
+      "end": 201.5
+    },
+    {
+      "word": "filling",
+      "start": 201.5,
+      "end": 201.86
+    },
+    {
+      "word": "in",
+      "start": 201.86,
+      "end": 202.26
+    },
+    {
+      "word": "a",
+      "start": 202.26,
+      "end": 202.36
+    },
+    {
+      "word": "season",
+      "start": 202.36,
+      "end": 202.92
+    },
+    {
+      "word": "I",
+      "start": 202.92,
+      "end": 203.46
+    },
+    {
+      "word": "was",
+      "start": 203.46,
+      "end": 203.96
+    },
+    {
+      "word": "never",
+      "start": 203.96,
+      "end": 204.48
+    },
+    {
+      "word": "there",
+      "start": 204.48,
+      "end": 205.3
+    },
+    {
+      "word": "to",
+      "start": 205.3,
+      "end": 205.74
+    },
+    {
+      "word": "see",
+      "start": 205.74,
+      "end": 206.14
+    },
+    {
+      "word": "The",
+      "start": 206.14,
+      "end": 207.78
+    },
+    {
+      "word": "heat's",
+      "start": 207.78,
+      "end": 208.3
+    },
+    {
+      "word": "still",
+      "start": 208.3,
+      "end": 208.6
+    },
+    {
+      "word": "in",
+      "start": 208.6,
+      "end": 208.88
+    },
+    {
+      "word": "the",
+      "start": 208.88,
+      "end": 209.16
+    },
+    {
+      "word": "walls",
+      "start": 209.16,
+      "end": 209.6
+    },
+    {
+      "word": "The",
+      "start": 209.6,
+      "end": 211.48
+    },
+    {
+      "word": "heat's",
+      "start": 211.48,
+      "end": 212.1
+    },
+    {
+      "word": "still",
+      "start": 212.1,
+      "end": 212.42
+    },
+    {
+      "word": "in",
+      "start": 212.42,
+      "end": 212.78
+    },
+    {
+      "word": "me",
+      "start": 212.78,
+      "end": 213.46
+    }
+  ]
+}
