@@ -1,0 +1,1138 @@
+{
+  "title": "So Hum",
+  "slug": "so-hum",
+  "trackNumber": 1,
+  "duration": 199.16,
+  "words": [
+    {
+      "word": "So",
+      "start": 0.0,
+      "end": 1.3
+    },
+    {
+      "word": "hum,",
+      "start": 1.3,
+      "end": 1.7
+    },
+    {
+      "word": "so",
+      "start": 2.24,
+      "end": 2.58
+    },
+    {
+      "word": "hum,",
+      "start": 2.58,
+      "end": 3.1
+    },
+    {
+      "word": "so",
+      "start": 3.98,
+      "end": 4.98
+    },
+    {
+      "word": "hum",
+      "start": 4.98,
+      "end": 5.84
+    },
+    {
+      "word": "So",
+      "start": 5.84,
+      "end": 7.58
+    },
+    {
+      "word": "hum,",
+      "start": 7.58,
+      "end": 8.34
+    },
+    {
+      "word": "so",
+      "start": 9.76,
+      "end": 10.38
+    },
+    {
+      "word": "hum",
+      "start": 10.38,
+      "end": 10.5
+    },
+    {
+      "word": "I",
+      "start": 10.5,
+      "end": 10.5
+    },
+    {
+      "word": "am",
+      "start": 10.5,
+      "end": 10.84
+    },
+    {
+      "word": "that,",
+      "start": 10.84,
+      "end": 11.38
+    },
+    {
+      "word": "I",
+      "start": 11.38,
+      "end": 13.1
+    },
+    {
+      "word": "am",
+      "start": 13.1,
+      "end": 13.54
+    },
+    {
+      "word": "that,",
+      "start": 13.54,
+      "end": 14.14
+    },
+    {
+      "word": "I",
+      "start": 14.14,
+      "end": 15.76
+    },
+    {
+      "word": "am",
+      "start": 15.76,
+      "end": 16.32
+    },
+    {
+      "word": "that",
+      "start": 16.32,
+      "end": 16.76
+    },
+    {
+      "word": "In",
+      "start": 16.76,
+      "end": 19.66
+    },
+    {
+      "word": "the",
+      "start": 19.66,
+      "end": 21.28
+    },
+    {
+      "word": "space",
+      "start": 21.28,
+      "end": 21.58
+    },
+    {
+      "word": "between",
+      "start": 21.58,
+      "end": 22.18
+    },
+    {
+      "word": "the",
+      "start": 22.18,
+      "end": 22.48
+    },
+    {
+      "word": "breathing",
+      "start": 22.48,
+      "end": 23.18
+    },
+    {
+      "word": "In",
+      "start": 23.18,
+      "end": 26.28
+    },
+    {
+      "word": "the",
+      "start": 26.28,
+      "end": 26.58
+    },
+    {
+      "word": "gap",
+      "start": 26.58,
+      "end": 26.86
+    },
+    {
+      "word": "between",
+      "start": 26.86,
+      "end": 27.5
+    },
+    {
+      "word": "the",
+      "start": 27.5,
+      "end": 27.8
+    },
+    {
+      "word": "thought",
+      "start": 27.8,
+      "end": 28.4
+    },
+    {
+      "word": "There",
+      "start": 30.82,
+      "end": 31.62
+    },
+    {
+      "word": "is",
+      "start": 31.62,
+      "end": 31.9
+    },
+    {
+      "word": "something",
+      "start": 31.9,
+      "end": 32.24
+    },
+    {
+      "word": "always",
+      "start": 32.24,
+      "end": 33.04
+    },
+    {
+      "word": "present,",
+      "start": 33.04,
+      "end": 33.68
+    },
+    {
+      "word": "that",
+      "start": 34.36,
+      "end": 36.98
+    },
+    {
+      "word": "was",
+      "start": 36.98,
+      "end": 37.28
+    },
+    {
+      "word": "never",
+      "start": 37.28,
+      "end": 37.62
+    },
+    {
+      "word": "sold",
+      "start": 37.62,
+      "end": 38.24
+    },
+    {
+      "word": "or",
+      "start": 38.24,
+      "end": 38.48
+    },
+    {
+      "word": "bought",
+      "start": 38.48,
+      "end": 38.92
+    },
+    {
+      "word": "Not",
+      "start": 38.92,
+      "end": 42.24
+    },
+    {
+      "word": "the",
+      "start": 42.24,
+      "end": 42.56
+    },
+    {
+      "word": "noise",
+      "start": 42.56,
+      "end": 43.0
+    },
+    {
+      "word": "of",
+      "start": 43.0,
+      "end": 43.3
+    },
+    {
+      "word": "who",
+      "start": 43.3,
+      "end": 43.62
+    },
+    {
+      "word": "you're",
+      "start": 43.62,
+      "end": 43.86
+    },
+    {
+      "word": "trying,",
+      "start": 43.86,
+      "end": 44.42
+    },
+    {
+      "word": "not",
+      "start": 44.42,
+      "end": 45.02
+    },
+    {
+      "word": "the",
+      "start": 45.02,
+      "end": 45.26
+    },
+    {
+      "word": "armor",
+      "start": 45.26,
+      "end": 45.66
+    },
+    {
+      "word": "that",
+      "start": 45.66,
+      "end": 46.1
+    },
+    {
+      "word": "you",
+      "start": 46.1,
+      "end": 46.44
+    },
+    {
+      "word": "wear",
+      "start": 46.44,
+      "end": 46.86
+    },
+    {
+      "word": "Just",
+      "start": 46.86,
+      "end": 47.6
+    },
+    {
+      "word": "the",
+      "start": 47.6,
+      "end": 47.92
+    },
+    {
+      "word": "witness,",
+      "start": 47.92,
+      "end": 48.22
+    },
+    {
+      "word": "just",
+      "start": 48.84,
+      "end": 48.96
+    },
+    {
+      "word": "the",
+      "start": 48.96,
+      "end": 49.24
+    },
+    {
+      "word": "stillness,",
+      "start": 49.24,
+      "end": 49.92
+    },
+    {
+      "word": "just",
+      "start": 50.08,
+      "end": 50.32
+    },
+    {
+      "word": "the",
+      "start": 50.32,
+      "end": 50.64
+    },
+    {
+      "word": "one",
+      "start": 50.64,
+      "end": 50.96
+    },
+    {
+      "word": "who's",
+      "start": 50.96,
+      "end": 51.36
+    },
+    {
+      "word": "always",
+      "start": 51.36,
+      "end": 51.86
+    },
+    {
+      "word": "there",
+      "start": 51.86,
+      "end": 52.28
+    },
+    {
+      "word": "So",
+      "start": 52.28,
+      "end": 53.1
+    },
+    {
+      "word": "hum,",
+      "start": 53.1,
+      "end": 53.72
+    },
+    {
+      "word": "I",
+      "start": 54.76,
+      "end": 55.74
+    },
+    {
+      "word": "am",
+      "start": 55.74,
+      "end": 56.12
+    },
+    {
+      "word": "that,",
+      "start": 56.12,
+      "end": 56.66
+    },
+    {
+      "word": "so",
+      "start": 57.48,
+      "end": 58.26
+    },
+    {
+      "word": "hum",
+      "start": 58.26,
+      "end": 59.02
+    },
+    {
+      "word": "I",
+      "start": 59.02,
+      "end": 61.0
+    },
+    {
+      "word": "am",
+      "start": 61.0,
+      "end": 61.46
+    },
+    {
+      "word": "that,",
+      "start": 61.46,
+      "end": 62.02
+    },
+    {
+      "word": "everything",
+      "start": 62.72,
+      "end": 63.3
+    },
+    {
+      "word": "that",
+      "start": 63.3,
+      "end": 63.82
+    },
+    {
+      "word": "rises,",
+      "start": 63.82,
+      "end": 64.32
+    },
+    {
+      "word": "everything",
+      "start": 65.18,
+      "end": 65.92
+    },
+    {
+      "word": "that",
+      "start": 65.92,
+      "end": 66.42
+    },
+    {
+      "word": "falls",
+      "start": 66.42,
+      "end": 66.88
+    },
+    {
+      "word": "I",
+      "start": 66.88,
+      "end": 68.14
+    },
+    {
+      "word": "am",
+      "start": 68.14,
+      "end": 68.36
+    },
+    {
+      "word": "the",
+      "start": 68.36,
+      "end": 68.62
+    },
+    {
+      "word": "one",
+      "start": 68.62,
+      "end": 68.92
+    },
+    {
+      "word": "who",
+      "start": 68.92,
+      "end": 69.08
+    },
+    {
+      "word": "watches,",
+      "start": 69.08,
+      "end": 69.76
+    },
+    {
+      "word": "I",
+      "start": 70.56,
+      "end": 70.8
+    },
+    {
+      "word": "am",
+      "start": 70.8,
+      "end": 71.02
+    },
+    {
+      "word": "the",
+      "start": 71.02,
+      "end": 71.26
+    },
+    {
+      "word": "one",
+      "start": 71.26,
+      "end": 71.54
+    },
+    {
+      "word": "who",
+      "start": 71.54,
+      "end": 71.78
+    },
+    {
+      "word": "calls",
+      "start": 71.78,
+      "end": 72.18
+    },
+    {
+      "word": "So",
+      "start": 72.18,
+      "end": 74.28
+    },
+    {
+      "word": "hum,",
+      "start": 74.28,
+      "end": 74.98
+    },
+    {
+      "word": "so",
+      "start": 76.58,
+      "end": 76.96
+    },
+    {
+      "word": "hum,",
+      "start": 76.96,
+      "end": 77.74
+    },
+    {
+      "word": "so",
+      "start": 78.82,
+      "end": 79.62
+    },
+    {
+      "word": "hum",
+      "start": 79.62,
+      "end": 80.26
+    },
+    {
+      "word": "You",
+      "start": 84.02,
+      "end": 84.94
+    },
+    {
+      "word": "have",
+      "start": 84.94,
+      "end": 85.18
+    },
+    {
+      "word": "given",
+      "start": 85.18,
+      "end": 85.5
+    },
+    {
+      "word": "yourself",
+      "start": 85.5,
+      "end": 86.34
+    },
+    {
+      "word": "names",
+      "start": 86.34,
+      "end": 86.8
+    },
+    {
+      "word": "now",
+      "start": 86.8,
+      "end": 87.5
+    },
+    {
+      "word": "You",
+      "start": 87.5,
+      "end": 90.26
+    },
+    {
+      "word": "have",
+      "start": 90.26,
+      "end": 90.5
+    },
+    {
+      "word": "built",
+      "start": 90.5,
+      "end": 90.84
+    },
+    {
+      "word": "yourself",
+      "start": 90.84,
+      "end": 91.48
+    },
+    {
+      "word": "in",
+      "start": 91.48,
+      "end": 91.84
+    },
+    {
+      "word": "layers",
+      "start": 91.84,
+      "end": 92.52
+    },
+    {
+      "word": "You",
+      "start": 92.52,
+      "end": 95.54
+    },
+    {
+      "word": "have",
+      "start": 95.54,
+      "end": 95.88
+    },
+    {
+      "word": "worn",
+      "start": 95.88,
+      "end": 96.22
+    },
+    {
+      "word": "the",
+      "start": 96.22,
+      "end": 96.56
+    },
+    {
+      "word": "masks",
+      "start": 96.56,
+      "end": 96.9
+    },
+    {
+      "word": "of",
+      "start": 96.9,
+      "end": 97.32
+    },
+    {
+      "word": "seasons",
+      "start": 97.32,
+      "end": 98.04
+    },
+    {
+      "word": "You",
+      "start": 98.04,
+      "end": 100.92
+    },
+    {
+      "word": "have",
+      "start": 100.92,
+      "end": 101.16
+    },
+    {
+      "word": "set",
+      "start": 101.16,
+      "end": 101.5
+    },
+    {
+      "word": "a",
+      "start": 101.5,
+      "end": 101.72
+    },
+    {
+      "word": "thousand",
+      "start": 101.72,
+      "end": 102.54
+    },
+    {
+      "word": "prayers",
+      "start": 102.54,
+      "end": 103.06
+    },
+    {
+      "word": "But",
+      "start": 103.06,
+      "end": 106.26
+    },
+    {
+      "word": "beneath",
+      "start": 106.26,
+      "end": 106.9
+    },
+    {
+      "word": "the",
+      "start": 106.9,
+      "end": 107.26
+    },
+    {
+      "word": "whole",
+      "start": 107.26,
+      "end": 107.48
+    },
+    {
+      "word": "construction",
+      "start": 107.48,
+      "end": 108.08
+    },
+    {
+      "word": "underneath",
+      "start": 108.08,
+      "end": 109.24
+    },
+    {
+      "word": "the",
+      "start": 109.24,
+      "end": 109.94
+    },
+    {
+      "word": "whole",
+      "start": 109.94,
+      "end": 110.18
+    },
+    {
+      "word": "design",
+      "start": 110.18,
+      "end": 110.64
+    },
+    {
+      "word": "Is",
+      "start": 110.64,
+      "end": 111.68
+    },
+    {
+      "word": "the",
+      "start": 111.68,
+      "end": 111.9
+    },
+    {
+      "word": "frequency",
+      "start": 111.9,
+      "end": 112.24
+    },
+    {
+      "word": "that",
+      "start": 112.24,
+      "end": 113.18
+    },
+    {
+      "word": "hums",
+      "start": 113.18,
+      "end": 113.82
+    },
+    {
+      "word": "you",
+      "start": 113.82,
+      "end": 114.0
+    },
+    {
+      "word": "is",
+      "start": 114.0,
+      "end": 114.34
+    },
+    {
+      "word": "the",
+      "start": 114.34,
+      "end": 114.6
+    },
+    {
+      "word": "light",
+      "start": 114.6,
+      "end": 114.94
+    },
+    {
+      "word": "that",
+      "start": 114.94,
+      "end": 115.32
+    },
+    {
+      "word": "is",
+      "start": 115.32,
+      "end": 115.58
+    },
+    {
+      "word": "divine",
+      "start": 115.58,
+      "end": 116.02
+    },
+    {
+      "word": "So",
+      "start": 116.02,
+      "end": 116.98
+    },
+    {
+      "word": "hum,",
+      "start": 116.98,
+      "end": 117.64
+    },
+    {
+      "word": "I",
+      "start": 118.82,
+      "end": 119.78
+    },
+    {
+      "word": "am",
+      "start": 119.78,
+      "end": 120.18
+    },
+    {
+      "word": "that,",
+      "start": 120.18,
+      "end": 120.7
+    },
+    {
+      "word": "so",
+      "start": 121.54,
+      "end": 122.24
+    },
+    {
+      "word": "hum",
+      "start": 122.24,
+      "end": 123.0
+    },
+    {
+      "word": "I",
+      "start": 123.0,
+      "end": 125.04
+    },
+    {
+      "word": "am",
+      "start": 125.04,
+      "end": 125.42
+    },
+    {
+      "word": "that,",
+      "start": 125.42,
+      "end": 126.08
+    },
+    {
+      "word": "everything",
+      "start": 126.58,
+      "end": 127.38
+    },
+    {
+      "word": "that",
+      "start": 127.38,
+      "end": 127.78
+    },
+    {
+      "word": "rises,",
+      "start": 127.78,
+      "end": 128.3
+    },
+    {
+      "word": "everything",
+      "start": 129.12,
+      "end": 129.92
+    },
+    {
+      "word": "that",
+      "start": 129.92,
+      "end": 130.44
+    },
+    {
+      "word": "falls",
+      "start": 130.44,
+      "end": 130.84
+    },
+    {
+      "word": "I",
+      "start": 130.84,
+      "end": 132.14
+    },
+    {
+      "word": "am",
+      "start": 132.14,
+      "end": 132.36
+    },
+    {
+      "word": "the",
+      "start": 132.36,
+      "end": 132.64
+    },
+    {
+      "word": "one",
+      "start": 132.64,
+      "end": 132.88
+    },
+    {
+      "word": "who",
+      "start": 132.88,
+      "end": 133.1
+    },
+    {
+      "word": "watches,",
+      "start": 133.1,
+      "end": 133.58
+    },
+    {
+      "word": "I",
+      "start": 134.44,
+      "end": 134.8
+    },
+    {
+      "word": "am",
+      "start": 134.8,
+      "end": 135.08
+    },
+    {
+      "word": "the",
+      "start": 135.08,
+      "end": 135.28
+    },
+    {
+      "word": "one",
+      "start": 135.28,
+      "end": 135.52
+    },
+    {
+      "word": "who",
+      "start": 135.52,
+      "end": 135.76
+    },
+    {
+      "word": "calls",
+      "start": 135.76,
+      "end": 136.18
+    },
+    {
+      "word": "So",
+      "start": 136.18,
+      "end": 138.26
+    },
+    {
+      "word": "hum",
+      "start": 138.26,
+      "end": 138.94
+    },
+    {
+      "word": "So",
+      "start": 140.64,
+      "end": 141.16
+    },
+    {
+      "word": "hum,",
+      "start": 141.16,
+      "end": 141.64
+    },
+    {
+      "word": "so",
+      "start": 142.86,
+      "end": 143.64
+    },
+    {
+      "word": "hum,",
+      "start": 143.64,
+      "end": 144.32
+    },
+    {
+      "word": "so",
+      "start": 145.68,
+      "end": 146.36
+    },
+    {
+      "word": "hum",
+      "start": 146.36,
+      "end": 147.14
+    },
+    {
+      "word": "So",
+      "start": 147.14,
+      "end": 148.88
+    },
+    {
+      "word": "hum,",
+      "start": 148.88,
+      "end": 149.64
+    },
+    {
+      "word": "so",
+      "start": 150.78,
+      "end": 151.62
+    },
+    {
+      "word": "hum",
+      "start": 151.62,
+      "end": 152.28
+    },
+    {
+      "word": "I",
+      "start": 152.28,
+      "end": 153.72
+    },
+    {
+      "word": "am",
+      "start": 153.72,
+      "end": 153.94
+    },
+    {
+      "word": "that",
+      "start": 153.94,
+      "end": 154.16
+    },
+    {
+      "word": "which",
+      "start": 154.16,
+      "end": 154.46
+    },
+    {
+      "word": "breathes,",
+      "start": 154.46,
+      "end": 155.74
+    },
+    {
+      "word": "I",
+      "start": 155.98,
+      "end": 156.36
+    },
+    {
+      "word": "am",
+      "start": 156.36,
+      "end": 156.6
+    },
+    {
+      "word": "that",
+      "start": 156.6,
+      "end": 156.82
+    },
+    {
+      "word": "which",
+      "start": 156.82,
+      "end": 157.1
+    },
+    {
+      "word": "knows,",
+      "start": 157.1,
+      "end": 157.52
+    },
+    {
+      "word": "I",
+      "start": 158.28,
+      "end": 159.02
+    },
+    {
+      "word": "am",
+      "start": 159.02,
+      "end": 159.26
+    },
+    {
+      "word": "that",
+      "start": 159.26,
+      "end": 159.46
+    },
+    {
+      "word": "which",
+      "start": 159.46,
+      "end": 159.8
+    },
+    {
+      "word": "stays,",
+      "start": 159.8,
+      "end": 160.24
+    },
+    {
+      "word": "when",
+      "start": 161.1,
+      "end": 161.4
+    },
+    {
+      "word": "everything",
+      "start": 161.4,
+      "end": 161.94
+    },
+    {
+      "word": "else",
+      "start": 161.94,
+      "end": 162.46
+    },
+    {
+      "word": "goes",
+      "start": 162.46,
+      "end": 162.84
+    },
+    {
+      "word": "So",
+      "start": 162.84,
+      "end": 165.1
+    },
+    {
+      "word": "hum,",
+      "start": 165.1,
+      "end": 165.72
+    },
+    {
+      "word": "so",
+      "start": 166.48,
+      "end": 167.52
+    },
+    {
+      "word": "hum,",
+      "start": 167.52,
+      "end": 173.94
+    },
+    {
+      "word": "so",
+      "start": 174.76,
+      "end": 175.56
+    },
+    {
+      "word": "hum",
+      "start": 175.56,
+      "end": 176.32
+    },
+    {
+      "word": "So",
+      "start": 176.32,
+      "end": 180.86
+    },
+    {
+      "word": "hum,",
+      "start": 180.86,
+      "end": 181.68
+    },
+    {
+      "word": "so",
+      "start": 191.04,
+      "end": 191.04
+    },
+    {
+      "word": "hum",
+      "start": 191.04,
+      "end": 191.04
+    },
+    {
+      "word": "I",
+      "start": 191.04,
+      "end": 191.56
+    },
+    {
+      "word": "am",
+      "start": 191.56,
+      "end": 192.02
+    },
+    {
+      "word": "that",
+      "start": 192.02,
+      "end": 192.82
+    },
+    {
+      "word": "which",
+      "start": 192.82,
+      "end": 192.82
+    },
+    {
+      "word": "rests,",
+      "start": 192.82,
+      "end": 192.82
+    },
+    {
+      "word": "when",
+      "start": 192.82,
+      "end": 192.82
+    },
+    {
+      "word": "everything",
+      "start": 192.82,
+      "end": 192.82
+    },
+    {
+      "word": "else",
+      "start": 192.82,
+      "end": 192.82
+    },
+    {
+      "word": "goes",
+      "start": 192.82,
+      "end": 192.82
+    },
+    {
+      "word": "That",
+      "start": 192.82,
+      "end": 193.3
+    }
+  ]
+}

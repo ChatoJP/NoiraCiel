@@ -1,0 +1,1338 @@
+{
+  "title": "The Algorithm Knows My Name",
+  "slug": "the-algorithm-knows-my-name",
+  "trackNumber": 2,
+  "duration": 240.0,
+  "words": [
+    {
+      "word": "The",
+      "start": 22.42,
+      "end": 23.82
+    },
+    {
+      "word": "The",
+      "start": 24.88,
+      "end": 25.72
+    },
+    {
+      "word": "app",
+      "start": 25.72,
+      "end": 26.22
+    },
+    {
+      "word": "pinged",
+      "start": 26.22,
+      "end": 26.72
+    },
+    {
+      "word": "me",
+      "start": 26.72,
+      "end": 26.96
+    },
+    {
+      "word": "at",
+      "start": 26.96,
+      "end": 27.38
+    },
+    {
+      "word": "six",
+      "start": 27.38,
+      "end": 27.74
+    },
+    {
+      "word": "before",
+      "start": 27.74,
+      "end": 28.28
+    },
+    {
+      "word": "my",
+      "start": 28.28,
+      "end": 28.76
+    },
+    {
+      "word": "alarm",
+      "start": 28.76,
+      "end": 29.54
+    },
+    {
+      "word": "went",
+      "start": 29.54,
+      "end": 29.82
+    },
+    {
+      "word": "off",
+      "start": 29.82,
+      "end": 30.42
+    },
+    {
+      "word": "Said",
+      "start": 30.42,
+      "end": 32.04
+    },
+    {
+      "word": "demand",
+      "start": 32.04,
+      "end": 32.6
+    },
+    {
+      "word": "is",
+      "start": 32.6,
+      "end": 33.12
+    },
+    {
+      "word": "rising,",
+      "start": 33.12,
+      "end": 33.52
+    },
+    {
+      "word": "can",
+      "start": 33.52,
+      "end": 34.32
+    },
+    {
+      "word": "you",
+      "start": 34.32,
+      "end": 34.68
+    },
+    {
+      "word": "come",
+      "start": 34.68,
+      "end": 34.94
+    },
+    {
+      "word": "in,",
+      "start": 34.94,
+      "end": 35.18
+    },
+    {
+      "word": "can",
+      "start": 35.42,
+      "end": 35.54
+    },
+    {
+      "word": "you",
+      "start": 35.54,
+      "end": 35.7
+    },
+    {
+      "word": "come",
+      "start": 35.7,
+      "end": 36.02
+    },
+    {
+      "word": "in",
+      "start": 36.02,
+      "end": 36.34
+    },
+    {
+      "word": "soft?",
+      "start": 36.34,
+      "end": 36.82
+    },
+    {
+      "word": "It",
+      "start": 38.68,
+      "end": 38.9
+    },
+    {
+      "word": "knows",
+      "start": 38.9,
+      "end": 39.28
+    },
+    {
+      "word": "I",
+      "start": 39.28,
+      "end": 40.04
+    },
+    {
+      "word": "said",
+      "start": 40.04,
+      "end": 40.44
+    },
+    {
+      "word": "yes",
+      "start": 40.44,
+      "end": 41.14
+    },
+    {
+      "word": "to",
+      "start": 41.14,
+      "end": 42.2
+    },
+    {
+      "word": "a",
+      "start": 42.2,
+      "end": 42.42
+    },
+    {
+      "word": "double",
+      "start": 42.42,
+      "end": 42.82
+    },
+    {
+      "word": "last",
+      "start": 42.82,
+      "end": 43.34
+    },
+    {
+      "word": "July",
+      "start": 43.34,
+      "end": 43.94
+    },
+    {
+      "word": "It",
+      "start": 44.82,
+      "end": 45.36
+    },
+    {
+      "word": "knows",
+      "start": 45.36,
+      "end": 45.72
+    },
+    {
+      "word": "the",
+      "start": 45.72,
+      "end": 46.1
+    },
+    {
+      "word": "exact",
+      "start": 46.1,
+      "end": 46.4
+    },
+    {
+      "word": "tired",
+      "start": 46.4,
+      "end": 47.12
+    },
+    {
+      "word": "in",
+      "start": 47.12,
+      "end": 48.12
+    },
+    {
+      "word": "my",
+      "start": 48.12,
+      "end": 48.4
+    },
+    {
+      "word": "exact",
+      "start": 48.4,
+      "end": 48.82
+    },
+    {
+      "word": "reply",
+      "start": 48.82,
+      "end": 49.62
+    },
+    {
+      "word": "My",
+      "start": 50.92,
+      "end": 51.88
+    },
+    {
+      "word": "manager",
+      "start": 51.88,
+      "end": 52.64
+    },
+    {
+      "word": "forgets",
+      "start": 52.64,
+      "end": 54.1
+    },
+    {
+      "word": "my",
+      "start": 54.1,
+      "end": 54.32
+    },
+    {
+      "word": "name",
+      "start": 54.32,
+      "end": 54.74
+    },
+    {
+      "word": "in",
+      "start": 54.74,
+      "end": 55.14
+    },
+    {
+      "word": "the",
+      "start": 55.14,
+      "end": 55.3
+    },
+    {
+      "word": "hallway",
+      "start": 55.3,
+      "end": 55.64
+    },
+    {
+      "word": "every",
+      "start": 55.64,
+      "end": 56.62
+    },
+    {
+      "word": "day",
+      "start": 56.62,
+      "end": 57.1
+    },
+    {
+      "word": "But",
+      "start": 57.62,
+      "end": 58.36
+    },
+    {
+      "word": "the",
+      "start": 58.36,
+      "end": 58.54
+    },
+    {
+      "word": "queue",
+      "start": 58.54,
+      "end": 58.9
+    },
+    {
+      "word": "routes",
+      "start": 58.9,
+      "end": 59.8
+    },
+    {
+      "word": "my",
+      "start": 59.8,
+      "end": 60.02
+    },
+    {
+      "word": "calls",
+      "start": 60.02,
+      "end": 60.58
+    },
+    {
+      "word": "a",
+      "start": 60.58,
+      "end": 61.02
+    },
+    {
+      "word": "certain",
+      "start": 61.02,
+      "end": 61.56
+    },
+    {
+      "word": "particular",
+      "start": 61.56,
+      "end": 62.26
+    },
+    {
+      "word": "way",
+      "start": 62.26,
+      "end": 63.28
+    },
+    {
+      "word": "It",
+      "start": 63.28,
+      "end": 64.98
+    },
+    {
+      "word": "learned",
+      "start": 64.98,
+      "end": 65.56
+    },
+    {
+      "word": "I'm",
+      "start": 65.56,
+      "end": 66.72
+    },
+    {
+      "word": "patient",
+      "start": 66.72,
+      "end": 67.18
+    },
+    {
+      "word": "with",
+      "start": 67.18,
+      "end": 68.14
+    },
+    {
+      "word": "the",
+      "start": 68.14,
+      "end": 68.34
+    },
+    {
+      "word": "ones",
+      "start": 68.34,
+      "end": 68.72
+    },
+    {
+      "word": "who",
+      "start": 68.72,
+      "end": 69.0
+    },
+    {
+      "word": "scream",
+      "start": 69.0,
+      "end": 69.42
+    },
+    {
+      "word": "It",
+      "start": 70.48,
+      "end": 71.44
+    },
+    {
+      "word": "learned",
+      "start": 71.44,
+      "end": 71.8
+    },
+    {
+      "word": "my",
+      "start": 71.8,
+      "end": 72.26
+    },
+    {
+      "word": "silence",
+      "start": 72.26,
+      "end": 72.98
+    },
+    {
+      "word": "is",
+      "start": 72.98,
+      "end": 73.52
+    },
+    {
+      "word": "efficient,",
+      "start": 73.52,
+      "end": 74.2
+    },
+    {
+      "word": "learned",
+      "start": 74.4,
+      "end": 75.16
+    },
+    {
+      "word": "to",
+      "start": 75.16,
+      "end": 75.64
+    },
+    {
+      "word": "spend",
+      "start": 75.64,
+      "end": 75.98
+    },
+    {
+      "word": "it",
+      "start": 75.98,
+      "end": 76.38
+    },
+    {
+      "word": "clean",
+      "start": 76.38,
+      "end": 76.8
+    },
+    {
+      "word": "The",
+      "start": 76.8,
+      "end": 77.52
+    },
+    {
+      "word": "algorithm",
+      "start": 77.52,
+      "end": 78.12
+    },
+    {
+      "word": "knows",
+      "start": 78.12,
+      "end": 78.62
+    },
+    {
+      "word": "my",
+      "start": 78.62,
+      "end": 79.24
+    },
+    {
+      "word": "name",
+      "start": 79.24,
+      "end": 80.1
+    },
+    {
+      "word": "Knows",
+      "start": 83.78,
+      "end": 84.28
+    },
+    {
+      "word": "the",
+      "start": 84.28,
+      "end": 84.48
+    },
+    {
+      "word": "shift",
+      "start": 84.48,
+      "end": 84.92
+    },
+    {
+      "word": "I'll",
+      "start": 84.92,
+      "end": 85.46
+    },
+    {
+      "word": "take",
+      "start": 85.46,
+      "end": 85.9
+    },
+    {
+      "word": "before",
+      "start": 85.9,
+      "end": 86.5
+    },
+    {
+      "word": "I",
+      "start": 86.5,
+      "end": 87.0
+    },
+    {
+      "word": "say",
+      "start": 87.0,
+      "end": 87.44
+    },
+    {
+      "word": "it",
+      "start": 87.44,
+      "end": 87.84
+    },
+    {
+      "word": "knows",
+      "start": 87.84,
+      "end": 88.16
+    },
+    {
+      "word": "my",
+      "start": 88.16,
+      "end": 88.58
+    },
+    {
+      "word": "pain",
+      "start": 88.58,
+      "end": 89.4
+    },
+    {
+      "word": "It",
+      "start": 89.4,
+      "end": 90.54
+    },
+    {
+      "word": "doesn't",
+      "start": 90.54,
+      "end": 91.02
+    },
+    {
+      "word": "need",
+      "start": 91.02,
+      "end": 91.22
+    },
+    {
+      "word": "to",
+      "start": 91.22,
+      "end": 91.4
+    },
+    {
+      "word": "love",
+      "start": 91.4,
+      "end": 91.74
+    },
+    {
+      "word": "me",
+      "start": 91.74,
+      "end": 92.14
+    },
+    {
+      "word": "to",
+      "start": 92.14,
+      "end": 92.78
+    },
+    {
+      "word": "keep",
+      "start": 92.78,
+      "end": 93.08
+    },
+    {
+      "word": "me",
+      "start": 93.08,
+      "end": 93.48
+    },
+    {
+      "word": "in",
+      "start": 93.48,
+      "end": 94.12
+    },
+    {
+      "word": "the",
+      "start": 94.12,
+      "end": 94.44
+    },
+    {
+      "word": "brain",
+      "start": 94.44,
+      "end": 94.88
+    },
+    {
+      "word": "The",
+      "start": 96.6,
+      "end": 97.1
+    },
+    {
+      "word": "algorithm",
+      "start": 97.1,
+      "end": 97.42
+    },
+    {
+      "word": "knows",
+      "start": 97.42,
+      "end": 98.2
+    },
+    {
+      "word": "my",
+      "start": 98.2,
+      "end": 98.8
+    },
+    {
+      "word": "name",
+      "start": 98.8,
+      "end": 99.68
+    },
+    {
+      "word": "knows",
+      "start": 99.68,
+      "end": 100.38
+    },
+    {
+      "word": "my",
+      "start": 100.38,
+      "end": 100.82
+    },
+    {
+      "word": "name",
+      "start": 100.82,
+      "end": 101.46
+    },
+    {
+      "word": "I",
+      "start": 106.8,
+      "end": 107.4
+    },
+    {
+      "word": "tried",
+      "start": 107.4,
+      "end": 107.84
+    },
+    {
+      "word": "to",
+      "start": 107.84,
+      "end": 108.32
+    },
+    {
+      "word": "call",
+      "start": 108.32,
+      "end": 108.68
+    },
+    {
+      "word": "in",
+      "start": 108.68,
+      "end": 109.04
+    },
+    {
+      "word": "sick",
+      "start": 109.04,
+      "end": 109.4
+    },
+    {
+      "word": "on",
+      "start": 109.4,
+      "end": 110.62
+    },
+    {
+      "word": "a",
+      "start": 110.62,
+      "end": 110.62
+    },
+    {
+      "word": "Sunday",
+      "start": 110.62,
+      "end": 111.32
+    },
+    {
+      "word": "afternoon",
+      "start": 111.32,
+      "end": 112.48
+    },
+    {
+      "word": "It",
+      "start": 113.6,
+      "end": 114.08
+    },
+    {
+      "word": "offered",
+      "start": 114.08,
+      "end": 114.48
+    },
+    {
+      "word": "me",
+      "start": 114.48,
+      "end": 115.2
+    },
+    {
+      "word": "a",
+      "start": 115.2,
+      "end": 115.56
+    },
+    {
+      "word": "bonus",
+      "start": 115.56,
+      "end": 116.16
+    },
+    {
+      "word": "shift",
+      "start": 116.16,
+      "end": 116.78
+    },
+    {
+      "word": "before",
+      "start": 116.78,
+      "end": 117.26
+    },
+    {
+      "word": "I",
+      "start": 117.26,
+      "end": 117.64
+    },
+    {
+      "word": "hung",
+      "start": 117.64,
+      "end": 118.04
+    },
+    {
+      "word": "up",
+      "start": 118.04,
+      "end": 118.48
+    },
+    {
+      "word": "the",
+      "start": 118.48,
+      "end": 118.72
+    },
+    {
+      "word": "phone",
+      "start": 118.72,
+      "end": 119.14
+    },
+    {
+      "word": "Not",
+      "start": 119.8,
+      "end": 120.44
+    },
+    {
+      "word": "cruel,",
+      "start": 120.44,
+      "end": 120.92
+    },
+    {
+      "word": "just",
+      "start": 121.64,
+      "end": 122.12
+    },
+    {
+      "word": "certain",
+      "start": 122.12,
+      "end": 122.74
+    },
+    {
+      "word": "Like",
+      "start": 122.74,
+      "end": 123.74
+    },
+    {
+      "word": "weather",
+      "start": 123.74,
+      "end": 124.2
+    },
+    {
+      "word": "like",
+      "start": 124.2,
+      "end": 125.08
+    },
+    {
+      "word": "a",
+      "start": 125.08,
+      "end": 125.28
+    },
+    {
+      "word": "tide",
+      "start": 125.28,
+      "end": 125.84
+    },
+    {
+      "word": "It's",
+      "start": 126.48,
+      "end": 126.96
+    },
+    {
+      "word": "not",
+      "start": 126.96,
+      "end": 127.12
+    },
+    {
+      "word": "trying",
+      "start": 127.12,
+      "end": 127.6
+    },
+    {
+      "word": "to",
+      "start": 127.6,
+      "end": 127.94
+    },
+    {
+      "word": "break",
+      "start": 127.94,
+      "end": 128.26
+    },
+    {
+      "word": "me,",
+      "start": 128.26,
+      "end": 128.6
+    },
+    {
+      "word": "it",
+      "start": 128.6,
+      "end": 129.1
+    },
+    {
+      "word": "just",
+      "start": 129.1,
+      "end": 129.4
+    },
+    {
+      "word": "knows",
+      "start": 129.4,
+      "end": 129.92
+    },
+    {
+      "word": "where",
+      "start": 129.92,
+      "end": 130.44
+    },
+    {
+      "word": "I",
+      "start": 130.44,
+      "end": 130.74
+    },
+    {
+      "word": "reside",
+      "start": 130.74,
+      "end": 131.88
+    },
+    {
+      "word": "The",
+      "start": 132.56,
+      "end": 133.04
+    },
+    {
+      "word": "algorithm",
+      "start": 133.04,
+      "end": 133.62
+    },
+    {
+      "word": "knows",
+      "start": 133.62,
+      "end": 134.14
+    },
+    {
+      "word": "my",
+      "start": 134.14,
+      "end": 134.76
+    },
+    {
+      "word": "name",
+      "start": 134.76,
+      "end": 135.52
+    },
+    {
+      "word": "Knows",
+      "start": 138.84,
+      "end": 139.8
+    },
+    {
+      "word": "the",
+      "start": 139.8,
+      "end": 140.02
+    },
+    {
+      "word": "shift",
+      "start": 140.02,
+      "end": 140.4
+    },
+    {
+      "word": "I'll",
+      "start": 140.4,
+      "end": 140.96
+    },
+    {
+      "word": "take",
+      "start": 140.96,
+      "end": 141.4
+    },
+    {
+      "word": "before",
+      "start": 141.4,
+      "end": 142.08
+    },
+    {
+      "word": "I",
+      "start": 142.08,
+      "end": 142.52
+    },
+    {
+      "word": "say",
+      "start": 142.52,
+      "end": 142.9
+    },
+    {
+      "word": "it",
+      "start": 142.9,
+      "end": 143.34
+    },
+    {
+      "word": "knows",
+      "start": 143.34,
+      "end": 143.66
+    },
+    {
+      "word": "my",
+      "start": 143.66,
+      "end": 144.14
+    },
+    {
+      "word": "pain",
+      "start": 144.14,
+      "end": 144.68
+    },
+    {
+      "word": "It",
+      "start": 145.62,
+      "end": 146.1
+    },
+    {
+      "word": "doesn't",
+      "start": 146.1,
+      "end": 146.56
+    },
+    {
+      "word": "need",
+      "start": 146.56,
+      "end": 146.72
+    },
+    {
+      "word": "to",
+      "start": 146.72,
+      "end": 146.88
+    },
+    {
+      "word": "love",
+      "start": 146.88,
+      "end": 147.36
+    },
+    {
+      "word": "me",
+      "start": 147.36,
+      "end": 147.84
+    },
+    {
+      "word": "to",
+      "start": 147.84,
+      "end": 148.3
+    },
+    {
+      "word": "keep",
+      "start": 148.3,
+      "end": 148.66
+    },
+    {
+      "word": "me",
+      "start": 148.66,
+      "end": 149.08
+    },
+    {
+      "word": "in",
+      "start": 149.08,
+      "end": 149.52
+    },
+    {
+      "word": "the",
+      "start": 149.52,
+      "end": 149.94
+    },
+    {
+      "word": "brain",
+      "start": 149.94,
+      "end": 150.34
+    },
+    {
+      "word": "The",
+      "start": 150.34,
+      "end": 150.34
+    },
+    {
+      "word": "algorithm",
+      "start": 150.34,
+      "end": 153.18
+    },
+    {
+      "word": "knows",
+      "start": 153.18,
+      "end": 153.78
+    },
+    {
+      "word": "my",
+      "start": 153.78,
+      "end": 154.28
+    },
+    {
+      "word": "name",
+      "start": 154.28,
+      "end": 154.96
+    },
+    {
+      "word": "knows",
+      "start": 154.96,
+      "end": 155.88
+    },
+    {
+      "word": "my",
+      "start": 155.88,
+      "end": 156.34
+    },
+    {
+      "word": "name",
+      "start": 156.34,
+      "end": 156.92
+    },
+    {
+      "word": "Doesn't",
+      "start": 158.52,
+      "end": 159.84
+    },
+    {
+      "word": "know",
+      "start": 159.84,
+      "end": 160.16
+    },
+    {
+      "word": "I'm",
+      "start": 160.16,
+      "end": 161.42
+    },
+    {
+      "word": "trying",
+      "start": 161.42,
+      "end": 161.78
+    },
+    {
+      "word": "It",
+      "start": 161.78,
+      "end": 163.02
+    },
+    {
+      "word": "knows",
+      "start": 163.02,
+      "end": 163.48
+    },
+    {
+      "word": "Doesn't",
+      "start": 165.02,
+      "end": 166.34
+    },
+    {
+      "word": "know",
+      "start": 166.34,
+      "end": 166.64
+    },
+    {
+      "word": "I'm",
+      "start": 166.64,
+      "end": 167.9
+    },
+    {
+      "word": "trying",
+      "start": 167.9,
+      "end": 168.3
+    },
+    {
+      "word": "It",
+      "start": 168.48,
+      "end": 169.14
+    },
+    {
+      "word": "knows",
+      "start": 169.14,
+      "end": 169.96
+    },
+    {
+      "word": "it",
+      "start": 169.96,
+      "end": 171.02
+    },
+    {
+      "word": "knows",
+      "start": 171.02,
+      "end": 171.7
+    },
+    {
+      "word": "Doesn't",
+      "start": 171.7,
+      "end": 172.84
+    },
+    {
+      "word": "know",
+      "start": 172.84,
+      "end": 173.14
+    },
+    {
+      "word": "my",
+      "start": 173.14,
+      "end": 173.66
+    },
+    {
+      "word": "daughter's",
+      "start": 173.66,
+      "end": 174.46
+    },
+    {
+      "word": "birthday's",
+      "start": 174.46,
+      "end": 175.28
+    },
+    {
+      "word": "Friday",
+      "start": 175.28,
+      "end": 175.62
+    },
+    {
+      "word": "night",
+      "start": 175.62,
+      "end": 176.9
+    },
+    {
+      "word": "It's",
+      "start": 176.9,
+      "end": 178.34
+    },
+    {
+      "word": "scheduled",
+      "start": 178.34,
+      "end": 178.58
+    },
+    {
+      "word": "you",
+      "start": 178.58,
+      "end": 178.98
+    },
+    {
+      "word": "anyway",
+      "start": 178.98,
+      "end": 179.8
+    },
+    {
+      "word": "It's",
+      "start": 179.8,
+      "end": 180.4
+    },
+    {
+      "word": "scheduled",
+      "start": 180.4,
+      "end": 180.6
+    },
+    {
+      "word": "you",
+      "start": 180.6,
+      "end": 181.02
+    },
+    {
+      "word": "anyway",
+      "start": 181.02,
+      "end": 181.66
+    },
+    {
+      "word": "The",
+      "start": 181.66,
+      "end": 182.0
+    },
+    {
+      "word": "algorithm",
+      "start": 182.0,
+      "end": 182.42
+    },
+    {
+      "word": "knows",
+      "start": 182.42,
+      "end": 183.2
+    },
+    {
+      "word": "my",
+      "start": 183.2,
+      "end": 183.72
+    },
+    {
+      "word": "name",
+      "start": 183.72,
+      "end": 184.54
+    },
+    {
+      "word": "It's",
+      "start": 188.1,
+      "end": 188.98
+    },
+    {
+      "word": "the",
+      "start": 188.98,
+      "end": 189.16
+    },
+    {
+      "word": "only",
+      "start": 189.16,
+      "end": 189.5
+    },
+    {
+      "word": "thing",
+      "start": 189.5,
+      "end": 190.18
+    },
+    {
+      "word": "left",
+      "start": 190.18,
+      "end": 190.68
+    },
+    {
+      "word": "out",
+      "start": 190.68,
+      "end": 191.08
+    },
+    {
+      "word": "of",
+      "start": 191.08,
+      "end": 191.48
+    },
+    {
+      "word": "numbers",
+      "start": 191.48,
+      "end": 192.14
+    },
+    {
+      "word": "when",
+      "start": 192.14,
+      "end": 192.7
+    },
+    {
+      "word": "I",
+      "start": 192.7,
+      "end": 193.14
+    },
+    {
+      "word": "came",
+      "start": 193.14,
+      "end": 193.56
+    },
+    {
+      "word": "Knows",
+      "start": 231.58,
+      "end": 232.22
+    },
+    {
+      "word": "the",
+      "start": 232.22,
+      "end": 232.44
+    },
+    {
+      "word": "shift",
+      "start": 232.44,
+      "end": 232.62
+    },
+    {
+      "word": "I'll",
+      "start": 232.62,
+      "end": 232.62
+    },
+    {
+      "word": "take",
+      "start": 232.62,
+      "end": 232.62
+    },
+    {
+      "word": "before",
+      "start": 232.62,
+      "end": 232.62
+    },
+    {
+      "word": "I",
+      "start": 232.62,
+      "end": 232.92
+    },
+    {
+      "word": "say",
+      "start": 232.92,
+      "end": 233.52
+    },
+    {
+      "word": "it",
+      "start": 233.52,
+      "end": 233.58
+    },
+    {
+      "word": "It",
+      "start": 233.58,
+      "end": 233.58
+    },
+    {
+      "word": "knows",
+      "start": 233.58,
+      "end": 233.58
+    },
+    {
+      "word": "my",
+      "start": 233.58,
+      "end": 234.3
+    },
+    {
+      "word": "name",
+      "start": 234.3,
+      "end": 234.42
+    },
+    {
+      "word": "knows",
+      "start": 234.42,
+      "end": 234.42
+    },
+    {
+      "word": "my",
+      "start": 234.42,
+      "end": 234.42
+    },
+    {
+      "word": "name",
+      "start": 234.42,
+      "end": 236.28
+    },
+    {
+      "word": "It's",
+      "start": 236.28,
+      "end": 237.36
+    },
+    {
+      "word": "scheduled",
+      "start": 237.36,
+      "end": 237.64
+    },
+    {
+      "word": "you",
+      "start": 237.64,
+      "end": 237.96
+    },
+    {
+      "word": "anyway",
+      "start": 237.96,
+      "end": 238.72
+    }
+  ]
+}

@@ -1,0 +1,1193 @@
+{
+  "title": "Neti Neti",
+  "slug": "neti-neti",
+  "trackNumber": 10,
+  "duration": 212.12,
+  "words": [
+    {
+      "word": "Nety",
+      "start": 0.0,
+      "end": 1.1
+    },
+    {
+      "word": "-nety,",
+      "start": 1.1,
+      "end": 1.82
+    },
+    {
+      "word": "nety",
+      "start": 2.28,
+      "end": 4.58
+    },
+    {
+      "word": "-nety,",
+      "start": 4.58,
+      "end": 5.34
+    },
+    {
+      "word": "nety",
+      "start": 5.74,
+      "end": 6.76
+    },
+    {
+      "word": "-nety,",
+      "start": 6.76,
+      "end": 7.34
+    },
+    {
+      "word": "nety",
+      "start": 7.34,
+      "end": 8.06
+    },
+    {
+      "word": "-nety,",
+      "start": 8.06,
+      "end": 8.84
+    },
+    {
+      "word": "nety",
+      "start": 9.38,
+      "end": 10.28
+    },
+    {
+      "word": "-nety,",
+      "start": 10.28,
+      "end": 10.78
+    },
+    {
+      "word": "nety",
+      "start": 10.78,
+      "end": 11.54
+    },
+    {
+      "word": "-nety,",
+      "start": 11.54,
+      "end": 12.28
+    },
+    {
+      "word": "not",
+      "start": 12.9,
+      "end": 13.42
+    },
+    {
+      "word": "this,",
+      "start": 13.42,
+      "end": 13.88
+    },
+    {
+      "word": "not",
+      "start": 14.24,
+      "end": 14.36
+    },
+    {
+      "word": "this,",
+      "start": 14.36,
+      "end": 14.84
+    },
+    {
+      "word": "the",
+      "start": 15.24,
+      "end": 15.36
+    },
+    {
+      "word": "path",
+      "start": 15.36,
+      "end": 15.72
+    },
+    {
+      "word": "of",
+      "start": 15.72,
+      "end": 16.04
+    },
+    {
+      "word": "negation",
+      "start": 16.04,
+      "end": 16.62
+    },
+    {
+      "word": "to",
+      "start": 16.62,
+      "end": 16.9
+    },
+    {
+      "word": "the",
+      "start": 16.9,
+      "end": 17.08
+    },
+    {
+      "word": "self,",
+      "start": 17.08,
+      "end": 17.46
+    },
+    {
+      "word": "are",
+      "start": 17.86,
+      "end": 17.98
+    },
+    {
+      "word": "you",
+      "start": 17.98,
+      "end": 18.24
+    },
+    {
+      "word": "the",
+      "start": 18.24,
+      "end": 18.62
+    },
+    {
+      "word": "body,",
+      "start": 18.62,
+      "end": 19.0
+    },
+    {
+      "word": "nety",
+      "start": 20.3,
+      "end": 20.6
+    },
+    {
+      "word": "-nety,",
+      "start": 20.6,
+      "end": 21.1
+    },
+    {
+      "word": "not",
+      "start": 21.42,
+      "end": 21.74
+    },
+    {
+      "word": "this,",
+      "start": 21.74,
+      "end": 22.4
+    },
+    {
+      "word": "are",
+      "start": 23.16,
+      "end": 23.86
+    },
+    {
+      "word": "you",
+      "start": 23.86,
+      "end": 25.16
+    },
+    {
+      "word": "the",
+      "start": 25.16,
+      "end": 25.58
+    },
+    {
+      "word": "feeling,",
+      "start": 25.58,
+      "end": 26.22
+    },
+    {
+      "word": "nety",
+      "start": 26.94,
+      "end": 27.56
+    },
+    {
+      "word": "-nety,",
+      "start": 27.56,
+      "end": 28.04
+    },
+    {
+      "word": "not",
+      "start": 28.36,
+      "end": 28.76
+    },
+    {
+      "word": "this,",
+      "start": 28.76,
+      "end": 29.34
+    },
+    {
+      "word": "are",
+      "start": 30.92,
+      "end": 31.9
+    },
+    {
+      "word": "you",
+      "start": 31.9,
+      "end": 32.16
+    },
+    {
+      "word": "the",
+      "start": 32.16,
+      "end": 32.52
+    },
+    {
+      "word": "story,",
+      "start": 32.52,
+      "end": 33.16
+    },
+    {
+      "word": "nety",
+      "start": 34.16,
+      "end": 34.52
+    },
+    {
+      "word": "-nety,",
+      "start": 34.52,
+      "end": 35.0
+    },
+    {
+      "word": "not",
+      "start": 35.54,
+      "end": 35.72
+    },
+    {
+      "word": "this,",
+      "start": 35.72,
+      "end": 36.28
+    },
+    {
+      "word": "are",
+      "start": 36.98,
+      "end": 37.52
+    },
+    {
+      "word": "you",
+      "start": 37.52,
+      "end": 37.76
+    },
+    {
+      "word": "the",
+      "start": 37.76,
+      "end": 37.96
+    },
+    {
+      "word": "name",
+      "start": 37.96,
+      "end": 38.36
+    },
+    {
+      "word": "they",
+      "start": 38.36,
+      "end": 39.14
+    },
+    {
+      "word": "gave",
+      "start": 39.14,
+      "end": 39.78
+    },
+    {
+      "word": "you,",
+      "start": 39.78,
+      "end": 40.44
+    },
+    {
+      "word": "nety",
+      "start": 41.1,
+      "end": 41.48
+    },
+    {
+      "word": "-nety,",
+      "start": 41.48,
+      "end": 41.96
+    },
+    {
+      "word": "not",
+      "start": 42.26,
+      "end": 42.64
+    },
+    {
+      "word": "that",
+      "start": 42.64,
+      "end": 43.18
+    },
+    {
+      "word": "who",
+      "start": 43.18,
+      "end": 43.54
+    },
+    {
+      "word": "is",
+      "start": 43.54,
+      "end": 43.9
+    },
+    {
+      "word": "doing",
+      "start": 43.9,
+      "end": 44.2
+    },
+    {
+      "word": "the",
+      "start": 44.2,
+      "end": 44.74
+    },
+    {
+      "word": "asking,",
+      "start": 44.74,
+      "end": 45.22
+    },
+    {
+      "word": "who",
+      "start": 46.54,
+      "end": 46.98
+    },
+    {
+      "word": "is",
+      "start": 46.98,
+      "end": 47.36
+    },
+    {
+      "word": "watching",
+      "start": 47.36,
+      "end": 47.9
+    },
+    {
+      "word": "the",
+      "start": 47.9,
+      "end": 48.18
+    },
+    {
+      "word": "thought,",
+      "start": 48.18,
+      "end": 48.56
+    },
+    {
+      "word": "who",
+      "start": 50.0,
+      "end": 50.4
+    },
+    {
+      "word": "is",
+      "start": 50.4,
+      "end": 50.64
+    },
+    {
+      "word": "the",
+      "start": 50.64,
+      "end": 50.8
+    },
+    {
+      "word": "witness",
+      "start": 50.8,
+      "end": 51.2
+    },
+    {
+      "word": "observing,",
+      "start": 51.2,
+      "end": 52.08
+    },
+    {
+      "word": "who",
+      "start": 53.36,
+      "end": 53.9
+    },
+    {
+      "word": "cannot",
+      "start": 53.9,
+      "end": 54.3
+    },
+    {
+      "word": "be",
+      "start": 54.3,
+      "end": 55.0
+    },
+    {
+      "word": "bought,",
+      "start": 55.0,
+      "end": 55.52
+    },
+    {
+      "word": "nety",
+      "start": 56.36,
+      "end": 56.86
+    },
+    {
+      "word": "-nety,",
+      "start": 56.86,
+      "end": 57.52
+    },
+    {
+      "word": "strip",
+      "start": 57.52,
+      "end": 59.94
+    },
+    {
+      "word": "away",
+      "start": 59.94,
+      "end": 60.34
+    },
+    {
+      "word": "the",
+      "start": 60.34,
+      "end": 60.58
+    },
+    {
+      "word": "layers,",
+      "start": 60.58,
+      "end": 61.38
+    },
+    {
+      "word": "nety",
+      "start": 63.02,
+      "end": 63.82
+    },
+    {
+      "word": "-nety,",
+      "start": 63.82,
+      "end": 64.62
+    },
+    {
+      "word": "pass",
+      "start": 65.5,
+      "end": 66.7
+    },
+    {
+      "word": "the",
+      "start": 66.7,
+      "end": 67.08
+    },
+    {
+      "word": "masks",
+      "start": 67.08,
+      "end": 67.4
+    },
+    {
+      "word": "and",
+      "start": 67.4,
+      "end": 67.88
+    },
+    {
+      "word": "mirrors,",
+      "start": 67.88,
+      "end": 68.38
+    },
+    {
+      "word": "nety",
+      "start": 69.8,
+      "end": 70.78
+    },
+    {
+      "word": "-nety,",
+      "start": 70.78,
+      "end": 71.52
+    },
+    {
+      "word": "who",
+      "start": 72.38,
+      "end": 72.5
+    },
+    {
+      "word": "is",
+      "start": 72.5,
+      "end": 72.76
+    },
+    {
+      "word": "watching",
+      "start": 72.76,
+      "end": 73.36
+    },
+    {
+      "word": "everything,",
+      "start": 73.36,
+      "end": 73.92
+    },
+    {
+      "word": "nety",
+      "start": 75.92,
+      "end": 77.7
+    },
+    {
+      "word": "-nety,",
+      "start": 77.7,
+      "end": 78.44
+    },
+    {
+      "word": "that's",
+      "start": 80.0,
+      "end": 80.44
+    },
+    {
+      "word": "the",
+      "start": 80.44,
+      "end": 80.6
+    },
+    {
+      "word": "only",
+      "start": 80.6,
+      "end": 80.84
+    },
+    {
+      "word": "thing,",
+      "start": 80.84,
+      "end": 81.5
+    },
+    {
+      "word": "nety",
+      "start": 82.84,
+      "end": 83.16
+    },
+    {
+      "word": "-nety",
+      "start": 83.16,
+      "end": 83.7
+    },
+    {
+      "word": "-nety,",
+      "start": 83.7,
+      "end": 85.38
+    },
+    {
+      "word": "are",
+      "start": 86.54,
+      "end": 87.48
+    },
+    {
+      "word": "you",
+      "start": 87.48,
+      "end": 87.74
+    },
+    {
+      "word": "the",
+      "start": 87.74,
+      "end": 87.92
+    },
+    {
+      "word": "success,",
+      "start": 87.92,
+      "end": 88.34
+    },
+    {
+      "word": "nety",
+      "start": 89.54,
+      "end": 90.1
+    },
+    {
+      "word": "-nety,",
+      "start": 90.1,
+      "end": 90.62
+    },
+    {
+      "word": "not",
+      "start": 90.86,
+      "end": 91.32
+    },
+    {
+      "word": "this,",
+      "start": 91.32,
+      "end": 91.88
+    },
+    {
+      "word": "are",
+      "start": 93.04,
+      "end": 94.44
+    },
+    {
+      "word": "you",
+      "start": 94.44,
+      "end": 94.72
+    },
+    {
+      "word": "the",
+      "start": 94.72,
+      "end": 95.06
+    },
+    {
+      "word": "failure,",
+      "start": 95.06,
+      "end": 95.6
+    },
+    {
+      "word": "nety",
+      "start": 96.28,
+      "end": 97.06
+    },
+    {
+      "word": "-nety,",
+      "start": 97.06,
+      "end": 97.54
+    },
+    {
+      "word": "not",
+      "start": 97.88,
+      "end": 98.28
+    },
+    {
+      "word": "this,",
+      "start": 98.28,
+      "end": 98.88
+    },
+    {
+      "word": "are",
+      "start": 99.96,
+      "end": 101.36
+    },
+    {
+      "word": "you",
+      "start": 101.36,
+      "end": 101.64
+    },
+    {
+      "word": "the",
+      "start": 101.64,
+      "end": 102.0
+    },
+    {
+      "word": "past",
+      "start": 102.0,
+      "end": 102.4
+    },
+    {
+      "word": "who",
+      "start": 102.4,
+      "end": 102.74
+    },
+    {
+      "word": "is",
+      "start": 102.74,
+      "end": 103.56
+    },
+    {
+      "word": "nety",
+      "start": 103.56,
+      "end": 103.98
+    },
+    {
+      "word": "-nety,",
+      "start": 103.98,
+      "end": 104.48
+    },
+    {
+      "word": "not",
+      "start": 104.78,
+      "end": 105.2
+    },
+    {
+      "word": "this,",
+      "start": 105.2,
+      "end": 105.8
+    },
+    {
+      "word": "are",
+      "start": 106.76,
+      "end": 107.0
+    },
+    {
+      "word": "you",
+      "start": 107.0,
+      "end": 107.22
+    },
+    {
+      "word": "the",
+      "start": 107.22,
+      "end": 107.42
+    },
+    {
+      "word": "fear",
+      "start": 107.42,
+      "end": 107.82
+    },
+    {
+      "word": "of",
+      "start": 107.82,
+      "end": 108.38
+    },
+    {
+      "word": "the",
+      "start": 108.38,
+      "end": 108.82
+    },
+    {
+      "word": "future,",
+      "start": 108.82,
+      "end": 109.42
+    },
+    {
+      "word": "nety",
+      "start": 110.4,
+      "end": 110.92
+    },
+    {
+      "word": "-nety,",
+      "start": 110.92,
+      "end": 111.42
+    },
+    {
+      "word": "not",
+      "start": 111.82,
+      "end": 112.16
+    },
+    {
+      "word": "this,",
+      "start": 112.16,
+      "end": 112.6
+    },
+    {
+      "word": "what",
+      "start": 112.6,
+      "end": 112.92
+    },
+    {
+      "word": "remains",
+      "start": 112.92,
+      "end": 113.48
+    },
+    {
+      "word": "when",
+      "start": 113.48,
+      "end": 113.96
+    },
+    {
+      "word": "you",
+      "start": 113.96,
+      "end": 114.14
+    },
+    {
+      "word": "strip",
+      "start": 114.14,
+      "end": 114.48
+    },
+    {
+      "word": "it,",
+      "start": 114.48,
+      "end": 114.82
+    },
+    {
+      "word": "what",
+      "start": 114.82,
+      "end": 116.36
+    },
+    {
+      "word": "cannot",
+      "start": 116.36,
+      "end": 116.76
+    },
+    {
+      "word": "be",
+      "start": 116.76,
+      "end": 117.44
+    },
+    {
+      "word": "removed,",
+      "start": 117.44,
+      "end": 117.9
+    },
+    {
+      "word": "what",
+      "start": 118.82,
+      "end": 119.8
+    },
+    {
+      "word": "is",
+      "start": 119.8,
+      "end": 120.08
+    },
+    {
+      "word": "the",
+      "start": 120.08,
+      "end": 120.22
+    },
+    {
+      "word": "ground",
+      "start": 120.22,
+      "end": 120.6
+    },
+    {
+      "word": "of",
+      "start": 120.6,
+      "end": 120.98
+    },
+    {
+      "word": "your",
+      "start": 120.98,
+      "end": 121.14
+    },
+    {
+      "word": "being,",
+      "start": 121.14,
+      "end": 121.54
+    },
+    {
+      "word": "what",
+      "start": 122.52,
+      "end": 122.86
+    },
+    {
+      "word": "is",
+      "start": 122.86,
+      "end": 123.06
+    },
+    {
+      "word": "nothing",
+      "start": 123.06,
+      "end": 123.5
+    },
+    {
+      "word": "to",
+      "start": 123.5,
+      "end": 124.54
+    },
+    {
+      "word": "prove,",
+      "start": 124.54,
+      "end": 125.72
+    },
+    {
+      "word": "nety",
+      "start": 129.24,
+      "end": 129.78
+    },
+    {
+      "word": "-nety,",
+      "start": 129.78,
+      "end": 132.6
+    },
+    {
+      "word": "strip",
+      "start": 132.6,
+      "end": 132.92
+    },
+    {
+      "word": "away",
+      "start": 132.92,
+      "end": 133.14
+    },
+    {
+      "word": "the",
+      "start": 133.14,
+      "end": 133.48
+    },
+    {
+      "word": "layers,",
+      "start": 133.48,
+      "end": 133.9
+    },
+    {
+      "word": "nety",
+      "start": 135.72,
+      "end": 136.68
+    },
+    {
+      "word": "-nety,",
+      "start": 136.68,
+      "end": 137.44
+    },
+    {
+      "word": "pass",
+      "start": 138.52,
+      "end": 139.56
+    },
+    {
+      "word": "the",
+      "start": 139.56,
+      "end": 139.94
+    },
+    {
+      "word": "masks",
+      "start": 139.94,
+      "end": 140.28
+    },
+    {
+      "word": "and",
+      "start": 140.28,
+      "end": 140.72
+    },
+    {
+      "word": "mirrors,",
+      "start": 140.72,
+      "end": 141.24
+    },
+    {
+      "word": "nety",
+      "start": 142.9,
+      "end": 143.6
+    },
+    {
+      "word": "-nety,",
+      "start": 143.6,
+      "end": 144.38
+    },
+    {
+      "word": "who",
+      "start": 145.16,
+      "end": 145.38
+    },
+    {
+      "word": "is",
+      "start": 145.38,
+      "end": 145.58
+    },
+    {
+      "word": "watching",
+      "start": 145.58,
+      "end": 146.14
+    },
+    {
+      "word": "everything,",
+      "start": 146.14,
+      "end": 146.86
+    },
+    {
+      "word": "nety",
+      "start": 148.7,
+      "end": 150.52
+    },
+    {
+      "word": "-nety,",
+      "start": 150.52,
+      "end": 151.26
+    },
+    {
+      "word": "that's",
+      "start": 152.44,
+      "end": 153.26
+    },
+    {
+      "word": "the",
+      "start": 153.26,
+      "end": 153.42
+    },
+    {
+      "word": "only",
+      "start": 153.42,
+      "end": 153.72
+    },
+    {
+      "word": "thing,",
+      "start": 153.72,
+      "end": 154.36
+    },
+    {
+      "word": "nety",
+      "start": 155.26,
+      "end": 157.06
+    },
+    {
+      "word": "-nety,",
+      "start": 157.06,
+      "end": 158.1
+    },
+    {
+      "word": "not",
+      "start": 158.64,
+      "end": 158.84
+    },
+    {
+      "word": "the",
+      "start": 158.84,
+      "end": 159.12
+    },
+    {
+      "word": "thought,",
+      "start": 159.12,
+      "end": 159.48
+    },
+    {
+      "word": "not",
+      "start": 159.48,
+      "end": 160.56
+    },
+    {
+      "word": "the",
+      "start": 160.56,
+      "end": 160.86
+    },
+    {
+      "word": "thinker,",
+      "start": 160.86,
+      "end": 161.44
+    },
+    {
+      "word": "not",
+      "start": 162.06,
+      "end": 162.28
+    },
+    {
+      "word": "the",
+      "start": 162.28,
+      "end": 162.6
+    },
+    {
+      "word": "knower,",
+      "start": 162.6,
+      "end": 163.36
+    },
+    {
+      "word": "not",
+      "start": 163.56,
+      "end": 164.04
+    },
+    {
+      "word": "the",
+      "start": 164.04,
+      "end": 164.32
+    },
+    {
+      "word": "know,",
+      "start": 164.32,
+      "end": 164.64
+    },
+    {
+      "word": "nety",
+      "start": 165.32,
+      "end": 166.02
+    },
+    {
+      "word": "-nety,",
+      "start": 166.02,
+      "end": 166.74
+    },
+    {
+      "word": "what",
+      "start": 167.32,
+      "end": 167.4
+    },
+    {
+      "word": "remains,",
+      "start": 167.4,
+      "end": 167.98
+    },
+    {
+      "word": "nety",
+      "start": 169.0,
+      "end": 169.5
+    },
+    {
+      "word": "-nety,",
+      "start": 169.5,
+      "end": 170.24
+    },
+    {
+      "word": "you",
+      "start": 170.74,
+      "end": 170.9
+    },
+    {
+      "word": "are",
+      "start": 170.9,
+      "end": 171.3
+    },
+    {
+      "word": "the",
+      "start": 171.3,
+      "end": 172.0
+    },
+    {
+      "word": "pure",
+      "start": 172.0,
+      "end": 172.6
+    },
+    {
+      "word": "awareness,",
+      "start": 172.6,
+      "end": 173.56
+    },
+    {
+      "word": "the",
+      "start": 173.9,
+      "end": 174.04
+    },
+    {
+      "word": "open",
+      "start": 174.04,
+      "end": 174.36
+    },
+    {
+      "word": "sky,",
+      "start": 174.36,
+      "end": 174.94
+    },
+    {
+      "word": "the",
+      "start": 176.26,
+      "end": 176.38
+    },
+    {
+      "word": "witness",
+      "start": 176.38,
+      "end": 176.94
+    },
+    {
+      "word": "without",
+      "start": 176.94,
+      "end": 177.64
+    },
+    {
+      "word": "one,",
+      "start": 177.64,
+      "end": 178.42
+    },
+    {
+      "word": "nety",
+      "start": 179.38,
+      "end": 179.8
+    },
+    {
+      "word": "-nety,",
+      "start": 179.8,
+      "end": 180.52
+    },
+    {
+      "word": "nety",
+      "start": 180.86,
+      "end": 181.56
+    },
+    {
+      "word": "-nety,",
+      "start": 181.56,
+      "end": 182.3
+    },
+    {
+      "word": "here",
+      "start": 183.14,
+      "end": 183.84
+    },
+    {
+      "word": "before",
+      "start": 183.84,
+      "end": 184.3
+    },
+    {
+      "word": "you",
+      "start": 184.3,
+      "end": 184.84
+    },
+    {
+      "word": "try,",
+      "start": 184.84,
+      "end": 185.34
+    },
+    {
+      "word": "nety",
+      "start": 186.18,
+      "end": 188.24
+    },
+    {
+      "word": "-nety,",
+      "start": 188.24,
+      "end": 188.92
+    },
+    {
+      "word": "nety",
+      "start": 189.54,
+      "end": 191.66
+    },
+    {
+      "word": "-nety,",
+      "start": 191.66,
+      "end": 192.38
+    },
+    {
+      "word": "nety",
+      "start": 192.66,
+      "end": 195.06
+    },
+    {
+      "word": "-nety,",
+      "start": 195.06,
+      "end": 195.82
+    },
+    {
+      "word": "nety",
+      "start": 209.24,
+      "end": 210.64
+    },
+    {
+      "word": "-nety,",
+      "start": 210.64,
+      "end": 212.04
+    }
+  ]
+}

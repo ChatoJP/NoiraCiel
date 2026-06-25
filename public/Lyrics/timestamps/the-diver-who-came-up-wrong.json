@@ -1,0 +1,1408 @@
+{
+  "title": "The Diver Who Came Up Wrong",
+  "slug": "the-diver-who-came-up-wrong",
+  "trackNumber": 6,
+  "duration": 226.84,
+  "words": [
+    {
+      "word": "40",
+      "start": 10.92,
+      "end": 11.84
+    },
+    {
+      "word": "feet",
+      "start": 11.84,
+      "end": 12.16
+    },
+    {
+      "word": "down",
+      "start": 12.16,
+      "end": 12.58
+    },
+    {
+      "word": "where",
+      "start": 12.58,
+      "end": 12.82
+    },
+    {
+      "word": "the",
+      "start": 12.82,
+      "end": 12.94
+    },
+    {
+      "word": "wrecks",
+      "start": 12.94,
+      "end": 13.28
+    },
+    {
+      "word": "ribbed",
+      "start": 13.28,
+      "end": 13.92
+    },
+    {
+      "word": "show",
+      "start": 13.92,
+      "end": 14.2
+    },
+    {
+      "word": "I",
+      "start": 14.2,
+      "end": 15.02
+    },
+    {
+      "word": "was",
+      "start": 15.02,
+      "end": 16.64
+    },
+    {
+      "word": "counting",
+      "start": 16.64,
+      "end": 17.14
+    },
+    {
+      "word": "for",
+      "start": 17.14,
+      "end": 17.9
+    },
+    {
+      "word": "pearls",
+      "start": 17.9,
+      "end": 18.74
+    },
+    {
+      "word": "in",
+      "start": 18.74,
+      "end": 18.94
+    },
+    {
+      "word": "the",
+      "start": 18.94,
+      "end": 19.18
+    },
+    {
+      "word": "dark",
+      "start": 19.18,
+      "end": 19.58
+    },
+    {
+      "word": "below",
+      "start": 19.58,
+      "end": 20.0
+    },
+    {
+      "word": "Found",
+      "start": 20.0,
+      "end": 21.62
+    },
+    {
+      "word": "a",
+      "start": 21.62,
+      "end": 21.88
+    },
+    {
+      "word": "strong",
+      "start": 21.88,
+      "end": 22.16
+    },
+    {
+      "word": "box",
+      "start": 22.16,
+      "end": 22.64
+    },
+    {
+      "word": "instead",
+      "start": 22.64,
+      "end": 23.44
+    },
+    {
+      "word": "Half",
+      "start": 23.44,
+      "end": 24.38
+    },
+    {
+      "word": "buried",
+      "start": 24.38,
+      "end": 24.76
+    },
+    {
+      "word": "in",
+      "start": 24.76,
+      "end": 25.56
+    },
+    {
+      "word": "sand",
+      "start": 25.56,
+      "end": 26.0
+    },
+    {
+      "word": "and",
+      "start": 26.0,
+      "end": 26.64
+    },
+    {
+      "word": "inside",
+      "start": 26.64,
+      "end": 27.1
+    },
+    {
+      "word": "it",
+      "start": 27.1,
+      "end": 27.68
+    },
+    {
+      "word": "A",
+      "start": 27.68,
+      "end": 28.18
+    },
+    {
+      "word": "ring",
+      "start": 28.18,
+      "end": 28.42
+    },
+    {
+      "word": "still",
+      "start": 28.42,
+      "end": 28.86
+    },
+    {
+      "word": "shaped",
+      "start": 28.86,
+      "end": 29.16
+    },
+    {
+      "word": "like",
+      "start": 29.16,
+      "end": 29.54
+    },
+    {
+      "word": "a",
+      "start": 29.54,
+      "end": 29.74
+    },
+    {
+      "word": "hand",
+      "start": 29.74,
+      "end": 30.08
+    },
+    {
+      "word": "I",
+      "start": 30.08,
+      "end": 36.98
+    },
+    {
+      "word": "came",
+      "start": 36.98,
+      "end": 37.22
+    },
+    {
+      "word": "up",
+      "start": 37.22,
+      "end": 37.56
+    },
+    {
+      "word": "too",
+      "start": 37.56,
+      "end": 37.84
+    },
+    {
+      "word": "fast",
+      "start": 37.84,
+      "end": 38.16
+    },
+    {
+      "word": "my",
+      "start": 38.16,
+      "end": 38.5
+    },
+    {
+      "word": "ears",
+      "start": 38.5,
+      "end": 38.92
+    },
+    {
+      "word": "rang",
+      "start": 38.92,
+      "end": 39.2
+    },
+    {
+      "word": "like",
+      "start": 39.2,
+      "end": 39.5
+    },
+    {
+      "word": "bells",
+      "start": 39.5,
+      "end": 39.86
+    },
+    {
+      "word": "The",
+      "start": 41.58,
+      "end": 42.26
+    },
+    {
+      "word": "crew",
+      "start": 42.26,
+      "end": 42.5
+    },
+    {
+      "word": "said",
+      "start": 42.5,
+      "end": 42.88
+    },
+    {
+      "word": "on",
+      "start": 42.88,
+      "end": 43.02
+    },
+    {
+      "word": "pale",
+      "start": 43.02,
+      "end": 43.3
+    },
+    {
+      "word": "said",
+      "start": 43.3,
+      "end": 43.68
+    },
+    {
+      "word": "dive",
+      "start": 43.68,
+      "end": 44.0
+    },
+    {
+      "word": "sickness",
+      "start": 44.0,
+      "end": 44.28
+    },
+    {
+      "word": "said",
+      "start": 44.28,
+      "end": 44.88
+    },
+    {
+      "word": "tell",
+      "start": 44.88,
+      "end": 45.3
+    },
+    {
+      "word": "What",
+      "start": 45.3,
+      "end": 46.82
+    },
+    {
+      "word": "did",
+      "start": 46.82,
+      "end": 47.1
+    },
+    {
+      "word": "you",
+      "start": 47.1,
+      "end": 47.34
+    },
+    {
+      "word": "see",
+      "start": 47.34,
+      "end": 47.78
+    },
+    {
+      "word": "down",
+      "start": 47.78,
+      "end": 48.78
+    },
+    {
+      "word": "there?",
+      "start": 48.78,
+      "end": 49.24
+    },
+    {
+      "word": "What",
+      "start": 49.82,
+      "end": 50.02
+    },
+    {
+      "word": "made",
+      "start": 50.02,
+      "end": 50.34
+    },
+    {
+      "word": "you",
+      "start": 50.34,
+      "end": 50.82
+    },
+    {
+      "word": "this",
+      "start": 50.82,
+      "end": 51.22
+    },
+    {
+      "word": "way?",
+      "start": 51.22,
+      "end": 51.56
+    },
+    {
+      "word": "I",
+      "start": 51.96,
+      "end": 51.96
+    },
+    {
+      "word": "said",
+      "start": 51.96,
+      "end": 52.28
+    },
+    {
+      "word": "nothing",
+      "start": 52.28,
+      "end": 52.76
+    },
+    {
+      "word": "Just",
+      "start": 52.76,
+      "end": 53.92
+    },
+    {
+      "word": "pressure",
+      "start": 53.92,
+      "end": 54.2
+    },
+    {
+      "word": "just",
+      "start": 54.2,
+      "end": 54.9
+    },
+    {
+      "word": "too",
+      "start": 54.9,
+      "end": 55.18
+    },
+    {
+      "word": "long",
+      "start": 55.18,
+      "end": 55.84
+    },
+    {
+      "word": "a",
+      "start": 55.84,
+      "end": 56.2
+    },
+    {
+      "word": "stay",
+      "start": 56.2,
+      "end": 56.78
+    },
+    {
+      "word": "But",
+      "start": 56.78,
+      "end": 57.44
+    },
+    {
+      "word": "I",
+      "start": 57.44,
+      "end": 57.74
+    },
+    {
+      "word": "know",
+      "start": 57.74,
+      "end": 58.14
+    },
+    {
+      "word": "what",
+      "start": 58.14,
+      "end": 58.44
+    },
+    {
+      "word": "I",
+      "start": 58.44,
+      "end": 58.92
+    },
+    {
+      "word": "held",
+      "start": 58.92,
+      "end": 59.34
+    },
+    {
+      "word": "I",
+      "start": 59.34,
+      "end": 59.96
+    },
+    {
+      "word": "know",
+      "start": 59.96,
+      "end": 60.26
+    },
+    {
+      "word": "who's",
+      "start": 60.26,
+      "end": 60.86
+    },
+    {
+      "word": "it",
+      "start": 60.86,
+      "end": 61.04
+    },
+    {
+      "word": "had",
+      "start": 61.04,
+      "end": 61.3
+    },
+    {
+      "word": "been",
+      "start": 61.3,
+      "end": 61.72
+    },
+    {
+      "word": "A",
+      "start": 61.72,
+      "end": 62.66
+    },
+    {
+      "word": "ring",
+      "start": 62.66,
+      "end": 63.26
+    },
+    {
+      "word": "on",
+      "start": 63.26,
+      "end": 63.7
+    },
+    {
+      "word": "a",
+      "start": 63.7,
+      "end": 63.96
+    },
+    {
+      "word": "bone",
+      "start": 63.96,
+      "end": 64.38
+    },
+    {
+      "word": "is",
+      "start": 64.38,
+      "end": 65.12
+    },
+    {
+      "word": "a",
+      "start": 65.12,
+      "end": 65.42
+    },
+    {
+      "word": "story",
+      "start": 65.42,
+      "end": 65.96
+    },
+    {
+      "word": "not",
+      "start": 65.96,
+      "end": 66.44
+    },
+    {
+      "word": "ten",
+      "start": 66.44,
+      "end": 66.82
+    },
+    {
+      "word": "I'm",
+      "start": 66.82,
+      "end": 67.7
+    },
+    {
+      "word": "not",
+      "start": 67.7,
+      "end": 67.9
+    },
+    {
+      "word": "going",
+      "start": 67.9,
+      "end": 68.46
+    },
+    {
+      "word": "back",
+      "start": 68.46,
+      "end": 69.02
+    },
+    {
+      "word": "down",
+      "start": 69.02,
+      "end": 69.42
+    },
+    {
+      "word": "for",
+      "start": 69.42,
+      "end": 69.96
+    },
+    {
+      "word": "the",
+      "start": 69.96,
+      "end": 70.42
+    },
+    {
+      "word": "rest",
+      "start": 70.42,
+      "end": 70.96
+    },
+    {
+      "word": "of",
+      "start": 70.96,
+      "end": 71.28
+    },
+    {
+      "word": "that",
+      "start": 71.28,
+      "end": 71.48
+    },
+    {
+      "word": "gold",
+      "start": 71.48,
+      "end": 71.96
+    },
+    {
+      "word": "Some",
+      "start": 71.96,
+      "end": 73.1
+    },
+    {
+      "word": "treasure",
+      "start": 73.1,
+      "end": 73.54
+    },
+    {
+      "word": "is",
+      "start": 73.54,
+      "end": 74.18
+    },
+    {
+      "word": "a",
+      "start": 74.18,
+      "end": 74.28
+    },
+    {
+      "word": "grave",
+      "start": 74.28,
+      "end": 74.7
+    },
+    {
+      "word": "and",
+      "start": 74.7,
+      "end": 75.16
+    },
+    {
+      "word": "it's",
+      "start": 75.16,
+      "end": 75.8
+    },
+    {
+      "word": "not",
+      "start": 75.8,
+      "end": 76.18
+    },
+    {
+      "word": "mine",
+      "start": 76.18,
+      "end": 76.66
+    },
+    {
+      "word": "to",
+      "start": 76.66,
+      "end": 77.58
+    },
+    {
+      "word": "hold",
+      "start": 77.58,
+      "end": 77.96
+    },
+    {
+      "word": "The",
+      "start": 86.92,
+      "end": 87.8
+    },
+    {
+      "word": "captain",
+      "start": 87.8,
+      "end": 88.44
+    },
+    {
+      "word": "offers",
+      "start": 88.44,
+      "end": 89.12
+    },
+    {
+      "word": "double",
+      "start": 89.12,
+      "end": 89.48
+    },
+    {
+      "word": "for",
+      "start": 89.48,
+      "end": 89.78
+    },
+    {
+      "word": "one",
+      "start": 89.78,
+      "end": 90.12
+    },
+    {
+      "word": "more",
+      "start": 90.12,
+      "end": 90.42
+    },
+    {
+      "word": "diving",
+      "start": 90.42,
+      "end": 91.02
+    },
+    {
+      "word": "Says",
+      "start": 91.02,
+      "end": 93.34
+    },
+    {
+      "word": "the",
+      "start": 93.34,
+      "end": 93.64
+    },
+    {
+      "word": "box",
+      "start": 93.64,
+      "end": 93.96
+    },
+    {
+      "word": "alone's",
+      "start": 93.96,
+      "end": 94.82
+    },
+    {
+      "word": "worth",
+      "start": 94.82,
+      "end": 94.96
+    },
+    {
+      "word": "the",
+      "start": 94.96,
+      "end": 95.14
+    },
+    {
+      "word": "years",
+      "start": 95.14,
+      "end": 95.52
+    },
+    {
+      "word": "worth",
+      "start": 95.52,
+      "end": 95.8
+    },
+    {
+      "word": "of",
+      "start": 95.8,
+      "end": 96.04
+    },
+    {
+      "word": "sin",
+      "start": 96.04,
+      "end": 96.4
+    },
+    {
+      "word": "I",
+      "start": 97.78,
+      "end": 98.66
+    },
+    {
+      "word": "look",
+      "start": 98.66,
+      "end": 99.16
+    },
+    {
+      "word": "at",
+      "start": 99.16,
+      "end": 99.46
+    },
+    {
+      "word": "my",
+      "start": 99.46,
+      "end": 99.78
+    },
+    {
+      "word": "hands",
+      "start": 99.78,
+      "end": 100.5
+    },
+    {
+      "word": "still",
+      "start": 100.5,
+      "end": 101.34
+    },
+    {
+      "word": "shaking",
+      "start": 101.34,
+      "end": 101.76
+    },
+    {
+      "word": "still",
+      "start": 101.76,
+      "end": 102.38
+    },
+    {
+      "word": "cold",
+      "start": 102.38,
+      "end": 102.86
+    },
+    {
+      "word": "And",
+      "start": 102.86,
+      "end": 103.62
+    },
+    {
+      "word": "I",
+      "start": 103.62,
+      "end": 103.82
+    },
+    {
+      "word": "tell",
+      "start": 103.82,
+      "end": 104.16
+    },
+    {
+      "word": "him",
+      "start": 104.16,
+      "end": 104.68
+    },
+    {
+      "word": "some",
+      "start": 104.68,
+      "end": 105.2
+    },
+    {
+      "word": "debts",
+      "start": 105.2,
+      "end": 105.64
+    },
+    {
+      "word": "should",
+      "start": 105.64,
+      "end": 106.48
+    },
+    {
+      "word": "never",
+      "start": 106.48,
+      "end": 106.84
+    },
+    {
+      "word": "be",
+      "start": 106.84,
+      "end": 107.34
+    },
+    {
+      "word": "sold",
+      "start": 107.34,
+      "end": 107.92
+    },
+    {
+      "word": "But",
+      "start": 107.92,
+      "end": 108.64
+    },
+    {
+      "word": "I",
+      "start": 108.64,
+      "end": 109.04
+    },
+    {
+      "word": "know",
+      "start": 109.04,
+      "end": 109.46
+    },
+    {
+      "word": "what",
+      "start": 109.46,
+      "end": 109.84
+    },
+    {
+      "word": "I",
+      "start": 109.84,
+      "end": 110.26
+    },
+    {
+      "word": "held",
+      "start": 110.26,
+      "end": 110.68
+    },
+    {
+      "word": "I",
+      "start": 110.68,
+      "end": 111.3
+    },
+    {
+      "word": "know",
+      "start": 111.3,
+      "end": 111.6
+    },
+    {
+      "word": "who's",
+      "start": 111.6,
+      "end": 112.18
+    },
+    {
+      "word": "it",
+      "start": 112.18,
+      "end": 112.36
+    },
+    {
+      "word": "had",
+      "start": 112.36,
+      "end": 112.6
+    },
+    {
+      "word": "been",
+      "start": 112.6,
+      "end": 113.08
+    },
+    {
+      "word": "A",
+      "start": 113.08,
+      "end": 114.06
+    },
+    {
+      "word": "ring",
+      "start": 114.06,
+      "end": 114.58
+    },
+    {
+      "word": "on",
+      "start": 114.58,
+      "end": 115.02
+    },
+    {
+      "word": "a",
+      "start": 115.02,
+      "end": 115.28
+    },
+    {
+      "word": "bone",
+      "start": 115.28,
+      "end": 115.6
+    },
+    {
+      "word": "is",
+      "start": 115.6,
+      "end": 116.24
+    },
+    {
+      "word": "a",
+      "start": 116.24,
+      "end": 116.74
+    },
+    {
+      "word": "story",
+      "start": 116.74,
+      "end": 117.32
+    },
+    {
+      "word": "not",
+      "start": 117.32,
+      "end": 117.76
+    },
+    {
+      "word": "ten",
+      "start": 117.76,
+      "end": 118.14
+    },
+    {
+      "word": "I'm",
+      "start": 118.14,
+      "end": 118.96
+    },
+    {
+      "word": "not",
+      "start": 118.96,
+      "end": 119.22
+    },
+    {
+      "word": "going",
+      "start": 119.22,
+      "end": 119.82
+    },
+    {
+      "word": "back",
+      "start": 119.82,
+      "end": 120.34
+    },
+    {
+      "word": "down",
+      "start": 120.34,
+      "end": 120.72
+    },
+    {
+      "word": "for",
+      "start": 120.72,
+      "end": 121.28
+    },
+    {
+      "word": "the",
+      "start": 121.28,
+      "end": 121.76
+    },
+    {
+      "word": "rest",
+      "start": 121.76,
+      "end": 122.28
+    },
+    {
+      "word": "of",
+      "start": 122.28,
+      "end": 122.56
+    },
+    {
+      "word": "that",
+      "start": 122.56,
+      "end": 122.76
+    },
+    {
+      "word": "gold",
+      "start": 122.76,
+      "end": 123.32
+    },
+    {
+      "word": "Some",
+      "start": 123.32,
+      "end": 124.44
+    },
+    {
+      "word": "treasure",
+      "start": 124.44,
+      "end": 124.84
+    },
+    {
+      "word": "is",
+      "start": 124.84,
+      "end": 125.5
+    },
+    {
+      "word": "a",
+      "start": 125.5,
+      "end": 125.58
+    },
+    {
+      "word": "grave",
+      "start": 125.58,
+      "end": 125.94
+    },
+    {
+      "word": "and",
+      "start": 125.94,
+      "end": 126.52
+    },
+    {
+      "word": "it's",
+      "start": 126.52,
+      "end": 127.12
+    },
+    {
+      "word": "not",
+      "start": 127.12,
+      "end": 127.48
+    },
+    {
+      "word": "mine",
+      "start": 127.48,
+      "end": 128.14
+    },
+    {
+      "word": "to",
+      "start": 128.14,
+      "end": 128.9
+    },
+    {
+      "word": "hold",
+      "start": 128.9,
+      "end": 129.4
+    },
+    {
+      "word": "Breathless",
+      "start": 135.2,
+      "end": 136.08
+    },
+    {
+      "word": "half",
+      "start": 136.08,
+      "end": 136.96
+    },
+    {
+      "word": "spoken",
+      "start": 136.96,
+      "end": 137.54
+    },
+    {
+      "word": "40",
+      "start": 137.54,
+      "end": 139.54
+    },
+    {
+      "word": "feet",
+      "start": 139.54,
+      "end": 139.88
+    },
+    {
+      "word": "down",
+      "start": 139.88,
+      "end": 140.36
+    },
+    {
+      "word": "there's",
+      "start": 140.36,
+      "end": 141.24
+    },
+    {
+      "word": "a",
+      "start": 141.24,
+      "end": 141.34
+    },
+    {
+      "word": "hand",
+      "start": 141.34,
+      "end": 141.54
+    },
+    {
+      "word": "with",
+      "start": 141.54,
+      "end": 141.76
+    },
+    {
+      "word": "no",
+      "start": 141.76,
+      "end": 142.0
+    },
+    {
+      "word": "name",
+      "start": 142.0,
+      "end": 142.74
+    },
+    {
+      "word": "I",
+      "start": 144.02,
+      "end": 144.9
+    },
+    {
+      "word": "won't",
+      "start": 144.9,
+      "end": 145.3
+    },
+    {
+      "word": "be",
+      "start": 145.3,
+      "end": 145.5
+    },
+    {
+      "word": "the",
+      "start": 145.5,
+      "end": 145.76
+    },
+    {
+      "word": "one",
+      "start": 145.76,
+      "end": 146.06
+    },
+    {
+      "word": "who",
+      "start": 146.06,
+      "end": 146.28
+    },
+    {
+      "word": "profits",
+      "start": 146.28,
+      "end": 146.74
+    },
+    {
+      "word": "from",
+      "start": 146.74,
+      "end": 147.2
+    },
+    {
+      "word": "that",
+      "start": 147.2,
+      "end": 147.72
+    },
+    {
+      "word": "Let",
+      "start": 147.72,
+      "end": 149.5
+    },
+    {
+      "word": "the",
+      "start": 149.5,
+      "end": 149.98
+    },
+    {
+      "word": "wreck",
+      "start": 149.98,
+      "end": 150.48
+    },
+    {
+      "word": "keep",
+      "start": 150.48,
+      "end": 150.92
+    },
+    {
+      "word": "its",
+      "start": 150.92,
+      "end": 151.42
+    },
+    {
+      "word": "ring",
+      "start": 151.42,
+      "end": 151.82
+    },
+    {
+      "word": "let",
+      "start": 151.82,
+      "end": 152.4
+    },
+    {
+      "word": "the",
+      "start": 152.4,
+      "end": 152.66
+    },
+    {
+      "word": "sand",
+      "start": 152.66,
+      "end": 153.08
+    },
+    {
+      "word": "keep",
+      "start": 153.08,
+      "end": 153.52
+    },
+    {
+      "word": "the",
+      "start": 153.52,
+      "end": 153.96
+    },
+    {
+      "word": "rest",
+      "start": 153.96,
+      "end": 154.28
+    },
+    {
+      "word": "I'm",
+      "start": 159.4,
+      "end": 159.84
+    },
+    {
+      "word": "staying",
+      "start": 159.84,
+      "end": 160.12
+    },
+    {
+      "word": "topside",
+      "start": 160.12,
+      "end": 161.28
+    },
+    {
+      "word": "till",
+      "start": 161.28,
+      "end": 161.7
+    },
+    {
+      "word": "the",
+      "start": 161.7,
+      "end": 161.82
+    },
+    {
+      "word": "captain",
+      "start": 161.82,
+      "end": 162.16
+    },
+    {
+      "word": "gives",
+      "start": 162.16,
+      "end": 162.72
+    },
+    {
+      "word": "in",
+      "start": 162.72,
+      "end": 163.14
+    },
+    {
+      "word": "Let",
+      "start": 163.14,
+      "end": 165.18
+    },
+    {
+      "word": "somebody",
+      "start": 165.18,
+      "end": 165.62
+    },
+    {
+      "word": "else",
+      "start": 165.62,
+      "end": 166.46
+    },
+    {
+      "word": "go",
+      "start": 166.46,
+      "end": 166.8
+    },
+    {
+      "word": "where",
+      "start": 166.8,
+      "end": 167.52
+    },
+    {
+      "word": "the",
+      "start": 167.52,
+      "end": 168.04
+    },
+    {
+      "word": "dark",
+      "start": 168.04,
+      "end": 168.38
+    },
+    {
+      "word": "closes",
+      "start": 168.38,
+      "end": 169.14
+    },
+    {
+      "word": "in",
+      "start": 169.14,
+      "end": 169.44
+    },
+    {
+      "word": "I'll",
+      "start": 169.44,
+      "end": 170.06
+    },
+    {
+      "word": "keep",
+      "start": 170.06,
+      "end": 170.38
+    },
+    {
+      "word": "my",
+      "start": 170.38,
+      "end": 170.68
+    },
+    {
+      "word": "pearls",
+      "start": 170.68,
+      "end": 171.28
+    },
+    {
+      "word": "few",
+      "start": 171.28,
+      "end": 171.48
+    },
+    {
+      "word": "and",
+      "start": 171.48,
+      "end": 171.94
+    },
+    {
+      "word": "my",
+      "start": 171.94,
+      "end": 172.08
+    },
+    {
+      "word": "conscience",
+      "start": 172.08,
+      "end": 172.52
+    },
+    {
+      "word": "intact",
+      "start": 172.52,
+      "end": 173.3
+    },
+    {
+      "word": "Some",
+      "start": 173.3,
+      "end": 174.98
+    },
+    {
+      "word": "things",
+      "start": 174.98,
+      "end": 175.48
+    },
+    {
+      "word": "you",
+      "start": 175.48,
+      "end": 175.76
+    },
+    {
+      "word": "find",
+      "start": 175.76,
+      "end": 176.06
+    },
+    {
+      "word": "you",
+      "start": 176.06,
+      "end": 176.9
+    },
+    {
+      "word": "just",
+      "start": 176.9,
+      "end": 177.1
+    },
+    {
+      "word": "leave",
+      "start": 177.1,
+      "end": 177.4
+    },
+    {
+      "word": "where",
+      "start": 177.4,
+      "end": 178.08
+    },
+    {
+      "word": "they're",
+      "start": 178.08,
+      "end": 178.44
+    },
+    {
+      "word": "at",
+      "start": 178.44,
+      "end": 178.64
+    },
+    {
+      "word": "Yeah",
+      "start": 200.74,
+      "end": 202.14
+    },
+    {
+      "word": ".",
+      "start": 219.4,
+      "end": 220.1
+    },
+    {
+      "word": ".",
+      "start": 220.1,
+      "end": 220.38
+    },
+    {
+      "word": ".",
+      "start": 223.46,
+      "end": 224.72
+    },
+    {
+      "word": ".",
+      "start": 224.72,
+      "end": 225.28
+    },
+    {
+      "word": ".",
+      "start": 225.28,
+      "end": 225.4
+    },
+    {
+      "word": ".",
+      "start": 225.4,
+      "end": 225.8
+    },
+    {
+      "word": ".",
+      "start": 225.8,
+      "end": 226.76
+    },
+    {
+      "word": ".",
+      "start": 226.76,
+      "end": 226.82
+    }
+  ]
+}

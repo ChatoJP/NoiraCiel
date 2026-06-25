@@ -177,15 +177,31 @@ function publicUrlFor(r2Key) {
   return `${PUBLIC_URL}/${r2Key.split('/').map(encodeRfc3986).join('/')}`
 }
 
+// During a long unattended batch, a single dropped connection shouldn't stop
+// the whole run — retry transient network/5xx failures a few times before
+// giving up and letting the caller treat it as a real failure. 4xx errors
+// (bad credentials, bad key, etc.) are not retried — they won't fix themselves.
+const UPLOAD_RETRIES = 3
 async function uploadFile(localPath, r2Key) {
   assertConfigured()
   const body        = fs.readFileSync(localPath)
   const contentType = contentTypeFor(localPath)
-  const res = await httpRequest('PUT', r2Key, { contentType, body })
-  if (![200, 201, 204].includes(res.statusCode)) {
-    throw new Error(`PUT ${r2Key} failed: HTTP ${res.statusCode} ${res.body.toString().slice(0, 200)}`)
+  for (let attempt = 1; attempt <= UPLOAD_RETRIES; attempt++) {
+    let res
+    try {
+      res = await httpRequest('PUT', r2Key, { contentType, body })
+    } catch (e) {
+      if (attempt === UPLOAD_RETRIES) throw e
+      warn(`upload attempt ${attempt} failed for ${r2Key} (${e.message}), retrying...`)
+      await sleep(attempt * 3000)
+      continue
+    }
+    if ([200, 201, 204].includes(res.statusCode)) return publicUrlFor(r2Key)
+    const httpError = new Error(`PUT ${r2Key} failed: HTTP ${res.statusCode} ${res.body.toString().slice(0, 200)}`)
+    if (res.statusCode < 500 || attempt === UPLOAD_RETRIES) throw httpError
+    warn(`upload attempt ${attempt} failed for ${r2Key} (HTTP ${res.statusCode}), retrying...`)
+    await sleep(attempt * 3000)
   }
-  return publicUrlFor(r2Key)
 }
 
 async function downloadFile(r2Key, localPath) {

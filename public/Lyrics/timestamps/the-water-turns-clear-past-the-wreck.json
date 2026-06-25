@@ -1,0 +1,1388 @@
+{
+  "title": "The Water Turns Clear Past The Wreck",
+  "slug": "the-water-turns-clear-past-the-wreck",
+  "trackNumber": 13,
+  "duration": 240.0,
+  "words": [
+    {
+      "word": "The",
+      "start": 6.9,
+      "end": 8.02
+    },
+    {
+      "word": "charts",
+      "start": 8.02,
+      "end": 8.36
+    },
+    {
+      "word": "say",
+      "start": 8.36,
+      "end": 8.84
+    },
+    {
+      "word": "nothing",
+      "start": 8.84,
+      "end": 9.56
+    },
+    {
+      "word": "changes",
+      "start": 9.56,
+      "end": 10.24
+    },
+    {
+      "word": "out",
+      "start": 10.24,
+      "end": 10.86
+    },
+    {
+      "word": "here,",
+      "start": 10.86,
+      "end": 11.2
+    },
+    {
+      "word": "but",
+      "start": 11.2,
+      "end": 11.78
+    },
+    {
+      "word": "it",
+      "start": 11.78,
+      "end": 11.92
+    },
+    {
+      "word": "does.",
+      "start": 11.92,
+      "end": 12.32
+    },
+    {
+      "word": "The",
+      "start": 15.48,
+      "end": 16.04
+    },
+    {
+      "word": "water",
+      "start": 16.04,
+      "end": 16.5
+    },
+    {
+      "word": "goes",
+      "start": 16.5,
+      "end": 17.12
+    },
+    {
+      "word": "from",
+      "start": 17.12,
+      "end": 17.74
+    },
+    {
+      "word": "iron",
+      "start": 17.74,
+      "end": 18.2
+    },
+    {
+      "word": "dark",
+      "start": 18.2,
+      "end": 18.6
+    },
+    {
+      "word": "to",
+      "start": 18.6,
+      "end": 18.98
+    },
+    {
+      "word": "something",
+      "start": 18.98,
+      "end": 19.38
+    },
+    {
+      "word": "like",
+      "start": 19.38,
+      "end": 19.92
+    },
+    {
+      "word": "glass.",
+      "start": 19.92,
+      "end": 20.64
+    },
+    {
+      "word": "I",
+      "start": 23.06,
+      "end": 24.04
+    },
+    {
+      "word": "lean",
+      "start": 24.04,
+      "end": 24.3
+    },
+    {
+      "word": "on",
+      "start": 24.3,
+      "end": 24.82
+    },
+    {
+      "word": "the",
+      "start": 24.82,
+      "end": 25.78
+    },
+    {
+      "word": "rail",
+      "start": 25.78,
+      "end": 26.18
+    },
+    {
+      "word": "and",
+      "start": 26.18,
+      "end": 27.6
+    },
+    {
+      "word": "I",
+      "start": 27.6,
+      "end": 27.8
+    },
+    {
+      "word": "watch",
+      "start": 27.8,
+      "end": 28.14
+    },
+    {
+      "word": "my",
+      "start": 28.14,
+      "end": 28.76
+    },
+    {
+      "word": "own",
+      "start": 28.76,
+      "end": 29.4
+    },
+    {
+      "word": "face",
+      "start": 29.4,
+      "end": 29.9
+    },
+    {
+      "word": "appear",
+      "start": 29.9,
+      "end": 32.08
+    },
+    {
+      "word": "for",
+      "start": 32.08,
+      "end": 32.78
+    },
+    {
+      "word": "the",
+      "start": 32.78,
+      "end": 33.02
+    },
+    {
+      "word": "first",
+      "start": 33.02,
+      "end": 33.4
+    },
+    {
+      "word": "time",
+      "start": 33.4,
+      "end": 33.88
+    },
+    {
+      "word": "since",
+      "start": 33.88,
+      "end": 34.7
+    },
+    {
+      "word": "we",
+      "start": 34.7,
+      "end": 35.02
+    },
+    {
+      "word": "left",
+      "start": 35.02,
+      "end": 35.3
+    },
+    {
+      "word": "that",
+      "start": 35.3,
+      "end": 35.68
+    },
+    {
+      "word": "place.",
+      "start": 35.68,
+      "end": 36.24
+    },
+    {
+      "word": "No",
+      "start": 39.39,
+      "end": 39.88
+    },
+    {
+      "word": "wreck",
+      "start": 39.88,
+      "end": 40.32
+    },
+    {
+      "word": "in",
+      "start": 40.32,
+      "end": 40.64
+    },
+    {
+      "word": "the",
+      "start": 40.64,
+      "end": 40.78
+    },
+    {
+      "word": "deep,",
+      "start": 40.78,
+      "end": 41.08
+    },
+    {
+      "word": "no",
+      "start": 41.68,
+      "end": 41.8
+    },
+    {
+      "word": "crate",
+      "start": 41.8,
+      "end": 42.14
+    },
+    {
+      "word": "without",
+      "start": 42.14,
+      "end": 43.02
+    },
+    {
+      "word": "a",
+      "start": 43.02,
+      "end": 43.78
+    },
+    {
+      "word": "name.",
+      "start": 43.78,
+      "end": 44.18
+    },
+    {
+      "word": "Just",
+      "start": 46.84,
+      "end": 47.96
+    },
+    {
+      "word": "light",
+      "start": 47.96,
+      "end": 48.32
+    },
+    {
+      "word": "going",
+      "start": 48.32,
+      "end": 48.82
+    },
+    {
+      "word": "all",
+      "start": 48.82,
+      "end": 49.38
+    },
+    {
+      "word": "the",
+      "start": 49.38,
+      "end": 49.56
+    },
+    {
+      "word": "way",
+      "start": 49.56,
+      "end": 49.84
+    },
+    {
+      "word": "down",
+      "start": 49.84,
+      "end": 50.44
+    },
+    {
+      "word": "like",
+      "start": 50.44,
+      "end": 51.16
+    },
+    {
+      "word": "it's",
+      "start": 51.16,
+      "end": 51.88
+    },
+    {
+      "word": "safe.",
+      "start": 51.88,
+      "end": 52.22
+    },
+    {
+      "word": "The",
+      "start": 54.9,
+      "end": 56.02
+    },
+    {
+      "word": "captain",
+      "start": 56.02,
+      "end": 56.5
+    },
+    {
+      "word": "says",
+      "start": 56.5,
+      "end": 57.16
+    },
+    {
+      "word": "we've",
+      "start": 57.16,
+      "end": 57.84
+    },
+    {
+      "word": "crossed",
+      "start": 57.84,
+      "end": 58.1
+    },
+    {
+      "word": "some",
+      "start": 58.1,
+      "end": 58.7
+    },
+    {
+      "word": "currents,",
+      "start": 58.7,
+      "end": 59.18
+    },
+    {
+      "word": "some",
+      "start": 59.18,
+      "end": 59.8
+    },
+    {
+      "word": "light,",
+      "start": 59.8,
+      "end": 60.3
+    },
+    {
+      "word": "some",
+      "start": 61.02,
+      "end": 61.96
+    },
+    {
+      "word": "light.",
+      "start": 61.96,
+      "end": 62.44
+    },
+    {
+      "word": "I",
+      "start": 63.38,
+      "end": 63.52
+    },
+    {
+      "word": "say",
+      "start": 63.52,
+      "end": 63.8
+    },
+    {
+      "word": "maybe",
+      "start": 63.8,
+      "end": 64.3
+    },
+    {
+      "word": "it's",
+      "start": 64.3,
+      "end": 64.86
+    },
+    {
+      "word": "just",
+      "start": 64.86,
+      "end": 65.22
+    },
+    {
+      "word": "that",
+      "start": 65.22,
+      "end": 65.56
+    },
+    {
+      "word": "we're",
+      "start": 65.56,
+      "end": 65.82
+    },
+    {
+      "word": "finally",
+      "start": 65.82,
+      "end": 66.5
+    },
+    {
+      "word": "on",
+      "start": 66.5,
+      "end": 67.62
+    },
+    {
+      "word": "time.",
+      "start": 67.62,
+      "end": 68.24
+    },
+    {
+      "word": "The",
+      "start": 69.94,
+      "end": 71.02
+    },
+    {
+      "word": "water",
+      "start": 71.02,
+      "end": 71.4
+    },
+    {
+      "word": "turns",
+      "start": 71.4,
+      "end": 72.0
+    },
+    {
+      "word": "clear",
+      "start": 72.0,
+      "end": 72.34
+    },
+    {
+      "word": "past",
+      "start": 72.34,
+      "end": 73.48
+    },
+    {
+      "word": "the",
+      "start": 73.48,
+      "end": 73.78
+    },
+    {
+      "word": "wreck,",
+      "start": 73.78,
+      "end": 74.2
+    },
+    {
+      "word": "past",
+      "start": 74.62,
+      "end": 75.7
+    },
+    {
+      "word": "the",
+      "start": 75.7,
+      "end": 76.0
+    },
+    {
+      "word": "storm,",
+      "start": 76.0,
+      "end": 76.4
+    },
+    {
+      "word": "past",
+      "start": 78.26,
+      "end": 79.34
+    },
+    {
+      "word": "every",
+      "start": 79.34,
+      "end": 79.9
+    },
+    {
+      "word": "name",
+      "start": 79.9,
+      "end": 80.48
+    },
+    {
+      "word": "I",
+      "start": 80.48,
+      "end": 81.42
+    },
+    {
+      "word": "was",
+      "start": 81.42,
+      "end": 81.72
+    },
+    {
+      "word": "scared",
+      "start": 81.72,
+      "end": 82.16
+    },
+    {
+      "word": "to",
+      "start": 82.16,
+      "end": 82.72
+    },
+    {
+      "word": "keep",
+      "start": 82.72,
+      "end": 83.14
+    },
+    {
+      "word": "warm.",
+      "start": 83.14,
+      "end": 83.72
+    },
+    {
+      "word": "I",
+      "start": 86.48,
+      "end": 86.76
+    },
+    {
+      "word": "can",
+      "start": 86.76,
+      "end": 86.98
+    },
+    {
+      "word": "see",
+      "start": 86.98,
+      "end": 87.26
+    },
+    {
+      "word": "my",
+      "start": 87.26,
+      "end": 87.58
+    },
+    {
+      "word": "own",
+      "start": 87.58,
+      "end": 87.9
+    },
+    {
+      "word": "hands",
+      "start": 87.9,
+      "end": 88.72
+    },
+    {
+      "word": "all",
+      "start": 88.72,
+      "end": 89.4
+    },
+    {
+      "word": "the",
+      "start": 89.4,
+      "end": 89.76
+    },
+    {
+      "word": "way",
+      "start": 89.76,
+      "end": 90.3
+    },
+    {
+      "word": "to",
+      "start": 90.3,
+      "end": 91.04
+    },
+    {
+      "word": "the",
+      "start": 91.04,
+      "end": 91.58
+    },
+    {
+      "word": "floor.",
+      "start": 91.58,
+      "end": 92.24
+    },
+    {
+      "word": "For",
+      "start": 94.66,
+      "end": 95.58
+    },
+    {
+      "word": "the",
+      "start": 95.58,
+      "end": 95.76
+    },
+    {
+      "word": "first",
+      "start": 95.76,
+      "end": 96.2
+    },
+    {
+      "word": "time",
+      "start": 96.2,
+      "end": 96.64
+    },
+    {
+      "word": "in",
+      "start": 96.64,
+      "end": 97.34
+    },
+    {
+      "word": "this",
+      "start": 97.34,
+      "end": 97.72
+    },
+    {
+      "word": "voyage,",
+      "start": 97.72,
+      "end": 98.18
+    },
+    {
+      "word": "I'm",
+      "start": 98.22,
+      "end": 99.42
+    },
+    {
+      "word": "not",
+      "start": 99.42,
+      "end": 99.6
+    },
+    {
+      "word": "scared",
+      "start": 99.6,
+      "end": 100.16
+    },
+    {
+      "word": "anymore.",
+      "start": 100.16,
+      "end": 101.78
+    },
+    {
+      "word": "Fish",
+      "start": 119.2,
+      "end": 120.32
+    },
+    {
+      "word": "the",
+      "start": 120.32,
+      "end": 121.04
+    },
+    {
+      "word": "color",
+      "start": 121.04,
+      "end": 121.48
+    },
+    {
+      "word": "of",
+      "start": 121.48,
+      "end": 121.84
+    },
+    {
+      "word": "nothing",
+      "start": 121.84,
+      "end": 122.4
+    },
+    {
+      "word": "I've",
+      "start": 122.4,
+      "end": 123.82
+    },
+    {
+      "word": "seen",
+      "start": 123.82,
+      "end": 124.14
+    },
+    {
+      "word": "before",
+      "start": 124.14,
+      "end": 125.16
+    },
+    {
+      "word": "follows",
+      "start": 125.16,
+      "end": 127.5
+    },
+    {
+      "word": "the",
+      "start": 127.5,
+      "end": 127.8
+    },
+    {
+      "word": "hull",
+      "start": 127.8,
+      "end": 128.14
+    },
+    {
+      "word": "like",
+      "start": 128.14,
+      "end": 129.58
+    },
+    {
+      "word": "it's",
+      "start": 129.58,
+      "end": 129.84
+    },
+    {
+      "word": "curious,",
+      "start": 129.84,
+      "end": 130.28
+    },
+    {
+      "word": "not",
+      "start": 130.28,
+      "end": 131.6
+    },
+    {
+      "word": "scared.",
+      "start": 131.6,
+      "end": 132.16
+    },
+    {
+      "word": "I",
+      "start": 134.44,
+      "end": 134.78
+    },
+    {
+      "word": "laugh",
+      "start": 134.78,
+      "end": 135.1
+    },
+    {
+      "word": "for",
+      "start": 135.1,
+      "end": 135.58
+    },
+    {
+      "word": "no",
+      "start": 135.58,
+      "end": 135.82
+    },
+    {
+      "word": "reason.",
+      "start": 135.82,
+      "end": 136.54
+    },
+    {
+      "word": "The",
+      "start": 138.5,
+      "end": 138.7
+    },
+    {
+      "word": "first",
+      "start": 138.7,
+      "end": 139.2
+    },
+    {
+      "word": "laugh",
+      "start": 139.2,
+      "end": 139.68
+    },
+    {
+      "word": "in",
+      "start": 139.68,
+      "end": 140.0
+    },
+    {
+      "word": "weeks",
+      "start": 140.0,
+      "end": 140.36
+    },
+    {
+      "word": "and",
+      "start": 140.36,
+      "end": 142.76
+    },
+    {
+      "word": "the",
+      "start": 142.76,
+      "end": 143.02
+    },
+    {
+      "word": "water",
+      "start": 143.02,
+      "end": 143.42
+    },
+    {
+      "word": "just",
+      "start": 143.42,
+      "end": 143.74
+    },
+    {
+      "word": "holds",
+      "start": 143.74,
+      "end": 144.12
+    },
+    {
+      "word": "it.",
+      "start": 144.12,
+      "end": 144.58
+    },
+    {
+      "word": "Just",
+      "start": 146.0,
+      "end": 146.88
+    },
+    {
+      "word": "lets",
+      "start": 146.88,
+      "end": 147.26
+    },
+    {
+      "word": "it",
+      "start": 147.26,
+      "end": 147.62
+    },
+    {
+      "word": "speak.",
+      "start": 147.62,
+      "end": 148.04
+    },
+    {
+      "word": "The",
+      "start": 150.02,
+      "end": 151.02
+    },
+    {
+      "word": "water",
+      "start": 151.02,
+      "end": 151.38
+    },
+    {
+      "word": "turns",
+      "start": 151.38,
+      "end": 152.0
+    },
+    {
+      "word": "clear",
+      "start": 152.0,
+      "end": 152.4
+    },
+    {
+      "word": "past",
+      "start": 152.4,
+      "end": 153.48
+    },
+    {
+      "word": "the",
+      "start": 153.48,
+      "end": 153.78
+    },
+    {
+      "word": "wreck,",
+      "start": 153.78,
+      "end": 154.18
+    },
+    {
+      "word": "past",
+      "start": 154.68,
+      "end": 155.74
+    },
+    {
+      "word": "the",
+      "start": 155.74,
+      "end": 156.0
+    },
+    {
+      "word": "storm,",
+      "start": 156.0,
+      "end": 156.36
+    },
+    {
+      "word": "past",
+      "start": 158.38,
+      "end": 159.38
+    },
+    {
+      "word": "every",
+      "start": 159.38,
+      "end": 159.9
+    },
+    {
+      "word": "name",
+      "start": 159.9,
+      "end": 160.52
+    },
+    {
+      "word": "I",
+      "start": 160.52,
+      "end": 161.46
+    },
+    {
+      "word": "was",
+      "start": 161.46,
+      "end": 161.74
+    },
+    {
+      "word": "scared",
+      "start": 161.74,
+      "end": 162.14
+    },
+    {
+      "word": "to",
+      "start": 162.14,
+      "end": 162.7
+    },
+    {
+      "word": "keep",
+      "start": 162.7,
+      "end": 163.16
+    },
+    {
+      "word": "warm.",
+      "start": 163.16,
+      "end": 163.78
+    },
+    {
+      "word": "I",
+      "start": 166.38,
+      "end": 166.78
+    },
+    {
+      "word": "can",
+      "start": 166.78,
+      "end": 166.98
+    },
+    {
+      "word": "see",
+      "start": 166.98,
+      "end": 167.24
+    },
+    {
+      "word": "my",
+      "start": 167.24,
+      "end": 167.56
+    },
+    {
+      "word": "own",
+      "start": 167.56,
+      "end": 167.92
+    },
+    {
+      "word": "hands",
+      "start": 167.92,
+      "end": 168.46
+    },
+    {
+      "word": "all",
+      "start": 168.46,
+      "end": 169.46
+    },
+    {
+      "word": "the",
+      "start": 169.46,
+      "end": 169.78
+    },
+    {
+      "word": "way",
+      "start": 169.78,
+      "end": 170.24
+    },
+    {
+      "word": "to",
+      "start": 170.24,
+      "end": 171.02
+    },
+    {
+      "word": "the",
+      "start": 171.02,
+      "end": 171.56
+    },
+    {
+      "word": "floor.",
+      "start": 171.56,
+      "end": 172.24
+    },
+    {
+      "word": "For",
+      "start": 174.64,
+      "end": 175.56
+    },
+    {
+      "word": "the",
+      "start": 175.56,
+      "end": 175.76
+    },
+    {
+      "word": "first",
+      "start": 175.76,
+      "end": 176.16
+    },
+    {
+      "word": "time",
+      "start": 176.16,
+      "end": 176.88
+    },
+    {
+      "word": "in",
+      "start": 176.88,
+      "end": 177.32
+    },
+    {
+      "word": "this",
+      "start": 177.32,
+      "end": 177.72
+    },
+    {
+      "word": "voyage,",
+      "start": 177.72,
+      "end": 178.2
+    },
+    {
+      "word": "I'm",
+      "start": 179.1,
+      "end": 179.4
+    },
+    {
+      "word": "not",
+      "start": 179.4,
+      "end": 179.6
+    },
+    {
+      "word": "scared",
+      "start": 179.6,
+      "end": 180.16
+    },
+    {
+      "word": "anymore.",
+      "start": 180.16,
+      "end": 181.84
+    },
+    {
+      "word": "So",
+      "start": 183.34,
+      "end": 184.26
+    },
+    {
+      "word": "I",
+      "start": 184.26,
+      "end": 184.48
+    },
+    {
+      "word": "wonder",
+      "start": 184.48,
+      "end": 185.3
+    },
+    {
+      "word": "if",
+      "start": 185.3,
+      "end": 186.04
+    },
+    {
+      "word": "I",
+      "start": 186.04,
+      "end": 186.54
+    },
+    {
+      "word": "did",
+      "start": 186.54,
+      "end": 186.8
+    },
+    {
+      "word": "no",
+      "start": 186.8,
+      "end": 187.36
+    },
+    {
+      "word": "clear",
+      "start": 187.36,
+      "end": 187.76
+    },
+    {
+      "word": "water,",
+      "start": 187.76,
+      "end": 188.58
+    },
+    {
+      "word": "could",
+      "start": 188.96,
+      "end": 189.02
+    },
+    {
+      "word": "feel",
+      "start": 189.02,
+      "end": 189.28
+    },
+    {
+      "word": "like",
+      "start": 189.28,
+      "end": 189.7
+    },
+    {
+      "word": "permission.",
+      "start": 189.7,
+      "end": 190.16
+    },
+    {
+      "word": "I",
+      "start": 191.44,
+      "end": 191.54
+    },
+    {
+      "word": "didn't",
+      "start": 191.54,
+      "end": 191.92
+    },
+    {
+      "word": "know",
+      "start": 191.92,
+      "end": 192.18
+    },
+    {
+      "word": "I'd",
+      "start": 192.18,
+      "end": 192.66
+    },
+    {
+      "word": "been",
+      "start": 192.66,
+      "end": 192.8
+    },
+    {
+      "word": "holding",
+      "start": 192.8,
+      "end": 193.3
+    },
+    {
+      "word": "my",
+      "start": 193.3,
+      "end": 193.8
+    },
+    {
+      "word": "breath",
+      "start": 193.8,
+      "end": 194.2
+    },
+    {
+      "word": "this",
+      "start": 194.2,
+      "end": 195.2
+    },
+    {
+      "word": "whole",
+      "start": 195.2,
+      "end": 195.58
+    },
+    {
+      "word": "time",
+      "start": 195.58,
+      "end": 196.32
+    },
+    {
+      "word": "until",
+      "start": 198.38,
+      "end": 199.3
+    },
+    {
+      "word": "I",
+      "start": 199.3,
+      "end": 199.66
+    },
+    {
+      "word": "felt",
+      "start": 199.66,
+      "end": 200.06
+    },
+    {
+      "word": "myself",
+      "start": 200.06,
+      "end": 200.98
+    },
+    {
+      "word": "finally",
+      "start": 200.98,
+      "end": 201.86
+    },
+    {
+      "word": "let",
+      "start": 201.86,
+      "end": 203.44
+    },
+    {
+      "word": "it",
+      "start": 203.44,
+      "end": 203.78
+    },
+    {
+      "word": "go.",
+      "start": 203.78,
+      "end": 204.2
+    },
+    {
+      "word": "So",
+      "start": 206.36,
+      "end": 207.28
+    },
+    {
+      "word": "let",
+      "start": 207.28,
+      "end": 207.64
+    },
+    {
+      "word": "the",
+      "start": 207.64,
+      "end": 207.92
+    },
+    {
+      "word": "charts",
+      "start": 207.92,
+      "end": 208.3
+    },
+    {
+      "word": "say",
+      "start": 208.3,
+      "end": 208.84
+    },
+    {
+      "word": "nothing,",
+      "start": 208.84,
+      "end": 209.52
+    },
+    {
+      "word": "let",
+      "start": 210.46,
+      "end": 210.76
+    },
+    {
+      "word": "the",
+      "start": 210.76,
+      "end": 211.02
+    },
+    {
+      "word": "captain",
+      "start": 211.02,
+      "end": 211.36
+    },
+    {
+      "word": "say",
+      "start": 211.36,
+      "end": 211.92
+    },
+    {
+      "word": "he",
+      "start": 211.92,
+      "end": 212.28
+    },
+    {
+      "word": "died.",
+      "start": 212.28,
+      "end": 212.7
+    },
+    {
+      "word": "I",
+      "start": 214.84,
+      "end": 215.76
+    },
+    {
+      "word": "know",
+      "start": 215.76,
+      "end": 216.12
+    },
+    {
+      "word": "what",
+      "start": 216.12,
+      "end": 216.86
+    },
+    {
+      "word": "I'm",
+      "start": 216.86,
+      "end": 217.06
+    },
+    {
+      "word": "seeing",
+      "start": 217.06,
+      "end": 217.42
+    },
+    {
+      "word": "and",
+      "start": 217.42,
+      "end": 218.74
+    },
+    {
+      "word": "I",
+      "start": 218.74,
+      "end": 218.92
+    },
+    {
+      "word": "know",
+      "start": 218.92,
+      "end": 219.22
+    },
+    {
+      "word": "what's",
+      "start": 219.22,
+      "end": 219.72
+    },
+    {
+      "word": "inside.",
+      "start": 219.72,
+      "end": 220.22
+    },
+    {
+      "word": "The",
+      "start": 223.02,
+      "end": 224.02
+    },
+    {
+      "word": "water",
+      "start": 224.02,
+      "end": 224.4
+    },
+    {
+      "word": "turns",
+      "start": 224.4,
+      "end": 225.0
+    },
+    {
+      "word": "clear",
+      "start": 225.0,
+      "end": 225.34
+    },
+    {
+      "word": "and",
+      "start": 225.34,
+      "end": 225.56
+    },
+    {
+      "word": "so",
+      "start": 225.56,
+      "end": 225.84
+    },
+    {
+      "word": "slowly",
+      "start": 225.84,
+      "end": 227.06
+    },
+    {
+      "word": "do",
+      "start": 227.06,
+      "end": 227.76
+    },
+    {
+      "word": "I.",
+      "start": 227.76,
+      "end": 228.3
+    },
+    {
+      "word": "For",
+      "start": 230.74,
+      "end": 231.74
+    },
+    {
+      "word": "the",
+      "start": 231.74,
+      "end": 232.0
+    },
+    {
+      "word": "first",
+      "start": 232.0,
+      "end": 232.38
+    },
+    {
+      "word": "time",
+      "start": 232.38,
+      "end": 233.0
+    },
+    {
+      "word": "in",
+      "start": 233.0,
+      "end": 233.32
+    },
+    {
+      "word": "this",
+      "start": 233.32,
+      "end": 233.68
+    },
+    {
+      "word": "voyage,",
+      "start": 233.68,
+      "end": 234.18
+    },
+    {
+      "word": "glad",
+      "start": 234.18,
+      "end": 236.7
+    },
+    {
+      "word": "to",
+      "start": 236.7,
+      "end": 237.02
+    },
+    {
+      "word": "be",
+      "start": 237.02,
+      "end": 237.3
+    },
+    {
+      "word": "alive.",
+      "start": 237.3,
+      "end": 237.8
+    }
+  ]
+}

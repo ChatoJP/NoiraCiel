@@ -1,0 +1,1268 @@
+{
+  "title": "Teach Me The Old Songs",
+  "slug": "teach-me-the-old-songs",
+  "trackNumber": 12,
+  "duration": 213.88,
+  "words": [
+    {
+      "word": "Before",
+      "start": 6.86,
+      "end": 7.7
+    },
+    {
+      "word": "the",
+      "start": 7.7,
+      "end": 8.02
+    },
+    {
+      "word": "scanners,",
+      "start": 8.02,
+      "end": 8.46
+    },
+    {
+      "word": "before",
+      "start": 9.14,
+      "end": 9.64
+    },
+    {
+      "word": "the",
+      "start": 9.64,
+      "end": 9.94
+    },
+    {
+      "word": "screens",
+      "start": 9.94,
+      "end": 10.42
+    },
+    {
+      "word": "told",
+      "start": 10.42,
+      "end": 11.02
+    },
+    {
+      "word": "us",
+      "start": 11.02,
+      "end": 11.36
+    },
+    {
+      "word": "what",
+      "start": 11.36,
+      "end": 11.62
+    },
+    {
+      "word": "to",
+      "start": 11.62,
+      "end": 11.88
+    },
+    {
+      "word": "do,",
+      "start": 11.88,
+      "end": 12.46
+    },
+    {
+      "word": "we",
+      "start": 12.88,
+      "end": 14.76
+    },
+    {
+      "word": "sang",
+      "start": 14.76,
+      "end": 15.04
+    },
+    {
+      "word": "to",
+      "start": 15.04,
+      "end": 15.32
+    },
+    {
+      "word": "keep",
+      "start": 15.32,
+      "end": 15.58
+    },
+    {
+      "word": "the",
+      "start": 15.58,
+      "end": 15.82
+    },
+    {
+      "word": "rhythm,",
+      "start": 15.82,
+      "end": 16.22
+    },
+    {
+      "word": "sang",
+      "start": 17.52,
+      "end": 18.36
+    },
+    {
+      "word": "the",
+      "start": 18.36,
+      "end": 18.68
+    },
+    {
+      "word": "whole",
+      "start": 18.68,
+      "end": 18.94
+    },
+    {
+      "word": "shift",
+      "start": 18.94,
+      "end": 19.36
+    },
+    {
+      "word": "through,",
+      "start": 19.36,
+      "end": 19.82
+    },
+    {
+      "word": "my",
+      "start": 20.66,
+      "end": 23.02
+    },
+    {
+      "word": "uncle",
+      "start": 23.02,
+      "end": 23.32
+    },
+    {
+      "word": "taught",
+      "start": 23.32,
+      "end": 23.72
+    },
+    {
+      "word": "me",
+      "start": 23.72,
+      "end": 24.14
+    },
+    {
+      "word": "on",
+      "start": 24.14,
+      "end": 24.98
+    },
+    {
+      "word": "the",
+      "start": 24.98,
+      "end": 25.16
+    },
+    {
+      "word": "docks",
+      "start": 25.16,
+      "end": 25.64
+    },
+    {
+      "word": "when",
+      "start": 25.64,
+      "end": 26.14
+    },
+    {
+      "word": "I",
+      "start": 26.14,
+      "end": 26.46
+    },
+    {
+      "word": "was",
+      "start": 26.46,
+      "end": 26.72
+    },
+    {
+      "word": "17,",
+      "start": 26.72,
+      "end": 27.32
+    },
+    {
+      "word": "three",
+      "start": 29.66,
+      "end": 30.54
+    },
+    {
+      "word": "-part",
+      "start": 30.54,
+      "end": 31.02
+    },
+    {
+      "word": "harmony,",
+      "start": 31.02,
+      "end": 31.62
+    },
+    {
+      "word": "overdiesel,",
+      "start": 32.32,
+      "end": 33.42
+    },
+    {
+      "word": "that's",
+      "start": 33.84,
+      "end": 34.02
+    },
+    {
+      "word": "the",
+      "start": 34.02,
+      "end": 34.16
+    },
+    {
+      "word": "only",
+      "start": 34.16,
+      "end": 34.52
+    },
+    {
+      "word": "church",
+      "start": 34.52,
+      "end": 34.92
+    },
+    {
+      "word": "I'd",
+      "start": 34.92,
+      "end": 35.4
+    },
+    {
+      "word": "see.",
+      "start": 35.4,
+      "end": 35.66
+    },
+    {
+      "word": "I",
+      "start": 37.1,
+      "end": 37.98
+    },
+    {
+      "word": "never",
+      "start": 37.98,
+      "end": 38.2
+    },
+    {
+      "word": "learned",
+      "start": 38.2,
+      "end": 38.82
+    },
+    {
+      "word": "a",
+      "start": 38.82,
+      "end": 38.96
+    },
+    {
+      "word": "work",
+      "start": 38.96,
+      "end": 39.28
+    },
+    {
+      "word": "song,",
+      "start": 39.28,
+      "end": 39.82
+    },
+    {
+      "word": "just",
+      "start": 40.24,
+      "end": 40.68
+    },
+    {
+      "word": "a",
+      "start": 40.68,
+      "end": 40.94
+    },
+    {
+      "word": "notification",
+      "start": 40.94,
+      "end": 42.06
+    },
+    {
+      "word": "chime.",
+      "start": 42.06,
+      "end": 43.46
+    },
+    {
+      "word": "Teach",
+      "start": 45.58,
+      "end": 45.9
+    },
+    {
+      "word": "me",
+      "start": 45.9,
+      "end": 46.38
+    },
+    {
+      "word": "the",
+      "start": 46.38,
+      "end": 46.72
+    },
+    {
+      "word": "old",
+      "start": 46.72,
+      "end": 47.06
+    },
+    {
+      "word": "songs,",
+      "start": 47.06,
+      "end": 47.74
+    },
+    {
+      "word": "teach",
+      "start": 48.5,
+      "end": 48.64
+    },
+    {
+      "word": "me",
+      "start": 48.64,
+      "end": 49.14
+    },
+    {
+      "word": "how",
+      "start": 49.14,
+      "end": 49.44
+    },
+    {
+      "word": "you",
+      "start": 49.44,
+      "end": 49.64
+    },
+    {
+      "word": "kept",
+      "start": 49.64,
+      "end": 49.92
+    },
+    {
+      "word": "the",
+      "start": 49.92,
+      "end": 50.36
+    },
+    {
+      "word": "time,",
+      "start": 50.36,
+      "end": 51.14
+    },
+    {
+      "word": "before",
+      "start": 51.64,
+      "end": 54.02
+    },
+    {
+      "word": "the",
+      "start": 54.02,
+      "end": 54.44
+    },
+    {
+      "word": "systems",
+      "start": 54.44,
+      "end": 54.94
+    },
+    {
+      "word": "counted",
+      "start": 54.94,
+      "end": 56.14
+    },
+    {
+      "word": "every",
+      "start": 56.14,
+      "end": 56.92
+    },
+    {
+      "word": "breath",
+      "start": 56.92,
+      "end": 57.54
+    },
+    {
+      "word": "that",
+      "start": 57.54,
+      "end": 57.92
+    },
+    {
+      "word": "we",
+      "start": 57.92,
+      "end": 58.12
+    },
+    {
+      "word": "let",
+      "start": 58.12,
+      "end": 58.44
+    },
+    {
+      "word": "go.",
+      "start": 58.44,
+      "end": 59.12
+    },
+    {
+      "word": "Teach",
+      "start": 61.1,
+      "end": 61.42
+    },
+    {
+      "word": "me",
+      "start": 61.42,
+      "end": 61.76
+    },
+    {
+      "word": "what",
+      "start": 61.76,
+      "end": 61.98
+    },
+    {
+      "word": "you",
+      "start": 61.98,
+      "end": 62.18
+    },
+    {
+      "word": "sing",
+      "start": 62.18,
+      "end": 62.58
+    },
+    {
+      "word": "I",
+      "start": 62.58,
+      "end": 63.52
+    },
+    {
+      "word": "want",
+      "start": 63.52,
+      "end": 64.56
+    },
+    {
+      "word": "to",
+      "start": 64.56,
+      "end": 65.36
+    },
+    {
+      "word": "know.",
+      "start": 65.36,
+      "end": 66.28
+    },
+    {
+      "word": "Teach",
+      "start": 68.22,
+      "end": 69.14
+    },
+    {
+      "word": "me",
+      "start": 69.14,
+      "end": 69.54
+    },
+    {
+      "word": "the",
+      "start": 69.54,
+      "end": 69.96
+    },
+    {
+      "word": "old",
+      "start": 69.96,
+      "end": 70.32
+    },
+    {
+      "word": "songs,",
+      "start": 70.32,
+      "end": 70.68
+    },
+    {
+      "word": "sing",
+      "start": 71.42,
+      "end": 71.5
+    },
+    {
+      "word": "the",
+      "start": 71.5,
+      "end": 71.9
+    },
+    {
+      "word": "ones",
+      "start": 71.9,
+      "end": 72.28
+    },
+    {
+      "word": "that",
+      "start": 72.28,
+      "end": 72.6
+    },
+    {
+      "word": "came",
+      "start": 72.6,
+      "end": 72.92
+    },
+    {
+      "word": "before,",
+      "start": 72.92,
+      "end": 73.82
+    },
+    {
+      "word": "the",
+      "start": 74.88,
+      "end": 76.7
+    },
+    {
+      "word": "ones",
+      "start": 76.7,
+      "end": 77.0
+    },
+    {
+      "word": "that",
+      "start": 77.0,
+      "end": 77.26
+    },
+    {
+      "word": "don't",
+      "start": 77.26,
+      "end": 77.68
+    },
+    {
+      "word": "need",
+      "start": 77.68,
+      "end": 78.02
+    },
+    {
+      "word": "Wi",
+      "start": 78.02,
+      "end": 78.42
+    },
+    {
+      "word": "-Fi,",
+      "start": 78.42,
+      "end": 78.9
+    },
+    {
+      "word": "the",
+      "start": 79.52,
+      "end": 79.64
+    },
+    {
+      "word": "ones",
+      "start": 79.64,
+      "end": 79.98
+    },
+    {
+      "word": "that",
+      "start": 79.98,
+      "end": 80.34
+    },
+    {
+      "word": "need",
+      "start": 80.34,
+      "end": 80.72
+    },
+    {
+      "word": "a",
+      "start": 80.72,
+      "end": 81.28
+    },
+    {
+      "word": "floor,",
+      "start": 81.28,
+      "end": 81.64
+    },
+    {
+      "word": "and",
+      "start": 82.6,
+      "end": 85.06
+    },
+    {
+      "word": "a",
+      "start": 85.06,
+      "end": 85.18
+    },
+    {
+      "word": "body,",
+      "start": 85.18,
+      "end": 85.86
+    },
+    {
+      "word": "and",
+      "start": 86.84,
+      "end": 87.0
+    },
+    {
+      "word": "a",
+      "start": 87.0,
+      "end": 87.1
+    },
+    {
+      "word": "breath,",
+      "start": 87.1,
+      "end": 87.78
+    },
+    {
+      "word": "and",
+      "start": 88.42,
+      "end": 88.9
+    },
+    {
+      "word": "a",
+      "start": 88.9,
+      "end": 89.12
+    },
+    {
+      "word": "reason",
+      "start": 89.12,
+      "end": 89.72
+    },
+    {
+      "word": "to",
+      "start": 89.72,
+      "end": 90.24
+    },
+    {
+      "word": "keep",
+      "start": 90.24,
+      "end": 90.54
+    },
+    {
+      "word": "on.",
+      "start": 90.54,
+      "end": 90.92
+    },
+    {
+      "word": "Teach",
+      "start": 92.12,
+      "end": 92.38
+    },
+    {
+      "word": "me",
+      "start": 92.38,
+      "end": 92.8
+    },
+    {
+      "word": "the",
+      "start": 92.8,
+      "end": 93.2
+    },
+    {
+      "word": "old",
+      "start": 93.2,
+      "end": 93.54
+    },
+    {
+      "word": "songs",
+      "start": 93.54,
+      "end": 93.88
+    },
+    {
+      "word": "before",
+      "start": 93.88,
+      "end": 94.72
+    },
+    {
+      "word": "the",
+      "start": 94.72,
+      "end": 95.16
+    },
+    {
+      "word": "old",
+      "start": 95.16,
+      "end": 95.48
+    },
+    {
+      "word": "ones",
+      "start": 95.48,
+      "end": 96.34
+    },
+    {
+      "word": "are",
+      "start": 96.34,
+      "end": 96.78
+    },
+    {
+      "word": "gone.",
+      "start": 96.78,
+      "end": 97.16
+    },
+    {
+      "word": "This",
+      "start": 102.08,
+      "end": 103.48
+    },
+    {
+      "word": "one's",
+      "start": 103.48,
+      "end": 104.2
+    },
+    {
+      "word": "about",
+      "start": 104.2,
+      "end": 104.54
+    },
+    {
+      "word": "a",
+      "start": 104.54,
+      "end": 104.82
+    },
+    {
+      "word": "river",
+      "start": 104.82,
+      "end": 105.2
+    },
+    {
+      "word": "that",
+      "start": 105.2,
+      "end": 106.22
+    },
+    {
+      "word": "my",
+      "start": 106.22,
+      "end": 106.46
+    },
+    {
+      "word": "grandfather",
+      "start": 106.46,
+      "end": 107.42
+    },
+    {
+      "word": "never",
+      "start": 107.42,
+      "end": 108.22
+    },
+    {
+      "word": "saw.",
+      "start": 108.22,
+      "end": 108.86
+    },
+    {
+      "word": "This",
+      "start": 109.7,
+      "end": 111.1
+    },
+    {
+      "word": "one's",
+      "start": 111.1,
+      "end": 111.94
+    },
+    {
+      "word": "about",
+      "start": 111.94,
+      "end": 127.14
+    },
+    {
+      "word": "a",
+      "start": 127.14,
+      "end": 127.14
+    },
+    {
+      "word": "Monday",
+      "start": 127.14,
+      "end": 127.14
+    },
+    {
+      "word": "and",
+      "start": 127.14,
+      "end": 127.14
+    },
+    {
+      "word": "a",
+      "start": 127.14,
+      "end": 127.14
+    },
+    {
+      "word": "moon,",
+      "start": 127.14,
+      "end": 127.64
+    },
+    {
+      "word": "enough",
+      "start": 127.72,
+      "end": 128.06
+    },
+    {
+      "word": "child,",
+      "start": 128.06,
+      "end": 128.72
+    },
+    {
+      "word": "and",
+      "start": 129.4,
+      "end": 129.48
+    },
+    {
+      "word": "then",
+      "start": 129.48,
+      "end": 129.72
+    },
+    {
+      "word": "you'll",
+      "start": 129.72,
+      "end": 130.06
+    },
+    {
+      "word": "understand",
+      "start": 130.06,
+      "end": 130.8
+    },
+    {
+      "word": "the",
+      "start": 130.8,
+      "end": 131.58
+    },
+    {
+      "word": "same.",
+      "start": 131.58,
+      "end": 132.0
+    },
+    {
+      "word": "Teach",
+      "start": 134.42,
+      "end": 135.06
+    },
+    {
+      "word": "me",
+      "start": 135.06,
+      "end": 135.38
+    },
+    {
+      "word": "the",
+      "start": 135.38,
+      "end": 135.76
+    },
+    {
+      "word": "old",
+      "start": 135.76,
+      "end": 136.1
+    },
+    {
+      "word": "songs,",
+      "start": 136.1,
+      "end": 136.42
+    },
+    {
+      "word": "sing",
+      "start": 137.16,
+      "end": 137.3
+    },
+    {
+      "word": "the",
+      "start": 137.3,
+      "end": 137.68
+    },
+    {
+      "word": "ones",
+      "start": 137.68,
+      "end": 138.06
+    },
+    {
+      "word": "that",
+      "start": 138.06,
+      "end": 138.38
+    },
+    {
+      "word": "came",
+      "start": 138.38,
+      "end": 138.74
+    },
+    {
+      "word": "before,",
+      "start": 138.74,
+      "end": 139.64
+    },
+    {
+      "word": "the",
+      "start": 140.94,
+      "end": 142.5
+    },
+    {
+      "word": "ones",
+      "start": 142.5,
+      "end": 142.8
+    },
+    {
+      "word": "that",
+      "start": 142.8,
+      "end": 143.06
+    },
+    {
+      "word": "don't",
+      "start": 143.06,
+      "end": 143.38
+    },
+    {
+      "word": "need",
+      "start": 143.38,
+      "end": 143.84
+    },
+    {
+      "word": "Wi",
+      "start": 143.84,
+      "end": 144.16
+    },
+    {
+      "word": "-Fi,",
+      "start": 144.16,
+      "end": 144.72
+    },
+    {
+      "word": "the",
+      "start": 145.32,
+      "end": 145.42
+    },
+    {
+      "word": "ones",
+      "start": 145.42,
+      "end": 145.8
+    },
+    {
+      "word": "that",
+      "start": 145.8,
+      "end": 146.12
+    },
+    {
+      "word": "need",
+      "start": 146.12,
+      "end": 146.58
+    },
+    {
+      "word": "a",
+      "start": 146.58,
+      "end": 147.08
+    },
+    {
+      "word": "floor,",
+      "start": 147.08,
+      "end": 147.52
+    },
+    {
+      "word": "and",
+      "start": 148.64,
+      "end": 150.84
+    },
+    {
+      "word": "a",
+      "start": 150.84,
+      "end": 150.98
+    },
+    {
+      "word": "body,",
+      "start": 150.98,
+      "end": 151.64
+    },
+    {
+      "word": "and",
+      "start": 151.64,
+      "end": 152.8
+    },
+    {
+      "word": "a",
+      "start": 152.8,
+      "end": 152.88
+    },
+    {
+      "word": "breath,",
+      "start": 152.88,
+      "end": 153.26
+    },
+    {
+      "word": "and",
+      "start": 154.24,
+      "end": 154.68
+    },
+    {
+      "word": "a",
+      "start": 154.68,
+      "end": 154.84
+    },
+    {
+      "word": "reason",
+      "start": 154.84,
+      "end": 155.52
+    },
+    {
+      "word": "to",
+      "start": 155.52,
+      "end": 156.04
+    },
+    {
+      "word": "keep",
+      "start": 156.04,
+      "end": 156.34
+    },
+    {
+      "word": "on.",
+      "start": 156.34,
+      "end": 156.76
+    },
+    {
+      "word": "Teach",
+      "start": 157.9,
+      "end": 158.18
+    },
+    {
+      "word": "me",
+      "start": 158.18,
+      "end": 158.58
+    },
+    {
+      "word": "the",
+      "start": 158.58,
+      "end": 158.98
+    },
+    {
+      "word": "old",
+      "start": 158.98,
+      "end": 159.34
+    },
+    {
+      "word": "songs",
+      "start": 159.34,
+      "end": 159.68
+    },
+    {
+      "word": "before",
+      "start": 159.68,
+      "end": 160.48
+    },
+    {
+      "word": "the",
+      "start": 160.48,
+      "end": 160.94
+    },
+    {
+      "word": "old",
+      "start": 160.94,
+      "end": 161.28
+    },
+    {
+      "word": "ones",
+      "start": 161.28,
+      "end": 162.02
+    },
+    {
+      "word": "are",
+      "start": 162.02,
+      "end": 162.6
+    },
+    {
+      "word": "gone.",
+      "start": 162.6,
+      "end": 163.12
+    },
+    {
+      "word": "All",
+      "start": 169.48,
+      "end": 170.2
+    },
+    {
+      "word": "this",
+      "start": 170.2,
+      "end": 170.78
+    },
+    {
+      "word": "is",
+      "start": 170.78,
+      "end": 171.1
+    },
+    {
+      "word": "how",
+      "start": 171.1,
+      "end": 171.38
+    },
+    {
+      "word": "you",
+      "start": 171.38,
+      "end": 171.58
+    },
+    {
+      "word": "hold",
+      "start": 171.58,
+      "end": 171.94
+    },
+    {
+      "word": "a",
+      "start": 171.94,
+      "end": 172.28
+    },
+    {
+      "word": "note",
+      "start": 172.28,
+      "end": 172.76
+    },
+    {
+      "word": "when",
+      "start": 172.76,
+      "end": 173.24
+    },
+    {
+      "word": "your",
+      "start": 173.24,
+      "end": 173.46
+    },
+    {
+      "word": "hands",
+      "start": 173.46,
+      "end": 173.86
+    },
+    {
+      "word": "won't",
+      "start": 173.86,
+      "end": 174.2
+    },
+    {
+      "word": "stop",
+      "start": 174.2,
+      "end": 174.5
+    },
+    {
+      "word": "shaking.",
+      "start": 174.5,
+      "end": 175.34
+    },
+    {
+      "word": "All",
+      "start": 184.7,
+      "end": 185.46
+    },
+    {
+      "word": "this",
+      "start": 185.46,
+      "end": 186.22
+    },
+    {
+      "word": "is",
+      "start": 186.22,
+      "end": 186.56
+    },
+    {
+      "word": "how",
+      "start": 186.56,
+      "end": 186.86
+    },
+    {
+      "word": "you",
+      "start": 186.86,
+      "end": 187.04
+    },
+    {
+      "word": "turn",
+      "start": 187.04,
+      "end": 187.46
+    },
+    {
+      "word": "a",
+      "start": 187.46,
+      "end": 187.76
+    },
+    {
+      "word": "Tuesday",
+      "start": 187.76,
+      "end": 188.44
+    },
+    {
+      "word": "into",
+      "start": 188.44,
+      "end": 188.88
+    },
+    {
+      "word": "something",
+      "start": 188.88,
+      "end": 189.26
+    },
+    {
+      "word": "worth",
+      "start": 189.26,
+      "end": 189.78
+    },
+    {
+      "word": "them",
+      "start": 189.78,
+      "end": 190.04
+    },
+    {
+      "word": "making.",
+      "start": 190.04,
+      "end": 190.42
+    },
+    {
+      "word": "Teach",
+      "start": 191.58,
+      "end": 191.92
+    },
+    {
+      "word": "me",
+      "start": 191.92,
+      "end": 194.52
+    },
+    {
+      "word": "I'll",
+      "start": 194.52,
+      "end": 195.18
+    },
+    {
+      "word": "teach",
+      "start": 195.18,
+      "end": 195.56
+    },
+    {
+      "word": "you",
+      "start": 195.56,
+      "end": 196.06
+    },
+    {
+      "word": "that's",
+      "start": 196.06,
+      "end": 196.34
+    },
+    {
+      "word": "how",
+      "start": 196.34,
+      "end": 196.54
+    },
+    {
+      "word": "the",
+      "start": 196.54,
+      "end": 196.78
+    },
+    {
+      "word": "old",
+      "start": 196.78,
+      "end": 197.08
+    },
+    {
+      "word": "songs",
+      "start": 197.08,
+      "end": 197.38
+    },
+    {
+      "word": "stay.",
+      "start": 197.38,
+      "end": 198.36
+    },
+    {
+      "word": "Past",
+      "start": 199.66,
+      "end": 200.5
+    },
+    {
+      "word": "hand",
+      "start": 200.5,
+      "end": 200.88
+    },
+    {
+      "word": "to",
+      "start": 200.88,
+      "end": 201.3
+    },
+    {
+      "word": "hand,",
+      "start": 201.3,
+      "end": 201.72
+    },
+    {
+      "word": "shift",
+      "start": 202.34,
+      "end": 202.72
+    },
+    {
+      "word": "to",
+      "start": 202.72,
+      "end": 203.22
+    },
+    {
+      "word": "shift,",
+      "start": 203.22,
+      "end": 203.64
+    },
+    {
+      "word": "never",
+      "start": 204.08,
+      "end": 204.26
+    },
+    {
+      "word": "thrown",
+      "start": 204.26,
+      "end": 204.76
+    },
+    {
+      "word": "away.",
+      "start": 204.76,
+      "end": 205.42
+    }
+  ]
+}

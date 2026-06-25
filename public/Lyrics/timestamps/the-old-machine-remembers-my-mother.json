@@ -1,0 +1,1453 @@
+{
+  "title": "The Old Machine Remembers My Mother",
+  "slug": "the-old-machine-remembers-my-mother",
+  "trackNumber": 11,
+  "duration": 240.0,
+  "words": [
+    {
+      "word": "I",
+      "start": 5.62,
+      "end": 6.9
+    },
+    {
+      "word": "opened",
+      "start": 6.9,
+      "end": 7.36
+    },
+    {
+      "word": "up",
+      "start": 7.36,
+      "end": 8.16
+    },
+    {
+      "word": "the",
+      "start": 8.16,
+      "end": 8.5
+    },
+    {
+      "word": "panel",
+      "start": 8.5,
+      "end": 9.0
+    },
+    {
+      "word": "On",
+      "start": 9.0,
+      "end": 10.12
+    },
+    {
+      "word": "the",
+      "start": 10.12,
+      "end": 10.34
+    },
+    {
+      "word": "press",
+      "start": 10.34,
+      "end": 10.66
+    },
+    {
+      "word": "from",
+      "start": 10.66,
+      "end": 11.04
+    },
+    {
+      "word": "94",
+      "start": 11.04,
+      "end": 12.18
+    },
+    {
+      "word": "Found",
+      "start": 12.18,
+      "end": 14.48
+    },
+    {
+      "word": "a",
+      "start": 14.48,
+      "end": 15.32
+    },
+    {
+      "word": "logbook",
+      "start": 15.32,
+      "end": 16.02
+    },
+    {
+      "word": "taped",
+      "start": 16.02,
+      "end": 16.46
+    },
+    {
+      "word": "Inside",
+      "start": 16.46,
+      "end": 18.12
+    },
+    {
+      "word": "the",
+      "start": 18.12,
+      "end": 18.72
+    },
+    {
+      "word": "door",
+      "start": 18.72,
+      "end": 19.3
+    },
+    {
+      "word": "And",
+      "start": 19.3,
+      "end": 20.88
+    },
+    {
+      "word": "writing",
+      "start": 20.88,
+      "end": 21.52
+    },
+    {
+      "word": "I",
+      "start": 21.52,
+      "end": 22.0
+    },
+    {
+      "word": "knew",
+      "start": 22.0,
+      "end": 22.34
+    },
+    {
+      "word": "Before",
+      "start": 22.34,
+      "end": 23.08
+    },
+    {
+      "word": "I",
+      "start": 23.08,
+      "end": 23.92
+    },
+    {
+      "word": "knew",
+      "start": 23.92,
+      "end": 24.38
+    },
+    {
+      "word": "my",
+      "start": 24.38,
+      "end": 25.28
+    },
+    {
+      "word": "own",
+      "start": 25.28,
+      "end": 25.8
+    },
+    {
+      "word": "My",
+      "start": 25.8,
+      "end": 27.52
+    },
+    {
+      "word": "mother's",
+      "start": 27.52,
+      "end": 28.16
+    },
+    {
+      "word": "careful",
+      "start": 28.16,
+      "end": 28.54
+    },
+    {
+      "word": "letters",
+      "start": 28.54,
+      "end": 29.36
+    },
+    {
+      "word": "Twenty",
+      "start": 29.36,
+      "end": 30.74
+    },
+    {
+      "word": "years",
+      "start": 30.74,
+      "end": 31.42
+    },
+    {
+      "word": "have",
+      "start": 31.42,
+      "end": 31.9
+    },
+    {
+      "word": "grown",
+      "start": 31.9,
+      "end": 32.72
+    },
+    {
+      "word": "Replace",
+      "start": 32.72,
+      "end": 35.34
+    },
+    {
+      "word": "the",
+      "start": 35.34,
+      "end": 35.86
+    },
+    {
+      "word": "belt,",
+      "start": 35.86,
+      "end": 36.24
+    },
+    {
+      "word": "it's",
+      "start": 36.72,
+      "end": 37.16
+    },
+    {
+      "word": "running",
+      "start": 37.16,
+      "end": 37.48
+    },
+    {
+      "word": "rough",
+      "start": 37.48,
+      "end": 37.96
+    },
+    {
+      "word": "Be",
+      "start": 37.96,
+      "end": 38.62
+    },
+    {
+      "word": "gentle",
+      "start": 38.62,
+      "end": 38.98
+    },
+    {
+      "word": "with",
+      "start": 38.98,
+      "end": 39.58
+    },
+    {
+      "word": "the",
+      "start": 39.58,
+      "end": 39.82
+    },
+    {
+      "word": "gauge",
+      "start": 39.82,
+      "end": 40.24
+    },
+    {
+      "word": "She",
+      "start": 40.24,
+      "end": 42.32
+    },
+    {
+      "word": "wrote",
+      "start": 42.32,
+      "end": 42.58
+    },
+    {
+      "word": "notes",
+      "start": 42.58,
+      "end": 43.06
+    },
+    {
+      "word": "like",
+      "start": 43.06,
+      "end": 43.48
+    },
+    {
+      "word": "love",
+      "start": 43.48,
+      "end": 44.0
+    },
+    {
+      "word": "letters",
+      "start": 44.0,
+      "end": 44.8
+    },
+    {
+      "word": "To",
+      "start": 44.8,
+      "end": 45.5
+    },
+    {
+      "word": "a",
+      "start": 45.5,
+      "end": 45.74
+    },
+    {
+      "word": "future",
+      "start": 45.74,
+      "end": 46.04
+    },
+    {
+      "word": "on",
+      "start": 46.04,
+      "end": 46.66
+    },
+    {
+      "word": "this",
+      "start": 46.66,
+      "end": 46.9
+    },
+    {
+      "word": "page",
+      "start": 46.9,
+      "end": 47.42
+    },
+    {
+      "word": "Not",
+      "start": 48.32,
+      "end": 49.2
+    },
+    {
+      "word": "to",
+      "start": 49.2,
+      "end": 49.64
+    },
+    {
+      "word": "me,",
+      "start": 49.64,
+      "end": 49.9
+    },
+    {
+      "word": "not",
+      "start": 50.16,
+      "end": 50.38
+    },
+    {
+      "word": "to",
+      "start": 50.38,
+      "end": 50.68
+    },
+    {
+      "word": "anyone",
+      "start": 50.68,
+      "end": 51.36
+    },
+    {
+      "word": "Just",
+      "start": 51.36,
+      "end": 52.06
+    },
+    {
+      "word": "to",
+      "start": 52.06,
+      "end": 52.36
+    },
+    {
+      "word": "whoever",
+      "start": 52.36,
+      "end": 52.88
+    },
+    {
+      "word": "came",
+      "start": 52.88,
+      "end": 53.38
+    },
+    {
+      "word": "next",
+      "start": 53.38,
+      "end": 54.12
+    },
+    {
+      "word": "I",
+      "start": 54.12,
+      "end": 55.38
+    },
+    {
+      "word": "didn't",
+      "start": 55.38,
+      "end": 55.82
+    },
+    {
+      "word": "know",
+      "start": 55.82,
+      "end": 56.16
+    },
+    {
+      "word": "that",
+      "start": 56.16,
+      "end": 56.52
+    },
+    {
+      "word": "I",
+      "start": 56.52,
+      "end": 56.88
+    },
+    {
+      "word": "was",
+      "start": 56.88,
+      "end": 57.3
+    },
+    {
+      "word": "reading",
+      "start": 57.3,
+      "end": 57.64
+    },
+    {
+      "word": "her",
+      "start": 57.64,
+      "end": 58.1
+    },
+    {
+      "word": "like",
+      "start": 58.1,
+      "end": 59.18
+    },
+    {
+      "word": "a",
+      "start": 59.18,
+      "end": 59.7
+    },
+    {
+      "word": "text",
+      "start": 59.7,
+      "end": 60.4
+    },
+    {
+      "word": "The",
+      "start": 61.78,
+      "end": 62.66
+    },
+    {
+      "word": "old",
+      "start": 62.66,
+      "end": 63.08
+    },
+    {
+      "word": "machine",
+      "start": 63.08,
+      "end": 63.5
+    },
+    {
+      "word": "remembers",
+      "start": 63.5,
+      "end": 64.6
+    },
+    {
+      "word": "my",
+      "start": 64.6,
+      "end": 65.24
+    },
+    {
+      "word": "mother's",
+      "start": 65.24,
+      "end": 65.96
+    },
+    {
+      "word": "hand",
+      "start": 65.96,
+      "end": 66.48
+    },
+    {
+      "word": "Kept",
+      "start": 66.48,
+      "end": 69.18
+    },
+    {
+      "word": "her",
+      "start": 69.18,
+      "end": 69.38
+    },
+    {
+      "word": "in",
+      "start": 69.38,
+      "end": 69.76
+    },
+    {
+      "word": "the",
+      "start": 69.76,
+      "end": 70.2
+    },
+    {
+      "word": "oil",
+      "start": 70.2,
+      "end": 70.62
+    },
+    {
+      "word": "in",
+      "start": 70.62,
+      "end": 71.1
+    },
+    {
+      "word": "the",
+      "start": 71.1,
+      "end": 71.22
+    },
+    {
+      "word": "grease",
+      "start": 71.22,
+      "end": 71.52
+    },
+    {
+      "word": "the",
+      "start": 71.52,
+      "end": 71.88
+    },
+    {
+      "word": "way",
+      "start": 71.88,
+      "end": 72.26
+    },
+    {
+      "word": "nothing",
+      "start": 72.26,
+      "end": 72.74
+    },
+    {
+      "word": "else",
+      "start": 72.74,
+      "end": 73.32
+    },
+    {
+      "word": "can",
+      "start": 73.32,
+      "end": 73.7
+    },
+    {
+      "word": "They",
+      "start": 75.34,
+      "end": 76.18
+    },
+    {
+      "word": "replaced",
+      "start": 76.18,
+      "end": 76.4
+    },
+    {
+      "word": "the",
+      "start": 76.4,
+      "end": 77.04
+    },
+    {
+      "word": "parts,",
+      "start": 77.04,
+      "end": 77.44
+    },
+    {
+      "word": "they",
+      "start": 77.98,
+      "end": 78.08
+    },
+    {
+      "word": "never",
+      "start": 78.08,
+      "end": 78.52
+    },
+    {
+      "word": "replaced",
+      "start": 78.52,
+      "end": 79.22
+    },
+    {
+      "word": "the",
+      "start": 79.22,
+      "end": 79.58
+    },
+    {
+      "word": "frame",
+      "start": 79.58,
+      "end": 80.0
+    },
+    {
+      "word": "The",
+      "start": 80.0,
+      "end": 81.54
+    },
+    {
+      "word": "old",
+      "start": 81.54,
+      "end": 81.92
+    },
+    {
+      "word": "machine",
+      "start": 81.92,
+      "end": 82.22
+    },
+    {
+      "word": "still",
+      "start": 82.22,
+      "end": 83.0
+    },
+    {
+      "word": "hums",
+      "start": 83.0,
+      "end": 83.82
+    },
+    {
+      "word": "a",
+      "start": 83.82,
+      "end": 83.92
+    },
+    {
+      "word": "little",
+      "start": 83.92,
+      "end": 84.22
+    },
+    {
+      "word": "like",
+      "start": 84.22,
+      "end": 84.66
+    },
+    {
+      "word": "it",
+      "start": 84.66,
+      "end": 84.98
+    },
+    {
+      "word": "knows",
+      "start": 84.98,
+      "end": 85.26
+    },
+    {
+      "word": "her",
+      "start": 85.26,
+      "end": 85.64
+    },
+    {
+      "word": "name",
+      "start": 85.64,
+      "end": 85.94
+    },
+    {
+      "word": "I",
+      "start": 88.38,
+      "end": 89.22
+    },
+    {
+      "word": "used",
+      "start": 89.22,
+      "end": 89.54
+    },
+    {
+      "word": "to",
+      "start": 89.54,
+      "end": 89.86
+    },
+    {
+      "word": "think",
+      "start": 89.86,
+      "end": 90.22
+    },
+    {
+      "word": "she",
+      "start": 90.22,
+      "end": 90.74
+    },
+    {
+      "word": "hated",
+      "start": 90.74,
+      "end": 91.14
+    },
+    {
+      "word": "this",
+      "start": 91.14,
+      "end": 91.44
+    },
+    {
+      "word": "place",
+      "start": 91.44,
+      "end": 91.98
+    },
+    {
+      "word": "The",
+      "start": 91.98,
+      "end": 92.64
+    },
+    {
+      "word": "hours",
+      "start": 92.64,
+      "end": 93.12
+    },
+    {
+      "word": "had",
+      "start": 93.12,
+      "end": 93.52
+    },
+    {
+      "word": "stole",
+      "start": 93.52,
+      "end": 93.78
+    },
+    {
+      "word": "away",
+      "start": 93.78,
+      "end": 94.5
+    },
+    {
+      "word": "But",
+      "start": 94.5,
+      "end": 95.24
+    },
+    {
+      "word": "here's",
+      "start": 95.24,
+      "end": 95.78
+    },
+    {
+      "word": "her",
+      "start": 95.78,
+      "end": 95.92
+    },
+    {
+      "word": "handwriting",
+      "start": 95.92,
+      "end": 96.72
+    },
+    {
+      "word": "Careful",
+      "start": 96.72,
+      "end": 98.24
+    },
+    {
+      "word": "on",
+      "start": 98.24,
+      "end": 98.98
+    },
+    {
+      "word": "a",
+      "start": 98.98,
+      "end": 99.08
+    },
+    {
+      "word": "Tuesday",
+      "start": 99.08,
+      "end": 99.62
+    },
+    {
+      "word": "She",
+      "start": 101.82,
+      "end": 102.94
+    },
+    {
+      "word": "drew",
+      "start": 102.94,
+      "end": 103.22
+    },
+    {
+      "word": "a",
+      "start": 103.22,
+      "end": 103.86
+    },
+    {
+      "word": "little",
+      "start": 103.86,
+      "end": 104.18
+    },
+    {
+      "word": "flower",
+      "start": 104.18,
+      "end": 104.6
+    },
+    {
+      "word": "By",
+      "start": 104.6,
+      "end": 105.76
+    },
+    {
+      "word": "a",
+      "start": 105.76,
+      "end": 105.94
+    },
+    {
+      "word": "torx",
+      "start": 105.94,
+      "end": 106.44
+    },
+    {
+      "word": "back",
+      "start": 106.44,
+      "end": 106.68
+    },
+    {
+      "word": "just",
+      "start": 106.68,
+      "end": 107.52
+    },
+    {
+      "word": "because",
+      "start": 107.52,
+      "end": 108.08
+    },
+    {
+      "word": "Maybe",
+      "start": 108.08,
+      "end": 109.26
+    },
+    {
+      "word": "this",
+      "start": 109.26,
+      "end": 109.8
+    },
+    {
+      "word": "cold",
+      "start": 109.8,
+      "end": 110.36
+    },
+    {
+      "word": "building",
+      "start": 110.36,
+      "end": 111.2
+    },
+    {
+      "word": "held",
+      "start": 111.2,
+      "end": 111.58
+    },
+    {
+      "word": "more",
+      "start": 111.58,
+      "end": 112.18
+    },
+    {
+      "word": "of",
+      "start": 112.18,
+      "end": 112.72
+    },
+    {
+      "word": "her",
+      "start": 112.72,
+      "end": 112.86
+    },
+    {
+      "word": "than",
+      "start": 112.86,
+      "end": 113.34
+    },
+    {
+      "word": "I",
+      "start": 113.34,
+      "end": 113.9
+    },
+    {
+      "word": "ever",
+      "start": 113.9,
+      "end": 114.46
+    },
+    {
+      "word": "was",
+      "start": 114.46,
+      "end": 116.62
+    },
+    {
+      "word": "The",
+      "start": 116.62,
+      "end": 117.52
+    },
+    {
+      "word": "old",
+      "start": 117.52,
+      "end": 117.92
+    },
+    {
+      "word": "machine",
+      "start": 117.92,
+      "end": 118.38
+    },
+    {
+      "word": "remembers",
+      "start": 118.38,
+      "end": 119.44
+    },
+    {
+      "word": "my",
+      "start": 119.44,
+      "end": 120.1
+    },
+    {
+      "word": "mother's",
+      "start": 120.1,
+      "end": 120.8
+    },
+    {
+      "word": "hand",
+      "start": 120.8,
+      "end": 121.26
+    },
+    {
+      "word": "Kept",
+      "start": 121.26,
+      "end": 124.0
+    },
+    {
+      "word": "her",
+      "start": 124.0,
+      "end": 124.28
+    },
+    {
+      "word": "in",
+      "start": 124.28,
+      "end": 124.62
+    },
+    {
+      "word": "the",
+      "start": 124.62,
+      "end": 125.08
+    },
+    {
+      "word": "oil",
+      "start": 125.08,
+      "end": 125.5
+    },
+    {
+      "word": "in",
+      "start": 125.5,
+      "end": 125.98
+    },
+    {
+      "word": "the",
+      "start": 125.98,
+      "end": 126.08
+    },
+    {
+      "word": "grease",
+      "start": 126.08,
+      "end": 126.38
+    },
+    {
+      "word": "the",
+      "start": 126.38,
+      "end": 126.74
+    },
+    {
+      "word": "way",
+      "start": 126.74,
+      "end": 127.08
+    },
+    {
+      "word": "nothing",
+      "start": 127.08,
+      "end": 127.74
+    },
+    {
+      "word": "else",
+      "start": 127.74,
+      "end": 128.18
+    },
+    {
+      "word": "can",
+      "start": 128.18,
+      "end": 128.52
+    },
+    {
+      "word": "They",
+      "start": 130.16,
+      "end": 131.02
+    },
+    {
+      "word": "replaced",
+      "start": 131.02,
+      "end": 131.38
+    },
+    {
+      "word": "the",
+      "start": 131.38,
+      "end": 131.88
+    },
+    {
+      "word": "parts,",
+      "start": 131.88,
+      "end": 132.24
+    },
+    {
+      "word": "they",
+      "start": 132.86,
+      "end": 132.96
+    },
+    {
+      "word": "never",
+      "start": 132.96,
+      "end": 133.36
+    },
+    {
+      "word": "replaced",
+      "start": 133.36,
+      "end": 134.02
+    },
+    {
+      "word": "the",
+      "start": 134.02,
+      "end": 134.44
+    },
+    {
+      "word": "frame",
+      "start": 134.44,
+      "end": 134.82
+    },
+    {
+      "word": "The",
+      "start": 134.82,
+      "end": 136.36
+    },
+    {
+      "word": "old",
+      "start": 136.36,
+      "end": 136.7
+    },
+    {
+      "word": "machine",
+      "start": 136.7,
+      "end": 137.24
+    },
+    {
+      "word": "still",
+      "start": 137.24,
+      "end": 137.94
+    },
+    {
+      "word": "hums",
+      "start": 137.94,
+      "end": 138.66
+    },
+    {
+      "word": "a",
+      "start": 138.66,
+      "end": 138.76
+    },
+    {
+      "word": "little",
+      "start": 138.76,
+      "end": 139.06
+    },
+    {
+      "word": "like",
+      "start": 139.06,
+      "end": 139.56
+    },
+    {
+      "word": "it",
+      "start": 139.56,
+      "end": 139.82
+    },
+    {
+      "word": "knows",
+      "start": 139.82,
+      "end": 140.16
+    },
+    {
+      "word": "her",
+      "start": 140.16,
+      "end": 140.72
+    },
+    {
+      "word": "name",
+      "start": 140.72,
+      "end": 141.14
+    },
+    {
+      "word": "I",
+      "start": 143.58,
+      "end": 144.6
+    },
+    {
+      "word": "added",
+      "start": 144.6,
+      "end": 144.96
+    },
+    {
+      "word": "my",
+      "start": 144.96,
+      "end": 145.32
+    },
+    {
+      "word": "own",
+      "start": 145.32,
+      "end": 145.62
+    },
+    {
+      "word": "note",
+      "start": 145.62,
+      "end": 145.98
+    },
+    {
+      "word": "below",
+      "start": 145.98,
+      "end": 146.62
+    },
+    {
+      "word": "hers",
+      "start": 146.62,
+      "end": 147.36
+    },
+    {
+      "word": "tonight",
+      "start": 147.36,
+      "end": 147.8
+    },
+    {
+      "word": "Didn't",
+      "start": 147.8,
+      "end": 150.58
+    },
+    {
+      "word": "say",
+      "start": 150.58,
+      "end": 150.86
+    },
+    {
+      "word": "much",
+      "start": 150.86,
+      "end": 151.4
+    },
+    {
+      "word": "just",
+      "start": 151.4,
+      "end": 151.88
+    },
+    {
+      "word": "still",
+      "start": 151.88,
+      "end": 152.48
+    },
+    {
+      "word": "running",
+      "start": 152.48,
+      "end": 152.96
+    },
+    {
+      "word": "still",
+      "start": 152.96,
+      "end": 153.54
+    },
+    {
+      "word": "alright",
+      "start": 153.54,
+      "end": 154.28
+    },
+    {
+      "word": "Sunday",
+      "start": 156.4,
+      "end": 157.42
+    },
+    {
+      "word": "somebody's",
+      "start": 157.42,
+      "end": 158.44
+    },
+    {
+      "word": "kid",
+      "start": 158.44,
+      "end": 158.76
+    },
+    {
+      "word": "will",
+      "start": 158.76,
+      "end": 159.3
+    },
+    {
+      "word": "open",
+      "start": 159.3,
+      "end": 159.92
+    },
+    {
+      "word": "up",
+      "start": 159.92,
+      "end": 160.28
+    },
+    {
+      "word": "this",
+      "start": 160.28,
+      "end": 160.62
+    },
+    {
+      "word": "door",
+      "start": 160.62,
+      "end": 161.18
+    },
+    {
+      "word": "And",
+      "start": 161.18,
+      "end": 162.92
+    },
+    {
+      "word": "find",
+      "start": 162.92,
+      "end": 163.32
+    },
+    {
+      "word": "the",
+      "start": 163.32,
+      "end": 163.6
+    },
+    {
+      "word": "both",
+      "start": 163.6,
+      "end": 163.96
+    },
+    {
+      "word": "of",
+      "start": 163.96,
+      "end": 164.32
+    },
+    {
+      "word": "us",
+      "start": 164.32,
+      "end": 165.14
+    },
+    {
+      "word": "That's",
+      "start": 166.11,
+      "end": 166.48
+    },
+    {
+      "word": "more",
+      "start": 166.48,
+      "end": 166.72
+    },
+    {
+      "word": "than",
+      "start": 166.72,
+      "end": 167.06
+    },
+    {
+      "word": "I",
+      "start": 167.06,
+      "end": 167.26
+    },
+    {
+      "word": "thought",
+      "start": 167.26,
+      "end": 167.62
+    },
+    {
+      "word": "I'd",
+      "start": 167.62,
+      "end": 168.04
+    },
+    {
+      "word": "get,",
+      "start": 168.04,
+      "end": 168.3
+    },
+    {
+      "word": "that's",
+      "start": 168.92,
+      "end": 169.7
+    },
+    {
+      "word": "more",
+      "start": 169.7,
+      "end": 169.94
+    },
+    {
+      "word": "I",
+      "start": 188.32,
+      "end": 189.06
+    },
+    {
+      "word": "added",
+      "start": 189.06,
+      "end": 189.42
+    },
+    {
+      "word": "my",
+      "start": 189.42,
+      "end": 189.8
+    },
+    {
+      "word": "own",
+      "start": 189.8,
+      "end": 190.12
+    },
+    {
+      "word": "note",
+      "start": 190.12,
+      "end": 190.44
+    },
+    {
+      "word": "below",
+      "start": 190.44,
+      "end": 191.2
+    },
+    {
+      "word": "hers",
+      "start": 191.2,
+      "end": 191.9
+    },
+    {
+      "word": "tonight",
+      "start": 191.9,
+      "end": 192.34
+    },
+    {
+      "word": "Didn't",
+      "start": 194.18,
+      "end": 195.14
+    },
+    {
+      "word": "say",
+      "start": 195.14,
+      "end": 195.44
+    },
+    {
+      "word": "much",
+      "start": 195.44,
+      "end": 196.0
+    },
+    {
+      "word": "just",
+      "start": 196.0,
+      "end": 196.52
+    },
+    {
+      "word": "still",
+      "start": 196.52,
+      "end": 197.12
+    },
+    {
+      "word": "running",
+      "start": 197.12,
+      "end": 197.56
+    },
+    {
+      "word": "still",
+      "start": 197.56,
+      "end": 198.14
+    },
+    {
+      "word": "alright",
+      "start": 198.14,
+      "end": 198.84
+    },
+    {
+      "word": "Sunday",
+      "start": 202.0,
+      "end": 202.96
+    },
+    {
+      "word": "somebody's",
+      "start": 202.96,
+      "end": 203.92
+    },
+    {
+      "word": "kid",
+      "start": 203.92,
+      "end": 204.22
+    },
+    {
+      "word": "will",
+      "start": 204.22,
+      "end": 204.76
+    },
+    {
+      "word": "open",
+      "start": 204.76,
+      "end": 205.34
+    },
+    {
+      "word": "up",
+      "start": 205.34,
+      "end": 205.76
+    },
+    {
+      "word": "this",
+      "start": 205.76,
+      "end": 206.04
+    },
+    {
+      "word": "door",
+      "start": 206.04,
+      "end": 206.68
+    },
+    {
+      "word": "And",
+      "start": 206.68,
+      "end": 206.94
+    },
+    {
+      "word": "find",
+      "start": 206.94,
+      "end": 208.76
+    },
+    {
+      "word": "the",
+      "start": 208.76,
+      "end": 209.06
+    },
+    {
+      "word": "both",
+      "start": 209.06,
+      "end": 209.4
+    },
+    {
+      "word": "of",
+      "start": 209.4,
+      "end": 209.74
+    },
+    {
+      "word": "us",
+      "start": 209.74,
+      "end": 210.42
+    },
+    {
+      "word": "That's",
+      "start": 210.42,
+      "end": 211.06
+    },
+    {
+      "word": "more",
+      "start": 211.06,
+      "end": 211.3
+    },
+    {
+      "word": "than",
+      "start": 211.3,
+      "end": 211.66
+    },
+    {
+      "word": "I",
+      "start": 211.66,
+      "end": 211.84
+    },
+    {
+      "word": "thought",
+      "start": 211.84,
+      "end": 212.18
+    },
+    {
+      "word": "I'd",
+      "start": 212.18,
+      "end": 212.58
+    },
+    {
+      "word": "get,",
+      "start": 212.58,
+      "end": 212.82
+    },
+    {
+      "word": "that's",
+      "start": 213.6,
+      "end": 214.3
+    },
+    {
+      "word": "more",
+      "start": 214.3,
+      "end": 214.62
+    },
+    {
+      "word": "I",
+      "start": 238.06,
+      "end": 239.46
+    },
+    {
+      "word": "added",
+      "start": 239.46,
+      "end": 239.98
+    },
+    {
+      "word": "my",
+      "start": 239.98,
+      "end": 239.98
+    },
+    {
+      "word": "own",
+      "start": 239.98,
+      "end": 239.98
+    },
+    {
+      "word": "note",
+      "start": 239.98,
+      "end": 239.98
+    },
+    {
+      "word": "below",
+      "start": 239.98,
+      "end": 239.98
+    }
+  ]
+}

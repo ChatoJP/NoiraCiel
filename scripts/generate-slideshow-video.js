@@ -25,6 +25,7 @@ const kie = require('./lib/kie-client')
 
 const ROOT = path.join(__dirname, '..')
 const CATALOGUE_PATH = path.join(ROOT, 'public/music-catalogue.json')
+const CINEMAGRAPHS_MANIFEST = path.join(ROOT, 'public/generated/kie/cinemagraphs-manifest.json')
 const TMP_DIR = path.join(ROOT, '.tmp', 'slideshow-cache')
 
 const ALBUM_BG_SUBDIR = {
@@ -145,6 +146,13 @@ async function main() {
   if (type === 'film') {
     track.musicVideoUrl = r2Url
     r2.atomicWriteJSON(CATALOGUE_PATH, catalogue)
+  } else {
+    let manifest = []
+    try { manifest = JSON.parse(fs.readFileSync(CINEMAGRAPHS_MANIFEST, 'utf-8')) } catch { /* none yet */ }
+    if (!manifest.includes(slug)) {
+      manifest.push(slug)
+      r2.atomicWriteJSON(CINEMAGRAPHS_MANIFEST, manifest)
+    }
   }
 
   r2.log(`Done. ${slug} ${type} -> ${r2Url}`)

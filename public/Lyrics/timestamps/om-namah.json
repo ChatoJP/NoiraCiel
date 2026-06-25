@@ -1,0 +1,888 @@
+{
+  "title": "Om Namah",
+  "slug": "om-namah",
+  "trackNumber": 12,
+  "duration": 184.44,
+  "words": [
+    {
+      "word": "Oh",
+      "start": 0.0,
+      "end": 0.64
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 0.64,
+      "end": 2.12
+    },
+    {
+      "word": "Oh",
+      "start": 2.12,
+      "end": 3.5
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 3.5,
+      "end": 4.92
+    },
+    {
+      "word": "Oh",
+      "start": 4.92,
+      "end": 5.66
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 5.66,
+      "end": 9.0
+    },
+    {
+      "word": "Oh",
+      "start": 10.18,
+      "end": 10.18
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 10.18,
+      "end": 11.46
+    },
+    {
+      "word": "Shiva",
+      "start": 11.46,
+      "end": 11.46
+    },
+    {
+      "word": "is",
+      "start": 11.46,
+      "end": 11.96
+    },
+    {
+      "word": "the",
+      "start": 11.96,
+      "end": 12.16
+    },
+    {
+      "word": "destroyer",
+      "start": 12.16,
+      "end": 12.78
+    },
+    {
+      "word": "of",
+      "start": 12.78,
+      "end": 13.74
+    },
+    {
+      "word": "everything",
+      "start": 13.74,
+      "end": 14.3
+    },
+    {
+      "word": "that's",
+      "start": 14.3,
+      "end": 15.1
+    },
+    {
+      "word": "false",
+      "start": 15.1,
+      "end": 15.44
+    },
+    {
+      "word": "Every",
+      "start": 16.27,
+      "end": 16.8
+    },
+    {
+      "word": "wall",
+      "start": 16.8,
+      "end": 17.38
+    },
+    {
+      "word": "you",
+      "start": 17.38,
+      "end": 17.86
+    },
+    {
+      "word": "built",
+      "start": 17.86,
+      "end": 18.2
+    },
+    {
+      "word": "in",
+      "start": 18.2,
+      "end": 18.58
+    },
+    {
+      "word": "fear",
+      "start": 18.58,
+      "end": 18.88
+    },
+    {
+      "word": "is",
+      "start": 18.88,
+      "end": 19.3
+    },
+    {
+      "word": "waiting",
+      "start": 19.3,
+      "end": 19.64
+    },
+    {
+      "word": "for",
+      "start": 19.64,
+      "end": 20.12
+    },
+    {
+      "word": "his",
+      "start": 20.12,
+      "end": 20.54
+    },
+    {
+      "word": "call",
+      "start": 20.54,
+      "end": 20.8
+    },
+    {
+      "word": "Not",
+      "start": 21.17,
+      "end": 21.7
+    },
+    {
+      "word": "destruction",
+      "start": 21.7,
+      "end": 22.34
+    },
+    {
+      "word": "as",
+      "start": 22.34,
+      "end": 23.2
+    },
+    {
+      "word": "an",
+      "start": 23.2,
+      "end": 23.4
+    },
+    {
+      "word": "ending",
+      "start": 23.4,
+      "end": 23.84
+    },
+    {
+      "word": "as",
+      "start": 23.84,
+      "end": 24.74
+    },
+    {
+      "word": "a",
+      "start": 24.74,
+      "end": 24.86
+    },
+    {
+      "word": "clearing",
+      "start": 24.86,
+      "end": 25.16
+    },
+    {
+      "word": "of",
+      "start": 25.16,
+      "end": 25.88
+    },
+    {
+      "word": "the",
+      "start": 25.88,
+      "end": 26.06
+    },
+    {
+      "word": "stage",
+      "start": 26.06,
+      "end": 26.46
+    },
+    {
+      "word": "Oh",
+      "start": 27.46,
+      "end": 28.24
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 28.24,
+      "end": 29.56
+    },
+    {
+      "word": "The",
+      "start": 29.56,
+      "end": 30.04
+    },
+    {
+      "word": "sacred",
+      "start": 30.04,
+      "end": 30.36
+    },
+    {
+      "word": "burning",
+      "start": 30.36,
+      "end": 30.78
+    },
+    {
+      "word": "of",
+      "start": 30.78,
+      "end": 31.44
+    },
+    {
+      "word": "the",
+      "start": 31.44,
+      "end": 31.6
+    },
+    {
+      "word": "cage",
+      "start": 31.6,
+      "end": 31.92
+    },
+    {
+      "word": "Oh",
+      "start": 31.92,
+      "end": 32.42
+    },
+    {
+      "word": "Namah",
+      "start": 32.42,
+      "end": 32.94
+    },
+    {
+      "word": "Oh",
+      "start": 33.08,
+      "end": 33.7
+    },
+    {
+      "word": "Namah",
+      "start": 33.7,
+      "end": 34.34
+    },
+    {
+      "word": "Oh",
+      "start": 34.34,
+      "end": 35.08
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 35.08,
+      "end": 36.66
+    },
+    {
+      "word": "Let",
+      "start": 37.46,
+      "end": 38.2
+    },
+    {
+      "word": "the",
+      "start": 38.2,
+      "end": 38.5
+    },
+    {
+      "word": "fire",
+      "start": 38.5,
+      "end": 38.98
+    },
+    {
+      "word": "take",
+      "start": 38.98,
+      "end": 39.38
+    },
+    {
+      "word": "what's",
+      "start": 39.38,
+      "end": 39.92
+    },
+    {
+      "word": "finished",
+      "start": 39.92,
+      "end": 40.3
+    },
+    {
+      "word": "Let",
+      "start": 40.3,
+      "end": 40.98
+    },
+    {
+      "word": "the",
+      "start": 40.98,
+      "end": 41.28
+    },
+    {
+      "word": "new",
+      "start": 41.28,
+      "end": 41.62
+    },
+    {
+      "word": "begin",
+      "start": 41.62,
+      "end": 42.06
+    },
+    {
+      "word": "today",
+      "start": 42.06,
+      "end": 42.76
+    },
+    {
+      "word": "Oh",
+      "start": 42.76,
+      "end": 43.4
+    },
+    {
+      "word": "Namah",
+      "start": 43.4,
+      "end": 44.02
+    },
+    {
+      "word": "Oh",
+      "start": 44.02,
+      "end": 44.76
+    },
+    {
+      "word": "Namah",
+      "start": 44.76,
+      "end": 45.38
+    },
+    {
+      "word": "Oh",
+      "start": 45.38,
+      "end": 46.12
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 46.12,
+      "end": 47.78
+    },
+    {
+      "word": "The",
+      "start": 48.46,
+      "end": 49.24
+    },
+    {
+      "word": "destroyer",
+      "start": 49.24,
+      "end": 49.9
+    },
+    {
+      "word": "is",
+      "start": 49.9,
+      "end": 50.54
+    },
+    {
+      "word": "the",
+      "start": 50.54,
+      "end": 50.84
+    },
+    {
+      "word": "gift",
+      "start": 50.84,
+      "end": 51.26
+    },
+    {
+      "word": "The",
+      "start": 51.26,
+      "end": 52.34
+    },
+    {
+      "word": "ending",
+      "start": 52.34,
+      "end": 52.8
+    },
+    {
+      "word": "is",
+      "start": 52.8,
+      "end": 53.44
+    },
+    {
+      "word": "the",
+      "start": 53.44,
+      "end": 53.68
+    },
+    {
+      "word": "way",
+      "start": 53.68,
+      "end": 54.04
+    },
+    {
+      "word": "Oh",
+      "start": 54.04,
+      "end": 54.48
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 54.48,
+      "end": 55.86
+    },
+    {
+      "word": "What",
+      "start": 57.01,
+      "end": 57.48
+    },
+    {
+      "word": "the",
+      "start": 57.48,
+      "end": 57.8
+    },
+    {
+      "word": "caterpillar",
+      "start": 57.8,
+      "end": 58.98
+    },
+    {
+      "word": "calls",
+      "start": 58.98,
+      "end": 59.48
+    },
+    {
+      "word": "the",
+      "start": 59.48,
+      "end": 59.94
+    },
+    {
+      "word": "end",
+      "start": 59.94,
+      "end": 60.32
+    },
+    {
+      "word": "The",
+      "start": 60.32,
+      "end": 60.74
+    },
+    {
+      "word": "butterfly",
+      "start": 60.74,
+      "end": 61.02
+    },
+    {
+      "word": "calls",
+      "start": 61.02,
+      "end": 61.8
+    },
+    {
+      "word": "the",
+      "start": 61.8,
+      "end": 61.98
+    },
+    {
+      "word": "door",
+      "start": 61.98,
+      "end": 62.34
+    },
+    {
+      "word": "What",
+      "start": 62.34,
+      "end": 63.04
+    },
+    {
+      "word": "the",
+      "start": 63.04,
+      "end": 63.34
+    },
+    {
+      "word": "ego",
+      "start": 63.34,
+      "end": 63.7
+    },
+    {
+      "word": "calls",
+      "start": 63.7,
+      "end": 64.32
+    },
+    {
+      "word": "the",
+      "start": 64.32,
+      "end": 64.72
+    },
+    {
+      "word": "dying",
+      "start": 64.72,
+      "end": 65.16
+    },
+    {
+      "word": "Is",
+      "start": 65.16,
+      "end": 66.1
+    },
+    {
+      "word": "the",
+      "start": 66.1,
+      "end": 66.24
+    },
+    {
+      "word": "self",
+      "start": 66.24,
+      "end": 66.56
+    },
+    {
+      "word": "becoming",
+      "start": 66.56,
+      "end": 66.98
+    },
+    {
+      "word": "more",
+      "start": 66.98,
+      "end": 67.72
+    },
+    {
+      "word": "Oh",
+      "start": 67.72,
+      "end": 68.22
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 68.22,
+      "end": 70.04
+    },
+    {
+      "word": "I",
+      "start": 70.54,
+      "end": 71.34
+    },
+    {
+      "word": "release",
+      "start": 71.34,
+      "end": 71.76
+    },
+    {
+      "word": "what",
+      "start": 71.76,
+      "end": 72.36
+    },
+    {
+      "word": "I'm",
+      "start": 72.36,
+      "end": 72.78
+    },
+    {
+      "word": "not",
+      "start": 72.78,
+      "end": 73.1
+    },
+    {
+      "word": "Oh",
+      "start": 73.1,
+      "end": 73.72
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 73.72,
+      "end": 75.56
+    },
+    {
+      "word": "I",
+      "start": 75.56,
+      "end": 76.9
+    },
+    {
+      "word": "become",
+      "start": 76.9,
+      "end": 77.18
+    },
+    {
+      "word": "what",
+      "start": 77.18,
+      "end": 77.88
+    },
+    {
+      "word": "I've",
+      "start": 77.88,
+      "end": 78.36
+    },
+    {
+      "word": "got",
+      "start": 78.36,
+      "end": 78.64
+    },
+    {
+      "word": "Oh",
+      "start": 78.64,
+      "end": 79.24
+    },
+    {
+      "word": "Namah",
+      "start": 79.24,
+      "end": 79.84
+    },
+    {
+      "word": "Oh",
+      "start": 79.84,
+      "end": 80.66
+    },
+    {
+      "word": "Namah",
+      "start": 80.66,
+      "end": 81.22
+    },
+    {
+      "word": "Oh",
+      "start": 81.36,
+      "end": 82.0
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 82.0,
+      "end": 83.68
+    },
+    {
+      "word": "Let",
+      "start": 83.68,
+      "end": 85.12
+    },
+    {
+      "word": "the",
+      "start": 85.12,
+      "end": 85.42
+    },
+    {
+      "word": "fire",
+      "start": 85.42,
+      "end": 85.88
+    },
+    {
+      "word": "take",
+      "start": 85.88,
+      "end": 86.26
+    },
+    {
+      "word": "what's",
+      "start": 86.26,
+      "end": 86.82
+    },
+    {
+      "word": "finished",
+      "start": 86.82,
+      "end": 87.18
+    },
+    {
+      "word": "Let",
+      "start": 87.18,
+      "end": 87.88
+    },
+    {
+      "word": "the",
+      "start": 87.88,
+      "end": 88.2
+    },
+    {
+      "word": "new",
+      "start": 88.2,
+      "end": 88.54
+    },
+    {
+      "word": "begin",
+      "start": 88.54,
+      "end": 88.94
+    },
+    {
+      "word": "today",
+      "start": 88.94,
+      "end": 89.76
+    },
+    {
+      "word": "Oh",
+      "start": 89.76,
+      "end": 90.28
+    },
+    {
+      "word": "Namah",
+      "start": 90.28,
+      "end": 90.88
+    },
+    {
+      "word": "Oh",
+      "start": 90.88,
+      "end": 91.64
+    },
+    {
+      "word": "Namah",
+      "start": 91.64,
+      "end": 92.32
+    },
+    {
+      "word": "Oh",
+      "start": 92.38,
+      "end": 93.02
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 93.02,
+      "end": 94.88
+    },
+    {
+      "word": "The",
+      "start": 94.88,
+      "end": 96.08
+    },
+    {
+      "word": "destroyer",
+      "start": 96.08,
+      "end": 96.76
+    },
+    {
+      "word": "is",
+      "start": 96.76,
+      "end": 97.5
+    },
+    {
+      "word": "the",
+      "start": 97.5,
+      "end": 97.74
+    },
+    {
+      "word": "gift",
+      "start": 97.74,
+      "end": 98.18
+    },
+    {
+      "word": "The",
+      "start": 98.18,
+      "end": 99.24
+    },
+    {
+      "word": "ending",
+      "start": 99.24,
+      "end": 99.72
+    },
+    {
+      "word": "is",
+      "start": 99.72,
+      "end": 100.36
+    },
+    {
+      "word": "the",
+      "start": 100.36,
+      "end": 100.58
+    },
+    {
+      "word": "way",
+      "start": 100.58,
+      "end": 100.92
+    },
+    {
+      "word": "Oh",
+      "start": 100.92,
+      "end": 101.34
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 101.34,
+      "end": 102.78
+    },
+    {
+      "word": "Oh",
+      "start": 102.78,
+      "end": 103.82
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 103.82,
+      "end": 108.32
+    },
+    {
+      "word": "Oh",
+      "start": 111.36,
+      "end": 112.76
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 112.76,
+      "end": 114.16
+    },
+    {
+      "word": "Oh",
+      "start": 114.16,
+      "end": 114.44
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 114.44,
+      "end": 117.62
+    },
+    {
+      "word": "Oh",
+      "start": 117.62,
+      "end": 117.62
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 117.62,
+      "end": 119.84
+    },
+    {
+      "word": "Oh",
+      "start": 119.84,
+      "end": 120.16
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 120.16,
+      "end": 136.24
+    },
+    {
+      "word": "Burn,",
+      "start": 136.24,
+      "end": 136.24
+    },
+    {
+      "word": "release,",
+      "start": 136.24,
+      "end": 136.24
+    },
+    {
+      "word": "dissolve",
+      "start": 138.3,
+      "end": 138.3
+    },
+    {
+      "word": "Oh",
+      "start": 144.12,
+      "end": 145.52
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 145.52,
+      "end": 146.92
+    },
+    {
+      "word": "All",
+      "start": 146.92,
+      "end": 149.32
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 149.32,
+      "end": 150.9
+    },
+    {
+      "word": "All",
+      "start": 150.9,
+      "end": 150.9
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 150.9,
+      "end": 153.72
+    },
+    {
+      "word": "All",
+      "start": 153.72,
+      "end": 153.76
+    },
+    {
+      "word": "Namashivaaya",
+      "start": 153.76,
+      "end": 157.3
+    },
+    {
+      "word": "Oh,",
+      "start": 177.72,
+      "end": 178.6
+    },
+    {
+      "word": "nama",
+      "start": 178.78,
+      "end": 179.04
+    },
+    {
+      "word": "shivaya",
+      "start": 179.04,
+      "end": 179.66
+    }
+  ]
+}

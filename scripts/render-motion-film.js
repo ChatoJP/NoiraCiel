@@ -51,7 +51,7 @@ const LOCAL_ALBUM_STYLE = {
   hardstyle: 'brutalist',
   classic: 'sleek',
   'party-exploder': 'sleek',
-  'ak96-party-session-1': 'default',
+  'ak96-party-session-1': 'objects',
 }
 const FALLBACK_PALETTE = ['#08080F', '#1B1320', '#C4953A', '#F2EDE3']
 

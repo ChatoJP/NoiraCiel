@@ -1,7 +1,7 @@
 import React from 'react'
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from 'remotion'
 
-export type MotionFilmStyle = 'spirals' | 'brutalist' | 'sleek' | 'tribal' | 'default'
+export type MotionFilmStyle = 'spirals' | 'brutalist' | 'sleek' | 'tribal' | 'objects' | 'default'
 
 export interface MotionFilmProps {
   trackTitle: string
@@ -143,6 +143,93 @@ function Tribal({ palette, bpm, energy }: { palette: string[]; bpm: number; ener
   )
 }
 
+type ObjectKind = 'vinyl' | 'note' | 'instrument'
+const OBJECT_KINDS: ObjectKind[] = ['vinyl', 'note', 'instrument', 'vinyl', 'note', 'instrument', 'vinyl', 'note']
+
+function VinylRecord({ size, color, accent }: { size: number; color: string; accent: string }) {
+  return (
+    <g>
+      <circle r={size} fill={color} opacity={0.85} />
+      <circle r={size * 0.8} fill="none" stroke={accent} strokeWidth={0.6} opacity={0.3} />
+      <circle r={size * 0.55} fill="none" stroke={accent} strokeWidth={0.6} opacity={0.25} />
+      <circle r={size * 0.3} fill={accent} opacity={0.55} />
+      <circle r={size * 0.06} fill="#000" opacity={0.6} />
+    </g>
+  )
+}
+
+function MusicNote({ size, color }: { size: number; color: string }) {
+  return (
+    <g transform={`scale(${(size / 20).toFixed(2)})`}>
+      <ellipse cx={0} cy={20} rx={6} ry={4.2} fill={color} transform="rotate(-18 0 20)" />
+      <rect x={5.2} y={-14} width={1.8} height={34} fill={color} />
+      <path d="M7 -14 C 16 -10, 17 0, 8 4" stroke={color} strokeWidth={2} fill="none" strokeLinecap="round" />
+    </g>
+  )
+}
+
+function InstrumentSilhouette({ size, color }: { size: number; color: string }) {
+  return (
+    <g transform={`scale(${(size / 20).toFixed(2)})`} opacity={0.85}>
+      <rect x={-5} y={-30} width={10} height={6} fill={color} />
+      <rect x={-2} y={-26} width={4} height={40} fill={color} />
+      <ellipse cx={0} cy={14} rx={13} ry={16} fill={color} />
+      <ellipse cx={0} cy={14} rx={5} ry={6} fill="#000000" opacity={0.35} />
+    </g>
+  )
+}
+
+// Abstract floating-object scene (NOT literal/photographic) — vinyl discs,
+// music notes, and instrument silhouettes drift on independent sine paths;
+// a slow size pulse on each fakes z-axis depth without a real 3D engine.
+function Objects({ palette, bpm, energy }: { palette: string[]; bpm: number; energy: number }) {
+  const frame = useCurrentFrame()
+  const { fps, width, height } = useVideoConfig()
+  const { t, pulse } = useBeat(bpm, fps, frame)
+  const amp = 0.5 + energy / 20
+  // Objects sit on a dark backdrop (the two darkest palette colors), so they
+  // must only ever use the brighter half of the palette — using the full
+  // palette modulo previously picked the near-black color for some objects,
+  // making them invisible against the background.
+  const bright = palette.slice(Math.max(1, palette.length - 2))
+  return (
+    <AbsoluteFill style={{ background: `linear-gradient(150deg, ${palette[0]}, ${palette[1]})` }}>
+      <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
+        {OBJECT_KINDS.map((kind, i) => {
+          const seedX = ((i * 71 + 13) % 100) / 100
+          const seedY = ((i * 37 + 29) % 100) / 100
+          const speed = 0.18 + (i % 3) * 0.05
+          const x = width * seedX + Math.sin(t * speed + i) * width * 0.12 * amp
+          const y = height * seedY + Math.cos(t * speed * 0.8 + i * 1.5) * height * 0.12 * amp
+          const depth = 0.85 + 0.35 * Math.sin(t * 0.25 + i * 2) // fakes z-axis drift
+          const size = (26 + (i % 3) * 10) * depth
+          const rotation = t * (8 + i * 3) * (i % 2 === 0 ? 1 : -1)
+          const color = bright[i % bright.length]
+          const accent = bright[(i + 1) % bright.length]
+          return (
+            <g
+              key={i}
+              transform={`translate(${x.toFixed(1)},${y.toFixed(1)}) rotate(${rotation.toFixed(1)})`}
+              opacity={0.55 + depth * 0.4}
+            >
+              {kind === 'vinyl' && <VinylRecord size={size} color={color} accent={accent} />}
+              {kind === 'note' && <MusicNote size={size} color={color} />}
+              {kind === 'instrument' && <InstrumentSilhouette size={size} color={color} />}
+            </g>
+          )
+        })}
+        <circle
+          cx={width / 2}
+          cy={height / 2}
+          r={Math.min(width, height) * 0.018 + pulse * 8 * amp}
+          fill={palette[palette.length - 1]}
+          opacity={0.25 + pulse * 0.3}
+        />
+      </svg>
+    </AbsoluteFill>
+  )
+}
+
 function DefaultStyle({ palette, bpm, energy }: { palette: string[]; bpm: number; energy: number }) {
   const frame = useCurrentFrame()
   const { fps, width, height } = useVideoConfig()
@@ -172,6 +259,7 @@ const STYLE_COMPONENTS: Record<MotionFilmStyle, React.FC<{ palette: string[]; bp
   brutalist: Brutalist,
   sleek: Sleek,
   tribal: Tribal,
+  objects: Objects,
   default: DefaultStyle,
 }
 
