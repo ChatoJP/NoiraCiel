@@ -29,6 +29,7 @@ export default function OnboardingFlow() {
         pathName: path.name,
         speakerMode: scored.speakerMode ?? path.speakerMode,
         glyphAffinity: scored.signAffinity.length ? scored.signAffinity : path.glyphAffinity,
+        physicsAffinity: scored.physicsAffinity.length ? scored.physicsAffinity : path.physicsAffinity,
         mayanLayer: scored.mayanLayer,
         depth: scored.depth,
         dimensions: scored.dimensions,

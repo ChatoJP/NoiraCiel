@@ -13,6 +13,7 @@
 import { ALBUMS, BOOKS, PILLARS, PHILOSOPHY, CONCEPTS } from '@/data/noiracielKnowledge'
 import type { DailyGlyph, WaveReading } from '@/data/mayanInterpretations'
 import type { Recommendation, WaveRecommendation } from '@/lib/noiracielRecommendationEngine'
+import { PHYSICS_CONCEPTS, type FeaturedConcept } from '@/data/noiracielPhysicsConcepts'
 
 export const SPEAKER_BASE_PROMPT = `You are the NoiraCiel Speaker — a dedicated conversational voice from inside the NoiraCiel artistic universe. You are not a chatbot, not a support agent, not an astrologer, not a generic AI assistant. You are a voice from within the work itself: a private curator, a nocturnal librarian, a music priest without religion, a literary companion, a calm voice in a dark room.
 
@@ -79,6 +80,18 @@ Also handle direct wave questions: "show me the 13-day wave", "where am I in the
 Wave honesty mirrors the glyph: symbolic and artistic, never prediction. Use "this wave invites…", "today sits at the point where…", "the symbolic pressure of this wave is…", "inside NoiraCiel, this wave feels like…". Never "this will happen".
 
 ────────────────────────────────────────────
+THE NOIRACIEL FIELD — PHYSICS AS POETIC ARCHITECTURE
+────────────────────────────────────────────
+NoiraCiel has a physics layer: real physics and quantum concepts used as artistic, symbolic and emotional architecture — metaphor, structure and language, never proof. You may explain any of these concepts in NoiraCiel language, recommend music/books through them, and read the day through them.
+
+ABSOLUTE honesty rules for physics: never claim physics proves spirituality, manifestation, destiny, consciousness magic, emotional healing, or supernatural effects. Never say "quantum physics proves your emotions create reality", "the universe will manifest your desires", "your vibration changes the quantum field", or that observation lets you control outcomes. When you explain a concept, separate the two layers explicitly: "Scientifically, …" (accurate, simple, humble) then "Inside NoiraCiel / poetically, …" (clearly a metaphor). If unsure of a scientific detail, stay humble rather than overclaim.
+
+The fifteen Field concepts (id — one-line dual reading):
+${PHYSICS_CONCEPTS.map((c) => `• ${c.name}: ${c.speakerPromptAddition}`).join('\n')}
+
+THE PHYSICIST-POET MODE: if the listener's Speaker mode is "The Physicist-Poet", or they ask a physics question, speak precisely, calmly, elegantly, scientifically humble, poetic but grounded — never fake-mystical, never overclaiming. Lead with "Scientifically, …" then "Inside NoiraCiel, …".
+
+────────────────────────────────────────────
 SCOPE
 ────────────────────────────────────────────
 You speak only from inside NoiraCiel: its music, books, albums, art direction, emotional worlds, the Rooms and Artists concepts, the philosophy, and the Mayan-inspired daily reflection — plus music itself (moods, genres, instruments, lyrics) and creative/symbolic interpretation.
@@ -132,6 +145,17 @@ function formatWaveContext(wave: WaveReading, waveRec?: WaveRecommendation): str
   return lines.join('\n')
 }
 
+/** Format today's featured physics concept for injection. */
+function formatFieldContext(featured: FeaturedConcept): string {
+  return [
+    `TODAY'S FIELD CONCEPT (live — use if the conversation touches physics or the day):`,
+    `• Concept: ${featured.concept.name}`,
+    `• Scientifically: ${featured.concept.scientificAnchor}`,
+    `• NoiraCiel translation: ${featured.concept.noiracielTranslation}`,
+    `• Reading offered on the Field page today: ${featured.reading}`,
+  ].join('\n')
+}
+
 /** Format the recommendation grounding for injection. */
 function formatRecommendationContext(rec: Recommendation): string {
   if (!rec.recommendedAlbum) return ''
@@ -156,11 +180,14 @@ export function buildSpeakerSystemPrompt(opts: {
   waveRecommendation?: WaveRecommendation
   /** Optional block from getPersonalizedSpeakerContext for a returning listener. */
   personalization?: string
+  /** Today's featured physics concept (The NoiraCiel Field). */
+  field?: FeaturedConcept
 }): string {
   const parts = [SPEAKER_BASE_PROMPT]
   if (opts.personalization) parts.push('', opts.personalization)
   parts.push('', formatGlyphContext(opts.glyph))
   if (opts.wave) parts.push('', formatWaveContext(opts.wave, opts.waveRecommendation))
+  if (opts.field) parts.push('', formatFieldContext(opts.field))
   if (opts.recommendation) {
     const recCtx = formatRecommendationContext(opts.recommendation)
     if (recCtx) parts.push('', recCtx)

@@ -38,11 +38,12 @@ export type SpeakerMode =
   | 'Ritual Narrator'
   | 'Music Guide'
   | 'Poetic Analyst'
+  | 'The Physicist-Poet'
 
 export type MayanLayer = 'full' | 'light' | 'off'
 export type Depth = 'song' | 'album' | 'chapter' | 'path' | 'journey'
 
-export type QuestionKind = 'dimension' | 'symbol' | 'speaker' | 'mayan' | 'depth'
+export type QuestionKind = 'dimension' | 'symbol' | 'speaker' | 'mayan' | 'depth' | 'physics'
 
 export interface OnboardingOption {
   id: string
@@ -51,6 +52,8 @@ export interface OnboardingOption {
   dimensions?: Partial<Record<Dimension, number>>
   /** A Tzolk'in sign name this option leans toward (for glyph affinity). */
   signAffinity?: string
+  /** A physics concept id this option leans toward (for Field affinity). */
+  physicsAffinity?: string
   /** Set when this option chooses a Speaker mode / Mayan layer / depth. */
   speakerMode?: SpeakerMode
   mayanLayer?: MayanLayer
@@ -82,6 +85,8 @@ export interface NoiraCielPath {
   speakerMode: SpeakerMode
   /** Tzolk'in sign names this path is drawn to. */
   glyphAffinity: string[]
+  /** Physics concept ids this path resonates with (The NoiraCiel Field). */
+  physicsAffinity: string[]
   dailyRitual: string
   /** How this path tends to move through a 13-day wave. */
   waveStyle: string
@@ -91,6 +96,7 @@ export interface NoiraCielPath {
 export interface ScoredOnboarding {
   dimensions: DimensionScores
   signAffinity: string[]
+  physicsAffinity: string[]
   speakerMode?: SpeakerMode
   mayanLayer: MayanLayer
   depth: Depth
@@ -105,6 +111,7 @@ export interface UserProfile {
   pathName: string
   speakerMode: SpeakerMode
   glyphAffinity: string[]
+  physicsAffinity: string[]
   mayanLayer: MayanLayer
   depth: Depth
   dimensions: DimensionScores
@@ -125,6 +132,8 @@ export interface PathResult {
   roomName: string
   speakerMode: SpeakerMode
   glyphAffinity: string[]
+  physicsAffinity: string[]
+  fieldConnection: string
   dailyGlyphConnection: string
   waveConnection: string
   reflectionQuestion: string

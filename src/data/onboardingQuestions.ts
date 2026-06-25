@@ -106,6 +106,22 @@ export const ONBOARDING_QUESTIONS: OnboardingQuestion[] = [
       { id: 'ritual', label: 'Like a ritual narrator', speakerMode: 'Ritual Narrator' },
       { id: 'guide', label: 'Like a music guide', speakerMode: 'Music Guide' },
       { id: 'analyst', label: 'Like a poetic analyst', speakerMode: 'Poetic Analyst' },
+      { id: 'physicist', label: 'Like a physicist-poet', speakerMode: 'The Physicist-Poet' },
+    ],
+  },
+  {
+    id: 'q10',
+    prompt: 'Which physics image feels closest to you today?',
+    subtitle: 'The NoiraCiel Field — physics as metaphor, never as proof.',
+    kind: 'physics',
+    options: [
+      { id: 'wave-before-break', label: 'A wave before it breaks', physicsAffinity: 'superposition' },
+      { id: 'two-particles', label: 'Two particles still connected', physicsAffinity: 'entanglement' },
+      { id: 'door-through-matter', label: 'A door through impossible matter', physicsAffinity: 'tunnelling' },
+      { id: 'light-crossing-dark', label: 'Light crossing darkness', physicsAffinity: 'light' },
+      { id: 'invisible-field', label: 'A field no one can see', physicsAffinity: 'fields' },
+      { id: 'system-disorder', label: 'A system becoming disorder', physicsAffinity: 'entropy' },
+      { id: 'state-before-choice', label: 'A state before choice', physicsAffinity: 'collapse' },
     ],
   },
   {
