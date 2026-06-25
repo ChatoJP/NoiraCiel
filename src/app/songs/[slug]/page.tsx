@@ -5,6 +5,8 @@ import path from 'path'
 import { scanMusicFolder, DISCOGRAPHY } from '@/lib/musicScanner'
 import SongChapterPage from '@/components/SongChapterPage'
 import { JsonLd } from '@/components/JsonLd'
+import EntangledLinks, { type EntangledLink } from '@/components/EntangledLinks'
+import { WORLDS } from '@/data/noiracielWorlds'
 
 const BG_DIR_MAP: Record<string, string> = {
   'main':                      'video-backgrounds',
@@ -186,6 +188,14 @@ export default async function SongPage({ params }: Props) {
     ...(track.trackNumber ? { position: track.trackNumber } : {}),
   }
 
+  // Entangled next doors — connect this song to its story, world, album & Speaker.
+  const world = WORLDS.find((w) => w.connectedAlbums.includes(track.albumSlug ?? ''))
+  const doors: EntangledLink[] = []
+  if (story) doors.push({ href: `/stories/${slug}`, label: 'Read the story beneath this song', kind: 'Story' })
+  if (world) doors.push({ href: `/worlds/${world.slug}`, label: `Enter its world — ${world.title}`, sublabel: world.subtitle, kind: 'World' })
+  doors.push({ href: albumHref, label: `Open the album — ${albumName}`, kind: 'Music' })
+  doors.push({ href: '/speaker', label: 'Ask the Speaker about this song', sublabel: 'Its mood, its meaning, what it carries', kind: 'Speaker' })
+
   return (
     <>
       <JsonLd data={trackSchema} />
@@ -202,6 +212,11 @@ export default async function SongPage({ params }: Props) {
         scoreManifestUrl={scoreManifestUrl}
         commentary={commentary}
       />
+      <section className="bg-noir-black px-5 sm:px-8 pb-24 pt-4">
+        <div className="max-w-3xl mx-auto">
+          <EntangledLinks links={doors} />
+        </div>
+      </section>
     </>
   )
 }
