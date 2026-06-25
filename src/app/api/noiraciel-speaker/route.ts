@@ -19,6 +19,8 @@ import { NextRequest } from 'next/server'
 import { getDailyGlyph, getCurrentWave } from '@/data/mayanInterpretations'
 import { recommend, recommendForWave } from '@/lib/noiracielRecommendationEngine'
 import { buildSpeakerSystemPrompt } from '@/lib/noiracielSpeakerPrompt'
+import { getPersonalizedSpeakerContext } from '@/lib/noiracielPathEngine'
+import type { UserProfile } from '@/types/noiracielOnboarding'
 
 export const dynamic = 'force-dynamic'
 
@@ -78,7 +80,18 @@ export async function POST(req: NextRequest) {
   const wave = getCurrentWave()
   const recommendation = recommend(lastUser.content, glyph)
   const waveRecommendation = recommendForWave(wave)
-  const system = buildSpeakerSystemPrompt({ glyph, recommendation, wave, waveRecommendation })
+
+  // Optional onboarding profile (untrusted) — validated inside the path engine.
+  const profile = (body as { profile?: Partial<UserProfile> })?.profile
+  const personalization = getPersonalizedSpeakerContext(profile, glyph, wave)
+
+  const system = buildSpeakerSystemPrompt({
+    glyph,
+    recommendation,
+    wave,
+    waveRecommendation,
+    personalization: personalization || undefined,
+  })
 
   let stream
   try {

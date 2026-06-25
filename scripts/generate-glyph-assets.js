@@ -22,6 +22,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const https = require('https')
 
 const {
   loadEnv, log, warn, err, sleep, downloadFile,
@@ -43,6 +44,22 @@ const kinDate = (() => {
   const i = args.indexOf('--kin')
   return i >= 0 ? args[i + 1] : null
 })()
+// Resumable by default: skip assets already present on R2 unless --force.
+const FORCE = args.includes('--force')
+
+// HEAD-check the public URL; resolve true if the object already exists (200).
+function existsOnR2(key) {
+  return new Promise((resolve) => {
+    const url = r2.publicUrlFor(key)
+    const req = https.request(url, { method: 'HEAD', timeout: 8000 }, (res) => {
+      resolve(res.statusCode === 200)
+      res.resume()
+    })
+    req.on('error', () => resolve(false))
+    req.on('timeout', () => { req.destroy(); resolve(false) })
+    req.end()
+  })
+}
 
 const GOLD = '#C4953A'
 
@@ -140,17 +157,34 @@ if (kinDate) {
   jobs.push({ key: `images/glyphs/kin/og/${kinDate}.jpeg`, prompt: kinPrompt(kinDate), aspectRatio: '4:5' })
 }
 
-async function generateOne(job, tmpDir) {
-  const taskId = await submitImageJob(job.prompt, { aspectRatio: job.aspectRatio, outputFormat: 'jpeg' })
-  let result = null
-  for (let i = 0; i < 60; i++) {
-    await sleep(RATE_LIMIT_MS)
-    const r = await pollImageJob(taskId)
-    if (r.done) { result = r; break }
+// KIE image jobs fail intermittently (transient moderation/queue errors), so
+// resubmit a failed/timed-out job a couple of times before giving up.
+async function generateWithRetry(job, attempts = 3) {
+  let lastErr = null
+  for (let a = 1; a <= attempts; a++) {
+    try {
+      const taskId = await submitImageJob(job.prompt, { aspectRatio: job.aspectRatio, outputFormat: 'jpeg' })
+      for (let i = 0; i < 60; i++) {
+        await sleep(RATE_LIMIT_MS)
+        const r = await pollImageJob(taskId)
+        if (r.done) {
+          if (r.failed || !r.url) { lastErr = new Error('job failed'); break }
+          return r.url
+        }
+      }
+      if (!lastErr) lastErr = new Error('timeout')
+    } catch (e) {
+      lastErr = e
+    }
+    if (a < attempts) { warn(`  retry ${a}/${attempts - 1} for ${job.key} (${lastErr.message})`); await sleep(2000) }
   }
-  if (!result || result.failed || !result.url) throw new Error(`generation failed for ${job.key}`)
+  throw lastErr || new Error('generation failed')
+}
+
+async function generateOne(job, tmpDir) {
+  const url = await generateWithRetry(job)
   const tmpPath = path.join(tmpDir, path.basename(job.key))
-  await downloadFile(result.url, tmpPath)
+  await downloadFile(url, tmpPath)
   await r2.uploadFile(tmpPath, job.key)
   const ok = await r2.verifyUpload(tmpPath, job.key)
   if (!ok) throw new Error(`R2 verify failed for ${job.key}`)
@@ -176,7 +210,13 @@ async function main() {
   }
 
   let done = 0
+  let skipped = 0
   for (const j of jobs) {
+    if (!FORCE && (await existsOnR2(j.key))) {
+      skipped++
+      log(`↷ skip (exists) ${j.key}`)
+      continue
+    }
     try {
       const url = await generateOne(j, tmpDir)
       done++
@@ -185,7 +225,7 @@ async function main() {
       err(`✗ ${j.key}: ${e.message}`)
     }
   }
-  log(`Generated ${done}/${jobs.length} assets.`)
+  log(`Generated ${done}, skipped ${skipped}, of ${jobs.length} jobs.`)
 }
 
 main().catch((e) => { err(e.stack || String(e)); process.exit(1) })

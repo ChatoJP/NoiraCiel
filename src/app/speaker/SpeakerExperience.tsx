@@ -4,6 +4,9 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import SignGlyph from './SignGlyph'
 import KinCard from './KinCard'
+import WaveCompass from './WaveCompass'
+import { loadProfile } from '@/lib/onboardingStorage'
+import type { UserProfile } from '@/types/noiracielOnboarding'
 
 // ── Types passed down from the server page ───────────────────────────────────
 interface GlyphView {
@@ -39,6 +42,8 @@ interface WaveDayView {
   signName: string
   kinDisplay: string
   shortMeaning: string
+  stage: string
+  noiracielPrompt: string
 }
 
 interface WaveView {
@@ -152,6 +157,7 @@ export default function SpeakerExperience({
   const [ttsSupported, setTtsSupported] = useState(false)
   const [speakingIdx, setSpeakingIdx] = useState<number | null>(null)
   const [waveExpanded, setWaveExpanded] = useState(false)
+  const [profile, setProfile] = useState<UserProfile | null>(null)
 
   const bottomRef = useRef<HTMLDivElement>(null)
   const chatRef = useRef<HTMLElement>(null)
@@ -160,6 +166,23 @@ export default function SpeakerExperience({
 
   useEffect(() => {
     setTtsSupported(typeof window !== 'undefined' && 'speechSynthesis' in window)
+  }, [])
+
+  // Load the onboarding profile and personalise the opener for returning listeners.
+  useEffect(() => {
+    const p = loadProfile()
+    if (!p) return
+    setProfile(p)
+    setMessages((prev) => {
+      // only replace the default opener, never an active conversation
+      if (prev.length !== 1 || prev[0].role !== 'assistant' || prev[0].content !== OPENER) return prev
+      return [
+        {
+          role: 'assistant',
+          content: `Welcome back, ${p.pathName}.\n\nToday's glyph speaks differently to someone who listens the way you do. Ask me what today means, what to hear, or where you are in the current wave — and I will read it through your path.`,
+        },
+      ]
+    })
   }, [])
 
   useEffect(() => {
@@ -217,7 +240,7 @@ export default function SpeakerExperience({
         const res = await fetch('/api/noiraciel-speaker', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ messages: next }),
+          body: JSON.stringify({ messages: next, profile: profile ?? undefined }),
           signal: ctrl.signal,
         })
         if (!res.ok || !res.body) throw new Error('Stream failed')
@@ -256,7 +279,7 @@ export default function SpeakerExperience({
         abortRef.current = null
       }
     },
-    [input, messages, streaming, autoRead, speak],
+    [input, messages, streaming, autoRead, speak, profile],
   )
 
   const handleKey = (e: React.KeyboardEvent) => {
@@ -330,49 +353,13 @@ export default function SpeakerExperience({
             </div>
           </div>
 
-          {/* Horizontal 13-day timeline */}
-          <div className="px-5 sm:px-6 pb-5 pt-1">
-            <div className="flex items-end justify-between gap-1 sm:gap-1.5">
-              {wave.days.map((d) => {
-                const isToday = d.position === wave.currentPosition
-                const isEdge = d.position === 1 || d.position === 13
-                return (
-                  <button
-                    key={d.position}
-                    onClick={() => setWaveExpanded(true)}
-                    title={`${d.kinDisplay} — ${d.shortMeaning}`}
-                    className="group flex flex-col items-center flex-1 min-w-0"
-                  >
-                    <span
-                      className={`block rounded-full transition-all ${
-                        isToday
-                          ? 'bg-t-accent shadow-[0_0_12px_rgb(var(--t-accent-rgb))]'
-                          : isEdge
-                            ? 'bg-noir-gold/45 ring-1 ring-noir-gold/40'
-                            : 'bg-noir-silver/25 group-hover:bg-noir-silver/50'
-                      }`}
-                      style={{
-                        width: isToday ? 12 : 8,
-                        height: isToday ? 12 : 8,
-                        marginBottom: isToday ? 0 : 2,
-                      }}
-                    />
-                    <span
-                      className={`mt-1.5 font-body text-[8px] tabular-nums ${
-                        isToday ? 'text-noir-gold/90' : 'text-noir-silver/30'
-                      }`}
-                    >
-                      {d.tone}
-                    </span>
-                  </button>
-                )
-              })}
-            </div>
-            <div className="flex justify-between mt-1.5">
-              <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-silver/25">Seed</span>
-              <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-silver/25">Mirror</span>
-              <span className="font-body text-[8px] tracking-[0.2em] uppercase text-noir-silver/25">Completion</span>
-            </div>
+          {/* The wave compass */}
+          <div className="px-5 sm:px-6 pb-6 pt-2">
+            <WaveCompass days={wave.days} currentPosition={wave.currentPosition} />
+            <p className="font-body text-[8px] leading-relaxed text-noir-silver/25 text-center mt-5 max-w-md mx-auto">
+              This is a symbolic and artistic interpretation inspired by Mesoamerican
+              calendrical cycles. It is not a prediction, scientific claim, or spiritual authority.
+            </p>
           </div>
 
           {/* Expanded: the full 13-day arc */}

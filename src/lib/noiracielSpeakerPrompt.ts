@@ -154,8 +154,12 @@ export function buildSpeakerSystemPrompt(opts: {
   recommendation?: Recommendation
   wave?: WaveReading
   waveRecommendation?: WaveRecommendation
+  /** Optional block from getPersonalizedSpeakerContext for a returning listener. */
+  personalization?: string
 }): string {
-  const parts = [SPEAKER_BASE_PROMPT, '', formatGlyphContext(opts.glyph)]
+  const parts = [SPEAKER_BASE_PROMPT]
+  if (opts.personalization) parts.push('', opts.personalization)
+  parts.push('', formatGlyphContext(opts.glyph))
   if (opts.wave) parts.push('', formatWaveContext(opts.wave, opts.waveRecommendation))
   if (opts.recommendation) {
     const recCtx = formatRecommendationContext(opts.recommendation)

@@ -77,6 +77,8 @@ export default async function SpeakerPage() {
       signName: d.signName,
       kinDisplay: d.kinDisplay,
       shortMeaning: d.shortMeaning,
+      stage: d.shortMeaning.split(' · ')[0],
+      noiracielPrompt: d.noiracielPrompt,
     })),
   }
 
