@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     description: 'TODO: write a real description for Party Exploder.',
     url: 'https://noiraciel.com/music/party-exploder',
     type: 'music.album',
-    images: [{ url: '/images/album-cover.png', width: 1200, height: 1200, alt: 'Party Exploder album cover' }],
+    images: [{ url: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/party-exploder.jpg', width: 1200, height: 1200, alt: 'Party Exploder album cover' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Party Exploder',
     description: 'TODO: write a real description for Party Exploder.',
-    images: ['/images/album-cover.png'],
+    images: ['https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/party-exploder.jpg'],
   },
 }
 
@@ -32,7 +32,7 @@ const albumSchema = {
   name: 'Party Exploder',
   byArtist: { '@type': 'MusicGroup', name: 'NoiraCiel', url: 'https://noiraciel.com' },
   url: 'https://noiraciel.com/music/party-exploder',
-  image: 'https://noiraciel.com/images/album-cover.png',
+  image: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/party-exploder.jpg',
   description: 'TODO: write a real description for Party Exploder.',
   genre: ["Party Mix","Compilation"],
 }

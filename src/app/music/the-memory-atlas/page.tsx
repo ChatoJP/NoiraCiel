@@ -5,39 +5,42 @@ import { JsonLd } from '@/components/JsonLd'
 
 export const dynamic = 'force-dynamic'
 
-const ALBUM_SLUG = 'ak96-party-session-1'
+const ALBUM_SLUG = 'the-memory-atlas'
+
+const DESCRIPTION = "A cartographer's record of a childhood that can only be reached by half-remembered roads — every song a different room in a house that doesn't exist anymore, mapped from memory instead of geography. Cinematic puzzle-pop, art-rock, orchestral trip-hop, emotional electronic folk."
+const COVER = 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-drawer-that-still-sticks.jpg'
 
 export const metadata: Metadata = {
-  title: 'Ak96 Mixes — Party Session N1',
-  description: 'TODO: write a real description for Ak96 Mixes — Party Session N1.',
-  alternates: { canonical: 'https://noiraciel.com/music/ak96-party-session-1' },
+  title: 'The Memory Atlas',
+  description: DESCRIPTION,
+  alternates: { canonical: 'https://noiraciel.com/music/the-memory-atlas' },
   openGraph: {
-    title: 'Ak96 Mixes — Party Session N1',
-    description: 'TODO: write a real description for Ak96 Mixes — Party Session N1.',
-    url: 'https://noiraciel.com/music/ak96-party-session-1',
+    title: 'The Memory Atlas',
+    description: DESCRIPTION,
+    url: 'https://noiraciel.com/music/the-memory-atlas',
     type: 'music.album',
-    images: [{ url: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/ak96-party-session-1.jpg', width: 1200, height: 1200, alt: 'Ak96 Mixes — Party Session N1 album cover' }],
+    images: [{ url: COVER, width: 1200, height: 1200, alt: 'The Memory Atlas album cover' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ak96 Mixes — Party Session N1',
-    description: 'TODO: write a real description for Ak96 Mixes — Party Session N1.',
-    images: ['https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/ak96-party-session-1.jpg'],
+    title: 'The Memory Atlas',
+    description: DESCRIPTION,
+    images: [COVER],
   },
 }
 
 const albumSchema = {
   '@context': 'https://schema.org',
   '@type': 'MusicAlbum',
-  name: 'Ak96 Mixes — Party Session N1',
+  name: 'The Memory Atlas',
   byArtist: { '@type': 'MusicGroup', name: 'NoiraCiel', url: 'https://noiraciel.com' },
-  url: 'https://noiraciel.com/music/ak96-party-session-1',
-  image: 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/album-covers/ak96-party-session-1.jpg',
-  description: 'TODO: write a real description for Ak96 Mixes — Party Session N1.',
-  genre: ["DJ Mix","Party Session"],
+  url: 'https://noiraciel.com/music/the-memory-atlas',
+  image: COVER,
+  description: DESCRIPTION,
+  genre: ["Cinematic Puzzle-Pop","Art-Rock","Orchestral Trip-Hop","Emotional Electronic Folk"],
 }
 
-export default async function Ak96PartySession1Page() {
+export default async function TheMemoryAtlasPage() {
   const entry = DISCOGRAPHY.find((e) => e.slug === ALBUM_SLUG)!
   const catalogue = await scanMusicFolder()
   const tracks = catalogue.tracks.filter((t) => t.albumSlug === ALBUM_SLUG)

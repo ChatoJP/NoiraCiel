@@ -1,0 +1,314 @@
+{
+  "low-light-entry": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "cd5471f18175a7331da9ed91ceec02cf",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/01_low-light-entry.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/01_low-light-entry.mp3",
+      "duration": 170.319979,
+      "durationFormatted": "2:50"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_32772a5c05c14c5e9ac4f447c5bc97b8",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/low-light-entry.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/low-light-entry.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_478fbc957f924a1ba92804dbcb754e0e",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/low-light-entry.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/low-light-entry.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:08:59.219Z"
+  },
+  "plum-light-district": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "e6993a73ddf89b1e6e8a1f59aef9570c",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/02_plum-light-district.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/02_plum-light-district.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_d7df012e637f4c548561303fcc04140f",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/plum-light-district.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/plum-light-district.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_b04c81ea87c84c928a4d058abfbf5651",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/plum-light-district.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/plum-light-district.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:09:16.536Z"
+  },
+  "velvet-rope-glow": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "0a4eb4fc672850ab140eb1d844284e25",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/03_velvet-rope-glow.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/03_velvet-rope-glow.mp3",
+      "duration": 64.519979,
+      "durationFormatted": "1:05"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_7c68d1d7600a46da883246d9633ca25f",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/velvet-rope-glow.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/velvet-rope-glow.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_5a463f5afcaf4e11a95f64bb9752f285",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/velvet-rope-glow.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/velvet-rope-glow.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:09:33.830Z"
+  },
+  "deepening-pulse": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "52fe849145677a3309561a1c31c897fd",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/04_deepening-pulse.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/04_deepening-pulse.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_e35a1a22c26b4bd7a2d1f48df4e18705",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/deepening-pulse.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/deepening-pulse.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_5a06058723c746a78056cb6b9675b8f4",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/deepening-pulse.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/deepening-pulse.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:09:51.276Z"
+  },
+  "smoke-under-glass": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "25ff66ab4be8665a994eef192a0ed81a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/05_smoke-under-glass.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/05_smoke-under-glass.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_53e142d57f6842df9cc93130358f3f59",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/smoke-under-glass.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/smoke-under-glass.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_72e47c6d1e8640ad9e9e8a4236dfafff",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/smoke-under-glass.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/smoke-under-glass.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:10:08.689Z"
+  },
+  "midnight-mainline": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "b2943ab3d8db7ebf50e7ca7716e08146",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/06_midnight-mainline.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/06_midnight-mainline.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_2d1edff35342432c8c2d66ca6ca9d11b",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/midnight-mainline.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/midnight-mainline.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_aeb472ceda5f4e028ae56057b890acf6",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/midnight-mainline.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/midnight-mainline.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:10:26.142Z"
+  },
+  "gold-dust-descent": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "1e577702c774be270e8301419eb110b9",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/07_gold-dust-descent.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/07_gold-dust-descent.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_9cf0f9bf62f143e1a20fa43e393d650c",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/gold-dust-descent.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/gold-dust-descent.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_af61c88497d54f7c91b4d3479e6bda41",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/gold-dust-descent.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/gold-dust-descent.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:10:43.551Z"
+  },
+  "circuit-heat": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "affa03d44f4080221f04f14bcd9387a1",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/08_circuit-heat.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/08_circuit-heat.mp3",
+      "duration": 168.599979,
+      "durationFormatted": "2:49"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_087ca28dc4374716b9af581cba9bd1ce",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/circuit-heat.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/circuit-heat.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_88fed1eee2144cd389dbd13d4d194b47",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/circuit-heat.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/circuit-heat.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:11:00.922Z"
+  },
+  "obsidian-floor": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "debcc52a7e745e4473200c6fbb229c13",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/09_obsidian-floor.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/09_obsidian-floor.mp3",
+      "duration": 234.119979,
+      "durationFormatted": "3:54"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_324bbc5a1b1b454383bb01975bc5c17f",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/obsidian-floor.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/obsidian-floor.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_1a4037d2bf8e48349e59035b9951bc64",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/obsidian-floor.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/obsidian-floor.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:11:18.204Z"
+  },
+  "gilt-frenzy": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "f191feae04244f5bb423d5fc91afdadb",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/10_gilt-frenzy.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/10_gilt-frenzy.mp3",
+      "duration": 153.639979,
+      "durationFormatted": "2:34"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_6f77cb04701649c293cdff30aeca4068",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/gilt-frenzy.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/gilt-frenzy.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_46b86b7de3714025813e3d0918724959",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/gilt-frenzy.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/gilt-frenzy.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:11:35.580Z"
+  },
+  "afterglow-lounge": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "825f59da497d05d5d1816785979887c6",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/11_afterglow-lounge.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/11_afterglow-lounge.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_ba1e258f5afe453d844fa649a13f82df",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/afterglow-lounge.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/afterglow-lounge.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_b91f0df7bbf14803a35d9e0395b221b0",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/afterglow-lounge.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/afterglow-lounge.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:11:52.928Z"
+  },
+  "last-call-velvet": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "ee5f136d651ddd14c9249385fe2b9606",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/Velvet_Circuit/audio/12_last-call-velvet.mp3",
+      "r2Key": "party-people/Velvet_Circuit/audio/12_last-call-velvet.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_b8bf8e696b8e49d9943adee0cab79c9f",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/last-call-velvet.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/last-call-velvet.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_23a56d2925b54a2cbbba7634ff43ad7d",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/last-call-velvet.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/last-call-velvet.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:12:10.245Z"
+  }
+}

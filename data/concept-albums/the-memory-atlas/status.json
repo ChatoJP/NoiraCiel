@@ -1,7 +1,7 @@
 {
   "the-drawer-that-still-sticks": {
     "num": 1,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "d461b39215e7af83a9771e95308ae8b6",
       "state": "complete",
@@ -11,23 +11,23 @@
       "durationFormatted": "3:04"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_b67204917cff4f71887a0bad92a78aa9",
+      "state": "complete",
+      "r2Key": "images/song-art/the-drawer-that-still-sticks.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-drawer-that-still-sticks.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_21c18eadc7154b3aae1d287206cbf328",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-drawer-that-still-sticks.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-drawer-that-still-sticks.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:19:14.595Z"
+    "updatedAt": "2026-06-22T15:54:52.700Z"
   },
   "paper-boats-on-the-gutter-river": {
     "num": 2,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "2890164d4814a95e4ff292aa3447382a",
       "state": "complete",
@@ -37,23 +37,23 @@
       "durationFormatted": "2:42"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_aa1d51605edb48eb8dbb09b26d27ab89",
+      "state": "complete",
+      "r2Key": "images/song-art/paper-boats-on-the-gutter-river.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/paper-boats-on-the-gutter-river.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_5d2b9431e7cc4d3199ae1dc1e18b010d",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/paper-boats-on-the-gutter-river.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/paper-boats-on-the-gutter-river.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:21:02.775Z"
+    "updatedAt": "2026-06-22T15:55:10.097Z"
   },
   "the-globe-with-the-worn-pacific": {
     "num": 3,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "24db38ab5ff940794baffd80dd4312d3",
       "state": "complete",
@@ -63,23 +63,23 @@
       "durationFormatted": "3:18"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_ce90cb74c3e1464489ff51c53fcbb3a9",
+      "state": "complete",
+      "r2Key": "images/song-art/the-globe-with-the-worn-pacific.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-globe-with-the-worn-pacific.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_51ba42d6b7ee46b49b14a6f52bd4471e",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-globe-with-the-worn-pacific.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-globe-with-the-worn-pacific.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:23:21.754Z"
+    "updatedAt": "2026-06-22T15:55:27.558Z"
   },
   "the-attic-stairs-have-fourteen-steps": {
     "num": 4,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "c7d8149b33ce7492fd5fd8eb5f1b7b6c",
       "state": "complete",
@@ -89,23 +89,23 @@
       "durationFormatted": "3:12"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_405b99c3942d44069650132eb44fd09c",
+      "state": "complete",
+      "r2Key": "images/song-art/the-attic-stairs-have-fourteen-steps.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-attic-stairs-have-fourteen-steps.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_13522af2a0894f67b2cc4395b898c2bf",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-attic-stairs-have-fourteen-steps.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-attic-stairs-have-fourteen-steps.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:25:09.659Z"
+    "updatedAt": "2026-06-22T15:55:44.966Z"
   },
   "the-room-with-the-taped-up-window": {
     "num": 5,
-    "stage": "music_complete",
+    "stage": "images_generated",
     "music": {
       "taskId": "f0df4e29f4d2d0e6713a3bb5d43a81e8",
       "state": "complete",
@@ -115,258 +115,278 @@
       "durationFormatted": "3:29"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_79189b5a72ed439c8c8677e0b1bf694e",
+      "state": "complete",
+      "r2Key": "images/song-art/the-room-with-the-taped-up-window.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-room-with-the-taped-up-window.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_4f3b6d66330d40788fcb5a79493bfaf9",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-room-with-the-taped-up-window.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-room-with-the-taped-up-window.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:27:13.513Z"
+    "updatedAt": "2026-06-22T15:56:02.390Z"
   },
   "the-hallway-that-got-shorter": {
     "num": 6,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
       "taskId": "a5a2ef570c379bc94c79d5619beb491d",
-      "state": "pending",
-      "audioUrl": null,
-      "r2Key": null
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/06_the-hallway-that-got-shorter.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/06_the-hallway-that-got-shorter.mp3",
+      "duration": 234.519979,
+      "durationFormatted": "3:55"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_ad369d0247bb419c8174576d44dd4cc0",
+      "state": "complete",
+      "r2Key": "images/song-art/the-hallway-that-got-shorter.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-hallway-that-got-shorter.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_ef1ea1c6ce8440fda5dd3d21ce5d76cf",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-hallway-that-got-shorter.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-hallway-that-got-shorter.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T15:27:13.712Z"
+    "updatedAt": "2026-06-22T15:56:19.759Z"
   },
   "letters-pressed-with-flowers-from-the-yard": {
     "num": 7,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "eba471069d7cefea2ce242c6c60b1ba6",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/07_letters-pressed-with-flowers-from-the-yard.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/07_letters-pressed-with-flowers-from-the-yard.mp3",
+      "duration": 193.999979,
+      "durationFormatted": "3:14"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_8b6792a92bff4de8b158cbec1973da3d",
+      "state": "complete",
+      "r2Key": "images/song-art/letters-pressed-with-flowers-from-the-yard.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/letters-pressed-with-flowers-from-the-yard.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_6633dca53d9a4d48b8d32b1016fadd46",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/letters-pressed-with-flowers-from-the-yard.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/letters-pressed-with-flowers-from-the-yard.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:56:37.277Z"
   },
   "the-empty-chair-at-sunday-dinner": {
     "num": 8,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "c059524538d61f2030fb0116f8acbd84",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/08_the-empty-chair-at-sunday-dinner.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/08_the-empty-chair-at-sunday-dinner.mp3",
+      "duration": 192.999979,
+      "durationFormatted": "3:13"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_26b313fb582e4612b63d365acb44dd7a",
+      "state": "complete",
+      "r2Key": "images/song-art/the-empty-chair-at-sunday-dinner.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-empty-chair-at-sunday-dinner.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_62463f9613c64f32a4ef637daa9aeca5",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-empty-chair-at-sunday-dinner.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-empty-chair-at-sunday-dinner.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:56:54.594Z"
   },
   "the-shed-nobody-was-allowed-to-enter": {
     "num": 9,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "1d280536fcdba667c54edca736ceb9d0",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/09_the-shed-nobody-was-allowed-to-enter.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/09_the-shed-nobody-was-allowed-to-enter.mp3",
+      "duration": 215.959979,
+      "durationFormatted": "3:36"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_337773e79e8048568d3fcec9afa84083",
+      "state": "complete",
+      "r2Key": "images/song-art/the-shed-nobody-was-allowed-to-enter.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-shed-nobody-was-allowed-to-enter.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_78852eba56984eba883edcb1aa944006",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-shed-nobody-was-allowed-to-enter.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-shed-nobody-was-allowed-to-enter.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:57:20.258Z"
   },
   "the-photograph-with-the-corner-burned-off": {
     "num": 10,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "00231ed3e8ec7756abc6edcef2583a7c",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/10_the-photograph-with-the-corner-burned-off.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/10_the-photograph-with-the-corner-burned-off.mp3",
+      "duration": 206.079979,
+      "durationFormatted": "3:26"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_3272cc2747f44af5858cd8ef9e7be675",
+      "state": "complete",
+      "r2Key": "images/song-art/the-photograph-with-the-corner-burned-off.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-photograph-with-the-corner-burned-off.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_deb1651488cc4f5aa125ca0525115b24",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-photograph-with-the-corner-burned-off.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-photograph-with-the-corner-burned-off.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:57:46.029Z"
   },
   "the-fever-summer": {
     "num": 11,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "e18c8e98dd2317e442c3470c1a0e243a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/11_the-fever-summer.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/11_the-fever-summer.mp3",
+      "duration": 222.159979,
+      "durationFormatted": "3:42"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_ce9d36a7f342462cbb8ecb0ca0dd89c2",
+      "state": "complete",
+      "r2Key": "images/song-art/the-fever-summer.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-fever-summer.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_c6eecc8b42cb437b9235ffefcea565ca",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-fever-summer.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-fever-summer.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:58:28.083Z"
   },
   "the-name-i-was-never-told": {
     "num": 12,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "cab27ceaf8dbeb5888a3726b8d42d834",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/12_the-name-i-was-never-told.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/12_the-name-i-was-never-told.mp3",
+      "duration": 221.159979,
+      "durationFormatted": "3:41"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_790c7f5a4ee6446ba760c53c272272f6",
+      "state": "complete",
+      "r2Key": "images/song-art/the-name-i-was-never-told.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-name-i-was-never-told.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_03ed8ecf02b94eb9bf44cd4bad58651c",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-name-i-was-never-told.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-name-i-was-never-told.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:58:53.677Z"
   },
   "redrawing-the-floorplan": {
     "num": 13,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "d19786ef41c880b3091250a52ac2c3a2",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/13_redrawing-the-floorplan.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/13_redrawing-the-floorplan.mp3",
+      "duration": 198.999979,
+      "durationFormatted": "3:19"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_eb6ef591829642a195121b291af78064",
+      "state": "complete",
+      "r2Key": "images/song-art/redrawing-the-floorplan.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/redrawing-the-floorplan.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_37e0b4f0fbe04671a2b7dba0565c8918",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/redrawing-the-floorplan.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/redrawing-the-floorplan.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:59:27.506Z"
   },
   "the-road-that-was-always-a-circle": {
     "num": 14,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "bc1dbc0261e8d395d864206e289dedb0",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/14_the-road-that-was-always-a-circle.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/14_the-road-that-was-always-a-circle.mp3",
+      "duration": 203.439979,
+      "durationFormatted": "3:23"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_8f72c4c6a2e345449e50ac78a5889cb1",
+      "state": "complete",
+      "r2Key": "images/song-art/the-road-that-was-always-a-circle.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-road-that-was-always-a-circle.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_086d5126148b4c8b8d1968218574deec",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-road-that-was-always-a-circle.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-road-that-was-always-a-circle.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T15:59:44.842Z"
   },
   "the-atlas-closes-on-its-own-front-door": {
     "num": 15,
-    "stage": "lyrics_generated",
+    "stage": "images_generated",
     "music": {
-      "taskId": null,
-      "state": "none",
-      "audioUrl": null,
-      "r2Key": null
+      "taskId": "adc3cc920d29c37c83d8e0a31a4d1aa1",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/music/The_Memory_Atlas/audio/15_the-atlas-closes-on-its-own-front-door.mp3",
+      "r2Key": "music/The_Memory_Atlas/audio/15_the-atlas-closes-on-its-own-front-door.mp3",
+      "duration": 186.999979,
+      "durationFormatted": "3:07"
     },
     "songArt": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_b1059232ccd34a72a0e19fa8b3da2d38",
+      "state": "complete",
+      "r2Key": "images/song-art/the-atlas-closes-on-its-own-front-door.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/song-art/the-atlas-closes-on-its-own-front-door.jpg"
     },
     "chapterBanner": {
-      "taskId": null,
-      "state": "none",
-      "r2Key": null,
-      "url": null
+      "taskId": "fluxkontext_417d18be9628415094c26d751fe34409",
+      "state": "complete",
+      "r2Key": "images/chapter-banners/the-atlas-closes-on-its-own-front-door.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/images/chapter-banners/the-atlas-closes-on-its-own-front-door.jpg"
     },
     "error": null,
-    "updatedAt": "2026-06-22T12:13:42.940Z"
+    "updatedAt": "2026-06-22T16:00:02.326Z"
   }
 }

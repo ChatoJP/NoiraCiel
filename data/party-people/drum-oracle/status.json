@@ -1,0 +1,314 @@
+{
+  "first-coal": {
+    "num": 1,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "4446613ca8669c10b7535a07e5d7cc9d",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/01_first-coal.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/01_first-coal.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_c140d0ccd2d24ed4aab5937f2dd8ec00",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/first-coal.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/first-coal.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_36a526d6060541928b9c732515d2780b",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/first-coal.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/first-coal.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:41:24.083Z"
+  },
+  "circle-of-hands": {
+    "num": 2,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "0bc32d5bba170b427eac5bbdd490d494",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/02_circle-of-hands.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/02_circle-of-hands.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_1e9393fdb03343d09c92889fc0203052",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/circle-of-hands.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/circle-of-hands.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_ccddf058ea1c49bfa32e10f3c9c1ba78",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/circle-of-hands.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/circle-of-hands.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:41:49.607Z"
+  },
+  "embercall": {
+    "num": 3,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "cb8867c9b97fd00d785e1b98651be1e7",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/03_embercall.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/03_embercall.mp3",
+      "duration": 129.719979,
+      "durationFormatted": "2:10"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_9ee4d9ce6bf44dfd946d1f528038c2bd",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/embercall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/embercall.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_9e3e435f7de942cfbc4abb4cd59abe75",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/embercall.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/embercall.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:42:15.164Z"
+  },
+  "tomline": {
+    "num": 4,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "2e5e8c69112bd4a29cc8b3d29165f51a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/04_tomline.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/04_tomline.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_a8865276aaeb43b1b3078b25d7f6c262",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/tomline.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/tomline.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_2785f470e1a44aa1978c126c268bcc88",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/tomline.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/tomline.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:42:40.773Z"
+  },
+  "quinto-call-and-response": {
+    "num": 5,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "feadb75418d2824326e84b92224f6c91",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/05_quinto-call-and-response.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/05_quinto-call-and-response.mp3",
+      "duration": 172.839979,
+      "durationFormatted": "2:53"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_e993fc010d3546fca54f75608fb3fcc9",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/quinto-call-and-response.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/quinto-call-and-response.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_9db8f342c5b440b398a21d427443b76a",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/quinto-call-and-response.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/quinto-call-and-response.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:42:58.033Z"
+  },
+  "bassline-under-bronze-skin": {
+    "num": 6,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "7f414d81f9d8cd24861c0a4ddf7c34f7",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/06_bassline-under-bronze-skin.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/06_bassline-under-bronze-skin.mp3",
+      "duration": 226.879979,
+      "durationFormatted": "3:47"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_2f5639fd249e4585b77f0d5c584f3a60",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/bassline-under-bronze-skin.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/bassline-under-bronze-skin.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_698c225e10ba47e5b92411fdb91ce6e2",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/bassline-under-bronze-skin.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/bassline-under-bronze-skin.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:43:15.576Z"
+  },
+  "the-gathering-pulse": {
+    "num": 7,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "cfd8cea043d3fc471a4d61bca7cce168",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/07_the-gathering-pulse.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/07_the-gathering-pulse.mp3",
+      "duration": 148.559979,
+      "durationFormatted": "2:29"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_feaaa39649f84ace8bf70bdc6fbf3ccf",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/the-gathering-pulse.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/the-gathering-pulse.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_03ca12ac8eae40e38b0ae8a965908a3a",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/the-gathering-pulse.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/the-gathering-pulse.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:43:32.929Z"
+  },
+  "skin-and-low-end": {
+    "num": 8,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "39ff7f333162e4549045e87bac66762a",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/08_skin-and-low-end.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/08_skin-and-low-end.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_b4ab9c3f29e14c28a01f8f559e767637",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/skin-and-low-end.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/skin-and-low-end.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_3fec75fef81844a1ac2499f088f77972",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/skin-and-low-end.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/skin-and-low-end.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:43:50.213Z"
+  },
+  "gold-dust-rhythm": {
+    "num": 9,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "3c72547f7fbec24455064f47df0e08dd",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/09_gold-dust-rhythm.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/09_gold-dust-rhythm.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_591042fe5c674945873523513bc98603",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/gold-dust-rhythm.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/gold-dust-rhythm.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_a3903a9d06614816921d2ce46cac5a06",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/gold-dust-rhythm.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/gold-dust-rhythm.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:44:07.529Z"
+  },
+  "the-last-drop": {
+    "num": 10,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "37832a96cc38ef8a27f31de83413de07",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/10_the-last-drop.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/10_the-last-drop.mp3",
+      "duration": 112.079979,
+      "durationFormatted": "1:52"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_f50d7e9ce5434150900f02b29e5dccd1",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/the-last-drop.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/the-last-drop.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_5eb32c119b1a4a6c8c306456159dc89e",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/the-last-drop.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/the-last-drop.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:44:24.857Z"
+  },
+  "smoke-still-rising": {
+    "num": 11,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "db91309d178c7430cf8e15d0e7e84f5e",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/11_smoke-still-rising.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/11_smoke-still-rising.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_52328e50983947469e541c27a251d01b",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/smoke-still-rising.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/smoke-still-rising.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_44ce6f818f8340e0bc98ee1e9797910d",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/smoke-still-rising.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/smoke-still-rising.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:44:42.201Z"
+  },
+  "last-ember-first-light": {
+    "num": 12,
+    "stage": "images_generated",
+    "music": {
+      "taskId": "5dfd0ca96712e60ec6d8b43aeee95866",
+      "state": "complete",
+      "audioUrl": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/The_Drum_Oracle/audio/12_last-ember-first-light.mp3",
+      "r2Key": "party-people/The_Drum_Oracle/audio/12_last-ember-first-light.mp3",
+      "duration": 239.999979,
+      "durationFormatted": "3:60"
+    },
+    "trackArt": {
+      "taskId": "fluxkontext_dd3fe0ee1ae64392875d00e0d707b1a9",
+      "state": "complete",
+      "r2Key": "party-people/images/track-art/last-ember-first-light.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/track-art/last-ember-first-light.jpg"
+    },
+    "banner": {
+      "taskId": "fluxkontext_2ceab5f3917c453c8359deb13bccf72a",
+      "state": "complete",
+      "r2Key": "party-people/images/banners/last-ember-first-light.jpg",
+      "url": "https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev/party-people/images/banners/last-ember-first-light.jpg"
+    },
+    "error": null,
+    "updatedAt": "2026-06-22T16:44:59.610Z"
+  }
+}

@@ -3329,5 +3329,575 @@
     "showParticles": false,
     "showWaveform": false,
     "cameraMode": "static"
+  },
+  "black-sun-rising": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-mill-keeps-the-hands": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "candle-row": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "pawn-shop-confession": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "third-shift": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "eviction-notice-blues": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "diner-at-2am": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-boxer-at-fifty": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "letters-she-never-sent": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "stand-up-straight": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "name-on-the-wall": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-table-stays-set": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "bass"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "night-prayer-no-god-required": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "bass",
+    "secondaryInstruments": [
+      "drums"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-fire-that-didnt-ask": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "drums",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "red-gold",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "choir-of-one": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "noir-cinematic",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-drawer-that-still-sticks": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "paper-boats-on-the-gutter-river": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "choir"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-globe-with-the-worn-pacific": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "choir",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-attic-stairs-have-fourteen-steps": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-room-with-the-taped-up-window": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-hallway-that-got-shorter": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "choir"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "letters-pressed-with-flowers-from-the-yard": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "choir",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-empty-chair-at-sunday-dinner": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-shed-nobody-was-allowed-to-enter": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-photograph-with-the-corner-burned-off": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "choir"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-fever-summer": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "choir",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-name-i-was-never-told": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "piano",
+    "secondaryInstruments": [
+      "strings"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "redrawing-the-floorplan": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "strings",
+    "secondaryInstruments": [
+      "guitar"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-road-that-was-always-a-circle": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "guitar",
+    "secondaryInstruments": [
+      "choir"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "gold-white",
+    "showInstrument": true,
+    "showParticles": true,
+    "showWaveform": false,
+    "cameraMode": "static"
+  },
+  "the-atlas-closes-on-its-own-front-door": {
+    "enabled": true,
+    "mode": "auto",
+    "primaryInstrument": "choir",
+    "secondaryInstruments": [
+      "piano"
+    ],
+    "inputPriority": [
+      "midi",
+      "stems",
+      "audio"
+    ],
+    "visualStyle": "atmospheric",
+    "accentColor": "green-blue",
+    "showInstrument": true,
+    "showParticles": false,
+    "showWaveform": false,
+    "cameraMode": "static"
   }
 }
