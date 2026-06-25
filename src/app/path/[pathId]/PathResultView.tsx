@@ -22,6 +22,8 @@ interface PathView {
   roomName: string
   speakerMode: SpeakerMode
   glyphAffinity: string[]
+  physicsAffinity: string[]
+  fieldConnection: string
   dailyGlyphConnection: string
   waveConnection: string
   reflectionQuestion: string
@@ -87,6 +89,8 @@ export default function PathResultView({ view }: { view: PathView }) {
           <Field label="Recommended room" value={view.roomName} href={`/rooms/${view.roomId}`} />
           <Field label="Speaker mode" value={speakerMode} />
           <Field label="Glyph affinity" value={view.glyphAffinity.join(' · ')} />
+          <Field label="Field affinity" value={view.physicsAffinity.join(' · ')} href="/field" />
+          <Field label="The NoiraCiel Field" value={view.fieldConnection} />
           <Field label="Today’s Daily Glyph" value={view.dailyGlyphConnection} />
           <Field label="Current 13-day wave" value={view.waveConnection} />
         </div>

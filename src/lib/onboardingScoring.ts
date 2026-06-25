@@ -20,6 +20,7 @@ function emptyScores(): DimensionScores {
 export function scoreAnswers(answers: OnboardingAnswers): ScoredOnboarding {
   const dimensions = emptyScores()
   const signAffinity: string[] = []
+  const physicsAffinity: string[] = []
   let speakerMode: ScoredOnboarding['speakerMode']
   let mayanLayer: ScoredOnboarding['mayanLayer'] = 'full'
   let depth: ScoredOnboarding['depth'] = 'path'
@@ -36,12 +37,13 @@ export function scoreAnswers(answers: OnboardingAnswers): ScoredOnboarding {
       }
     }
     if (opt.signAffinity) signAffinity.push(opt.signAffinity)
+    if (opt.physicsAffinity) physicsAffinity.push(opt.physicsAffinity)
     if (opt.speakerMode) speakerMode = opt.speakerMode
     if (opt.mayanLayer) mayanLayer = opt.mayanLayer
     if (opt.depth) depth = opt.depth
   }
 
-  return { dimensions, signAffinity, speakerMode, mayanLayer, depth }
+  return { dimensions, signAffinity, physicsAffinity, speakerMode, mayanLayer, depth }
 }
 
 /** Dimensions sorted strongest-first, with zero scores dropped. */

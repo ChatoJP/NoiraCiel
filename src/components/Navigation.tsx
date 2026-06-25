@@ -55,16 +55,18 @@ function LogoVisualizer() {
 
 const PRIMARY_LINKS = [
   { label: 'Music',   href: '/music' },
-  { label: 'Party People', href: '/party-people' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Book',    href: '/book' },
+  { label: 'Worlds',  href: '/worlds' },
   { label: 'Stories', href: '/stories' },
+  { label: 'Book',    href: '/book' },
+  { label: 'Gallery', href: '#gallery' },
   { label: 'Studio',  href: '/studio' },
 ]
 
 const MORE_LINKS = [
   { label: 'Enter',       href: '/enter' },
   { label: 'Speaker',     href: '/speaker' },
+  { label: 'Field',       href: '/field' },
+  { label: 'Party People', href: '/party-people' },
   { label: 'Videos',      href: '#videos' },
   { label: 'Objects',     href: '/objects' },
   { label: 'Shows',       href: '/shows' },
@@ -77,6 +79,41 @@ const MORE_LINKS = [
 ]
 
 const ALL_MOBILE_LINKS = [...PRIMARY_LINKS, ...MORE_LINKS, { label: 'Join', href: '/join' }]
+
+// Grouped mega-menu (desktop "More") — premium dark-glass panel with one-line
+// descriptions. Mobile uses the flat MORE_LINKS list above.
+const MEGA_SECTIONS: { title: string; items: { label: string; href: string; desc: string }[] }[] = [
+  {
+    title: 'Experience',
+    items: [
+      { label: 'The Speaker', href: '/speaker', desc: 'A private voice for the universe' },
+      { label: 'Daily Glyph', href: '/speaker', desc: 'Symbolic time, read each day' },
+      { label: 'The Field', href: '/field', desc: 'Physics as poetic architecture' },
+      { label: 'Enter', href: '/enter', desc: 'Find the door that fits you' },
+      { label: 'Rooms', href: '/rooms', desc: 'Gather around a feeling' },
+    ],
+  },
+  {
+    title: 'Explore',
+    items: [
+      { label: 'Party People', href: '/party-people', desc: 'The celebration wing' },
+      { label: 'Videos', href: '#videos', desc: 'Lyric films & cinemagraphs' },
+      { label: 'Objects', href: '/objects', desc: 'Things from the world' },
+      { label: 'Shows', href: '/shows', desc: 'Live & upcoming' },
+      { label: 'Discover', href: '/discover', desc: 'Find your way in' },
+    ],
+  },
+  {
+    title: 'NoiraCiel',
+    items: [
+      { label: 'Scholarship', href: '/scholarship', desc: 'The Invisible Roots' },
+      { label: 'Download', href: '/download', desc: 'Take it with you' },
+      { label: 'About the World', href: '#world', desc: 'The philosophy' },
+      { label: 'Contact', href: '#contact', desc: 'Reach the house' },
+      { label: 'Join the Circle', href: '/join', desc: 'Enter the private club' },
+    ],
+  },
+]
 
 const SECTION_IDS = ['music', 'gallery', 'videos', 'merch', 'world', 'contact']
 
@@ -219,12 +256,41 @@ export default function Navigation() {
             </button>
 
             {moreOpen && (
-              <div className="absolute top-full right-0 mt-3 w-48 bg-noir-black/97 backdrop-blur-xl border border-noir-silver/12 py-2 shadow-[0_16px_48px_rgba(0,0,0,0.7)]">
-                {MORE_LINKS.map((link) => (
-                  <div key={link.href} className="px-4 py-2 border-l-2 border-transparent hover:border-noir-gold/40 hover:bg-noir-gold/4 transition-all duration-200">
-                    <NavLink href={link.href} label={link.label} />
-                  </div>
-                ))}
+              <div
+                role="menu"
+                aria-label="More of NoiraCiel"
+                className="absolute top-full right-0 mt-3 w-[640px] max-w-[calc(100vw-2rem)] bg-noir-black/97 backdrop-blur-xl border border-noir-silver/12 shadow-[0_24px_64px_rgba(0,0,0,0.75)]"
+              >
+                {/* thin gold top line */}
+                <div className="h-px bg-gradient-to-r from-transparent via-noir-gold/40 to-transparent" />
+                <div className="grid grid-cols-3 gap-px bg-noir-silver/8">
+                  {MEGA_SECTIONS.map((section) => (
+                    <div key={section.title} className="bg-noir-black/95 p-4">
+                      <p className="font-body text-[8px] tracking-[0.35em] uppercase text-noir-gold/45 mb-3 px-2">
+                        {section.title}
+                      </p>
+                      <ul className="space-y-0.5">
+                        {section.items.map((item) => (
+                          <li key={item.href + item.label}>
+                            <Link
+                              href={item.href}
+                              role="menuitem"
+                              onClick={() => setMoreOpen(false)}
+                              className="group block px-2 py-2 border-l-2 border-transparent hover:border-noir-gold/40 hover:bg-noir-gold/[0.04] focus:outline-none focus-visible:border-noir-gold/60 transition-all duration-200"
+                            >
+                              <span className="block font-body text-[11px] tracking-[0.12em] uppercase text-noir-silver/75 group-hover:text-noir-ivory transition-colors">
+                                {item.label}
+                              </span>
+                              <span className="block font-body text-[10px] text-noir-silver/35 leading-snug mt-0.5">
+                                {item.desc}
+                              </span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </li>

@@ -6,7 +6,11 @@ import { parseBook } from '@/lib/parseBook'
 import AudiobookSection from '@/components/AudiobookSection'
 import { JsonLd } from '@/components/JsonLd'
 import RandomBookButton from '@/components/RandomBookButton'
+import BookCoverImage from '@/components/stories/BookCoverImage'
 export type { BookChapter } from '@/lib/parseBook'
+
+// Real album covers on R2 (graceful fallback to the gradient design if missing).
+const R2 = 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev'
 
 const booksSchema = {
   '@context': 'https://schema.org',
@@ -142,6 +146,7 @@ export default function BooksIndexPage() {
       coverBg: 'linear-gradient(135deg, #0a1628 0%, #0d2040 50%, #091522 100%)',
       accentColor: '#C4953A',
       tag: 'Album I',
+      coverUrl: `${R2}/images/song-art/why.jpg`,
     },
     {
       href: '/book/jazz-sessions',
@@ -152,6 +157,7 @@ export default function BooksIndexPage() {
       coverBg: 'linear-gradient(135deg, #0d1020 0%, #1a1430 50%, #090c18 100%)',
       accentColor: '#9b8fc0',
       tag: 'Album II',
+      coverUrl: `${R2}/images/album-covers/jazz-sessions.jpg`,
     },
     {
       href: '/book/blind-angel',
@@ -162,6 +168,7 @@ export default function BooksIndexPage() {
       coverBg: 'linear-gradient(135deg, #0a0a0a 0%, #1a1014 50%, #080808 100%)',
       accentColor: '#a8a8b8',
       tag: 'Album III',
+      coverUrl: `${R2}/images/album-covers/blind-angel.jpg`,
     },
     {
       href: '/book/whats-youre-made-of',
@@ -172,6 +179,7 @@ export default function BooksIndexPage() {
       coverBg: 'linear-gradient(135deg, #0d0a1a 0%, #1a0d2a 50%, #0a0810 100%)',
       accentColor: '#b87fd4',
       tag: 'Album IV',
+      coverUrl: `${R2}/images/song-art/whats-youre-made-of.jpg`,
     },
     {
       href: '/book/bare-and-still-breathing',
@@ -182,6 +190,7 @@ export default function BooksIndexPage() {
       coverBg: 'linear-gradient(135deg, #0d120a 0%, #1a2010 50%, #080c06 100%)',
       accentColor: '#8ab87f',
       tag: 'Album V',
+      coverUrl: `${R2}/images/song-art/bare-and-still-breathing.jpg`,
     },
     {
       href: '/book/the-sacred-drift',
@@ -192,6 +201,7 @@ export default function BooksIndexPage() {
       coverBg: 'linear-gradient(135deg, #08061a 0%, #160d2a 50%, #0a0818 100%)',
       accentColor: '#7b9fd4',
       tag: 'Album VI',
+      coverUrl: `${R2}/images/song-art/the-sacred-drift.jpg`,
     },
   ]
 
@@ -228,6 +238,9 @@ export default function BooksIndexPage() {
                 className="relative aspect-[2/3] mb-6 overflow-hidden border border-noir-silver/10 group-hover:border-noir-gold/30 transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-[0_32px_72px_rgba(0,0,0,0.7)]"
                 style={{ background: book.coverBg }}
               >
+                {/* Real cover (R2) — falls back to the gradient design on error */}
+                <BookCoverImage src={book.coverUrl} />
+
                 {/* Spine shadow */}
                 <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-noir-void/80 to-transparent" />
 

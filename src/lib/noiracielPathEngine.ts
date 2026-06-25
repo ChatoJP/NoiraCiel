@@ -22,6 +22,7 @@ import {
   type UserProfile,
 } from '@/types/noiracielOnboarding'
 import { PATHS, PATH_REFLECTIONS, getPathById, scoreToPath } from '@/lib/noiracielPaths'
+import { getConceptById } from '@/data/noiracielPhysicsConcepts'
 
 // Re-export the client-safe path primitives so existing server imports keep working.
 export { PATHS, getPathById, scoreToPath }
@@ -77,6 +78,12 @@ export function buildPathResult(
     ? `You meet ${opts.wave.wave.name} at day ${opts.wave.wave.currentPosition} of 13. ${capitalize(path.name)} ${path.waveStyle}.`
     : `When you are ready, ${path.name.toLowerCase()} ${path.waveStyle}.`
 
+  const concepts = path.physicsAffinity.map((id) => getConceptById(id)).filter(Boolean)
+  const fieldConnection =
+    concepts.length > 0
+      ? `In the Field, you resonate with ${concepts.map((c) => c!.name).join(' and ')}. ${concepts[0]!.noiracielTranslation}`
+      : 'The Field is open to you whenever you want structure for what you feel.'
+
   return {
     path,
     emotionalWorld: path.emotionalWorld,
@@ -91,6 +98,8 @@ export function buildPathResult(
     roomName: path.roomName,
     speakerMode: path.speakerMode,
     glyphAffinity: path.glyphAffinity,
+    physicsAffinity: path.physicsAffinity,
+    fieldConnection,
     dailyGlyphConnection,
     waveConnection,
     reflectionQuestion: PATH_REFLECTIONS[path.id],
@@ -125,6 +134,12 @@ export function getPersonalizedSpeakerContext(
   const affinity = (profile.glyphAffinity && profile.glyphAffinity.length
     ? profile.glyphAffinity
     : path.glyphAffinity).slice(0, 3)
+  const physics = (profile.physicsAffinity && profile.physicsAffinity.length
+    ? profile.physicsAffinity
+    : path.physicsAffinity)
+    .map((id) => getConceptById(id)?.name)
+    .filter(Boolean)
+    .slice(0, 2)
 
   const lines = [
     'RETURNING LISTENER (personalise gently — do not recite this back as a list):',
@@ -132,10 +147,11 @@ export function getPersonalizedSpeakerContext(
     `• Emotional world: ${path.emotionalWorld}`,
     `• Speak in the register of a ${mode}.`,
     `• Glyph affinity: ${affinity.join(', ')}.`,
+    physics.length ? `• Field (physics) affinity: ${physics.join(', ')} — use as metaphor only, never as proof.` : '',
     `• ${MAYAN_PHRASE[layer]}`,
     `• You may greet them as ${path.name} when it feels natural, never forced.`,
     `• Interpret today through their world: ${path.emotionalWorld.toLowerCase()}`,
-  ]
+  ].filter(Boolean)
   if (layer !== 'off' && wave) {
     lines.push(`• In the current ${wave.wave.name}, this listener ${path.waveStyle}.`)
   }

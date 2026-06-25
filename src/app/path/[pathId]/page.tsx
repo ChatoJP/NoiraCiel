@@ -46,6 +46,8 @@ export default async function PathPage({ params }: Props) {
     roomName: result.roomName,
     speakerMode: result.speakerMode,
     glyphAffinity: result.glyphAffinity,
+    physicsAffinity: result.physicsAffinity,
+    fieldConnection: result.fieldConnection,
     dailyGlyphConnection: result.dailyGlyphConnection,
     waveConnection: result.waveConnection,
     reflectionQuestion: result.reflectionQuestion,

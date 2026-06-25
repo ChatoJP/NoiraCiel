@@ -17,6 +17,7 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { NextRequest } from 'next/server'
 import { getDailyGlyph, getCurrentWave } from '@/data/mayanInterpretations'
+import { getFeaturedConcept } from '@/data/noiracielPhysicsConcepts'
 import { recommend, recommendForWave } from '@/lib/noiracielRecommendationEngine'
 import { buildSpeakerSystemPrompt } from '@/lib/noiracielSpeakerPrompt'
 import { getPersonalizedSpeakerContext } from '@/lib/noiracielPathEngine'
@@ -78,6 +79,7 @@ export async function POST(req: NextRequest) {
   // Live grounding: today's glyph, the current 13-day wave, and recommendations.
   const glyph = getDailyGlyph()
   const wave = getCurrentWave()
+  const field = getFeaturedConcept(glyph)
   const recommendation = recommend(lastUser.content, glyph)
   const waveRecommendation = recommendForWave(wave)
 
@@ -91,6 +93,7 @@ export async function POST(req: NextRequest) {
     wave,
     waveRecommendation,
     personalization: personalization || undefined,
+    field,
   })
 
   let stream

@@ -4,8 +4,28 @@ import fs from 'fs'
 import path from 'path'
 import { notFound } from 'next/navigation'
 import StoryControls from '@/components/StoryControls'
+import StoryThumb from '@/components/stories/StoryThumb'
+import EntangledLinks from '@/components/EntangledLinks'
 
 interface Props { params: Promise<{ slug: string }> }
+
+// Art lives on R2 (public/ emptied post-migration). Reference by convention; the
+// StoryThumb client component falls back to a gradient if an asset is missing.
+const R2 = 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev'
+
+// Ordered story slugs + titles, shared by prev/next + related (deterministic).
+function storyIndex(): { slug: string; title: string }[] {
+  const dir = path.join(process.cwd(), 'content', 'stories')
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith('.md'))
+    .sort()
+    .map((f) => {
+      const slug = f.replace('.md', '')
+      const raw = fs.readFileSync(path.join(dir, f), 'utf8')
+      const title = raw.split('\n').find((l) => l.startsWith('# '))?.replace(/^# /, '').trim() ?? slug
+      return { slug, title }
+    })
+}
 
 function parseStory(slug: string) {
   const filePath = path.join(process.cwd(), 'content', 'stories', `${slug}.md`)
@@ -59,13 +79,9 @@ export default async function StoryPage({ params }: Props) {
   const story = parseStory(slug)
   if (!story) notFound()
 
-  const bannerUrl = imageExists(`images/chapter-banners/${slug}.jpg`)
-    ? `/images/chapter-banners/${slug}.jpg`
-    : null
-
-  const songArtUrl = imageExists(`images/song-art/${slug}.jpg`)
-    ? `/images/song-art/${slug}.jpg`
-    : bannerUrl
+  // Images come from R2 (StoryThumb degrades gracefully if one is missing).
+  const bannerUrl = `${R2}/images/chapter-banners/${slug}.jpg`
+  const songArtUrl = `${R2}/images/song-art/${slug}.jpg`
 
   const audiobookUrl = imageExists(`Audio/audiobook/${slug}.mp3`)
     ? `/Audio/audiobook/${slug}.mp3`
@@ -80,23 +96,22 @@ export default async function StoryPage({ params }: Props) {
   const firstHalf = story.paragraphs.slice(0, mid)
   const secondHalf = story.paragraphs.slice(mid)
 
+  // Ordered neighbours for prev/next + deterministic related stories.
+  const index = storyIndex()
+  const pos = index.findIndex((s) => s.slug === slug)
+  const prev = pos > 0 ? index[pos - 1] : null
+  const next = pos >= 0 && pos < index.length - 1 ? index[pos + 1] : null
+  const related = [index[pos + 1], index[pos + 2], index[pos - 1]]
+    .filter((s): s is { slug: string; title: string } => !!s && s.slug !== slug)
+    .slice(0, 3)
+
   return (
     <div className="min-h-screen bg-noir-black" style={{ paddingBottom: audiobookUrl ? '80px' : '0' }}>
       <StoryControls audiobookUrl={audiobookUrl} title={story.title} slug={slug} songAudioUrl={songAudioUrl} />
 
       {/* Hero */}
       <div className="relative h-screen flex items-end justify-center overflow-hidden">
-        {bannerUrl ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={bannerUrl}
-            alt=""
-            className="absolute inset-0 w-full h-full object-cover"
-            style={{ opacity: 0.6 }}
-          />
-        ) : (
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1a2a44] to-noir-black" />
-        )}
+        <StoryThumb src={bannerUrl} priority opacity={0.6} />
         <div className="absolute inset-0 bg-gradient-to-t from-noir-black via-noir-black/30 to-transparent" />
 
         {/* Hero text */}
@@ -163,20 +178,14 @@ export default async function StoryPage({ params }: Props) {
         })}
 
         {/* Mid-story image — contained within article width, no overflow */}
-        {songArtUrl && (
-          <div className="my-16 -mx-6">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={songArtUrl}
-              alt=""
-              className="w-full object-cover"
-              style={{ maxHeight: '480px', opacity: 0.85 }}
-            />
-            <div className="mt-4 px-6">
-              <div className="w-8 h-px bg-noir-gold/30" />
-            </div>
+        <div className="my-16 -mx-6">
+          <div className="relative w-full overflow-hidden" style={{ height: '420px' }}>
+            <StoryThumb src={songArtUrl} opacity={0.85} />
           </div>
-        )}
+          <div className="mt-4 px-6">
+            <div className="w-8 h-px bg-noir-gold/30" />
+          </div>
+        </div>
 
         {/* Second half */}
         {secondHalf.map((para, i) => (
@@ -196,32 +205,58 @@ export default async function StoryPage({ params }: Props) {
           </div>
         )}
 
-        {/* G40: Related reads */}
-        {(() => {
-          const dir = require('path').join(process.cwd(), 'content', 'stories')
-          const allSlugs: string[] = require('fs').readdirSync(dir)
-            .filter((f: string) => f.endsWith('.md'))
-            .map((f: string) => f.replace('.md', ''))
-            .filter((s: string) => s !== slug)
-          const related = allSlugs.sort(() => 0.5 - Math.random()).slice(0, 3)
-          return related.length > 0 ? (
-            <div className="mt-20 pt-12 border-t border-noir-silver/10">
-              <p className="font-body text-[9px] tracking-[0.3em] text-t-accent/40 uppercase mb-6 text-center">More Stories</p>
-              <div className="space-y-3">
-                {related.map((s: string) => (
-                  <Link key={s} href={`/stories/${s}`}
-                    className="group flex items-center gap-3 font-heading italic text-base text-noir-ivory/45 hover:text-t-accent/80 transition-colors">
-                    <span className="w-4 h-px bg-noir-gold/30 flex-shrink-0 group-hover:w-6 transition-all duration-300" />
-                    {s.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
-                  </Link>
-                ))}
-              </div>
+        {/* Previous / Next story */}
+        {(prev || next) && (
+          <div className="mt-20 pt-10 border-t border-noir-silver/10 grid grid-cols-2 gap-4">
+            <div>
+              {prev && (
+                <Link href={`/stories/${prev.slug}`} className="group block">
+                  <p className="font-body text-[8px] tracking-[0.3em] uppercase text-noir-silver/35 mb-1.5">← Previous</p>
+                  <p className="font-heading italic text-base text-noir-ivory/65 group-hover:text-noir-gold/85 transition-colors leading-snug">{prev.title}</p>
+                </Link>
+              )}
             </div>
-          ) : null
-        })()}
+            <div className="text-right">
+              {next && (
+                <Link href={`/stories/${next.slug}`} className="group block">
+                  <p className="font-body text-[8px] tracking-[0.3em] uppercase text-noir-silver/35 mb-1.5">Next →</p>
+                  <p className="font-heading italic text-base text-noir-ivory/65 group-hover:text-noir-gold/85 transition-colors leading-snug">{next.title}</p>
+                </Link>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Related reads (deterministic — neighbouring stories) */}
+        {related.length > 0 && (
+          <div className="mt-16 pt-12 border-t border-noir-silver/10">
+            <p className="font-body text-[9px] tracking-[0.3em] text-t-accent/40 uppercase mb-6 text-center">More Stories</p>
+            <div className="space-y-3">
+              {related.map((s) => (
+                <Link key={s.slug} href={`/stories/${s.slug}`}
+                  className="group flex items-center gap-3 font-heading italic text-base text-noir-ivory/45 hover:text-t-accent/80 transition-colors">
+                  <span className="w-4 h-px bg-noir-gold/30 flex-shrink-0 group-hover:w-6 transition-all duration-300" />
+                  {s.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Entangled next doors */}
+        <div className="mt-20 pt-12 border-t border-noir-silver/10">
+          <EntangledLinks
+            title="A beautiful next door"
+            links={[
+              { href: '/speaker', label: 'Ask the Speaker about this story', sublabel: 'A private reading of what it carries', kind: 'Speaker' },
+              { href: '/worlds', label: 'Enter the world it belongs to', sublabel: 'Music, books and mood, connected', kind: 'Worlds' },
+              { href: '/stories', label: 'Wander to another story', kind: 'Stories' },
+            ]}
+          />
+        </div>
 
         {/* Footer nav */}
-        <div className="mt-24 pt-12 border-t border-noir-silver/10 text-center">
+        <div className="mt-20 pt-12 border-t border-noir-silver/10 text-center">
           <Link
             href="/stories"
             className="font-body text-[10px] tracking-[0.3em] uppercase text-noir-silver/40 hover:text-noir-ivory transition-colors"
