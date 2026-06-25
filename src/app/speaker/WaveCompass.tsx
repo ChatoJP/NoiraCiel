@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import SignGlyph from './SignGlyph'
 
+const R2_BASE = 'https://pub-4f2a9205b35546bc8a934e9a92a39703.r2.dev'
+
 /**
  * WaveCompass — a circular, data-driven reading instrument for the 13-day wave.
  *
@@ -40,12 +42,32 @@ export default function WaveCompass({
   currentPosition: number
 }) {
   const [selected, setSelected] = useState(currentPosition)
+  const [heroOk, setHeroOk] = useState(true)
   const active = days.find((d) => d.position === selected) ?? days[currentPosition - 1] ?? days[0]
+
+  // The anchor (tone-1) sign names the wave; its generated hero sits faintly
+  // behind the wheel. Hidden gracefully if the image is missing.
+  const anchorSlug = (days[0]?.signName ?? '').toLowerCase()
+  const heroUrl = anchorSlug ? `${R2_BASE}/images/glyphs/waves/wave-${anchorSlug}.jpeg` : ''
 
   return (
     <div className="flex flex-col items-center">
       <div className="relative" style={{ width: '100%', maxWidth: SIZE }}>
-        <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="w-full h-auto text-t-accent" role="group" aria-label="13-day wave compass">
+        {heroOk && heroUrl && (
+          <img
+            src={heroUrl}
+            alt=""
+            aria-hidden="true"
+            onError={() => setHeroOk(false)}
+            className="absolute inset-0 w-full h-full object-cover rounded-full pointer-events-none"
+            style={{
+              opacity: 0.16,
+              maskImage: 'radial-gradient(circle, black 38%, transparent 72%)',
+              WebkitMaskImage: 'radial-gradient(circle, black 38%, transparent 72%)',
+            }}
+          />
+        )}
+        <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="relative w-full h-auto text-t-accent" role="group" aria-label="13-day wave compass">
           {/* faint concentric rings */}
           <circle cx={C} cy={C} r={R_POINTS} fill="none" stroke="currentColor" strokeWidth={0.6} opacity={0.22} />
           <circle cx={C} cy={C} r={R_POINTS - 26} fill="none" stroke="currentColor" strokeWidth={0.4} opacity={0.12} />
