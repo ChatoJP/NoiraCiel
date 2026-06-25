@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import Hero from '@/components/Hero'
 import ChooseYourDoor from '@/components/ChooseYourDoor'
+import FeaturedWorld from '@/components/FeaturedWorld'
 import { JsonLd } from '@/components/JsonLd'
 
 export const metadata: Metadata = {
@@ -247,6 +248,7 @@ export default function Home() {
       <ChooseYourDoor />
       <RotatingQuoteStrip />
       <FeaturedReleases />
+      <FeaturedWorld />
       <FeaturedTrackOfTheWeek />
       <DiamondDivider />
       <MusicSection />
