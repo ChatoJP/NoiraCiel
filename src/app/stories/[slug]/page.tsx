@@ -5,6 +5,7 @@ import path from 'path'
 import { notFound } from 'next/navigation'
 import StoryControls from '@/components/StoryControls'
 import StoryThumb from '@/components/stories/StoryThumb'
+import EntangledLinks from '@/components/EntangledLinks'
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -242,8 +243,20 @@ export default async function StoryPage({ params }: Props) {
           </div>
         )}
 
+        {/* Entangled next doors */}
+        <div className="mt-20 pt-12 border-t border-noir-silver/10">
+          <EntangledLinks
+            title="A beautiful next door"
+            links={[
+              { href: '/speaker', label: 'Ask the Speaker about this story', sublabel: 'A private reading of what it carries', kind: 'Speaker' },
+              { href: '/worlds', label: 'Enter the world it belongs to', sublabel: 'Music, books and mood, connected', kind: 'Worlds' },
+              { href: '/stories', label: 'Wander to another story', kind: 'Stories' },
+            ]}
+          />
+        </div>
+
         {/* Footer nav */}
-        <div className="mt-24 pt-12 border-t border-noir-silver/10 text-center">
+        <div className="mt-20 pt-12 border-t border-noir-silver/10 text-center">
           <Link
             href="/stories"
             className="font-body text-[10px] tracking-[0.3em] uppercase text-noir-silver/40 hover:text-noir-ivory transition-colors"

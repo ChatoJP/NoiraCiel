@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import fs from 'fs'
 import path from 'path'
 import Hero from '@/components/Hero'
+import ChooseYourDoor from '@/components/ChooseYourDoor'
 import { JsonLd } from '@/components/JsonLd'
 
 export const metadata: Metadata = {
@@ -243,6 +244,7 @@ export default function Home() {
     <>
       <JsonLd data={musicGroupSchema} />
       <Hero />
+      <ChooseYourDoor />
       <RotatingQuoteStrip />
       <FeaturedReleases />
       <FeaturedTrackOfTheWeek />

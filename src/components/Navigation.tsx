@@ -55,10 +55,10 @@ function LogoVisualizer() {
 
 const PRIMARY_LINKS = [
   { label: 'Music',   href: '/music' },
-  { label: 'Party People', href: '/party-people' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Book',    href: '/book' },
+  { label: 'Worlds',  href: '/worlds' },
   { label: 'Stories', href: '/stories' },
+  { label: 'Book',    href: '/book' },
+  { label: 'Gallery', href: '#gallery' },
   { label: 'Studio',  href: '/studio' },
 ]
 
@@ -66,6 +66,7 @@ const MORE_LINKS = [
   { label: 'Enter',       href: '/enter' },
   { label: 'Speaker',     href: '/speaker' },
   { label: 'Field',       href: '/field' },
+  { label: 'Party People', href: '/party-people' },
   { label: 'Videos',      href: '#videos' },
   { label: 'Objects',     href: '/objects' },
   { label: 'Shows',       href: '/shows' },
